@@ -825,12 +825,7 @@
         "w": "ataḥ",
         "gloss": "hence",
         "gram": "ind."
-       }
-      ]
-     },
-     {
-      "src": "rayirabhyayadrājāna~",
-      "words": [
+       },
        {
         "w": "tvā",
         "gloss": "you",
@@ -839,12 +834,32 @@
       ]
      },
      {
-      "src": "sukrato",
+      "src": "rayirabhyayadrājāna~",
       "words": [
        {
         "w": "rayiḥ",
         "gloss": "wealth",
         "gram": "m. nom. sg."
+       },
+       {
+        "w": "abhi-ayat",
+        "gloss": "came to",
+        "gram": "3 sg. impf. abhi-√i"
+       },
+       {
+        "w": "rājānam",
+        "gloss": "king",
+        "gram": "m. acc. sg."
+       }
+      ]
+     },
+     {
+      "src": "sukrato",
+      "words": [
+       {
+        "w": "su-krato",
+        "gloss": "O one of good power",
+        "gram": "m. voc. sg., bahuvrīhi"
        }
       ]
      },
@@ -852,9 +867,9 @@
       "src": "divaḥ",
       "words": [
        {
-        "w": "abhi-ayat",
-        "gloss": "came to",
-        "gram": "3 sg. impf. abhi-√i"
+        "w": "divaḥ",
+        "gloss": "from heaven",
+        "gram": "gen./abl. sg."
        }
       ]
      }
@@ -865,21 +880,6 @@
      {
       "src": "suparṇo",
       "words": [
-       {
-        "w": "rājānam",
-        "gloss": "king",
-        "gram": "m. acc. sg."
-       },
-       {
-        "w": "su-krato",
-        "gloss": "O one of good power",
-        "gram": "m. voc. sg., bahuvrīhi"
-       },
-       {
-        "w": "divaḥ",
-        "gloss": "from heaven",
-        "gram": "gen./abl. sg."
-       },
        {
         "w": "suparṇaḥ",
         "gloss": "eagle",
@@ -913,7 +913,7 @@
   "hindi": "इसी से धन तुम्हारे पास आया, राजा के पास, हे उत्तम सामर्थ्य वाले, आकाश से; अविचल सुपर्ण ने लाया।",
   "english": "Hence wealth came to you, the king, O one of good power, from heaven; the eagle, unwavering, brought.",
   "text_flags": [],
-  "notes": "Lines: 'atastvā' = ataḥ tvā; 'abhyayat' = abhi ayat; 'rājāna~' = rājānam. divaḥ may go with rayiḥ or with the king ('king of heaven'); 'from heaven' used. The object of bharat is not stated and none is supplied. Hindi follows the same.",
+  "notes": "'atastvā' = ataḥ tvā; 'abhyayat' = abhi ayat; 'rājāna~' = rājānam. divaḥ may go with rayiḥ or with the king ('king of heaven'); 'from heaven' used. The object of bharat is not stated and none is supplied.",
   "confidence": "medium"
  },
  {
@@ -4153,14 +4153,24 @@
       "src": "ā",
       "words": [
        {
-        "w": "ā gamaḥ",
-        "gloss": "will you come",
-        "gram": "2 sg. aor. subj. ā-√gam"
+        "w": "ā",
+        "gloss": "to",
+        "gram": "ind."
        }
       ]
      },
      {
       "src": "gama",
+      "words": [
+       {
+        "w": "gamaḥ",
+        "gloss": "will you come",
+        "gram": "2 sg. aor. subj. √gam"
+       }
+      ]
+     },
+     {
+      "src": "indra",
       "words": [
        {
         "w": "indra",
@@ -4170,18 +4180,13 @@
       ]
      },
      {
-      "src": "indra",
+      "src": "svabdīva",
       "words": [
        {
         "w": "svabdī",
         "gloss": "[unclear]",
         "gram": "form uncertain"
-       }
-      ]
-     },
-     {
-      "src": "svabdīva",
-      "words": [
+       },
        {
         "w": "iva",
         "gloss": "like",
