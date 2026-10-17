@@ -30,3 +30,21 @@ Nothing in the text files was changed because of these. Line IDs are the new IDs
 | 03.01.648 | layer-decision | last clause: finite "you take up" (kept) or infinitive "to take up" | layers | person to decide |
 | 02.01.588 | layer-decision | Hindi supplies ऐश्वर्य for rantyam bṛhat; English brackets "(domain)" | layers | person to decide |
 | 02.01.586 | possible-typo | `पुपुरि` vs RV `पप्री`-type reading (draft flag "possible", Rigveda parallel) | layers | check printed edition |
+
+## Layer decisions left for a person (reviewed AI drafts, 2026-10-17)
+| ID | Kind | Question |
+|---|---|---|
+| 01.01 verses 6,18,21,23,26,35,48 | layer-decision | root/case/sense choices (arāti, vāsas, adhvarāṇām, asyaya, nakṣya, śaṃsiṣam, devā) |
+| 01.03 verses 101,102,104,110,113,125 | layer-decision | āśāsata person, matiḥ, ca na = caná?, atithim case, dūḍhyam, uddhed? |
+| 01.04 verse 149 | layer-decision | dhayati "drinks" or "suckles" |
+| 01.05 verses 199,210,225,228 | layer-decision | 225 and 228 still carry a placeholder sentence in Hindi/English; rewrite or mark unreadable |
+| 01.06 verses 267,272,277,290 | layer-decision | 267 needs a human rewrite of both layers (Hindi has brackets) |
+| 01.02 verses 69,70,74,78,84,85,94 | layer-decision | 78 and 94 still carry placeholders; others are wording choices |
+| 01.07 verses 293,298,300,305,309,310,313,314,315,323,330 | layer-decision | see changes_1.json of p01/ch07 |
+| 01.08 verses 351,376 | layer-decision | split of rayiṃ vo; sense of dyāvaḥ |
+| 01.09 verses 399,410,412,416,427/431 | layer-decision | bhagāya Bhaga or fortune; 412 maybe corrupt |
+| 01.10 verses 458,461,466 | layer-decision | dṛśaḥ gram; śrauṣṭ flag; vidāt label |
+| 01.12 verses 548/555,563,584 | layer-decision | svānāḥ vs suvānāḥ; 563 construction; 555 line 2 corrupt? |
+| whole book | decision | indu: "Indu" (drafts) vs "drop"; dharman: "dharma" vs "ordinance" |
+| 02.01.588, 03.01.648 | layer-decision | as noted above |
+Scan result: after cleaning, 5 Hindi lines still contain parentheses or placeholders (01.02.78a, 01.02.94a, 01.05.225a, 01.05.228a, 01.06.267a); they are the verses above that need a person.

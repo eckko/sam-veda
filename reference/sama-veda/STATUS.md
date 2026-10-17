@@ -50,5 +50,5 @@ All 36 units extracted: 1875 verses, 3715 lines. Checker: 0 errors.
 
 ## Layers (word split, Hindi, English)
 - Done as reviewed AI drafts: part 02 (Āraṇya, 55 verses), part 03 (Mahānāmnya, 10 verses). Files `text/p02-*.md`, `text/p03-*.md`.
-- Not started: part 01 (585 verses, 12 chunks), part 04 (1225 verses, 29 chunks). See `layers-work/STATUS.md`.
+- Also done as reviewed AI drafts: part 01 (Pūrvārcika, 585 verses, 12 chunks, Sonnet 5.5). Not started: part 04 (1225 verses, 29 chunks). See `layers-work/STATUS.md`.
 - Feed for /quiz-advanced-cdn: not built; waiting for the owner to check a sample.
