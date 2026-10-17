@@ -1,0 +1,422 @@
+[
+ {
+  "id": "02.01.590a",
+  "kind": "typo?",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "पवमानेन is the regular instrumental of पवमान, fits त्वया ... सोम."
+ },
+ {
+  "id": "04.08.1117b",
+  "kind": "typo?",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "पवमानँ is the accusative with the edition's chandrabindu for anusvara."
+ },
+ {
+  "id": "04.09.1195a",
+  "kind": "typo?",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "पवमानाः is the nominative plural agreeing with अपघ्नन्तः स्वर्दृशः."
+ },
+ {
+  "id": "04.09.1207b",
+  "kind": "typo?",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "पवमानं is the accusative agreeing with मधुश्चुतम्."
+ },
+ {
+  "id": "04.10.1312a",
+  "kind": "typo?",
+  "verdict": "error",
+  "suggest": "पवमान व्यश्नुहि रश्मिभिर्वाजसातमः ।",
+  "why": "A halanta न् before a space is not a Sanskrit form; the vocative पवमान is needed and restores the 8-syllable pada."
+ },
+ {
+  "id": "01.11.511a",
+  "kind": "typo?",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "धारयापो is the sandhi of धारया + अपो; अपो वसानः makes sense."
+ },
+ {
+  "id": "01.06.249b",
+  "kind": "typo?",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "हवामह इन्द्रं is correct sandhi of हवामहे before a vowel."
+ },
+ {
+  "id": "01.02.67a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "01.02.87a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "01.02.90a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "01.03.109b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "01.03.113a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "01.03.128a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "01.03.131b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "01.04.148a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "01.04.148b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "01.04.160a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "01.04.174a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "01.04.181b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "01.04.182a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "01.04.187a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "01.05.200b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "01.05.203a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "01.05.218a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "01.06.253a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "01.06.256a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "01.06.275b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "01.06.281a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "01.07.296a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "01.07.297b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "01.07.298a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "01.07.314a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "01.07.326a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "01.07.332a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "01.07.338a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "01.08.342b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "01.08.361a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "01.08.365b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "01.08.371a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "01.08.374b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "01.09.398a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "01.09.410b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "01.09.425b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "01.09.426b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "01.09.436",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "01.10.444",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "01.10.465a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "01.11.499b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "01.11.515b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "01.11.520a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "01.11.531b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "01.12.545a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "01.12.545b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "01.12.552a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "01.12.555a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "01.12.566b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "01.12.582b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "04.01.663b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "04.01.677b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ },
+ {
+  "id": "04.01.693a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Letters, sandhi and sense are regular; nothing wrong in the line."
+ }
+]
