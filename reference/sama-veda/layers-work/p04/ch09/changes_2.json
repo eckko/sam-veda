@@ -1,0 +1,188 @@
+[
+ {
+  "n": "1214",
+  "field": "word.w",
+  "word": "jahi",
+  "old": "jahi",
+  "new": "jahī",
+  "why": "reviewer (minor): Vedic lengthened form: glossary requires the printed form in w, lengthening noted in gram"
+ },
+ {
+  "n": "1218",
+  "field": "word.gloss",
+  "word": "indra",
+  "old": "Indra, O Indra",
+  "new": "Indra",
+  "why": "reviewer (minor): gloss 'Indra, O Indra' is not a single dictionary-style gloss"
+ },
+ {
+  "n": "1220",
+  "field": "word.gram",
+  "word": "śociḥ",
+  "old": "n. nom. sg.",
+  "new": "n. acc. sg. (object of anu; same form as nom.)",
+  "why": "reviewer (minor): taken as object of anu (his flame) in both translations but labelled nom. only"
+ },
+ {
+  "n": "1222",
+  "field": "hindi",
+  "old": "उस इन्द्र को हम वाज के लिए प्रेरित करते हैं, महान् वृत्र को मारने के लिए; वह बलवान, वृषभ हो।",
+  "new": "उस इन्द्र को हम वाज के लिए प्रेरित करते हैं, महान् वृत्र को मारने के लिए; वह बलवान, बैल हो।",
+  "why": "reviewer (minor): glossary: vṛṣabha Hindi is बैल (not वृषभ), English bull"
+ },
+ {
+  "n": "1227",
+  "field": "word.w",
+  "word": "sunota",
+  "old": "sunota",
+  "new": "sunotā",
+  "why": "reviewer (minor): Vedic lengthened form: glossary requires the printed form in w, lengthening noted in gram"
+ },
+ {
+  "n": "1231",
+  "field": "word.w",
+  "word": "puru",
+  "old": "puru",
+  "new": "purū",
+  "why": "reviewer (minor): Vedic lengthened form: glossary requires the printed form in w, lengthening noted in gram"
+ },
+ {
+  "n": "1232",
+  "field": "word.w",
+  "word": "indra",
+  "old": "indra",
+  "new": "indrā",
+  "why": "reviewer (minor): Vedic lengthened form: glossary requires the printed form in w, lengthening noted in gram"
+ },
+ {
+  "n": "1233",
+  "field": "english",
+  "old": "May Indra, turned toward us, hear both, this word of ours; may the bountiful one, the most mighty, come with concentrated prayer to drink the Soma.",
+  "new": "And may Indra, turned toward us, hear both, this word of ours; may the bountiful one, the most mighty, come with concentrated prayer to drink the Soma.",
+  "why": "reviewer (minor): ca ('and') is glossed but not translated in either language"
+ },
+ {
+  "n": "1233",
+  "field": "hindi",
+  "old": "इन्द्र इस ओर मुड़कर दोनों को, हमारे इस वचन को सुने; वह मघवा, सबसे बलवान, एकाग्र प्रार्थना से सोम पीने के लिए यहाँ आए।",
+  "new": "और इन्द्र इस ओर मुड़कर दोनों को, हमारे इस वचन को सुने; वह मघवा, सबसे बलवान, एकाग्र प्रार्थना से सोम पीने के लिए यहाँ आए।",
+  "why": "reviewer (minor): ca ('and') is glossed but not translated in either language"
+ },
+ {
+  "n": "1234",
+  "field": "hindi",
+  "old": "उस स्वराज, वृषभ को ही, उसे दोनों धिषणा ने ओज से गढ़ा है; और तुम प्रथम बैठते हो; तुम्हारा मन निश्चय ही सोम की कामना करने वाला है।",
+  "new": "उस स्वराज, बैल को ही, उसे दोनों धिषणा ने ओज से गढ़ा है; और तुम प्रथम बैठते हो; तुम्हारा मन निश्चय ही सोम की कामना करने वाला है।",
+  "why": "reviewer (minor): glossary: vṛṣabha Hindi is बैल"
+ },
+ {
+  "n": "1235",
+  "field": "hindi",
+  "old": "हे देव, बहो; तुम्हारा मद इन्द्र के पास जाए; धर्म से वायु पर चढ़ो।",
+  "new": "हे देव, बहो; तुम्हारा आनन्द इन्द्र के पास जाए; धर्म से वायु पर चढ़ो।",
+  "why": "reviewer (minor): glossary: mada = exhilaration (Hindi आनन्द)"
+ },
+ {
+  "n": "1237",
+  "field": "hindi",
+  "old": "शत्रुओं को दूर हटाते हुए, हे सोम, तुम बहते हो, शक्ति को जानने वाले और आनन्ददायक; देवगण को न चाहने वाले जन को दूर भगा दो।",
+  "new": "शत्रुओं को दूर हटाते हुए, हे सोम, तुम बहते हो, शक्ति को जानने वाले और आनन्ददायक; देवगण को न चाहने वाले लोगों को दूर भगा दो।",
+  "why": "reviewer (minor): glossary: jana = people (लोग)"
+ },
+ {
+  "n": "1238",
+  "field": "word.w",
+  "word": "abhi",
+  "old": "abhi",
+  "new": "abhī",
+  "why": "reviewer (minor): Vedic lengthened form: glossary requires the printed form in w, lengthening noted in gram"
+ },
+ {
+  "n": "1239",
+  "field": "hindi",
+  "old": "हे वसु, हम तुम्हारी इस उदारता के, उत्तम के, बहुत चाहे गए के, पोषण के निकट, अत्यन्त निकट रहें, तुम्हारी कृपा में, हे आधृगु।",
+  "new": "हे वसु, हम तुम्हारी इस उदारता के, उत्तम के, बहुत चाहे गए के, पोषण के निकट, अत्यन्त निकट रहें, तुम्हारी कृपा में, हे आध्रिगु।",
+  "why": "reviewer (error): name misspelt: IAST ādhrigo has ri (dhri), not ṛ"
+ },
+ {
+  "n": "1240",
+  "field": "hindi",
+  "old": "वह ध्वनि करता हुआ भेड़ के बाल में चारों ओर बहा, बूँद, मद टपकाती हुई; जो धारा के साथ, यज्ञ में ऊपर उठा हुआ, चमक के समान जाता है, गायों की कामना करता हुआ।",
+  "new": "वह ध्वनि करता हुआ भेड़ के बाल में चारों ओर बहा, बूँद, आनन्द टपकाती हुई; जो धारा के साथ, यज्ञ में ऊपर उठा हुआ, चमक के समान जाता है, गायों की कामना करता हुआ।",
+  "why": "reviewer (minor): glossary: mada = exhilaration (Hindi आनन्द)"
+ },
+ {
+  "n": "1246",
+  "field": "word.w",
+  "word": "śṛṇuhi",
+  "old": "śṛṇuhi",
+  "new": "śṛṇuhī",
+  "why": "reviewer (minor): Vedic lengthened form: glossary requires the printed form in w, lengthening noted in gram"
+ },
+ {
+  "n": "1246",
+  "field": "word.w",
+  "word": "rakṣa",
+  "old": "rakṣa",
+  "new": "rakṣā",
+  "why": "reviewer (minor): Vedic lengthened form: glossary requires the printed form in w, lengthening noted in gram"
+ },
+ {
+  "n": "1248",
+  "field": "hindi",
+  "old": "निश्चय ही, हे सत्य, हे सोमपायी, तुमने दोनों लोकों को अभिभूत किया; हे इन्द्र, तुम निचोड़ने वाले के संवर्धक हो, आकाश के स्वामी।",
+  "new": "निश्चय ही, हे सच्चे, हे सोमपायी, तुमने दोनों लोकों को अभिभूत किया; हे इन्द्र, तुम निचोड़ने वाले के संवर्धक हो, आकाश के स्वामी।",
+  "why": "reviewer (minor): 'O true one' reads as 'O Truth' in Hindi"
+ },
+ {
+  "n": "1249",
+  "field": "english",
+  "old": "For you, O Indra, are the upholder of the many fortresses; the slayer of the Dasyu, the increaser of Manu, the lord of heaven.",
+  "new": "Indeed you, O Indra, are the upholder of the many fortresses; the slayer of the Dasyu, the increaser of Manu, the lord of heaven.",
+  "why": "reviewer (minor): hi is rendered 'For' (causal) in English but 'निश्चय ही' (indeed) in Hindi; glossary: hi = indeed"
+ },
+ {
+  "n": "1250",
+  "field": "hindi",
+  "old": "किलों को तोड़ने वाला, युवा, कवि, अपार बल वाला उत्पन्न हुआ: इन्द्र, जो सारे कर्म का धारणकर्ता, वज्रधारी और बहुतों से स्तुत है।",
+  "new": "किलों को तोड़ने वाला, युवा, कवि, अपार बल वाला उत्पन्न हुआ: इन्द्र, सारे कर्म का धारणकर्ता, वज्रधारी, बहुतों से स्तुत।",
+  "why": "reviewer (minor): Hindi supplies 'जो' and a verb 'है' (and 'और') that English does not have"
+ },
+ {
+  "n": "1251",
+  "field": "word.gram",
+  "word": "apāvaḥ",
+  "old": "2 sg. impf. apa-√vṛ",
+  "new": "2 sg. past (aor.) apa-√vṛ (final -r kept before the vowel)",
+  "why": "reviewer (error): printed r before the vowel shows the form ends in -r (apāvar); a final -aḥ would give apāvo 'drivaḥ. 'apāvaḥ' is not what is printed and is not regular sandhi"
+ },
+ {
+  "n": "1251",
+  "field": "word.w",
+  "word": "apāvaḥ",
+  "old": "apāvaḥ",
+  "new": "apāvar",
+  "why": "reviewer (error): printed r before the vowel shows the form ends in -r (apāvar); a final -aḥ would give apāvo 'drivaḥ. 'apāvaḥ' is not what is printed and is not regular sandhi"
+ },
+ {
+  "n": "1251",
+  "field": "hindi",
+  "old": "हे पत्थर के धारी, तुमने गोमान वल की गुफा खोली; निर्भय देवगण, प्रेरित होते हुए, तुम्हारी सहायता कर गए।",
+  "new": "हे पत्थर के धारी, तुमने गोमान वल की गुफा खोली; निर्भय देवगण, प्रेरित होते हुए, तुम्हारी सहायता की।",
+  "why": "reviewer (minor): 'कर गए' (went and did) adds a sense; verb is simply 'helped'"
+ },
+ {
+  "n": "1252",
+  "field": "hindi",
+  "old": "उन्होंने इन्द्र की, ईशान की, ओज से स्तोत्रों द्वारा स्तुति की; जिसके दान हज़ार हैं, या और अधिक हैं।",
+  "new": "उन्होंने इन्द्र की, शासक की, ओज से स्तोत्रों द्वारा स्तुति की; जिसके दान हज़ार हैं, या और अधिक हैं।",
+  "why": "reviewer (minor): 'ईशान' reads as a name (Īśāna); English and gloss say 'ruler'"
+ },
+ {
+  "n": "1252",
+  "field": "hindi",
+  "old": "उन्होंने इन्द्र की, शासक की, ओज से स्तोत्रों द्वारा स्तुति की; जिसके दान हज़ार हैं, या और अधिक हैं।",
+  "new": "उन्होंने इन्द्र की, शासक की, ओज से स्तोत्रों द्वारा स्तुति की; जिसके दान हज़ार हैं, या और भी अधिक हैं।",
+  "why": "reviewer (minor): vā ('even') dropped in Hindi, kept in English 'or even more'"
+ }
+]

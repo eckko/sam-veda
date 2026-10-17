@@ -57,3 +57,6 @@
 - yoni Hindi: the English is "seat"; Hindi is स्थान from ch06 k2 onward (earlier आसन lines are older; unify in cleanup, listed in ISSUES).
 - vīrya = heroic strength (वीर्य). nītha = song. hārdi = what is of the heart (हृदय का). vīti = feast (भोज). matsara/madintama: Hindi आनन्द-based, not मद.
 - OPEN: 1182 meṣyaḥ after ati (acc. pl.?); 1211 dhiye gender; 1213 "driving away" supplied for apa.
+- Names (Hindi): Ādhrigu = आध्रिगु, Turvaśa = तुर्वश, Vala = वल, Ruma, Ruśama, Śyāvaka, Kṛpa. īśāna = शासक. vṛṣabha = बैल. jana = लोगों.
+- Printed Vedic lengthenings (jahī, sunotā, purū, indrā, abhī, śṛṇuhī, rakṣā) stay in w.
+- OPEN: dharman also 1243 vidharman; dhiyā one rendering (thought vs prayer); svarāj one Hindi; 1215 makhasyase and 1236 tośase are guesses; 1230 vidyudabhreva note; 1241 dhāma vs dhāmā unflagged.
