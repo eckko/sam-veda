@@ -1,0 +1,213 @@
+[
+ {
+  "n": "4",
+  "field": "hindi",
+  "old": "अग्नि, प्रज्वलित, तेजस्वी और आहुति पाया हुआ, धन की इच्छा करता हुआ, स्तुति के साथ शत्रुओं (बाधाओं) को मारे।",
+  "new": "अग्नि, प्रज्वलित, तेजस्वी और आहुति पाया हुआ, धन की इच्छा करता हुआ, स्तुति के साथ बाधाओं को मारे।",
+  "why": "reviewer (minor): Bracketed gloss in the Hindi (brief: no bracketed glosses). vṛtrāṇi is rendered once, as in the English 'the obstacles'."
+ },
+ {
+  "n": "5",
+  "field": "hindi",
+  "old": "मैं तुम्हारे सबसे प्रिय अतिथि की स्तुति करता हूँ, प्रिय मित्र के समान; हे अग्नि, रथ के समान प्राप्त करने योग्य की।",
+  "new": "मैं तुम्हारे सबसे प्रिय अतिथि की स्तुति करता हूँ, प्रिय मित्र के समान; हे अग्नि, रथ के समान प्राप्त करने योग्य को।",
+  "why": "reviewer (minor): Dangling genitive 'की': the Sanskrit has the accusative (atithim ... vedyam), so 'praise ... to be gained' needs an accusative."
+ },
+ {
+  "n": "7",
+  "field": "hindi",
+  "old": "आओ, हे अग्नि, मैं तुम्हें इस प्रकार दूसरी स्तुतियाँ कहूँ; तुम इन सोम-बूँदों से बढ़ो।",
+  "new": "आओ, हे अग्नि, मैं तुम्हें इस प्रकार दूसरी स्तुतियाँ कहूँ; तुम इन बूँदों से बढ़ो।",
+  "why": "reviewer (minor): 'सोम' is added; the Sanskrit has only indubhiḥ 'with drops'. The English (correctly) says 'drops'."
+ },
+ {
+  "n": "10",
+  "field": "hindi",
+  "old": "हे अग्नि, हमारी बड़ी सहायता के लिए तेजस्वी (धन) लाओ; क्योंकि तुम देव हो, हमारे देखने के लिए।",
+  "new": "हे अग्नि, हमारी बड़ी सहायता के लिए जो तेजस्वी है उसे लाओ; क्योंकि तुम देव हो, हमारे देखने के लिए।",
+  "why": "reviewer (error): Bracketed gloss and an unsupported addition: 'धन' (wealth) is not in the Sanskrit; vivasvat is taken as 'what is radiant' in the English."
+ },
+ {
+  "n": "14",
+  "field": "word.gloss",
+  "word": "doṣāvastaḥ",
+  "old": "night and day",
+  "new": "O illuminer of the night",
+  "why": "reviewer (error): Wrong analysis. The printed r before dh shows the vocative of the r-stem vastṛ ('illuminer'), doṣāvastar = doṣā 'by night' + vastar 'O illuminer'; a form in -aḥ would give -o dh. The draft's 'night and day (ind.)' is invented and also duplicates 'day by day'. The notes mention the correct reading only as an alternative."
+ },
+ {
+  "n": "14",
+  "field": "word.gram",
+  "word": "doṣāvastaḥ",
+  "old": "ind.",
+  "new": "m. voc. sg. (doṣā 'by night' + vastṛ 'illuminer')",
+  "why": "reviewer (error): Wrong analysis. The printed r before dh shows the vocative of the r-stem vastṛ ('illuminer'), doṣāvastar = doṣā 'by night' + vastar 'O illuminer'; a form in -aḥ would give -o dh. The draft's 'night and day (ind.)' is invented and also duplicates 'day by day'. The notes mention the correct reading only as an alternative."
+ },
+ {
+  "n": "14",
+  "field": "word.w",
+  "word": "doṣāvastaḥ",
+  "old": "doṣāvastaḥ",
+  "new": "doṣā-vastar",
+  "why": "reviewer (error): Wrong analysis. The printed r before dh shows the vocative of the r-stem vastṛ ('illuminer'), doṣāvastar = doṣā 'by night' + vastar 'O illuminer'; a form in -aḥ would give -o dh. The draft's 'night and day (ind.)' is invented and also duplicates 'day by day'. The notes mention the correct reading only as an alternative."
+ },
+ {
+  "n": "14",
+  "field": "english",
+  "old": "To you, O Agni, day by day, night and day, with thought, bringing homage, we come.",
+  "new": "To you, O Agni, day by day, O illuminer of the night, with thought, bringing homage, we come.",
+  "why": "reviewer (error): Follows from the wrong word analysis."
+ },
+ {
+  "n": "14",
+  "field": "hindi",
+  "old": "हे अग्नि, दिन-प्रतिदिन, रात और दिन, हम प्रार्थना के साथ नमस्कार लाते हुए तुम्हारे पास आते हैं।",
+  "new": "हे अग्नि, दिन-प्रतिदिन, हे रात्रि को प्रकाशित करनेवाले, हम प्रार्थना के साथ नमस्कार लाते हुए तुम्हारे पास आते हैं।",
+  "why": "reviewer (error): Follows from the wrong word analysis."
+ },
+ {
+  "n": "14",
+  "field": "notes",
+  "old": "'doṣāvastaḥ' is taken as 'night and day' (as an adverbial expression); other readings ('O illuminer of the night') exist. 'upa ... emasi' = 'we come near'.",
+  "new": "'doṣāvastaḥ' is taken as 'night and day' (as an adverbial expression); other readings ('O illuminer of the night') exist. 'upa ... emasi' = 'we come near'. REVIEW: doṣāvastar is read as the vocative of vastṛ ('illuminer of the night'); the printed -r before dh excludes a visarga form.",
+  "why": "reviewer (minor): Notes present the correct reading as a mere alternative."
+ },
+ {
+  "n": "16",
+  "field": "hindi",
+  "old": "उस सुन्दर यज्ञ की ओर, गो-पान (दूध मिले सोमपान) के लिए तुम बुलाए जाते हो; हे अग्नि, मरुतों के साथ आओ।",
+  "new": "उस सुन्दर यज्ञ की ओर, गो-पान के लिए तुम बुलाए जाते हो; हे अग्नि, मरुतों के साथ आओ।",
+  "why": "reviewer (minor): Bracketed gloss in the Hindi (brief: no bracketed glosses)."
+ },
+ {
+  "n": "19",
+  "field": "hindi",
+  "old": "अग्नि को मन से प्रज्वलित करता हुआ मरणशील मनुष्य प्रार्थना को पाए; वह तेजस्वियों के साथ अग्नि को प्रज्वलित करता है।",
+  "new": "अग्नि को मन से प्रज्वलित करता हुआ मरणशील मनुष्य प्रार्थना का अनुसरण करे; वह तेजस्वियों के साथ अग्नि को प्रज्वलित करता है।",
+  "why": "reviewer (minor): English says 'follow the prayer' (saceta, gloss 'follow, attain'); Hindi 'पाए' is a different sense."
+ },
+ {
+  "n": "21",
+  "field": "word.w",
+  "word": "purū-tamam",
+  "old": "purū-tamam",
+  "new": "purūtamam",
+  "why": "reviewer (minor): purūtama is one word (purū + superlative suffix -tama); splitting at the suffix is not a compound split."
+ },
+ {
+  "n": "24",
+  "field": "hindi",
+  "old": "हे अग्नि, हमें संकट से बचाओ; हे देव, जो हमें हानि पहुँचाता है उसके विरुद्ध, हे अजर, अपनी सबसे तपानेवाली (ज्वालाओं) से जला दो।",
+  "new": "हे अग्नि, हमें संकट से बचाओ; हे देव, जो हमें हानि पहुँचाता है उसके विरुद्ध, हे अजर, अपने सबसे तपानेवालों से जला दो।",
+  "why": "reviewer (minor): Bracketed gloss in the Hindi (brief: no bracketed glosses). It also adds 'flames' (the English adds it too in parentheses; the notes say no noun is expressed)."
+ },
+ {
+  "n": "26",
+  "field": "word.w",
+  "word": "dyu-mantam",
+  "old": "dyu-mantam",
+  "new": "dyumantam",
+  "why": "reviewer (minor): dyumat is a single word with the suffix -mat; 'mantam' is not a word."
+ },
+ {
+  "n": "30",
+  "field": "hindi",
+  "old": "शक्ति के स्वामी, कवि अग्नि हव्यों के चारों ओर गया है, और दानी (यजमान) को रत्न देता हुआ।",
+  "new": "शक्ति के स्वामी, कवि अग्नि हव्यों के चारों ओर गया है, और दाता को रत्न देता हुआ।",
+  "why": "reviewer (minor): Bracketed gloss in the Hindi (brief: no bracketed glosses). 'यजमान' is not in the Sanskrit (dāśvas = giver)."
+ },
+ {
+  "n": "34",
+  "field": "hindi",
+  "old": "हे सज्जनों के स्वामी, अब तुम किसके (यज्ञ में) प्रचुरता से प्रार्थनाओं को प्रेरित करते हो? जिसकी स्तुतियाँ तुम्हें प्रिय हैं।",
+  "new": "हे सज्जनों के स्वामी, अब तुम किसकी प्रार्थनाओं को प्रचुरता से प्रेरित करते हो? जिसकी स्तुतियाँ तुम्हें प्रिय हैं।",
+  "why": "reviewer (error): '(यज्ञ में)' is an unsupported addition and the Hindi turns 'whose prayers' (kasya dhiyaḥ) into 'in whose sacrifice ... the prayers'; English is right."
+ },
+ {
+  "n": "36",
+  "field": "hindi",
+  "old": "हे अग्नि, एक (स्तुति) से हमारी रक्षा करो और दूसरी से रक्षा करो; हे शक्तियों के स्वामी, तीन स्तुतियों से रक्षा करो, हे वसु, चार से रक्षा करो।",
+  "new": "हे अग्नि, एक से हमारी रक्षा करो और दूसरी से रक्षा करो; हे शक्तियों के स्वामी, तीन स्तुतियों से रक्षा करो, हे वसु, चार से रक्षा करो।",
+  "why": "reviewer (minor): Bracketed gloss in the Hindi (brief: no bracketed glosses)."
+ },
+ {
+  "n": "39",
+  "field": "word.w",
+  "word": "jaritaḥ",
+  "old": "jaritaḥ",
+  "new": "jaritar",
+  "why": "reviewer (error): The printed form is jaritar (vocative of jaritṛ). 'jaritaḥ' is not the printed form and would not give -r- before v; the note calling it 'strange ... may be a different word' is unfounded."
+ },
+ {
+  "n": "39",
+  "field": "notes",
+  "old": "'jaritaḥ' (O praiser/singer) is strange as an address to Agni and may be a different word in the underlying text; 'tapānaḥ' read as a participle of √tap. 'aproṣivān' = 'who has not gone away'. 'duroṇayuḥ' = 'attending/guarding the house' is uncertain.",
+  "new": "'jaritar' (O praiser/singer) is strange as an address to Agni and may be a different word in the underlying text; 'tapānaḥ' read as a participle of √tap. 'aproṣivān' = 'who has not gone away'. 'duroṇayuḥ' = 'attending/guarding the house' is uncertain.",
+  "why": "reviewer (error): The printed form is jaritar (vocative of jaritṛ). 'jaritaḥ' is not the printed form and would not give -r- before v; the note calling it 'strange ... may be a different word' is unfounded."
+ },
+ {
+  "n": "41",
+  "field": "hindi",
+  "old": "हे उज्ज्वल, हे वसु, तुम सहायता के साथ हमारे लिए उपहार प्रेरित करो; हे अग्नि, तुम इस धन के रथी हो; हमारी सन्तान के लिए सहारा (घाट) पाओ।",
+  "new": "हे उज्ज्वल, हे वसु, तुम सहायता के साथ हमारे लिए उपहार प्रेरित करो; हे अग्नि, तुम इस धन के रथी हो; हमारी सन्तान के लिए टिकने योग्य ठोस भूमि पाओ।",
+  "why": "reviewer (minor): Bracketed gloss in the Hindi (brief: no bracketed glosses). English says 'firm footing'."
+ },
+ {
+  "n": "42",
+  "field": "word.w",
+  "word": "trātaḥ",
+  "old": "trātaḥ",
+  "new": "trātar",
+  "why": "reviewer (error): The printed form is trātar (vocative of trātṛ) + ṛtaḥ. 'trātaḥ' is not the printed form and the note's 'visarga to r before ṛ' is the wrong rule."
+ },
+ {
+  "n": "42",
+  "field": "notes",
+  "old": "'trātar-ṛtaḥ' is split trātaḥ + ṛtaḥ (visarga to r before ṛ). 'vivāsanti' = 'they seek to win/honour'; the root analysis is not firm (√van 'win' or ā-√vas). 'saprathāḥ' = 'widely extended'.",
+  "new": "'trātar-ṛtaḥ' is split trātar + ṛtaḥ (vocative of trātṛ). 'vivāsanti' = 'they seek to win/honour'; the root analysis is not firm (√van 'win' or ā-√vas). 'saprathāḥ' = 'widely extended'.",
+  "why": "reviewer (error): The printed form is trātar (vocative of trātṛ) + ṛtaḥ. 'trātaḥ' is not the printed form and the note's 'visarga to r before ṛ' is the wrong rule."
+ },
+ {
+  "n": "43",
+  "field": "hindi",
+  "old": "हे अग्नि, हे पावक, हमारे लिए बल बढ़ानेवाला, प्रशंसनीय धन लाओ; और हे समीप रहनेवाले, उत्तम नेतृत्व से हमें बहुत वांछित, अत्यन्त यशस्वी (धन) दो।",
+  "new": "हे अग्नि, हे पावक, हमारे लिए बल बढ़ानेवाला, प्रशंसनीय धन लाओ; और हे समीप रहनेवाले, उत्तम नेतृत्व से हमें बहुत वांछित, अत्यन्त यशस्वी धन दो।",
+  "why": "reviewer (minor): Bracketed gloss in the Hindi (brief: no bracketed glosses). The adjectives agree with rayim (m. acc.) of line 1, so the noun need not be marked as supplied."
+ },
+ {
+  "n": "44",
+  "field": "hindi",
+  "old": "जो सब धन बाँटता है, जो जनों में आनन्द देनेवाला होता है, उसके लिए मधु के प्रथम पात्रों की भाँति स्तोत्र अग्नि को अर्पित हों।",
+  "new": "जो सब धन बाँटता है, जो होता है, जनों में आनन्द देनेवाला है, उसके लिए मधु के प्रथम पात्रों की भाँति स्तोत्र अग्नि को अर्पित हों।",
+  "why": "reviewer (error): hotā (Hotṛ priest) is dropped: 'होता' here is read as the verb 'is'. Nothing may be dropped."
+ },
+ {
+  "n": "45",
+  "field": "word.w",
+  "word": "su-adhvaram",
+  "old": "su-adhvaram",
+  "new": "svādhvaram",
+  "why": "reviewer (minor): Silent correction: the printed svādhvaram (long ā, a valid Vedic form) is replaced by su-adhvaram in w with no text_flag (the brief forbids silent fixes). Keep the printed word."
+ },
+ {
+  "n": "47",
+  "field": "hindi",
+  "old": "वह मार्ग खोजने में सर्वश्रेष्ठ दिखाई दिया है, जिसमें लोगों ने अपने व्रत रखे हैं; हमारी स्तुतियाँ आर्य को बढ़ानेवाले नवजात अग्नि के पास भली-भाँति पहुँचें।",
+  "new": "वह मार्ग खोजने में सर्वश्रेष्ठ दिखाई दिया है, जिसमें उन्होंने व्रत स्थापित किए हैं; हमारी स्तुतियाँ आर्य को बढ़ानेवाले नवजात अग्नि के पास भली-भाँति पहुँचें।",
+  "why": "reviewer (minor): 'लोगों' and 'अपने' are added; the verb is a bare 'they' (ādadhuḥ) and the English says 'their' only."
+ },
+ {
+  "n": "48",
+  "field": "hindi",
+  "old": "उक्थ (स्तोत्र) में अग्नि आगे स्थापित है; यज्ञ में पत्थर और कुशासन (तैयार) हैं। हे प्रार्थना के स्वामी, मैं ऋचा से मरुतों के पास जाता हूँ; देवों की वरणीय सहायता।",
+  "new": "उक्थ में अग्नि आगे स्थापित है; यज्ञ में पत्थर और कुशासन हैं। हे प्रार्थना के स्वामी, मैं ऋचा से मरुतों के पास जाता हूँ; देवों की वरणीय सहायता।",
+  "why": "reviewer (error): Bracketed gloss in the Hindi (brief: no bracketed glosses). '(तैयार)' ('ready') adds a sense: the Sanskrit has no verb or participle."
+ },
+ {
+  "n": "53",
+  "field": "hindi",
+  "old": "वनों की कामना करते हुए जब तुम माताओं, जलों के पास गए; हे अग्नि, तुम्हारा वह लौटना भुलाया नहीं जा सकता, कि दूर रहते हुए भी तुम यहाँ आ गए।",
+  "new": "वनों की कामना करते हुए जब तुम माताओं, जलों के पास गए; हे अग्नि, तुम्हारा वह लौटना भुलाया नहीं जा सकता, कि दूर रहते हुए भी तुम यहाँ उपस्थित हो गए।",
+  "why": "reviewer (minor): English 'you were here' (abhuvaḥ 'you became/were'); Hindi 'आ गए' says 'came'."
+ }
+]

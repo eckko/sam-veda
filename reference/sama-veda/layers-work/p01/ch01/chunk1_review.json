@@ -1,0 +1,737 @@
+{
+ "units": [
+  {
+   "n": "1",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "2",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "3",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "4",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "शत्रुओं (बाधाओं)",
+     "problem": "Bracketed gloss in the Hindi (brief: no bracketed glosses). vṛtrāṇi is rendered once, as in the English 'the obstacles'.",
+     "fix": "बाधाओं को",
+     "severity": "minor",
+     "patch": {
+      "n": "4",
+      "op": "replace",
+      "field": "hindi",
+      "old": "शत्रुओं (बाधाओं) को",
+      "new": "बाधाओं को"
+     }
+    }
+   ]
+  },
+  {
+   "n": "5",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "रथ के समान प्राप्त करने योग्य की।",
+     "problem": "Dangling genitive 'की': the Sanskrit has the accusative (atithim ... vedyam), so 'praise ... to be gained' needs an accusative.",
+     "fix": "रथ के समान प्राप्त करने योग्य को।",
+     "severity": "minor",
+     "patch": {
+      "n": "5",
+      "op": "replace",
+      "field": "hindi",
+      "old": "रथ के समान प्राप्त करने योग्य की।",
+      "new": "रथ के समान प्राप्त करने योग्य को।"
+     }
+    }
+   ]
+  },
+  {
+   "n": "6",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "अदानशीलता",
+     "problem": "Hindi 'अदानशीलता' (niggardliness) and English 'ill-will' render arāteḥ differently. Choose one sense for both (and keep dviṣaḥ 'hatred' distinct; the glossary has dviṣaḥ = hostilities in the refrain).",
+     "fix": "Manual: e.g. English 'from all hostility' and Hindi 'सब प्रकार की शत्रुता से', or both 'niggardliness'.",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "7",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "सोम-बूँदों",
+     "problem": "'सोम' is added; the Sanskrit has only indubhiḥ 'with drops'. The English (correctly) says 'drops'.",
+     "fix": "इन बूँदों से",
+     "severity": "minor",
+     "patch": {
+      "n": "7",
+      "op": "replace",
+      "field": "hindi",
+      "old": "इन सोम-बूँदों से",
+      "new": "इन बूँदों से"
+     }
+    }
+   ]
+  },
+  {
+   "n": "8",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "9",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "10",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "तेजस्वी (धन)",
+     "problem": "Bracketed gloss and an unsupported addition: 'धन' (wealth) is not in the Sanskrit; vivasvat is taken as 'what is radiant' in the English.",
+     "fix": "जो तेजस्वी है उसे लाओ",
+     "severity": "error",
+     "patch": {
+      "n": "10",
+      "op": "replace",
+      "field": "hindi",
+      "old": "तेजस्वी (धन) लाओ",
+      "new": "जो तेजस्वी है उसे लाओ"
+     }
+    }
+   ]
+  },
+  {
+   "n": "11",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "12",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "13",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "14",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gloss",
+     "where": "doṣāvastardhiyā / doṣāvastaḥ",
+     "problem": "Wrong analysis. The printed r before dh shows the vocative of the r-stem vastṛ ('illuminer'), doṣāvastar = doṣā 'by night' + vastar 'O illuminer'; a form in -aḥ would give -o dh. The draft's 'night and day (ind.)' is invented and also duplicates 'day by day'. The notes mention the correct reading only as an alternative.",
+     "fix": "gloss: O illuminer of the night; gram: voc. sg. (doṣā 'by night' + vastṛ 'illuminer'); w: doṣā-vastar",
+     "severity": "error",
+     "patch": [
+      {
+       "n": "14",
+       "op": "word",
+       "match_w": "doṣāvastaḥ",
+       "field": "gloss",
+       "value": "O illuminer of the night"
+      },
+      {
+       "n": "14",
+       "op": "word",
+       "match_w": "doṣāvastaḥ",
+       "field": "gram",
+       "value": "m. voc. sg. (doṣā 'by night' + vastṛ 'illuminer')"
+      },
+      {
+       "n": "14",
+       "op": "word",
+       "match_w": "doṣāvastaḥ",
+       "field": "w",
+       "value": "doṣā-vastar"
+      }
+     ]
+    },
+    {
+     "field": "english",
+     "where": "night and day",
+     "problem": "Follows from the wrong word analysis.",
+     "fix": "To you, O Agni, day by day, O illuminer of the night, with thought, bringing homage, we come.",
+     "severity": "error",
+     "patch": {
+      "n": "14",
+      "op": "set",
+      "field": "english",
+      "value": "To you, O Agni, day by day, O illuminer of the night, with thought, bringing homage, we come."
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "रात और दिन",
+     "problem": "Follows from the wrong word analysis.",
+     "fix": "हे अग्नि, दिन-प्रतिदिन, हे रात्रि को प्रकाशित करनेवाले, हम प्रार्थना के साथ नमस्कार लाते हुए तुम्हारे पास आते हैं।",
+     "severity": "error",
+     "patch": {
+      "n": "14",
+      "op": "set",
+      "field": "hindi",
+      "value": "हे अग्नि, दिन-प्रतिदिन, हे रात्रि को प्रकाशित करनेवाले, हम प्रार्थना के साथ नमस्कार लाते हुए तुम्हारे पास आते हैं।"
+     }
+    },
+    {
+     "field": "notes",
+     "where": "notes",
+     "problem": "Notes present the correct reading as a mere alternative.",
+     "fix": "",
+     "severity": "minor",
+     "patch": {
+      "n": "14",
+      "op": "append_note",
+      "text": "REVIEW: doṣāvastar is read as the vocative of vastṛ ('illuminer of the night'); the printed -r before dh excludes a visarga form."
+     }
+    }
+   ]
+  },
+  {
+   "n": "15",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "16",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "गो-पान (दूध मिले सोमपान)",
+     "problem": "Bracketed gloss in the Hindi (brief: no bracketed glosses).",
+     "fix": "गो-पान के लिए",
+     "severity": "minor",
+     "patch": {
+      "n": "16",
+      "op": "replace",
+      "field": "hindi",
+      "old": "गो-पान (दूध मिले सोमपान) के लिए",
+      "new": "गो-पान के लिए"
+     }
+    }
+   ]
+  },
+  {
+   "n": "17",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "18",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gloss",
+     "where": "samudra-vāsasam",
+     "problem": "vāsas is normally 'garment', so 'clothed in the sea' is at least as likely as 'dwelling' (vāsa). The draft picks the weaker sense as primary.",
+     "fix": "Manual: 'whose garment is the sea' with 'dwelling' in notes (or leave both in notes).",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "19",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "प्रार्थना को पाए",
+     "problem": "English says 'follow the prayer' (saceta, gloss 'follow, attain'); Hindi 'पाए' is a different sense.",
+     "fix": "प्रार्थना का अनुसरण करे",
+     "severity": "minor",
+     "patch": {
+      "n": "19",
+      "op": "replace",
+      "field": "hindi",
+      "old": "प्रार्थना को पाए",
+      "new": "प्रार्थना का अनुसरण करे"
+     }
+    }
+   ]
+  },
+  {
+   "n": "20",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "21",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "who grows among the rites",
+     "problem": "adhvarāṇām is a genitive; 'grows among' turns it into a locative. 'strengthening/prospering the rites' (as the notes admit) or 'growing, of the rites' is closer. Pick one and keep the other in notes (Hindi: 'यज्ञों में बढ़ता है' likewise).",
+     "fix": "Manual: 'who strengthens the rites' / 'यज्ञों को बढ़ानेवाला'.",
+     "severity": "minor"
+    },
+    {
+     "field": "split",
+     "where": "purū-tamam",
+     "problem": "purūtama is one word (purū + superlative suffix -tama); splitting at the suffix is not a compound split.",
+     "fix": "purūtamam",
+     "severity": "minor",
+     "patch": {
+      "n": "21",
+      "op": "word",
+      "match_w": "purū-tamam",
+      "field": "w",
+      "value": "purūtamam"
+     }
+    }
+   ]
+  },
+  {
+   "n": "22",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "23",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "notes",
+     "where": "asyaya",
+     "problem": "The note says asyaya is 'asi ya(ḥ) run together', but asi + yaḥ would not produce the printed form (sandhi gives 'asi ya ā'); a printed -y- before a points to asi + aya(...) (cf. the Ṛgveda parallel). Keep the flag as 'possible' but do not give the derivation as fact.",
+     "fix": "Manual: reword the flag's why as: printed form is not explained by asi + yaḥ; reading unsettled.",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "24",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "(ज्वालाओं)",
+     "problem": "Bracketed gloss in the Hindi (brief: no bracketed glosses). It also adds 'flames' (the English adds it too in parentheses; the notes say no noun is expressed).",
+     "fix": "अपने सबसे तपानेवालों से जला दो",
+     "severity": "minor",
+     "patch": {
+      "n": "24",
+      "op": "replace",
+      "field": "hindi",
+      "old": "अपनी सबसे तपानेवाली (ज्वालाओं) से जला दो",
+      "new": "अपने सबसे तपानेवालों से जला दो"
+     }
+    }
+   ]
+  },
+  {
+   "n": "25",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "26",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gram",
+     "where": "nakṣya",
+     "problem": "An absolutive in -ya needs a prefix on the verb itself; here ni is separate (ni ... dhīmahe) and nakṣya stands next to tvā. 'abs.' is therefore doubtful; a gerundive (nakṣya, 'to be approached') or another form is possible. The Hindi/English 'Approaching (you)' is built on this guess.",
+     "fix": "Manual: mark gram as 'form uncertain' and soften the translation.",
+     "severity": "minor"
+    },
+    {
+     "field": "split",
+     "where": "dyu-mantam",
+     "problem": "dyumat is a single word with the suffix -mat; 'mantam' is not a word.",
+     "fix": "dyumantam",
+     "severity": "minor",
+     "patch": {
+      "n": "26",
+      "op": "word",
+      "match_w": "dyu-mantam",
+      "field": "w",
+      "value": "dyumantam"
+     }
+    }
+   ]
+  },
+  {
+   "n": "27",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "28",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "29",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "30",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "दानी (यजमान)",
+     "problem": "Bracketed gloss in the Hindi (brief: no bracketed glosses). 'यजमान' is not in the Sanskrit (dāśvas = giver).",
+     "fix": "दाता को",
+     "severity": "minor",
+     "patch": {
+      "n": "30",
+      "op": "replace",
+      "field": "hindi",
+      "old": "दानी (यजमान) को",
+      "new": "दाता को"
+     }
+    }
+   ]
+  },
+  {
+   "n": "31",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "32",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "33",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "34",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "किसके (यज्ञ में) प्रचुरता से प्रार्थनाओं को",
+     "problem": "'(यज्ञ में)' is an unsupported addition and the Hindi turns 'whose prayers' (kasya dhiyaḥ) into 'in whose sacrifice ... the prayers'; English is right.",
+     "fix": "किसकी प्रार्थनाओं को प्रचुरता से",
+     "severity": "error",
+     "patch": {
+      "n": "34",
+      "op": "replace",
+      "field": "hindi",
+      "old": "किसके (यज्ञ में) प्रचुरता से प्रार्थनाओं को",
+      "new": "किसकी प्रार्थनाओं को प्रचुरता से"
+     }
+    }
+   ]
+  },
+  {
+   "n": "35",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "let me proclaim",
+     "problem": "Hindi has 'हम ... घोषित करें' (we) and English 'let me' (1 sg.); the two layers disagree. The Sanskrit has vayam ... śaṃsiṣam, so the notes' choice should be applied to both.",
+     "fix": "Manual: e.g. English 'let us proclaim' / 'may I proclaim' in both layers.",
+     "severity": "minor"
+    },
+    {
+     "field": "gram",
+     "where": "dakṣase",
+     "problem": "dakṣase is more naturally the dative of the neuter dakṣas 'skill, power' (like ojase, mahe) than a masculine adjective 'to the skilful one'; Hindi/English 'for the skilful Agni' rest on the adjective reading. Mention the alternative.",
+     "fix": "Manual: gloss 'for skill/power', n. dat. sg., and keep 'skilful' as alternative in notes.",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "36",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "एक (स्तुति) से",
+     "problem": "Bracketed gloss in the Hindi (brief: no bracketed glosses).",
+     "fix": "एक से",
+     "severity": "minor",
+     "patch": {
+      "n": "36",
+      "op": "replace",
+      "field": "hindi",
+      "old": "एक (स्तुति) से",
+      "new": "एक से"
+     }
+    }
+   ]
+  },
+  {
+   "n": "37",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "38",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "39",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "split",
+     "where": "jaritarviśpatistapāno / jaritaḥ",
+     "problem": "The printed form is jaritar (vocative of jaritṛ). 'jaritaḥ' is not the printed form and would not give -r- before v; the note calling it 'strange ... may be a different word' is unfounded.",
+     "fix": "w: jaritar",
+     "severity": "error",
+     "patch": [
+      {
+       "n": "39",
+       "op": "word",
+       "match_w": "jaritaḥ",
+       "field": "w",
+       "value": "jaritar"
+      },
+      {
+       "n": "39",
+       "op": "replace",
+       "field": "notes",
+       "old": "'jaritaḥ' (O praiser/singer)",
+       "new": "'jaritar' (O praiser/singer)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "40",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "41",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "सहारा (घाट)",
+     "problem": "Bracketed gloss in the Hindi (brief: no bracketed glosses). English says 'firm footing'.",
+     "fix": "टिकने योग्य ठोस भूमि",
+     "severity": "minor",
+     "patch": {
+      "n": "41",
+      "op": "replace",
+      "field": "hindi",
+      "old": "सहारा (घाट)",
+      "new": "टिकने योग्य ठोस भूमि"
+     }
+    }
+   ]
+  },
+  {
+   "n": "42",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "split",
+     "where": "trātarṛtaḥ / trātaḥ",
+     "problem": "The printed form is trātar (vocative of trātṛ) + ṛtaḥ. 'trātaḥ' is not the printed form and the note's 'visarga to r before ṛ' is the wrong rule.",
+     "fix": "w: trātar",
+     "severity": "error",
+     "patch": [
+      {
+       "n": "42",
+       "op": "word",
+       "match_w": "trātaḥ",
+       "field": "w",
+       "value": "trātar"
+      },
+      {
+       "n": "42",
+       "op": "replace",
+       "field": "notes",
+       "old": "is split trātaḥ + ṛtaḥ (visarga to r before ṛ)",
+       "new": "is split trātar + ṛtaḥ (vocative of trātṛ)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "43",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "(धन)",
+     "problem": "Bracketed gloss in the Hindi (brief: no bracketed glosses). The adjectives agree with rayim (m. acc.) of line 1, so the noun need not be marked as supplied.",
+     "fix": "उत्तम नेतृत्व से हमें बहुत वांछित, अत्यन्त यशस्वी धन दो",
+     "severity": "minor",
+     "patch": {
+      "n": "43",
+      "op": "replace",
+      "field": "hindi",
+      "old": "अत्यन्त यशस्वी (धन) दो",
+      "new": "अत्यन्त यशस्वी धन दो"
+     }
+    }
+   ]
+  },
+  {
+   "n": "44",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "जो जनों में आनन्द देनेवाला होता है",
+     "problem": "hotā (Hotṛ priest) is dropped: 'होता' here is read as the verb 'is'. Nothing may be dropped.",
+     "fix": "जो सब धन बाँटता है, जो होता है, जनों में आनन्द देनेवाला है; उसके लिए मधु के प्रथम पात्रों की भाँति स्तोत्र अग्नि को अर्पित हों।",
+     "severity": "error",
+     "patch": {
+      "n": "44",
+      "op": "replace",
+      "field": "hindi",
+      "old": "जो जनों में आनन्द देनेवाला होता है",
+      "new": "जो होता है, जनों में आनन्द देनेवाला है"
+     }
+    }
+   ]
+  },
+  {
+   "n": "45",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "split",
+     "where": "svādhvaram / su-adhvaram",
+     "problem": "Silent correction: the printed svādhvaram (long ā, a valid Vedic form) is replaced by su-adhvaram in w with no text_flag (the brief forbids silent fixes). Keep the printed word.",
+     "fix": "svādhvaram",
+     "severity": "minor",
+     "patch": {
+      "n": "45",
+      "op": "word",
+      "match_w": "su-adhvaram",
+      "field": "w",
+      "value": "svādhvaram"
+     }
+    }
+   ]
+  },
+  {
+   "n": "46",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "47",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "जिसमें लोगों ने अपने व्रत रखे हैं",
+     "problem": "'लोगों' and 'अपने' are added; the verb is a bare 'they' (ādadhuḥ) and the English says 'their' only.",
+     "fix": "जिसमें उन्होंने व्रत स्थापित किए हैं",
+     "severity": "minor",
+     "patch": {
+      "n": "47",
+      "op": "replace",
+      "field": "hindi",
+      "old": "जिसमें लोगों ने अपने व्रत रखे हैं",
+      "new": "जिसमें उन्होंने व्रत स्थापित किए हैं"
+     }
+    }
+   ]
+  },
+  {
+   "n": "48",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "उक्थ (स्तोत्र) ... (तैयार)",
+     "problem": "Bracketed gloss in the Hindi (brief: no bracketed glosses). '(तैयार)' ('ready') adds a sense: the Sanskrit has no verb or participle.",
+     "fix": "उक्थ में अग्नि आगे स्थापित है; यज्ञ में पत्थर और कुशासन हैं।",
+     "severity": "error",
+     "patch": {
+      "n": "48",
+      "op": "replace",
+      "field": "hindi",
+      "old": "उक्थ (स्तोत्र) में अग्नि आगे स्थापित है; यज्ञ में पत्थर और कुशासन (तैयार) हैं।",
+      "new": "उक्थ में अग्नि आगे स्थापित है; यज्ञ में पत्थर और कुशासन हैं।"
+     }
+    },
+    {
+     "field": "gram",
+     "where": "devā avo vareṇyam",
+     "problem": "gram makes devā nominative plural, but both translations say 'the gods' desirable help' (genitive). Either the case or the translation must change (devāḥ may be vocative 'O gods').",
+     "fix": "Manual: decide the construction, then align gram, Hindi and English.",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "49",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "50",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "51",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "52",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "53",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "यहाँ आ गए",
+     "problem": "English 'you were here' (abhuvaḥ 'you became/were'); Hindi 'आ गए' says 'came'.",
+     "fix": "तुम यहाँ उपस्थित हो गए",
+     "severity": "minor",
+     "patch": {
+      "n": "53",
+      "op": "replace",
+      "field": "hindi",
+      "old": "तुम यहाँ आ गए",
+      "new": "तुम यहाँ उपस्थित हो गए"
+     }
+    }
+   ]
+  },
+  {
+   "n": "54",
+   "verdict": "ok",
+   "issues": []
+  }
+ ],
+ "summary": "Reviewed 54 units word by word. Core splits and cases are mostly sound, but 3 invented or wrong Sanskrit forms (u14 doṣāvastar, u39 jaritar, u42 trātar), bracketed glosses/unsupported additions in the Hindi of 12 units, one dropped word (u44 hotā), and several uncertain readings kept as manual decisions. No regrouping needed."
+}

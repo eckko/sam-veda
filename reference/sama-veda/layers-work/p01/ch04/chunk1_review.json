@@ -1,0 +1,950 @@
+{
+ "units": [
+  {
+   "n": "145",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gram",
+     "where": "yava-āśiraḥ",
+     "problem": "yavāśir is a stem in -ir (āśir \"admixture\"); its nominative would be yavāśīḥ. yavāśiraḥ is the genitive singular and agrees with indoḥ, exactly as the English and Hindi already translate it (\"of the drop that is mixed with barley\"). The label \"nom. sg.\" contradicts the translation.",
+     "fix": "m. gen. sg., agreeing with indoḥ (stem yavāśir: yava + āśir \"admixture\")",
+     "severity": "error",
+     "patch": [
+      {
+       "n": "145",
+       "op": "word",
+       "match_w": "yava-āśiraḥ",
+       "field": "gram",
+       "value": "m. gen. sg., agreeing with indoḥ (stem yavāśir: yava + āśir \"admixture\")"
+      },
+      {
+       "n": "145",
+       "op": "append_note",
+       "text": "yavāśiraḥ is the genitive singular of yavāśir (the nominative would be yavāśīḥ), so it agrees with indoḥ."
+      }
+     ]
+    },
+    {
+     "field": "hindi",
+     "where": "उस अत्यन्त कुशल",
+     "problem": "\"उस\" (that) has no counterpart in the Sanskrit; sudakṣasya has no demonstrative.",
+     "fix": "सुन्दर जबड़ों वाले ने सोम-रस का पान किया, अत्यन्त कुशल, बह निकलने वाले (रस) का;",
+     "severity": "minor",
+     "patch": {
+      "n": "145",
+      "op": "replace",
+      "field": "hindi",
+      "old": "उस अत्यन्त कुशल",
+      "new": "अत्यन्त कुशल"
+     }
+    }
+   ]
+  },
+  {
+   "n": "146",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gram",
+     "where": "imāḥ",
+     "problem": "The visarga is lost before any vowel (here u), not \"before u\" specifically; harmless but misleading.",
+     "fix": "f. nom. pl. (visarga lost before a vowel)",
+     "severity": "minor",
+     "patch": {
+      "n": "146",
+      "op": "word",
+      "match_w": "imāḥ",
+      "field": "gram",
+      "value": "f. nom. pl. (visarga lost before a vowel)"
+     }
+    }
+   ]
+  },
+  {
+   "n": "147",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "split",
+     "where": "candramaso",
+     "problem": "The split word keeps the printed sandhi form; the dictionary form is candramasaḥ.",
+     "fix": "candramasaḥ",
+     "severity": "minor",
+     "patch": {
+      "n": "147",
+      "op": "word",
+      "match_w": "candramaso",
+      "field": "w",
+      "value": "candramasaḥ"
+     }
+    },
+    {
+     "field": "notes",
+     "where": "candramaso ... loss of the visarga before g",
+     "problem": "Wrong sandhi: aḥ before a voiced consonant becomes o; the visarga is not \"lost\".",
+     "fix": "candramaso is candramasaḥ gen. sg. (aḥ becomes o before the voiced g).",
+     "severity": "minor",
+     "patch": {
+      "n": "147",
+      "op": "replace",
+      "field": "notes",
+      "old": "with loss of the visarga before g",
+      "new": "with the visarga (aḥ) becoming o before the voiced g"
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "जाना",
+     "problem": "English gloss and translation are \"marked\" (amanvata, impf. of √man: thought, took note of); \"जाना\" (knew) is a different sense and the two languages disagree.",
+     "fix": "यहाँ ही उन्होंने गाय का, त्वष्टा के छिपे हुए नाम का ध्यान किया; इस प्रकार चन्द्रमा के घर में।",
+     "severity": "minor",
+     "patch": {
+      "n": "147",
+      "op": "replace",
+      "field": "hindi",
+      "old": "नाम को जाना",
+      "new": "नाम का ध्यान किया"
+     }
+    }
+   ]
+  },
+  {
+   "n": "148",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "सबसे अधिक बलवान",
+     "problem": "Hindi renders vṛṣantamaḥ as \"most mighty\" while the English and the gloss say \"most bountiful\". \"सबसे बलवान\" is also the glossary rendering of śaviṣṭha. Make Hindi agree with the English.",
+     "fix": "जब सबसे अधिक उदार इन्द्र ने महान जलों को आगे बढ़ाया",
+     "severity": "minor",
+     "patch": {
+      "n": "148",
+      "op": "replace",
+      "field": "hindi",
+      "old": "सबसे अधिक बलवान",
+      "new": "सबसे अधिक उदार"
+     }
+    }
+   ]
+  },
+  {
+   "n": "149",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gloss",
+     "where": "dhayati / English \"suckles (them)\"",
+     "problem": "√dhe, dhayati means \"sucks, drinks\"; the causative \"suckles\" (gives suck) would be dhāpayati/dhāyayati. The English adds an object \"(them)\" that is not in the text. Needs a human decision between \"the cow ... drinks\" and a looser reading.",
+     "fix": "English: \"The cow, desirous of fame, the mother of the bountiful Maruts, drinks; the two yoked bearers of the chariots (are ready).\" Gloss of dhayati: \"sucks, drinks\".",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "150",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "151",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "बढ़ाती हुई",
+     "problem": "vṛdhantaḥ is masculine; the Hindi feminine participle ties it to hotrāḥ (f.), against the note that the subject may be the singers. Use a gender-neutral/masculine form.",
+     "fix": "इच्छित आहुतियाँ छोड़ी गईं, यज्ञ में इन्द्र को बढ़ाते हुए, बल के साथ अवभृथ की ओर।",
+     "severity": "minor",
+     "patch": {
+      "n": "151",
+      "op": "replace",
+      "field": "hindi",
+      "old": "बढ़ाती हुई",
+      "new": "बढ़ाते हुए"
+     }
+    },
+    {
+     "field": "gram",
+     "where": "iṣṭāḥ",
+     "problem": "iṣṭa is the participle of both √iṣ (desire) and √yaj (offer); with hotrāḥ \"offered\" is at least as likely. Only one root is given.",
+     "fix": "f. nom. pl. ppp. √iṣ \"desire\" (or √yaj \"offer\")",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "151",
+       "op": "word",
+       "match_w": "iṣṭāḥ",
+       "field": "gram",
+       "value": "f. nom. pl. ppp. √iṣ \"desire\" (or √yaj \"offer\")"
+      },
+      {
+       "n": "151",
+       "op": "append_note",
+       "text": "iṣṭā may also be the participle of √yaj ('offered')."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "152",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "split",
+     "where": "sūrya",
+     "problem": "Printed sandhi form kept as w; the dictionary form is sūryaḥ (the gram note already says visarga lost).",
+     "fix": "sūryaḥ",
+     "severity": "minor",
+     "patch": {
+      "n": "152",
+      "op": "word",
+      "match_w": "sūrya",
+      "field": "w",
+      "value": "sūryaḥ"
+     }
+    }
+   ]
+  },
+  {
+   "n": "153",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "धनवती (वस्तुएँ) ... समृद्ध होकर",
+     "problem": "\"वस्तुएँ\" (things) is a noun the note says is not supplied (the English has only \"ones\"); and kṣumantaḥ is \"rich in food\" in English, \"समृद्ध\" in Hindi loses \"food\".",
+     "fix": "हमारे लिए धनवती, प्रचुर बल वाली (वे) इन्द्र के साथ सहभोज में हों, जिनसे हम अन्न से समृद्ध होकर आनन्द मनाएँ।",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "153",
+       "op": "replace",
+       "field": "hindi",
+       "old": "धनवती (वस्तुएँ), प्रचुर बल वाली,",
+       "new": "धनवती, प्रचुर बल वाली (वे)"
+      },
+      {
+       "n": "153",
+       "op": "replace",
+       "field": "hindi",
+       "old": "जिनसे हम समृद्ध होकर",
+       "new": "जिनसे हम अन्न से समृद्ध होकर"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "154",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "perceive all the well-settled (peoples)",
+     "problem": "viśvāsāṃ sukṣitīnām is genitive plural (\"of all the well-settled\"), not accusative; both translations use an object (\"perceive all\", \"को जानते हैं\").",
+     "fix": "Soma and Pūṣan both are aware of all the well-settled (peoples); ...",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "154",
+       "op": "replace",
+       "field": "english",
+       "old": "both perceive all the",
+       "new": "both are aware of all the"
+      },
+      {
+       "n": "154",
+       "op": "replace",
+       "field": "hindi",
+       "old": "बस्तियों (जनों) को जानते हैं",
+       "new": "बस्तियों (जनों) के विषय में जानते हैं"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "155",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "सौ कर्मों वाले",
+     "problem": "English and gloss say \"a hundred powers\" (and 173 Hindi says सौ शक्तियों); \"कर्म\" is the fixed rendering of karma, not of kratu.",
+     "fix": "सबको जीतने वाले, सौ शक्तियों वाले, मनुष्यों में सबसे उदार का।",
+     "severity": "minor",
+     "patch": {
+      "n": "155",
+      "op": "replace",
+      "field": "hindi",
+      "old": "सौ कर्मों वाले",
+      "new": "सौ शक्तियों वाले"
+     }
+    }
+   ]
+  },
+  {
+   "n": "156",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "157",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "notes",
+     "where": "Kaṇvas are the clan of the singers",
+     "problem": "\"clan of the singers\" is outside information; the line only names kaṇvāḥ.",
+     "fix": "kaṇvāḥ is a plural name; the text says nothing more about them.",
+     "severity": "minor",
+     "patch": {
+      "n": "157",
+      "op": "replace",
+      "field": "notes",
+      "old": "The Kaṇvas are the clan of the singers named in the text; nothing more is said.",
+      "new": "kaṇvāḥ is a plural name; the text says nothing more about them."
+     }
+    }
+   ]
+  },
+  {
+   "n": "158",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "159",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "160",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gram",
+     "where": "juhūmasi",
+     "problem": "Wrong root and voice. juhūmasi is the reduplicated present of √hū \"call\" (hvayati), with the active Vedic ending -masi; √hu is \"sacrifice\" and the form is not middle.",
+     "fix": "1 pl. pres. √hū \"call\" (reduplicated, active ending -masi)",
+     "severity": "error",
+     "patch": {
+      "n": "160",
+      "op": "word",
+      "match_w": "juhūmasi",
+      "field": "gram",
+      "value": "1 pl. pres. √hū \"call\" (reduplicated, active ending -masi)"
+     }
+    }
+   ]
+  },
+  {
+   "n": "161",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "हे बलशाली",
+     "problem": "Bracketed addition \"(हे बलशाली)\" interprets vṛṣabhā; not in the text or the English.",
+     "fix": "हे बैल, सोम निचोड़ने पर ...",
+     "severity": "minor",
+     "patch": {
+      "n": "161",
+      "op": "replace",
+      "field": "hindi",
+      "old": "हे बैल (हे बलशाली),",
+      "new": "हे बैल,"
+     }
+    }
+   ]
+  },
+  {
+   "n": "162",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "163",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gram",
+     "where": "havāmahe",
+     "problem": "Wrong root: havāmahe is the present middle of √hū \"call\" (guṇa hav-), not √hu \"sacrifice\".",
+     "fix": "1 pl. pres. mid. √hū \"call\"",
+     "severity": "error",
+     "patch": {
+      "n": "163",
+      "op": "word",
+      "match_w": "havāmahe",
+      "field": "gram",
+      "value": "1 pl. pres. mid. √hū \"call\""
+     }
+    }
+   ]
+  },
+  {
+   "n": "164",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "165",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "तेरे",
+     "problem": "\"तेरे\" (familiar) is inconsistent with \"तुम\" everywhere else in the book.",
+     "fix": "यह तुम्हारे बल से निचोड़ा हुआ है",
+     "severity": "minor",
+     "patch": {
+      "n": "165",
+      "op": "replace",
+      "field": "hindi",
+      "old": "यह तेरे बल से",
+      "new": "यह तुम्हारे बल से"
+     }
+    }
+   ]
+  },
+  {
+   "n": "166",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "167",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "मुट्ठीभर (धन)",
+     "problem": "\"(धन)\" supplied in Hindi although the note says \"of wealth\" is not in the text.",
+     "fix": "... अद्भुत मुट्ठीभर एकत्र कर लो ...",
+     "severity": "minor",
+     "patch": {
+      "n": "167",
+      "op": "replace",
+      "field": "hindi",
+      "old": "मुट्ठीभर (धन) एकत्र",
+      "new": "मुट्ठीभर एकत्र"
+     }
+    }
+   ]
+  },
+  {
+   "n": "168",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "169",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "170",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "171",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "approached ... gift of wisdom",
+     "problem": "One verb (ayāsiṣam) is rendered by two different verbs (\"approached\", \"obtained\") in the two clauses, and \"the gift of wisdom\" contradicts the note, which reads saniṃ medhām as two nouns in apposition (\"the gift, wisdom\").",
+     "fix": "I have obtained the lord of the assembly, wonderful, dear to Indra, desirable; I have obtained the gift, wisdom.",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "171",
+       "op": "replace",
+       "field": "english",
+       "old": "I have approached the lord",
+       "new": "I have obtained the lord"
+      },
+      {
+       "n": "171",
+       "op": "replace",
+       "field": "english",
+       "old": "the gift of wisdom",
+       "new": "the gift, wisdom"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "172",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "below the sky",
+     "problem": "The gloss for divaḥ is \"of heaven\" and the note says \"below heaven\"; the translation says \"sky\".",
+     "fix": "Those paths of yours below heaven, ...",
+     "severity": "minor",
+     "patch": {
+      "n": "172",
+      "op": "replace",
+      "field": "english",
+      "old": "below the sky",
+      "new": "below heaven"
+     }
+    }
+   ]
+  },
+  {
+   "n": "173",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "174",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "175",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "the newborn",
+     "problem": "\"new\" is not in jātam (\"born\"), and the note itself says the literal word is \"born\".",
+     "fix": "They attend upon Indra, born ...: \"Stirring, eager for work, they attend upon the born Indra, winning heroic strength.\"",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "175",
+       "op": "replace",
+       "field": "english",
+       "old": "Indra, the newborn,",
+       "new": "the born Indra,"
+      },
+      {
+       "n": "175",
+       "op": "replace",
+       "field": "hindi",
+       "old": "नवजात इन्द्र",
+       "new": "उत्पन्न इन्द्र"
+      },
+      {
+       "n": "175",
+       "op": "replace",
+       "field": "hindi",
+       "old": "प्राप्त करती हुई",
+       "new": "प्राप्त करते हुए"
+      },
+      {
+       "n": "175",
+       "op": "replace",
+       "field": "notes",
+       "old": "'newborn' for jātam is the literal 'born'.",
+       "new": "jātam is 'born'; no 'new' is in the text."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "176",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "what the mantra has heard",
+     "problem": "Ungrammatical/unfaithful: mantraśrutyam is \"what is heard in the mantra\" (Hindi already says मन्त्र में सुने गए).",
+     "fix": "... we act in accordance with what is heard in the mantra.",
+     "severity": "minor",
+     "patch": {
+      "n": "176",
+      "op": "replace",
+      "field": "english",
+      "old": "what the mantra has heard",
+      "new": "what is heard in the mantra"
+     }
+    },
+    {
+     "field": "english",
+     "where": "(the order) ... disturb it",
+     "problem": "An object (\"the order\", \"it\") is supplied for both verbs; the line states none. The note even admits it is \"not in the text\". Hindi \"(नियम)\" is likewise added.",
+     "fix": "O gods, we do not at all violate (anything), nor do we disturb (anything); ...",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "176",
+       "op": "replace",
+       "field": "english",
+       "old": "violate (the order), nor do we disturb it",
+       "new": "violate (anything), nor do we disturb (anything)"
+      },
+      {
+       "n": "176",
+       "op": "replace",
+       "field": "hindi",
+       "old": "हम कभी (नियम) भंग नहीं करते",
+       "new": "हम कभी भंग नहीं करते"
+      },
+      {
+       "n": "176",
+       "op": "replace",
+       "field": "notes",
+       "old": "'the order' is supplied as the object of both verbs (not in the text).",
+       "new": "No object is stated for the two verbs; none is supplied."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "177",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gram",
+     "where": "agāt",
+     "problem": "agāt is the root aorist of √gā (\"go\"), not of √gam (aor. agamat).",
+     "fix": "3 sg. root aor. √gā \"go\" (ā-√gā \"come\")",
+     "severity": "minor",
+     "patch": {
+      "n": "177",
+      "op": "word",
+      "match_w": "agāt",
+      "field": "gram",
+      "value": "3 sg. root aor. √gā \"go\" (ā-√gā \"come\")"
+     }
+    }
+   ]
+  },
+  {
+   "n": "178",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "179",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "ninety-nine (literally ...)",
+     "problem": "navatīr nava is a contested count (99 vs nine nineties). Stating \"ninety-nine\" as fact in the translation, with confidence \"high\", is a contested number used as fact; the parenthetical gloss also does not belong in the translation.",
+     "fix": "... slew the Vṛtras with the bones of Dadhīci, nine and ninety.",
+     "severity": "error",
+     "patch": [
+      {
+       "n": "179",
+       "op": "replace",
+       "field": "english",
+       "old": "ninety-nine (literally 'nineties, nine')",
+       "new": "nine and ninety"
+      },
+      {
+       "n": "179",
+       "op": "set",
+       "field": "confidence",
+       "value": "medium"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "180",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "181",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "182",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "shone forth",
+     "problem": "\"forth\" is not in titviṣe (no preverb).",
+     "fix": "That might of his shone when Indra rolled both worlds together like a hide.",
+     "severity": "minor",
+     "patch": {
+      "n": "182",
+      "op": "replace",
+      "field": "english",
+      "old": "shone forth when",
+      "new": "shone when"
+     }
+    }
+   ]
+  },
+  {
+   "n": "183",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "(लौटते हो)",
+     "problem": "Bracketed \"(लौटते हो)\" (you return) is not in the Sanskrit or the English and leaves the simile ungrammatical.",
+     "fix": "यह निश्चय ही तुम्हारे लिए है; तुम कबूतर की तरह घोंसले की ओर एक साथ आते हो; हमारे उस वचन को भी तुम वहन करते हो।",
+     "severity": "minor",
+     "patch": {
+      "n": "183",
+      "op": "replace",
+      "field": "hindi",
+      "old": "तुम कबूतर के घोंसले की ओर जैसे (लौटते हो) वैसे आते हो",
+      "new": "तुम कबूतर की तरह घोंसले की ओर एक साथ आते हो"
+     }
+    }
+   ]
+  },
+  {
+   "n": "184",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gloss",
+     "where": "vātaḥ \"wind (not the humour)\"",
+     "problem": "Medical-term comment does not belong (not a medical text; nothing said in the line).",
+     "fix": "wind",
+     "severity": "minor",
+     "patch": {
+      "n": "184",
+      "op": "word",
+      "match_w": "vātaḥ",
+      "field": "gloss",
+      "value": "wind"
+     }
+    },
+    {
+     "field": "text_flags",
+     "where": "ayū~ṣi",
+     "problem": "The printed \"na ayū~ṣi\" has a short initial a; the standard word is āyus \"life\" (āyūṃṣi), and the sandhi would then print \"na āyū~ṣi\". Probable lost length mark. Unverified, so only a flag; no change to words.",
+     "fix": "Add flag: src \"ayū~ṣi\", suggest \"āyū~ṣi\".",
+     "severity": "minor",
+     "patch": {
+      "n": "184",
+      "op": "set",
+      "field": "text_flags",
+      "value": [
+       {
+        "src": "beṣaja~",
+        "suggest": "bheṣajaṃ",
+        "why": "possible: b for bh (bheṣaja, 'remedy'); the printed initial is b."
+       },
+       {
+        "src": "ayū~ṣi",
+        "suggest": "āyū~ṣi",
+        "why": "possible: the word is normally āyus 'life' (āyūṃṣi); the printed initial a is short (after na, āyū~ṣi would print as na āyū~ṣi). Unverified."
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": "185",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "186",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "split",
+     "where": "gavyaḥ / ṣu",
+     "problem": "Grammatically impossible: aḥ before s stays aḥ, it never gives \"gavyo ṣu\", and the retroflex ṣ shows the preceding vowel is u/o. The sequence is gavyā (lengthened 2 sg. imperative of the denominative gavya- \"seek cattle\", exactly parallel to aśvayā, rathayā, varivasyā in the same verse) + u + su. The draft takes gavyaḥ as a nominative with three imperatives, which also forces the English \"Desirous of cattle\" and drops the particle u.",
+     "fix": "Words of token gavyo: gavyā \"seek cattle\" (2 sg. impv. denom. gavya-, lengthened) + u \"indeed\".",
+     "severity": "error",
+     "patch": {
+      "n": "186",
+      "op": "set",
+      "field": "lines.0.tokens.0.words",
+      "value": [
+       {
+        "w": "gavyā",
+        "gloss": "seek cattle",
+        "gram": "2 sg. impv. denom. √gavya (lengthened), parallel to aśvayā, rathayā"
+       },
+       {
+        "w": "u",
+        "gloss": "indeed",
+        "gram": "ind."
+       }
+      ]
+     }
+    },
+    {
+     "field": "english",
+     "where": "whole translation",
+     "problem": "Follows the wrong analysis (see split): four parallel imperatives, not a participial phrase.",
+     "fix": "Seek cattle well for us, as of old; and seek horses and chariots; bestow wealth on the bountiful.",
+     "severity": "error",
+     "patch": [
+      {
+       "n": "186",
+       "op": "set",
+       "field": "english",
+       "value": "Seek cattle well for us, as of old; and seek horses and chariots; bestow wealth on the bountiful."
+      },
+      {
+       "n": "186",
+       "op": "set",
+       "field": "hindi",
+       "value": "हमारे लिए अच्छी तरह गौओं की खोज करो, जैसे पहले; और घोड़ों तथा रथों की खोज करो; उदार (जनों) के लिए धन प्रदान करो।"
+      },
+      {
+       "n": "186",
+       "op": "set",
+       "field": "notes",
+       "value": "Very uncertain. gavyo ṣu ṇo is read gavyā u su naḥ (gavyā, aśvayā, rathayā and varivasyā are parallel lengthened 2 sg. imperatives of denominatives); ṇo is naḥ after ṣu. mahonām is kept as printed (possibly maghonām, see text_flags); its relation to varivasyā is tentative. The addressee is not named. The token purāśvayota is purā + aśvayā + uta."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "187",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "चितकबरी (गायें) / मिश्रित (दूध)",
+     "problem": "Hindi supplies \"cows\" and \"milk\", which neither the English (\"dappled ones\", \"the mixture\") nor the Sanskrit gives.",
+     "fix": "हे इन्द्र, ये तुम्हारी चितकबरी (वे) घी और मिश्रण दुहती हैं, इस ऋत की (धारा से) भरी हुई।",
+     "severity": "minor",
+     "patch": {
+      "n": "187",
+      "op": "set",
+      "field": "hindi",
+      "value": "हे इन्द्र, ये तुम्हारी चितकबरी (वे) घी और मिश्रण दुहती हैं, इस ऋत की (धारा से) भरी हुई।"
+     }
+    }
+   ]
+  },
+  {
+   "n": "188",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "ca not rendered",
+     "problem": "The particle ca (\"and\") is dropped in both languages although it is a word of the line.",
+     "fix": "And with this thought (praise) that seeks cattle, ...",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "188",
+       "op": "replace",
+       "field": "english",
+       "old": "With this thought",
+       "new": "And with this thought"
+      },
+      {
+       "n": "188",
+       "op": "replace",
+       "field": "hindi",
+       "old": "हे बहुत स्तुत, इस",
+       "new": "हे बहुत स्तुत, और इस"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "189",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "accept / चाहे",
+     "problem": "vaṣṭu (√vaś \"desire\") is \"accept\" in English but \"चाहे\" (desire) in Hindi; the two disagree. Use \"desire\" in both.",
+     "fix": "... desire our sacrifice.",
+     "severity": "minor",
+     "patch": {
+      "n": "189",
+      "op": "replace",
+      "field": "english",
+      "old": "accept our sacrifice",
+      "new": "desire our sacrifice"
+     }
+    }
+   ]
+  },
+  {
+   "n": "190",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "191",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "192",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "193",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "split",
+     "where": "pra-netaḥ",
+     "problem": "Not a dictionary form: the vocative of praṇetṛ is praṇetar (r becomes ḥ before s in sandhi).",
+     "fix": "pra-netar",
+     "severity": "minor",
+     "patch": {
+      "n": "193",
+      "op": "word",
+      "match_w": "pra-netaḥ",
+      "field": "w",
+      "value": "pra-netar"
+     }
+    },
+    {
+     "field": "english",
+     "where": "(the chariot of) / रथ पर",
+     "problem": "\"chariot\" is supplied in both languages and \"driver\" in the note; sthātar harīṇām says only \"stander of the bay horses\".",
+     "fix": "O stander of the bay horses.",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "193",
+       "op": "replace",
+       "field": "english",
+       "old": "O stander on (the chariot of) the bay horses",
+       "new": "O stander of the bay horses"
+      },
+      {
+       "n": "193",
+       "op": "replace",
+       "field": "hindi",
+       "old": "हे हरे घोड़ों के रथ पर खड़े रहने वाले",
+       "new": "हे हरे घोड़ों के स्थाता"
+      },
+      {
+       "n": "193",
+       "op": "replace",
+       "field": "notes",
+       "old": "read as 'stander (driver) of the bay horses'",
+       "new": "read as 'stander of the bay horses'"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "summary": "49 units (145-193), all two-line verses; grouping is fine, no regrouping. 6 error and 32 minor issues in 30 units. Main errors: 186 (gavyā u su analysed as nominative gavyaḥ; whole verse retranslated), 160 and 163 (√hū mislabelled √hu), 145 (yavāśiraḥ case), 179 (contested count 'ninety-nine' stated as fact). Others: unsupported additions in Hindi/English (153, 161, 167, 176, 183, 187, 193), Hindi/English disagreements (147, 148, 155, 189), dropped ca (188), sandhi forms left as w (147, 152, 193). Very obscure verses (145, 148, 149, 151, 154, 166, 170, 172, 175, 183, 187) correctly low confidence."
+}

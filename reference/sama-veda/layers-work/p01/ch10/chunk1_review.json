@@ -1,0 +1,1619 @@
+{
+ "units": [
+  {
+   "n": "437",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "अतिशय बलवान",
+     "problem": "Glossary: śaviṣṭha = most mighty (सबसे बलवान); अतिशय is not the fixed rendering.",
+     "fix": "हे सब ओर से देने वाले, हमारे लिए सब ओर से वह ले आओ, जिसे हम तुम सबसे बलवान से माँगते हैं।",
+     "severity": "minor",
+     "patch": {
+      "n": "437",
+      "op": "replace",
+      "field": "hindi",
+      "old": "अतिशय बलवान",
+      "new": "सबसे बलवान"
+     }
+    }
+   ]
+  },
+  {
+   "n": "438",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "यह ब्रह्मा है",
+     "problem": "Glossary: brahmā (priest) is ब्रह्म-पुरोहित in Hindi, not ब्रह्मा (the god).",
+     "fix": "यह ब्रह्म-पुरोहित है, जो ऋतु के अनुकूल है; इन्द्र नाम से प्रसिद्ध उसकी स्तुति की जाती है।",
+     "severity": "error",
+     "patch": {
+      "n": "438",
+      "op": "replace",
+      "field": "hindi",
+      "old": "यह ब्रह्मा है",
+      "new": "यह ब्रह्म-पुरोहित है"
+     }
+    },
+    {
+     "field": "english",
+     "where": "the Brahman, who",
+     "problem": "Glossary: brahman (priest) = Brahman priest.",
+     "fix": "This is the Brahman priest, who is seasonable; the renowned one, Indra by name, is praised.",
+     "severity": "minor",
+     "patch": {
+      "n": "438",
+      "op": "replace",
+      "field": "english",
+      "old": "the Brahman, who",
+      "new": "the Brahman priest, who"
+     }
+    }
+   ]
+  },
+  {
+   "n": "439",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "ब्रह्म-कर्ता पुरोहितों",
+     "problem": "ब्रह्म-कर्ता (\"maker of brahman\") is an unsupported etymological addition; glossary: ब्रह्म-पुरोहित.",
+     "fix": "ब्रह्म-पुरोहितों ने मंत्र-गीतों से इन्द्र की महिमा बढ़ाते हुए उसे सर्प को मारने के लिए बढ़ाया।",
+     "severity": "minor",
+     "patch": {
+      "n": "439",
+      "op": "replace",
+      "field": "hindi",
+      "old": "ब्रह्म-कर्ता पुरोहितों",
+      "new": "ब्रह्म-पुरोहितों"
+     }
+    },
+    {
+     "field": "english",
+     "where": "The priests, glorifying",
+     "problem": "Glossary: brahman (priest) = Brahman priest.",
+     "fix": "The Brahman priests, glorifying Indra with chants, made him grow so as to slay the serpent.",
+     "severity": "minor",
+     "patch": {
+      "n": "439",
+      "op": "replace",
+      "field": "english",
+      "old": "The priests, glorifying",
+      "new": "The Brahman priests, glorifying"
+     }
+    },
+    {
+     "field": "gloss",
+     "where": "brahmāṇaḥ",
+     "problem": "\"makers of sacred words\" is an etymological addition, not in the text.",
+     "fix": "Brahman priests (brahman)",
+     "severity": "minor",
+     "patch": {
+      "n": "439",
+      "op": "word",
+      "match_w": "brahmāṇaḥ",
+      "field": "gloss",
+      "value": "Brahman priests (brahman)"
+     }
+    }
+   ]
+  },
+  {
+   "n": "440",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "The Anavas (?) fashioned",
+     "problem": "English parentheses are only for the Sanskrit term; the doubt belongs in notes and confidence (already there).",
+     "fix": "The Anavas fashioned a chariot for your horse; Tvaṣṭṛ fashioned the bright thunderbolt, O much-invoked one.",
+     "severity": "minor",
+     "patch": {
+      "n": "440",
+      "op": "replace",
+      "field": "english",
+      "old": "The Anavas (?) fashioned",
+      "new": "The Anavas fashioned"
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "हे बहुत पुकारे गए इन्द्र",
+     "problem": "puruhūta is an epithet; Hindi adds the name इन्द्र that the English (and the line) does not have.",
+     "fix": "अनवों ने तुम्हारे घोड़े के लिए रथ गढ़ा; त्वष्टा ने तेजस्वी वज्र गढ़ा, हे बहुत पुकारे गए।",
+     "severity": "minor",
+     "patch": {
+      "n": "440",
+      "op": "replace",
+      "field": "hindi",
+      "old": "हे बहुत पुकारे गए इन्द्र",
+      "new": "हे बहुत पुकारे गए"
+     }
+    }
+   ]
+  },
+  {
+   "n": "441",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gram",
+     "where": "spṛśat",
+     "problem": "A thematic subjunctive has the long vowel (spṛśāt); short spṛśat is the injunctive.",
+     "fix": "3 sg. inj. √spṛś (unaugmented thematic form; a subjunctive would be spṛśāt)",
+     "severity": "minor",
+     "patch": {
+      "n": "441",
+      "op": "word",
+      "match_w": "spṛśat",
+      "field": "gram",
+      "value": "3 sg. inj. √spṛś (unaugmented thematic form; a subjunctive would be spṛśāt)"
+     }
+    }
+   ]
+  },
+  {
+   "n": "442",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "सदा निर्दोष देवता",
+     "problem": "Glossary: deva (pl.) Hindi = देवगण; तेज is reserved for varcas, śuci = bright/pure is उज्ज्वल.",
+     "fix": "सदा उज्ज्वल, सबका पोषण करने वाली गायें; सदा निर्दोष देवगण।",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "442",
+       "op": "replace",
+       "field": "hindi",
+       "old": "सदा निर्दोष देवता",
+       "new": "सदा निर्दोष देवगण"
+      },
+      {
+       "n": "442",
+       "op": "replace",
+       "field": "hindi",
+       "old": "सदा तेजस्वी,",
+       "new": "सदा उज्ज्वल,"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "443",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "444",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "445",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "446",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "वृत्र को सबसे अधिक मारने वाले, मेधावी इन्द्र",
+     "problem": "Glossary: vipra = प्रेरित मेधावी; vṛtrahantama = best slayer of Vṛtra (सबसे अधिक मारने वाले misreads the superlative).",
+     "fix": "वृत्र के सर्वश्रेष्ठ संहारक, प्रेरित मेधावी इन्द्र के लिए वह गीत गाओ, जिसे वह पसन्द करता है।",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "446",
+       "op": "replace",
+       "field": "hindi",
+       "old": "वृत्र को सबसे अधिक मारने वाले, मेधावी इन्द्र",
+       "new": "वृत्र के सर्वश्रेष्ठ संहारक, प्रेरित मेधावी इन्द्र"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "447",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "448",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "शरण देने वाले",
+     "problem": "Glossary: varūtha = shelter (आश्रय).",
+     "fix": "हे अग्नि, तुम हमारे सबसे निकट और रक्षक हो; कल्याणकारी बनो, आश्रय देने वाले बनो।",
+     "severity": "minor",
+     "patch": {
+      "n": "448",
+      "op": "replace",
+      "field": "hindi",
+      "old": "शरण देने वाले",
+      "new": "आश्रय देने वाले"
+     }
+    }
+   ]
+  },
+  {
+   "n": "449",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "रत्न (धन)",
+     "problem": "Hindi has no parentheses; रत्न already translates ratnam, (धन) is an added gloss.",
+     "fix": "भग के समान अद्भुत अग्नि उदार जनों का रत्न प्रदान करता है।",
+     "severity": "error",
+     "patch": {
+      "n": "449",
+      "op": "replace",
+      "field": "hindi",
+      "old": "रत्न (धन)",
+      "new": "रत्न"
+     }
+    },
+    {
+     "field": "gloss",
+     "where": "bhagaḥ",
+     "problem": "LAYER_NOTES: gloss \"name of ...\" with the role only if the line states it; \"the bestower\" is imported.",
+     "fix": "Bhaga (a name)",
+     "severity": "minor",
+     "patch": {
+      "n": "449",
+      "op": "word",
+      "match_w": "bhagaḥ",
+      "field": "gloss",
+      "value": "Bhaga (a name)"
+     }
+    },
+    {
+     "field": "notes",
+     "where": "Bhaga is read as the name of the god of fortune; 'bestower, share' is possible.",
+     "problem": "The note imports the god of fortune from outside the line.",
+     "fix": "mahonām is uncertain (gen. pl. 'of the bountiful/mighty'); 'treasure of the bountiful' vs 'treasure for the bountiful' not settled. Bhaga is read as a name; 'bestower, share' is also possible.",
+     "severity": "minor",
+     "patch": {
+      "n": "449",
+      "op": "replace",
+      "field": "notes",
+      "old": "Bhaga is read as the name of the god of fortune; 'bestower, share' is possible.",
+      "new": "Bhaga is read as a name; 'bestower, share' is also possible."
+     }
+    }
+   ]
+  },
+  {
+   "n": "450",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "whole hindi",
+     "problem": "Hindi: \"(?)\" is not allowed (no parentheses, no placeholder); doubt belongs in notes and confidence.",
+     "fix": "सबका; आगे; स्तोभ; आगे, या; होते हुए; यदि; या यहाँ; अभी।",
+     "severity": "error",
+     "patch": {
+      "n": "450",
+      "op": "set",
+      "field": "hindi",
+      "value": "सबका; आगे; स्तोभ; आगे, या; होते हुए; यदि; या यहाँ; अभी।"
+     }
+    },
+    {
+     "field": "english",
+     "where": "whole english",
+     "problem": "\"...\" placeholders in the English; give the clear words literally without gaps.",
+     "fix": "Of all; forth; stobha; in front, or; being; if; or here; now.",
+     "severity": "minor",
+     "patch": {
+      "n": "450",
+      "op": "set",
+      "field": "english",
+      "value": "Of all; forth; stobha; in front, or; being; if; or here; now."
+     }
+    }
+   ]
+  },
+  {
+   "n": "451",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "अपनी बहन (रात्रि) के",
+     "problem": "Hindi has no parentheses; the sister = Night is already in notes (\"not stated in the line\").",
+     "fix": "उषा अपनी बहन के अन्धकार को हटा देती है; उत्तम जन्म वाली वह मार्ग को घुमाती है।",
+     "severity": "error",
+     "patch": {
+      "n": "451",
+      "op": "replace",
+      "field": "hindi",
+      "old": "अपनी बहन (रात्रि) के",
+      "new": "अपनी बहन के"
+     }
+    }
+   ]
+  },
+  {
+   "n": "452",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "सब देवता",
+     "problem": "Glossary: deva (pl.) Hindi = देवगण.",
+     "fix": "हम अब इन लोकों को सुखपूर्वक सिद्ध करें, और इन्द्र तथा सब देवगण।",
+     "severity": "minor",
+     "patch": {
+      "n": "452",
+      "op": "replace",
+      "field": "hindi",
+      "old": "सब देवता",
+      "new": "सब देवगण"
+     }
+    }
+   ]
+  },
+  {
+   "n": "453",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "As streams (go) along paths",
+     "problem": "English parentheses only for the Sanskrit term.",
+     "fix": "As streams go along paths, so may gifts spread out from you, O Indra.",
+     "severity": "minor",
+     "patch": {
+      "n": "453",
+      "op": "replace",
+      "field": "english",
+      "old": "As streams (go) along paths",
+      "new": "As streams go along paths"
+     }
+    }
+   ]
+  },
+  {
+   "n": "454",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "इस (स्तुति) से हम देवों द्वारा स्थापित पुरस्कार (बल) प्राप्त करें",
+     "problem": "Hindi has no parentheses; \"(स्तुति)\" is an added noun (notes: not stated); glossary: vāja is always वाज in Hindi.",
+     "fix": "इससे हम देवों द्वारा स्थापित वाज प्राप्त करें; हम उत्तम वीरों से युक्त होकर सौ वर्ष हर्षित रहें।",
+     "severity": "error",
+     "patch": {
+      "n": "454",
+      "op": "replace",
+      "field": "hindi",
+      "old": "इस (स्तुति) से हम देवों द्वारा स्थापित पुरस्कार (बल) प्राप्त करें",
+      "new": "इससे हम देवों द्वारा स्थापित वाज प्राप्त करें"
+     }
+    }
+   ]
+  },
+  {
+   "n": "455",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "whole hindi",
+     "problem": "Hindi has no parentheses; \"(तृप्तिकर पेयों)\" is an added gloss; glossary: iṣ = refreshment (पोषण), so अन्न is wrong.",
+     "fix": "मित्र और वरुण बल से इडाओं को बढ़ाते हैं; हे इन्द्र, हमारे लिए प्रचुर पोषण बनाओ।",
+     "severity": "error",
+     "patch": {
+      "n": "455",
+      "op": "set",
+      "field": "hindi",
+      "value": "मित्र और वरुण बल से इडाओं को बढ़ाते हैं; हे इन्द्र, हमारे लिए प्रचुर पोषण बनाओ।"
+     }
+    },
+    {
+     "field": "english",
+     "where": "make the refreshments swell",
+     "problem": "Glossary: iṣ = refreshment; \"nourishment\" is not the fixed rendering, and \"refreshments\" for iḍāḥ would collide with it.",
+     "fix": "Mitra and Varuṇa make the iḍās swell with vigour; make abundant refreshment for us, O Indra.",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "455",
+       "op": "replace",
+       "field": "english",
+       "old": "make the refreshments swell",
+       "new": "make the iḍās swell"
+      },
+      {
+       "n": "455",
+       "op": "replace",
+       "field": "english",
+       "old": "make abundant nourishment",
+       "new": "make abundant refreshment"
+      }
+     ]
+    },
+    {
+     "field": "gloss",
+     "where": "iṣam",
+     "problem": "Glossary: iṣ = refreshment.",
+     "fix": "refreshment",
+     "severity": "minor",
+     "patch": {
+      "n": "455",
+      "op": "word",
+      "match_w": "iṣam",
+      "field": "gloss",
+      "value": "refreshment"
+     }
+    },
+    {
+     "field": "gloss",
+     "where": "iḍāḥ",
+     "problem": "Distinguish iḍā from iṣ (refreshment).",
+     "fix": "iḍās (refreshment draughts)",
+     "severity": "minor",
+     "patch": {
+      "n": "455",
+      "op": "word",
+      "match_w": "iḍāḥ",
+      "field": "gloss",
+      "value": "iḍās (refreshment draughts)"
+     }
+    }
+   ]
+  },
+  {
+   "n": "456",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "457",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "may the true god Indu follow him",
+     "problem": "Glossary: indu = drop; \"Indu\" is not a name here and \"(the drop, Soma)\" adds Soma.",
+     "fix": "In the Trikadrukas the mighty, very strong one, delighting, drank at his pleasure the barley-mixed Soma pressed along with Viṣṇu. He rejoiced to do the great deed, the great and wide one; may the god, the true drop, follow him, the god, the true Indra.",
+     "severity": "error",
+     "patch": {
+      "n": "457",
+      "op": "replace",
+      "field": "english",
+      "old": "may the true god Indu follow him",
+      "new": "may the god, the true drop, follow him"
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "सत्य देव इन्दु उस देव",
+     "problem": "Glossary: indu = drop (बूँद); devaḥ and satya induḥ are two nominatives, not \"true god Indu\".",
+     "fix": "त्रिकद्रुकों में महान् और अत्यन्त बलवान् ने तृप्त होकर, विष्णु के साथ निचोड़े गए जौ-मिले सोम को इच्छानुसार पिया। वह महान् कर्म करने के लिए उल्लसित हुआ, उस महान् और विशाल को; वह देव, सत्य बूँद, उस देव, सत्य इन्द्र का साथ दे।",
+     "severity": "error",
+     "patch": {
+      "n": "457",
+      "op": "replace",
+      "field": "hindi",
+      "old": "सत्य देव इन्दु उस देव",
+      "new": "वह देव, सत्य बूँद, उस देव"
+     }
+    },
+    {
+     "field": "gloss",
+     "where": "induḥ",
+     "problem": "Glossary: indu = drop (no Soma added).",
+     "fix": "drop",
+     "severity": "error",
+     "patch": {
+      "n": "457",
+      "op": "word",
+      "match_w": "induḥ",
+      "field": "gloss",
+      "value": "drop"
+     }
+    }
+   ]
+  },
+  {
+   "n": "458",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "यह सहस्र ... कवियों",
+     "problem": "Hindi: no placeholder dots for unclear text.",
+     "fix": "यह सहस्र, कवियों की दृष्टि, मति, ज्योति और आधार है; उस ब्रध्न ने मिली हुई, निर्दोष, एकमन उषाओं को गति दी; स्फूर्तिमान् लोग गौ के ज्ञान से निवास में।",
+     "severity": "error",
+     "patch": {
+      "n": "458",
+      "op": "replace",
+      "field": "hindi",
+      "old": "यह सहस्र ... कवियों",
+      "new": "यह सहस्र, कवियों"
+     }
+    },
+    {
+     "field": "english",
+     "where": "a thousand ..., the sight of the poets",
+     "problem": "English marks unclear text \"[unclear]\"; glossary: kavi = seer.",
+     "fix": "This one, a thousand [unclear], the sight of the seers, the thought, the light and the support; the ruddy one set in motion the joined, faultless, like-minded dawns, in the abode; the spirited ones, by the knowledge of the cow.",
+     "severity": "minor",
+     "patch": {
+      "n": "458",
+      "op": "replace",
+      "field": "english",
+      "old": "a thousand ..., the sight of the poets",
+      "new": "a thousand [unclear], the sight of the seers"
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "उस ब्रध्न ने",
+     "problem": "Untranslated Sanskrit word in Hindi; the English renders bradhnaḥ \"ruddy one\".",
+     "fix": "यह सहस्र ... कवियों की दृष्टि, मति, ज्योति और आधार है; उस लाल रंग वाले ने मिली हुई, निर्दोष, एकमन उषाओं को गति दी; स्फूर्तिमान् लोग गौ के ज्ञान से निवास में।",
+     "severity": "minor",
+     "patch": {
+      "n": "458",
+      "op": "replace",
+      "field": "hindi",
+      "old": "उस ब्रध्न ने",
+      "new": "उस लाल रंग वाले ने"
+     }
+    },
+    {
+     "field": "gloss",
+     "where": "kavīnām",
+     "problem": "Glossary: kavi = seer.",
+     "fix": "of the seers",
+     "severity": "minor",
+     "patch": {
+      "n": "458",
+      "op": "word",
+      "match_w": "kavīnām",
+      "field": "gloss",
+      "value": "of the seers"
+     }
+    },
+    {
+     "field": "gram",
+     "where": "dṛśaḥ",
+     "problem": "gram says f. gen. sg./nom. pl., but both layers translate it as a nominative singular (\"the sight\"). Either the number or the translation must change.",
+     "fix": "Decide: \"the sights of the seers\" (nom. pl.) or relabel the gram.",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "459",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "this man [goes] toward the rites like a lord of the good, like an archer, like a king, a lord of the good.",
+     "problem": "\"[goes]\" is an added verb and \"like an archer\" has no iva: the only comparatives are vidathāni iva and rājā iva. The half-verse is uncertain, so keep it literal.",
+     "fix": "Come, Indra, near to us from afar; this man toward, like rites, the lord of the good, the archer, like a king, the lord of the good. With offerings we call you here at the pressings, as sons call a father, for the winning of the prize—you, the most bountiful, for the winning of the prize.",
+     "severity": "error",
+     "patch": {
+      "n": "459",
+      "op": "replace",
+      "field": "english",
+      "old": "this man [goes] toward the rites like a lord of the good, like an archer, like a king, a lord of the good.",
+      "new": "this man toward, like rites, the lord of the good, the archer, like a king, the lord of the good."
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "यह पुरुष विदथों (यज्ञ-सभाओं) की ओर सत्पति के समान, धनुर्धर के समान, राजा के समान सत्पति है।",
+     "problem": "Hindi has no parentheses; \"धनुर्धर के समान\" and the supplied है have no iva/verb in the text; glossary puruṣa = the Puruṣa, so nā is not पुरुष.",
+     "fix": "हे इन्द्र, दूर से हमारे पास आओ; यह मनुष्य यज्ञों की ओर, यज्ञों के समान, सज्जनों का स्वामी, धनुर्धर; राजा के समान सज्जनों का स्वामी। हम हविवाले सोम-निष्पादनों पर तुम्हें बुलाते हैं, जैसे पुत्र पिता को, वाज की प्राप्ति के लिए, अत्यन्त उदार को, वाज की प्राप्ति के लिए।",
+     "severity": "error",
+     "patch": {
+      "n": "459",
+      "op": "replace",
+      "field": "hindi",
+      "old": "यह पुरुष विदथों (यज्ञ-सभाओं) की ओर सत्पति के समान, धनुर्धर के समान, राजा के समान सत्पति है।",
+      "new": "यह मनुष्य यज्ञों की ओर, यज्ञों के समान, सज्जनों का स्वामी, धनुर्धर; राजा के समान सज्जनों का स्वामी।"
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "सोम-निष्पादनों पर",
+     "problem": "\"सोम\" is not in suteṣu.",
+     "fix": "हे इन्द्र, दूर से हमारे पास आओ; यह पुरुष विदथों (यज्ञ-सभाओं) की ओर सत्पति के समान, धनुर्धर के समान, राजा के समान सत्पति है। हम हविवाले निचोड़े जाने के अवसरों पर तुम्हें बुलाते हैं, जैसे पुत्र पिता को, वाज की प्राप्ति के लिए, अत्यन्त उदार को, वाज की प्राप्ति के लिए।",
+     "severity": "minor",
+     "patch": {
+      "n": "459",
+      "op": "replace",
+      "field": "hindi",
+      "old": "सोम-निष्पादनों पर",
+      "new": "निचोड़े जाने के अवसरों पर"
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "अत्यन्त उदार को, वाज",
+     "problem": "Glossary: maṃhiṣṭha = सबसे उदार.",
+     "fix": "हे इन्द्र, दूर से हमारे पास आओ; यह पुरुष विदथों (यज्ञ-सभाओं) की ओर सत्पति के समान, धनुर्धर के समान, राजा के समान सत्पति है। हम हविवाले सोम-निष्पादनों पर तुम्हें बुलाते हैं, जैसे पुत्र पिता को, वाज की प्राप्ति के लिए, सबसे उदार को, वाज की प्राप्ति के लिए।",
+     "severity": "minor",
+     "patch": {
+      "n": "459",
+      "op": "replace",
+      "field": "hindi",
+      "old": "अत्यन्त उदार को, वाज",
+      "new": "सबसे उदार को, वाज"
+     }
+    }
+   ]
+  },
+  {
+   "n": "460",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "who holds all things together, who cannot be turned back, of abundant glories",
+     "problem": "\"all things\" is invented: the object of dadhānam is śravāṃsi (glories); bhūriḥ is a separate nominative.",
+     "fix": "Him, Indra, I call, the bountiful, the mighty, holding glories altogether, not to be turned back, abundant. The most bountiful, worthy of worship through songs, has turned hither; may the wielder of the thunderbolt make all paths good for our wealth.",
+     "severity": "error",
+     "patch": {
+      "n": "460",
+      "op": "replace",
+      "field": "english",
+      "old": "who holds all things together, who cannot be turned back, of abundant glories",
+      "new": "holding glories altogether, not to be turned back, abundant"
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "जो सब कुछ धारण करता है, जिसे कोई रोक नहीं सकता, जो बहुत यश वाला है",
+     "problem": "Same invented \"सब कुछ\"; śravāṃsi is the object.",
+     "fix": "उस इन्द्र को मैं पुकारता हूँ, उदार, उग्र को, जो यशों को पूर्णतः धारण करता है, जिसे कोई पीछे नहीं हटा सकता, जो प्रचुर है। अत्यन्त उदार, स्तुतियों से पूजनीय वह इधर लौट आया है; वज्रधारी हमारे धन के लिए सब मार्ग सुगम करे।",
+     "severity": "error",
+     "patch": {
+      "n": "460",
+      "op": "replace",
+      "field": "hindi",
+      "old": "जो सब कुछ धारण करता है, जिसे कोई रोक नहीं सकता, जो बहुत यश वाला है",
+      "new": "जो यशों को पूर्णतः धारण करता है, जिसे कोई पीछे नहीं हटा सकता, जो प्रचुर है"
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "अत्यन्त उदार, स्तुतियों",
+     "problem": "Glossary: maṃhiṣṭha = सबसे उदार.",
+     "fix": "उस इन्द्र को मैं पुकारता हूँ, उदार, उग्र को, जो सब कुछ धारण करता है, जिसे कोई रोक नहीं सकता, जो बहुत यश वाला है। सबसे उदार, स्तुतियों से पूजनीय वह इधर लौट आया है; वज्रधारी हमारे धन के लिए सब मार्ग सुगम करे।",
+     "severity": "minor",
+     "patch": {
+      "n": "460",
+      "op": "replace",
+      "field": "hindi",
+      "old": "अत्यन्त उदार, स्तुतियों",
+      "new": "सबसे उदार, स्तुतियों"
+     }
+    }
+   ]
+  },
+  {
+   "n": "461",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "doing [the rite] for",
+     "problem": "\"[the rite]\" is an added object; the line has none.",
+     "fix": "Let it be \"śrauṣaṭ\". With prayer I set Agni in front; now we choose that divine strength, we choose Indra and Vāyu. When, doing for the shining one, having bound at the navel for the newer one—then now the prayers go toward the gods, like prayers.",
+     "severity": "minor",
+     "patch": {
+      "n": "461",
+      "op": "replace",
+      "field": "english",
+      "old": "doing [the rite] for",
+      "new": "doing for"
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "विवस्वान् के लिए",
+     "problem": "English renders vivasvate \"the shining one\"; Hindi must match (notes: Vivasvat vs. epithet is open).",
+     "fix": "'श्रौषट्' हो; मैं प्रार्थना से अग्नि को आगे स्थापित करता हूँ; अब हम उस दिव्य बल को चुनते हैं, इन्द्र और वायु को चुनते हैं। जब दीप्तिमान के लिए कार्य करते हुए, नाभि पर बाँधकर, नवीन के लिए; तब अब प्रार्थनाएँ देवों की ओर जाती हैं, मानो प्रार्थनाएँ।",
+     "severity": "minor",
+     "patch": {
+      "n": "461",
+      "op": "replace",
+      "field": "hindi",
+      "old": "विवस्वान् के लिए",
+      "new": "दीप्तिमान के लिए"
+     }
+    },
+    {
+     "field": "text_flags",
+     "where": "śrauṣṭpuro",
+     "problem": "The word is entered as śrauṣaṭ though src has śrauṣṭ; the notes explain it, but the rule is a text_flags entry.",
+     "fix": "Add text_flags entry: src śrauṣṭpuro, suggest śrauṣaṭ puraḥ, why \"Sāmaveda spelling of the call śrauṣaṭ\".",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "462",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "the mountain-born (hymns) of Evayāmarut",
+     "problem": "Parenthesised \"(hymns)\" and \"of\": evayāmarut is a nominative in the draft's own gram, so \"of Evayāmarut\" is unsupported.",
+     "fix": "Let your hymns go forth to the great Viṣṇu, to the one accompanied by the Maruts; the mountain-born ones, Evayāmarut; forth to the host, forth to the worthy of worship, to the one with fair armlets, to the strong, to the one of joyful desire, to the one whose ways are stormy, to the powerful.",
+     "severity": "error",
+     "patch": {
+      "n": "462",
+      "op": "replace",
+      "field": "english",
+      "old": "the mountain-born (hymns) of Evayāmarut",
+      "new": "the mountain-born ones, Evayāmarut"
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "पर्वत से उत्पन्न एवयामरुत् की भी",
+     "problem": "\"की भी\" is added; evayāmarut is nominative.",
+     "fix": "तुम्हारी स्तुतियाँ महान् विष्णु और मरुतों वाले के पास जाएँ; पर्वत से उत्पन्न, एवयामरुत्; तुम्हारी स्तुतियाँ सेना के पास, पूजनीय के पास, सुन्दर आभूषणों वाले के पास, बलवान् के पास, आनन्दमय अभिलाषा वाले के पास, काँपते-हिलते व्रत वाले के पास, शक्तिशाली के पास जाएँ।",
+     "severity": "minor",
+     "patch": {
+      "n": "462",
+      "op": "replace",
+      "field": "hindi",
+      "old": "पर्वत से उत्पन्न एवयामरुत् की भी",
+      "new": "पर्वत से उत्पन्न, एवयामरुत्"
+     }
+    },
+    {
+     "field": "notes",
+     "where": "notes",
+     "problem": "The link between girijāḥ and evayāmarut is the real doubt and should be recorded.",
+     "fix": "girijā evayāmarut: how the two nominatives relate is unclear; both are kept literal, with no \"hymns of ...\".",
+     "severity": "minor",
+     "patch": {
+      "n": "462",
+      "op": "append_note",
+      "text": "girijā evayāmarut: how the two nominatives relate is unclear; both are kept literal, with no \"hymns of ...\"."
+     }
+    }
+   ]
+  },
+  {
+   "n": "463",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "इस सुनहरी दीप्ति",
+     "problem": "Glossary: hari = tawny/brown (भूरा/लाल-भूरा), not \"golden\"; aruṣaḥ punānaḥ hariḥ are masculine and cannot qualify the feminine dhārā.",
+     "fix": "इस भूरी दीप्ति से शुद्ध होता हुआ वह अपने सहयोगियों के साथ सब शत्रुताओं को पार कर जाता है, जैसे सूर्य अपने सहयोगियों के साथ। पीठ की धारा चमकती है, शुद्ध होता हुआ, लाल और भूरा। जब तुम सब रूपों के चारों ओर गायकों के साथ जाते हो, सात मुखों वाले गायकों के साथ।",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "463",
+       "op": "replace",
+       "field": "hindi",
+       "old": "इस सुनहरी दीप्ति",
+       "new": "इस भूरी दीप्ति"
+      },
+      {
+       "n": "463",
+       "op": "replace",
+       "field": "hindi",
+       "old": "शुद्ध होती हुई, लाल-सी और सुनहरी।",
+       "new": "शुद्ध होता हुआ, लाल और भूरा।"
+      }
+     ]
+    },
+    {
+     "field": "english",
+     "where": "shines, purified, ruddy and tawny.",
+     "problem": "aruṣaḥ, hariḥ, punānaḥ are masculine, dhārā is feminine: they are not adjectives of the stream.",
+     "fix": "Being purified with this tawny lustre, he crosses all hostilities with his yoke-fellows, like the sun with yoke-fellows. The stream of the back shines; the purified one, ruddy and tawny. When you go around all forms with the singers, with the seven-mouthed singers.",
+     "severity": "minor",
+     "patch": {
+      "n": "463",
+      "op": "replace",
+      "field": "english",
+      "old": "shines, purified, ruddy and tawny.",
+      "new": "shines; the purified one, ruddy and tawny."
+     }
+    },
+    {
+     "field": "gram",
+     "where": "sa-yugvabhiḥ",
+     "problem": "sayugvan is itself the noun \"yoke-fellow\".",
+     "fix": "m. inst. pl. (sa-yugvan, 'yoke-fellow'; one word, not a bahuvrīhi)",
+     "severity": "minor",
+     "patch": {
+      "n": "463",
+      "op": "word",
+      "match_w": "sa-yugvabhiḥ",
+      "field": "gram",
+      "value": "m. inst. pl. (sa-yugvan, 'yoke-fellow'; one word, not a bahuvrīhi)",
+      "occurrence": "all"
+     }
+    }
+   ]
+  },
+  {
+   "n": "464",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "of the two (worlds?), of a poet's will",
+     "problem": "English parentheses only for the Sanskrit term; \"worlds\" is a guess (notes already say so); glossary: kavi = seer.",
+     "fix": "I praise that god Savitṛ, of the two, of a seer's will, of true impulse, the treasure-bestower, and [direct] a dear hymn toward him. Whose uplifted radiance and light shone in his impulse; the golden-handed one of good will measured out the light of heaven with his form.",
+     "severity": "error",
+     "patch": {
+      "n": "464",
+      "op": "replace",
+      "field": "english",
+      "old": "of the two (worlds?), of a poet's will",
+      "new": "of the two, of a seer's will"
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "दोनों लोकों में (?),",
+     "problem": "Hindi: no \"(?)\", no parentheses.",
+     "fix": "उस देव सविता को, दोनों के, कवि-संकल्प वाले, सत्य प्रेरणा वाले, रत्न देने वाले को मैं स्तुति करता हूँ, और उसकी ओर प्रिय स्तुति (भेजता हूँ)। जिसकी ऊँची दीप्ति और प्रभा प्रेरणा में चमकी; सुनहरे हाथों वाले सुसंकल्पी ने अपने रूप से सूर्य के प्रकाश को नापा।",
+     "severity": "error",
+     "patch": {
+      "n": "464",
+      "op": "replace",
+      "field": "hindi",
+      "old": "दोनों लोकों में (?),",
+      "new": "दोनों के,"
+     }
+    },
+    {
+     "field": "english",
+     "where": "and [direct] a dear hymn toward him",
+     "problem": "\"[direct]\" and \"him\" are added; the text has only abhi priyaṃ matim.",
+     "fix": "I praise that god Savitṛ, of the two (worlds?), of a poet's will, of true impulse, the treasure-bestower, and toward the dear hymn. Whose uplifted radiance and light shone in his impulse; the golden-handed one of good will measured out the light of heaven with his form.",
+     "severity": "minor",
+     "patch": {
+      "n": "464",
+      "op": "replace",
+      "field": "english",
+      "old": "and [direct] a dear hymn toward him",
+      "new": "and toward the dear hymn"
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "और उसकी ओर प्रिय स्तुति (भेजता हूँ)",
+     "problem": "Hindi has no parentheses; \"(भेजता हूँ)\" supplies a verb.",
+     "fix": "उस देव सविता को, दोनों लोकों में (?), कवि-संकल्प वाले, सत्य प्रेरणा वाले, रत्न देने वाले को मैं स्तुति करता हूँ, और प्रिय स्तुति की ओर। जिसकी ऊँची दीप्ति और प्रभा प्रेरणा में चमकी; सुनहरे हाथों वाले सुसंकल्पी ने अपने रूप से सूर्य के प्रकाश को नापा।",
+     "severity": "error",
+     "patch": {
+      "n": "464",
+      "op": "replace",
+      "field": "hindi",
+      "old": "और उसकी ओर प्रिय स्तुति (भेजता हूँ)",
+      "new": "और प्रिय स्तुति की ओर"
+     }
+    },
+    {
+     "field": "gloss",
+     "where": "oṇyoḥ",
+     "problem": "Gloss guessed \"worlds\".",
+     "fix": "of the two; referent uncertain",
+     "severity": "minor",
+     "patch": {
+      "n": "464",
+      "op": "word",
+      "match_w": "oṇyoḥ",
+      "field": "gloss",
+      "value": "of the two; referent uncertain"
+     }
+    },
+    {
+     "field": "gloss",
+     "where": "kavi-kratum",
+     "problem": "Glossary: kavi = seer.",
+     "fix": "of a seer's will",
+     "severity": "minor",
+     "patch": {
+      "n": "464",
+      "op": "word",
+      "match_w": "kavi-kratum",
+      "field": "gloss",
+      "value": "of a seer's will"
+     }
+    }
+   ]
+  },
+  {
+   "n": "465",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "the son of wealth (?) and of strength",
+     "problem": "No \"(?)\" in the translation; doubt is in notes.",
+     "fix": "I honour Agni, the Hotṛ, the bountiful, the son of wealth and of strength, Jātavedas, like a sage, Jātavedas; who, the god, a good sacrificer, with upward form directed to the gods— after the flame of the ghee, of the bright-flamed, of the butter being poured.",
+     "severity": "error",
+     "patch": {
+      "n": "465",
+      "op": "replace",
+      "field": "english",
+      "old": "the son of wealth (?) and of strength",
+      "new": "the son of wealth and of strength"
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "वसु के (?) पुत्र को",
+     "problem": "Hindi: no \"(?)\"; vasoḥ is \"of wealth\" per the draft's own gram, and वसु is a name (glossary: vaso = good one).",
+     "fix": "मैं अग्नि को, होता को, उदार को, धन के पुत्र को, बल के पुत्र जातवेदा को, ज्ञानी की तरह जातवेदा को पूजता हूँ। जो देव, उत्तम यज्ञकर्ता, ऊपर की ओर और देवों की ओर बढ़ते हुए रूप से (है); घी की ज्वाला के पीछे, उज्ज्वल ज्वाला वाले, डाले जा रहे घृत की।",
+     "severity": "error",
+     "patch": {
+      "n": "465",
+      "op": "replace",
+      "field": "hindi",
+      "old": "वसु के (?) पुत्र को",
+      "new": "धन के पुत्र को"
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "रूप से (है);",
+     "problem": "Hindi has no parentheses; the supplied \"(है)\" is added.",
+     "fix": "मैं अग्नि को, होता को, उदार को, वसु के (?) पुत्र को, बल के पुत्र जातवेदा को, ज्ञानी की तरह जातवेदा को पूजता हूँ। जो देव, उत्तम यज्ञकर्ता, ऊपर की ओर और देवों की ओर बढ़ते हुए रूप से; घी की ज्वाला के पीछे, उज्ज्वल ज्वाला वाले, डाले जा रहे घृत की।",
+     "severity": "error",
+     "patch": {
+      "n": "465",
+      "op": "replace",
+      "field": "hindi",
+      "old": "रूप से (है);",
+      "new": "रूप से;"
+     }
+    },
+    {
+     "field": "english",
+     "where": "like a sage, Jātavedas",
+     "problem": "Glossary: vipra = the inspired one, distinct from ṛṣi = sage; manye is \"I think of/regard\", \"honour\" is an addition.",
+     "fix": "I think of Agni, the Hotṛ, the bountiful, the son of wealth (?) and of strength, Jātavedas, like an inspired one, Jātavedas; who, the god, a good sacrificer, with upward form directed to the gods— after the flame of the ghee, of the bright-flamed, of the butter being poured.",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "465",
+       "op": "replace",
+       "field": "english",
+       "old": "like a sage, Jātavedas",
+       "new": "like an inspired one, Jātavedas"
+      },
+      {
+       "n": "465",
+       "op": "replace",
+       "field": "english",
+       "old": "I honour Agni",
+       "new": "I think of Agni"
+      }
+     ]
+    },
+    {
+     "field": "hindi",
+     "where": "ज्ञानी की तरह",
+     "problem": "Glossary: vipra = प्रेरित मेधावी; manye is not \"worship\".",
+     "fix": "मैं अग्नि को, होता को, उदार को, वसु के (?) पुत्र को, बल के पुत्र जातवेदा को, प्रेरित मेधावी की तरह जातवेदा को स्मरण करता हूँ। जो देव, उत्तम यज्ञकर्ता, ऊपर की ओर और देवों की ओर बढ़ते हुए रूप से (है); घी की ज्वाला के पीछे, उज्ज्वल ज्वाला वाले, डाले जा रहे घृत की।",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "465",
+       "op": "replace",
+       "field": "hindi",
+       "old": "ज्ञानी की तरह",
+       "new": "प्रेरित मेधावी की तरह"
+      },
+      {
+       "n": "465",
+       "op": "replace",
+       "field": "hindi",
+       "old": "पूजता हूँ",
+       "new": "स्मरण करता हूँ"
+      }
+     ]
+    },
+    {
+     "field": "gloss",
+     "where": "vipram",
+     "problem": "Glossary: vipra = the inspired one (not sage).",
+     "fix": "the inspired one",
+     "severity": "minor",
+     "patch": {
+      "n": "465",
+      "op": "word",
+      "match_w": "vipram",
+      "field": "gloss",
+      "value": "the inspired one"
+     }
+    },
+    {
+     "field": "gloss",
+     "where": "manye",
+     "problem": "\"honour\" is an addition.",
+     "fix": "I think of, regard",
+     "severity": "minor",
+     "patch": {
+      "n": "465",
+      "op": "word",
+      "match_w": "manye",
+      "field": "gloss",
+      "value": "I think of, regard"
+     }
+    }
+   ]
+  },
+  {
+   "n": "466",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "हे नर्तक (क्रियाशील) इन्द्र",
+     "problem": "Hindi has no parentheses.",
+     "fix": "हे नर्तक इन्द्र, तुम्हारा वह पुरुषोचित कर्म, पहला, प्राचीन, स्वर्ग में घोषणा योग्य, किया गया; तुमने, देव की शक्ति से, प्राण को छोड़ा और जलों को बहाया। तुमने बल से हर अदेव को पराजित किया; शतक्रतु ने ऊर्जा पाई, उसने अन्न पाया।",
+     "severity": "error",
+     "patch": {
+      "n": "466",
+      "op": "replace",
+      "field": "hindi",
+      "old": "हे नर्तक (क्रियाशील) इन्द्र",
+      "new": "हे नर्तक इन्द्र"
+     }
+    },
+    {
+     "field": "english",
+     "where": "O active one, Indra",
+     "problem": "Hindi says नर्तक (dancer); both layers must give one sense, and nṛtu = dancer is the lexical sense.",
+     "fix": "That manly deed of yours, O dancer, Indra—the first, the ancient, to be proclaimed in heaven—was done; you who by the power of the god released life, letting the waters flow, you overcame every godless one with might; the hundred-willed one found vigour, found nourishment.",
+     "severity": "minor",
+     "patch": {
+      "n": "466",
+      "op": "replace",
+      "field": "english",
+      "old": "O active one, Indra",
+      "new": "O dancer, Indra"
+     }
+    },
+    {
+     "field": "english",
+     "where": "the hundred-willed one found vigour, found nourishment",
+     "problem": "Glossary: śatakratu = hundred-powered; iṣ = refreshment.",
+     "fix": "That manly deed of yours, O active one, Indra—the first, the ancient, to be proclaimed in heaven—was done; you who by the power of the god released life, letting the waters flow, you overcame every godless one with might; the hundred-powered one found vigour, found refreshment.",
+     "severity": "minor",
+     "patch": {
+      "n": "466",
+      "op": "replace",
+      "field": "english",
+      "old": "the hundred-willed one found vigour, found nourishment",
+      "new": "the hundred-powered one found vigour, found refreshment"
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "शतक्रतु ने ऊर्जा पाई, उसने अन्न पाया",
+     "problem": "Glossary: śatakratu = सौ शक्तियों वाला; iṣ = पोषण.",
+     "fix": "हे नर्तक (क्रियाशील) इन्द्र, तुम्हारा वह पुरुषोचित कर्म, पहला, प्राचीन, स्वर्ग में घोषणा योग्य, किया गया; तुमने, देव की शक्ति से, प्राण को छोड़ा और जलों को बहाया। तुमने बल से हर अदेव को पराजित किया; सौ शक्तियों वाले ने ऊर्जा पाई, उसने पोषण पाया।",
+     "severity": "minor",
+     "patch": {
+      "n": "466",
+      "op": "replace",
+      "field": "hindi",
+      "old": "शतक्रतु ने ऊर्जा पाई, उसने अन्न पाया",
+      "new": "सौ शक्तियों वाले ने ऊर्जा पाई, उसने पोषण पाया"
+     }
+    },
+    {
+     "field": "gloss",
+     "where": "śata-kratuḥ",
+     "problem": "Glossary: śatakratu = hundred-powered.",
+     "fix": "hundred-powered one (Śatakratu)",
+     "severity": "minor",
+     "patch": {
+      "n": "466",
+      "op": "word",
+      "match_w": "śata-kratuḥ",
+      "field": "gloss",
+      "value": "hundred-powered one (Śatakratu)"
+     }
+    },
+    {
+     "field": "gloss",
+     "where": "iṣam",
+     "problem": "Glossary: iṣ = refreshment.",
+     "fix": "refreshment",
+     "severity": "minor",
+     "patch": {
+      "n": "466",
+      "op": "word",
+      "match_w": "iṣam",
+      "field": "gloss",
+      "value": "refreshment"
+     }
+    },
+    {
+     "field": "text_flags",
+     "where": "videdūrja~ / śatakraturvidediṣam",
+     "problem": "The two flags suggest vidāt (long ā, i.e. a subjunctive) while the gram says 3 sg. injunctive; an injunctive would be vidat. The suggestions and the gram disagree.",
+     "fix": "Either suggest \"vidad ūrjaṃ\" / \"vidad iṣam\" (injunctive, as in the gram) or relabel the gram \"3 sg. subj.\"; a person should choose.",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "467",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "पृथ्वी पर (भी) स्थापित",
+     "problem": "Hindi has no parentheses, and \"भी\" is not in the text.",
+     "fix": "तुम्हारा, रस का जन्म ऊँचा है; स्वर्ग में विद्यमान, पृथ्वी पर स्थापित किया जाता है। उग्र शरण, महान् यश।",
+     "severity": "error",
+     "patch": {
+      "n": "467",
+      "op": "replace",
+      "field": "hindi",
+      "old": "पृथ्वी पर (भी) स्थापित",
+      "new": "पृथ्वी पर स्थापित"
+     }
+    }
+   ]
+  },
+  {
+   "n": "468",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "469",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "470",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "471",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "472",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "for the one accompanied by the Maruts, sweetest",
+     "problem": "indrāya is dropped from the English although the Hindi and the gram have it.",
+     "fix": "Flow, O drop, for Indra, the one accompanied by the Maruts, sweetest, to settle in the seat of the chant.",
+     "severity": "error",
+     "patch": {
+      "n": "472",
+      "op": "replace",
+      "field": "english",
+      "old": "for the one accompanied by the Maruts, sweetest",
+      "new": "for Indra, the one accompanied by the Maruts, sweetest"
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "हे इन्दु,",
+     "problem": "Glossary: indu = drop (बूँद); arka is rendered मंत्र-गीत elsewhere (439, 445), अर्क is ambiguous in Hindi.",
+     "fix": "हे बूँद, मरुतों वाले इन्द्र के लिए बहो, सबसे मधुर; मंत्र-गीत के आसन में बैठने के लिए।",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "472",
+       "op": "replace",
+       "field": "hindi",
+       "old": "हे इन्दु,",
+       "new": "हे बूँद,"
+      },
+      {
+       "n": "472",
+       "op": "replace",
+       "field": "hindi",
+       "old": "अर्क के आसन",
+       "new": "मंत्र-गीत के आसन"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "473",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "अंशु (सोम का डंठल)",
+     "problem": "Hindi has no parentheses; \"Soma\" is added in the gloss.",
+     "fix": "डंठल आनन्द के लिए जलों में निचोड़ा गया है, कुशल, पर्वत पर रहने वाला; बाज की तरह वह अपने आसन पर बैठा।",
+     "severity": "error",
+     "patch": {
+      "n": "473",
+      "op": "replace",
+      "field": "hindi",
+      "old": "अंशु (सोम का डंठल)",
+      "new": "डंठल"
+     }
+    }
+   ]
+  },
+  {
+   "n": "474",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "475",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "476",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "The poet [goes] around",
+     "problem": "\"[goes]\" is just yāti (pari ... yāti), no bracket needed; glossary: kavi = seer.",
+     "fix": "The seer goes around the dear things of heaven, around the vigours, placed between the two grand-daughters; the one of a seer's will goes with sounds.",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "476",
+       "op": "replace",
+       "field": "english",
+       "old": "The poet [goes] around",
+       "new": "The seer goes around"
+      },
+      {
+       "n": "476",
+       "op": "replace",
+       "field": "english",
+       "old": "a poet's will",
+       "new": "a seer's will"
+      }
+     ]
+    },
+    {
+     "field": "gloss",
+     "where": "kaviḥ",
+     "problem": "Glossary: kavi = seer.",
+     "fix": "seer",
+     "severity": "minor",
+     "patch": {
+      "n": "476",
+      "op": "word",
+      "match_w": "kaviḥ",
+      "field": "gloss",
+      "value": "seer"
+     }
+    },
+    {
+     "field": "gloss",
+     "where": "kavi-kratuḥ",
+     "problem": "Glossary: kavi = seer.",
+     "fix": "of a seer's will",
+     "severity": "minor",
+     "patch": {
+      "n": "476",
+      "op": "word",
+      "match_w": "kavi-kratuḥ",
+      "field": "gloss",
+      "value": "of a seer's will"
+     }
+    }
+   ]
+  },
+  {
+   "n": "477",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "for us, for the bountiful patron",
+     "problem": "Glossary: maghavat = bountiful one, not \"patron\".",
+     "fix": "The Somas, dripping exhilaration, have gone forth for glory for us, the bountiful ones; pressed, they have come to the rite.",
+     "severity": "error",
+     "patch": {
+      "n": "477",
+      "op": "replace",
+      "field": "english",
+      "old": "for us, for the bountiful patron",
+      "new": "for us, the bountiful ones"
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "हमारे यश के लिए, उदार दाता के लिए",
+     "problem": "\"patron/दाता\" is not in the text; naḥ maghonaḥ is most simply \"us, the bountiful ones\".",
+     "fix": "मद टपकाते सोम-रस आगे बढ़े हैं, हम उदार जनों के यश के लिए; निचोड़े गए, वे यज्ञ-सभा में आ गए हैं।",
+     "severity": "error",
+     "patch": {
+      "n": "477",
+      "op": "replace",
+      "field": "hindi",
+      "old": "हमारे यश के लिए, उदार दाता के लिए",
+      "new": "हम उदार जनों के यश के लिए"
+     }
+    },
+    {
+     "field": "gloss",
+     "where": "maghonaḥ",
+     "problem": "Glossary: maghavat = bountiful one, not \"patron\".",
+     "fix": "the bountiful ones",
+     "severity": "minor",
+     "patch": {
+      "n": "477",
+      "op": "word",
+      "match_w": "maghonaḥ",
+      "field": "gloss",
+      "value": "the bountiful ones"
+     }
+    },
+    {
+     "field": "gram",
+     "where": "maghonaḥ",
+     "problem": "Agreement with naḥ is the simplest reading.",
+     "fix": "m. acc. pl. (with naḥ); gen. sg. also possible",
+     "severity": "minor",
+     "patch": {
+      "n": "477",
+      "op": "word",
+      "match_w": "maghonaḥ",
+      "field": "gram",
+      "value": "m. acc. pl. (with naḥ); gen. sg. also possible"
+     }
+    },
+    {
+     "field": "notes",
+     "where": "'for the bountiful patron' is used",
+     "problem": "Keep the note in step.",
+     "fix": "maghonaḥ is ambiguous (gen. sg. 'of the patron', acc. pl. 'bountiful ones', or nom. pl.); 'us, the bountiful ones' (acc. pl., with naḥ) is used. Hindi 'मद' follows mada, 'exhilaration'.",
+     "severity": "minor",
+     "patch": {
+      "n": "477",
+      "op": "replace",
+      "field": "notes",
+      "old": "'for the bountiful patron' is used",
+      "new": "'us, the bountiful ones' (acc. pl., with naḥ) is used"
+     }
+    }
+   ]
+  },
+  {
+   "n": "478",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "479",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "हे इन्दु, बहो",
+     "problem": "Glossary: indu = drop (बूँद).",
+     "fix": "हे बूँद, बहो; निचोड़े गए वृषा, हमें लोगों के बीच यशस्वी बनाओ और सब शत्रुताओं को दूर मार भगाओ।",
+     "severity": "minor",
+     "patch": {
+      "n": "479",
+      "op": "replace",
+      "field": "hindi",
+      "old": "हे इन्दु, बहो",
+      "new": "हे बूँद, बहो"
+     }
+    }
+   ]
+  },
+  {
+   "n": "480",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "तुम तेज से वृषा हो",
+     "problem": "तेज is reserved for varcas (lustre); bhānu = radiance.",
+     "fix": "तुम दीप्ति से वृषा हो; हम तुम्हें उज्ज्वल को पुकारते हैं, हे पवमान, सूर्य का प्रकाश देखने वाले को।",
+     "severity": "minor",
+     "patch": {
+      "n": "480",
+      "op": "replace",
+      "field": "hindi",
+      "old": "तुम तेज से वृषा हो",
+      "new": "तुम दीप्ति से वृषा हो"
+     }
+    }
+   ]
+  },
+  {
+   "n": "481",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "Indu has flowed clear, the perceiving, dear thought of the poets",
+     "problem": "Glossary: indu = drop; kavi = seer.",
+     "fix": "The drop has flowed clear, the perceiving, dear thought of the seers, sending forth the horse like a charioteer.",
+     "severity": "minor",
+     "patch": {
+      "n": "481",
+      "op": "replace",
+      "field": "english",
+      "old": "Indu has flowed clear, the perceiving, dear thought of the poets",
+      "new": "The drop has flowed clear, the perceiving, dear thought of the seers"
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "इन्दु बहा है",
+     "problem": "Glossary: indu = drop (बूँद).",
+     "fix": "बूँद बही है, समझदार, प्रिय, कवियों की मति; रथी की तरह घोड़े को छोड़ता हुआ।",
+     "severity": "minor",
+     "patch": {
+      "n": "481",
+      "op": "replace",
+      "field": "hindi",
+      "old": "इन्दु बहा है",
+      "new": "बूँद बही है"
+     }
+    },
+    {
+     "field": "gloss",
+     "where": "induḥ",
+     "problem": "Glossary: indu = drop.",
+     "fix": "drop",
+     "severity": "minor",
+     "patch": {
+      "n": "481",
+      "op": "word",
+      "match_w": "induḥ",
+      "field": "gloss",
+      "value": "drop"
+     }
+    },
+    {
+     "field": "gloss",
+     "where": "kavīnām",
+     "problem": "Glossary: kavi = seer.",
+     "fix": "of the seers",
+     "severity": "minor",
+     "patch": {
+      "n": "481",
+      "op": "word",
+      "match_w": "kavīnām",
+      "field": "gloss",
+      "value": "of the seers"
+     }
+    }
+   ]
+  },
+  {
+   "n": "482",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "483",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "closely attached to life (?);",
+     "problem": "No \"(?)\" in English; unclear words are marked [unclear].",
+     "fix": "Flow, O god, [unclear]; let your exhilaration go to Indra; mount upon Vāyu by your support.",
+     "severity": "error",
+     "patch": {
+      "n": "483",
+      "op": "replace",
+      "field": "english",
+      "old": "closely attached to life (?);",
+      "new": "[unclear];"
+     }
+    },
+    {
+     "field": "hindi",
+     "where": ", जीवन से जुड़े हुए (?);",
+     "problem": "Hindi: no \"(?)\", no parentheses, no placeholder.",
+     "fix": "हे देव, बहो; तुम्हारा मद इन्द्र के पास जाए; अपने आधार से वायु पर चढ़ो।",
+     "severity": "error",
+     "patch": {
+      "n": "483",
+      "op": "replace",
+      "field": "hindi",
+      "old": ", जीवन से जुड़े हुए (?);",
+      "new": ";"
+     }
+    }
+   ]
+  },
+  {
+   "n": "484",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "485",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "बलपूर्वक गायन के साथ",
+     "problem": "Glossary: gir = song (स्तुति).",
+     "fix": "गरजती हुई बूँदें आनन्द के लिए, बलपूर्वक स्तुति के साथ, मधु की धारा में चारों ओर बहती हैं।",
+     "severity": "minor",
+     "patch": {
+      "n": "485",
+      "op": "replace",
+      "field": "hindi",
+      "old": "बलपूर्वक गायन के साथ",
+      "new": "बलपूर्वक स्तुति के साथ"
+     }
+    }
+   ]
+  },
+  {
+   "n": "486",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "The poet has flowed",
+     "problem": "Glossary: kavi = seer.",
+     "fix": "The seer has flowed forth around, resting on the wave of the river, bearing the much-desired singer.",
+     "severity": "minor",
+     "patch": {
+      "n": "486",
+      "op": "replace",
+      "field": "english",
+      "old": "The poet has flowed",
+      "new": "The seer has flowed"
+     }
+    },
+    {
+     "field": "gloss",
+     "where": "kaviḥ",
+     "problem": "Glossary: kavi = seer.",
+     "fix": "seer",
+     "severity": "minor",
+     "patch": {
+      "n": "486",
+      "op": "word",
+      "match_w": "kaviḥ",
+      "field": "gloss",
+      "value": "seer"
+     }
+    }
+   ]
+  }
+ ],
+ "summary": "50 units of Sāmaveda 1.10 (437-486). All tokens match the printed text and the checker file is ok; no invented Sanskrit found. Issues: 29 error, 63 minor (36 units need fixes, 14 ok). Main error groups: (1) Hindi/English placeholders and parentheses against the glossary rules: '(?)' and '...' in 440, 450, 458, 464, 465, 483; parenthesised glosses in Hindi 449, 451, 454, 455, 459, 464, 465, 466, 467, 473; '[goes]'/'[direct]' supplied words 459, 464, 476. (2) Glossary violations: brahmā rendered ब्रह्मा (438), indu rendered 'Indu'/इन्दु instead of drop/बूँद (457, 472, 479, 481), maghavat as 'patron' (477), kavi as 'poet' (458, 464, 476, 481, 486), śatakratu 'hundred-willed' (466), iṣ as nourishment/अन्न, देवता for देवगण, अत्यन्त/अतिशय for सबसे. (3) Unsupported additions: 'all things' (460), 'like an archer' (459), 'of Evayāmarut' (462), 'I honour/पूजता' for manye (465). (4) 472 English drops indrāya; 463 masculine epithets attached to feminine dhārā. Manual decisions (no patch): 458 dṛśaḥ number vs translation; 461 add text_flags entry for śrauṣṭ; 466 flags suggest vidāt but gram says injunctive. Unit 459 first half-verse and 462 girijā/evayāmarut remain uncertain even after the literal rewrite. No regrouping suggested. Not changed (uncertain, no variant invented): 'mahonām' (449) printed with h where the glossary has maghonām; 'hantavā' (439); 'srutayaḥ' (453)."
+}

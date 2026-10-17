@@ -10,7 +10,7 @@
    "first": "1",
    "last": "54",
    "lines": 108,
-   "state": "pending",
+   "state": "written",
    "dir": "p01/ch01"
   },
   {
@@ -22,7 +22,7 @@
    "first": "55",
    "last": "96",
    "lines": 84,
-   "state": "pending",
+   "state": "written",
    "dir": "p01/ch02"
   },
   {
@@ -34,7 +34,7 @@
    "first": "97",
    "last": "144",
    "lines": 96,
-   "state": "pending",
+   "state": "written",
    "dir": "p01/ch03"
   },
   {
@@ -46,7 +46,7 @@
    "first": "145",
    "last": "193",
    "lines": 98,
-   "state": "pending",
+   "state": "written",
    "dir": "p01/ch04"
   },
   {
@@ -58,7 +58,7 @@
    "first": "194",
    "last": "242",
    "lines": 98,
-   "state": "pending",
+   "state": "written",
    "dir": "p01/ch05"
   },
   {
@@ -70,7 +70,7 @@
    "first": "243",
    "last": "292",
    "lines": 100,
-   "state": "pending",
+   "state": "written",
    "dir": "p01/ch06"
   },
   {
@@ -82,7 +82,7 @@
    "first": "293",
    "last": "341",
    "lines": 98,
-   "state": "pending",
+   "state": "written",
    "dir": "p01/ch07"
   },
   {
@@ -94,7 +94,7 @@
    "first": "342",
    "last": "390",
    "lines": 99,
-   "state": "pending",
+   "state": "written",
    "dir": "p01/ch08"
   },
   {
@@ -106,7 +106,7 @@
    "first": "391",
    "last": "436",
    "lines": 86,
-   "state": "pending",
+   "state": "written",
    "dir": "p01/ch09"
   },
   {
@@ -118,7 +118,7 @@
    "first": "437",
    "last": "486",
    "lines": 84,
-   "state": "pending",
+   "state": "written",
    "dir": "p01/ch10"
   },
   {
@@ -130,7 +130,7 @@
    "first": "487",
    "last": "544",
    "lines": 116,
-   "state": "pending",
+   "state": "written",
    "dir": "p01/ch11"
   },
   {
@@ -142,7 +142,7 @@
    "first": "545",
    "last": "585",
    "lines": 83,
-   "state": "pending",
+   "state": "written",
    "dir": "p01/ch12"
   },
   {

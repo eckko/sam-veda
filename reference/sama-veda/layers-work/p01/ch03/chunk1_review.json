@@ -1,0 +1,690 @@
+{
+ "units": [
+  {
+   "n": "97",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "98",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "99",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "100",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "101",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "यह धनों का स्थिर स्वामी जान ले",
+     "problem": "Hindi adds 'स्वामी' (lord); the text has only dhruvo rayīṇām 'firm one of riches' and the English is literal.",
+     "fix": "यह धनों का दृढ़ (जन) ध्यान दे — no clean literal Hindi without an added noun; suggest 'यह धनों का दृढ़ ध्यान दे' or accept the noun and add to notes. Human choice.",
+     "severity": "minor"
+    },
+    {
+     "field": "english",
+     "where": "with his seven mothers",
+     "problem": "'his' is not in the text (sapta mātṛbhiḥ 'with seven mothers').",
+     "fix": "Being born, with seven mothers he sought wisdom for splendour; may this firm one of riches take note.",
+     "severity": "minor",
+     "patch": {
+      "n": "101",
+      "op": "replace",
+      "field": "english",
+      "old": "with his seven mothers",
+      "new": "with seven mothers"
+     }
+    },
+    {
+     "field": "gram",
+     "where": "āśāsata",
+     "problem": "-ata after a consonant stem is the 3 pl. middle ending (3 sg. impf. would be āśāsta); the draft labels it '3 sg. impf. mid.' and translates 'he sought'. Subject and number need a human check (the instrumental mātṛbhiḥ cannot be the subject).",
+     "fix": "verify; if 3 pl. then 'they sought', else keep sg. and note the irregular ending",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "102",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gloss",
+     "where": "matiḥ / 'thoughtful Aditi'",
+     "problem": "matiḥ (f. 'thought, prayer, mind') is a noun; an adjective 'thoughtful' is not supported. Natural parse: matiḥ and aditiḥ both nominative, 'that thought, Aditi'. Draft picks the weaker reading in translation and only mentions the noun in notes.",
+     "fix": "English: And may that thought, Aditi, come to us by day with help; may she, bringing welfare, bring comfort and drive away the failing ones. (matiḥ gloss 'thought, prayer'; Hindi 'वह मति, अदिति, दिन में सहायता के साथ हमारे पास आए ...'). Human decision.",
+     "severity": "minor"
+    },
+    {
+     "field": "hindi",
+     "where": "आज दिन में",
+     "problem": "'आज' (today) is added; divā is 'by day' and the English says 'by day'.",
+     "fix": "और वह विचारशील अदिति दिन में हमारे पास सहायता के साथ आए",
+     "severity": "minor",
+     "patch": {
+      "n": "102",
+      "op": "replace",
+      "field": "hindi",
+      "old": "आज दिन में",
+      "new": "दिन में"
+     }
+    }
+   ]
+  },
+  {
+   "n": "103",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "104",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "Neither by craft nor otherwise",
+     "problem": "'nor otherwise' (and Hindi 'किसी अन्य प्रकार से') is not in the text. Also the printed 'ca na' (after māyayā) is almost certainly caná ('not even'), as in the Rigvedic parallel; no text_flag is given. With 'ca na' kept literally the 'neither ... nor' has no second member.",
+     "fix": "Add text_flags {src:'ca na', suggest:'caná (written as one word)'}; English: Not even by craft may a mortal enemy have power over him who has made offering to Agni for the giving of the oblation; Hindi: न छल से भी कोई मर्त्य शत्रु उस पर अधिकार कर सके, जिसने हव्य देने के लिए अग्नि को अर्पण किया है। Human decision whether to flag.",
+     "severity": "error"
+    },
+    {
+     "field": "gram",
+     "where": "havya-dātaye",
+     "problem": "dātaye is f. dat. sg. of dāti (-ti stem), not m.; gram 'm./f.' is loose.",
+     "fix": "tat-puruṣa, f. dat. sg.",
+     "severity": "minor",
+     "patch": {
+      "n": "104",
+      "op": "word",
+      "match_w": "havya-dātaye",
+      "field": "gram",
+      "value": "tat-puruṣa, f. dat. sg."
+     }
+    }
+   ]
+  },
+  {
+   "n": "105",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "106",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "107",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "उस सर्वाधिक उदार",
+     "problem": "Fixed rendering for maṃhiṣṭha is 'सबसे उदार'.",
+     "fix": "उस सबसे उदार",
+     "severity": "minor",
+     "patch": {
+      "n": "107",
+      "op": "replace",
+      "field": "hindi",
+      "old": "उस सर्वाधिक उदार",
+      "new": "उस सबसे उदार"
+     }
+    }
+   ]
+  },
+  {
+   "n": "108",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "बल देने वाले कर्मों",
+     "problem": "English says 'strength-winning' (vāja-karman: winning the prize); Hindi 'बल देने वाले' (strength-giving) differs.",
+     "fix": "बल जीतने वाले कर्मों",
+     "severity": "minor",
+     "patch": {
+      "n": "108",
+      "op": "replace",
+      "field": "hindi",
+      "old": "बल देने वाले कर्मों",
+      "new": "बल जीतने वाले कर्मों"
+     }
+    }
+   ]
+  },
+  {
+   "n": "109",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "as their attendant",
+     "problem": "'their' is not in the text (devam aratim 'the god as attendant'); Hindi leaves 'अरति' untranslated while English says 'attendant'.",
+     "fix": "English: ... whom the gods have set as attendant, to carry ...; Hindi: जिसे देवों ने परिचर के रूप में स्थापित किया है",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "109",
+       "op": "replace",
+       "field": "english",
+       "old": "as their attendant",
+       "new": "as attendant"
+      },
+      {
+       "n": "109",
+       "op": "replace",
+       "field": "hindi",
+       "old": "अरति के रूप में",
+       "new": "परिचर के रूप में"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "110",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gram",
+     "where": "atithim / 'O guest'",
+     "problem": "atithim is labelled acc. sg. but translated as a vocative 'O guest' (English and Hindi). The two cannot both stand; either translate as object (do not be angry at the guest) or relabel. Syntax is uncertain; confidence 'low' is right.",
+     "fix": "Human decision: keep acc. and rewrite translation, e.g. 'Do not be angry with the guest, with us; this Agni, the good one, ...' or add a note that the case label is overridden.",
+     "severity": "error"
+    }
+   ]
+  },
+  {
+   "n": "111",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "112",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "उत्तम संकल्प वाले",
+     "problem": "English says 'very wise'; Hindi says 'of good resolve'. Gloss is 'very wise, of good purpose'.",
+     "fix": "इस यज्ञ के अत्यन्त बुद्धिमान को",
+     "severity": "minor",
+     "patch": {
+      "n": "112",
+      "op": "replace",
+      "field": "hindi",
+      "old": "इस यज्ञ के उत्तम संकल्प वाले को",
+      "new": "इस यज्ञ के अत्यन्त बुद्धिमान को"
+     }
+    }
+   ]
+  },
+  {
+   "n": "113",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "the fury of the evil-minded man",
+     "problem": "dūḍhyam is accusative (m. acc. sg.), as the draft's own gram says, so it cannot qualify the genitive janasya. Likely three accusatives in apposition: 'any devourer, the fury of the people, the evil-minded one'. Also the sāsāhā flag is fine; the English 'may overcome' follows the correction.",
+     "fix": "bring that splendour which may overcome, in the dwelling, any devourer, the fury of the people, the evil-minded one (Hindi likewise). Human decision.",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "114",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "115",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "when the Soma is pressed",
+     "problem": "'Soma' is supplied (sute 'when pressed'); notes disclose it but the translation shows it as text.",
+     "fix": "Sing that for you together, when (the Soma) is pressed, ...",
+     "severity": "minor",
+     "patch": {
+      "n": "115",
+      "op": "replace",
+      "field": "english",
+      "old": "when the Soma is pressed",
+      "new": "when (the Soma) is pressed"
+     }
+    }
+   ]
+  },
+  {
+   "n": "116",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "notes",
+     "where": "Rigvedic parallel",
+     "problem": "Notes import a reading from another book ('made made'); LAYER_NOTES rule 3 says do not import other books. (Same in unit 120.)",
+     "fix": "Remove the sentence about the Rigvedic parallel.",
+     "severity": "minor",
+     "patch": {
+      "n": "116",
+      "op": "replace",
+      "field": "notes",
+      "old": "The Rigvedic parallel has 'made made' (in each exhilaration); madeḥ is taken",
+      "new": "madeḥ is taken"
+     }
+    }
+   ]
+  },
+  {
+   "n": "117",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "118",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "notes",
+     "where": "(a sage's name)",
+     "problem": "'a sage's name' is not stated by the line; gloss 'O Śrutakakṣa (name)' is enough.",
+     "fix": "Śrutakakṣa is taken as a vocative proper name.",
+     "severity": "minor",
+     "patch": {
+      "n": "118",
+      "op": "replace",
+      "field": "notes",
+      "old": "Śrutakakṣa is taken as a vocative proper name (a sage's name).",
+      "new": "Śrutakakṣa is taken as a vocative proper name."
+     }
+    }
+   ]
+  },
+  {
+   "n": "119",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "the bull, the steer",
+     "problem": "'steer' means a castrated ox; vṛṣabha is 'bull'. Hindi 'बैल और वृषभ' adds 'and' and repeats the same animal.",
+     "fix": "may he be the mighty one, the bull; Hindi: वह बलवान, वृषभ हो जाए।",
+     "severity": "error",
+     "patch": [
+      {
+       "n": "119",
+       "op": "replace",
+       "field": "english",
+       "old": "the bull, the steer",
+       "new": "the mighty one, the bull"
+      },
+      {
+       "n": "119",
+       "op": "replace",
+       "field": "hindi",
+       "old": "वह बैल और वृषभ हो जाए",
+       "new": "वह बलवान, वृषभ हो जाए"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "120",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "being a bull, O bull, you are indeed a bull",
+     "problem": "An extra 'a bull' after 'being': san is only 'being'. Literal: san vṛṣan vṛṣā id asi.",
+     "fix": "You, O Indra, are born of strength, of might, of vigour; being so, O bull, you are indeed a bull.",
+     "severity": "minor",
+     "patch": {
+      "n": "120",
+      "op": "replace",
+      "field": "english",
+      "old": "being a bull, O bull, you are indeed a bull",
+      "new": "being so, O bull, you are indeed a bull"
+     }
+    },
+    {
+     "field": "notes",
+     "where": "Rigvedic parallel",
+     "problem": "Imports the Rigvedic reading (see unit 116).",
+     "fix": "Delete 'the Rigvedic parallel has ... so san is an extra word here and'.",
+     "severity": "minor",
+     "patch": {
+      "n": "120",
+      "op": "replace",
+      "field": "notes",
+      "old": "the Rigvedic parallel has 'tvaṃ vṛṣan vṛṣed asi', so san is an extra word here and the parsing is uncertain.",
+      "new": "the parsing is uncertain."
+     }
+    }
+   ]
+  },
+  {
+   "n": "121",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "122",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "123",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "124",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "125",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "text_flags",
+     "where": "uddhedabhi",
+     "problem": "Printed uddhed is probably ud ghed (ud + gha + id; the common 'ud ghéd abhi'); the draft parses ut-ha-id with no flag. Uncertain, so no patch.",
+     "fix": "Add text_flags {src:'uddhedabhi', suggest:'udghedabhi (ud + gha + id + abhi)', why:'possible: gha is the usual particle with id; ha id is rare'}; keep words as is.",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "126",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "127",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "128",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "129",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "हमारी सहायता के लिए",
+     "problem": "'हमारी' is added; ūtaye 'for help'.",
+     "fix": "सहायता के लिए",
+     "severity": "minor",
+     "patch": {
+      "n": "129",
+      "op": "replace",
+      "field": "hindi",
+      "old": "हमारी सहायता के लिए",
+      "new": "सहायता के लिए"
+     }
+    }
+   ]
+  },
+  {
+   "n": "130",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gram",
+     "where": "mahā-dhane",
+     "problem": "dhana is neuter, so mahā-dhane is n. loc. sg., not m.",
+     "fix": "karmadhāraya, n. loc. sg.",
+     "severity": "minor",
+     "patch": {
+      "n": "130",
+      "op": "word",
+      "match_w": "mahā-dhane",
+      "field": "gram",
+      "value": "karmadhāraya, n. loc. sg."
+     }
+    }
+   ]
+  },
+  {
+   "n": "131",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "सहस्रबाहु",
+     "problem": "Hindi treats sahasrabāhve as a name; English and gram say 'for the thousand-armed one' (bahuvrīhi). Make them agree (notes already keep it literal).",
+     "fix": "कद्रु का निचोड़ा हुआ सोम हज़ार भुजाओं वाले के लिए पिया",
+     "severity": "minor",
+     "patch": {
+      "n": "131",
+      "op": "replace",
+      "field": "hindi",
+      "old": "सहस्रबाहु के लिए",
+      "new": "हज़ार भुजाओं वाले के लिए"
+     }
+    }
+   ]
+  },
+  {
+   "n": "132",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "133",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "notes",
+     "where": "it continues in the next",
+     "problem": "Unsupported: the next unit (134) is a separate imperative verse, not the main clause.",
+     "fix": "The main clause is not in the unit.",
+     "severity": "minor",
+     "patch": {
+      "n": "133",
+      "op": "replace",
+      "field": "notes",
+      "old": " The main clause is not in the unit; it continues in the next.",
+      "new": " The main clause is not in the unit."
+     }
+    }
+   ]
+  },
+  {
+   "n": "134",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "135",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "136",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "137",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "138",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "139",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "स्वरणम् को",
+     "problem": "Hindi leaves svaraṇam untranslated while English says 'resounding one'.",
+     "fix": "हे ब्रह्मणस्पति, सोमों के गूँजने वाले को बनाओ, उस कक्षीवान् को जो उशिज का पुत्र है।",
+     "severity": "minor",
+     "patch": {
+      "n": "139",
+      "op": "replace",
+      "field": "hindi",
+      "old": "सोमों के स्वरणम् को बनाओ",
+      "new": "सोमों के गूँजने वाले को बनाओ"
+     }
+    }
+   ]
+  },
+  {
+   "n": "140",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "may Śakra hear",
+     "problem": "Fixed rendering for śakra is 'the mighty one (Śakra)'.",
+     "fix": "May the slayer of Vṛtra, attentive of mind and rich in libations, be ours indeed; may the mighty one (Śakra) hear our prayer.",
+     "severity": "minor",
+     "patch": {
+      "n": "140",
+      "op": "replace",
+      "field": "english",
+      "old": "may Śakra hear",
+      "new": "may the mighty one (Śakra) hear"
+     }
+    }
+   ]
+  },
+  {
+   "n": "141",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "142",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "मोटी गर्दन वाला",
+     "problem": "tuvi- is 'strong, mighty', not 'thick'; English says strong-necked.",
+     "fix": "सुदृढ़ गर्दन वाला",
+     "severity": "minor",
+     "patch": {
+      "n": "142",
+      "op": "replace",
+      "field": "hindi",
+      "old": "मोटी गर्दन वाला",
+      "new": "सुदृढ़ गर्दन वाला"
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "कौन ब्रह्मा",
+     "problem": "Hindi 'ब्रह्मा' reads as the god; English and notes say the priest (brahman), the god is not meant.",
+     "fix": "कौन ब्रह्मा (ब्रह्म नामक पुरोहित) उसकी सेवा करता है? — brackets are not allowed in Hindi, so use: कौन ब्रह्म-पुरोहित उसकी सेवा करता है?",
+     "severity": "minor",
+     "patch": {
+      "n": "142",
+      "op": "replace",
+      "field": "hindi",
+      "old": "कौन ब्रह्मा उसकी सेवा करता है",
+      "new": "कौन ब्रह्म-पुरोहित उसकी सेवा करता है"
+     }
+    }
+   ]
+  },
+  {
+   "n": "143",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "inspired sage",
+     "problem": "ṛṣi is fixed as 'sage' (ऋषि); vipra is a different word, so 'sage'/'ऋषि' for vipra blurs the two.",
+     "fix": "In the recess of the mountains and at the confluence of the rivers, the inspired one was born through insight. Hindi: प्रेरित मेधावी; gloss: inspired one.",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "143",
+       "op": "replace",
+       "field": "english",
+       "old": "the inspired sage",
+       "new": "the inspired one"
+      },
+      {
+       "n": "143",
+       "op": "replace",
+       "field": "hindi",
+       "old": "प्रेरित ऋषि",
+       "new": "प्रेरित मेधावी"
+      },
+      {
+       "n": "143",
+       "op": "word",
+       "match_w": "vipraḥ",
+       "field": "gloss",
+       "value": "inspired one, wise one"
+      },
+      {
+       "n": "143",
+       "op": "replace",
+       "field": "notes",
+       "old": "vipraḥ is rendered 'inspired sage'",
+       "new": "vipraḥ is rendered 'inspired one'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "144",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "the ever-new",
+     "problem": "'ever' is added; navya is 'new'. Hindi 'नित्य नवीन' likewise.",
+     "fix": "the new; Hindi: जो नवीन",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "144",
+       "op": "replace",
+       "field": "english",
+       "old": "the ever-new",
+       "new": "the new"
+      },
+      {
+       "n": "144",
+       "op": "replace",
+       "field": "hindi",
+       "old": "जो नित्य नवीन",
+       "new": "जो नवीन"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "summary": "48 units (97-144): 24 with fixes, 30 issues (3 error, 27 minor). Draft is cautious and honest about obscurity (21 low, 24 medium, 3 high; no unit in 'uncertain'). Main problems: unsupported additions (104 'nor otherwise', 109 'their', 101 'his', 129/102 Hindi, 119 'steer'), a case label contradicted by the translation (110 atithim), glossary renderings (107, 140, 143), imported Rigvedic parallels in notes (116, 120), and a false note (133). No unit needs regrouping. Manual: 101 āśāsata number, 102 matiḥ, 104 ca na/caná, 110 atithim, 113 dūḍhyam, 125 udghed flag."
+}

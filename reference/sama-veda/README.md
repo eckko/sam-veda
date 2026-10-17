@@ -16,3 +16,6 @@ Rules for anyone editing here:
 - Branch pattern: `docs/YYYY-MM-DD/version-N`; push new branches only; the owner merges.
 
 How to continue: open STATUS.md and ISSUES.md; the Sanskrit is complete, so next are translations (Hindi, English) and verification against a second source.
+
+## Layers
+Word-split (`-sandhi`), Hindi (`-hindi`) and English (`-english`) files exist for parts 01, 02 and 03 (650 of 1875 verses) as reviewed AI drafts that no person has read. Part 04 has none. See STATUS.md, ISSUES.md and VERIFY.md.

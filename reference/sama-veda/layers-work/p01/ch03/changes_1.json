@@ -1,0 +1,208 @@
+[
+ {
+  "n": "101",
+  "field": "english",
+  "old": "Being born, with his seven mothers he sought wisdom for splendour; may this firm one of riches take note.",
+  "new": "Being born, with seven mothers he sought wisdom for splendour; may this firm one of riches take note.",
+  "why": "reviewer (minor): 'his' is not in the text (sapta mātṛbhiḥ 'with seven mothers')."
+ },
+ {
+  "n": "102",
+  "field": "hindi",
+  "old": "और वह विचारशील अदिति आज दिन में हमारे पास सहायता के साथ आए; वह कल्याणकारी होकर सुख प्रदान करे और विफल होने वालों को दूर करे।",
+  "new": "और वह विचारशील अदिति दिन में हमारे पास सहायता के साथ आए; वह कल्याणकारी होकर सुख प्रदान करे और विफल होने वालों को दूर करे।",
+  "why": "reviewer (minor): 'आज' (today) is added; divā is 'by day' and the English says 'by day'."
+ },
+ {
+  "n": "104",
+  "field": "word.gram",
+  "word": "havya-dātaye",
+  "old": "tat-puruṣa, m./f. dat. sg.",
+  "new": "tat-puruṣa, f. dat. sg.",
+  "why": "reviewer (minor): dātaye is f. dat. sg. of dāti (-ti stem), not m.; gram 'm./f.' is loose."
+ },
+ {
+  "n": "107",
+  "field": "hindi",
+  "old": "उस सर्वाधिक उदार, सत्यवान, महान, उज्ज्वल ज्वाला वाले अग्नि के लिए, हे स्तुति करने वालो, गाओ।",
+  "new": "उस सबसे उदार, सत्यवान, महान, उज्ज्वल ज्वाला वाले अग्नि के लिए, हे स्तुति करने वालो, गाओ।",
+  "why": "reviewer (minor): Fixed rendering for maṃhiṣṭha is 'सबसे उदार'."
+ },
+ {
+  "n": "108",
+  "field": "hindi",
+  "old": "हे अग्नि, वह तुम्हारी सहायताओं से, जो वीरों से युक्त और बल देने वाले कर्मों से भरी हैं, आगे बढ़ता है; जिसकी मित्रता का तुमने पालन किया है।",
+  "new": "हे अग्नि, वह तुम्हारी सहायताओं से, जो वीरों से युक्त और बल जीतने वाले कर्मों से भरी हैं, आगे बढ़ता है; जिसकी मित्रता का तुमने पालन किया है।",
+  "why": "reviewer (minor): English says 'strength-winning' (vāja-karman: winning the prize); Hindi 'बल देने वाले' (strength-giving) differs."
+ },
+ {
+  "n": "109",
+  "field": "english",
+  "old": "Praise him, the god, the leader of the light of heaven, whom the gods have set as their attendant, to carry the oblation among the gods.",
+  "new": "Praise him, the god, the leader of the light of heaven, whom the gods have set as attendant, to carry the oblation among the gods.",
+  "why": "reviewer (minor): 'their' is not in the text (devam aratim 'the god as attendant'); Hindi leaves 'अरति' untranslated while English says 'attendant'."
+ },
+ {
+  "n": "109",
+  "field": "hindi",
+  "old": "उस देव की स्तुति करो, जो सूर्य के प्रकाश का नायक है और जिसे देवों ने अरति के रूप में स्थापित किया है, ताकि वह देवों में हव्य पहुँचाए।",
+  "new": "उस देव की स्तुति करो, जो सूर्य के प्रकाश का नायक है और जिसे देवों ने परिचर के रूप में स्थापित किया है, ताकि वह देवों में हव्य पहुँचाए।",
+  "why": "reviewer (minor): 'their' is not in the text (devam aratim 'the god as attendant'); Hindi leaves 'अरति' untranslated while English says 'attendant'."
+ },
+ {
+  "n": "112",
+  "field": "hindi",
+  "old": "हमने तुम्हें चुना है, सर्वश्रेष्ठ यजन करने वाले, देवों में देव, होता, अमर, इस यज्ञ के उत्तम संकल्प वाले को।",
+  "new": "हमने तुम्हें चुना है, सर्वश्रेष्ठ यजन करने वाले, देवों में देव, होता, अमर, इस यज्ञ के अत्यन्त बुद्धिमान को।",
+  "why": "reviewer (minor): English says 'very wise'; Hindi says 'of good resolve'. Gloss is 'very wise, of good purpose'."
+ },
+ {
+  "n": "115",
+  "field": "english",
+  "old": "Sing that for yourselves together, when the Soma is pressed, to the much-invoked, the brave one; that which is welfare, as for a cow, for the capable one.",
+  "new": "Sing that for yourselves together, when (the Soma) is pressed, to the much-invoked, the brave one; that which is welfare, as for a cow, for the capable one.",
+  "why": "reviewer (minor): 'Soma' is supplied (sute 'when pressed'); notes disclose it but the translation shows it as text."
+ },
+ {
+  "n": "116",
+  "field": "notes",
+  "old": "The Rigvedic parallel has 'made made' (in each exhilaration); madeḥ is taken here as a 2 sg. optative of √mad, but this is uncertain.",
+  "new": "madeḥ is taken here as a 2 sg. optative of √mad, but this is uncertain.",
+  "why": "reviewer (minor): Notes import a reading from another book ('made made'); LAYER_NOTES rule 3 says do not import other books. (Same in unit 120.)"
+ },
+ {
+  "n": "118",
+  "field": "notes",
+  "old": "śrutakakṣāram = śrutakakṣa + aram; Śrutakakṣa is taken as a vocative proper name (a sage's name). 'What is fitting' is supplied after gāyata.",
+  "new": "śrutakakṣāram = śrutakakṣa + aram; Śrutakakṣa is taken as a vocative proper name. 'What is fitting' is supplied after gāyata.",
+  "why": "reviewer (minor): 'a sage's name' is not stated by the line; gloss 'O Śrutakakṣa (name)' is enough."
+ },
+ {
+  "n": "119",
+  "field": "english",
+  "old": "We urge on that Indra to victory, to slay the great Vṛtra; may he be the bull, the steer.",
+  "new": "We urge on that Indra to victory, to slay the great Vṛtra; may he be the mighty one, the bull.",
+  "why": "reviewer (error): 'steer' means a castrated ox; vṛṣabha is 'bull'. Hindi 'बैल और वृषभ' adds 'and' and repeats the same animal."
+ },
+ {
+  "n": "119",
+  "field": "hindi",
+  "old": "उस इन्द्र को हम वृत्र को मारने के लिए बल-विजय हेतु प्रेरित करते हैं; वह बैल और वृषभ हो जाए।",
+  "new": "उस इन्द्र को हम वृत्र को मारने के लिए बल-विजय हेतु प्रेरित करते हैं; वह बलवान, वृषभ हो जाए।",
+  "why": "reviewer (error): 'steer' means a castrated ox; vṛṣabha is 'bull'. Hindi 'बैल और वृषभ' adds 'and' and repeats the same animal."
+ },
+ {
+  "n": "120",
+  "field": "english",
+  "old": "You, O Indra, are born of strength, of might, of vigour; being a bull, O bull, you are indeed a bull.",
+  "new": "You, O Indra, are born of strength, of might, of vigour; being so, O bull, you are indeed a bull.",
+  "why": "reviewer (minor): An extra 'a bull' after 'being': san is only 'being'. Literal: san vṛṣan vṛṣā id asi."
+ },
+ {
+  "n": "120",
+  "field": "notes",
+  "old": "sanvṛṣanvṛṣedasi is parsed san vṛṣan vṛṣā id asi ('being, O bull, a bull indeed you are'); the Rigvedic parallel has 'tvaṃ vṛṣan vṛṣed asi', so san is an extra word here and the parsing is uncertain.",
+  "new": "sanvṛṣanvṛṣedasi is parsed san vṛṣan vṛṣā id asi ('being, O bull, a bull indeed you are'); the parsing is uncertain.",
+  "why": "reviewer (minor): Imports the Rigvedic reading (see unit 116)."
+ },
+ {
+  "n": "129",
+  "field": "hindi",
+  "old": "हे इन्द्र, हमारी सहायता के लिए वह धन लाओ जो विजय दिलाने वाला, विजयी, सदा पराजित करने वाला और सबसे अधिक है।",
+  "new": "हे इन्द्र, सहायता के लिए वह धन लाओ जो विजय दिलाने वाला, विजयी, सदा पराजित करने वाला और सबसे अधिक है।",
+  "why": "reviewer (minor): 'हमारी' is added; ūtaye 'for help'."
+ },
+ {
+  "n": "130",
+  "field": "word.gram",
+  "word": "mahā-dhane",
+  "old": "m. loc. sg.",
+  "new": "karmadhāraya, n. loc. sg.",
+  "why": "reviewer (minor): dhana is neuter, so mahā-dhane is n. loc. sg., not m."
+ },
+ {
+  "n": "131",
+  "field": "hindi",
+  "old": "इन्द्र ने कद्रु का निचोड़ा हुआ सोम सहस्रबाहु के लिए पिया; वहाँ उसने पुरुषोचित बल ग्रहण किया।",
+  "new": "इन्द्र ने कद्रु का निचोड़ा हुआ सोम हज़ार भुजाओं वाले के लिए पिया; वहाँ उसने पुरुषोचित बल ग्रहण किया।",
+  "why": "reviewer (minor): Hindi treats sahasrabāhve as a name; English and gram say 'for the thousand-armed one' (bahuvrīhi). Make them agree (notes already keep it literal)."
+ },
+ {
+  "n": "133",
+  "field": "notes",
+  "old": "ā ... indhate is a split verb ('kindle'). The main clause is not in the unit; it continues in the next.",
+  "new": "ā ... indhate is a split verb ('kindle'). The main clause is not in the unit.",
+  "why": "reviewer (minor): Unsupported: the next unit (134) is a separate imperative verse, not the main clause."
+ },
+ {
+  "n": "139",
+  "field": "hindi",
+  "old": "हे ब्रह्मणस्पति, सोमों के स्वरणम् को बनाओ, उस कक्षीवान् को जो उशिज का पुत्र है।",
+  "new": "हे ब्रह्मणस्पति, सोमों के गूँजने वाले को बनाओ, उस कक्षीवान् को जो उशिज का पुत्र है।",
+  "why": "reviewer (minor): Hindi leaves svaraṇam untranslated while English says 'resounding one'."
+ },
+ {
+  "n": "140",
+  "field": "english",
+  "old": "May the slayer of Vṛtra, attentive of mind and rich in libations, be ours indeed; may Śakra hear our prayer.",
+  "new": "May the slayer of Vṛtra, attentive of mind and rich in libations, be ours indeed; may the mighty one (Śakra) hear our prayer.",
+  "why": "reviewer (minor): Fixed rendering for śakra is 'the mighty one (Śakra)'."
+ },
+ {
+  "n": "142",
+  "field": "hindi",
+  "old": "वह जवान बैल, मोटी गर्दन वाला, न झुकने वाला, कहाँ है? कौन ब्रह्मा उसकी सेवा करता है?",
+  "new": "वह जवान बैल, सुदृढ़ गर्दन वाला, न झुकने वाला, कहाँ है? कौन ब्रह्मा उसकी सेवा करता है?",
+  "why": "reviewer (minor): tuvi- is 'strong, mighty', not 'thick'; English says strong-necked."
+ },
+ {
+  "n": "142",
+  "field": "hindi",
+  "old": "वह जवान बैल, सुदृढ़ गर्दन वाला, न झुकने वाला, कहाँ है? कौन ब्रह्मा उसकी सेवा करता है?",
+  "new": "वह जवान बैल, सुदृढ़ गर्दन वाला, न झुकने वाला, कहाँ है? कौन ब्रह्म-पुरोहित उसकी सेवा करता है?",
+  "why": "reviewer (minor): Hindi 'ब्रह्मा' reads as the god; English and notes say the priest (brahman), the god is not meant."
+ },
+ {
+  "n": "143",
+  "field": "english",
+  "old": "In the recess of the mountains and at the confluence of the rivers, the inspired sage was born through insight.",
+  "new": "In the recess of the mountains and at the confluence of the rivers, the inspired one was born through insight.",
+  "why": "reviewer (minor): ṛṣi is fixed as 'sage' (ऋषि); vipra is a different word, so 'sage'/'ऋषि' for vipra blurs the two."
+ },
+ {
+  "n": "143",
+  "field": "hindi",
+  "old": "पर्वतों की गोद में और नदियों के संगम पर बुद्धि से प्रेरित ऋषि उत्पन्न हुआ।",
+  "new": "पर्वतों की गोद में और नदियों के संगम पर बुद्धि से प्रेरित मेधावी उत्पन्न हुआ।",
+  "why": "reviewer (minor): ṛṣi is fixed as 'sage' (ऋषि); vipra is a different word, so 'sage'/'ऋषि' for vipra blurs the two."
+ },
+ {
+  "n": "143",
+  "field": "word.gloss",
+  "word": "vipraḥ",
+  "old": "sage, inspired one",
+  "new": "inspired one, wise one",
+  "why": "reviewer (minor): ṛṣi is fixed as 'sage' (ऋषि); vipra is a different word, so 'sage'/'ऋषि' for vipra blurs the two."
+ },
+ {
+  "n": "143",
+  "field": "notes",
+  "old": "vipraḥ is rendered 'inspired sage'; the unit does not say who the sage is.",
+  "new": "vipraḥ is rendered 'inspired one'; the unit does not say who the sage is.",
+  "why": "reviewer (minor): ṛṣi is fixed as 'sage' (ऋषि); vipra is a different word, so 'sage'/'ऋषि' for vipra blurs the two."
+ },
+ {
+  "n": "144",
+  "field": "english",
+  "old": "Praise forth with songs Indra, the supreme ruler of the peoples, the ever-new, the hero, the overcomer of men, the most bountiful.",
+  "new": "Praise forth with songs Indra, the supreme ruler of the peoples, the new, the hero, the overcomer of men, the most bountiful.",
+  "why": "reviewer (minor): 'ever' is added; navya is 'new'. Hindi 'नित्य नवीन' likewise."
+ },
+ {
+  "n": "144",
+  "field": "hindi",
+  "old": "लोगों के सम्राट इन्द्र की, जो नित्य नवीन, पुरुष, मनुष्यों को हराने वाला और सबसे उदार है, गीतों से स्तुति करो।",
+  "new": "लोगों के सम्राट इन्द्र की, जो नवीन, पुरुष, मनुष्यों को हराने वाला और सबसे उदार है, गीतों से स्तुति करो।",
+  "why": "reviewer (minor): 'ever' is added; navya is 'new'. Hindi 'नित्य नवीन' likewise."
+ }
+]

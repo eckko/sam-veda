@@ -1,0 +1,559 @@
+[
+ {
+  "n": "55",
+  "field": "word.gloss",
+  "word": "vivaṣṭi",
+  "old": "desires",
+  "new": "let him desire",
+  "why": "reviewer (error): The printed vivaṣṭv-āsicam is vivaṣṭu + āsicam (u becomes v before ā). vivaṣṭi + ā would give vivaṣṭy-ā. The verb is the 3 sg. imperative 'let him desire' (the same form vivaṣṭu is correctly read so in unit 78), not a present indicative."
+ },
+ {
+  "n": "55",
+  "field": "word.gram",
+  "word": "vivaṣṭi",
+  "old": "3 sg. pres. √vaś",
+  "new": "3 sg. impv. √vaś",
+  "why": "reviewer (error): The printed vivaṣṭv-āsicam is vivaṣṭu + āsicam (u becomes v before ā). vivaṣṭi + ā would give vivaṣṭy-ā. The verb is the 3 sg. imperative 'let him desire' (the same form vivaṣṭu is correctly read so in unit 78), not a present indicative."
+ },
+ {
+  "n": "55",
+  "field": "word.w",
+  "word": "vivaṣṭi",
+  "old": "vivaṣṭi",
+  "new": "vivaṣṭu",
+  "why": "reviewer (error): The printed vivaṣṭv-āsicam is vivaṣṭu + āsicam (u becomes v before ā). vivaṣṭi + ā would give vivaṣṭy-ā. The verb is the 3 sg. imperative 'let him desire' (the same form vivaṣṭu is correctly read so in unit 78), not a present indicative."
+ },
+ {
+  "n": "55",
+  "field": "english",
+  "old": "The god Draviṇodas (the wealth-giver) desires the full pouring. Pour it up, or fill it up; then the god brings his favour to you.",
+  "new": "Let the god Draviṇodas (the wealth-giver) desire for you the full pouring. Pour it up, or fill it up; then the god brings [it] to you.",
+  "why": "reviewer (error): 'desires' follows the wrong mood; 'brings his favour' adds an object (favour) that the text does not have; vo is rendered once as 'for you' only on the second half."
+ },
+ {
+  "n": "55",
+  "field": "hindi",
+  "old": "द्रविणोदा देव तुम्हारे लिए भरे हुए आसेचन (उँडेलने) की इच्छा करता है। ऊपर उँडेलो, अथवा भर दो; तब देव तुम्हारे प्रति (अनुग्रह) करता है।",
+  "new": "देव द्रविणोदा तुम्हारे लिए भरे हुए आसेचन की इच्छा करे। ऊपर उँडेलो, अथवा भर दो; तब देव तुम्हारे पास ले आता है।",
+  "why": "reviewer (error): Same mood and supplied-object problems; the Hindi also has two bracketed glosses '(उँडेलने)' and '(अनुग्रह)', the second an unsupported addition."
+ },
+ {
+  "n": "55",
+  "field": "notes",
+  "old": "ohate is uncertain (3 sg. mid. of √uh/√vah, 'brings, bestows, attends to'); the object is not expressed, so 'his favour' is a supplied reading. āsicam is read as accusative of āsic- 'pouring, libation' agreeing with pūrṇām. Draviṇodas is an epithet of Agni; the line does not say so.",
+  "new": "ohate is uncertain (3 sg. mid. of √uh/√vah, 'brings, bestows, attends to'); the object is not expressed, so 'his favour' is a supplied reading. āsicam is read as accusative of āsic- 'pouring, libation' agreeing with pūrṇām. Draviṇodas is kept as a name; the line does not say which god is meant.",
+  "why": "reviewer (minor): Imports an identification from outside the line (LAYER_NOTES 3)."
+ },
+ {
+  "n": "56",
+  "field": "word.gloss",
+  "word": "sūnṛtā",
+  "old": "Sūnṛtā, truth, kind speech",
+  "new": "Sūnṛtā (name; kind speech, bounty)",
+  "why": "reviewer (minor): 'truth' is not a sense of sūnṛtā (kind, pleasant speech; bounty); it is also kept as a name, which is enough."
+ },
+ {
+  "n": "57",
+  "field": "hindi",
+  "old": "हमारी सहायता के लिए सीधे खड़े हो जाओ, सविता देव के समान; तुम सीधे खड़े होकर वाज (बल) के विजेता हो, जब हम अभिषेकों के साथ पुरोहितों सहित तुम्हें पुकारते हैं।",
+  "new": "हमारी सहायता के लिए सीधे खड़े हो जाओ, सविता देव के समान; सीधे खड़े, वाज के विजेता, जब हम अभिषेकों के साथ पुरोहितों सहित तुम्हें पुकारते हैं।",
+  "why": "reviewer (minor): A verb 'हो' and 'होकर' is supplied (the text has no verb in this pāda; the English correctly has none), and 'वाज (बल)' is a bracketed gloss, against the fixed rendering vāja = वाज."
+ },
+ {
+  "n": "58",
+  "field": "english",
+  "old": "The mortal who wishes to lead himself forward to wealth, who worships you, O good one — he obtains, O Agni, a hero who recites praises, who of himself brings thousandfold prosperity.",
+  "new": "The mortal who wishes to lead forward to wealth, who worships you, O good one — he obtains, O Agni, a hero who recites praises, who of himself brings thousandfold prosperity.",
+  "why": "reviewer (minor): 'himself' is a supplied reflexive object; the object of ninīṣati is not expressed (see 'tentative')."
+ },
+ {
+  "n": "58",
+  "field": "hindi",
+  "old": "जो मनुष्य धन की ओर आगे बढ़ना चाहता है और जो तुम्हारी, हे वसु, उपासना करता है, हे अग्नि, वह स्तुति करने वाले, स्वयं सहस्र गुना पोषण करने वाले वीर को पाता है।",
+  "new": "जो मनुष्य धन की ओर आगे ले जाना चाहता है और जो तुम्हारी, हे वसु, उपासना करता है, हे अग्नि, वह स्तुति करने वाले, स्वयं सहस्र गुना पोषण करने वाले वीर को पाता है।",
+  "why": "reviewer (minor): Hindi has the intransitive 'advance' while the English (and pra √nī, desiderative) is transitive 'lead forward'; the two layers disagree."
+ },
+ {
+  "n": "59",
+  "field": "hindi",
+  "old": "तुम्हारी अनेक देवभक्त प्रजाओं के उस युवा अग्नि को हम सुन्दर स्तुतियों और वचनों से चुनते (पुकारते) हैं, जिसे दूसरे भी प्रज्वलित करते हैं।",
+  "new": "तुम्हारी अनेक देवभक्त प्रजाओं के उस युवा अग्नि को हम सुन्दर स्तुतियों और वचनों से चुनते हैं, जिसे दूसरे भी प्रज्वलित करते हैं।",
+  "why": "reviewer (minor): Bracketed gloss '(पुकारते)' in the Hindi; and yahva is 'ever-active' in the English and gloss but 'युवा' in the Hindi."
+ },
+ {
+  "n": "59",
+  "field": "hindi",
+  "old": "तुम्हारी अनेक देवभक्त प्रजाओं के उस युवा अग्नि को हम सुन्दर स्तुतियों और वचनों से चुनते हैं, जिसे दूसरे भी प्रज्वलित करते हैं।",
+  "new": "तुम्हारी अनेक देवभक्त प्रजाओं के उस सदा सक्रिय अग्नि को हम सुन्दर स्तुतियों और वचनों से चुनते हैं, जिसे दूसरे भी प्रज्वलित करते हैं।",
+  "why": "reviewer (minor): Bracketed gloss '(पुकारते)' in the Hindi; and yahva is 'ever-active' in the English and gloss but 'युवा' in the Hindi."
+ },
+ {
+  "n": "60",
+  "field": "hindi",
+  "old": "यह अग्नि उत्तम वीर्य और सौभाग्य का स्वामी है; वह धन का, उत्तम सन्तान का, गौओं से भरपूर (धन) का और शत्रुओं (वृत्र) के वधों का स्वामी है।",
+  "new": "यह अग्नि उत्तम वीर्य और सौभाग्य का स्वामी है; वह धन का, उत्तम सन्तान का, गौओं से भरपूर का और शत्रुओं (वृत्र) के वधों का स्वामी है।",
+  "why": "reviewer (minor): Two bracketed glosses in the Hindi; the first also adds 'धन'."
+ },
+ {
+  "n": "60",
+  "field": "hindi",
+  "old": "यह अग्नि उत्तम वीर्य और सौभाग्य का स्वामी है; वह धन का, उत्तम सन्तान का, गौओं से भरपूर का और शत्रुओं (वृत्र) के वधों का स्वामी है।",
+  "new": "यह अग्नि उत्तम वीर्य और सौभाग्य का स्वामी है; वह धन का, उत्तम सन्तान का, गौओं से भरपूर का और शत्रुओं के वधों का स्वामी है।",
+  "why": "reviewer (minor): Two bracketed glosses in the Hindi; the first also adds 'धन'."
+ },
+ {
+  "n": "60",
+  "field": "word.gram",
+  "word": "su-vīryasya",
+  "old": "n. gen. sg., bahuvrīhi",
+  "new": "n. gen. sg., su-compound (su + vīrya)",
+  "why": "reviewer (minor): su-vīrya is a su-prefixed neuter noun ('good heroic strength'), not a bahuvrīhi (same point as a past review of SV 3.1.644)."
+ },
+ {
+  "n": "61",
+  "field": "text_flags.0.why",
+  "old": "possible: the Ṛgveda parallel (2.1.2) has yakṣi 'you sacrifice'; tākṣi (perhaps from √takṣ 'fashion') gives no clear sense, and the 'pracetā' + 'yakṣi' sandhi would not give the printed ā",
+  "new": "possible: tākṣi gives no clear sense here (perhaps √takṣ 'fashion'), while yakṣi 'you sacrifice' fits the line; the drafter cites the Ṛgveda parallel (2.1.2) as reading yakṣi",
+  "why": "reviewer (minor): The 'why' ends in a sentence that makes no sense ('the pracetā + yakṣi sandhi would not give the printed ā'). pracetāḥ + y- gives pracetā y-, so nothing in the sandhi tells against yakṣi; the real reason is that tākṣi gives no clear verb and yakṣi fits the sense."
+ },
+ {
+  "n": "61",
+  "field": "hindi",
+  "old": "हे अग्नि, तुम गृहपति हो, तुम हमारे यज्ञ में होता हो; तुम पोता हो, हे सबके वांछित, तुम ज्ञानी हो; तुम यजन करते हो और वांछनीय (वस्तु) तक पहुँचते हो।",
+  "new": "हे अग्नि, तुम गृहपति हो, तुम हमारे यज्ञ में होता हो; तुम पोता हो, हे सबके वांछित, तुम ज्ञानी हो; तुम यजन करते हो और वांछनीय की ओर जाते हो।",
+  "why": "reviewer (minor): Bracketed gloss in the Hindi."
+ },
+ {
+  "n": "63",
+  "field": "english",
+  "old": "Pour in the offering, adorn him with the oblation, install the priest, the lord of the house; at the place of the libation, with homage, worship the one to whom the oblation is given, the worshipful one of the homesteads.",
+  "new": "Pour in the offering, adorn [him] with the oblation, install the priest, the lord of the house; at the place of the libation, with homage, worship the one to whom the oblation is given, the worshipful one of the homesteads.",
+  "why": "reviewer (minor): marjayadhvam has no expressed object; 'him' is supplied in both layers as if it were text."
+ },
+ {
+  "n": "63",
+  "field": "hindi",
+  "old": "आहुति डालो, हवि से उसे सजाओ, होता गृहपति को स्थापित करो; इडा के स्थान पर नमस्कार के साथ उसकी उपासना करो जिसे हवि दी जाती है, घरों के पूज्य को।",
+  "new": "आहुति डालो, हवि से सजाओ, होता गृहपति को स्थापित करो; इडा के स्थान पर नमस्कार के साथ उसकी उपासना करो जिसे हवि दी जाती है, घरों के पूज्य को।",
+  "why": "reviewer (minor): marjayadhvam has no expressed object; 'him' is supplied in both layers as if it were text."
+ },
+ {
+  "n": "64",
+  "field": "word.gram",
+  "word": "anūdhāḥ",
+  "old": "f. nom. pl.",
+  "new": "f. nom. sg. (s-stem, a-ūdhas); agrees with the singular ajījanat; sense uncertain",
+  "why": "reviewer (error): anūdhāḥ (a-ūdhas) is an s-stem adjective, whose nom. sg. and nom. pl. look the same; ajījanat is singular, so the subject is the singular 'the udderless one', not 'ones'."
+ },
+ {
+  "n": "64",
+  "field": "english",
+  "old": "He is the bright growth of the young child, who does not follow his two mothers to suck; when the udderless ones bore him, then at once he grew, performing a great messengership.",
+  "new": "Bright indeed is the growth of the young child, who does not follow his two mothers to suck; when the udderless one bore him, then at once he grew, performing a great messengership.",
+  "why": "reviewer (error): 'the udderless ones bore him' contradicts the singular ajījanat; 'it' (indeed) of 'citra it' is dropped; 'He is the bright growth' makes the child the growth, but vakṣathaḥ is the subject and the child is in the genitive."
+ },
+ {
+  "n": "64",
+  "field": "hindi",
+  "old": "वह बालक की, तरुण की, चमकती हुई वृद्धि है, जो दूध पीने के लिए दोनों माताओं के पीछे नहीं जाता; जब बिना थनवालियों ने उसे जन्म दिया, तब वह तुरन्त बड़ा हो गया और महान् दूतकर्म करता रहा।",
+  "new": "तरुण बालक की वृद्धि निश्चय ही चमकती हुई है, जो दूध पीने के लिए दोनों माताओं के पीछे नहीं जाता; जब बिना थन वाली ने उसे जन्म दिया, तब वह तुरन्त बड़ा हो गया और महान् दूतकर्म करता रहा।",
+  "why": "reviewer (error): Same problems; 'बालक की, तरुण की' also turns the one phrase śiśoḥ taruṇasya into two separate genitives."
+ },
+ {
+  "n": "64",
+  "field": "word.gram",
+  "word": "vavakṣat",
+  "old": "3 sg. √vakṣ",
+  "new": "3 sg. past (injunctive-type) of reduplicated √vakṣ 'grow' (form uncertain)",
+  "why": "reviewer (minor): The gram says only '3 sg. √vakṣ', no tense or mood; the form in -at is an injunctive/aorist-type form, not a present."
+ },
+ {
+  "n": "64",
+  "field": "notes",
+  "old": "anūdhā is unclear (a-ūdhas 'without udder'; number and case uncertain) and the sense of the whole comparison is tentative. The pluta figure 3 inside dūtyā3ṃ is a separate word and is not translated (dūtyā + 3 + ṃ read as dūtyam with pluta). vakṣathaḥ could also be 'bosom, flank'; 'growth' is chosen.",
+  "new": "anūdhā is unclear (a-ūdhas 'without udder'; number and case uncertain) and the sense of the whole comparison is tentative. The pluta figure 3 inside dūtyā3ṃ is a separate word and is not translated (dūtyā + 3 + ṃ read as dūtyam with pluta). vakṣathaḥ could also be 'bosom, flank'; 'growth' is chosen. Reviewer: ajījanat is singular, so anūdhāḥ (s-stem) is read as nom. sg. 'the udderless one'; who is meant is not stated.",
+  "why": "reviewer (minor): The note says number and case are uncertain; number is fixed by ajījanat."
+ },
+ {
+  "n": "65",
+  "field": "text_flags",
+  "old": [
+   {
+    "src": "para",
+    "suggest": "paraḥ",
+    "why": "possible: para followed by ū would not be the normal sandhi of paraḥ + u (paro); the form is uncertain, the sense 'another, beyond' is retained"
+   }
+  ],
+  "new": [],
+  "why": "reviewer (error): The flag is unsound. paraḥ + ū gives para ū (the visarga drops before a vowel after a), and ū is the pragṛhya particle ūṃ, which does not combine; so 'para ū' is regular and 'paro' would be wrong. There is nothing to flag (a flag here would invent a variant)."
+ },
+ {
+  "n": "65",
+  "field": "word.gram",
+  "word": "paraḥ",
+  "old": "adj. m. (uncertain)",
+  "new": "m. nom. sg. 'other, beyond' (sense uncertain; no typo)",
+  "why": "reviewer (error): The flag is unsound. paraḥ + ū gives para ū (the visarga drops before a vowel after a), and ū is the pragṛhya particle ūṃ, which does not combine; so 'para ū' is regular and 'paro' would be wrong. There is nothing to flag (a flag here would invent a variant)."
+ },
+ {
+  "n": "65",
+  "field": "word.gram",
+  "word": "u",
+  "old": "ind.",
+  "new": "ind. (pragṛhya particle ūṃ)",
+  "why": "reviewer (error): The flag is unsound. paraḥ + ū gives para ū (the visarga drops before a vowel after a), and ū is the pragṛhya particle ūṃ, which does not combine; so 'para ū' is regular and 'paro' would be wrong. There is nothing to flag (a flag here would invent a variant)."
+ },
+ {
+  "n": "65",
+  "field": "hindi",
+  "old": "यह तुम्हारा एक (रूप) है, और वह दूसरा तुम्हारा एक (रूप) है; तीसरी ज्योति के साथ मिल जाओ। शरीर के लिए सुन्दर प्रवेश बनो, और परम जन्मस्थान में देवों के प्रिय बनो।",
+  "new": "यह तुम्हारा एक है, और वह दूसरा तुम्हारा एक है; तीसरी ज्योति के साथ मिल जाओ। शरीर के लिए सुन्दर प्रवेश बनो, और परम जन्मस्थान में देवों के प्रिय बनो।",
+  "why": "reviewer (minor): Two bracketed 'रूप' additions in the Hindi (the text has only 'one … another one')."
+ },
+ {
+  "n": "65",
+  "field": "word.gram",
+  "word": "sam-veśanaḥ",
+  "old": "m. nom. sg., tat-puruṣa",
+  "new": "m. nom. sg. (sam-veśana, from sam + √viś; not a compound of two nouns)",
+  "why": "reviewer (minor): 'tat-puruṣa' is wrong: saṃveśana is a prefixed derivative (sam + √viś + -ana), not a two-member compound."
+ },
+ {
+  "n": "66",
+  "field": "english",
+  "old": "For Jātavedas, who is worthy, we would fashion this praise-song with thought, as one fashions a chariot. His favour to us is auspicious; in the assembly, O Agni, in your friendship may we not be harmed.",
+  "new": "For Jātavedas, who is worthy, we would fashion this praise-song with thought, as one fashions a chariot. For his favour to us is auspicious; in the assembly, O Agni, in your friendship may we not be harmed.",
+  "why": "reviewer (minor): hi ('for') is dropped in both layers; the second sentence is a reason for the first."
+ },
+ {
+  "n": "66",
+  "field": "hindi",
+  "old": "योग्य जातवेदा के लिए हम इस स्तोत्र को रथ के समान बुद्धि से रचें। उसकी कृपा हमारे लिए कल्याणकारी है; सभा में, हे अग्नि, तुम्हारी मित्रता में हम हानि न उठाएँ।",
+  "new": "योग्य जातवेदा के लिए हम इस स्तोत्र को रथ के समान बुद्धि से रचें। क्योंकि उसकी कृपा हमारे लिए कल्याणकारी है; सभा में, हे अग्नि, तुम्हारी मित्रता में हम हानि न उठाएँ।",
+  "why": "reviewer (minor): hi ('for') is dropped in both layers; the second sentence is a reason for the first."
+ },
+ {
+  "n": "67",
+  "field": "word.gram",
+  "word": "sam-rājam",
+  "old": "m. acc. sg., tat-puruṣa",
+  "new": "m. acc. sg. (sam-rāj, prefixed noun)",
+  "why": "reviewer (minor): samrāj (sam + rāj) is a prefixed word, not a tat-puruṣa."
+ },
+ {
+  "n": "67",
+  "field": "english",
+  "old": "The head of heaven, the attendant of the earth, Vaiśvānara born in the order, Agni — the sage, universal sovereign, guest of the people — the gods produced as a vessel in the mouth.",
+  "new": "The head of heaven, the attendant of the earth, Vaiśvānara born in the order, Agni — the seer, universal sovereign, guest of the people — the gods produced as a vessel in the mouth.",
+  "why": "reviewer (minor): The fixed rendering is ṛṣi = sage; kavi should be 'seer' so the two do not collide."
+ },
+ {
+  "n": "67",
+  "field": "word.gloss",
+  "word": "kavim",
+  "old": "sage, poet",
+  "new": "seer, poet",
+  "why": "reviewer (minor): The fixed rendering is ṛṣi = sage; kavi should be 'seer' so the two do not collide."
+ },
+ {
+  "n": "68",
+  "field": "hindi",
+  "old": "जैसे पर्वत की पीठ से जल, वैसे ही तुमसे, हे अग्नि, देवों ने स्तुतियों के द्वारा (धन) प्रकट किया। ऐसे तुम्हें स्तुतियाँ और सुन्दर प्रशंसाएँ बल के लिए प्रेरित करती हैं, जैसे घोड़े दौड़ जीत चुके हों।",
+  "new": "जैसे पर्वत की पीठ से जल, तुमसे, हे अग्नि, देवों ने स्तुतियों के द्वारा उत्पन्न किया। उन तुम्हें स्तुतियाँ और सुन्दर प्रशंसाएँ वाज के लिए प्रेरित करती हैं, हे गीतों से वहन किए जाने वाले, जैसे दौड़ जीत चुके घोड़े।",
+  "why": "reviewer (error): '(धन)' supplies a wealth object that the text does not have (and is a bracketed gloss); the vocative girvavāhaḥ is dropped from the Hindi altogether; 'वैसे ही' and 'ऐसे' add words; 'बल के लिए' departs from vāja = वाज."
+ },
+ {
+  "n": "68",
+  "field": "english",
+  "old": "As waters from the ridge of a mountain, so from you, O Agni, the gods have brought forth [it] with hymns. Songs and fair praises urge you on for the prize, O one carried by songs, as horses that have won the race.",
+  "new": "Like waters from the ridge of a mountain, from you, O Agni, the gods brought forth [it] with hymns. Songs and fair praises urge you on for the prize, O one carried by songs, as horses that have won the race.",
+  "why": "reviewer (minor): na is 'like' (one comparison particle); 'so' is added, and 'have brought forth' makes a perfect of an imperfect/injunctive janayanta."
+ },
+ {
+  "n": "68",
+  "field": "word.w",
+  "word": "gir-vavāhaḥ",
+  "old": "gir-vavāhaḥ",
+  "new": "gīr-vāhaḥ",
+  "why": "reviewer (minor): LAYER_NOTES 2 asks for the corrected form in `words` when a text_flag is raised; the draft keeps the printed (non-existent) gir-vavāhaḥ in `w`."
+ },
+ {
+  "n": "70",
+  "field": "text_flags",
+  "old": [
+   {
+    "src": "āgniragram",
+    "suggest": "agniragram",
+    "why": "possible: the long ā looks like a typing slip (sabādha + agniḥ would give sabādha agniḥ); read agniḥ"
+   }
+  ],
+  "new": [],
+  "why": "reviewer (error): The flag is unsound. sabādhaḥ + agniḥ would give sabādho 'gniḥ, not 'sabādha agniḥ' as the flag says. The printed 'sabādha āgniḥ' is regular as sabādha(ḥ) + ā + agniḥ (ā + a = ā), with ā the preverb of aśoci ('has blazed up'). No typo to flag; the word list needs the extra word ā."
+ },
+ {
+  "n": "70",
+  "field": "notes",
+  "old": "samaryaḥ is uncertain (sam-arya 'of the gathering/battle'). sabādhaḥ 'hard-pressed' could also be read 'with toil'. 'Agni' is named only in the last line; the earlier clauses are taken to refer to him.",
+  "new": "samaryaḥ is uncertain (sam-arya 'of the gathering/battle'). sabādhaḥ 'hard-pressed' could also be read 'with toil'. 'Agni' is named only in the last line; the earlier clauses are taken to refer to him. Reviewer: āgniḥ is read as ā + agniḥ (ā is the preverb of aśoci), which is regular; the word list still lacks the separate word ā (to be added by a person).",
+  "why": "reviewer (error): The flag is unsound. sabādhaḥ + agniḥ would give sabādho 'gniḥ, not 'sabādha agniḥ' as the flag says. The printed 'sabādha āgniḥ' is regular as sabādha(ḥ) + ā + agniḥ (ā + a = ā), with ā the preverb of aśoci ('has blazed up'). No typo to flag; the word list needs the extra word ā."
+ },
+ {
+  "n": "70",
+  "field": "hindi",
+  "old": "राजा (अग्नि) नमस्कारों के साथ प्रज्वलित किया जाता है, जिसका मुख घी से आहुत है; मनुष्य हवियों से परिश्रम करते हुए उसकी स्तुति करते हैं; अग्नि उषाओं के आगे प्रकाशित हुआ है।",
+  "new": "समूह का स्वामी राजा नमस्कारों के साथ प्रज्वलित किया जाता है, जिसका मुख घी से आहुत है; मनुष्य हवियों से परिश्रम करते हुए उसकी स्तुति करते हैं; अग्नि उषाओं के आगे प्रकाशित हुआ है।",
+  "why": "reviewer (minor): '(अग्नि)' is a bracketed identification the text does not make here, while samaryaḥ ('lord of the gathering' in the English) is missing; 'परिश्रम करते हुए' (toiling) disagrees with the English and gloss 'hard-pressed'."
+ },
+ {
+  "n": "70",
+  "field": "hindi",
+  "old": "समूह का स्वामी राजा नमस्कारों के साथ प्रज्वलित किया जाता है, जिसका मुख घी से आहुत है; मनुष्य हवियों से परिश्रम करते हुए उसकी स्तुति करते हैं; अग्नि उषाओं के आगे प्रकाशित हुआ है।",
+  "new": "समूह का स्वामी राजा नमस्कारों के साथ प्रज्वलित किया जाता है, जिसका मुख घी से आहुत है; मनुष्य हवियों से संकट में पड़े हुए उसकी स्तुति करते हैं; अग्नि उषाओं के आगे प्रकाशित हुआ है।",
+  "why": "reviewer (minor): '(अग्नि)' is a bracketed identification the text does not make here, while samaryaḥ ('lord of the gathering' in the English) is missing; 'परिश्रम करते हुए' (toiling) disagrees with the English and gloss 'hard-pressed'."
+ },
+ {
+  "n": "71",
+  "field": "hindi",
+  "old": "अग्नि विशाल पताका (ज्वाला) के साथ आगे चलता है; वह वृषभ दोनों लोकों में गरजता है। द्युलोक के अन्त से भी वह समीप तक पहुँच गया है; जलों की गोद में वह महान् बढ़ा है।",
+  "new": "अग्नि विशाल पताका के साथ आगे चलता है; वह वृषभ दोनों लोकों में गरजता है। द्युलोक के अन्त से भी वह समीप तक पहुँच गया है; जलों की गोद में वह महान् बढ़ा है।",
+  "why": "reviewer (minor): Bracketed gloss in the Hindi."
+ },
+ {
+  "n": "72",
+  "field": "hindi",
+  "old": "हे मनुष्यो, दोनों अरणियों से उँगलियों द्वारा, हाथ से गतिमान, प्रशंसित अग्नि को उत्पन्न करो — दूर से दीखने वाले, गृहपति, सदा सक्रिय को।",
+  "new": "हे मनुष्यो, दोनों अरणियों से उँगलियों द्वारा, हाथ से छूटे हुए, प्रशंसित अग्नि को उत्पन्न करो — दूर से दीखने वाले, गृहपति, सदा सक्रिय को।",
+  "why": "reviewer (minor): 'गतिमान' (moving) has no basis in cyuta and disagrees with the English 'shaken'. cyuta is 'fallen, dropped, issued'."
+ },
+ {
+  "n": "72",
+  "field": "english",
+  "old": "O men, beget Agni with your fingers from the two kindling-sticks — the praised one, shaken from the hand, seen from afar, the lord of the house, the ever-active.",
+  "new": "O men, beget Agni with your fingers from the two kindling-sticks — the praised one, dropped from the hand, seen from afar, the lord of the house, the ever-active.",
+  "why": "reviewer (minor): 'गतिमान' (moving) has no basis in cyuta and disagrees with the English 'shaken'. cyuta is 'fallen, dropped, issued'."
+ },
+ {
+  "n": "72",
+  "field": "word.gloss",
+  "word": "hasta-cyutam",
+  "old": "shaken from the hand",
+  "new": "dropped from the hand",
+  "why": "reviewer (minor): 'गतिमान' (moving) has no basis in cyuta and disagrees with the English 'shaken'. cyuta is 'fallen, dropped, issued'."
+ },
+ {
+  "n": "73",
+  "field": "english",
+  "old": "Agni has been awakened by the kindling of the people, like a cow towards the dawn coming; like youths sending up a branch, his rays stream forth towards the firmament.",
+  "new": "Agni has been awakened by the kindling of the people, as towards a milch-cow, towards the dawn coming; like youths sending up a branch, his rays stream forth towards the firmament.",
+  "why": "reviewer (minor): dhenum iva āyatīm uṣāsam: dhenum and uṣāsam are both accusatives after prati; the comparison is 'as towards a milch-cow, towards the dawn coming', not a cow going to the dawn. The Hindi has the same reversed picture."
+ },
+ {
+  "n": "73",
+  "field": "hindi",
+  "old": "लोगों के समिन्धन से अग्नि जाग उठा है, जैसे आती हुई उषा की ओर गाय; जैसे युवा शाखा को ऊपर उठाते हुए, उसकी किरणें आकाश की ओर आगे बहती हैं।",
+  "new": "लोगों के समिन्धन से अग्नि जाग उठा है, जैसे दुधारू गाय की ओर, आती हुई उषा की ओर; जैसे युवा शाखा को ऊपर उठाते हुए, उसकी किरणें आकाश की ओर आगे बहती हैं।",
+  "why": "reviewer (minor): dhenum iva āyatīm uṣāsam: dhenum and uṣāsam are both accusatives after prati; the comparison is 'as towards a milch-cow, towards the dawn coming', not a cow going to the dawn. The Hindi has the same reversed picture."
+ },
+ {
+  "n": "74",
+  "field": "hindi",
+  "old": "उस अग्नि को जो बहुत जीतता है, महान् है, धारण करने वाला है, अबोधों के बीच बोधवान है, दुर्गों का भेदन करने वाला है, स्तुतियों से मार्ग दिखाने वाला है, भूरी दाढ़ी वाला है, कवच के समान धन की ज्योति वाला है — उसे बुद्धि में स्थापित करो।",
+  "new": "उसे जो बहुत जीतता है, महान् है, धारण करने वाला है, अबोधों के बीच बोधवान है, दुर्गों का भेदन करने वाला है, स्तुतियों से मार्ग दिखाने वाला है, भूरी दाढ़ी वाला है, कवच के समान धन की ज्योति वाला है — उसे बुद्धि में स्थापित करो।",
+  "why": "reviewer (error): The Hindi names Agni; the verse (as the unit's own note says) does not name any god. Not supported by the text."
+ },
+ {
+  "n": "75",
+  "field": "english",
+  "old": "One of yours is bright, another of yours is worshipful; you are like the sky, of diverse forms, the two days. You protect all wonders, O self-powered one; may your gift here be auspicious, O Pūṣan.",
+  "new": "One of yours is bright, another of yours is worshipful; you are like the sky, with the two days (day and night) of diverse forms. You protect all wonders, O self-powered one; may your gift here be auspicious, O Pūṣan.",
+  "why": "reviewer (minor): viṣurūpe ahanī are the dual 'two days (day and night) of diverse forms', not an attribute of 'you'. The draft's wording makes 'you' diverse-formed and leaves 'the two days' as a stray apposition."
+ },
+ {
+  "n": "75",
+  "field": "hindi",
+  "old": "तुम्हारा एक (रूप) उज्ज्वल है, दूसरा पूज्य है; तुम आकाश के समान दो दिनों (दिन-रात) के नाना रूपों वाले हो। हे स्वधावान्, तुम सब मायाओं की रक्षा करते हो; हे पूषन्, तुम्हारा यहाँ का दान कल्याणकारी हो।",
+  "new": "तुम्हारा एक उज्ज्वल है, दूसरा पूज्य है; तुम आकाश के समान दो दिनों (दिन-रात) के नाना रूपों वाले हो। हे स्वधावान्, तुम सब मायाओं की रक्षा करते हो; हे पूषन्, तुम्हारा यहाँ का दान कल्याणकारी हो।",
+  "why": "reviewer (minor): Two bracketed glosses in the Hindi, and the same attribute problem."
+ },
+ {
+  "n": "75",
+  "field": "hindi",
+  "old": "तुम्हारा एक उज्ज्वल है, दूसरा पूज्य है; तुम आकाश के समान दो दिनों (दिन-रात) के नाना रूपों वाले हो। हे स्वधावान्, तुम सब मायाओं की रक्षा करते हो; हे पूषन्, तुम्हारा यहाँ का दान कल्याणकारी हो।",
+  "new": "तुम्हारा एक उज्ज्वल है, दूसरा पूज्य है; तुम आकाश के समान हो, जिसके दो दिन, दिन और रात, नाना रूपों वाले हैं। हे स्वधावान्, तुम सब मायाओं की रक्षा करते हो; हे पूषन्, तुम्हारा यहाँ का दान कल्याणकारी हो।",
+  "why": "reviewer (minor): Two bracketed glosses in the Hindi, and the same attribute problem."
+ },
+ {
+  "n": "76",
+  "field": "word.w",
+  "word": "puru-daṃsasam",
+  "old": "puru-daṃsasam",
+  "new": "puru-daṃsam",
+  "why": "reviewer (error): The printed puruda~sa~ is purudaṃsaṃ, i.e. puru-daṃsam; the draft's 'puru-daṃsasam' has an extra 'sa' that is not in the text (compare unit 62 suda~sasa~, which does have it)."
+ },
+ {
+  "n": "76",
+  "field": "word.gram",
+  "word": "puru-daṃsam",
+  "old": "f./m. acc. sg., bahuvrīhi",
+  "new": "acc. sg., bahuvrīhi (puru + daṃsa 'wonder'); with saniṃ",
+  "why": "reviewer (error): The printed puruda~sa~ is purudaṃsaṃ, i.e. puru-daṃsam; the draft's 'puru-daṃsasam' has an extra 'sa' that is not in the text (compare unit 62 suda~sasa~, which does have it)."
+ },
+ {
+  "n": "76",
+  "field": "english",
+  "old": "O Agni, grant to the one who calls on you Iḍā, the abundant, ever-lasting gain of cattle. May we have a son and offspring, fruitful; O Agni, may that good will of yours be with us.",
+  "new": "O Agni, grant to the one who calls on you Iḍā, the gain of cattle, of many wonders, most lasting. May we have a son and offspring, fruitful; O Agni, may that good will of yours be with us.",
+  "why": "reviewer (minor): 'abundant' is not purudaṃsam ('of many wonders'); the Hindi says 'बहुत आश्चर्यकर्म वाले' so the layers disagree."
+ },
+ {
+  "n": "76",
+  "field": "hindi",
+  "old": "हे अग्नि, पुकारने वाले के लिए इडा (अन्न-रस) को, बहुत आश्चर्यकर्म वाले, सदा बना रहने वाले गोधन के लाभ को सिद्ध करो। हमारे लिए पुत्र और सन्तान सफल हो; हे अग्नि, तुम्हारी वह सुमति हमारे साथ हो।",
+  "new": "हे अग्नि, पुकारने वाले के लिए इडा को, बहुत आश्चर्यकर्म वाले, सदा बना रहने वाले गोधन के लाभ को सिद्ध करो। हमारे लिए पुत्र और सन्तान सफल हो; हे अग्नि, तुम्हारी वह सुमति हमारे साथ हो।",
+  "why": "reviewer (minor): Bracketed gloss '(अन्न-रस)'; 'सफल' is not vijāvā (fruitful, prolific)."
+ },
+ {
+  "n": "76",
+  "field": "hindi",
+  "old": "हे अग्नि, पुकारने वाले के लिए इडा को, बहुत आश्चर्यकर्म वाले, सदा बना रहने वाले गोधन के लाभ को सिद्ध करो। हमारे लिए पुत्र और सन्तान सफल हो; हे अग्नि, तुम्हारी वह सुमति हमारे साथ हो।",
+  "new": "हे अग्नि, पुकारने वाले के लिए इडा को, बहुत आश्चर्यकर्म वाले, सदा बना रहने वाले गोधन के लाभ को सिद्ध करो। हमारे लिए फलवान् पुत्र और सन्तान हो; हे अग्नि, तुम्हारी वह सुमति हमारे साथ हो।",
+  "why": "reviewer (minor): Bracketed gloss '(अन्न-रस)'; 'सफल' is not vijāvā (fruitful, prolific)."
+ },
+ {
+  "n": "77",
+  "field": "hindi",
+  "old": "होता प्रकट हुआ, महान्, आकाश को पाने वाला, मनुष्यों के बीच बैठने वाला; वह जलों के घूमने (मोड़) में बैठा। जो सुत (सोम निचोड़) में बल देता हुआ रखा गया, वह नियन्ता, उपासक को धन देता है और शरीरों का रक्षक है।",
+  "new": "होता प्रकट हुआ, महान्, आकाश को पाने वाला, मनुष्यों के बीच बैठने वाला; वह जलों के घुमाव में बैठा। जो सुत (सोम निचोड़) में बल देता हुआ रखा गया, वह नियन्ता, उपासक को धन देता है और शरीरों का रक्षक है।",
+  "why": "reviewer (minor): Two bracketed glosses; 'सोम' is not in the line."
+ },
+ {
+  "n": "77",
+  "field": "hindi",
+  "old": "होता प्रकट हुआ, महान्, आकाश को पाने वाला, मनुष्यों के बीच बैठने वाला; वह जलों के घुमाव में बैठा। जो सुत (सोम निचोड़) में बल देता हुआ रखा गया, वह नियन्ता, उपासक को धन देता है और शरीरों का रक्षक है।",
+  "new": "होता प्रकट हुआ, महान्, आकाश को पाने वाला, मनुष्यों के बीच बैठने वाला; वह जलों के घुमाव में बैठा। जो निचोड़ने पर बल देता हुआ रखा गया, वह नियन्ता, उपासक को धन देता है और शरीरों का रक्षक है।",
+  "why": "reviewer (minor): Two bracketed glosses; 'सोम' is not in the line."
+ },
+ {
+  "n": "81",
+  "field": "hindi",
+  "old": "हे अग्नि, हे अजेय, हमारे लिए सबसे प्रबल दीप्ति ले आओ; हमारे अधिक प्रशंसनीय धन के लिए और बल के लिए तुम मार्ग दो।",
+  "new": "हे अग्नि, हे अजेय, हमारे लिए सबसे प्रबल दीप्ति ले आओ; हमारे अधिक प्रशंसनीय धन के लिए और वाज के लिए तुम मार्ग दो।",
+  "why": "reviewer (minor): vāja is fixed as वाज in the glossary (prize/strength); the Hindi uses 'बल' here."
+ },
+ {
+  "n": "86",
+  "field": "hindi",
+  "old": "जो सबसे अधिक ले जाने वाला है, वह अग्नि के लिए ऊँचे स्वर से गाओ, हे तेजस्वी; महान् रानी के समान तुमसे धन उठता है, तुमसे वाज (बल) उठते हैं।",
+  "new": "जो सबसे अधिक ले जाने वाला है, वह अग्नि के लिए ऊँचे स्वर से गाओ, हे तेजस्वी; महान् रानी के समान तुमसे धन उठता है, तुमसे वाज उठते हैं।",
+  "why": "reviewer (minor): Bracketed gloss; fixed rendering is वाज."
+ },
+ {
+  "n": "86",
+  "field": "word.gloss",
+  "word": "bṛhat",
+  "old": "greatly",
+  "new": "greatly, loudly",
+  "why": "reviewer (minor): The gloss says 'greatly' but the English translates 'loudly'."
+ },
+ {
+  "n": "87",
+  "field": "hindi",
+  "old": "हर प्रजा के अतिथि, बहुतों के प्रिय, तुम्हारे घर के अग्नि की, बल चाहने वाले हम, वचनों और बलवान् के विचारों से स्तुति करते हैं।",
+  "new": "हर प्रजा के अतिथि, बहुतों के प्रिय, तुम्हारे घर के अग्नि की, वाज चाहने वाले हम, वचनों और बलवान् के विचारों से स्तुति करते हैं।",
+  "why": "reviewer (minor): vājayantaḥ: the English says 'the prize'; fixed rendering is वाज."
+ },
+ {
+  "n": "88",
+  "field": "hindi",
+  "old": "महान् बल (की प्रार्थना) में तेजस्वी देव अग्नि के लिए गाओ, जिसे मनुष्यों ने मित्र के समान प्रशंसा के लिए आगे रखा है।",
+  "new": "निश्चय ही महान् बल का गान तेजस्वी देव अग्नि के लिए करो, जिसे मनुष्यों ने मित्र के समान प्रशंसा के लिए आगे रखा है।",
+  "why": "reviewer (error): Garbled: a bracketed gloss, an invented locative 'में', and 'hi' dropped; it also disagrees with the English 'chant great vigour'."
+ },
+ {
+  "n": "89",
+  "field": "hindi",
+  "old": "हम सबसे बड़े वृत्र-हन्ता, ज्येष्ठ, मानव अग्नि के पास आए हैं; जो, हे श्रुतर्वन्, आर्क्ष में, महान् ज्वाला वाला होकर प्रज्वलित होता है।",
+  "new": "हम सबसे बड़े वृत्र-हन्ता, ज्येष्ठ, आनव अग्नि के पास आए हैं; जो, हे श्रुतर्वन्, आर्क्ष में, महान् ज्वाला वाला होकर प्रज्वलित होता है।",
+  "why": "reviewer (minor): ānavam is 'Ānava' (of Anu / of the people) in the English and gloss; 'मानव' (human, of Manu) is a different word."
+ },
+ {
+  "n": "89",
+  "field": "english",
+  "old": "We have come to Agni, the foremost, best slayer of foes, the Ānava; who, O Śrutarvan, in the Ārkṣa, is kindled with great flame.",
+  "new": "We have come to Agni, the foremost, best slayer of Vṛtra, the Ānava; who, O Śrutarvan, in the Ārkṣa, is kindled with great flame.",
+  "why": "reviewer (minor): The glossary renders vṛtrahan as 'slayer of Vṛtra'; the same word should not become 'foes' here (the Hindi already has वृत्र-हन्ता)."
+ },
+ {
+  "n": "89",
+  "field": "word.gloss",
+  "word": "vṛtra-hantamam",
+  "old": "best slayer of foes (vṛtra)",
+  "new": "best slayer of Vṛtra",
+  "why": "reviewer (minor): The glossary renders vṛtrahan as 'slayer of Vṛtra'; the same word should not become 'foes' here (the Hindi already has वृत्र-हन्ता)."
+ },
+ {
+  "n": "89",
+  "field": "word.gloss",
+  "word": "ārkṣe",
+  "old": "in the Ārkṣa (name)",
+  "new": "Ārkṣa (name or patronymic; role not stated)",
+  "why": "reviewer (minor): 'in the Ārkṣa (name)' is unclear; the Hindi 'आर्क्ष में' too. The word is a name or patronymic, and the gloss must say what is attested: loc. of a name."
+ },
+ {
+  "n": "90",
+  "field": "hindi",
+  "old": "जब तुम परम धर्म (विधान) से उत्पन्न होकर साथ बढ़ने वालों के साथ हुए; जब अग्नि कश्यप का पिता, श्रद्धा माता और मनु कवि हुआ।",
+  "new": "जब तुम परम धर्म से उत्पन्न होकर साथ बढ़ने वालों के साथ हुए; जब अग्नि कश्यप का पिता, श्रद्धा माता और मनु कवि हुआ।",
+  "why": "reviewer (minor): Bracketed gloss in the Hindi."
+ },
+ {
+  "n": "90",
+  "field": "english",
+  "old": "Born by the supreme law, when you were together with your fellow-growers; when Agni was the father of Kaśyapa, Śraddhā the mother, and Manu the sage.",
+  "new": "Born by the supreme law, when you were together with your fellow-growers; when Agni was the father of Kaśyapa, Śraddhā the mother, and Manu the seer.",
+  "why": "reviewer (minor): Fixed rendering: ṛṣi = sage, so kavi should be 'seer'."
+ },
+ {
+  "n": "90",
+  "field": "word.gloss",
+  "word": "kaviḥ",
+  "old": "sage, seer",
+  "new": "seer, poet",
+  "why": "reviewer (minor): Fixed rendering: ṛṣi = sage, so kavi should be 'seer'."
+ },
+ {
+  "n": "91",
+  "field": "hindi",
+  "old": "हम राजा सोम, वरुण, अग्नि, आदित्य, विष्णु, सूर्य, ब्रह्मा और बृहस्पति का आश्रय लेते हैं।",
+  "new": "हम राजा सोम, वरुण, अग्नि, आदित्य, विष्णु, सूर्य, ब्रह्मन् और बृहस्पति को थामते हैं।",
+  "why": "reviewer (minor): brahmāṇam is the Brahman (the priest/the sacred power), as in the English; 'ब्रह्मा' names the creator god. 'आश्रय लेते हैं' (take refuge) is more than 'take hold of' and the English has no refuge."
+ },
+ {
+  "n": "92",
+  "field": "hindi",
+  "old": "यहाँ से ये ऊपर चढ़े, द्युलोक की पीठों पर चढ़ गए; जैसे विजयी मार्गों से, वैसे आङ्गिरस द्युलोक को गए।",
+  "new": "यहाँ से ये ऊपर चढ़े, द्युलोक की पीठों पर चढ़ गए; विजेताओं की तरह मार्गों से आङ्गिरस द्युलोक को गए।",
+  "why": "reviewer (minor): The Hindi makes the paths 'victorious' while the English (and bhūrjayaḥ nom. pl.) makes the Aṅgirases the conquerors; 'वैसे' is added."
+ },
+ {
+  "n": "92",
+  "field": "notes",
+  "old": "bhūrjayaḥ is uncertain ('conquerors' is a guess); pathaḥ is read as accusative plural 'paths' (the Ṛgveda parallel has pathā 'by the path'). Aṅgirases is kept as a name.",
+  "new": "bhūrjayaḥ is uncertain ('conquerors' is a guess); pathaḥ is read as accusative plural 'paths'. Aṅgirases is kept as a name.",
+  "why": "reviewer (minor): LAYER_NOTES 3: do not import other books."
+ },
+ {
+  "n": "93",
+  "field": "english",
+  "old": "O Agni, we kindle you for wealth, for great giving. Praise, indeed, the mighty bull for greatness; and Heaven and Earth for the offering.",
+  "new": "O Agni, may we kindle you for wealth, for great giving. Praise, indeed, the mighty bull for greatness; and Heaven and Earth for the offering.",
+  "why": "reviewer (minor): samidhīmahi is an optative ('may we kindle'), as the gram, the notes and the Hindi 'प्रज्वलित करें' all say."
+ },
+ {
+  "n": "94",
+  "field": "notes",
+  "old": "The first line is very uncertain: dadhanve (√dhā or √dhan), veru and the syntax of vocad brahmeti veru tat cannot be fixed from the text alone; the Ṛgveda parallel (1.141.9) differs (brahmāṇi). The second line (encompassing all wisdoms as the felly the wheel) is clear. The translation of line 1 is a placeholder and needs a reviewer.",
+  "new": "The first line is very uncertain: dadhanve (√dhā or √dhan), veru and the syntax of vocad brahmeti veru tat cannot be fixed from the text alone. The second line (encompassing all wisdoms as the felly the wheel) is clear. The translation of line 1 is a placeholder and needs a reviewer.",
+  "why": "reviewer (minor): LAYER_NOTES 3: do not import other books."
+ }
+]
