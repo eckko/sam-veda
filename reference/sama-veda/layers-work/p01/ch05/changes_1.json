@@ -1,0 +1,221 @@
+[
+ {
+  "n": "194",
+  "field": "hindi",
+  "old": "सोम तुम्हें आनन्दित करें; हे पत्थर के धारी, उदारता प्रदान करो; पवित्र वाणी (ब्रह्म) से द्वेष रखने वालों को मार गिराओ।",
+  "new": "सोम तुम्हें आनन्दित करें; हे पत्थर के धारी, उदारता प्रदान करो; पवित्र वाणी से द्वेष रखने वालों को मार गिराओ।",
+  "why": "reviewer (minor): Bracketed gloss in the Hindi (brief: no bracketed glosses in the Hindi); the English keeps (brahman)."
+ },
+ {
+  "n": "197",
+  "field": "hindi",
+  "old": "जैसे नदियाँ समुद्र में प्रवेश करती हैं, वैसे ही सोम की बूँदें तुममें प्रवेश करें। हे इन्द्र, तुमसे बढ़कर कोई नहीं है।",
+  "new": "जैसे नदियाँ समुद्र में प्रवेश करती हैं, वैसे ही बूँदें तुममें प्रवेश करें। हे इन्द्र, तुमसे बढ़कर कोई नहीं है।",
+  "why": "reviewer (minor): Hindi adds 'Soma'; the line has only indavaḥ 'drops' and the English says 'the drops'. Keep Soma in the gloss only."
+ },
+ {
+  "n": "198",
+  "field": "english",
+  "old": "The singers of gāthā songs praised Indra; the chanters praised Indra with hymns (arka), loudly (or with the Bṛhat chant); the voices praised Indra.",
+  "new": "The singers of gāthā songs praised Indra; the chanters praised Indra loudly with hymns (arka); the voices praised Indra.",
+  "why": "reviewer (error): Both senses of bṛhat are put into the translation at once, and the Hindi chooses only the Bṛhat chant, so English and Hindi disagree. One sense belongs in the text (the other stays in notes, where it already is)."
+ },
+ {
+  "n": "198",
+  "field": "hindi",
+  "old": "गाथा गाने वालों ने इन्द्र की स्तुति की; अर्क गाने वालों ने अर्क-मन्त्रों से बृहत् गान के साथ इन्द्र की स्तुति की; वाणियों ने इन्द्र की स्तुति की।",
+  "new": "गाथा गाने वालों ने इन्द्र की स्तुति की; अर्क गाने वालों ने अर्क-मन्त्रों से ऊँचे स्वर में इन्द्र की स्तुति की; वाणियों ने इन्द्र की स्तुति की।",
+  "why": "reviewer (error): Hindi takes bṛhat as the Bṛhat chant, English as 'loudly'; make them agree on the adverbial sense used in the gloss."
+ },
+ {
+  "n": "199",
+  "field": "word.gloss",
+  "word": "indra",
+  "old": "O Indra",
+  "new": "Indra",
+  "why": "reviewer (error): Glossed as a vocative 'O Indra', but the verb is 3 sg. (dadātu) and both translations treat Indra as subject ('May Indra give us'). 'indra iṣe' is indraḥ + iṣe (visarga lost before a vowel), nominative."
+ },
+ {
+  "n": "199",
+  "field": "word.gram",
+  "word": "indra",
+  "old": "m. voc. sg.",
+  "new": "m. nom. sg.",
+  "why": "reviewer (error): Glossed as a vocative 'O Indra', but the verb is 3 sg. (dadātu) and both translations treat Indra as subject ('May Indra give us'). 'indra iṣe' is indraḥ + iṣe (visarga lost before a vowel), nominative."
+ },
+ {
+  "n": "199",
+  "field": "word.w",
+  "word": "indra",
+  "old": "indra",
+  "new": "indraḥ",
+  "why": "reviewer (error): Glossed as a vocative 'O Indra', but the verb is 3 sg. (dadātu) and both translations treat Indra as subject ('May Indra give us'). 'indra iṣe' is indraḥ + iṣe (visarga lost before a vowel), nominative."
+ },
+ {
+  "n": "207",
+  "field": "hindi",
+  "old": "जो वसु इच्छा करने योग्य है और जो दृढ़ स्थान में, स्थिर स्थान में, पर्शान में छिपाकर ले जाया गया है, हे इन्द्र, उसे यहाँ ले आओ।",
+  "new": "जो इच्छा करने योग्य धन दृढ़ स्थान में, स्थिर स्थान में, पर्शान में दूर ले जाया गया है, हे इन्द्र, उसे यहाँ ले आओ।",
+  "why": "reviewer (minor): Hindi adds 'hidden/छिपाकर' (English only 'carried away') and leaves neuter vasu untranslated as 'वसु' (English 'wealth'); parābhṛta is 'carried away'."
+ },
+ {
+  "n": "207",
+  "field": "word.gram",
+  "word": "vasu",
+  "old": "n. nom. sg.",
+  "new": "n. acc. sg. (form also nom.)",
+  "why": "reviewer (minor): Neuter nom./acc. are identical in form; the notes say the wealth is the object of bhara (through tat), so 'nom.' is the wrong label."
+ },
+ {
+  "n": "207",
+  "field": "word.gram",
+  "word": "spārham",
+  "old": "n. nom. sg.",
+  "new": "n. acc. sg. (form also nom.)",
+  "why": "reviewer (minor): Neuter nom./acc. are identical in form; the notes say the wealth is the object of bhara (through tat), so 'nom.' is the wrong label."
+ },
+ {
+  "n": "209",
+  "field": "english",
+  "old": "Fitly may we attain to your fame, O Indra, O hero, as men of one like you; fitly, O mighty one, in the paremaṇi.",
+  "new": "Fitly may we attain to your fame, O Indra, O hero, of one like you; fitly, O mighty one (Śakra), in the paremaṇi.",
+  "why": "reviewer (minor): 'as men of' is garbled and adds 'men'; tvāvataḥ is a genitive 'of one like you'. Also Śakra should follow the glossary ('the mighty one (Śakra)')."
+ },
+ {
+  "n": "209",
+  "field": "hindi",
+  "old": "हे इन्द्र, हम तुम्हारी कीर्ति के लिए उपयुक्त रूप से पहुँचें, हे शूर, तुम जैसे के लिए; हे शक्र, परेमणि में भी उपयुक्त रूप से।",
+  "new": "हे इन्द्र, हम तुम्हारी कीर्ति के लिए उपयुक्त रूप से पहुँचें, हे शूर, तुम जैसे के; हे शक्र, परेमणि में भी उपयुक्त रूप से।",
+  "why": "reviewer (minor): Hindi makes tvāvataḥ a dative ('for one like you'), the gloss is genitive."
+ },
+ {
+  "n": "215",
+  "field": "hindi",
+  "old": "हे इन्द्र, यहाँ से भी हमारे पास आओ, सौ वाज दिलाने वाली शक्ति से, हज़ार वाज दिलाने वाली शक्ति से।",
+  "new": "हे इन्द्र, यहाँ से भी हमारे पास आओ, सौ वाज दिलाने वाले पोषण से, हज़ार वाज दिलाने वाले पोषण से।",
+  "why": "reviewer (minor): iṣā is 'refreshment' in gloss and English, 'पोषण' in unit 199; Hindi renders it 'शक्ति' (strength), which the notes call only an alternative."
+ },
+ {
+  "n": "216",
+  "field": "english",
+  "old": "As soon as he was born, the slayer of Vṛtra took up the arrow and asked his mother: \"Who are the mighty ones? Who indeed are famed?\"",
+  "new": "Born, the slayer of Vṛtra took up the arrow and asked his mother: \"Who are the mighty ones? Who indeed are famed?\"",
+  "why": "reviewer (minor): 'As soon as' (and Hindi 'लेते ही') adds a timing the text does not state; jātaḥ is just 'born'."
+ },
+ {
+  "n": "216",
+  "field": "hindi",
+  "old": "वृत्र को मारने वाले ने जन्म लेते ही बाण उठा लिया और माता से पूछा, \"कौन उग्र हैं? कौन प्रसिद्ध हैं?\"",
+  "new": "जन्म लेकर वृत्र को मारने वाले ने बाण उठा लिया और माता से पूछा, \"कौन उग्र हैं? कौन प्रसिद्ध हैं?\"",
+  "why": "reviewer (minor): 'As soon as' (and Hindi 'लेते ही') adds a timing the text does not state; jātaḥ is just 'born'."
+ },
+ {
+  "n": "216",
+  "field": "word.gram",
+  "word": "pṛcchat",
+  "old": "3 sg. impf. √prach",
+  "new": "3 sg. inj. √prach (augmentless, past sense)",
+  "why": "reviewer (minor): pṛcchat has no augment, so it is an injunctive (past sense), not an imperfect."
+ },
+ {
+  "n": "217",
+  "field": "hindi",
+  "old": "हम सहायता के लिए बृबदुक्थ को, सरकती (उदार) भुजा वाले को पुकारते हैं; जो सिद्ध करता और कार्य करता है, सहायता के लिए।",
+  "new": "हम सहायता के लिए बृबदुक्थ को, सरकती भुजा वाले को पुकारते हैं; जो सिद्ध करता और कार्य करता है, सहायता के लिए।",
+  "why": "reviewer (minor): '(उदार)' (generous) is an interpretive bracketed addition in the Hindi, repeated in the gloss '(generous hand)'. sṛpra-karasna is 'with gliding/smooth arm'."
+ },
+ {
+  "n": "217",
+  "field": "word.gloss",
+  "word": "sṛpra-karasnam",
+  "old": "with gliding arm (generous hand)",
+  "new": "with gliding arm",
+  "why": "reviewer (minor): '(उदार)' (generous) is an interpretive bracketed addition in the Hindi, repeated in the gloss '(generous hand)'. sṛpra-karasna is 'with gliding/smooth arm'."
+ },
+ {
+  "n": "218",
+  "field": "english",
+  "old": "By straight guidance Varuṇa and Mitra, the wise, lead us; Aryaman, in accord with the gods.",
+  "new": "By straight guidance Varuṇa, Mitra, the wise one, leads us; Aryaman, in accord with the gods.",
+  "why": "reviewer (minor): nayati and vidvān are singular (the notes say so), but the English makes 'Varuṇa and Mitra ... lead' plural, and says 'the gods as one group' contrary to the Hindi singular."
+ },
+ {
+  "n": "219",
+  "field": "english",
+  "old": "As if from afar yet here, when the ruddy-formed one who exists shone, he spread his light out in every way.",
+  "new": "From afar, as if here, when the ruddy-formed one who exists shone, he spread his light out in every way.",
+  "why": "reviewer (minor): 'yet' is added and the order is changed; dūrād iha iva is 'from afar, as if here'. Same in Hindi."
+ },
+ {
+  "n": "219",
+  "field": "hindi",
+  "old": "जैसे दूर से भी यहीं हो, जब उस विद्यमान लाल रूप वाले ने चमक बिखेरी, तो उसने अपनी किरण को सब प्रकार से फैला दिया।",
+  "new": "दूर से, मानो यहीं हो, जब उस विद्यमान लाल रूप वाले ने चमक बिखेरी, तो उसने अपनी किरण को सब प्रकार से फैला दिया।",
+  "why": "reviewer (minor): 'yet' is added and the order is changed; dūrād iha iva is 'from afar, as if here'. Same in Hindi."
+ },
+ {
+  "n": "220",
+  "field": "hindi",
+  "old": "हे मित्र और वरुण, हमारे लिए चरागाह को घी से सींचो, और लोकों को मधुरता से, हे सुकर्मा।",
+  "new": "हे मित्र और वरुण, हमारे लिए चरागाह को घी से सींचो, और लोकों को मधुरता से, हे अत्यन्त कुशल दोनों।",
+  "why": "reviewer (minor): su-kratū is a dual vocative, 'O highly skilled ones' in the English; Hindi has a singular 'सुकर्मा' (good doer), which is also a different sense from kratu."
+ },
+ {
+  "n": "222",
+  "field": "hindi",
+  "old": "विष्णु ने इस (जगत्) को पार किया, उसने अपना पद तीन प्रकार से रखा; वह उसके धूलभरे (पद) में समाया हुआ है।",
+  "new": "विष्णु ने इसे पार किया, उसने तीन प्रकार से अपना पद रखा; यह उसके धूलभरे स्थान में समाया हुआ है।",
+  "why": "reviewer (minor): Bracketed glosses in the Hindi; the added 'जगत्' and 'पद' are interpretation (pāṃsule is only 'in the dusty (place)'). English also has '(step)'."
+ },
+ {
+  "n": "222",
+  "field": "english",
+  "old": "Viṣṇu strode across this, and set down his step in three ways; it is gathered up in his dusty (step).",
+  "new": "Viṣṇu strode across this, and set down his step in three ways; it is gathered up in his dusty place.",
+  "why": "reviewer (minor): Bracketed glosses in the Hindi; the added 'जगत्' and 'पद' are interpretation (pāṃsule is only 'in the dusty (place)'). English also has '(step)'."
+ },
+ {
+  "n": "226",
+  "field": "hindi",
+  "old": "इन्द्र स्तुतियों से सबसे अधिक आनन्द देने वाला है और वाजों का स्वामी है; वह हरे घोड़ों वाला, निचोड़े हुए सोमों का मित्र है।",
+  "new": "इन्द्र स्तुतियों से सबसे अधिक आनन्द देने वाला है और वाजों का स्वामी है; वह भूरे घोड़ों वाला, निचोड़े हुए सोमों का मित्र है।",
+  "why": "reviewer (minor): hari is 'bay/tawny' (English 'bay horses'); Hindi 'हरे' reads as green."
+ },
+ {
+  "n": "227",
+  "field": "word.gram",
+  "word": "hṛṇīthāḥ",
+  "old": "2 sg. inj. mid. √hṛ",
+  "new": "2 sg. inj. mid., denominative hṛṇīya- 'be angry' (hṛṇīyate)",
+  "why": "reviewer (error): The printed form is hṛṇīyathāḥ (denominative hṛṇīya-, 2 sg. mid.); the draft silently replaced it with a normalised 'hṛṇīthāḥ' (not a sandhi change) without a text_flag. The word is the printed form."
+ },
+ {
+  "n": "227",
+  "field": "word.w",
+  "word": "hṛṇīthāḥ",
+  "old": "hṛṇīthāḥ",
+  "new": "hṛṇīyathāḥ",
+  "why": "reviewer (error): The printed form is hṛṇīyathāḥ (denominative hṛṇīya-, 2 sg. mid.); the draft silently replaced it with a normalised 'hṛṇīthāḥ' (not a sandhi change) without a text_flag. The word is the printed form."
+ },
+ {
+  "n": "236",
+  "field": "hindi",
+  "old": "उस अद्भुत, शत्रुओं को हराने वाले, सोम-रस और धन से आनन्दित होने वाले इन्द्र को हम गीतों से पुकारते हैं, जैसे दूध देने वाली गायें बाड़ों में बछड़े की ओर।",
+  "new": "उस अद्भुत, शत्रुओं को हराने वाले, सोम-रस और धन से आनन्दित होने वाले इन्द्र को हम गीतों से ऊँचे स्वर में स्तुति करते हैं, जैसे दूध देने वाली गायें बाड़ों में बछड़े की ओर।",
+  "why": "reviewer (minor): navāmahe is 'roar/praise loudly' (English 'we roar', and unit 233 renders nonumaḥ as 'ऊँचे स्वर में स्तुति'); 'पुकारते' is 'call' (huve/havāmahe)."
+ },
+ {
+  "n": "240",
+  "field": "english",
+  "old": "You indeed, come to the cera; find a share for the gaining of wealth; pour forth, O Maghavan, for the quest of cattle; pour forth, O Indra, a horse for the wish.",
+  "new": "You indeed, come to the cera; find a share for the gaining of wealth; pour forth, O bountiful one (Maghavan), for the quest of cattle; pour forth, O Indra, a horse for the wish.",
+  "why": "reviewer (minor): Glossary: maghavan = O bountiful one (Maghavan)."
+ },
+ {
+  "n": "242",
+  "field": "hindi",
+  "old": "हे मित्रो, किसी और की स्तुति मत करो और हानि मत उठाओ; सोम निचोड़ने पर मिलकर केवल वृषभ इन्द्र की स्तुति करो और बार-बार उक्थों का पाठ करो।",
+  "new": "हे मित्रो, कुछ और पाठ मत करो और हानि मत उठाओ; सोम निचोड़ने पर मिलकर केवल वृषभ इन्द्र की स्तुति करो और बार-बार उक्थों का पाठ करो।",
+  "why": "reviewer (minor): anyat is 'anything else' (English 'do not recite anything else'); Hindi says 'praise someone else', which changes the sense."
+ }
+]
