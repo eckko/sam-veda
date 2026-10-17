@@ -1,0 +1,770 @@
+{
+ "units": [
+  {
+   "n": "955",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "उन तुम्हारे पास",
+     "problem": "'tam tvā' is singular ('that you'); the Hindi 'उन' is plural.",
+     "fix": "उस तुम्हारे पास",
+     "severity": "minor",
+     "patch": {
+      "n": "955",
+      "op": "replace",
+      "field": "hindi",
+      "old": "उन तुम्हारे पास",
+      "new": "उस तुम्हारे पास"
+     }
+    }
+   ]
+  },
+  {
+   "n": "956",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "You, flow clear for us",
+     "problem": "saḥ is a plain demonstrative; 'you' (and Hindi 'तुम') is not in the Sanskrit. Render 'that one' / 'वह' in every 'sa ... pavasva/arṣa/vidaḥ' line.",
+     "fix": "That one, flow clear for us",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "956",
+       "op": "word",
+       "match_w": "saḥ",
+       "field": "gloss",
+       "value": "that one"
+      },
+      {
+       "n": "956",
+       "op": "replace",
+       "field": "english",
+       "old": "You, flow clear for us",
+       "new": "That one, flow clear for us"
+      },
+      {
+       "n": "956",
+       "op": "replace",
+       "field": "hindi",
+       "old": "तुम हमारे लिए धन से भरपूर",
+       "new": "वह हमारे लिए धन से भरपूर"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "957",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "958",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "959",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "text_flags",
+     "where": "flag reason",
+     "problem": "The reason cites the RV parallel (not allowed); the typo suspicion stands on the Sanskrit alone (final -n before d- is not written ṃ in regular sandhi).",
+     "fix": "Possible: a present participle nom. sg. ends in -n before d- (kṛṇvan divas pari); the printed anusvāra is not expected here.",
+     "severity": "minor",
+     "patch": {
+      "n": "959",
+      "op": "set",
+      "field": "text_flags.0.why",
+      "value": "Possible: a present participle nom. sg. ends in -n before d- (kṛṇvan divas pari); the printed anusvāra is not expected here."
+     }
+    },
+    {
+     "field": "gloss",
+     "where": "divaḥ",
+     "problem": "Gloss 'of heaven' / gram 'gen.' disagree with the translation 'from heaven' (pari takes the ablative; the case is not certain).",
+     "fix": "gloss: heaven; gram: m. abl. or gen. sg. (with pari)",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "959",
+       "op": "word",
+       "match_w": "divaḥ",
+       "field": "gloss",
+       "value": "heaven"
+      },
+      {
+       "n": "959",
+       "op": "word",
+       "match_w": "divaḥ",
+       "field": "gram",
+       "value": "m. abl. or gen. sg. (with pari)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "960",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "notes",
+     "where": "vidharmaṇi",
+     "problem": "vi-dharman is left [unclear] here, but other chunks render the same word: p01/ch11 units 521, 529 'in the support, foundation'; p04/ch06 chunk2 unit 1017 'in the upholding'. The word itself is readable; only its sense is debated. Manual decision on dharman/vidharman: keep [unclear] here or use the same rendering as the other chunks (e.g. 'in the support'). No patch.",
+     "fix": "decide with owner (glossary OPEN line on dharman)",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "961",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "notes",
+     "where": "RV parallel",
+     "problem": "Notes must not import Ṛgveda parallels.",
+     "fix": "vṛñjate: the printed form is kept and read as √vṛj 'clear, cleanse'; the sense is uncertain.",
+     "severity": "minor",
+     "patch": {
+      "n": "961",
+      "op": "replace",
+      "field": "notes",
+      "old": "vṛñjate: the RV parallel has mṛñjate (√mṛj 'cleanse'); the printed form is kept and read as √vṛj 'clear, cleanse', sense uncertain.",
+      "new": "vṛñjate: the printed form is kept and read as √vṛj 'clear, cleanse'; the sense is uncertain."
+     }
+    }
+   ]
+  },
+  {
+   "n": "962",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "963",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "964",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "965",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "966",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "967",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "बुरा चाहने वाले का मारने वाला",
+     "problem": "Ungrammatical: 'slayer of the evil-wisher' needs the object marker को.",
+     "fix": "बुरा चाहने वाले को मारने वाला",
+     "severity": "minor",
+     "patch": {
+      "n": "967",
+      "op": "replace",
+      "field": "hindi",
+      "old": "बुरा चाहने वाले का मारने वाला",
+      "new": "बुरा चाहने वाले को मारने वाला"
+     }
+    }
+   ]
+  },
+  {
+   "n": "968",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "969",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "970",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gloss",
+     "where": "saḥ / sentence 'You, O Soma, find fame for us'",
+     "problem": "saḥ is a plain demonstrative; 'you' (and Hindi 'तुम') is not in the Sanskrit. Render 'that one' / 'वह' in every 'sa ... pavasva/arṣa/vidaḥ' line.",
+     "fix": "That one, O Soma, find fame for us.",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "970",
+       "op": "word",
+       "match_w": "saḥ",
+       "field": "gloss",
+       "value": "that one"
+      },
+      {
+       "n": "970",
+       "op": "replace",
+       "field": "english",
+       "old": "You, O Soma, find fame for us.",
+       "new": "That one, O Soma, find fame for us."
+      },
+      {
+       "n": "970",
+       "op": "replace",
+       "field": "hindi",
+       "old": "तुम, हे सोम, हमारे लिए कीर्ति पाओ।",
+       "new": "वह, हे सोम, हमारे लिए कीर्ति पाओ।"
+      }
+     ]
+    },
+    {
+     "field": "hindi",
+     "where": "चारों ओर सब में",
+     "problem": "'pari viśvāni' is 'around all'; 'सब में' ('in all') gives a locative the Sanskrit does not have.",
+     "fix": "सब के चारों ओर",
+     "severity": "minor",
+     "patch": {
+      "n": "970",
+      "op": "replace",
+      "field": "hindi",
+      "old": "चारों ओर सब में",
+      "new": "सब के चारों ओर"
+     }
+    }
+   ]
+  },
+  {
+   "n": "971",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "with firm wealth",
+     "problem": "'with' is added; dhruvaṃ rayim is a plain accusative (object of the flowing), as the note itself says.",
+     "fix": "firm wealth",
+     "severity": "minor",
+     "patch": {
+      "n": "971",
+      "op": "replace",
+      "field": "english",
+      "old": "with firm wealth",
+      "new": "firm wealth"
+     }
+    }
+   ]
+  },
+  {
+   "n": "972",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "वाले हो, हे सोम",
+     "problem": "Hindi supplies the verb 'हो' (are) in line a; the English supplies none and the Sanskrit has none (verb supplied in one language only).",
+     "fix": "तुम राजा के समान उत्तम व्रत वाले, हे सोम, तुमने स्तुतियों में प्रवेश किया है",
+     "severity": "error",
+     "patch": {
+      "n": "972",
+      "op": "replace",
+      "field": "hindi",
+      "old": "तुम राजा के समान उत्तम व्रत वाले हो, हे सोम,",
+      "new": "तुम राजा के समान उत्तम व्रत वाले, हे सोम,"
+     }
+    }
+   ]
+  },
+  {
+   "n": "973",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gram",
+     "where": "duṣ-taraḥ",
+     "problem": "duṣṭara is an adjective compound of duṣ + tara (from √tṝ), not a bahuvrīhi.",
+     "fix": "m. nom. sg. (compound duṣ + tara; adjective)",
+     "severity": "minor",
+     "patch": {
+      "n": "973",
+      "op": "word",
+      "match_w": "duṣ-taraḥ",
+      "field": "gram",
+      "value": "m. nom. sg. (compound duṣ + tara; adjective)"
+     }
+    }
+   ]
+  },
+  {
+   "n": "974",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gloss",
+     "where": "makhaḥ / 'vigorous one'",
+     "problem": "Glossary fixes makha = Makha (मख, name), as in p01/ch12 553 and p04/ch02 774. The draft makes it an adjective 'vigorous one' in gloss, English, Hindi and notes.",
+     "fix": "gloss: Makha; English 'Playful, generous like Makha, you go ...'; Hindi 'खेलने वाले, मख के समान उदार'",
+     "severity": "error",
+     "patch": [
+      {
+       "n": "974",
+       "op": "word",
+       "match_w": "makhaḥ",
+       "field": "gloss",
+       "value": "Makha"
+      },
+      {
+       "n": "974",
+       "op": "word",
+       "match_w": "makhaḥ",
+       "field": "gram",
+       "value": "m. nom. sg. (name)"
+      },
+      {
+       "n": "974",
+       "op": "replace",
+       "field": "english",
+       "old": "Playful, like a vigorous one, generous,",
+       "new": "Playful, generous like Makha,"
+      },
+      {
+       "n": "974",
+       "op": "replace",
+       "field": "hindi",
+       "old": "खेलने वाले, उत्साही के समान उदार",
+       "new": "खेलने वाले, मख के समान उदार"
+      },
+      {
+       "n": "974",
+       "op": "replace",
+       "field": "notes",
+       "old": "makha is obscure ('vigorous, festive, bounteous'); rendered 'vigorous one'.",
+       "new": "makha is kept as the name Makha (glossary); other senses ('vigorous', 'festive') are possible."
+      }
+     ]
+    },
+    {
+     "field": "hindi",
+     "where": "गायक को",
+     "problem": "stotṛ = स्तोता in the glossary and in 971 of this chunk ('स्तोताओं').",
+     "fix": "स्तोता को",
+     "severity": "minor",
+     "patch": {
+      "n": "974",
+      "op": "replace",
+      "field": "hindi",
+      "old": "गायक को",
+      "new": "स्तोता को"
+     }
+    }
+   ]
+  },
+  {
+   "n": "975",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "976",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "977",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "978",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "He who overpowers and is not overpowered",
+     "problem": "'and' is added between asyndetic verbs, in both languages; Hindi also adds 'तुम' to 'वह' (sa is only 'that one'). The note's 'same you as in other refrains' contradicts the translation.",
+     "fix": "He who overpowers, is not overpowered, strikes the enemy having approached, that one, flow clear ...; Hindi: जो जीतता है, जीता नहीं जाता, ... वह शुद्ध होकर बहो",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "978",
+       "op": "replace",
+       "field": "english",
+       "old": "He who overpowers and is not overpowered, who strikes the enemy having approached, that one,",
+       "new": "He who overpowers, is not overpowered, strikes the enemy having approached, that one,"
+      },
+      {
+       "n": "978",
+       "op": "replace",
+       "field": "hindi",
+       "old": "जो जीतता है और जीता नहीं जाता, पास जाकर शत्रु को मारता है, वह तुम शुद्ध होकर बहो",
+       "new": "जो जीतता है, जीता नहीं जाता, पास जाकर शत्रु को मारता है, वह शुद्ध होकर बहो"
+      },
+      {
+       "n": "978",
+       "op": "replace",
+       "field": "notes",
+       "old": "the demonstrative sa is the same 'you' as in other refrains; kept as 'that one' because it picks up yaḥ.",
+       "new": "the demonstrative sa is rendered 'that one' (वह) here and in the other 'sa ... pavasva/arṣa' lines; it picks up yaḥ."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "979",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "text_flags",
+     "where": "flag reason",
+     "problem": "The reason cites the RV parallel and a metre count (not allowed); the suspicion stands on the Sanskrit alone ('inda' is not a form of indu).",
+     "fix": "Possible: 'inda' is not a case form of indu; the plural indavaḥ (indava ūtaye) would be expected, so a syllable seems lost. The printed text is kept.",
+     "severity": "minor",
+     "patch": {
+      "n": "979",
+      "op": "set",
+      "field": "text_flags.0.why",
+      "value": "Possible: 'inda' is not a case form of indu; the plural indavaḥ (indava ūtaye) would be expected, so a syllable seems lost. The printed text is kept."
+     }
+    },
+    {
+     "field": "english",
+     "where": "Those streams of yours ... were sent forth",
+     "problem": "yāḥ is a relative ('which'); the English turns it into the demonstrative 'Those' and leaves the relative clause open, while the Hindi correctly has जो ... उनसे.",
+     "fix": "Which streams of yours, dripping honey, O drops, were sent forth for help, with those sit on the filter.",
+     "severity": "minor",
+     "patch": {
+      "n": "979",
+      "op": "set",
+      "field": "english",
+      "value": "Which streams of yours, dripping honey, O drops, were sent forth for help, with those sit on the filter."
+     }
+    },
+    {
+     "field": "notes",
+     "where": "indavaḥ",
+     "problem": "Number clash worth recording: the vocative plural 'O drops' is addressed together with the singular imperative āsadaḥ.",
+     "fix": "append note",
+     "severity": "minor",
+     "patch": {
+      "n": "979",
+      "op": "append_note",
+      "text": "A plural vocative (indavaḥ) next to the singular imperative āsadaḥ is awkward; a nominative indavaḥ (the drops as subject) remains possible."
+     }
+    }
+   ]
+  },
+  {
+   "n": "980",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "You, flow for Indra to drink",
+     "problem": "saḥ is a plain demonstrative; 'you' (and Hindi 'तुम') is not in the Sanskrit. Render 'that one' / 'वह' in every 'sa ... pavasva/arṣa/vidaḥ' line.",
+     "fix": "That one, flow for Indra to drink",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "980",
+       "op": "word",
+       "match_w": "saḥ",
+       "field": "gloss",
+       "value": "that one"
+      },
+      {
+       "n": "980",
+       "op": "replace",
+       "field": "english",
+       "old": "You, flow for Indra to drink",
+       "new": "That one, flow for Indra to drink"
+      },
+      {
+       "n": "980",
+       "op": "replace",
+       "field": "hindi",
+       "old": "वह तुम इन्द्र के पीने के लिए बहो",
+       "new": "वह इन्द्र के पीने के लिए बहो"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "981",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "982",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "983",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "text_flags",
+     "where": "pṛthakṣardhā~syagne",
+     "problem": "Decision on the ~ case: the flag stands, but only for ṣ after k (no sandhi produces ṣ there). The ँ is regular and is not part of the suspicion. The reason cites the RV parallel: reword.",
+     "fix": "Possible: ṣ for ś (pṛthak śardhāṃsi). ṣ is not expected after k, and śardhas 'host' is the word the sense needs. The ँ in śardhā~syagne is the regular nasal of -ṃs- and is not itself flagged.",
+     "severity": "minor",
+     "patch": {
+      "n": "983",
+      "op": "set",
+      "field": "text_flags.0.why",
+      "value": "Possible: ṣ for ś (pṛthak śardhāṃsi). ṣ is not expected after k, and śardhas 'host' is the word the sense needs. The ँ in śardhā~syagne is the regular nasal of -ṃs- and is not itself flagged."
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "अलग-अलग फैलते हो",
+     "problem": "English says 'you stand apart' (vi tiṣṭhase); Hindi says 'spread'. The two translations must agree.",
+     "fix": "अलग खड़े होते हो",
+     "severity": "error",
+     "patch": {
+      "n": "983",
+      "op": "replace",
+      "field": "hindi",
+      "old": "अलग-अलग फैलते हो",
+      "new": "अलग खड़े होते हो"
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "उस अजर के",
+     "problem": "'उस' (that) is added; ajarasya is only 'of the ageless'.",
+     "fix": "अजर के, जलाने वाले के",
+     "severity": "minor",
+     "patch": {
+      "n": "983",
+      "op": "replace",
+      "field": "hindi",
+      "old": "उस अजर के",
+      "new": "अजर के"
+     }
+    }
+   ]
+  },
+  {
+   "n": "984",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "text_flags",
+     "where": "samānamittavāṃ",
+     "problem": "Decision on the ~ case: the ँ in agni~ is regular (no flag); the flag for samānamittavāṃ stands on the Sanskrit alone. Reason cites the RV parallel: reword.",
+     "fix": "Possible: tavāṃ is not a form of tvām (nor of tava); read it as the second tvām (samānam it tvām). The ँ in agni~ is the regular nasal and is not flagged.",
+     "severity": "minor",
+     "patch": {
+      "n": "984",
+      "op": "set",
+      "field": "text_flags.0.why",
+      "value": "Possible: tavāṃ is not a form of tvām (nor of tava); read it as the second tvām (samānam it tvām). The ँ in agni~ is the regular nasal and is not flagged."
+     }
+    },
+    {
+     "field": "notes",
+     "where": "RV parallel",
+     "problem": "Notes must not import Ṛgveda parallels.",
+     "fix": "paribhūtaram is read as a comparative accusative; matim as an accusative of respect, uncertain.",
+     "severity": "minor",
+     "patch": {
+      "n": "984",
+      "op": "replace",
+      "field": "notes",
+      "old": "paribhūtaram is read as a comparative accusative (the RV parallel has paribhūtamam); matim",
+      "new": "paribhūtaram is read as a comparative accusative; matim"
+     }
+    },
+    {
+     "field": "english",
+     "where": "of the small oblation, alike indeed, you the great ones choose",
+     "problem": "The draft word list has two tvām; the English renders only one, while the Hindi renders both (तुम्हें ... तुम्हें): the translations disagree.",
+     "fix": "you, of the small oblation, alike indeed, you the great ones choose",
+     "severity": "error",
+     "patch": {
+      "n": "984",
+      "op": "replace",
+      "field": "english",
+      "old": "of the small oblation, alike indeed, you the great ones",
+      "new": "you, of the small oblation, alike indeed, you the great ones"
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "महान लोग",
+     "problem": "'लोग' (people) is added; mahaḥ is 'the great ones'.",
+     "fix": "महान जन",
+     "severity": "minor",
+     "patch": {
+      "n": "984",
+      "op": "replace",
+      "field": "hindi",
+      "old": "महान लोग",
+      "new": "महान जन"
+     }
+    }
+   ]
+  },
+  {
+   "n": "985",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "निश्चय ही अब तुम दोनों की सहायता है",
+     "problem": "English translates cit ('Even') and hi ('indeed'); Hindi has only hi.",
+     "fix": "निश्चय ही अब तुम दोनों की सहायता भी है",
+     "severity": "minor",
+     "patch": {
+      "n": "985",
+      "op": "replace",
+      "field": "hindi",
+      "old": "निश्चय ही अब तुम दोनों की सहायता है",
+      "new": "निश्चय ही अब तुम दोनों की सहायता भी है"
+     }
+    }
+   ]
+  },
+  {
+   "n": "986",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "from you two, those ones",
+     "problem": "'from' / 'से' is not in the Sanskrit (vām is a bare pronoun form; the second vām is glossed genitive). Syntax of 'tā vām' is loose; a person should choose, e.g. 'May we rightly obtain, those ones of you two, O guileless ones, refreshment and abode' (Hindi: तुम दोनों के उन, हे द्रोह न करने वालो, हम ठीक रूप से पोषण और धाम पाएँ). No patch.",
+     "fix": "see problem",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "987",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gram",
+     "where": "trāyethām",
+     "problem": "-ethām is the 2 du. middle imperative ending (a 2 du. present middle would be -ethe); the draft labels it 'pres.' although it translates it as an imperative ('protect').",
+     "fix": "2 du. impv. mid. √trā",
+     "severity": "error",
+     "patch": {
+      "n": "987",
+      "op": "word",
+      "match_w": "trāyethām",
+      "field": "gram",
+      "value": "2 du. impv. mid. √trā"
+     }
+    },
+    {
+     "field": "gram",
+     "where": "su-trātrā",
+     "problem": "su-trātṛ 'good protector' is a su-compound, not a bahuvrīhi (cf. su-matim in 985).",
+     "fix": "m. voc. du. (su-compound)",
+     "severity": "minor",
+     "patch": {
+      "n": "987",
+      "op": "word",
+      "match_w": "su-trātrā",
+      "field": "gram",
+      "value": "m. voc. du. (su-compound)"
+     }
+    }
+   ]
+  },
+  {
+   "n": "988",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "989",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "तुम्हारे स्पर्धा करते हुए के सामने",
+     "problem": "Garbled Hindi: 'तुम्हारे ... के सामने' wraps the participle (spardhamānam, 'you contending') in a genitive that does not match the English 'yielded to you as you contended'.",
+     "fix": "दोनों लोक स्पर्धा करते हुए तुम्हारे सामने झुक गए",
+     "severity": "error",
+     "patch": {
+      "n": "989",
+      "op": "replace",
+      "field": "hindi",
+      "old": "दोनों लोक तुम्हारे स्पर्धा करते हुए के सामने झुक गए",
+      "new": "दोनों लोक स्पर्धा करते हुए तुम्हारे सामने झुक गए"
+     }
+    }
+   ]
+  },
+  {
+   "n": "990",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gloss",
+     "where": "pari",
+     "problem": "Gloss 'around' is not used in either translation (both say 'from Indra'); the note says indrāt pari may be 'from Indra'. Gloss should show the reading used.",
+     "fix": "from (with indrāt; or 'around')",
+     "severity": "minor",
+     "patch": {
+      "n": "990",
+      "op": "word",
+      "match_w": "pari",
+      "field": "gloss",
+      "value": "from (with indrāt; or 'around')"
+     }
+    }
+   ]
+  },
+  {
+   "n": "991",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "992",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "नियुतें",
+     "problem": "A Sanskrit loanword left in Hindi while the English says 'teams': not the same rendering. Also 'हे दो पुरुषो' for narā: glossary nara voc. = हे मनुष्यो (पुरुष is the Puruṣa).",
+     "fix": "टोलियाँ; हे दो मनुष्यो",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "992",
+       "op": "replace",
+       "field": "hindi",
+       "old": "नियुतें",
+       "new": "टोलियाँ"
+      },
+      {
+       "n": "992",
+       "op": "replace",
+       "field": "hindi",
+       "old": "हे दो पुरुषो",
+       "new": "हे दो मनुष्यो"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "summary": "38 units, Sāmaveda 4.6 (955-992). Tokens all match the printed text; no invented Sanskrit. 6 errors, 27 minor issues in 22 units; the rest ok. Errors: 972 Hindi supplies a verb the English lacks; 974 makha rendered 'vigorous one' against the glossary (Makha); 983 Hindi 'spread' vs English 'stand apart'; 984 English drops one of two tvām; 987 trāyethām labelled present but is the imperative; 989 garbled Hindi. Minor: saḥ rendered 'you'/तुम in 956, 970, 978, 980; RV parallels removed from notes/flag reasons in 959, 961, 979, 983, 984; assorted Hindi additions/ungrammatical forms (955, 967, 970, 983, 984, 985, 992); gram/gloss labels (959, 973, 987, 990). Text flags kept: 959, 960, 979, 983 (ṣ after k only; the ँ is regular), 984 (tavāṃ only; agni~ is regular). All other ~ forms are regular and unflagged. Manual: 960 vidharmaṇi ([unclear] here, 'in the support, foundation' in p01/ch11 521/529, 'in the upholding' in chunk2 1017); 986 syntax of 'tā vām' and the added 'from'. No regrouping suggested."
+}

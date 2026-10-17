@@ -1,0 +1,403 @@
+[
+ {
+  "n": "886",
+  "field": "text_flags",
+  "old": [
+   {
+    "src": "ta",
+    "suggest": "te",
+    "why": "possible: te 'your' expected (cf. te in line b)"
+   }
+  ],
+  "new": [],
+  "why": "reviewer (minor): Printed ta for te before a following vowel is regular Vedic sandhi (-e + ā- gives -a ā-), not a typo."
+ },
+ {
+  "n": "886",
+  "field": "notes",
+  "old": "ta for te: possible (the Sāman text often has te > ta). āśvinīḥ read 'belonging to the Aśvins'; dharīmaṇi 'holding-place' is uncertain (RV dharuṇa/dharīman 'support'). sthāvirīḥ te: referent of the firm ones is not stated; Hindi leaves it unspecified as in the Sanskrit. ṛṣiṣāṇa is obscure (not translated in Hindi, [unclear] in English); ye ... vedhasaḥ taken as the devout ones who cleanse the clarifying one. Low confidence.",
+  "new": "ta is te before a vowel by regular Vedic sandhi (te + ā gives ta ā). āśvinīḥ is read 'belonging to the Aśvins'; dharīmaṇi 'holding-place' is uncertain. sthāvirīḥ te: the referent of the firm ones is not stated; Hindi leaves it unspecified as in the Sanskrit. ṛṣiṣāṇa is obscure (not translated in Hindi, [unclear] in English); ye ... vedhasaḥ taken as the devout ones who cleanse the clarifying one. Low confidence.",
+  "why": "reviewer (error): The note cites an Ṛgveda parallel (dharuṇa/dharīman) and a text-variant remark that goes with the false flag."
+ },
+ {
+  "n": "886",
+  "field": "hindi",
+  "old": "हे शुद्ध होने वाले, तुम्हारी अश्विन् धेनुएँ, दिव्य, दूध के साथ धारण-स्थान में छोड़ी गईं; अन्तरिक्ष से तुम्हारी वे स्थिर छोड़ी गईं; जो तुम्हें शुद्ध करते हैं, वे श्रद्धालु।",
+  "new": "आगे, हे शुद्ध होने वाले, तुम्हारी अश्विन् धेनुएँ, दिव्य, दूध के साथ धारण-स्थान में छोड़ी गईं; आगे अन्तरिक्ष से तुम्हारी स्थिर छोड़ी गईं; जो तुम्हें शुद्ध करते हैं, वे श्रद्धालु।",
+  "why": "reviewer (minor): pra (twice, 'forth') is translated in the English but missing in the Hindi; 'वे' before स्थिर has no Sanskrit counterpart."
+ },
+ {
+  "n": "886",
+  "field": "word.gloss",
+  "word": "ṛṣiṣāṇa",
+  "old": "ṛṣiṣāṇa [obscure]",
+  "new": "[unclear]",
+  "why": "reviewer (minor): Gloss 'ṛṣiṣāṇa [obscure]' should use the [unclear] convention; āśvinīḥ is an adjective, not 'of the Aśvins'; asṛgran is a middle -ran aorist (passive sense), same label as asṛkṣata."
+ },
+ {
+  "n": "886",
+  "field": "word.gloss",
+  "word": "āśvinīḥ",
+  "old": "of the Aśvins",
+  "new": "belonging to the Aśvins",
+  "why": "reviewer (minor): Gloss 'ṛṣiṣāṇa [obscure]' should use the [unclear] convention; āśvinīḥ is an adjective, not 'of the Aśvins'; asṛgran is a middle -ran aorist (passive sense), same label as asṛkṣata."
+ },
+ {
+  "n": "886",
+  "field": "word.gram",
+  "word": "asṛgran",
+  "old": "3 pl. aor. pass. √sṛj",
+  "new": "3 pl. aor. mid. (-ran), passive sense √sṛj",
+  "why": "reviewer (minor): Gloss 'ṛṣiṣāṇa [obscure]' should use the [unclear] convention; āśvinīḥ is an adjective, not 'of the Aśvins'; asṛgran is a middle -ran aorist (passive sense), same label as asṛkṣata."
+ },
+ {
+  "n": "887",
+  "field": "english",
+  "old": "On both sides the rays, the banners, of the clarifying one, firm and existing, go around. When the tawny one is cleansed on the filter, having sat in the seat, he sits down in the vessels.",
+  "new": "On both sides the rays, the banners, of the clarifying one, firm, existing, go around. When the tawny one is cleansed on the filter, having sat in the seat, he sits down in the vessels.",
+  "why": "reviewer (minor): 'and' added between asyndetic words (dhruvasya sataḥ)."
+ },
+ {
+  "n": "887",
+  "field": "hindi",
+  "old": "दोनों ओर शुद्ध होने वाले के, दृढ़ और विद्यमान के, किरणें और ध्वज चारों ओर जाते हैं। जब भूरा छन्ने पर शुद्ध किया जाता है, तब स्थान में बैठकर कलशों में बैठता है।",
+  "new": "दोनों ओर शुद्ध होने वाले के, दृढ़, विद्यमान के, किरणें और ध्वज चारों ओर जाते हैं। जब भूरा छन्ने पर शुद्ध किया जाता है, तब स्थान में बैठकर कलशों में बैठता है।",
+  "why": "reviewer (minor): 'और' added twice (asyndetic); yonau is rendered स्थान here but आसन in 920."
+ },
+ {
+  "n": "887",
+  "field": "hindi",
+  "old": "दोनों ओर शुद्ध होने वाले के, दृढ़, विद्यमान के, किरणें और ध्वज चारों ओर जाते हैं। जब भूरा छन्ने पर शुद्ध किया जाता है, तब स्थान में बैठकर कलशों में बैठता है।",
+  "new": "दोनों ओर शुद्ध होने वाले के, दृढ़, विद्यमान के, किरणें, ध्वज चारों ओर जाते हैं। जब भूरा छन्ने पर शुद्ध किया जाता है, तब स्थान में बैठकर कलशों में बैठता है।",
+  "why": "reviewer (minor): 'और' added twice (asyndetic); yonau is rendered स्थान here but आसन in 920."
+ },
+ {
+  "n": "887",
+  "field": "hindi",
+  "old": "दोनों ओर शुद्ध होने वाले के, दृढ़, विद्यमान के, किरणें, ध्वज चारों ओर जाते हैं। जब भूरा छन्ने पर शुद्ध किया जाता है, तब स्थान में बैठकर कलशों में बैठता है।",
+  "new": "दोनों ओर शुद्ध होने वाले के, दृढ़, विद्यमान के, किरणें, ध्वज चारों ओर जाते हैं। जब भूरा छन्ने पर शुद्ध किया जाता है, तब आसन में बैठकर कलशों में बैठता है।",
+  "why": "reviewer (minor): 'और' added twice (asyndetic); yonau is rendered स्थान here but आसन in 920."
+ },
+ {
+  "n": "887",
+  "field": "word.gloss",
+  "word": "ī",
+  "old": "(particle)",
+  "new": "particle",
+  "why": "reviewer (minor): Gloss '(particle)' uses parentheses."
+ },
+ {
+  "n": "887",
+  "field": "confidence",
+  "old": "medium",
+  "new": "low",
+  "why": "reviewer (minor): sattā (an unusual form, taken as absolutive) makes line b doubly 'sits'; the reading is not firm enough for medium."
+ },
+ {
+  "n": "888",
+  "field": "hindi",
+  "old": "हे सब देखने वाले, तुम्हारे ध्वज, तुम्हारे जो कुशल, विद्यमान स्वामी हैं, सब धामों के चारों ओर जाते हैं। व्याप्त होते हुए तुम विधान से शुद्ध होकर बहते हो, हे सोम; तुम समस्त भुवन के स्वामी होकर राज करते हो।",
+  "new": "हे सब देखने वाले, तुम्हारे, कुशल विद्यमान स्वामी के, ध्वज सब धामों के चारों ओर जाते हैं। व्याप्त होते हुए तुम विधान से शुद्ध होकर बहते हो, हे सोम; तुम समस्त भुवन के स्वामी होकर राज करते हो।",
+  "why": "reviewer (error): Garbled: 'तुम्हारे' twice and 'जो ... हैं' supply a relative clause and a verb, and read as plural lords. The Sanskrit has genitives only (te prabhoḥ ṛbhvasaḥ sataḥ)."
+ },
+ {
+  "n": "888",
+  "field": "english",
+  "old": "O all-seeing one, the banners of you, the skilful lord who exists, go around all the realms. Pervading, you flow clear, O Soma, by the ordinance; as lord of the whole world you reign.",
+  "new": "O all-seeing one, the banners of you, of the skilful, existing lord, go around all the realms. Pervading, you flow clear, O Soma, by the ordinance; as lord of the whole world you reign.",
+  "why": "reviewer (error): 'who exists' supplies a relative clause; sataḥ is a participle in agreement."
+ },
+ {
+  "n": "891",
+  "field": "text_flags",
+  "old": [
+   {
+    "src": "jyotirviśva~",
+    "suggest": "jyotirviśvam",
+    "why": "printed ~ is a nasal sign; read viśvam"
+   }
+  ],
+  "new": [],
+  "why": "reviewer (minor): The printed ~ is the regular nasal mark of final -m; no typo."
+ },
+ {
+  "n": "893",
+  "field": "word.gloss",
+  "word": "manāmahe",
+  "old": "we [obscure]",
+  "new": "[unclear]",
+  "why": "reviewer (minor): Gloss 'we [obscure]' does not follow the [unclear] convention."
+ },
+ {
+  "n": "894",
+  "field": "hindi",
+  "old": "शुद्ध होने वाले, बलवान की ध्वनि, वर्षा की ध्वनि के समान, सुनाई देती है; बिजलियाँ आकाश में चलती हैं।",
+  "new": "शुद्ध होने वाले, बलवान की ध्वनि, वर्षा के समान, सुनाई देती है; बिजलियाँ आकाश में चलती हैं।",
+  "why": "reviewer (minor): 'ध्वनि' is repeated in the Hindi only; the Sanskrit has vṛṣṭer iva svanaḥ with one svanaḥ (English 'as of rain')."
+ },
+ {
+  "n": "896",
+  "field": "text_flags",
+  "old": [
+   {
+    "src": "viśvacarṣaṇa",
+    "suggest": "viśvacarṣaṇe",
+    "why": "possible: vocative of viśvacarṣaṇi is viśvacarṣaṇe (cf. p01 ch08 366)"
+   }
+  ],
+  "new": [],
+  "why": "reviewer (minor): viśvacarṣaṇa ā is viśvacarṣaṇe + ā by regular Vedic sandhi (-e + ā gives -a ā); not a typo."
+ },
+ {
+  "n": "896",
+  "field": "english",
+  "old": "Flow clear, O all-seeing one; fill the two great worlds, [as] Dawn and the sun [do], with rays.",
+  "new": "Flow clear, O all-seeing one; fill the two great worlds, like Dawn, the sun, with rays.",
+  "why": "reviewer (error): Verb [do] supplied in English only; [as] translates na, which is already glossed 'like'; 'and' added between asyndetic nominatives."
+ },
+ {
+  "n": "896",
+  "field": "hindi",
+  "old": "हे सब देखने वाले, शुद्ध होकर बहो; दोनों महान लोकों को भर दो, जैसे उषा और सूर्य किरणों से।",
+  "new": "हे सब देखने वाले, शुद्ध होकर बहो; दोनों महान लोकों को भर दो, जैसे उषा, सूर्य किरणों से।",
+  "why": "reviewer (minor): 'और' added (asyndetic)."
+ },
+ {
+  "n": "896",
+  "field": "notes",
+  "old": "Line b: na is the simile particle placed after sūryaḥ; uṣāḥ and sūryaḥ taken together as the comparison. viśvacarṣaṇe may also mean 'lord of all peoples'.",
+  "new": "Line b: na is the simile particle placed after sūryaḥ; uṣāḥ and sūryaḥ taken together as the comparison. viśvacarṣaṇe may also mean 'lord of all peoples'. viśvacarṣaṇa ā is viśvacarṣaṇe + ā by regular Vedic sandhi (-e + ā gives -a ā), not a typo.",
+  "why": "reviewer (minor): Add the sandhi explanation (replaces the flag)."
+ },
+ {
+  "n": "897",
+  "field": "text_flags",
+  "old": [
+   {
+    "src": "sarā",
+    "suggest": "sara",
+    "why": "possible: impv. 2 sg. sara; the lengthening is Vedic/chant"
+   }
+  ],
+  "new": [],
+  "why": "reviewer (minor): Printed Vedic lengthening (sarā for sara) is regular; no typo."
+ },
+ {
+  "n": "897",
+  "field": "word.gram",
+  "word": "sara",
+  "old": "2 sg. impv. √sṛ",
+  "new": "2 sg. impv. √sṛ (sara with Vedic lengthening)",
+  "why": "reviewer (minor): w should keep the printed form sarā with the lengthening noted in gram (glossary: vidā, bhavā)."
+ },
+ {
+  "n": "897",
+  "field": "word.w",
+  "word": "sara",
+  "old": "sara",
+  "new": "sarā",
+  "why": "reviewer (minor): w should keep the printed form sarā with the lengthening noted in gram (glossary: vidā, bhavā)."
+ },
+ {
+  "n": "897",
+  "field": "notes",
+  "old": "raseva = rasā iva; rasā may be moisture or the name of a river (uncertain); viṣṭapa 'high place, summit'. sarā is read as sara with Vedic lengthening. Low confidence.",
+  "new": "raseva = rasā iva; rasā may be moisture or the name of a river (uncertain); viṣṭapa 'high place, summit'. sarā is the imperative sara with printed Vedic lengthening. Low confidence.",
+  "why": "reviewer (minor): Wording tied to the removed flag."
+ },
+ {
+  "n": "899",
+  "field": "hindi",
+  "old": "अपूर्ण को सिद्ध करते हुए, लोगों के लिए पोषण भेजते हुए, आकाश की वर्षा को चारों ओर बहाओ।",
+  "new": "अपरिष्कृत को परिष्कृत करते हुए, लोगों के लिए पोषण भेजते हुए, आकाश से वर्षा को चारों ओर बहाओ।",
+  "why": "reviewer (minor): 'अपूर्ण' (incomplete) is not 'unprepared'; divaḥ is glossed ablative 'from heaven' but both translations use 'of heaven'."
+ },
+ {
+  "n": "899",
+  "field": "english",
+  "old": "Preparing the unprepared, sending on refreshments for the people, flow the rain of heaven all around.",
+  "new": "Preparing the unprepared, sending on refreshments for the people, flow the rain from heaven all around.",
+  "why": "reviewer (minor): Gloss says from heaven (abl.); translation says 'of heaven'."
+ },
+ {
+  "n": "900",
+  "field": "text_flags",
+  "old": [
+   {
+    "src": "aya~",
+    "suggest": "ayam",
+    "why": "printed ~ is a nasal sign; read ayam"
+   }
+  ],
+  "new": [],
+  "why": "reviewer (minor): The printed ~ is the regular nasal mark of final -m (ayam); no typo."
+ },
+ {
+  "n": "901",
+  "field": "hindi",
+  "old": "निचोड़ा गया वह छन्ने की ओर जाता है, बल से तेज धारण करता हुआ, चारों ओर देखता हुआ, चमकाता हुआ।",
+  "new": "निचोड़ा गया वह छन्ने की ओर जाता है, बल से दीप्ति धारण करता हुआ, चारों ओर देखता हुआ, चमकाता हुआ।",
+  "why": "reviewer (minor): Glossary: तेज only for varcas; tviṣi is a different word. English 'splendour' is dyumna's rendering."
+ },
+ {
+  "n": "901",
+  "field": "english",
+  "old": "The pressed one goes to the filter, taking on splendour by might, looking about, making shine.",
+  "new": "The pressed one goes to the filter, taking on brilliance by might, looking about, making shine.",
+  "why": "reviewer (minor): Glossary: तेज only for varcas; tviṣi is a different word. English 'splendour' is dyumna's rendering."
+ },
+ {
+  "n": "901",
+  "field": "word.gloss",
+  "word": "tviṣim",
+  "old": "splendour",
+  "new": "brilliance",
+  "why": "reviewer (minor): Glossary: तेज only for varcas; tviṣi is a different word. English 'splendour' is dyumna's rendering."
+ },
+ {
+  "n": "902",
+  "field": "english",
+  "old": "Wishing to win, from far and also from near, the pressed one; for Indra honey is poured.",
+  "new": "Wishing to win, from far and also from near, the pressed one; for Indra the sweet drink is poured.",
+  "why": "reviewer (minor): Glossary: madhu = sweet drink (मधु)."
+ },
+ {
+  "n": "902",
+  "field": "word.gloss",
+  "word": "madhu",
+  "old": "honey",
+  "new": "sweet drink",
+  "why": "reviewer (minor): Glossary: madhu = sweet drink (मधु)."
+ },
+ {
+  "n": "903",
+  "field": "text_flags",
+  "old": [
+   {
+    "src": "hari~",
+    "suggest": "harim",
+    "why": "printed ~ is a nasal sign; read harim"
+   }
+  ],
+  "new": [],
+  "why": "reviewer (minor): The printed ~ is the regular nasal mark of final -m (harim); no typo."
+ },
+ {
+  "n": "905",
+  "field": "hindi",
+  "old": "हे शुद्ध होने वाले, हर दीप्ति के साथ, देव, देवों के लिए निचोड़े गए, सब धनों में प्रवेश करो।",
+  "new": "हे शुद्ध होने वाले, हर दीप्ति के साथ, देव, देवगण के लिए निचोड़े गए, सब धनों में प्रवेश करो।",
+  "why": "reviewer (minor): Glossary: devas (plural) in Hindi = देवगण."
+ },
+ {
+  "n": "906",
+  "field": "hindi",
+  "old": "यहाँ, हे शुद्ध होने वाले, उत्तम स्तुति, वर्षा, देवों के लिए सेवा; पोषण के लिए संयत होकर शुद्ध बहो।",
+  "new": "यहाँ, हे शुद्ध होने वाले, उत्तम स्तुति, वर्षा, देवगण के लिए सेवा; पोषण के लिए संयत होकर शुद्ध बहो।",
+  "why": "reviewer (minor): Glossary: devas (plural) in Hindi = देवगण."
+ },
+ {
+  "n": "907",
+  "field": "hindi",
+  "old": "लोगों का रक्षक, जागरूक अग्नि, उत्तम कौशल वाला, नए कल्याण के लिए उत्पन्न हुआ। घृत-मुख वाला, महान, आकाश को छूने वाले के द्वारा, तेजस्वी रूप से चमकता है, भरतों के लिए उज्ज्वल।",
+  "new": "लोगों का रक्षक, जागरूक अग्नि, उत्तम कौशल वाला, नए कल्याण के लिए उत्पन्न हुआ। घृत-मुख वाला, महान, आकाश को छूने वाले के द्वारा, दीप्तिमान रूप से चमकता है, भरतों के लिए उज्ज्वल।",
+  "why": "reviewer (minor): Glossary: तेज only for varcas; dyumat is rendered दीप्तिमान in 891."
+ },
+ {
+  "n": "909",
+  "field": "hindi",
+  "old": "यज्ञ के ध्वज को, प्रथम को, आगे स्थापित अग्नि को, मनुष्य तीन स्थानों वाले आसन में प्रज्वलित करते हैं। इन्द्र के साथ, देवों के साथ, एक रथ पर, वह होता, उत्तम शक्ति वाला, यज्ञ के लिए कुशासन पर बैठ गया।",
+  "new": "यज्ञ के ध्वज को, प्रथम को, आगे स्थापित अग्नि को, मनुष्य तीन स्थानों वाले आसन में प्रज्वलित करते हैं। इन्द्र के साथ, देवगण के साथ, एक रथ पर, वह होता, उत्तम शक्ति वाला, यज्ञ के लिए कुशासन पर बैठ गया।",
+  "why": "reviewer (minor): Glossary: devas (plural) in Hindi = देवगण."
+ },
+ {
+  "n": "909",
+  "field": "text_flags",
+  "old": [
+   {
+    "src": "saratha~",
+    "suggest": "saratham",
+    "why": "printed ~ is a nasal sign; read saratham"
+   }
+  ],
+  "new": [],
+  "why": "reviewer (minor): The printed ~ is the regular nasal mark of final -m (saratham); no typo."
+ },
+ {
+  "n": "910",
+  "field": "text_flags",
+  "old": [
+   {
+    "src": "śruta~",
+    "suggest": "śrutam",
+    "why": "printed ~ is a nasal sign; read śrutam"
+   }
+  ],
+  "new": [],
+  "why": "reviewer (minor): The printed ~ is the regular nasal mark of final -m (śrutam); no typo."
+ },
+ {
+  "n": "911",
+  "field": "notes",
+  "old": "āśāte is kept as printed; the RV parallel reads āsāte 'they two sit' (variant, not applied). Hence 'attain' vs 'sit' is uncertain. sahasrasthūṇe is taken with sadasi (the seat).",
+  "new": "āśāte is kept as printed and read from √aś 'attain'; the construction is uncertain. sahasrasthūṇe is taken with sadasi (the seat).",
+  "why": "reviewer (error): The note cites the Ṛgveda parallel; notes must not import RV parallels."
+ },
+ {
+  "n": "911",
+  "field": "hindi",
+  "old": "दोनों राजा, किसी को हानि न पहुँचाने वाले, दृढ़, सर्वोच्च आसन में, हज़ार खम्भों वाले में, पहुँचते हैं।",
+  "new": "दोनों राजा, हानि न पहुँचाने वाले, दृढ़, सर्वोच्च आसन में, हज़ार खम्भों वाले में, पहुँचते हैं।",
+  "why": "reviewer (minor): 'किसी को' is added; the English has plain 'unharming'."
+ },
+ {
+  "n": "912",
+  "field": "english",
+  "old": "Those two sovereigns, whose libation is ghee, the Ādityas, lords of dānu, keep company unswervingly.",
+  "new": "Those two sovereigns, whose libation is ghee, the two Ādityas, lords of dānu, keep company unswervingly.",
+  "why": "reviewer (minor): ādityā is dual (gloss says nom. du.) but both translations leave the number open or plural."
+ },
+ {
+  "n": "912",
+  "field": "hindi",
+  "old": "वे दो सम्राट, घी की आहुति वाले, आदित्य, दानु के स्वामी, अविचलित रूप से साथ रहते हैं।",
+  "new": "वे दो सम्राट, घी की आहुति वाले, दोनों आदित्य, दानु के स्वामी, अविचलित रूप से साथ रहते हैं।",
+  "why": "reviewer (minor): ādityā is dual (gloss says nom. du.) but both translations leave the number open or plural."
+ },
+ {
+  "n": "912",
+  "field": "word.gloss",
+  "word": "ādityā",
+  "old": "the Ādityas",
+  "new": "the two Ādityas",
+  "why": "reviewer (minor): ādityā is dual (gloss says nom. du.) but both translations leave the number open or plural."
+ },
+ {
+  "n": "916",
+  "field": "notes",
+  "old": "vām asya manmanaḥ: genitive 'of this thought' kept literal (the RV parallel suggests 'born of this thought').",
+  "new": "vām asya manmanaḥ: genitive 'of this thought' kept literal.",
+  "why": "reviewer (error): The note cites the RV parallel."
+ },
+ {
+  "n": "918",
+  "field": "hindi",
+  "old": "हमें पाप के लिए न सौंपो, हे वीरो इन्द्र और अग्नि, और न अभिशाप के लिए; हमें निन्दा के लिए न सौंपो।",
+  "new": "हमें पाप के लिए न सौंपो, हे वीरो इन्द्र और अग्नि, और न आरोप के लिए; हमें निन्दा के लिए न सौंपो।",
+  "why": "reviewer (error): abhiśasti is 'accusation' in the English; अभिशाप means curse. The two layers disagree."
+ },
+ {
+  "n": "919",
+  "field": "hindi",
+  "old": "शुद्ध होकर बहो, कौशल को सिद्ध करने वाले, देवों के पीने के लिए, हे भूरे; मरुतों के लिए, वायु के लिए उल्लास।",
+  "new": "शुद्ध होकर बहो, कौशल को सिद्ध करने वाले, देवगण के पीने के लिए, हे भूरे; मरुतों के लिए, वायु के लिए उल्लास।",
+  "why": "reviewer (minor): Glossary: devas (plural) in Hindi = देवगण."
+ },
+ {
+  "n": "920",
+  "field": "hindi",
+  "old": "देवों के साथ बलवान चमकता है, कवि, प्रिय, आसन पर; शुद्ध होने वाला, अबाध्य।",
+  "new": "देवगण के साथ बलवान चमकता है, कवि, प्रिय, आसन पर; शुद्ध होने वाला, अबाध्य।",
+  "why": "reviewer (minor): Glossary: devas (plural) in Hindi = देवगण."
+ }
+]

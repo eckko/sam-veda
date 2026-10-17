@@ -1,0 +1,328 @@
+[
+ {
+  "n": "955",
+  "field": "hindi",
+  "old": "हे गौओं को पाने वाले, धन को पाने वाले, सोने को पाने वाले, बीज धारण करने वाले बूँद, लोकों में स्थापित तुम शुद्ध होकर बहो। हे सोम, तुम उत्तम वीरों वाले हो, सब जानने वाले; उन तुम्हारे पास ये मनुष्य स्तुति के साथ बैठते हैं।",
+  "new": "हे गौओं को पाने वाले, धन को पाने वाले, सोने को पाने वाले, बीज धारण करने वाले बूँद, लोकों में स्थापित तुम शुद्ध होकर बहो। हे सोम, तुम उत्तम वीरों वाले हो, सब जानने वाले; उस तुम्हारे पास ये मनुष्य स्तुति के साथ बैठते हैं।",
+  "why": "reviewer (minor): 'tam tvā' is singular ('that you'); the Hindi 'उन' is plural."
+ },
+ {
+  "n": "956",
+  "field": "word.gloss",
+  "word": "saḥ",
+  "old": "you",
+  "new": "that one",
+  "why": "reviewer (minor): saḥ is a plain demonstrative; 'you' (and Hindi 'तुम') is not in the Sanskrit. Render 'that one' / 'वह' in every 'sa ... pavasva/arṣa/vidaḥ' line."
+ },
+ {
+  "n": "956",
+  "field": "english",
+  "old": "You are the watcher of men from all sides, O Soma; O clarifying one, O mighty one, you run through those. You, flow clear for us, rich in wealth, rich in gold; may we be in the worlds in order to live.",
+  "new": "You are the watcher of men from all sides, O Soma; O clarifying one, O mighty one, you run through those. That one, flow clear for us, rich in wealth, rich in gold; may we be in the worlds in order to live.",
+  "why": "reviewer (minor): saḥ is a plain demonstrative; 'you' (and Hindi 'तुम') is not in the Sanskrit. Render 'that one' / 'वह' in every 'sa ... pavasva/arṣa/vidaḥ' line."
+ },
+ {
+  "n": "956",
+  "field": "hindi",
+  "old": "हे सोम, तुम मनुष्यों को देखने वाले हो, सब ओर से; हे शुद्ध होते हुए, हे बलवान, तुम उनके बीच से दौड़ते हो। तुम हमारे लिए धन से भरपूर, सोने से भरपूर होकर शुद्ध बहो; हम लोकों में जीने के लिए हों।",
+  "new": "हे सोम, तुम मनुष्यों को देखने वाले हो, सब ओर से; हे शुद्ध होते हुए, हे बलवान, तुम उनके बीच से दौड़ते हो। वह हमारे लिए धन से भरपूर, सोने से भरपूर होकर शुद्ध बहो; हम लोकों में जीने के लिए हों।",
+  "why": "reviewer (minor): saḥ is a plain demonstrative; 'you' (and Hindi 'तुम') is not in the Sanskrit. Render 'that one' / 'वह' in every 'sa ... pavasva/arṣa/vidaḥ' line."
+ },
+ {
+  "n": "959",
+  "field": "text_flags.0.why",
+  "old": "Possible: a present participle nom. sg. ends in -n before d- (kṛṇvan divas pari); the printed anusvāra is not expected here. Also the RV parallel reads kṛṇvan.",
+  "new": "Possible: a present participle nom. sg. ends in -n before d- (kṛṇvan divas pari); the printed anusvāra is not expected here.",
+  "why": "reviewer (minor): The reason cites the RV parallel (not allowed); the typo suspicion stands on the Sanskrit alone (final -n before d- is not written ṃ in regular sandhi)."
+ },
+ {
+  "n": "959",
+  "field": "word.gloss",
+  "word": "divaḥ",
+  "old": "of heaven",
+  "new": "heaven",
+  "why": "reviewer (minor): Gloss 'of heaven' / gram 'gen.' disagree with the translation 'from heaven' (pari takes the ablative; the case is not certain)."
+ },
+ {
+  "n": "959",
+  "field": "word.gram",
+  "word": "divaḥ",
+  "old": "m. gen. sg.",
+  "new": "m. abl. or gen. sg. (with pari)",
+  "why": "reviewer (minor): Gloss 'of heaven' / gram 'gen.' disagree with the translation 'from heaven' (pari takes the ablative; the case is not certain)."
+ },
+ {
+  "n": "961",
+  "field": "notes",
+  "old": "vṛñjate: the RV parallel has mṛñjate (√mṛj 'cleanse'); the printed form is kept and read as √vṛj 'clear, cleanse', sense uncertain.",
+  "new": "vṛñjate: the printed form is kept and read as √vṛj 'clear, cleanse'; the sense is uncertain.",
+  "why": "reviewer (minor): Notes must not import Ṛgveda parallels."
+ },
+ {
+  "n": "967",
+  "field": "hindi",
+  "old": "सोम निचोड़ा हुआ शुद्ध पावन करने वाला कहा जाता है; वह मधुयुक्त है, देवगण को चाहने वाला, बुरा चाहने वाले का मारने वाला।",
+  "new": "सोम निचोड़ा हुआ शुद्ध पावन करने वाला कहा जाता है; वह मधुयुक्त है, देवगण को चाहने वाला, बुरा चाहने वाले को मारने वाला।",
+  "why": "reviewer (minor): Ungrammatical: 'slayer of the evil-wisher' needs the object marker को."
+ },
+ {
+  "n": "970",
+  "field": "word.gloss",
+  "word": "saḥ",
+  "old": "you",
+  "new": "that one",
+  "why": "reviewer (minor): saḥ is a plain demonstrative; 'you' (and Hindi 'तुम') is not in the Sanskrit. Render 'that one' / 'वह' in every 'sa ... pavasva/arṣa/vidaḥ' line."
+ },
+ {
+  "n": "970",
+  "field": "english",
+  "old": "Around all, with mind you are cleansed, with thought you flow clear. You, O Soma, find fame for us.",
+  "new": "Around all, with mind you are cleansed, with thought you flow clear. That one, O Soma, find fame for us.",
+  "why": "reviewer (minor): saḥ is a plain demonstrative; 'you' (and Hindi 'तुम') is not in the Sanskrit. Render 'that one' / 'वह' in every 'sa ... pavasva/arṣa/vidaḥ' line."
+ },
+ {
+  "n": "970",
+  "field": "hindi",
+  "old": "चारों ओर सब में तुम मन से शुद्ध किए जाते हो, विचार से शुद्ध होकर बहते हो। तुम, हे सोम, हमारे लिए कीर्ति पाओ।",
+  "new": "चारों ओर सब में तुम मन से शुद्ध किए जाते हो, विचार से शुद्ध होकर बहते हो। वह, हे सोम, हमारे लिए कीर्ति पाओ।",
+  "why": "reviewer (minor): saḥ is a plain demonstrative; 'you' (and Hindi 'तुम') is not in the Sanskrit. Render 'that one' / 'वह' in every 'sa ... pavasva/arṣa/vidaḥ' line."
+ },
+ {
+  "n": "970",
+  "field": "hindi",
+  "old": "चारों ओर सब में तुम मन से शुद्ध किए जाते हो, विचार से शुद्ध होकर बहते हो। वह, हे सोम, हमारे लिए कीर्ति पाओ।",
+  "new": "सब के चारों ओर तुम मन से शुद्ध किए जाते हो, विचार से शुद्ध होकर बहते हो। वह, हे सोम, हमारे लिए कीर्ति पाओ।",
+  "why": "reviewer (minor): 'pari viśvāni' is 'around all'; 'सब में' ('in all') gives a locative the Sanskrit does not have."
+ },
+ {
+  "n": "971",
+  "field": "english",
+  "old": "Flow toward, O one of great glory, with firm wealth for the bountiful ones; bring refreshment for the singers.",
+  "new": "Flow toward, O one of great glory, firm wealth for the bountiful ones; bring refreshment for the singers.",
+  "why": "reviewer (minor): 'with' is added; dhruvaṃ rayim is a plain accusative (object of the flowing), as the note itself says."
+ },
+ {
+  "n": "972",
+  "field": "hindi",
+  "old": "तुम राजा के समान उत्तम व्रत वाले हो, हे सोम, तुमने स्तुतियों में प्रवेश किया है; शुद्ध होते हुए, हे वाहक, हे अद्भुत।",
+  "new": "तुम राजा के समान उत्तम व्रत वाले, हे सोम, तुमने स्तुतियों में प्रवेश किया है; शुद्ध होते हुए, हे वाहक, हे अद्भुत।",
+  "why": "reviewer (error): Hindi supplies the verb 'हो' (are) in line a; the English supplies none and the Sanskrit has none (verb supplied in one language only)."
+ },
+ {
+  "n": "973",
+  "field": "word.gram",
+  "word": "duṣ-taraḥ",
+  "old": "m. nom. sg. (bahuvrīhi)",
+  "new": "m. nom. sg. (compound duṣ + tara; adjective)",
+  "why": "reviewer (minor): duṣṭara is an adjective compound of duṣ + tara (from √tṝ), not a bahuvrīhi."
+ },
+ {
+  "n": "974",
+  "field": "word.gloss",
+  "word": "makhaḥ",
+  "old": "vigorous one",
+  "new": "Makha",
+  "why": "reviewer (error): Glossary fixes makha = Makha (मख, name), as in p01/ch12 553 and p04/ch02 774. The draft makes it an adjective 'vigorous one' in gloss, English, Hindi and notes."
+ },
+ {
+  "n": "974",
+  "field": "word.gram",
+  "word": "makhaḥ",
+  "old": "m. nom. sg. (sense uncertain)",
+  "new": "m. nom. sg. (name)",
+  "why": "reviewer (error): Glossary fixes makha = Makha (मख, name), as in p01/ch12 553 and p04/ch02 774. The draft makes it an adjective 'vigorous one' in gloss, English, Hindi and notes."
+ },
+ {
+  "n": "974",
+  "field": "english",
+  "old": "Playful, like a vigorous one, generous, you go to the filter, O Soma, bestowing good heroism on the singer.",
+  "new": "Playful, generous like Makha, you go to the filter, O Soma, bestowing good heroism on the singer.",
+  "why": "reviewer (error): Glossary fixes makha = Makha (मख, name), as in p01/ch12 553 and p04/ch02 774. The draft makes it an adjective 'vigorous one' in gloss, English, Hindi and notes."
+ },
+ {
+  "n": "974",
+  "field": "hindi",
+  "old": "खेलने वाले, उत्साही के समान उदार, हे सोम, तुम छन्ने के पास जाते हो; गायक को उत्तम वीरता देते हुए।",
+  "new": "खेलने वाले, मख के समान उदार, हे सोम, तुम छन्ने के पास जाते हो; गायक को उत्तम वीरता देते हुए।",
+  "why": "reviewer (error): Glossary fixes makha = Makha (मख, name), as in p01/ch12 553 and p04/ch02 774. The draft makes it an adjective 'vigorous one' in gloss, English, Hindi and notes."
+ },
+ {
+  "n": "974",
+  "field": "notes",
+  "old": "makha is obscure ('vigorous, festive, bounteous'); rendered 'vigorous one'. 'to the filter' for pavitram acc. without a preposition.",
+  "new": "makha is kept as the name Makha (glossary); other senses ('vigorous', 'festive') are possible. 'to the filter' for pavitram acc. without a preposition.",
+  "why": "reviewer (error): Glossary fixes makha = Makha (मख, name), as in p01/ch12 553 and p04/ch02 774. The draft makes it an adjective 'vigorous one' in gloss, English, Hindi and notes."
+ },
+ {
+  "n": "974",
+  "field": "hindi",
+  "old": "खेलने वाले, मख के समान उदार, हे सोम, तुम छन्ने के पास जाते हो; गायक को उत्तम वीरता देते हुए।",
+  "new": "खेलने वाले, मख के समान उदार, हे सोम, तुम छन्ने के पास जाते हो; स्तोता को उत्तम वीरता देते हुए।",
+  "why": "reviewer (minor): stotṛ = स्तोता in the glossary and in 971 of this chunk ('स्तोताओं')."
+ },
+ {
+  "n": "978",
+  "field": "english",
+  "old": "He who overpowers and is not overpowered, who strikes the enemy having approached, that one, flow clear, O winner of thousands.",
+  "new": "He who overpowers, is not overpowered, strikes the enemy having approached, that one, flow clear, O winner of thousands.",
+  "why": "reviewer (minor): 'and' is added between asyndetic verbs, in both languages; Hindi also adds 'तुम' to 'वह' (sa is only 'that one'). The note's 'same you as in other refrains' contradicts the translation."
+ },
+ {
+  "n": "978",
+  "field": "hindi",
+  "old": "जो जीतता है और जीता नहीं जाता, पास जाकर शत्रु को मारता है, वह तुम शुद्ध होकर बहो, हे हजारों को जीतने वाले।",
+  "new": "जो जीतता है, जीता नहीं जाता, पास जाकर शत्रु को मारता है, वह शुद्ध होकर बहो, हे हजारों को जीतने वाले।",
+  "why": "reviewer (minor): 'and' is added between asyndetic verbs, in both languages; Hindi also adds 'तुम' to 'वह' (sa is only 'that one'). The note's 'same you as in other refrains' contradicts the translation."
+ },
+ {
+  "n": "978",
+  "field": "notes",
+  "old": "sa pavasva: the demonstrative sa is the same 'you' as in other refrains; kept as 'that one' because it picks up yaḥ.",
+  "new": "sa pavasva: the demonstrative sa is rendered 'that one' (वह) here and in the other 'sa ... pavasva/arṣa' lines; it picks up yaḥ.",
+  "why": "reviewer (minor): 'and' is added between asyndetic verbs, in both languages; Hindi also adds 'तुम' to 'वह' (sa is only 'that one'). The note's 'same you as in other refrains' contradicts the translation."
+ },
+ {
+  "n": "979",
+  "field": "text_flags.0.why",
+  "old": "Possible: 'inda ūtaye' lacks a syllable; the gāyatrī line needs eight (indava ūtaye), and the RV parallel has indavaḥ.",
+  "new": "Possible: 'inda' is not a case form of indu; the plural indavaḥ (indava ūtaye) would be expected, so a syllable seems lost. The printed text is kept.",
+  "why": "reviewer (minor): The reason cites the RV parallel and a metre count (not allowed); the suspicion stands on the Sanskrit alone ('inda' is not a form of indu)."
+ },
+ {
+  "n": "979",
+  "field": "english",
+  "old": "Those streams of yours, dripping honey, O drops, were sent forth for help; with them sit on the filter.",
+  "new": "Which streams of yours, dripping honey, O drops, were sent forth for help, with those sit on the filter.",
+  "why": "reviewer (minor): yāḥ is a relative ('which'); the English turns it into the demonstrative 'Those' and leaves the relative clause open, while the Hindi correctly has जो ... उनसे."
+ },
+ {
+  "n": "979",
+  "field": "notes",
+  "old": "Reading of 'inda' as indavaḥ (voc. 'O drops'). If indavaḥ is instead the nominative subject, the sentence would read 'the drops released those streams'. The case of indavaḥ is therefore uncertain. Also possible is a vocative 'indo ūtaye', which would be metrically short.",
+  "new": "Reading of 'inda' as indavaḥ (voc. 'O drops'). If indavaḥ is instead the nominative subject, the sentence would read 'the drops released those streams'. The case of indavaḥ is therefore uncertain. Also possible is a vocative 'indo ūtaye', which would be metrically short. A plural vocative (indavaḥ) next to the singular imperative āsadaḥ is awkward; a nominative indavaḥ (the drops as subject) remains possible.",
+  "why": "reviewer (minor): Number clash worth recording: the vocative plural 'O drops' is addressed together with the singular imperative āsadaḥ."
+ },
+ {
+  "n": "980",
+  "field": "word.gloss",
+  "word": "saḥ",
+  "old": "you",
+  "new": "that one",
+  "why": "reviewer (minor): saḥ is a plain demonstrative; 'you' (and Hindi 'तुम') is not in the Sanskrit. Render 'that one' / 'वह' in every 'sa ... pavasva/arṣa/vidaḥ' line."
+ },
+ {
+  "n": "980",
+  "field": "english",
+  "old": "You, flow for Indra to drink, across the strainers of sheep's fleece, sitting down in the seat of truth.",
+  "new": "That one, flow for Indra to drink, across the strainers of sheep's fleece, sitting down in the seat of truth.",
+  "why": "reviewer (minor): saḥ is a plain demonstrative; 'you' (and Hindi 'तुम') is not in the Sanskrit. Render 'that one' / 'वह' in every 'sa ... pavasva/arṣa/vidaḥ' line."
+ },
+ {
+  "n": "980",
+  "field": "hindi",
+  "old": "वह तुम इन्द्र के पीने के लिए बहो, भेड़ के बालों की छन्नियों के आर-पार, ऋत के स्थान पर बैठते हुए।",
+  "new": "वह इन्द्र के पीने के लिए बहो, भेड़ के बालों की छन्नियों के आर-पार, ऋत के स्थान पर बैठते हुए।",
+  "why": "reviewer (minor): saḥ is a plain demonstrative; 'you' (and Hindi 'तुम') is not in the Sanskrit. Render 'that one' / 'वह' in every 'sa ... pavasva/arṣa/vidaḥ' line."
+ },
+ {
+  "n": "983",
+  "field": "text_flags.0.why",
+  "old": "Possible: ṣ for ś (pṛthak śardhāṃsi); the RV parallel reads śardhāṃsi. ṣ is not expected after k.",
+  "new": "Possible: ṣ for ś (pṛthak śardhāṃsi). ṣ is not expected after k, and śardhas 'host' is the word the sense needs. The ँ in śardhā~syagne is the regular nasal of -ṃs- and is not itself flagged.",
+  "why": "reviewer (minor): Decision on the ~ case: the flag stands, but only for ṣ after k (no sandhi produces ṣ there). The ँ is regular and is not part of the suspicion. The reason cites the RV parallel: reword."
+ },
+ {
+  "n": "983",
+  "field": "hindi",
+  "old": "वायु से प्रेरित, उकसाए हुए, इच्छाओं के अनुसार, उत्सुकता से, जब भोजनों में सक्रिय होते हुए तुम अलग-अलग फैलते हो। तुम्हारी सेनाएँ, हे अग्नि, रथ खींचने वाले घोड़ों के समान अलग-अलग प्रयत्न करती हैं, उस अजर के, जलाने वाले के।",
+  "new": "वायु से प्रेरित, उकसाए हुए, इच्छाओं के अनुसार, उत्सुकता से, जब भोजनों में सक्रिय होते हुए तुम अलग खड़े होते हो। तुम्हारी सेनाएँ, हे अग्नि, रथ खींचने वाले घोड़ों के समान अलग-अलग प्रयत्न करती हैं, उस अजर के, जलाने वाले के।",
+  "why": "reviewer (error): English says 'you stand apart' (vi tiṣṭhase); Hindi says 'spread'. The two translations must agree."
+ },
+ {
+  "n": "983",
+  "field": "hindi",
+  "old": "वायु से प्रेरित, उकसाए हुए, इच्छाओं के अनुसार, उत्सुकता से, जब भोजनों में सक्रिय होते हुए तुम अलग खड़े होते हो। तुम्हारी सेनाएँ, हे अग्नि, रथ खींचने वाले घोड़ों के समान अलग-अलग प्रयत्न करती हैं, उस अजर के, जलाने वाले के।",
+  "new": "वायु से प्रेरित, उकसाए हुए, इच्छाओं के अनुसार, उत्सुकता से, जब भोजनों में सक्रिय होते हुए तुम अलग खड़े होते हो। तुम्हारी सेनाएँ, हे अग्नि, रथ खींचने वाले घोड़ों के समान अलग-अलग प्रयत्न करती हैं, अजर के, जलाने वाले के।",
+  "why": "reviewer (minor): 'उस' (that) is added; ajarasya is only 'of the ageless'."
+ },
+ {
+  "n": "984",
+  "field": "text_flags.0.why",
+  "old": "Possible: tavāṃ is not a form of tvām; read it as the second 'tvām' (it tvām), as in the RV parallel.",
+  "new": "Possible: tavāṃ is not a form of tvām (nor of tava); read it as the second tvām (samānam it tvām). The ँ in agni~ is the regular nasal and is not flagged.",
+  "why": "reviewer (minor): Decision on the ~ case: the ँ in agni~ is regular (no flag); the flag for samānamittavāṃ stands on the Sanskrit alone. Reason cites the RV parallel: reword."
+ },
+ {
+  "n": "984",
+  "field": "notes",
+  "old": "paribhūtaram is read as a comparative accusative (the RV parallel has paribhūtamam); matim as an accusative of respect, uncertain. Line b: the first tvām is isolated by arbhasya haviṣaḥ and the construction is loose; 'of the small oblation' is kept literal. Low confidence.",
+  "new": "paribhūtaram is read as a comparative accusative; matim as an accusative of respect, uncertain. Line b: the first tvām is isolated by arbhasya haviṣaḥ and the construction is loose; 'of the small oblation' is kept literal. Low confidence.",
+  "why": "reviewer (minor): Notes must not import Ṛgveda parallels."
+ },
+ {
+  "n": "984",
+  "field": "english",
+  "old": "The maker of wisdom, accomplisher of the rite, Agni, Hotṛ priest, more surpassing in thought; of the small oblation, alike indeed, you the great ones choose, not another than you.",
+  "new": "The maker of wisdom, accomplisher of the rite, Agni, Hotṛ priest, more surpassing in thought; you, of the small oblation, alike indeed, you the great ones choose, not another than you.",
+  "why": "reviewer (error): The draft word list has two tvām; the English renders only one, while the Hindi renders both (तुम्हें ... तुम्हें): the translations disagree."
+ },
+ {
+  "n": "984",
+  "field": "hindi",
+  "old": "बुद्धि को रचने वाले, यज्ञ को सिद्ध करने वाले, अग्नि, होता, विचार में अधिक श्रेष्ठ; छोटे हव्य के तुम्हें समान रूप से, तुम्हें महान लोग चुनते हैं, तुमसे दूसरे को नहीं।",
+  "new": "बुद्धि को रचने वाले, यज्ञ को सिद्ध करने वाले, अग्नि, होता, विचार में अधिक श्रेष्ठ; छोटे हव्य के तुम्हें समान रूप से, तुम्हें महान जन चुनते हैं, तुमसे दूसरे को नहीं।",
+  "why": "reviewer (minor): 'लोग' (people) is added; mahaḥ is 'the great ones'."
+ },
+ {
+  "n": "985",
+  "field": "hindi",
+  "old": "निश्चय ही अब तुम दोनों की सहायता है, हे वरुण; हे मित्र, मैं तुम दोनों की सुमति चाहता हूँ।",
+  "new": "निश्चय ही अब तुम दोनों की सहायता भी है, हे वरुण; हे मित्र, मैं तुम दोनों की सुमति चाहता हूँ।",
+  "why": "reviewer (minor): English translates cit ('Even') and hi ('indeed'); Hindi has only hi."
+ },
+ {
+  "n": "987",
+  "field": "word.gram",
+  "word": "trāyethām",
+  "old": "2 du. pres. mid. √trā",
+  "new": "2 du. impv. mid. √trā",
+  "why": "reviewer (error): -ethām is the 2 du. middle imperative ending (a 2 du. present middle would be -ethe); the draft labels it 'pres.' although it translates it as an imperative ('protect')."
+ },
+ {
+  "n": "987",
+  "field": "word.gram",
+  "word": "su-trātrā",
+  "old": "m. voc. du. (bahuvrīhi)",
+  "new": "m. voc. du. (su-compound)",
+  "why": "reviewer (minor): su-trātṛ 'good protector' is a su-compound, not a bahuvrīhi (cf. su-matim in 985)."
+ },
+ {
+  "n": "989",
+  "field": "hindi",
+  "old": "दोनों लोक तुम्हारे स्पर्धा करते हुए के सामने झुक गए, हे इन्द्र, जब तुम दस्युओं के मारने वाले हुए।",
+  "new": "दोनों लोक स्पर्धा करते हुए तुम्हारे सामने झुक गए, हे इन्द्र, जब तुम दस्युओं के मारने वाले हुए।",
+  "why": "reviewer (error): Garbled Hindi: 'तुम्हारे ... के सामने' wraps the participle (spardhamānam, 'you contending') in a genitive that does not match the English 'yielded to you as you contended'."
+ },
+ {
+  "n": "990",
+  "field": "word.gloss",
+  "word": "pari",
+  "old": "around",
+  "new": "from (with indrāt; or 'around')",
+  "why": "reviewer (minor): Gloss 'around' is not used in either translation (both say 'from Indra'); the note says indrāt pari may be 'from Indra'. Gloss should show the reading used."
+ },
+ {
+  "n": "992",
+  "field": "hindi",
+  "old": "तुम दोनों की जो बहुत चाही गई नियुतें दाता के लिए हैं, हे दो पुरुषो; हे इन्द्र और अग्नि, उनके साथ आओ।",
+  "new": "तुम दोनों की जो बहुत चाही गई टोलियाँ दाता के लिए हैं, हे दो पुरुषो; हे इन्द्र और अग्नि, उनके साथ आओ।",
+  "why": "reviewer (minor): A Sanskrit loanword left in Hindi while the English says 'teams': not the same rendering. Also 'हे दो पुरुषो' for narā: glossary nara voc. = हे मनुष्यो (पुरुष is the Puruṣa)."
+ },
+ {
+  "n": "992",
+  "field": "hindi",
+  "old": "तुम दोनों की जो बहुत चाही गई टोलियाँ दाता के लिए हैं, हे दो पुरुषो; हे इन्द्र और अग्नि, उनके साथ आओ।",
+  "new": "तुम दोनों की जो बहुत चाही गई टोलियाँ दाता के लिए हैं, हे दो मनुष्यो; हे इन्द्र और अग्नि, उनके साथ आओ।",
+  "why": "reviewer (minor): A Sanskrit loanword left in Hindi while the English says 'teams': not the same rendering. Also 'हे दो पुरुषो' for narā: glossary nara voc. = हे मनुष्यो (पुरुष is the Puruṣa)."
+ }
+]
