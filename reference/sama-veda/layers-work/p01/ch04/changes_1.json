@@ -1,0 +1,417 @@
+[
+ {
+  "n": "145",
+  "field": "word.gram",
+  "word": "yava-āśiraḥ",
+  "old": "m. nom. sg., tat-puruṣa",
+  "new": "m. gen. sg., agreeing with indoḥ (stem yavāśir: yava + āśir \"admixture\")",
+  "why": "reviewer (error): yavāśir is a stem in -ir (āśir \"admixture\"); its nominative would be yavāśīḥ. yavāśiraḥ is the genitive singular and agrees with indoḥ, exactly as the English and Hindi already translate it (\"of the drop that is mixed with barley\"). The label \"nom. sg.\" contradicts the translation."
+ },
+ {
+  "n": "145",
+  "field": "notes",
+  "old": "Hard verse. śiprayandhasaḥ is read as śiprī andhasaḥ (the y is not regular sandhi; the Sāman text inserts it). The subject 'the fair-jawed one' is not named (Indra is the likely one but the text does not say so). Case and sense of yavāśiraḥ, indoḥ and the attachment of sudakṣasya prahoṣiṇaḥ to andhasaḥ are uncertain; the translation is tentative.",
+  "new": "Hard verse. śiprayandhasaḥ is read as śiprī andhasaḥ (the y is not regular sandhi; the Sāman text inserts it). The subject 'the fair-jawed one' is not named (Indra is the likely one but the text does not say so). Case and sense of yavāśiraḥ, indoḥ and the attachment of sudakṣasya prahoṣiṇaḥ to andhasaḥ are uncertain; the translation is tentative. yavāśiraḥ is the genitive singular of yavāśir (the nominative would be yavāśīḥ), so it agrees with indoḥ.",
+  "why": "reviewer (error): yavāśir is a stem in -ir (āśir \"admixture\"); its nominative would be yavāśīḥ. yavāśiraḥ is the genitive singular and agrees with indoḥ, exactly as the English and Hindi already translate it (\"of the drop that is mixed with barley\"). The label \"nom. sg.\" contradicts the translation."
+ },
+ {
+  "n": "145",
+  "field": "hindi",
+  "old": "सुन्दर जबड़ों वाले ने सोम-रस का पान किया, उस अत्यन्त कुशल, बह निकलने वाले (रस) का; इन्द्र (पान करता है) जौ से मिले हुए बूँद का।",
+  "new": "सुन्दर जबड़ों वाले ने सोम-रस का पान किया, अत्यन्त कुशल, बह निकलने वाले (रस) का; इन्द्र (पान करता है) जौ से मिले हुए बूँद का।",
+  "why": "reviewer (minor): \"उस\" (that) has no counterpart in the Sanskrit; sudakṣasya has no demonstrative."
+ },
+ {
+  "n": "146",
+  "field": "word.gram",
+  "word": "imāḥ",
+  "old": "f. nom. pl. (visarga lost before u)",
+  "new": "f. nom. pl. (visarga lost before a vowel)",
+  "why": "reviewer (minor): The visarga is lost before any vowel (here u), not \"before u\" specifically; harmless but misleading."
+ },
+ {
+  "n": "147",
+  "field": "word.w",
+  "word": "candramaso",
+  "old": "candramaso",
+  "new": "candramasaḥ",
+  "why": "reviewer (minor): The split word keeps the printed sandhi form; the dictionary form is candramasaḥ."
+ },
+ {
+  "n": "147",
+  "field": "notes",
+  "old": "The sentence is cryptic. 'goḥ' (of the cow) and 'tvaṣṭuḥ' (of Tvaṣṭṛ) are both genitives dependent on 'name'; whether they stand in apposition or separately is uncertain. Nothing is interpreted; who 'they' are is not stated. candramaso is candramasaḥ gen. sg. with loss of the visarga before g.",
+  "new": "The sentence is cryptic. 'goḥ' (of the cow) and 'tvaṣṭuḥ' (of Tvaṣṭṛ) are both genitives dependent on 'name'; whether they stand in apposition or separately is uncertain. Nothing is interpreted; who 'they' are is not stated. candramaso is candramasaḥ gen. sg. with the visarga (aḥ) becoming o before the voiced g.",
+  "why": "reviewer (minor): Wrong sandhi: aḥ before a voiced consonant becomes o; the visarga is not \"lost\"."
+ },
+ {
+  "n": "147",
+  "field": "hindi",
+  "old": "यहाँ ही उन्होंने गाय का, त्वष्टा के छिपे हुए नाम को जाना; इस प्रकार चन्द्रमा के घर में।",
+  "new": "यहाँ ही उन्होंने गाय का, त्वष्टा के छिपे हुए नाम का ध्यान किया; इस प्रकार चन्द्रमा के घर में।",
+  "why": "reviewer (minor): English gloss and translation are \"marked\" (amanvata, impf. of √man: thought, took note of); \"जाना\" (knew) is a different sense and the two languages disagree."
+ },
+ {
+  "n": "148",
+  "field": "hindi",
+  "old": "जब सबसे अधिक बलवान इन्द्र ने महान जलों को आगे बढ़ाया, तब वहाँ पूषन् साथी हुआ।",
+  "new": "जब सबसे अधिक उदार इन्द्र ने महान जलों को आगे बढ़ाया, तब वहाँ पूषन् साथी हुआ।",
+  "why": "reviewer (minor): Hindi renders vṛṣantamaḥ as \"most mighty\" while the English and the gloss say \"most bountiful\". \"सबसे बलवान\" is also the glossary rendering of śaviṣṭha. Make Hindi agree with the English."
+ },
+ {
+  "n": "151",
+  "field": "hindi",
+  "old": "इच्छित आहुतियाँ छोड़ी गईं, यज्ञ में इन्द्र को बढ़ाती हुई, बल के साथ अवभृथ की ओर।",
+  "new": "इच्छित आहुतियाँ छोड़ी गईं, यज्ञ में इन्द्र को बढ़ाते हुए, बल के साथ अवभृथ की ओर।",
+  "why": "reviewer (minor): vṛdhantaḥ is masculine; the Hindi feminine participle ties it to hotrāḥ (f.), against the note that the subject may be the singers. Use a gender-neutral/masculine form."
+ },
+ {
+  "n": "151",
+  "field": "word.gram",
+  "word": "iṣṭāḥ",
+  "old": "f. nom. pl. ppp. √iṣ",
+  "new": "f. nom. pl. ppp. √iṣ \"desire\" (or √yaj \"offer\")",
+  "why": "reviewer (minor): iṣṭa is the participle of both √iṣ (desire) and √yaj (offer); with hotrāḥ \"offered\" is at least as likely. Only one root is given."
+ },
+ {
+  "n": "151",
+  "field": "notes",
+  "old": "iṣṭā hotrā may also be read 'the desired invocations'; vṛdhantaḥ (masculine) does not agree with hotrāḥ (feminine), so its subject may be the singers rather than the offerings; the translation keeps the grammatically loose literal order. The relation of 'with might' is uncertain.",
+  "new": "iṣṭā hotrā may also be read 'the desired invocations'; vṛdhantaḥ (masculine) does not agree with hotrāḥ (feminine), so its subject may be the singers rather than the offerings; the translation keeps the grammatically loose literal order. The relation of 'with might' is uncertain. iṣṭā may also be the participle of √yaj ('offered').",
+  "why": "reviewer (minor): iṣṭa is the participle of both √iṣ (desire) and √yaj (offer); with hotrāḥ \"offered\" is at least as likely. Only one root is given."
+ },
+ {
+  "n": "152",
+  "field": "word.w",
+  "word": "sūrya",
+  "old": "sūrya",
+  "new": "sūryaḥ",
+  "why": "reviewer (minor): Printed sandhi form kept as w; the dictionary form is sūryaḥ (the gram note already says visarga lost)."
+ },
+ {
+  "n": "153",
+  "field": "hindi",
+  "old": "हमारे लिए धनवती (वस्तुएँ), प्रचुर बल वाली, इन्द्र के साथ सहभोज में हों, जिनसे हम समृद्ध होकर आनन्द मनाएँ।",
+  "new": "हमारे लिए धनवती, प्रचुर बल वाली (वे) इन्द्र के साथ सहभोज में हों, जिनसे हम समृद्ध होकर आनन्द मनाएँ।",
+  "why": "reviewer (minor): \"वस्तुएँ\" (things) is a noun the note says is not supplied (the English has only \"ones\"); and kṣumantaḥ is \"rich in food\" in English, \"समृद्ध\" in Hindi loses \"food\"."
+ },
+ {
+  "n": "153",
+  "field": "hindi",
+  "old": "हमारे लिए धनवती, प्रचुर बल वाली (वे) इन्द्र के साथ सहभोज में हों, जिनसे हम समृद्ध होकर आनन्द मनाएँ।",
+  "new": "हमारे लिए धनवती, प्रचुर बल वाली (वे) इन्द्र के साथ सहभोज में हों, जिनसे हम अन्न से समृद्ध होकर आनन्द मनाएँ।",
+  "why": "reviewer (minor): \"वस्तुएँ\" (things) is a noun the note says is not supplied (the English has only \"ones\"); and kṣumantaḥ is \"rich in food\" in English, \"समृद्ध\" in Hindi loses \"food\"."
+ },
+ {
+  "n": "154",
+  "field": "english",
+  "old": "Soma and Pūṣan both perceive all the well-settled (peoples); placed among the gods, of the two chariot-drawers.",
+  "new": "Soma and Pūṣan both are aware of all the well-settled (peoples); placed among the gods, of the two chariot-drawers.",
+  "why": "reviewer (minor): viśvāsāṃ sukṣitīnām is genitive plural (\"of all the well-settled\"), not accusative; both translations use an object (\"perceive all\", \"को जानते हैं\")."
+ },
+ {
+  "n": "154",
+  "field": "hindi",
+  "old": "सोम और पूषन् दोनों सब सुव्यवस्थित बस्तियों (जनों) को जानते हैं; देवों के बीच रथ खींचने वाली दोनों (जोड़ी) के रूप में स्थित।",
+  "new": "सोम और पूषन् दोनों सब सुव्यवस्थित बस्तियों (जनों) के विषय में जानते हैं; देवों के बीच रथ खींचने वाली दोनों (जोड़ी) के रूप में स्थित।",
+  "why": "reviewer (minor): viśvāsāṃ sukṣitīnām is genitive plural (\"of all the well-settled\"), not accusative; both translations use an object (\"perceive all\", \"को जानते हैं\")."
+ },
+ {
+  "n": "155",
+  "field": "hindi",
+  "old": "तुम्हारे सोम-रस के पान करने वाले इन्द्र की ओर गान करो, सबको जीतने वाले, सौ कर्मों वाले, मनुष्यों में सबसे उदार का।",
+  "new": "तुम्हारे सोम-रस के पान करने वाले इन्द्र की ओर गान करो, सबको जीतने वाले, सौ शक्तियों वाले, मनुष्यों में सबसे उदार का।",
+  "why": "reviewer (minor): English and gloss say \"a hundred powers\" (and 173 Hindi says सौ शक्तियों); \"कर्म\" is the fixed rendering of karma, not of kratu."
+ },
+ {
+  "n": "157",
+  "field": "notes",
+  "old": "'you' is supplied as object of jarante. The Kaṇvas are the clan of the singers named in the text; nothing more is said.",
+  "new": "'you' is supplied as object of jarante. kaṇvāḥ is a plural name; the text says nothing more about them.",
+  "why": "reviewer (minor): \"clan of the singers\" is outside information; the line only names kaṇvāḥ."
+ },
+ {
+  "n": "160",
+  "field": "word.gram",
+  "word": "juhūmasi",
+  "old": "1 pl. pres. mid. √hu",
+  "new": "1 pl. pres. √hū \"call\" (reduplicated, active ending -masi)",
+  "why": "reviewer (error): Wrong root and voice. juhūmasi is the reduplicated present of √hū \"call\" (hvayati), with the active Vedic ending -masi; √hu is \"sacrifice\" and the form is not middle."
+ },
+ {
+  "n": "161",
+  "field": "hindi",
+  "old": "हे बैल (हे बलशाली), सोम निचोड़ने पर मैं निचोड़ा हुआ (सोम) तुम्हारी ओर पीने के लिए प्रवाहित करता हूँ; तृप्त हो, उल्लास को पूरी तरह पाओ।",
+  "new": "हे बैल, सोम निचोड़ने पर मैं निचोड़ा हुआ (सोम) तुम्हारी ओर पीने के लिए प्रवाहित करता हूँ; तृप्त हो, उल्लास को पूरी तरह पाओ।",
+  "why": "reviewer (minor): Bracketed addition \"(हे बलशाली)\" interprets vṛṣabhā; not in the text or the English."
+ },
+ {
+  "n": "163",
+  "field": "word.gram",
+  "word": "havāmahe",
+  "old": "1 pl. pres. mid. √hu",
+  "new": "1 pl. pres. mid. √hū \"call\"",
+  "why": "reviewer (error): Wrong root: havāmahe is the present middle of √hū \"call\" (guṇa hav-), not √hu \"sacrifice\"."
+ },
+ {
+  "n": "165",
+  "field": "hindi",
+  "old": "हे दानों के स्वामी, यह तेरे बल से निचोड़ा हुआ है; हे स्तुति-प्रिय, अब इसमें से पियो।",
+  "new": "हे दानों के स्वामी, यह तुम्हारे बल से निचोड़ा हुआ है; हे स्तुति-प्रिय, अब इसमें से पियो।",
+  "why": "reviewer (minor): \"तेरे\" (familiar) is inconsistent with \"तुम\" everywhere else in the book."
+ },
+ {
+  "n": "167",
+  "field": "hindi",
+  "old": "हे इन्द्र, अब हमारे लिए अन्न से भरपूर, अद्भुत मुट्ठीभर (धन) एकत्र कर लो, तुम बड़े हाथ वाले, दाहिने (हाथ) से।",
+  "new": "हे इन्द्र, अब हमारे लिए अन्न से भरपूर, अद्भुत मुट्ठीभर एकत्र कर लो, तुम बड़े हाथ वाले, दाहिने (हाथ) से।",
+  "why": "reviewer (minor): \"(धन)\" supplied in Hindi although the note says \"of wealth\" is not in the text."
+ },
+ {
+  "n": "171",
+  "field": "english",
+  "old": "I have approached the lord of the assembly, wonderful, dear to Indra, desirable; I have obtained the gift of wisdom.",
+  "new": "I have obtained the lord of the assembly, wonderful, dear to Indra, desirable; I have obtained the gift of wisdom.",
+  "why": "reviewer (minor): One verb (ayāsiṣam) is rendered by two different verbs (\"approached\", \"obtained\") in the two clauses, and \"the gift of wisdom\" contradicts the note, which reads saniṃ medhām as two nouns in apposition (\"the gift, wisdom\")."
+ },
+ {
+  "n": "171",
+  "field": "english",
+  "old": "I have obtained the lord of the assembly, wonderful, dear to Indra, desirable; I have obtained the gift of wisdom.",
+  "new": "I have obtained the lord of the assembly, wonderful, dear to Indra, desirable; I have obtained the gift, wisdom.",
+  "why": "reviewer (minor): One verb (ayāsiṣam) is rendered by two different verbs (\"approached\", \"obtained\") in the two clauses, and \"the gift of wisdom\" contradicts the note, which reads saniṃ medhām as two nouns in apposition (\"the gift, wisdom\")."
+ },
+ {
+  "n": "172",
+  "field": "english",
+  "old": "Those paths of yours below the sky, by which you drove Vyaśva; and let the beings hear us.",
+  "new": "Those paths of yours below heaven, by which you drove Vyaśva; and let the beings hear us.",
+  "why": "reviewer (minor): The gloss for divaḥ is \"of heaven\" and the note says \"below heaven\"; the translation says \"sky\"."
+ },
+ {
+  "n": "175",
+  "field": "english",
+  "old": "Stirring, eager for work, they attend upon Indra, the newborn, winning heroic strength.",
+  "new": "Stirring, eager for work, they attend upon the born Indra, winning heroic strength.",
+  "why": "reviewer (minor): \"new\" is not in jātam (\"born\"), and the note itself says the literal word is \"born\"."
+ },
+ {
+  "n": "175",
+  "field": "hindi",
+  "old": "हिलाती हुई, कर्म की इच्छुक (वे) नवजात इन्द्र की उपासना करती हैं, श्रेष्ठ वीरता को प्राप्त करती हुई।",
+  "new": "हिलाती हुई, कर्म की इच्छुक (वे) उत्पन्न इन्द्र की उपासना करती हैं, श्रेष्ठ वीरता को प्राप्त करती हुई।",
+  "why": "reviewer (minor): \"new\" is not in jātam (\"born\"), and the note itself says the literal word is \"born\"."
+ },
+ {
+  "n": "175",
+  "field": "hindi",
+  "old": "हिलाती हुई, कर्म की इच्छुक (वे) उत्पन्न इन्द्र की उपासना करती हैं, श्रेष्ठ वीरता को प्राप्त करती हुई।",
+  "new": "हिलाती हुई, कर्म की इच्छुक (वे) उत्पन्न इन्द्र की उपासना करती हैं, श्रेष्ठ वीरता को प्राप्त करते हुए।",
+  "why": "reviewer (minor): \"new\" is not in jātam (\"born\"), and the note itself says the literal word is \"born\"."
+ },
+ {
+  "n": "175",
+  "field": "notes",
+  "old": "Obscure. The feminine īṅkhayantīḥ and apasyuvaḥ do not agree with the masculine vanvānāsaḥ; the subject of upāsate is not stated, and who is 'stirred' is unclear. The translation is tentative. 'newborn' for jātam is the literal 'born'.",
+  "new": "Obscure. The feminine īṅkhayantīḥ and apasyuvaḥ do not agree with the masculine vanvānāsaḥ; the subject of upāsate is not stated, and who is 'stirred' is unclear. The translation is tentative. jātam is 'born'; no 'new' is in the text.",
+  "why": "reviewer (minor): \"new\" is not in jātam (\"born\"), and the note itself says the literal word is \"born\"."
+ },
+ {
+  "n": "176",
+  "field": "english",
+  "old": "O gods, we do not at all violate (the order), nor do we disturb it; we act in accordance with what the mantra has heard.",
+  "new": "O gods, we do not at all violate (the order), nor do we disturb it; we act in accordance with what is heard in the mantra.",
+  "why": "reviewer (minor): Ungrammatical/unfaithful: mantraśrutyam is \"what is heard in the mantra\" (Hindi already says मन्त्र में सुने गए)."
+ },
+ {
+  "n": "176",
+  "field": "english",
+  "old": "O gods, we do not at all violate (the order), nor do we disturb it; we act in accordance with what is heard in the mantra.",
+  "new": "O gods, we do not at all violate (anything), nor do we disturb (anything); we act in accordance with what is heard in the mantra.",
+  "why": "reviewer (minor): An object (\"the order\", \"it\") is supplied for both verbs; the line states none. The note even admits it is \"not in the text\". Hindi \"(नियम)\" is likewise added."
+ },
+ {
+  "n": "176",
+  "field": "hindi",
+  "old": "हे देवो, हम कभी (नियम) भंग नहीं करते और न कुछ बिगाड़ते हैं; हम मन्त्र में सुने गए के अनुसार आचरण करते हैं।",
+  "new": "हे देवो, हम कभी भंग नहीं करते और न कुछ बिगाड़ते हैं; हम मन्त्र में सुने गए के अनुसार आचरण करते हैं।",
+  "why": "reviewer (minor): An object (\"the order\", \"it\") is supplied for both verbs; the line states none. The note even admits it is \"not in the text\". Hindi \"(नियम)\" is likewise added."
+ },
+ {
+  "n": "176",
+  "field": "notes",
+  "old": "'inīmasi' may be the printed form of minīmasi (see text_flags). 'the order' is supplied as the object of both verbs (not in the text). kyā is ki + ā by sandhi. mantraśrutyam is uncertain; 'in accordance with what the mantra declares' is the literal sense.",
+  "new": "'inīmasi' may be the printed form of minīmasi (see text_flags). No object is stated for the two verbs; none is supplied. kyā is ki + ā by sandhi. mantraśrutyam is uncertain; 'in accordance with what the mantra declares' is the literal sense.",
+  "why": "reviewer (minor): An object (\"the order\", \"it\") is supplied for both verbs; the line states none. The note even admits it is \"not in the text\". Hindi \"(नियम)\" is likewise added."
+ },
+ {
+  "n": "177",
+  "field": "word.gram",
+  "word": "agāt",
+  "old": "3 sg. aor. √gam",
+  "new": "3 sg. root aor. √gā \"go\" (ā-√gā \"come\")",
+  "why": "reviewer (minor): agāt is the root aorist of √gā (\"go\"), not of √gam (aor. agamat)."
+ },
+ {
+  "n": "179",
+  "field": "english",
+  "old": "Indra, irresistible, slew the Vṛtras with the bones of Dadhīci, ninety-nine (literally 'nineties, nine').",
+  "new": "Indra, irresistible, slew the Vṛtras with the bones of Dadhīci, nine and ninety.",
+  "why": "reviewer (error): navatīr nava is a contested count (99 vs nine nineties). Stating \"ninety-nine\" as fact in the translation, with confidence \"high\", is a contested number used as fact; the parenthetical gloss also does not belong in the translation."
+ },
+ {
+  "n": "179",
+  "field": "confidence",
+  "old": "high",
+  "new": "medium",
+  "why": "reviewer (error): navatīr nava is a contested count (99 vs nine nineties). Stating \"ninety-nine\" as fact in the translation, with confidence \"high\", is a contested number used as fact; the parenthetical gloss also does not belong in the translation."
+ },
+ {
+  "n": "182",
+  "field": "english",
+  "old": "That might of his shone forth when Indra rolled both worlds together like a hide.",
+  "new": "That might of his shone when Indra rolled both worlds together like a hide.",
+  "why": "reviewer (minor): \"forth\" is not in titviṣe (no preverb)."
+ },
+ {
+  "n": "183",
+  "field": "hindi",
+  "old": "यह निश्चय ही तुम्हारे लिए है; तुम कबूतर के घोंसले की ओर जैसे (लौटते हो) वैसे आते हो; हमारे उस वचन को भी तुम वहन करते हो।",
+  "new": "यह निश्चय ही तुम्हारे लिए है; तुम कबूतर की तरह घोंसले की ओर एक साथ आते हो; हमारे उस वचन को भी तुम वहन करते हो।",
+  "why": "reviewer (minor): Bracketed \"(लौटते हो)\" (you return) is not in the Sanskrit or the English and leaves the simile ungrammatical."
+ },
+ {
+  "n": "184",
+  "field": "word.gloss",
+  "word": "vātaḥ",
+  "old": "wind (not the humour)",
+  "new": "wind",
+  "why": "reviewer (minor): Medical-term comment does not belong (not a medical text; nothing said in the line)."
+ },
+ {
+  "n": "184",
+  "field": "text_flags",
+  "old": [
+   {
+    "src": "beṣaja~",
+    "suggest": "bheṣajaṃ",
+    "why": "possible: b for bh (bheṣaja, 'remedy'); the printed initial is b."
+   }
+  ],
+  "new": [
+   {
+    "src": "beṣaja~",
+    "suggest": "bheṣajaṃ",
+    "why": "possible: b for bh (bheṣaja, 'remedy'); the printed initial is b."
+   },
+   {
+    "src": "ayū~ṣi",
+    "suggest": "āyū~ṣi",
+    "why": "possible: the word is normally āyus 'life' (āyūṃṣi); the printed initial a is short (after na, āyū~ṣi would print as na āyū~ṣi). Unverified."
+   }
+  ],
+  "why": "reviewer (minor): The printed \"na ayū~ṣi\" has a short initial a; the standard word is āyus \"life\" (āyūṃṣi), and the sandhi would then print \"na āyū~ṣi\". Probable lost length mark. Unverified, so only a flag; no change to words."
+ },
+ {
+  "n": "186",
+  "field": "lines.0.tokens.0.words",
+  "old": [
+   {
+    "w": "gavyaḥ",
+    "gloss": "desirous of cattle",
+    "gram": "m. nom. sg. (gavya)"
+   }
+  ],
+  "new": [
+   {
+    "w": "gavyā",
+    "gloss": "seek cattle",
+    "gram": "2 sg. impv. denom. √gavya (lengthened), parallel to aśvayā, rathayā"
+   },
+   {
+    "w": "u",
+    "gloss": "indeed",
+    "gram": "ind."
+   }
+  ],
+  "why": "reviewer (error): Grammatically impossible: aḥ before s stays aḥ, it never gives \"gavyo ṣu\", and the retroflex ṣ shows the preceding vowel is u/o. The sequence is gavyā (lengthened 2 sg. imperative of the denominative gavya- \"seek cattle\", exactly parallel to aśvayā, rathayā, varivasyā in the same verse) + u + su. The draft takes gavyaḥ as a nominative with three imperatives, which also forces the English \"Desirous of cattle\" and drops the particle u."
+ },
+ {
+  "n": "186",
+  "field": "english",
+  "old": "Desirous of cattle, as of old, seek horses and chariots well for us; bestow wealth on the bountiful.",
+  "new": "Seek cattle well for us, as of old; and seek horses and chariots; bestow wealth on the bountiful.",
+  "why": "reviewer (error): Follows the wrong analysis (see split): four parallel imperatives, not a participial phrase."
+ },
+ {
+  "n": "186",
+  "field": "hindi",
+  "old": "जैसे पहले, हमारे लिए गौओं को चाहने वाला होकर अच्छी तरह घोड़ों और रथों की खोज करो; उदार (जनों) के लिए धन प्रदान करो।",
+  "new": "हमारे लिए अच्छी तरह गौओं की खोज करो, जैसे पहले; और घोड़ों तथा रथों की खोज करो; उदार (जनों) के लिए धन प्रदान करो।",
+  "why": "reviewer (error): Follows the wrong analysis (see split): four parallel imperatives, not a participial phrase."
+ },
+ {
+  "n": "186",
+  "field": "notes",
+  "old": "Very uncertain. The grammar (gavyaḥ with a 2 sg. imperative, ṇo as naḥ with ṣu, mahonām) is tentative. The addressee is not named. The token purāśvayota is purā + aśvayā + uta (the a of aśvayā is lost in the sandhi).",
+  "new": "Very uncertain. gavyo ṣu ṇo is read gavyā u su naḥ (gavyā, aśvayā, rathayā and varivasyā are parallel lengthened 2 sg. imperatives of denominatives); ṇo is naḥ after ṣu. mahonām is kept as printed (possibly maghonām, see text_flags); its relation to varivasyā is tentative. The addressee is not named. The token purāśvayota is purā + aśvayā + uta.",
+  "why": "reviewer (error): Follows the wrong analysis (see split): four parallel imperatives, not a participial phrase."
+ },
+ {
+  "n": "187",
+  "field": "hindi",
+  "old": "हे इन्द्र, ये तुम्हारी चितकबरी (गायें) घी और मिश्रित (दूध) दुहती हैं, इस ऋत की (धारा से) भरी हुई।",
+  "new": "हे इन्द्र, ये तुम्हारी चितकबरी (वे) घी और मिश्रण दुहती हैं, इस ऋत की (धारा से) भरी हुई।",
+  "why": "reviewer (minor): Hindi supplies \"cows\" and \"milk\", which neither the English (\"dappled ones\", \"the mixture\") nor the Sanskrit gives."
+ },
+ {
+  "n": "188",
+  "field": "english",
+  "old": "With this thought (praise) that seeks cattle, O many-named, much-praised one, when you come to every Soma.",
+  "new": "And with this thought (praise) that seeks cattle, O many-named, much-praised one, when you come to every Soma.",
+  "why": "reviewer (minor): The particle ca (\"and\") is dropped in both languages although it is a word of the line."
+ },
+ {
+  "n": "188",
+  "field": "hindi",
+  "old": "हे बहुत नामों वाले, हे बहुत स्तुत, इस गौओं की कामना वाली बुद्धि (स्तुति) से, जब तुम हर सोम पर आते हो।",
+  "new": "हे बहुत नामों वाले, हे बहुत स्तुत, और इस गौओं की कामना वाली बुद्धि (स्तुति) से, जब तुम हर सोम पर आते हो।",
+  "why": "reviewer (minor): The particle ca (\"and\") is dropped in both languages although it is a word of the line."
+ },
+ {
+  "n": "189",
+  "field": "english",
+  "old": "May the purifying Sarasvatī, rich in strengths and vigour, who gives wealth through thought, accept our sacrifice.",
+  "new": "May the purifying Sarasvatī, rich in strengths and vigour, who gives wealth through thought, desire our sacrifice.",
+  "why": "reviewer (minor): vaṣṭu (√vaś \"desire\") is \"accept\" in English but \"चाहे\" (desire) in Hindi; the two disagree. Use \"desire\" in both."
+ },
+ {
+  "n": "193",
+  "field": "word.w",
+  "word": "pra-netaḥ",
+  "old": "pra-netaḥ",
+  "new": "pra-netar",
+  "why": "reviewer (minor): Not a dictionary form: the vocative of praṇetṛ is praṇetar (r becomes ḥ before s in sandhi)."
+ },
+ {
+  "n": "193",
+  "field": "english",
+  "old": "We are those of one like you, O Indra, rich in wealth, O leader; O stander on (the chariot of) the bay horses.",
+  "new": "We are those of one like you, O Indra, rich in wealth, O leader; O stander of the bay horses.",
+  "why": "reviewer (minor): \"chariot\" is supplied in both languages and \"driver\" in the note; sthātar harīṇām says only \"stander of the bay horses\"."
+ },
+ {
+  "n": "193",
+  "field": "hindi",
+  "old": "हे बहुत धन वाले इन्द्र, हे नेता, हम तुम जैसे के (जन) हैं; हे हरे घोड़ों के रथ पर खड़े रहने वाले।",
+  "new": "हे बहुत धन वाले इन्द्र, हे नेता, हम तुम जैसे के (जन) हैं; हे हरे घोड़ों के स्थाता।",
+  "why": "reviewer (minor): \"chariot\" is supplied in both languages and \"driver\" in the note; sthātar harīṇām says only \"stander of the bay horses\"."
+ },
+ {
+  "n": "193",
+  "field": "notes",
+  "old": "'those' (people) is supplied with tvāvataḥ. sthātar harīṇām is read as 'stander (driver) of the bay horses'.",
+  "new": "'those' (people) is supplied with tvāvataḥ. sthātar harīṇām is read as 'stander of the bay horses'.",
+  "why": "reviewer (minor): \"chariot\" is supplied in both languages and \"driver\" in the note; sthātar harīṇām says only \"stander of the bay horses\"."
+ }
+]
