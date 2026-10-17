@@ -1,0 +1,628 @@
+[
+ {
+  "n": "342",
+  "field": "hindi",
+  "old": "गायत्र के गायक तुम्हें गाते हैं; स्तुति करने वाले अर्क (स्तुतिगान) से तुम्हारी स्तुति करते हैं; हे शतक्रतो, ब्राह्मण पुरोहितों ने तुम्हें बाँस की बल्ली की तरह ऊपर उठाया है।",
+  "new": "गायत्र के गायक तुम्हें गाते हैं; स्तुति करने वाले स्तुतिगान अर्क का पाठ करते हैं; हे सौ शक्तियों वाले, ब्रह्मन् पुरोहितों ने तुम्हें बाँस की बल्ली की तरह ऊपर उठाया है।",
+  "why": "reviewer (error): Hindi has no brackets or parentheses (GLOSSARY). Also brahmāṇaḥ is the (Brahman) priest, Hindi ब्रह्मन् (GLOSSARY), not ब्राह्मण (brāhmaṇa); śatakratu = hundred-powered (सौ शक्तियों वाला), as the English already has."
+ },
+ {
+  "n": "342",
+  "field": "english",
+  "old": "The singers of the gāyatra sing to you; the praisers praise you with the song of praise (arka); the priests (brahmans) have raised you up, O hundred-powered one, like a pole.",
+  "new": "The singers of the gāyatra sing to you; the praisers chant the song of praise (arka); the Brahman priests have raised you up, O hundred-powered one, like a pole.",
+  "why": "reviewer (minor): 'arcanti arkam' has arka as object ('chant the arka'); 'you' and 'with' are added. The priests are Brahman priests (GLOSSARY: brahman = Brahman priest)."
+ },
+ {
+  "n": "343",
+  "field": "hindi",
+  "old": "सब स्तुतियों ने इन्द्र को बढ़ाया है, जो समुद्र के समान विस्तार वाला है, रथियों में सबसे श्रेष्ठ रथी है, वाजों (पुरस्कारों) का सच्चा स्वामी, स्वामी है।",
+  "new": "सब स्तुतियों ने इन्द्र को बढ़ाया है, जो समुद्र के समान विस्तार वाला है, रथियों में सबसे श्रेष्ठ रथी है, वाजों का सच्चा स्वामी, स्वामी है।",
+  "why": "reviewer (error): Hindi has no brackets or parentheses (GLOSSARY). vāja is always वाज in Hindi."
+ },
+ {
+  "n": "344",
+  "field": "english",
+  "old": "O Indra, drink this pressed, supreme, immortal exhilarating draught; the streams of the bright juice have flowed to you in the seat of order (ṛta).",
+  "new": "O Indra, drink this pressed, supreme, immortal exhilarating draught; the streams of the bright one have flowed to you in the seat of truth (ṛta).",
+  "why": "reviewer (minor): śukrasya has no noun in the text; 'juice' (English) and 'सोम' (Hindi) are supplied. Also ṛta = truth (GLOSSARY), not 'order'."
+ },
+ {
+  "n": "344",
+  "field": "hindi",
+  "old": "हे इन्द्र, इस निचोड़े हुए, सबसे श्रेष्ठ, अमर आनन्ददायक रस को पियो; उज्ज्वल सोम की धाराएँ ऋत के आसन पर तुम्हारी ओर बही हैं।",
+  "new": "हे इन्द्र, इस निचोड़े हुए, सबसे श्रेष्ठ, अमर आनन्ददायक रस को पियो; उस उज्ज्वल की धाराएँ ऋत के आसन पर तुम्हारी ओर बही हैं।",
+  "why": "reviewer (minor): śukrasya has no noun in the text; 'juice' (English) and 'सोम' (Hindi) are supplied. Also ṛta = truth (GLOSSARY), not 'order'."
+ },
+ {
+  "n": "344",
+  "field": "word.gloss",
+  "word": "ṛtasya",
+  "old": "of order (ṛta)",
+  "new": "of truth (ṛta)",
+  "why": "reviewer (minor): śukrasya has no noun in the text; 'juice' (English) and 'सोम' (Hindi) are supplied. Also ṛta = truth (GLOSSARY), not 'order'."
+ },
+ {
+  "n": "344",
+  "field": "notes",
+  "old": "śukrasya is taken with the unstated 'juice/Soma'. 'Seat of ṛta' is kept literal.",
+  "new": "śukrasya is taken with the unstated 'juice/Soma'. 'Seat of ṛta' is kept literal. Reviewer: the noun with śukrasya is not stated; left as 'the bright one'.",
+  "why": "reviewer (minor): śukrasya has no noun in the text; 'juice' (English) and 'सोम' (Hindi) are supplied. Also ṛta = truth (GLOSSARY), not 'order'."
+ },
+ {
+  "n": "345",
+  "field": "hindi",
+  "old": "हे इन्द्र, हे अद्भुत, हे पत्थर के धारी, जो कुछ तुम्हारा दिया हुआ यहाँ मेरे पास नहीं है, हे धन पाने वाले, वह धन हमारे लिए दोनों हाथों से लाओ।",
+  "new": "हे इन्द्र, हे अद्भुत, हे पत्थर के धारी, जो कुछ तुम्हारा दिया हुआ यहाँ मेरे पास नहीं है, हे धन पाने वाले, वह उदारता हमारे लिए दोनों हाथों से लाओ।",
+  "why": "reviewer (minor): rādhas = bounty, Hindi उदारता, one word throughout (GLOSSARY); 'धन' is used here."
+ },
+ {
+  "n": "345",
+  "field": "word.gloss",
+  "word": "rādhaḥ",
+  "old": "bounty, wealth",
+  "new": "bounty",
+  "why": "reviewer (minor): rādhas = bounty, Hindi उदारता, one word throughout (GLOSSARY); 'धन' is used here."
+ },
+ {
+  "n": "346",
+  "field": "english",
+  "old": "Hear the call of Tiraścī, O Indra, who serves you; fill us with wealth rich in cattle and good heroic strength, for you are great.",
+  "new": "Hear the call of Tiraścī, O Indra, who serves you; fill us with wealth rich in cattle and good heroic strength, you are great.",
+  "why": "reviewer (minor): 'for/क्योंकि' is not in the text (mahān asi is a plain statement)."
+ },
+ {
+  "n": "346",
+  "field": "hindi",
+  "old": "हे इन्द्र, तिरश्ची की पुकार सुनो, जो तुम्हारी सेवा करता है; उत्तम वीर्य से युक्त और गायों वाला धन देकर हमें भर दो, क्योंकि तुम महान हो।",
+  "new": "हे इन्द्र, तिरश्ची की पुकार सुनो, जो तुम्हारी सेवा करता है; उत्तम वीर्य से युक्त और गायों वाला धन देकर हमें भर दो, तुम महान हो।",
+  "why": "reviewer (minor): 'for/क्योंकि' is not in the text (mahān asi is a plain statement)."
+ },
+ {
+  "n": "347",
+  "field": "english",
+  "old": "Soma has been pressed for you, O Indra, most mighty; come, bold one. May vigour fill you, as the sun fills the space with his rays.",
+  "new": "Soma has been pressed for you, O Indra, O most mighty one; come, O bold one. May vigour fill you, as the sun fills the space with his rays.",
+  "why": "reviewer (minor): śaviṣṭha = O most mighty (GLOSSARY); vocative marker missing."
+ },
+ {
+  "n": "348",
+  "field": "hindi",
+  "old": "हे इन्द्र, अपने हरे घोड़ों के साथ कण्व की सुन्दर स्तुति के पास आओ; उस शासन करते हुए द्युलोक से, हे दिवावसु, द्युलोक की ओर जाओ।",
+  "new": "हे इन्द्र, अपने भूरे घोड़ों के साथ कण्व की सुन्दर स्तुति के पास आओ; उस शासन करते हुए आकाश से, हे दिवावसु, आकाश की ओर जाओ।",
+  "why": "reviewer (error): hari = bay horse (Hindi भूरा), not 'green' (GLOSSARY). div/dyu = heaven (आकाश), not द्युलोक. English already says bay horses."
+ },
+ {
+  "n": "349",
+  "field": "english",
+  "old": "Our songs have come to stand by you at the pressings, O lover of songs, like a charioteer; they cry out to you as milch cows to a calf.",
+  "new": "The songs have come to stand by you at the pressings, O lover of praise, like a charioteer; the cows have lowed together towards you, like milch cows to a calf.",
+  "why": "reviewer (error): gāvaḥ (cows, the subject of samanūṣata) is dropped in both languages; 'Our' songs is added; girvaṇaḥ = O lover of praise (GLOSSARY)."
+ },
+ {
+  "n": "349",
+  "field": "hindi",
+  "old": "हे स्तुतिप्रिय, सोम निचोड़े जाने पर स्तुतियाँ रथी की तरह तुम्हारे पास आ खड़ी हुई हैं; जैसे दुधारू गायें बछड़े को पुकारती हैं, वैसे ही वे तुम्हें पुकारती हैं।",
+  "new": "हे स्तुतिप्रिय, निचोड़े जाने पर स्तुतियाँ रथी की तरह तुम्हारे पास आ खड़ी हुई हैं; गायें तुम्हारी ओर मिलकर रँभाई हैं, जैसे दुधारू गायें बछड़े की ओर।",
+  "why": "reviewer (error): gāvaḥ (cows, the subject of samanūṣata) is dropped in both languages; 'Our' songs is added; girvaṇaḥ = O lover of praise (GLOSSARY)."
+ },
+ {
+  "n": "349",
+  "field": "word.gloss",
+  "word": "girvaṇaḥ",
+  "old": "O lover of songs",
+  "new": "O lover of praise",
+  "why": "reviewer (error): gāvaḥ (cows, the subject of samanūṣata) is dropped in both languages; 'Our' songs is added; girvaṇaḥ = O lover of praise (GLOSSARY)."
+ },
+ {
+  "n": "350",
+  "field": "hindi",
+  "old": "आओ, अब हम शुद्ध इन्द्र की शुद्ध साम से स्तुति करें; शुद्ध उक्थों से बढ़े हुए (इन्द्र) की; दूध के मिश्रण वाला वह शुद्ध (पदार्थों) से आनन्दित हो।",
+  "new": "आओ, अब हम शुद्ध इन्द्र की शुद्ध साम से स्तुति करें; शुद्ध उक्थों से बढ़े हुए उसको; दूध के मिश्रण वाला वह शुद्धों से आनन्दित हो।",
+  "why": "reviewer (error): Hindi has no brackets or parentheses (GLOSSARY). Also '(offerings)' in English is added (śuddhaiḥ has no noun)."
+ },
+ {
+  "n": "350",
+  "field": "english",
+  "old": "Come, let us now praise Indra, the pure one, with a pure chant (sāman), him who has grown strong through pure hymns; may he, possessing the milk-mixture, rejoice with pure (offerings).",
+  "new": "Come, let us now praise Indra, the pure one, with a pure chant (sāman), him who has grown strong through pure hymns; may he, possessing the milk-mixture, rejoice with pure ones.",
+  "why": "reviewer (error): Hindi has no brackets or parentheses (GLOSSARY). Also '(offerings)' in English is added (śuddhaiḥ has no noun)."
+ },
+ {
+  "n": "351",
+  "field": "english",
+  "old": "The Soma that is the richest in wealth and the most splendid in splendours has been pressed; it is for you, O Indra, lord of svadhā, the exhilarating draught.",
+  "new": "O rich one, the Soma that is the richest in wealth and the most splendid in splendours has been pressed; it is for you, O Indra, lord of svadhā, the exhilarating draught.",
+  "why": "reviewer (error): The draft reads rayiṃ vo as vocative rayivaḥ 'O rich one' but neither translation renders it (dropped word). Hindi 'तेजों' renders dyumna, which is splendour (द्युम्न) and distinct from varcas = तेज (GLOSSARY)."
+ },
+ {
+  "n": "351",
+  "field": "hindi",
+  "old": "जो धन में सबसे धनी है, जो तेजों में सबसे तेजस्वी है, वह निचोड़ा हुआ सोम, हे इन्द्र, हे स्वधा के स्वामी, तुम्हारे लिए आनन्ददायक रस है।",
+  "new": "हे धनवान, जो धन में सबसे धनी है, जो द्युम्नों में सबसे द्युम्नवान है, वह निचोड़ा हुआ सोम, हे इन्द्र, हे स्वधा के स्वामी, तुम्हारे लिए आनन्ददायक रस है।",
+  "why": "reviewer (error): The draft reads rayiṃ vo as vocative rayivaḥ 'O rich one' but neither translation renders it (dropped word). Hindi 'तेजों' renders dyumna, which is splendour (द्युम्न) and distinct from varcas = तेज (GLOSSARY)."
+ },
+ {
+  "n": "352",
+  "field": "hindi",
+  "old": "जो पीना चाहता है, जो जानने वाला है, शीघ्र पहुँचने वाला है, आने वाला है और पीछे न रहने वाला है, उसके लिए हे मनुष्यो, सब कुछ अर्पित करो।",
+  "new": "जो पीना चाहता है, जो जानने वाला है, शीघ्र पहुँचने वाला है, आने वाला है और पीछे न रहने वाला है, उसके लिए हे मनुष्यो, बदले में सब कुछ अर्पित करो।",
+  "why": "reviewer (minor): prati ('in return') is dropped from the Hindi (English has it)."
+ },
+ {
+  "n": "353",
+  "field": "hindi",
+  "old": "हमारे लिए... महान् को, गहरे में रहने वाले महान् को, पुरातन स्थान में रहने वाले को; तुमने उग्र वाणी को दूर हटा दिया है।",
+  "new": "हमारे लिए वयःशय महान् को, गहरे में रहने वाले महान् को, पुरातन स्थान में रहने वाले महान् को; तुमने उग्र वाणी को दूर हटा दिया है।",
+  "why": "reviewer (error): Placeholder dots in the translation (not allowed); vayovayaḥśayam is dropped and the third mahāntam is dropped in Hindi."
+ },
+ {
+  "n": "353",
+  "field": "english",
+  "old": "To us ... the great one lying in the nest (or in vigour), the great one dwelling in the deep, the great one dwelling in the ancient place; you have driven away the fierce speech.",
+  "new": "To us [unclear] the great one vayaḥ-śaya [unclear], the great one dwelling in the deep, the great one dwelling in the ancient place [unclear]; you have driven away the fierce speech.",
+  "why": "reviewer (error): Placeholder '...', parenthetical alternative, and 'nest' has no support (vayas = vigour/bird/food, not nest). Doubt belongs in notes and confidence (already low); mark unclear with [unclear] in English."
+ },
+ {
+  "n": "353",
+  "field": "word.gloss",
+  "word": "vayaḥ-śayam",
+  "old": "lying in the nest/in vigour",
+  "new": "lying in vigour or among birds (unclear)",
+  "why": "reviewer (error): Placeholder '...', parenthetical alternative, and 'nest' has no support (vayas = vigour/bird/food, not nest). Doubt belongs in notes and confidence (already low); mark unclear with [unclear] in English."
+ },
+ {
+  "n": "354",
+  "field": "hindi",
+  "old": "जैसे रथ को (घुमाकर लाते हैं) वैसे हम तुम्हें सहायता के लिए और कृपा के लिए इधर घुमाकर लाते हैं, हे सबसे बलवान इन्द्र, जो महाकर्मी है, आक्रमणों को जीतने वाला है और सत्य का स्वामी है।",
+  "new": "जैसे रथ को घुमाकर लाते हैं, वैसे हम तुम्हें सहायता के लिए और कृपा के लिए इधर घुमाकर लाते हैं, हे सबसे बलवान इन्द्र, जो सुदृढ़ कर्मों वाला है, आक्रमणों को जीतने वाला है और सत्य का स्वामी है।",
+  "why": "reviewer (error): Hindi has no brackets or parentheses (GLOSSARY). tuvi- = strong/mighty (सुदृढ़) in GLOSSARY, 'महाकर्मी' departs from it."
+ },
+ {
+  "n": "354",
+  "field": "english",
+  "old": "We turn you hither for help and for favour, as (one turns) a chariot: Indra, mighty in deeds, overcoming onsets, O most mighty one, lord of the true.",
+  "new": "We turn you hither for help and for favour, as one turns a chariot: Indra, mighty in deeds, overcoming onsets, O most mighty one, lord of the true.",
+  "why": "reviewer (minor): Parentheses are only for the Sanskrit term; satpati also translated differently in 343 ('true lord') and here ('lord of the true'): choose one (see glossary suggestion)."
+ },
+ {
+  "n": "355",
+  "field": "english",
+  "old": "He, the ancient one, the eager Vena of the great ones, is honoured by his deeds; through whom father Manu is honoured with devotion among the gods.",
+  "new": "He, the ancient one, the eager Vena of the great ones, is honoured by his powers; through whom father Manu is honoured with devotion among the gods.",
+  "why": "reviewer (error): kratu = power (śatakratu = hundred-powered); Hindi 'सुशोभित' vs English 'honoured' mismatch and 'सबसे आगे रहने वाला' is added (pūrvya = ancient, not 'foremost')."
+ },
+ {
+  "n": "355",
+  "field": "hindi",
+  "old": "वह पुरातन, महान् जनों में सबसे आगे रहने वाला उत्सुक वेन अपने कर्मों से सुशोभित है; जिसके द्वारा पिता मनु देवों के बीच श्रद्धा से सम्मानित होता है।",
+  "new": "वह पुरातन, महान् जनों का उत्सुक वेन अपनी शक्तियों से सम्मानित है; जिसके द्वारा पिता मनु देवों के बीच श्रद्धा से सम्मानित होता है।",
+  "why": "reviewer (error): kratu = power (śatakratu = hundred-powered); Hindi 'सुशोभित' vs English 'honoured' mismatch and 'सबसे आगे रहने वाला' is added (pūrvya = ancient, not 'foremost')."
+ },
+ {
+  "n": "355",
+  "field": "word.gloss",
+  "word": "kratubhiḥ",
+  "old": "by deeds, powers",
+  "new": "by powers",
+  "why": "reviewer (error): kratu = power (śatakratu = hundred-powered); Hindi 'सुशोभित' vs English 'honoured' mismatch and 'सबसे आगे रहने वाला' is added (pūrvya = ancient, not 'foremost')."
+ },
+ {
+  "n": "355",
+  "field": "text_flags",
+  "old": [],
+  "new": [
+   {
+    "src": "mahonāṃ",
+    "suggest": "mahānām",
+    "why": "possible: mahonām is not a regular genitive plural; the Ṛgvedic parallel reads mahānām"
+   }
+  ],
+  "why": "reviewer (minor): mahonām is not a regular form (genitive plural of mahas would be mahasām); the note's explanation is wrong. The printed form is a suspected typo for mahānām and must be flagged."
+ },
+ {
+  "n": "355",
+  "field": "notes",
+  "old": "The Ṛgvedic parallel reads mahānām; the printed mahonām is taken as the genitive plural of mahas 'great (ones)'. ānaje (twice) is taken as 'is anointed/honoured' (ā-√añj); dhiya is read as dhiyā. Sense uncertain: 'Vena' may also be read as the adjective 'longing, eager'; dvārā 'through (the door of) whom'.",
+  "new": "The Ṛgvedic parallel reads mahānām; the printed mahonām is taken as the genitive plural of mahas 'great (ones)'. ānaje (twice) is taken as 'is anointed/honoured' (ā-√añj); dhiya is read as dhiyā. Sense uncertain: 'Vena' may also be read as the adjective 'longing, eager'; dvārā 'through (the door of) whom'. Reviewer: mahonām is not a regular genitive plural of mahas (that would be mahasām); read as mahānām, see text_flags.",
+  "why": "reviewer (minor): mahonām is not a regular form (genitive plural of mahas would be mahasām); the note's explanation is wrong. The printed form is a suspected typo for mahānām and must be flagged."
+ },
+ {
+  "n": "356",
+  "field": "hindi",
+  "old": "जब तेज़ और चमकते हुए (वे) उसे रथों पर ढोते हैं, तो मादक मधु पीते हुए वे वहाँ यश प्राप्त करते हैं।",
+  "new": "जब तेज़ और चमकते हुए वे उसे रथों पर ढोते हैं, तो मादक मधु पीते हुए वे वहाँ यश प्राप्त करते हैं।",
+  "why": "reviewer (error): Hindi has no brackets or parentheses (GLOSSARY)."
+ },
+ {
+  "n": "359",
+  "field": "hindi",
+  "old": "किलों को तोड़ने वाला, युवा, कवि, अपार बल वाला (इन्द्र) उत्पन्न हुआ; इन्द्र, जो सारे कर्म का धारणकर्ता, वज्रधारी और बहुतों से स्तुत है।",
+  "new": "किलों को तोड़ने वाला, युवा, कवि, अपार बल वाला उत्पन्न हुआ: इन्द्र, जो सारे कर्म का धारणकर्ता, वज्रधारी और बहुतों से स्तुत है।",
+  "why": "reviewer (error): Hindi has no brackets or parentheses (GLOSSARY)."
+ },
+ {
+  "n": "359",
+  "field": "english",
+  "old": "The breaker of fortresses, young, a sage, of boundless might, was born: Indra, the upholder of every work, the wielder of the thunderbolt, much praised.",
+  "new": "The breaker of fortresses, young, a seer, of boundless might, was born: Indra, the upholder of every work, the wielder of the thunderbolt, much praised.",
+  "why": "reviewer (minor): kavi = seer (distinct from ṛṣi = sage); karma = action (GLOSSARY)."
+ },
+ {
+  "n": "359",
+  "field": "english",
+  "old": "The breaker of fortresses, young, a seer, of boundless might, was born: Indra, the upholder of every work, the wielder of the thunderbolt, much praised.",
+  "new": "The breaker of fortresses, young, a seer, of boundless might, was born: Indra, the upholder of every action, the wielder of the thunderbolt, much praised.",
+  "why": "reviewer (minor): kavi = seer (distinct from ṛṣi = sage); karma = action (GLOSSARY)."
+ },
+ {
+  "n": "359",
+  "field": "word.gloss",
+  "word": "kaviḥ",
+  "old": "sage, seer",
+  "new": "seer",
+  "why": "reviewer (minor): kavi = seer (distinct from ṛṣi = sage); karma = action (GLOSSARY)."
+ },
+ {
+  "n": "360",
+  "field": "hindi",
+  "old": "आगे-आगे तुम्हारे लिए त्रिष्टुप् (स्तुति) और भोज्य अर्पित है, उस इन्दु (सोम-बिन्दु) के लिए जिसकी वीर वन्दना करते हैं; वह बुद्धि और उदारता से, यज्ञ-अन्न की प्राप्ति के लिए, तुम्हारी सेवा करता है।",
+  "new": "आगे-आगे तुम्हारे लिए त्रिष्टुप् स्तुति और पोषण अर्पित है, उस बूँद के लिए जिसकी वीर वन्दना करते हैं; वह बुद्धि और प्रचुरता से, यज्ञ-अर्पण की प्राप्ति के लिए, तुम्हारी सेवा करता है।",
+  "why": "reviewer (error): Hindi has no brackets or parentheses (GLOSSARY). indu = drop (बूँद), no Soma added; iṣ = refreshment (पोषण), not भोज्य (GLOSSARY)."
+ },
+ {
+  "n": "360",
+  "field": "english",
+  "old": "Forth, forth for you the triṣṭubh (hymn) and the refreshment, for the drop (Indu) whom heroes praise; with insight and bounty he honours you for the winning of the offering.",
+  "new": "Forth, forth for you the triṣṭubh hymn and the refreshment, for the drop whom heroes praise; with insight and bounty he honours you for the winning of the offering.",
+  "why": "reviewer (minor): Parentheses only for the Sanskrit term; indu = drop with no Soma added."
+ },
+ {
+  "n": "360",
+  "field": "word.gloss",
+  "word": "indave",
+  "old": "to the drop (Soma)",
+  "new": "to the drop",
+  "why": "reviewer (minor): Parentheses only for the Sanskrit term; indu = drop with no Soma added."
+ },
+ {
+  "n": "361",
+  "field": "hindi",
+  "old": "काश्यप के, जो स्वर्ग का प्रकाश पाने वाले हैं, वे दोनों जिन्हें साथी (एक जुए में जुते हुए) कहा जाता है; जिन दोनों के सम्पूर्ण व्रत और यज्ञ को धीर जनों ने देखकर जाना है।",
+  "new": "कश्यप के, सूर्य का प्रकाश पाने वाले के, वे दोनों जिन्हें जुए के साथी कहा जाता है; जिन दोनों के सम्पूर्ण व्रत और यज्ञ को धीर जनों ने देखकर जाना है।",
+  "why": "reviewer (error): Hindi has no brackets or parentheses (GLOSSARY). The name is Kaśyapa (कश्यप), not Kāśyapa (काश्यप, another name). svar = light of heaven (सूर्य का प्रकाश) per GLOSSARY."
+ },
+ {
+  "n": "361",
+  "field": "english",
+  "old": "The two whom they call the companions of Kaśyapa, the finder of heaven's light, whose whole ordinance and sacrifice the wise have perceived.",
+  "new": "The two whom they call the companions of Kaśyapa, the finder of the light of heaven, whose whole ordinance and sacrifice the wise have perceived.",
+  "why": "reviewer (minor): svar rendering: 'the light of heaven' (GLOSSARY)."
+ },
+ {
+  "n": "362",
+  "field": "hindi",
+  "old": "गाओ, गाओ, हे पुरुषो; हे प्रियमेधो, गाओ; छोटे पुत्र भी गाएँ; और दुर्ग के प्रति निडर होकर गाओ।",
+  "new": "गाओ, गाओ, हे मनुष्यो; हे प्रियमेधो, गाओ; छोटे पुत्र भी गाएँ; और दुर्ग के प्रति निडर होकर गाओ।",
+  "why": "reviewer (minor): naraḥ = O men (हे मनुष्यो, as in 352); puruṣa is the Puruṣa in the glossary."
+ },
+ {
+  "n": "363",
+  "field": "hindi",
+  "old": "इन्द्र के लिए, बहुतों को हटाने वाले के लिए, बढ़ाने वाला और गाने योग्य उक्थ (स्तोत्र); जिससे शक्र हमारे सोम-अभिषवों में और मित्रताओं में आनन्दित हो।",
+  "new": "इन्द्र के लिए, बहुतों को हटाने वाले के लिए, बढ़ाने वाला और गाने योग्य उक्थ; जिससे शक्र हमारे निचोड़ने के समय और मित्रताओं में आनन्दित हो।",
+  "why": "reviewer (error): Hindi has no brackets or parentheses (GLOSSARY). 'सोम' is added to suteṣu ('at the pressings')."
+ },
+ {
+  "n": "364",
+  "field": "english",
+  "old": "I call for help the lord of wealth of Viśvānara (of all men), of unbowed strength, and (I call) with the courses of the peoples, of the chariots.",
+  "new": "I call for help the lord of wealth of Viśvānara, of unbowed strength, and I call with the courses of the peoples, of the chariots.",
+  "why": "reviewer (error): Parentheses are only for the Sanskrit term; the added '(I call)' and gloss belong in notes."
+ },
+ {
+  "n": "364",
+  "field": "notes",
+  "old": "Doubtful. 'viśvānarasya vaspatim' is read as viśvānarasya vasaḥ-patim 'the lord of wealth of Viśvānara'; viśvā-nara may be a name or 'of all men'. 'anānatasya śavasaḥ' is taken as genitive in apposition ('of unbowed strength'). evaiḥ (inst. pl. of eva 'course') is uncertain, as are the relations of the two genitives carṣaṇīnām and rathānām.",
+  "new": "Doubtful. 'viśvānarasya vaspatim' is read as viśvānarasya vasaḥ-patim 'the lord of wealth of Viśvānara'; viśvā-nara may be a name or 'of all men'. 'anānatasya śavasaḥ' is taken as genitive in apposition ('of unbowed strength'). evaiḥ (inst. pl. of eva 'course') is uncertain, as are the relations of the two genitives carṣaṇīnām and rathānām. Reviewer: viśvānara may also be read 'of all men'.",
+  "why": "reviewer (error): Parentheses are only for the Sanskrit term; the added '(I call)' and gloss belong in notes."
+ },
+ {
+  "n": "365",
+  "field": "hindi",
+  "old": "जो तुम्हारा द्युलोक का पुरुष है, मेहनत करने वाले मर्त्य की प्रार्थना से, सहायता द्वारा वह महान् द्युलोक के शत्रुओं और संकट को पार करता है।",
+  "new": "जो तुम्हारा आकाश का मनुष्य है, मेहनत करने वाले मर्त्य की प्रार्थना से, सहायता द्वारा वह महान् आकाश की शत्रुताओं और संकट को पार करता है।",
+  "why": "reviewer (minor): div = heaven (आकाश); naraḥ is not puruṣa; dviṣaḥ = hostilities (शत्रुताओं) per the refrain entry in GLOSSARY."
+ },
+ {
+  "n": "366",
+  "field": "hindi",
+  "old": "हे इन्द्र, हे शतक्रतो, तुम्हारे प्रचुर दान की भेंट विपुल है; इसलिए हे सब मनुष्यों के द्रष्टा, हे उत्तम दाता, हमें तेज प्रदान करो।",
+  "new": "हे इन्द्र, हे सौ शक्तियों वाले, तुम्हारी प्रचुर उदारता की देन विपुल है; इसलिए हे सब मनुष्यों के द्रष्टा, हे उत्तम दाता, हमें द्युम्न प्रदान करो।",
+  "why": "reviewer (error): śatakratu = सौ शक्तियों वाला; rādhas = उदारता (not दान); dyumna = द्युम्न (तेज is varcas)."
+ },
+ {
+  "n": "367",
+  "field": "english",
+  "old": "O bright one, at your (coming) the winged birds, the two-footed and the four-footed, O Dawn, have gone forth following the seasons from the ends of heaven.",
+  "new": "O bright one, the birds also, your winged ones, the two-footed and the four-footed, O Dawn, have gone forth following the seasons from the ends of heaven.",
+  "why": "reviewer (error): 'coming' is an addition and parenthesised; the same in Hindi '(आने पर)'. te (your) is taken with the birds. द्युलोक -> आकाश."
+ },
+ {
+  "n": "367",
+  "field": "hindi",
+  "old": "हे उज्ज्वल उषा, तुम्हारे (आने पर) पंखों वाले पक्षी, दोपाये और चौपाये, ऋतुओं के क्रम से द्युलोक के छोरों से आगे बढ़ चले हैं।",
+  "new": "हे उज्ज्वल, हे उषा, तुम्हारे पंखों वाले पक्षी भी, दोपाये और चौपाये, ऋतुओं के क्रम से आकाश के छोरों से आगे बढ़ चले हैं।",
+  "why": "reviewer (error): 'coming' is an addition and parenthesised; the same in Hindi '(आने पर)'. te (your) is taken with the birds. द्युलोक -> आकाश."
+ },
+ {
+  "n": "368",
+  "field": "english",
+  "old": "You gods yonder, who are in the middle, in the bright realm of heaven: what is your order (ṛta), what is your immortality, what is your ancient offering?",
+  "new": "You gods yonder, who are in the middle, in the bright realm of heaven: what is your truth (ṛta), what is your immortality, what is your ancient offering?",
+  "why": "reviewer (minor): ṛta = truth (ऋत) per GLOSSARY."
+ },
+ {
+  "n": "368",
+  "field": "hindi",
+  "old": "आप जो देवगण उस ओर द्युलोक के प्रकाशमान स्थान के मध्य में हैं, आपका ऋत क्या है, आपका अमृत क्या है, आपकी प्राचीन आहुति क्या है?",
+  "new": "आप जो देवगण उस ओर आकाश के प्रकाशमान स्थान के मध्य में हैं, आपका ऋत क्या है, आपका अमृत क्या है, आपकी प्राचीन आहुति क्या है?",
+  "why": "reviewer (minor): ṛta = truth (ऋत) per GLOSSARY."
+ },
+ {
+  "n": "369",
+  "field": "english",
+  "old": "We worship the ṛc-verse and the chant (sāman), by which two (people) perform their rites; the two shine forth in the assembly and carry the sacrifice to the gods.",
+  "new": "We worship the verse (ṛc) and the chant (sāman), by which two they perform their actions; the two shine forth in the assembly and carry the sacrifice to the gods.",
+  "why": "reviewer (minor): '(people)' is added and parenthesised; karma = action; ṛc = verse (GLOSSARY)."
+ },
+ {
+  "n": "369",
+  "field": "hindi",
+  "old": "हम ऋचा और साम का यजन करते हैं, जिन दोनों के द्वारा लोग कर्म करते हैं; वे दोनों सभा में शोभित होते हैं और यज्ञ को देवताओं तक पहुँचाते हैं।",
+  "new": "हम ऋचा और साम का यजन करते हैं, जिन दोनों के द्वारा लोग कर्म करते हैं; वे दोनों सभा में शोभित होते हैं और यज्ञ को देवगण तक पहुँचाते हैं।",
+  "why": "reviewer (minor): '(people)' is added and parenthesised; karma = action; ṛc = verse (GLOSSARY)."
+ },
+ {
+  "n": "370",
+  "field": "english",
+  "old": "The men together fashioned and begot Indra, the surpassing conqueror of all hosts, for rule: for power, for the best, for steadiness, the crusher (?), the fierce, most vigorous, swift and impetuous one.",
+  "new": "The men together fashioned and begot Indra, the surpassing conqueror of all hosts, for rule: for power, for the best, for steadiness, the crusher [unclear], the fierce, most vigorous, swift and impetuous one.",
+  "why": "reviewer (minor): Unclear text is marked [unclear] in English, not (?)."
+ },
+ {
+  "n": "370",
+  "field": "hindi",
+  "old": "सब सेनाओं को जीतने वाले इन्द्र को पुरुषों ने एक साथ गढ़ा और राज्य के लिए उत्पन्न किया, बल के लिए, श्रेष्ठ के लिए, स्थिरता के लिए, चूर करने वाले, उग्र, सबसे ओजस्वी, वेगवान और शक्तिशाली को।",
+  "new": "सब सेनाओं को जीतने वाले इन्द्र को मनुष्यों ने एक साथ गढ़ा और राज्य के लिए उत्पन्न किया, बल के लिए, श्रेष्ठ के लिए, स्थिरता के लिए, चूर करने वाले, उग्र, सबसे ओजस्वी, वेगवान और शक्तिशाली को।",
+  "why": "reviewer (minor): Unclear text is marked [unclear] in English, not (?)."
+ },
+ {
+  "n": "371",
+  "field": "hindi",
+  "old": "मैं तुम्हारे प्रथम, उग्र क्रोध पर श्रद्धा रखता हूँ, जब तुमने दस्यु को मारा और जलों को खोल दिया; जब दोनों लोक तुम्हारे पीछे दौड़े, तब हे पत्थर के धारी, पृथ्वी भी तुम्हारे बल से डर गई।",
+  "new": "मैं तुम्हारे प्रथम क्रोध पर श्रद्धा रखता हूँ, जब तुमने पौरुषवान् दस्यु को मारा और जलों को खोल दिया; जब दोनों लोक तुम्हारे पीछे दौड़े, तब हे पत्थर के धारी, पृथ्वी भी तुम्हारे बल से डर गई।",
+  "why": "reviewer (error): 'उग्र' is added to manyu; naryam is dropped in Hindi (English has 'the manly one')."
+ },
+ {
+  "n": "372",
+  "field": "hindi",
+  "old": "सब मिलकर बल से द्युलोक के स्वामी के पास आओ, जो अकेला ही जनों का अतिथि बना है। वह पुरातन, नए (पर) विजय की इच्छा करने वाला; उसकी ओर मार्गों पर अकेला ही बार-बार मुड़ता है।",
+  "new": "सब मिलकर बल से आकाश के स्वामी के पास आओ, जो अकेला ही जनों का अतिथि बना है। वह पुरातन, नवीन, विजय की इच्छा करने वाला; उसकी ओर मार्गों पर अकेला ही बार-बार मुड़ता है।",
+  "why": "reviewer (error): Hindi has no brackets or parentheses (GLOSSARY). '(पर)' also adds a word; div = आकाश."
+ },
+ {
+  "n": "373",
+  "field": "english",
+  "old": "These are yours, O Indra — we, O much-praised one, who go about relying on you, O abounding in wealth. For no one other than you, O lover of songs, will receive our songs, like the earth; welcome that word of ours.",
+  "new": "These are yours, O Indra — we, O much-praised one, who go about relying on you, O abounding in wealth. For no one other than you, O lover of praise, will receive our songs, like the earth; welcome that word of ours.",
+  "why": "reviewer (minor): girvaṇas = O lover of praise (GLOSSARY)."
+ },
+ {
+  "n": "373",
+  "field": "word.gloss",
+  "word": "girvaṇaḥ",
+  "old": "O lover of songs",
+  "new": "O lover of praise",
+  "why": "reviewer (minor): girvaṇas = O lover of praise (GLOSSARY)."
+ },
+ {
+  "n": "375",
+  "field": "hindi",
+  "old": "तुम्हारे लिए इन्द्र की ओर सब एकमत, उत्सुक, द्युलोक के प्रकाश की चाह वाली स्तुतियाँ गूँज उठी हैं; वे उदार (इन्द्र) को सहायता के लिए ऐसे गले लगाती हैं जैसे पत्नियाँ पति को, जैसे तेजस्वी युवक को।",
+  "new": "तुम्हारे लिए इन्द्र की ओर सब एकमत, उत्सुक, सूर्य के प्रकाश की चाह वाली स्तुतियाँ गूँज उठी हैं; वे उदार इन्द्र को सहायता के लिए ऐसे गले लगाती हैं जैसे पत्नियाँ पति को, जैसे तेजस्वी युवक को।",
+  "why": "reviewer (error): Hindi has no brackets or parentheses (GLOSSARY). svar = सूर्य का प्रकाश."
+ },
+ {
+  "n": "375",
+  "field": "english",
+  "old": "Towards Indra, for you, all the united, eager hymns that long for heaven's light have sounded; they embrace the bountiful one for help, as wives embrace a husband, like a radiant young man.",
+  "new": "Towards Indra, for you, all the united, eager hymns that long for the light of heaven have sounded; they embrace the bountiful one for help, as wives embrace a husband, like a radiant young man.",
+  "why": "reviewer (minor): svar: 'the light of heaven'."
+ },
+ {
+  "n": "376",
+  "field": "hindi",
+  "old": "उस मेष को, बहुतों से बुलाए गए, ऋचा के योग्य इन्द्र को, जो धन का समुद्र है, स्तुतियों से आनन्दित करो; जिसके (दिन) द्युलोकों की तरह मनुष्य के बीच विचरते हैं, भोग के लिए उस सबसे उदार प्रेरित (इन्द्र) की स्तुति करो।",
+  "new": "उस मेष को, बहुतों से बुलाए गए, ऋचा के योग्य इन्द्र को, जो धन का समुद्र है, स्तुतियों से आनन्दित करो; जिसके द्यौ आकाश की तरह मनुष्य के बीच विचरते हैं, भोग के लिए उस सबसे उदार प्रेरित मेधावी की स्तुति करो।",
+  "why": "reviewer (error): Hindi has no brackets or parentheses (GLOSSARY). dyāvaḥ is translated twice ('(days)' and 'heavens'); an added gloss in brackets is not allowed. vipra = प्रेरित मेधावी (GLOSSARY)."
+ },
+ {
+  "n": "376",
+  "field": "english",
+  "old": "Delight with songs that ram, Indra, much invoked, worthy of the ṛc-hymn, the ocean of wealth; sing, for enjoyment, to the most bountiful inspired one, whose (days), like the heavens, range over mankind.",
+  "new": "Delight with songs that ram, Indra, much invoked, worthy of the ṛc-hymn, the ocean of wealth; sing, for enjoyment, to the most bountiful inspired one, whose dyāvaḥ [unclear] range like the heavens over mankind.",
+  "why": "reviewer (error): Hindi has no brackets or parentheses (GLOSSARY). dyāvaḥ is translated twice ('(days)' and 'heavens'); an added gloss in brackets is not allowed. vipra = प्रेरित मेधावी (GLOSSARY)."
+ },
+ {
+  "n": "377",
+  "field": "english",
+  "old": "Magnify well that ram, the finder of heaven's light, whose hundred helpers rise together; like a steed (that wins) the prize, like a chariot speeding to the call, may I turn Indra hither with fine hymns for help.",
+  "new": "Magnify well that ram, the finder of heaven's light, whose hundred helpers rise together; like a steed to the prize, like a chariot speeding to the call, may I turn Indra hither with fine hymns for help.",
+  "why": "reviewer (error): '(that wins)' / 'जीतने वाले' is an unsupported addition; Hindi uses पुरस्कार but vāja is always वाज; svar rendering."
+ },
+ {
+  "n": "377",
+  "field": "english",
+  "old": "Magnify well that ram, the finder of heaven's light, whose hundred helpers rise together; like a steed to the prize, like a chariot speeding to the call, may I turn Indra hither with fine hymns for help.",
+  "new": "Magnify well that ram, the finder of the light of heaven, whose hundred helpers rise together; like a steed to the prize, like a chariot speeding to the call, may I turn Indra hither with fine hymns for help.",
+  "why": "reviewer (error): '(that wins)' / 'जीतने वाले' is an unsupported addition; Hindi uses पुरस्कार but vāja is always वाज; svar rendering."
+ },
+ {
+  "n": "377",
+  "field": "hindi",
+  "old": "उस मेष को, स्वर्ग का प्रकाश पाने वाले को, भली-भाँति महिमा दो, जिसके सौ सहायक साथ-साथ उठते हैं; जैसे पुरस्कार जीतने वाले घोड़े को और पुकार पर दौड़ने वाले रथ को, वैसे ही इन्द्र को मैं उत्तम स्तोत्रों से सहायता के लिए इधर मोड़ूँ।",
+  "new": "उस मेष को, सूर्य का प्रकाश पाने वाले को, भली-भाँति महिमा दो, जिसके सौ सहायक साथ-साथ उठते हैं; जैसे घोड़े को वाज की ओर और पुकार पर दौड़ने वाले रथ को, वैसे ही इन्द्र को मैं उत्तम स्तोत्रों से सहायता के लिए इधर मोड़ूँ।",
+  "why": "reviewer (error): '(that wins)' / 'जीतने वाले' is an unsupported addition; Hindi uses पुरस्कार but vāja is always वाज; svar rendering."
+ },
+ {
+  "n": "379",
+  "field": "word.w",
+  "word": "ā-papratha",
+  "old": "ā-papratha",
+  "new": "ā-paprātha",
+  "why": "reviewer (minor): Printed is āpaprāthoṣā: the perfect 2 sg. is paprātha (long ā), so the split word ā-papratha does not match the printed vowel."
+ },
+ {
+  "n": "379",
+  "field": "english",
+  "old": "When, O Indra, you filled both worlds like the dawn — you, the great one, the supreme ruler of the great ones and of the peoples — the goddess mother bore you, the auspicious mother bore you.",
+  "new": "When, O Indra, you filled both worlds like Dawn — you, the great one, the supreme ruler of the great ones and of the peoples — the goddess mother bore you, the auspicious mother bore you.",
+  "why": "reviewer (minor): Printed is āpaprāthoṣā: the perfect 2 sg. is paprātha (long ā), so the split word ā-papratha does not match the printed vowel."
+ },
+ {
+  "n": "380",
+  "field": "hindi",
+  "old": "प्रसन्न करने वाले के लिए अन्न से भरा वचन गाओ, जिसने ऋजिश्वा के साथ काले (कृष्ण) की गर्भवती (स्त्रियों) को मार निकाला; सहायता चाहने वाले हम मित्रता के लिए उस वृषभ को, दाहिने हाथ में वज्र रखने वाले, मरुतों वाले को पुकारें।",
+  "new": "प्रसन्न करने वाले के लिए अन्न से भरा वचन गाओ, जिसने ऋजिश्वन् के साथ कृष्ण-गर्भ वालियों को मार निकाला; सहायता चाहने वाले हम मित्रता के लिए उस वृषभ को, दाहिने हाथ में वज्र रखने वाले, मरुतों वाले को पुकारें।",
+  "why": "reviewer (error): Hindi has no brackets or parentheses (GLOSSARY). '(स्त्रियों)' (women) is an unsupported addition to kṛṣṇagarbhāḥ."
+ },
+ {
+  "n": "380",
+  "field": "english",
+  "old": "Sing a food-rich word to the exhilarating one, who with Ṛjiśvan struck out those pregnant with the dark one (?); desiring help, may we call, for friendship, the bull, with the thunderbolt in his right hand, accompanied by the Maruts.",
+  "new": "Sing a food-rich word to the exhilarating one, who with Ṛjiśvan struck out those with dark embryos [unclear]; desiring help, may we call, for friendship, the bull, with the thunderbolt in his right hand, accompanied by the Maruts.",
+  "why": "reviewer (minor): '(?)' -> [unclear]; 'pregnant with the dark one' imports a person (Kṛṣṇa) not in the text; keep literal."
+ },
+ {
+  "n": "381",
+  "field": "english",
+  "old": "O Indra, in the pressed Soma-offerings you purify your praiseworthy purpose; he is known for his thriving skill, for he is great.",
+  "new": "O Indra, in the pressed Soma-offerings you purify your praiseworthy power; he is known for his thriving skill, for he is great.",
+  "why": "reviewer (error): kratu = power (as in śatakratu 'hundred-powered'); also Hindi has a bracket."
+ },
+ {
+  "n": "381",
+  "field": "hindi",
+  "old": "हे इन्द्र, निचोड़े हुए सोमों में तुम अपने स्तुत्य संकल्प (बल) को शुद्ध करते हो; वह बढ़ाने वाली कुशलता के लिए जाना जाता है, क्योंकि वह महान् है।",
+  "new": "हे इन्द्र, निचोड़े हुए सोमों में तुम अपने स्तुत्य शक्ति को शुद्ध करते हो; वह बढ़ाने वाली कुशलता के लिए जाना जाता है, क्योंकि वह महान् है।",
+  "why": "reviewer (error): kratu = power (as in śatakratu 'hundred-powered'); also Hindi has a bracket."
+ },
+ {
+  "n": "382",
+  "field": "hindi",
+  "old": "उस बहुतों से बुलाए गए और बहुतों से स्तुत (इन्द्र) के लिए आगे गाओ; शक्तिशाली इन्द्र को गीतों से सम्मानित करो।",
+  "new": "उस बहुतों से बुलाए गए और बहुतों से स्तुत के लिए आगे गाओ; शक्तिशाली इन्द्र को स्तुतियों से सम्मानित करो।",
+  "why": "reviewer (error): Hindi has no brackets or parentheses (GLOSSARY). gir = स्तुति (GLOSSARY)."
+ },
+ {
+  "n": "383",
+  "field": "hindi",
+  "old": "हे पत्थर के धारी, हम तुम्हारे उस आनन्ददायक रस की स्तुति करते हैं, जो बलशाली है, संग्रामों में विजयी है, लोक (स्थान) बनाने वाला है और हरे (पीले) रंग की शोभा वाला है।",
+  "new": "हे पत्थर के धारी, हम तुम्हारे उस आनन्ददायक रस की स्तुति करते हैं, जो बलशाली है, संग्रामों में विजयी है, स्थान बनाने वाला है और भूरे घोड़ों की शोभा वाला है।",
+  "why": "reviewer (error): Hindi has no brackets or parentheses (GLOSSARY). hari = bay horse, never 'green' (GLOSSARY). English 'tawny ones' should follow the glossary word 'bay'."
+ },
+ {
+  "n": "383",
+  "field": "english",
+  "old": "We praise for you, O wielder of the stone, that exhilarating draught, virile and victorious in the contests, the maker of space, splendid with the tawny ones.",
+  "new": "We praise for you, O wielder of the stone, that exhilarating draught, virile and victorious in the contests, the maker of space, splendid with the bay horses.",
+  "why": "reviewer (error): Hindi has no brackets or parentheses (GLOSSARY). hari = bay horse, never 'green' (GLOSSARY). English 'tawny ones' should follow the glossary word 'bay'."
+ },
+ {
+  "n": "383",
+  "field": "word.gloss",
+  "word": "hari-śriyam",
+  "old": "splendid with the tawny ones",
+  "new": "splendid with the bay horses",
+  "why": "reviewer (error): Hindi has no brackets or parentheses (GLOSSARY). hari = bay horse, never 'green' (GLOSSARY). English 'tawny ones' should follow the glossary word 'bay'."
+ },
+ {
+  "n": "385",
+  "field": "hindi",
+  "old": "हे अध्वर्यु, शहद से भी अधिक मादक सोम-रस को उँडेलो; इस प्रकार ही वीर सदा बढ़ने वाला कहकर स्तुत होता है।",
+  "new": "हे अध्वर्यु, शहद से भी अधिक मादक रस को उँडेलो; इस प्रकार ही सदा बढ़ने वाला वीर स्तुत होता है।",
+  "why": "reviewer (error): 'सोम' is added to andhas (juice); 'कहकर' ('by calling him') is not in the text."
+ },
+ {
+  "n": "386",
+  "field": "hindi",
+  "old": "इन्द्र के लिए सोम-बिन्दु उँडेलो; वह सोम का मधुर रस पिए; वह अपनी महिमा से दानों को आगे प्रेरित करता है।",
+  "new": "इन्द्र के लिए बूँद उँडेलो; वह सोम का मधुर रस पिए; वह अपनी महिमा से उदारताओं को आगे प्रेरित करता है।",
+  "why": "reviewer (error): indu = drop (बूँद), no Soma added; rādhas = उदारता (GLOSSARY)."
+ },
+ {
+  "n": "386",
+  "field": "word.gloss",
+  "word": "indum",
+  "old": "the drop (Soma)",
+  "new": "the drop",
+  "why": "reviewer (error): indu = drop (बूँद), no Soma added; rādhas = उदारता (GLOSSARY)."
+ },
+ {
+  "n": "387",
+  "field": "english",
+  "old": "Come, friends, let us now praise Indra, the hero worthy of praise, who alone prevails over all the peoples.",
+  "new": "Come, O friends, let us now praise Indra, the hero worthy of praise, who alone prevails over all the peoples.",
+  "why": "reviewer (minor): sakhāyaḥ (voc.) = O friends / हे मित्रो; kṛṣṭi = peoples (लोग)."
+ },
+ {
+  "n": "387",
+  "field": "hindi",
+  "old": "आओ, मित्रो, अब हम इन्द्र की स्तुति करें, जो स्तुति के योग्य वीर है, जो अकेला ही सब जनों पर प्रबल है।",
+  "new": "आओ, हे मित्रो, अब हम इन्द्र की स्तुति करें, जो स्तुति के योग्य वीर है, जो अकेला ही सब जनों पर प्रबल है।",
+  "why": "reviewer (minor): sakhāyaḥ (voc.) = O friends / हे मित्रो; kṛṣṭi = peoples (लोग)."
+ },
+ {
+  "n": "387",
+  "field": "hindi",
+  "old": "आओ, हे मित्रो, अब हम इन्द्र की स्तुति करें, जो स्तुति के योग्य वीर है, जो अकेला ही सब जनों पर प्रबल है।",
+  "new": "आओ, हे मित्रो, अब हम इन्द्र की स्तुति करें, जो स्तुति के योग्य वीर है, जो अकेला ही सब लोगों पर प्रबल है।",
+  "why": "reviewer (minor): sakhāyaḥ (voc.) = O friends / हे मित्रो; kṛṣṭi = peoples (लोग)."
+ },
+ {
+  "n": "388",
+  "field": "hindi",
+  "old": "इन्द्र के लिए साम गाओ; उस प्रेरित, महान् के लिए महान् (साम) गाओ; प्रार्थना रचने वाले, ज्ञानी और प्रशंसनीय के लिए।",
+  "new": "इन्द्र के लिए साम गाओ; उस प्रेरित मेधावी, महान् के लिए महान् साम गाओ; प्रार्थना रचने वाले, ज्ञानी और प्रशंसनीय के लिए।",
+  "why": "reviewer (error): Hindi has no brackets or parentheses (GLOSSARY). vipra = प्रेरित मेधावी."
+ },
+ {
+  "n": "388",
+  "field": "english",
+  "old": "Sing a chant (sāman) for Indra; for the inspired, the great one, sing the great (chant); for the maker of prayer, the wise, the admirable.",
+  "new": "Sing a chant (sāman) for Indra; for the inspired one, the great one, sing the great chant; for the maker of prayer, the wise, the admirable.",
+  "why": "reviewer (error): Hindi has no brackets or parentheses (GLOSSARY). vipra = प्रेरित मेधावी."
+ },
+ {
+  "n": "389",
+  "field": "english",
+  "old": "He who alone apportions wealth to the mortal who gives worship, the master, the irresistible one: it is Indra indeed.",
+  "new": "He who alone apportions wealth to the mortal giver, the master, the irresistible one: it is Indra indeed.",
+  "why": "reviewer (minor): dāśvas = giver (GLOSSARY); 'worship' is added."
+ },
+ {
+  "n": "389",
+  "field": "hindi",
+  "old": "जो अकेला ही देने वाले मनुष्य को धन बाँटता है, वह स्वामी, अप्रतिरोध्य इन्द्र ही है।",
+  "new": "जो अकेला ही दाता मनुष्य को धन बाँटता है, वह स्वामी, अप्रतिरोध्य इन्द्र ही है।",
+  "why": "reviewer (minor): dāśvas = giver (GLOSSARY); 'worship' is added."
+ },
+ {
+  "n": "390",
+  "field": "english",
+  "old": "O friends, we pray for Indra, the wielder of the thunderbolt; I praise well for you the most manly, the bold one.",
+  "new": "O friends, we pray a prayer for Indra, the wielder of the thunderbolt; I praise well for you the most manly, the bold one.",
+  "why": "reviewer (error): brahma (object of ā śiṣāmahe) is dropped from the English although the notes mention it."
+ }
+]
