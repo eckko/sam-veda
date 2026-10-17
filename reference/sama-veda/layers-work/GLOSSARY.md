@@ -44,3 +44,10 @@
 - tarasa = swift (द्रुत); tarasvin = impetuous (वेगवान). dhīti = devotion (भक्ति), distinct from mati = prayer.
 - śyena = falcon (Hindi बाज़ or श्येन, one choice; suparṇa already uses बाज़). Yati = name.
 - OPEN dharman: also 921 ("dharma" vs "ordinance").
+- droṇa = trough (द्रोण), never "wooden vessel". yoni = seat (स्थान). mada = exhilaration (आनन्द).
+- vrata Hindi: नियम (supersedes earlier व्रत note; apply नियम from now on). dyumat = radiant (दीप्तिमान); su-candra = अत्यन्त दीप्तिमान.
+- hi = indeed: translate in both languages or neither (like u). ājaya/āji = contests (स्पर्धा).
+- Regular sandhi, not typos: ṣ after u/adhi (ṣvāṇaḥ, ṣṇubhiḥ); -oḥ + vowel -> or (pāṣyor abhakta); -ān + s inserts t (devāntsvena).
+- A split must not invent an a- augment or root; no avagraha printed means no elided a-.
+- flag "why" texts must not cite parallels.
+- OPEN dharman: also 1017 vidharmaṇi, 1021 dharmāṇi. OPEN: 1012 "vahnir na viśpatiḥ" na reading; 1004 dhanā sg/pl.

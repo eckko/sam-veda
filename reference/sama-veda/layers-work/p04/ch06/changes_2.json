@@ -1,0 +1,455 @@
+[
+ {
+  "n": "993",
+  "field": "hindi",
+  "old": "उनके साथ आओ, हे दो पुरुषो, इस निचोड़े हुए सवन के पास; हे इन्द्र और अग्नि, सोम पीने के लिए।",
+  "new": "उनके साथ आओ, हे दो मनुष्यो, इस निचोड़े हुए सवन के पास; हे इन्द्र और अग्नि, सोम पीने के लिए।",
+  "why": "reviewer (minor): Glossary: nara = man (vocative हे मनुष्यो); पुरुष is reserved for puruṣa."
+ },
+ {
+  "n": "994",
+  "field": "word.gloss",
+  "word": "droṇāni",
+  "old": "wooden vessels",
+  "new": "troughs",
+  "why": "reviewer (error): Glossary: droṇa = trough (द्रोण). The draft has \"wooden vessels\" and Hindi \"द्रोण पात्रों\" (adds the noun पात्र). Hindi also renders yoni as आसन here but स्थान in 1000 and 1008."
+ },
+ {
+  "n": "994",
+  "field": "english",
+  "old": "Flow, O Soma, most radiant, roaring toward the wooden vessels, sitting in the seat, in the seats.",
+  "new": "Flow, O Soma, most radiant, roaring toward the troughs, sitting in the seat, in the seats.",
+  "why": "reviewer (error): Glossary: droṇa = trough (द्रोण). The draft has \"wooden vessels\" and Hindi \"द्रोण पात्रों\" (adds the noun पात्र). Hindi also renders yoni as आसन here but स्थान in 1000 and 1008."
+ },
+ {
+  "n": "994",
+  "field": "hindi",
+  "old": "हे सोम, सबसे अधिक दीप्तिमान, द्रोण पात्रों की ओर गरजते हुए बहो; आसन में, आसनों में बैठते हुए।",
+  "new": "हे सोम, सबसे अधिक दीप्तिमान, द्रोणों की ओर गरजते हुए बहो; स्थान में, स्थानों में बैठते हुए।",
+  "why": "reviewer (error): Glossary: droṇa = trough (द्रोण). The draft has \"wooden vessels\" and Hindi \"द्रोण पात्रों\" (adds the noun पात्र). Hindi also renders yoni as आसन here but स्थान in 1000 and 1008."
+ },
+ {
+  "n": "995",
+  "field": "notes",
+  "old": "apsā is read as apsāḥ (visarga lost before the vowel of indrāya; nom. pl.); its form and sense are not clear (a parallel verse elsewhere in this part has sutāḥ 'pressed' in this place), so it is left [unclear] in English and omitted in Hindi. The datives are taken as one list with arṣantu.",
+  "new": "apsā is read as apsāḥ (visarga lost before the vowel of indrāya; nom. pl.); its form and sense are not clear, so it is left [unclear] in English and omitted in Hindi. The datives are taken as one list with arṣantu.",
+  "why": "reviewer (error): Notes must not cite parallel verses."
+ },
+ {
+  "n": "996",
+  "field": "notes",
+  "old": "sahasriṇam is accusative singular; what it qualifies (a parallel construction has a masculine noun such as 'wealth' in this place) is not stated here, so it is rendered as a bare adjective. tokāya is taken as 'offspring' (toka).",
+  "new": "sahasriṇam is accusative singular; what it qualifies is not stated here, so it is rendered as a bare adjective. tokāya is taken as 'offspring' (toka).",
+  "why": "reviewer (error): Notes must not cite parallels."
+ },
+ {
+  "n": "996",
+  "field": "word.gram",
+  "word": "sahasriṇam",
+  "old": "m. acc. sg. (referent uncertain)",
+  "new": "acc. sg. (m./f. form; may agree with iṣam; referent uncertain)",
+  "why": "reviewer (minor): Labelled \"m. acc. sg.\"; the -in stem has one accusative form for all genders, and it may agree with iṣam. The label should not assert masculine."
+ },
+ {
+  "n": "997",
+  "field": "english",
+  "old": "Soma, being pressed by the pressers upon the ridges of the fleeces, goes tawny, like a horse, with the stream; he goes with the gladdening stream, with the stream.",
+  "new": "Soma indeed, being pressed by the pressers upon the ridges of the fleeces, goes tawny, like a horse, with the stream; he goes with the gladdening stream, with the stream.",
+  "why": "reviewer (error): Glossary: the particle u is translated in both languages or neither. The draft glosses u \"indeed\" but neither translation renders it."
+ },
+ {
+  "n": "997",
+  "field": "hindi",
+  "old": "सोम, निचोड़ने वालों द्वारा निचोड़ा जाता हुआ, भेड़ के बालों के उभारों पर, घोड़े की तरह भूरा होकर धारा के साथ चलता है; आनन्द देने वाली धारा के साथ चलता है, धारा के साथ।",
+  "new": "सोम ही, निचोड़ने वालों द्वारा निचोड़ा जाता हुआ, भेड़ के बालों के उभारों पर, घोड़े की तरह भूरा होकर धारा के साथ चलता है; आनन्द देने वाली धारा के साथ चलता है, धारा के साथ।",
+  "why": "reviewer (error): Glossary: the particle u is translated in both languages or neither. The draft glosses u \"indeed\" but neither translation renders it."
+ },
+ {
+  "n": "997",
+  "field": "word.gram",
+  "word": "svāṇaḥ",
+  "old": "m. nom. sg. pres. part. mid. √su (chant form, for suvānaḥ)",
+  "new": "m. nom. sg. pres. part. mid. √su (printed svāṇaḥ; chant spelling)",
+  "why": "reviewer (minor): Glossary: svānā(ḥ) for suvānā(ḥ) is note-only, not applied; the gram states \"for suvānaḥ\" as fact. (The ṣ after u and in ṣṇubhiḥ after adhi is regular, no flag.)"
+ },
+ {
+  "n": "998",
+  "field": "hindi",
+  "old": "जलमय भूमि में गोधन वाला गायों के साथ बहा है; सोम दुही हुई धाराओं के साथ बहा है। वे घेरों तक गए हैं, जैसे समुद्र तक; आनन्द देने वाला आनन्द के लिए शीघ्रता करता है।",
+  "new": "जलमय भूमि में गोधन वाला गायों के साथ बहा है; सोम दुही हुई के साथ बहा है। वे घेरों तक गए हैं, जैसे समुद्र तक; आनन्द देने वाला आनन्द के लिए शीघ्रता करता है।",
+  "why": "reviewer (error): Hindi supplies the noun धाराओं that the Sanskrit (dugdhābhiḥ, f. pl.) and the English (\"the milked ones\") do not have. Noun in one language only."
+ },
+ {
+  "n": "998",
+  "field": "word.gloss",
+  "word": "anūpe",
+  "old": "in the watery meadow",
+  "new": "in the watery land",
+  "why": "reviewer (minor): Notes and Hindi say a watery land/ground (जलमय भूमि); English and gloss say \"meadow\". Make them agree."
+ },
+ {
+  "n": "998",
+  "field": "english",
+  "old": "In the watery meadow the cow-rich one has flowed with the cows; Soma has flowed with the milked ones. They have gone to the enclosures as to the ocean; the gladdening one hastens for exhilaration.",
+  "new": "In the watery land the cow-rich one has flowed with the cows; Soma has flowed with the milked ones. They have gone to the enclosures as to the ocean; the gladdening one hastens for exhilaration.",
+  "why": "reviewer (minor): Notes and Hindi say a watery land/ground (जलमय भूमि); English and gloss say \"meadow\". Make them agree."
+ },
+ {
+  "n": "1000",
+  "field": "notes",
+  "old": "āsadaḥ is a second-person injunctive although the subject words (vṛṣā, hariḥ) are nominatives; a parallel verse reads the third-person āsadat. The text is translated as printed. punānaḥ with an accusative object is read as active 'clarifying'; it could also be 'being clarified'.",
+  "new": "āsadaḥ is a second-person injunctive although the subject words (vṛṣā, hariḥ) are nominatives. The text is translated as printed. punānaḥ with an accusative object is read as active 'clarifying'; it could also be 'being clarified'.",
+  "why": "reviewer (error): Notes must not cite parallels."
+ },
+ {
+  "n": "1001",
+  "field": "english",
+  "old": "For you two are lords of the light of heaven, Indra and, O Soma, lords of cattle; ruling, swell the thoughts.",
+  "new": "Indeed, you two are lords of the light of heaven, Indra and, O Soma, lords of cattle; ruling, swell the thoughts.",
+  "why": "reviewer (minor): English \"For you two\" but Hindi \"तुम दोनों ही\" (indeed); gloss \"for\". Translations disagree on hi."
+ },
+ {
+  "n": "1001",
+  "field": "word.gloss",
+  "word": "hi",
+  "old": "for",
+  "new": "indeed",
+  "why": "reviewer (minor): English \"For you two\" but Hindi \"तुम दोनों ही\" (indeed); gloss \"for\". Translations disagree on hi."
+ },
+ {
+  "n": "1002",
+  "field": "word.gram",
+  "word": "vavṛdhe",
+  "old": "3 sg. perf. mid. √vṛdh",
+  "new": "3 sg. perf. mid. √vṛdh (reduplication vowel long, as printed)",
+  "why": "reviewer (minor): Printed is vāvṛdhe (regular reduplicated perfect with the lengthened vowel); w was normalised to vavṛdhe. Keep the printed form in w and note the lengthening in gram."
+ },
+ {
+  "n": "1002",
+  "field": "word.w",
+  "word": "vavṛdhe",
+  "old": "vavṛdhe",
+  "new": "vāvṛdhe",
+  "why": "reviewer (minor): Printed is vāvṛdhe (regular reduplicated perfect with the lengthened vowel); w was normalised to vavṛdhe. Keep the printed form in w and note the lengthening in gram."
+ },
+ {
+  "n": "1002",
+  "field": "hindi",
+  "old": "इन्द्र, वृत्र का संहारक, पुरुषों के साथ आनन्द और बल के लिए बढ़ा है; उसी को हम सहायता के लिए बड़े और छोटे संग्रामों में पुकारते हैं; वह वाजों में हमारी आगे रक्षा करे।",
+  "new": "इन्द्र, वृत्र का संहारक, पुरुषों के साथ आनन्द और बल के लिए बढ़ा है; उसी को हम सहायता के लिए बड़े और छोटे संग्रामों में पुकारते हैं; वह वाजों में हमारी आगे सहायता करे।",
+  "why": "reviewer (error): Glossary: ava/ūti = help (सहायता). The English has \"help\"; Hindi has रक्षा. Also ājiṣu is संग्राम here but स्पर्धा (ājayaḥ) in 1004."
+ },
+ {
+  "n": "1002",
+  "field": "hindi",
+  "old": "इन्द्र, वृत्र का संहारक, पुरुषों के साथ आनन्द और बल के लिए बढ़ा है; उसी को हम सहायता के लिए बड़े और छोटे संग्रामों में पुकारते हैं; वह वाजों में हमारी आगे सहायता करे।",
+  "new": "इन्द्र, वृत्र का संहारक, पुरुषों के साथ आनन्द और बल के लिए बढ़ा है; उसी को हम सहायता के लिए बड़ी और छोटी स्पर्धाओं में पुकारते हैं; वह वाजों में हमारी आगे सहायता करे।",
+  "why": "reviewer (error): Glossary: ava/ūti = help (सहायता). The English has \"help\"; Hindi has रक्षा. Also ājiṣu is संग्राम here but स्पर्धा (ājayaḥ) in 1004."
+ },
+ {
+  "n": "1003",
+  "field": "english",
+  "old": "For you are, O hero, the leader of the host; you are one who gives much away. You are the strengthener even of the small one; you give to the sacrificer who presses; much is your wealth.",
+  "new": "Indeed you are, O hero, the leader of the host; you are one who gives much away. You are the strengthener even of the small one; you give to the sacrificer who presses; much is your wealth.",
+  "why": "reviewer (minor): English \"For you are\", Hindi omits hi entirely; gloss \"for\". Translations disagree and a word is dropped."
+ },
+ {
+  "n": "1003",
+  "field": "hindi",
+  "old": "हे वीर, तुम सेना के नेता हो; तुम बहुत कुछ दे देने वाले हो। तुम छोटे के भी बढ़ाने वाले हो; निचोड़ने वाले यजमान को तुम देते हो; तुम्हारा धन बहुत है।",
+  "new": "हे वीर, तुम निश्चय ही सेना के नेता हो; तुम बहुत कुछ दे देने वाले हो। तुम छोटे के भी बढ़ाने वाले हो; निचोड़ने वाले यजमान को तुम देते हो; तुम्हारा धन बहुत है।",
+  "why": "reviewer (minor): English \"For you are\", Hindi omits hi entirely; gloss \"for\". Translations disagree and a word is dropped."
+ },
+ {
+  "n": "1003",
+  "field": "word.gloss",
+  "word": "hi",
+  "old": "for",
+  "new": "indeed",
+  "why": "reviewer (minor): English \"For you are\", Hindi omits hi entirely; gloss \"for\". Translations disagree and a word is dropped."
+ },
+ {
+  "n": "1004",
+  "field": "word.gram",
+  "word": "yuṅkṣva",
+  "old": "2 sg. impv. mid. √yuj",
+  "new": "2 sg. impv. mid. √yuj (final vowel long, as printed)",
+  "why": "reviewer (minor): Printed is yuṅkṣvā (lengthened final vowel); w was shortened. Keep the printed form in w, note the lengthening in gram."
+ },
+ {
+  "n": "1004",
+  "field": "word.w",
+  "word": "yuṅkṣva",
+  "old": "yuṅkṣva",
+  "new": "yuṅkṣvā",
+  "why": "reviewer (minor): Printed is yuṅkṣvā (lengthened final vowel); w was shortened. Keep the printed form in w, note the lengthening in gram."
+ },
+ {
+  "n": "1004",
+  "field": "hindi",
+  "old": "जब स्पर्धाएँ उठती हैं, तब साहसी के लिए धन रखा जाता है। मद से टपकते दोनों भूरे घोड़ों को जोतो; किसे मारोगे, किसे धन में स्थापित करोगे? हमें, हे इन्द्र, धन में स्थापित करो।",
+  "new": "जब स्पर्धाएँ उठती हैं, तब साहसी के लिए धन रखा जाता है। आनन्द से टपकते दोनों भूरे घोड़ों को जोतो; किसे मारोगे, किसे धन में स्थापित करोगे? हमें, हे इन्द्र, धन में स्थापित करो।",
+  "why": "reviewer (minor): mada = exhilaration is rendered आनन्द everywhere else in Hindi; \"मद\" is inconsistent. Hindi also adds the correlative \"तब\" that English and Sanskrit lack."
+ },
+ {
+  "n": "1004",
+  "field": "hindi",
+  "old": "जब स्पर्धाएँ उठती हैं, तब साहसी के लिए धन रखा जाता है। आनन्द से टपकते दोनों भूरे घोड़ों को जोतो; किसे मारोगे, किसे धन में स्थापित करोगे? हमें, हे इन्द्र, धन में स्थापित करो।",
+  "new": "जब स्पर्धाएँ उठती हैं, साहसी के लिए धन रखा जाता है। आनन्द से टपकते दोनों भूरे घोड़ों को जोतो; किसे मारोगे, किसे धन में स्थापित करोगे? हमें, हे इन्द्र, धन में स्थापित करो।",
+  "why": "reviewer (minor): mada = exhilaration is rendered आनन्द everywhere else in Hindi; \"मद\" is inconsistent. Hindi also adds the correlative \"तब\" that English and Sanskrit lack."
+ },
+ {
+  "n": "1004",
+  "field": "text_flags.0.why",
+  "old": "possible: the passive dhīyate needs a nominative, and a parallel reads dhanā; the printed accusative dhanām does not fit",
+  "new": "possible: the passive dhīyate needs a nominative, the printed accusative dhanām does not fit",
+  "why": "reviewer (minor): The reason cites \"a parallel\"; keep the grammatical reason only. (Number of dhanā, \"prize\" vs \"prizes\", is left to the human.)"
+ },
+ {
+  "n": "1005",
+  "field": "notes",
+  "old": "viṣūvataḥ is obscure ('pervading, wide, abundant') and tentative. gauryaḥ is taken as 'cows' (gaurī). śobhase is the printed (dative) form; a parallel verse has the adverbial śobhathā. 'anu svarājyam' is a refrain rendered 'according to self-rule' with no 'his' supplied.",
+  "new": "viṣūvataḥ is obscure ('pervading, wide, abundant') and tentative. gauryaḥ is taken as 'cows' (gaurī). śobhase is the printed (dative) form. 'anu svarājyam' is a refrain rendered 'according to self-rule' with no 'his' supplied.",
+  "why": "reviewer (error): Notes must not cite parallels."
+ },
+ {
+  "n": "1005",
+  "field": "hindi",
+  "old": "इस प्रकार गौएँ मधुर, व्यापक मधु का पान करती हैं; जो इन्द्र के साथ चलती हुई बलवान के साथ शोभा के लिए आनन्दित होती हैं, उत्तम हैं, स्वराज्य के अनुसार।",
+  "new": "इस प्रकार गौएँ मधुर, व्यापक मधु का पान करती हैं; जो इन्द्र के साथ चलती हुई बलवान के साथ शोभा के लिए आनन्दित होती हैं, उत्तम, स्वराज्य के अनुसार।",
+  "why": "reviewer (error): Hindi supplies the verb हैं; English has \"the good ones\" with no verb, and the Sanskrit has none (cf. 1006, 1007 Hindi)."
+ },
+ {
+  "n": "1009",
+  "field": "notes",
+  "old": "The accusative phrase śubhram andhaḥ ... sutam has no governing verb of its own; svadanti is read as taking it as object without a pronoun. devavāta is rendered 'sped by the gods' (tentative; vāta 'blown, impelled'). The printed dhautam (washed) differs from the Ṛgvedic dhūtam; it is not changed.",
+  "new": "The accusative phrase śubhram andhaḥ ... sutam has no governing verb of its own; svadanti is read as taking it as object without a pronoun. devavāta is rendered 'sped by the gods' (tentative; vāta 'blown, impelled'). dhautam is taken as printed, 'washed' (√dhāv).",
+  "why": "reviewer (error): Notes must not cite Ṛgveda parallels."
+ },
+ {
+  "n": "1010",
+  "field": "text_flags",
+  "old": [],
+  "new": [
+   {
+    "src": "madho",
+    "suggest": "madhvo",
+    "why": "possible: genitive of madhu before the r of rasam should print madhvo (madhvaḥ rasam); the v appears to be missing"
+   }
+  ],
+  "why": "reviewer (error): \"madho rasa~\" cannot be madhvaḥ + rasam (that prints madhvo) nor madhoḥ (madhor). The v seems missing, yet the draft uses w madhvaḥ with no text_flags entry. Rule: every corrected form needs a flag."
+ },
+ {
+  "n": "1011",
+  "field": "english",
+  "old": "Shine toward splendour and great glory, O lord of refreshment, O god, upon the one who seeks the gods; open the middle vat.",
+  "new": "Shine toward splendour, great glory, O lord of refreshment, O god, upon the one who seeks the gods; open the middle vat.",
+  "why": "reviewer (error): Glossary: an \"and\" is not added between asyndetic accusatives. English and Hindi both insert \"and\"/और."
+ },
+ {
+  "n": "1011",
+  "field": "hindi",
+  "old": "हे पोषण के स्वामी, हे देव, द्युम्न और महान यश की ओर चमको, देवगण की कामना करने वाले पर; बीच के कोश को खोल दो।",
+  "new": "हे पोषण के स्वामी, हे देव, द्युम्न, महान यश की ओर चमको, देवगण की कामना करने वाले पर; बीच के कोश को खोल दो।",
+  "why": "reviewer (error): Glossary: an \"and\" is not added between asyndetic accusatives. English and Hindi both insert \"and\"/और."
+ },
+ {
+  "n": "1011",
+  "field": "text_flags.0.why",
+  "old": "possible: dyubhna is not a known word; the sense and the parallel verse need dyumna 'splendour'",
+  "new": "possible: dyubhna is not a known word; the sense needs dyumna 'splendour'",
+  "why": "reviewer (minor): The reason cites \"the parallel verse\"."
+ },
+ {
+  "n": "1013",
+  "field": "english",
+  "old": "[unclear], the child of the great ones, urging the insight of truth, has encompassed all dear things, and then in two ways.",
+  "new": "[unclear], the child of the great ones, urging the insight of truth, has encompassed all dear things, then in two ways.",
+  "why": "reviewer (minor): English adds \"and\" (adha = then); Hindi has none."
+ },
+ {
+  "n": "1014",
+  "field": "word.gram",
+  "word": "pāṣyaḥ",
+  "old": "uncertain",
+  "new": "uncertain (pāṣyoḥ, final -oḥ before the vowel of abhakta)",
+  "why": "reviewer (error): Invented Sanskrit. Printed pāṣyo3rabhakta has no avagraha, so \"pāṣyaḥ + arabhakta\" (which would print pāṣyo3 'rabhakta) is impossible. Regular sandhi: pāṣyoḥ + abhakta gives pāṣyor abhakta (ḥ becomes r after o before a vowel). abhakta is the augmented aorist mid. of √bhaj, not \"a-rabhakta\" of √rabh. The translation \"taken hold\" follows the wrong root. Hindi also adds a subject उसने while the English subject is [unclear]."
+ },
+ {
+  "n": "1014",
+  "field": "word.w",
+  "word": "pāṣyaḥ",
+  "old": "pāṣyaḥ",
+  "new": "pāṣyoḥ",
+  "why": "reviewer (error): Invented Sanskrit. Printed pāṣyo3rabhakta has no avagraha, so \"pāṣyaḥ + arabhakta\" (which would print pāṣyo3 'rabhakta) is impossible. Regular sandhi: pāṣyoḥ + abhakta gives pāṣyor abhakta (ḥ becomes r after o before a vowel). abhakta is the augmented aorist mid. of √bhaj, not \"a-rabhakta\" of √rabh. The translation \"taken hold\" follows the wrong root. Hindi also adds a subject उसने while the English subject is [unclear]."
+ },
+ {
+  "n": "1014",
+  "field": "word.gloss",
+  "word": "arabhakta",
+  "old": "has taken hold",
+  "new": "has obtained",
+  "why": "reviewer (error): Invented Sanskrit. Printed pāṣyo3rabhakta has no avagraha, so \"pāṣyaḥ + arabhakta\" (which would print pāṣyo3 'rabhakta) is impossible. Regular sandhi: pāṣyoḥ + abhakta gives pāṣyor abhakta (ḥ becomes r after o before a vowel). abhakta is the augmented aorist mid. of √bhaj, not \"a-rabhakta\" of √rabh. The translation \"taken hold\" follows the wrong root. Hindi also adds a subject उसने while the English subject is [unclear]."
+ },
+ {
+  "n": "1014",
+  "field": "word.gram",
+  "word": "arabhakta",
+  "old": "3 sg. aor. mid. √rabh (uncertain)",
+  "new": "3 sg. aor. mid. √bhaj (augmented; abhakta, with the preceding oḥ becoming or)",
+  "why": "reviewer (error): Invented Sanskrit. Printed pāṣyo3rabhakta has no avagraha, so \"pāṣyaḥ + arabhakta\" (which would print pāṣyo3 'rabhakta) is impossible. Regular sandhi: pāṣyoḥ + abhakta gives pāṣyor abhakta (ḥ becomes r after o before a vowel). abhakta is the augmented aorist mid. of √bhaj, not \"a-rabhakta\" of √rabh. The translation \"taken hold\" follows the wrong root. Hindi also adds a subject उसने while the English subject is [unclear]."
+ },
+ {
+  "n": "1014",
+  "field": "word.w",
+  "word": "arabhakta",
+  "old": "arabhakta",
+  "new": "abhakta",
+  "why": "reviewer (error): Invented Sanskrit. Printed pāṣyo3rabhakta has no avagraha, so \"pāṣyaḥ + arabhakta\" (which would print pāṣyo3 'rabhakta) is impossible. Regular sandhi: pāṣyoḥ + abhakta gives pāṣyor abhakta (ḥ becomes r after o before a vowel). abhakta is the augmented aorist mid. of √bhaj, not \"a-rabhakta\" of √rabh. The translation \"taken hold\" follows the wrong root. Hindi also adds a subject उसने while the English subject is [unclear]."
+ },
+ {
+  "n": "1014",
+  "field": "english",
+  "old": "Near Trita, [unclear] has taken hold of the footstep which is in secret; of the sacrifice, by the seven stations, then the dear one.",
+  "new": "Near Trita, [unclear] has obtained the footstep which is in secret; of the sacrifice, by the seven stations, then the dear one.",
+  "why": "reviewer (error): Invented Sanskrit. Printed pāṣyo3rabhakta has no avagraha, so \"pāṣyaḥ + arabhakta\" (which would print pāṣyo3 'rabhakta) is impossible. Regular sandhi: pāṣyoḥ + abhakta gives pāṣyor abhakta (ḥ becomes r after o before a vowel). abhakta is the augmented aorist mid. of √bhaj, not \"a-rabhakta\" of √rabh. The translation \"taken hold\" follows the wrong root. Hindi also adds a subject उसने while the English subject is [unclear]."
+ },
+ {
+  "n": "1014",
+  "field": "hindi",
+  "old": "त्रित के पास उसने पकड़ लिया, जो पदचिह्न गुप्त में है; यज्ञ के सात धामों से, फिर प्रिय को।",
+  "new": "त्रित के पास गुप्त में जो पदचिह्न है, उसे प्राप्त किया; यज्ञ के सात धामों से, फिर प्रिय।",
+  "why": "reviewer (error): Invented Sanskrit. Printed pāṣyo3rabhakta has no avagraha, so \"pāṣyaḥ + arabhakta\" (which would print pāṣyo3 'rabhakta) is impossible. Regular sandhi: pāṣyoḥ + abhakta gives pāṣyor abhakta (ḥ becomes r after o before a vowel). abhakta is the augmented aorist mid. of √bhaj, not \"a-rabhakta\" of √rabh. The translation \"taken hold\" follows the wrong root. Hindi also adds a subject उसने while the English subject is [unclear]."
+ },
+ {
+  "n": "1014",
+  "field": "notes",
+  "old": "Obscure. pāṣyo3rabhakta is read as pāṣyaḥ, the pluta figure 3 (its own word, a chant syllable), and arabhakta (a-rabhakta); pāṣyaḥ is unclear and omitted in Hindi, and the object of arabhakta, the grammar of yad guhā padam and the last words are uncertain. The pluta 3 is not translated.",
+  "new": "Obscure. pāṣyo3rabhakta is read as pāṣyoḥ, the pluta figure 3 (its own word, a chant syllable) and abhakta (oḥ + a- gives or a-); pāṣyoḥ is unclear and omitted in Hindi, and the construction of abhakta, the grammar of yad guhā padam and the last words are uncertain. The pluta 3 is not translated.",
+  "why": "reviewer (error): Invented Sanskrit. Printed pāṣyo3rabhakta has no avagraha, so \"pāṣyaḥ + arabhakta\" (which would print pāṣyo3 'rabhakta) is impossible. Regular sandhi: pāṣyoḥ + abhakta gives pāṣyor abhakta (ḥ becomes r after o before a vowel). abhakta is the augmented aorist mid. of √bhaj, not \"a-rabhakta\" of √rabh. The translation \"taken hold\" follows the wrong root. Hindi also adds a subject उसने while the English subject is [unclear]."
+ },
+ {
+  "n": "1015",
+  "field": "text_flags",
+  "old": [],
+  "new": [
+   {
+    "src": "pṛṣṭeṣu",
+    "suggest": "pṛṣṭheṣu",
+    "why": "possible: pṛṣṭeṣu is not a form of pṛṣṭha 'back'; the aspirate (ṭh) is probably missing"
+   }
+  ],
+  "why": "reviewer (error): The draft uses w pṛṣṭheṣu, a corrected form, but has no text_flags entry. Printed pṛṣṭeṣu is not a form of pṛṣṭha \"back\"."
+ },
+ {
+  "n": "1020",
+  "field": "word.gloss",
+  "word": "romā",
+  "old": "hairs",
+  "new": "hair",
+  "why": "reviewer (minor): Printed is roma; w was changed to romā with no flag and no sandhi reason. The notes read it as collective \"hair\", but the gloss says \"hairs\". Keep w roma (n. acc. sg., collective)."
+ },
+ {
+  "n": "1020",
+  "field": "word.gram",
+  "word": "romā",
+  "old": "n. acc. pl.",
+  "new": "n. acc. sg. (collective)",
+  "why": "reviewer (minor): Printed is roma; w was changed to romā with no flag and no sandhi reason. The notes read it as collective \"hair\", but the gloss says \"hairs\". Keep w roma (n. acc. sg., collective)."
+ },
+ {
+  "n": "1020",
+  "field": "word.w",
+  "word": "romā",
+  "old": "romā",
+  "new": "roma",
+  "why": "reviewer (minor): Printed is roma; w was changed to romā with no flag and no sandhi reason. The notes read it as collective \"hair\", but the gloss says \"hairs\". Keep w roma (n. acc. sg., collective)."
+ },
+ {
+  "n": "1020",
+  "field": "english",
+  "old": "Then the one milked by stones, mixing with the sweet stream, flows across the hairs; the drop, enjoying the friendship of Indra, a god, a gladdening one of the god, for exhilaration.",
+  "new": "Then the one milked by stones, mixing with the sweet stream, flows across the hair; the drop, enjoying the friendship of Indra, a god, a gladdening one of the god, for exhilaration.",
+  "why": "reviewer (minor): Printed is roma; w was changed to romā with no flag and no sandhi reason. The notes read it as collective \"hair\", but the gloss says \"hairs\". Keep w roma (n. acc. sg., collective)."
+ },
+ {
+  "n": "1020",
+  "field": "notes",
+  "old": "roma (printed) is taken as the collective 'hair', i.e. the hairs of the filter, which is not stated in the text; the gloss is literal 'hairs'. madhvā is read as the adjective 'sweet' agreeing with dhārayā. indu = drop, with no 'Soma' added.",
+  "new": "roma (printed) is taken as the collective 'hair', i.e. the hairs of the filter, which is not stated in the text; the gloss is literal 'hair'. madhvā is read as the adjective 'sweet' agreeing with dhārayā. indu = drop, with no 'Soma' added.",
+  "why": "reviewer (minor): Printed is roma; w was changed to romā with no flag and no sandhi reason. The notes read it as collective \"hair\", but the gloss says \"hairs\". Keep w roma (n. acc. sg., collective)."
+ },
+ {
+  "n": "1020",
+  "field": "word.gram",
+  "word": "madhvā",
+  "old": "f. inst. sg.",
+  "new": "inst. sg. of madhu (m./n. form; \"sweet\" agreeing with dhārayā by sense, or \"with honey\")",
+  "why": "reviewer (minor): Labelled \"f. inst. sg.\"; madhvā is the inst. sg. of madhu (m./n. form), not feminine. It may agree with dhārayā by sense or mean \"with honey\"."
+ },
+ {
+  "n": "1021",
+  "field": "hindi",
+  "old": "शुद्ध होता हुआ देव व्रतों की ओर बहता है, अपने रस से देवगण को मिलाता हुआ। बूँद, ऋतु के अनुसार धर्मों को धारण करती हुई; दस उँगलियों ने ढक लिया, उभार पर, भेड़ के बाल में।",
+  "new": "शुद्ध होता हुआ देव नियमों की ओर बहता है, अपने रस से देवगण को मिलाता हुआ। बूँद, ऋतु के अनुसार धर्मों को धारण करती हुई; दस उँगलियों ने ढक लिया, उभार पर, भेड़ के बाल में।",
+  "why": "reviewer (minor): vratāni is \"ordinances\" in English and नियम in 1007 and 1018 (महान नियम वाले); Hindi here has व्रतों."
+ },
+ {
+  "n": "1022",
+  "field": "hindi",
+  "old": "हे अग्नि, हम तुम्हें, तेजस्वी और अजर को, हे देव, प्रज्वलित करें; जब तुम्हारी वह अधिक प्रशंसनीय समिधा आकाश में दीप्त होती है, तब स्तोताओं के लिए पोषण लाओ।",
+  "new": "हे अग्नि, हम तुम्हें, दीप्तिमान और अजर को, हे देव, प्रज्वलित करें; जब तुम्हारी वह अधिक प्रशंसनीय समिधा आकाश में दीप्त होती है, तब स्तोताओं के लिए पोषण लाओ।",
+  "why": "reviewer (minor): Glossary: तेज is only for varcas. dyumat is rendered दीप्तिमान in 994/other units."
+ },
+ {
+  "n": "1023",
+  "field": "hindi",
+  "old": "हे अग्नि, यहाँ ऋचा के साथ तुम्हारी आहुति, हे उज्ज्वल ज्योति के स्वामी, हे उत्तम दीप्ति वाले, हे अद्भुत, हे प्रजाओं के स्वामी, हे हव्य के वाहक, तुम्हारे लिए अर्पित की जाती है; स्तोताओं के लिए पोषण लाओ।",
+  "new": "हे अग्नि, यहाँ ऋचा के साथ तुम्हारी आहुति, हे उज्ज्वल ज्योति के स्वामी, हे अत्यन्त दीप्तिमान, हे अद्भुत, हे प्रजाओं के स्वामी, हे हव्य के वाहक, तुम्हारे लिए अर्पित की जाती है; स्तोताओं के लिए पोषण लाओ।",
+  "why": "reviewer (minor): su-candra is \"very radiant\" in English; Hindi says \"of good radiance\". Both translations should agree (same in 1024)."
+ },
+ {
+  "n": "1024",
+  "field": "hindi",
+  "old": "हे उत्तम दीप्ति वाले, हे प्रजाओं के स्वामी, तुम दोनों कलछियों को मुख में मिलाते हो; और हमारे लिए उक्थों में भर दो, हे बल के स्वामी; स्तोताओं के लिए पोषण लाओ।",
+  "new": "हे अत्यन्त दीप्तिमान, हे प्रजाओं के स्वामी, तुम दोनों कलछियों को मुख में मिलाते हो; और हमारे लिए उक्थों में भर दो, हे बल के स्वामी; स्तोताओं के लिए पोषण लाओ।",
+  "why": "reviewer (minor): Same as 1023."
+ },
+ {
+  "n": "1025",
+  "field": "word.gram",
+  "word": "brahma-kṛte",
+  "old": "m. dat. sg. (tat-puruṣa)",
+  "new": "m. dat. sg. (tat-puruṣa; first member long as printed)",
+  "why": "reviewer (minor): Printed brahmā-kṛte has a lengthened first-member vowel; w shows brahma-kṛte. Keep the printed form (lengthening noted in gram)."
+ },
+ {
+  "n": "1025",
+  "field": "word.w",
+  "word": "brahma-kṛte",
+  "old": "brahma-kṛte",
+  "new": "brahmā-kṛte",
+  "why": "reviewer (minor): Printed brahmā-kṛte has a lengthened first-member vowel; w shows brahma-kṛte. Keep the printed form (lengthening noted in gram)."
+ },
+ {
+  "n": "1026",
+  "field": "confidence",
+  "old": "high",
+  "new": "medium",
+  "why": "reviewer (minor): Notes call both viśvakarman \"all-doer\" and viśvadeva \"all-divine\" tentative, yet confidence is \"high\"."
+ },
+ {
+  "n": "1027",
+  "field": "text_flags.0.why",
+  "old": "possible: the sense and the parallel verse need svar 'light of heaven' (svar agacchaḥ); tva is probably a typing error for sva",
+  "new": "possible: the sense needs svar 'light of heaven' (svar agacchaḥ); tva is probably a typing error for sva",
+  "why": "reviewer (minor): The reason cites \"the parallel verse\"."
+ },
+ {
+  "n": "1030",
+  "field": "hindi",
+  "old": "दोनों भूरे घोड़े इन्द्र को ही, जिसकी शक्ति को कोई दबा नहीं सकता, ऋषियों की उत्तम स्तुतियों के पास और मनुष्यों के यज्ञ के पास ले जाते हैं।",
+  "new": "दोनों भूरे घोड़े इन्द्र को ही, अनाक्रान्त बल वाले, ऋषियों की उत्तम स्तुतियों के पास और मनुष्यों के यज्ञ के पास ले जाते हैं।",
+  "why": "reviewer (minor): śavas is बल in Hindi elsewhere (शक्ति is kratu); \"दबा नहीं सकता\" is stronger than apratidhṛṣṭa \"unassailed\"."
+ }
+]

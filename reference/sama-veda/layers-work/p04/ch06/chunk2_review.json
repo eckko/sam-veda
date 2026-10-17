@@ -1,0 +1,948 @@
+{
+ "units": [
+  {
+   "n": "993",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "हे दो पुरुषो",
+     "problem": "Glossary: nara = man (vocative हे मनुष्यो); पुरुष is reserved for puruṣa.",
+     "fix": "हे दो मनुष्यो",
+     "severity": "minor",
+     "patch": {
+      "n": "993",
+      "op": "replace",
+      "field": "hindi",
+      "old": "हे दो पुरुषो",
+      "new": "हे दो मनुष्यो"
+     }
+    }
+   ]
+  },
+  {
+   "n": "994",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gloss",
+     "where": "droṇāni / English / Hindi",
+     "problem": "Glossary: droṇa = trough (द्रोण). The draft has \"wooden vessels\" and Hindi \"द्रोण पात्रों\" (adds the noun पात्र). Hindi also renders yoni as आसन here but स्थान in 1000 and 1008.",
+     "fix": "gloss: troughs; English: toward the troughs; Hindi: हे सोम, सबसे अधिक दीप्तिमान, द्रोणों की ओर गरजते हुए बहो; स्थान में, स्थानों में बैठते हुए।",
+     "severity": "error",
+     "patch": [
+      {
+       "n": "994",
+       "op": "word",
+       "match_w": "droṇāni",
+       "field": "gloss",
+       "value": "troughs"
+      },
+      {
+       "n": "994",
+       "op": "replace",
+       "field": "english",
+       "old": "toward the wooden vessels",
+       "new": "toward the troughs"
+      },
+      {
+       "n": "994",
+       "op": "set",
+       "field": "hindi",
+       "value": "हे सोम, सबसे अधिक दीप्तिमान, द्रोणों की ओर गरजते हुए बहो; स्थान में, स्थानों में बैठते हुए।"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "995",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "notes",
+     "where": "\"a parallel verse elsewhere in this part has sutāḥ\"",
+     "problem": "Notes must not cite parallel verses.",
+     "fix": "Delete the parenthesis.",
+     "severity": "error",
+     "patch": {
+      "n": "995",
+      "op": "replace",
+      "field": "notes",
+      "old": " (a parallel verse elsewhere in this part has sutāḥ 'pressed' in this place)",
+      "new": ""
+     }
+    }
+   ]
+  },
+  {
+   "n": "996",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "notes",
+     "where": "\"a parallel construction has a masculine noun\"",
+     "problem": "Notes must not cite parallels.",
+     "fix": "Delete the parenthesis.",
+     "severity": "error",
+     "patch": {
+      "n": "996",
+      "op": "replace",
+      "field": "notes",
+      "old": " (a parallel construction has a masculine noun such as 'wealth' in this place)",
+      "new": ""
+     }
+    },
+    {
+     "field": "gram",
+     "where": "sahasriṇam",
+     "problem": "Labelled \"m. acc. sg.\"; the -in stem has one accusative form for all genders, and it may agree with iṣam. The label should not assert masculine.",
+     "fix": "acc. sg. (m./f. form; may agree with iṣam; referent uncertain)",
+     "severity": "minor",
+     "patch": {
+      "n": "996",
+      "op": "word",
+      "match_w": "sahasriṇam",
+      "field": "gram",
+      "value": "acc. sg. (m./f. form; may agree with iṣam; referent uncertain)"
+     }
+    }
+   ]
+  },
+  {
+   "n": "997",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "u",
+     "problem": "Glossary: the particle u is translated in both languages or neither. The draft glosses u \"indeed\" but neither translation renders it.",
+     "fix": "English \"Soma indeed, being pressed ...\"; Hindi \"सोम ही, निचोड़ने वालों ...\"",
+     "severity": "error",
+     "patch": [
+      {
+       "n": "997",
+       "op": "replace",
+       "field": "english",
+       "old": "Soma, being pressed",
+       "new": "Soma indeed, being pressed"
+      },
+      {
+       "n": "997",
+       "op": "replace",
+       "field": "hindi",
+       "old": "सोम, निचोड़ने वालों",
+       "new": "सोम ही, निचोड़ने वालों"
+      }
+     ]
+    },
+    {
+     "field": "gram",
+     "where": "svāṇaḥ",
+     "problem": "Glossary: svānā(ḥ) for suvānā(ḥ) is note-only, not applied; the gram states \"for suvānaḥ\" as fact. (The ṣ after u and in ṣṇubhiḥ after adhi is regular, no flag.)",
+     "fix": "m. nom. sg. pres. part. mid. √su (printed svāṇaḥ; chant spelling)",
+     "severity": "minor",
+     "patch": {
+      "n": "997",
+      "op": "word",
+      "match_w": "svāṇaḥ",
+      "field": "gram",
+      "value": "m. nom. sg. pres. part. mid. √su (printed svāṇaḥ; chant spelling)"
+     }
+    }
+   ]
+  },
+  {
+   "n": "998",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "दुही हुई धाराओं के साथ",
+     "problem": "Hindi supplies the noun धाराओं that the Sanskrit (dugdhābhiḥ, f. pl.) and the English (\"the milked ones\") do not have. Noun in one language only.",
+     "fix": "Hindi: ... सोम दुही हुई के साथ बहा है।",
+     "severity": "error",
+     "patch": {
+      "n": "998",
+      "op": "replace",
+      "field": "hindi",
+      "old": "दुही हुई धाराओं के साथ",
+      "new": "दुही हुई के साथ"
+     }
+    },
+    {
+     "field": "english",
+     "where": "anūpe",
+     "problem": "Notes and Hindi say a watery land/ground (जलमय भूमि); English and gloss say \"meadow\". Make them agree.",
+     "fix": "English \"In the watery land\"; gloss \"in the watery land\"",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "998",
+       "op": "word",
+       "match_w": "anūpe",
+       "field": "gloss",
+       "value": "in the watery land"
+      },
+      {
+       "n": "998",
+       "op": "replace",
+       "field": "english",
+       "old": "In the watery meadow",
+       "new": "In the watery land"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "999",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1000",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "notes",
+     "where": "\"a parallel verse reads the third-person āsadat\"",
+     "problem": "Notes must not cite parallels.",
+     "fix": "Delete the clause.",
+     "severity": "error",
+     "patch": {
+      "n": "1000",
+      "op": "replace",
+      "field": "notes",
+      "old": "; a parallel verse reads the third-person āsadat",
+      "new": ""
+     }
+    }
+   ]
+  },
+  {
+   "n": "1001",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "hi",
+     "problem": "English \"For you two\" but Hindi \"तुम दोनों ही\" (indeed); gloss \"for\". Translations disagree on hi.",
+     "fix": "English \"Indeed, you two are ...\"; gloss \"indeed\"",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "1001",
+       "op": "replace",
+       "field": "english",
+       "old": "For you two are",
+       "new": "Indeed, you two are"
+      },
+      {
+       "n": "1001",
+       "op": "word",
+       "match_w": "hi",
+       "field": "gloss",
+       "value": "indeed"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "1002",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "split",
+     "where": "vavṛdhe",
+     "problem": "Printed is vāvṛdhe (regular reduplicated perfect with the lengthened vowel); w was normalised to vavṛdhe. Keep the printed form in w and note the lengthening in gram.",
+     "fix": "w: vāvṛdhe; gram: 3 sg. perf. mid. √vṛdh (reduplication vowel long, as printed)",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "1002",
+       "op": "word",
+       "match_w": "vavṛdhe",
+       "field": "gram",
+       "value": "3 sg. perf. mid. √vṛdh (reduplication vowel long, as printed)"
+      },
+      {
+       "n": "1002",
+       "op": "word",
+       "match_w": "vavṛdhe",
+       "field": "w",
+       "value": "vāvṛdhe"
+      }
+     ]
+    },
+    {
+     "field": "hindi",
+     "where": "रक्षा करे",
+     "problem": "Glossary: ava/ūti = help (सहायता). The English has \"help\"; Hindi has रक्षा. Also ājiṣu is संग्राम here but स्पर्धा (ājayaḥ) in 1004.",
+     "fix": "Hindi: ... बड़ी और छोटी स्पर्धाओं में पुकारते हैं; वह वाजों में हमारी आगे सहायता करे।",
+     "severity": "error",
+     "patch": [
+      {
+       "n": "1002",
+       "op": "replace",
+       "field": "hindi",
+       "old": "हमारी आगे रक्षा करे",
+       "new": "हमारी आगे सहायता करे"
+      },
+      {
+       "n": "1002",
+       "op": "replace",
+       "field": "hindi",
+       "old": "बड़े और छोटे संग्रामों में",
+       "new": "बड़ी और छोटी स्पर्धाओं में"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "1003",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "hi",
+     "problem": "English \"For you are\", Hindi omits hi entirely; gloss \"for\". Translations disagree and a word is dropped.",
+     "fix": "English \"Indeed you are, O hero, ...\"; Hindi \"हे वीर, तुम निश्चय ही सेना के नेता हो\"; gloss \"indeed\"",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "1003",
+       "op": "replace",
+       "field": "english",
+       "old": "For you are, O hero, the leader",
+       "new": "Indeed you are, O hero, the leader"
+      },
+      {
+       "n": "1003",
+       "op": "replace",
+       "field": "hindi",
+       "old": "हे वीर, तुम सेना",
+       "new": "हे वीर, तुम निश्चय ही सेना"
+      },
+      {
+       "n": "1003",
+       "op": "word",
+       "match_w": "hi",
+       "field": "gloss",
+       "value": "indeed"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "1004",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "split",
+     "where": "yuṅkṣva",
+     "problem": "Printed is yuṅkṣvā (lengthened final vowel); w was shortened. Keep the printed form in w, note the lengthening in gram.",
+     "fix": "w: yuṅkṣvā; gram: 2 sg. impv. mid. √yuj (final vowel long, as printed)",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "1004",
+       "op": "word",
+       "match_w": "yuṅkṣva",
+       "field": "gram",
+       "value": "2 sg. impv. mid. √yuj (final vowel long, as printed)"
+      },
+      {
+       "n": "1004",
+       "op": "word",
+       "match_w": "yuṅkṣva",
+       "field": "w",
+       "value": "yuṅkṣvā"
+      }
+     ]
+    },
+    {
+     "field": "hindi",
+     "where": "मद से टपकते / तब",
+     "problem": "mada = exhilaration is rendered आनन्द everywhere else in Hindi; \"मद\" is inconsistent. Hindi also adds the correlative \"तब\" that English and Sanskrit lack.",
+     "fix": "Hindi: जब स्पर्धाएँ उठती हैं, साहसी के लिए धन रखा जाता है। आनन्द से टपकते दोनों भूरे घोड़ों को जोतो; ...",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "1004",
+       "op": "replace",
+       "field": "hindi",
+       "old": "मद से टपकते",
+       "new": "आनन्द से टपकते"
+      },
+      {
+       "n": "1004",
+       "op": "replace",
+       "field": "hindi",
+       "old": "उठती हैं, तब साहसी",
+       "new": "उठती हैं, साहसी"
+      }
+     ]
+    },
+    {
+     "field": "text_flags",
+     "where": "why of the dhanām flag",
+     "problem": "The reason cites \"a parallel\"; keep the grammatical reason only. (Number of dhanā, \"prize\" vs \"prizes\", is left to the human.)",
+     "fix": "possible: the passive dhīyate needs a nominative subject; the printed accusative dhanām does not fit",
+     "severity": "minor",
+     "patch": {
+      "n": "1004",
+      "op": "replace",
+      "field": "text_flags.0.why",
+      "old": "and a parallel reads dhanā; ",
+      "new": ""
+     }
+    }
+   ]
+  },
+  {
+   "n": "1005",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "notes",
+     "where": "\"a parallel verse has the adverbial śobhathā\"",
+     "problem": "Notes must not cite parallels.",
+     "fix": "Delete the clause.",
+     "severity": "error",
+     "patch": {
+      "n": "1005",
+      "op": "replace",
+      "field": "notes",
+      "old": "; a parallel verse has the adverbial śobhathā",
+      "new": ""
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "उत्तम हैं",
+     "problem": "Hindi supplies the verb हैं; English has \"the good ones\" with no verb, and the Sanskrit has none (cf. 1006, 1007 Hindi).",
+     "fix": "Hindi: ... आनन्दित होती हैं, उत्तम, स्वराज्य के अनुसार।",
+     "severity": "error",
+     "patch": {
+      "n": "1005",
+      "op": "replace",
+      "field": "hindi",
+      "old": "उत्तम हैं, स्वराज्य",
+      "new": "उत्तम, स्वराज्य"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1006",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1007",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1008",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1009",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "notes",
+     "where": "\"differs from the Ṛgvedic dhūtam\"",
+     "problem": "Notes must not cite Ṛgveda parallels.",
+     "fix": "dhautam is taken as printed, \"washed\" (√dhāv).",
+     "severity": "error",
+     "patch": {
+      "n": "1009",
+      "op": "replace",
+      "field": "notes",
+      "old": "The printed dhautam (washed) differs from the Ṛgvedic dhūtam; it is not changed.",
+      "new": "dhautam is taken as printed, 'washed' (√dhāv)."
+     }
+    }
+   ]
+  },
+  {
+   "n": "1010",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "text_flags",
+     "where": "madho (मधो)",
+     "problem": "\"madho rasa~\" cannot be madhvaḥ + rasam (that prints madhvo) nor madhoḥ (madhor). The v seems missing, yet the draft uses w madhvaḥ with no text_flags entry. Rule: every corrected form needs a flag.",
+     "fix": "add flag {\"src\":\"madho\",\"suggest\":\"madhvo\",\"why\":\"...\"}",
+     "severity": "error",
+     "patch": {
+      "n": "1010",
+      "op": "set",
+      "field": "text_flags",
+      "value": [
+       {
+        "src": "madho",
+        "suggest": "madhvo",
+        "why": "possible: genitive of madhu before the r of rasam should print madhvo (madhvaḥ rasam); the v appears to be missing"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": "1011",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "abhi dyumnaṃ bṛhad yaśaḥ",
+     "problem": "Glossary: an \"and\" is not added between asyndetic accusatives. English and Hindi both insert \"and\"/और.",
+     "fix": "English \"Shine toward splendour, great glory, O lord of refreshment, ...\"; Hindi \"द्युम्न, महान यश की ओर चमको\"",
+     "severity": "error",
+     "patch": [
+      {
+       "n": "1011",
+       "op": "replace",
+       "field": "english",
+       "old": "Shine toward splendour and great glory,",
+       "new": "Shine toward splendour, great glory,"
+      },
+      {
+       "n": "1011",
+       "op": "replace",
+       "field": "hindi",
+       "old": "द्युम्न और महान यश की ओर",
+       "new": "द्युम्न, महान यश की ओर"
+      }
+     ]
+    },
+    {
+     "field": "text_flags",
+     "where": "why of the dyubhnaṃ flag",
+     "problem": "The reason cites \"the parallel verse\".",
+     "fix": "possible: dyubhna is not a known word; the sense needs dyumna \"splendour\"",
+     "severity": "minor",
+     "patch": {
+      "n": "1011",
+      "op": "replace",
+      "field": "text_flags.0.why",
+      "old": "the sense and the parallel verse need",
+      "new": "the sense needs"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1012",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "viśāṃ vahnir na viśpatiḥ",
+     "problem": "Placement of na: the standard of comparison stands before na (\"vahniḥ na\" = like a carrier). The draft reads \"carrier of the clans, like the lord of the clans\", which reverses it. Needs a human decision.",
+     "fix": "pressed in the two bowls, like a carrier of the clans, a lord of the clans (Hindi: प्रजाओं के वाहक की भाँति, प्रजाओं के स्वामी)",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "1013",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "\"and then in two ways\"",
+     "problem": "English adds \"and\" (adha = then); Hindi has none.",
+     "fix": "... has encompassed all dear things, then in two ways.",
+     "severity": "minor",
+     "patch": {
+      "n": "1013",
+      "op": "replace",
+      "field": "english",
+      "old": "dear things, and then in two ways",
+      "new": "dear things, then in two ways"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1014",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "split",
+     "where": "pāṣyo3rabhakta",
+     "problem": "Invented Sanskrit. Printed pāṣyo3rabhakta has no avagraha, so \"pāṣyaḥ + arabhakta\" (which would print pāṣyo3 'rabhakta) is impossible. Regular sandhi: pāṣyoḥ + abhakta gives pāṣyor abhakta (ḥ becomes r after o before a vowel). abhakta is the augmented aorist mid. of √bhaj, not \"a-rabhakta\" of √rabh. The translation \"taken hold\" follows the wrong root. Hindi also adds a subject उसने while the English subject is [unclear].",
+     "fix": "words: pāṣyoḥ ([unclear]), 3, abhakta (3 sg. aor. mid. √bhaj); English \"has obtained\"; Hindi without उसने",
+     "severity": "error",
+     "patch": [
+      {
+       "n": "1014",
+       "op": "word",
+       "match_w": "pāṣyaḥ",
+       "field": "gram",
+       "value": "uncertain (pāṣyoḥ, final -oḥ before the vowel of abhakta)"
+      },
+      {
+       "n": "1014",
+       "op": "word",
+       "match_w": "pāṣyaḥ",
+       "field": "w",
+       "value": "pāṣyoḥ"
+      },
+      {
+       "n": "1014",
+       "op": "word",
+       "match_w": "arabhakta",
+       "field": "gloss",
+       "value": "has obtained"
+      },
+      {
+       "n": "1014",
+       "op": "word",
+       "match_w": "arabhakta",
+       "field": "gram",
+       "value": "3 sg. aor. mid. √bhaj (augmented; abhakta, with the preceding oḥ becoming or)"
+      },
+      {
+       "n": "1014",
+       "op": "word",
+       "match_w": "arabhakta",
+       "field": "w",
+       "value": "abhakta"
+      },
+      {
+       "n": "1014",
+       "op": "set",
+       "field": "english",
+       "value": "Near Trita, [unclear] has obtained the footstep which is in secret; of the sacrifice, by the seven stations, then the dear one."
+      },
+      {
+       "n": "1014",
+       "op": "set",
+       "field": "hindi",
+       "value": "त्रित के पास गुप्त में जो पदचिह्न है, उसे प्राप्त किया; यज्ञ के सात धामों से, फिर प्रिय।"
+      },
+      {
+       "n": "1014",
+       "op": "set",
+       "field": "notes",
+       "value": "Obscure. pāṣyo3rabhakta is read as pāṣyoḥ, the pluta figure 3 (its own word, a chant syllable) and abhakta (oḥ + a- gives or a-); pāṣyoḥ is unclear and omitted in Hindi, and the construction of abhakta, the grammar of yad guhā padam and the last words are uncertain. The pluta 3 is not translated."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "1015",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "text_flags",
+     "where": "pṛṣṭeṣu (पृष्टेषु)",
+     "problem": "The draft uses w pṛṣṭheṣu, a corrected form, but has no text_flags entry. Printed pṛṣṭeṣu is not a form of pṛṣṭha \"back\".",
+     "fix": "add flag {\"src\":\"pṛṣṭeṣu\",\"suggest\":\"pṛṣṭheṣu\"}",
+     "severity": "error",
+     "patch": {
+      "n": "1015",
+      "op": "set",
+      "field": "text_flags",
+      "value": [
+       {
+        "src": "pṛṣṭeṣu",
+        "suggest": "pṛṣṭheṣu",
+        "why": "possible: pṛṣṭeṣu is not a form of pṛṣṭha 'back'; the aspirate (ṭh) is probably missing"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": "1016",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1017",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gloss",
+     "where": "vidharmaṇi",
+     "problem": "dharman compound: glossary requires flagging \"dharma\" vs \"ordinance\" as a manual decision. The draft uses neither (\"upholding\") and gives no flag.",
+     "fix": "Owner decides: \"in the upholding\" / \"in the dharma\" / \"in the ordinance\".",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "1018",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1019",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1020",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "split",
+     "where": "roma",
+     "problem": "Printed is roma; w was changed to romā with no flag and no sandhi reason. The notes read it as collective \"hair\", but the gloss says \"hairs\". Keep w roma (n. acc. sg., collective).",
+     "fix": "w: roma; gloss: hair; gram: n. acc. sg. (collective); English \"across the hair\"",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "1020",
+       "op": "word",
+       "match_w": "romā",
+       "field": "gloss",
+       "value": "hair"
+      },
+      {
+       "n": "1020",
+       "op": "word",
+       "match_w": "romā",
+       "field": "gram",
+       "value": "n. acc. sg. (collective)"
+      },
+      {
+       "n": "1020",
+       "op": "word",
+       "match_w": "romā",
+       "field": "w",
+       "value": "roma"
+      },
+      {
+       "n": "1020",
+       "op": "replace",
+       "field": "english",
+       "old": "across the hairs",
+       "new": "across the hair"
+      },
+      {
+       "n": "1020",
+       "op": "replace",
+       "field": "notes",
+       "old": "the gloss is literal 'hairs'",
+       "new": "the gloss is literal 'hair'"
+      }
+     ]
+    },
+    {
+     "field": "gram",
+     "where": "madhvā",
+     "problem": "Labelled \"f. inst. sg.\"; madhvā is the inst. sg. of madhu (m./n. form), not feminine. It may agree with dhārayā by sense or mean \"with honey\".",
+     "fix": "inst. sg. of madhu (m./n. form; \"sweet\" agreeing with dhārayā by sense, or \"with honey\")",
+     "severity": "minor",
+     "patch": {
+      "n": "1020",
+      "op": "word",
+      "match_w": "madhvā",
+      "field": "gram",
+      "value": "inst. sg. of madhu (m./n. form; \"sweet\" agreeing with dhārayā by sense, or \"with honey\")"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1021",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "dharmāṇi",
+     "problem": "Glossary rule: dharman/dharmāṇi must be flagged as a manual decision, \"dharma\" vs \"ordinance\". The draft applied \"dharmas\" (and vratāni = \"ordinances\" in the same line).",
+     "fix": "Owner decides between \"dharmas\" and \"ordinances\"; keep vrata and dharman distinct in English.",
+     "severity": "minor"
+    },
+    {
+     "field": "hindi",
+     "where": "व्रतों",
+     "problem": "vratāni is \"ordinances\" in English and नियम in 1007 and 1018 (महान नियम वाले); Hindi here has व्रतों.",
+     "fix": "Hindi: ... देव नियमों की ओर बहता है",
+     "severity": "minor",
+     "patch": {
+      "n": "1021",
+      "op": "replace",
+      "field": "hindi",
+      "old": "व्रतों की ओर",
+      "new": "नियमों की ओर"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1022",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "तेजस्वी",
+     "problem": "Glossary: तेज is only for varcas. dyumat is rendered दीप्तिमान in 994/other units.",
+     "fix": "Hindi: हम तुम्हें, दीप्तिमान और अजर को, हे देव, प्रज्वलित करें",
+     "severity": "minor",
+     "patch": {
+      "n": "1022",
+      "op": "replace",
+      "field": "hindi",
+      "old": "हम तुम्हें, तेजस्वी और अजर को",
+      "new": "हम तुम्हें, दीप्तिमान और अजर को"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1023",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "हे उत्तम दीप्ति वाले",
+     "problem": "su-candra is \"very radiant\" in English; Hindi says \"of good radiance\". Both translations should agree (same in 1024).",
+     "fix": "हे अत्यन्त दीप्तिमान",
+     "severity": "minor",
+     "patch": {
+      "n": "1023",
+      "op": "replace",
+      "field": "hindi",
+      "old": "हे उत्तम दीप्ति वाले",
+      "new": "हे अत्यन्त दीप्तिमान"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1024",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "हे उत्तम दीप्ति वाले",
+     "problem": "Same as 1023.",
+     "fix": "हे अत्यन्त दीप्तिमान",
+     "severity": "minor",
+     "patch": {
+      "n": "1024",
+      "op": "replace",
+      "field": "hindi",
+      "old": "हे उत्तम दीप्ति वाले",
+      "new": "हे अत्यन्त दीप्तिमान"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1025",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "split",
+     "where": "brahmākṛte",
+     "problem": "Printed brahmā-kṛte has a lengthened first-member vowel; w shows brahma-kṛte. Keep the printed form (lengthening noted in gram).",
+     "fix": "w: brahmā-kṛte",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "1025",
+       "op": "word",
+       "match_w": "brahma-kṛte",
+       "field": "gram",
+       "value": "m. dat. sg. (tat-puruṣa; first member long as printed)"
+      },
+      {
+       "n": "1025",
+       "op": "word",
+       "match_w": "brahma-kṛte",
+       "field": "w",
+       "value": "brahmā-kṛte"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "1026",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "confidence",
+     "where": "confidence",
+     "problem": "Notes call both viśvakarman \"all-doer\" and viśvadeva \"all-divine\" tentative, yet confidence is \"high\".",
+     "fix": "medium",
+     "severity": "minor",
+     "patch": {
+      "n": "1026",
+      "op": "set",
+      "field": "confidence",
+      "value": "medium"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1027",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "text_flags",
+     "where": "why of the tva3 flag",
+     "problem": "The reason cites \"the parallel verse\".",
+     "fix": "possible: the sense needs svar \"light of heaven\" (svar agacchaḥ); tva is probably a typing error for sva",
+     "severity": "minor",
+     "patch": {
+      "n": "1027",
+      "op": "replace",
+      "field": "text_flags.0.why",
+      "old": "the sense and the parallel verse need",
+      "new": "the sense needs"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1028",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1029",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1030",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "जिसकी शक्ति को कोई दबा नहीं सकता",
+     "problem": "śavas is बल in Hindi elsewhere (शक्ति is kratu); \"दबा नहीं सकता\" is stronger than apratidhṛṣṭa \"unassailed\".",
+     "fix": "Hindi: दोनों भूरे घोड़े इन्द्र को ही, अनाक्रान्त बल वाले, ऋषियों की ... ले जाते हैं।",
+     "severity": "minor",
+     "patch": {
+      "n": "1030",
+      "op": "replace",
+      "field": "hindi",
+      "old": "जिसकी शक्ति को कोई दबा नहीं सकता",
+      "new": "अनाक्रान्त बल वाले"
+     }
+    }
+   ]
+  }
+ ],
+ "summary": "Chunk 2 (993-1030), 38 units. 14 error and 25 minor issues in 29 units; 9 units ok. Manual (no patch): 1012 (na placement), 1017 and 1021 (dharman: dharma vs ordinance). Error classes: droṇa not 'trough' (994); u untranslated (997); noun/verb supplied in one language (998, 1005); ava/ūti not 'help' in Hindi (1002); asyndetic 'and' added (1011); invented split a-rabhakta for pāṣyoḥ abhakta (1014); corrected forms without text_flags (1010 madho, 1015 pṛṣṭeṣu); Ṛgveda/parallel citations in notes (995, 996, 1000, 1005, 1009) and in flag reasons (1004, 1011, 1027, minor). No regrouping suggested. Hindi checked: no Latin letters, brackets or '...'. Still uncertain and left low: 995 apsā, 1006 pṛśanāyuvaḥ, 1013 prāṇā, 1019 gonyoghā, 1014 pāṣyoḥ. Open glossary points still apply: indu (drop vs name), dharman."
+}
