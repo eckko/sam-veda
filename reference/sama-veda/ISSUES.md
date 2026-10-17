@@ -27,3 +27,6 @@ Nothing in the text files was changed because of these. Line IDs are the new IDs
 - Structure: no gaps or truncated part; 4 parts, 36 chapters, 1875 verse numbers; toc and text agree (structure_check.py).
 - Word checker: 0 stray characters; 7 typo candidates, all read by the AI pass and judged regular forms except 04.10.1312a; the metre table (1090 of 3715 lines outside 15-17/22-23 aksharas) is not meaningful for Vedic chandas and was not sent to the AI pass. Second edition: skipped.
 - AI proofreading: 165 items read (7 typo candidates and a fixed-seed sample of 158 ordinary lines, one in 25), 4 proposals (3 errors, 1 unsure). Sample error rate 2 of 158 lines (1.3%). This covers about 4% of the 3715 lines; the other lines were not read by the AI pass or by a person. Nothing in text/ was changed.
+| 03.01.648 | layer-decision | last clause: finite "you take up" (kept) or infinitive "to take up" | layers | person to decide |
+| 02.01.588 | layer-decision | Hindi supplies ऐश्वर्य for rantyam bṛhat; English brackets "(domain)" | layers | person to decide |
+| 02.01.586 | possible-typo | `पुपुरि` vs RV `पप्री`-type reading (draft flag "possible", Rigveda parallel) | layers | check printed edition |

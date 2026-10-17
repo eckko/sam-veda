@@ -47,3 +47,8 @@ All 36 units extracted: 1875 verses, 3715 lines. Checker: 0 errors.
 - Translations (Hindi, English): none extracted. Candidates are listed in sources.md (all on sites the sandbox cannot reach); they need to be downloaded by the owner and mapped to the verse numbers 1-1875.
 - Verification stage: compare S1 with a second printed or scholarly edition (S3/S4 in sources.md); start from notes/crosscheck-s2.md (105 differences in verses 1-585).
 - Decide whether the sukta annotation lines (notes/annotations.md) should become a proper field in later stages.
+
+## Layers (word split, Hindi, English)
+- Done as reviewed AI drafts: part 02 (Āraṇya, 55 verses), part 03 (Mahānāmnya, 10 verses). Files `text/p02-*.md`, `text/p03-*.md`.
+- Not started: part 01 (585 verses, 12 chunks), part 04 (1225 verses, 29 chunks). See `layers-work/STATUS.md`.
+- Feed for /quiz-advanced-cdn: not built; waiting for the owner to check a sample.
