@@ -1,0 +1,513 @@
+[
+ {
+  "n": "775",
+  "field": "word.gloss",
+  "word": "kāvyā",
+  "old": "poetic powers",
+  "new": "poetic works",
+  "why": "reviewer (minor): 'powers' is not in the Sanskrit; kāvya is poetry/poetic works."
+ },
+ {
+  "n": "775",
+  "field": "english",
+  "old": "Flow clear, O Soma, foremost of speech, with wondrous aids toward all poetic powers.",
+  "new": "Flow clear, O Soma, foremost of speech, with wondrous aids toward all poetic works.",
+  "why": "reviewer (minor): 'powers' is not in the Sanskrit; kāvya is poetry/poetic works."
+ },
+ {
+  "n": "775",
+  "field": "hindi",
+  "old": "हे सोम, वाणी में सबसे आगे रहने वाले, अद्भुत सहायताओं के साथ सब काव्य-शक्तियों की ओर बहो।",
+  "new": "हे सोम, वाणी में सबसे आगे रहने वाले, अद्भुत सहायताओं के साथ सब काव्यों की ओर बहो।",
+  "why": "reviewer (minor): 'powers' is not in the Sanskrit; kāvya is poetry/poetic works."
+ },
+ {
+  "n": "777",
+  "field": "word.w",
+  "word": "tubhyam",
+  "old": "tubhyam",
+  "new": "tubhya",
+  "why": "reviewer (error): The printed token tubhyemā is tubhya + imā (a+i gives e). tubhyam + imā would give tubhyaṃ imā. The first word is the Vedic dative tubhya (the same dative as tubhyam), not tubhyam."
+ },
+ {
+  "n": "777",
+  "field": "word.gram",
+  "word": "tubhya",
+  "old": "2 sg. dat.",
+  "new": "2 sg. dat. (Vedic form tubhya = tubhyam)",
+  "why": "reviewer (error): The printed token tubhyemā is tubhya + imā (a+i gives e). tubhyam + imā would give tubhyaṃ imā. The first word is the Vedic dative tubhya (the same dative as tubhyam), not tubhyam."
+ },
+ {
+  "n": "778",
+  "field": "hindi",
+  "old": "हे बूँद, बहो; निचोड़े गए वृषा, हमें लोगों के बीच यशस्वी बनाओ और सब शत्रुताओं को दूर मार भगाओ।",
+  "new": "हे बूँद, बहो; निचोड़े गए बैल, हमें लोगों के बीच यशस्वी बनाओ और सब शत्रुताओं को दूर मार भगाओ।",
+  "why": "reviewer (minor): Hindi leaves vṛṣā untranslated while English has 'bull' (and 781, 784 use बैल)."
+ },
+ {
+  "n": "779",
+  "field": "word.gloss",
+  "word": "yasya",
+  "old": "in which, of which",
+  "new": "of whom",
+  "why": "reviewer (error): yasya is genitive ('of whom'), not 'in which'; the draft turns a genitive into a locative relative. Correct: 'of you, in whose friendship (yasya sakhye)'. English and Hindi follow."
+ },
+ {
+  "n": "779",
+  "field": "word.gram",
+  "word": "yasya",
+  "old": "m. gen. sg. rel.",
+  "new": "m. gen. sg. rel. (referring to te)",
+  "why": "reviewer (error): yasya is genitive ('of whom'), not 'in which'; the draft turns a genitive into a locative relative. Correct: 'of you, in whose friendship (yasya sakhye)'. English and Hindi follow."
+ },
+ {
+  "n": "779",
+  "field": "english",
+  "old": "In that friendship of yours, in which we may overcome those who attack, O drop, in your highest splendour.",
+  "new": "Of you, in whose friendship we may overcome those who attack, O drop, in your highest splendour.",
+  "why": "reviewer (error): yasya is genitive ('of whom'), not 'in which'; the draft turns a genitive into a locative relative. Correct: 'of you, in whose friendship (yasya sakhye)'. English and Hindi follow."
+ },
+ {
+  "n": "779",
+  "field": "hindi",
+  "old": "तुम्हारी उस मित्रता में, जिसमें हम आक्रमण करने वालों को जीत लें, हे बूँद, तुम्हारे सर्वोच्च द्युम्न में।",
+  "new": "तुम्हारी, जिसकी मित्रता में हम आक्रमण करने वालों को जीत लें, हे बूँद, तुम्हारे सर्वोच्च द्युम्न में।",
+  "why": "reviewer (error): yasya is genitive ('of whom'), not 'in which'; the draft turns a genitive into a locative relative. Correct: 'of you, in whose friendship (yasya sakhye)'. English and Hindi follow."
+ },
+ {
+  "n": "779",
+  "field": "word.gram",
+  "word": "sāsahyāma",
+  "old": "1 pl. subj. intens. √sah",
+  "new": "1 pl. opt. intens. (reduplicated) √sah",
+  "why": "reviewer (minor): The ending -yāma is optative (precative-type), not subjunctive."
+ },
+ {
+  "n": "780",
+  "field": "word.gram",
+  "word": "samasya",
+  "old": "m. gen./abl. sg.",
+  "new": "m. gen. sg.",
+  "why": "reviewer (minor): samasya is genitive only (ablative would be samāt); labelling it 'gen./abl.' is wrong. nidaḥ is the ablative/genitive."
+ },
+ {
+  "n": "780",
+  "field": "word.gram",
+  "word": "nidaḥ",
+  "old": "m. abl. sg.",
+  "new": "gen./abl. sg. (nid, reviler)",
+  "why": "reviewer (minor): samasya is genitive only (ablative would be samāt); labelling it 'gen./abl.' is wrong. nidaḥ is the ablative/genitive."
+ },
+ {
+  "n": "780",
+  "field": "word.gloss",
+  "word": "nidaḥ",
+  "old": "from the reviler",
+  "new": "of the reviler",
+  "why": "reviewer (minor): samasya is genitive only (ablative would be samāt); labelling it 'gen./abl.' is wrong. nidaḥ is the ablative/genitive."
+ },
+ {
+  "n": "782",
+  "field": "english",
+  "old": "Yours, the mighty one's, is the manly strength; the wood is a mighty one, the pressed one is a mighty one. That you, O mighty one, are indeed a mighty one.",
+  "new": "Yours, the mighty one's, is the manly strength; the wood is a mighty one, the pressed one is a mighty one. You, that one, O mighty one, are indeed a mighty one.",
+  "why": "reviewer (minor): 'That you ... are' is not a sentence; sa tvam = 'you, that one'."
+ },
+ {
+  "n": "783",
+  "field": "english",
+  "old": "Roaring like a horse, the mighty one; [bring] together cows, O drop, together horses; open for us the doors to wealth.",
+  "new": "Roaring like a horse, the mighty one; together cows, O drop, together horses; open for us the doors to wealth.",
+  "why": "reviewer (error): English supplies a verb '[bring]' that Hindi (and the Sanskrit) lacks: a verb supplied in one language only."
+ },
+ {
+  "n": "783",
+  "field": "notes",
+  "old": "The verb governing sam gāḥ and sam arvataḥ is not in the text (elliptical); the English supplies [bring], the Hindi omits it. vṛdhi with vi is taken as 'open up'; derivation (√vṛ or √vṛdh) is uncertain.",
+  "new": "The verb governing sam gāḥ and sam arvataḥ is not in the text (elliptical); no verb is supplied in either language. vṛdhi with vi is taken as 'open up'; derivation (√vṛ or √vṛdh) is uncertain.",
+  "why": "reviewer (error): English supplies a verb '[bring]' that Hindi (and the Sanskrit) lacks: a verb supplied in one language only."
+ },
+ {
+  "n": "784",
+  "field": "hindi",
+  "old": "तुम दीप्ति से वृषा हो; हम तुम्हें उज्ज्वल को पुकारते हैं, हे पवमान, सूर्य का प्रकाश देखने वाले को।",
+  "new": "क्योंकि तुम दीप्ति से बैल हो; हम तुम्हें उज्ज्वल को पुकारते हैं, हे पवमान, सूर्य का प्रकाश देखने वाले को।",
+  "why": "reviewer (minor): hi ('for') is dropped in Hindi; English has 'For'. vṛṣā should match English 'bull'."
+ },
+ {
+  "n": "785",
+  "field": "word.gloss",
+  "word": "droṇe",
+  "old": "in the vessel (droṇa)",
+  "new": "in the trough (droṇa)",
+  "why": "reviewer (error): Glossary: droṇa = trough (द्रोण), not vessel."
+ },
+ {
+  "n": "785",
+  "field": "english",
+  "old": "When you are poured around with waters, being cleansed by the people, you reach the shared seat in the vessel (droṇa).",
+  "new": "When you are poured around with waters, being cleansed by the people, you reach the shared seat in the trough (droṇa).",
+  "why": "reviewer (error): Glossary: droṇa = trough (द्रोण), not vessel."
+ },
+ {
+  "n": "785",
+  "field": "hindi",
+  "old": "जब जलों से तुम चारों ओर सींचे जाते हो और लोगों द्वारा शुद्ध किए जाते हो, तब द्रोण में साझे स्थान को पहुँचते हो।",
+  "new": "जब जलों से तुम चारों ओर सींचे जाते हो और लोगों द्वारा शुद्ध किए जाते हो, द्रोण में साझे स्थान को पहुँचते हो।",
+  "why": "reviewer (minor): Hindi adds the correlative 'तब' (then); the Sanskrit and English have none."
+ },
+ {
+  "n": "786",
+  "field": "english",
+  "old": "Flow hither, rejoicing, O well-armed one, with good heroic strength; come here well indeed, O drop.",
+  "new": "Flow hither, rejoicing, O well-armed one, with good heroic strength; come here well, O drop.",
+  "why": "reviewer (error): Particle u (iha u) is translated ('indeed') in English but not in Hindi; glossary: translate in both or neither."
+ },
+ {
+  "n": "786",
+  "field": "word.gloss",
+  "word": "u",
+  "old": "indeed",
+  "new": "particle (not translated)",
+  "why": "reviewer (error): Particle u (iha u) is translated ('indeed') in English but not in Hindi; glossary: translate in both or neither."
+ },
+ {
+  "n": "786",
+  "field": "hindi",
+  "old": "हे सुन्दर आयुधों वाले, आनन्दित होते हुए उत्तम वीर्य के साथ यहाँ बहो; हे बूँद, यहाँ भली-भाँति आओ।",
+  "new": "हे उत्तम आयुधों वाले, आनन्दित होते हुए उत्तम वीर्य के साथ यहाँ बहो; हे बूँद, यहाँ भली-भाँति आओ।",
+  "why": "reviewer (minor): su-āyudha is 'well-armed'; सुन्दर means beautiful."
+ },
+ {
+  "n": "789",
+  "field": "word.w",
+  "word": "vīra-vatīm",
+  "old": "vīra-vatīm",
+  "new": "vīravatīm",
+  "why": "reviewer (error): Glossary: do not split at -vat/-vant. The word is vīravatīm."
+ },
+ {
+  "n": "789",
+  "field": "hindi",
+  "old": "वही तुम शुद्ध होते हुए हमारे लिए धन और वीरों से युक्त पोषण लाओ, हे सोम, सब ओर से स्वामी होते हुए।",
+  "new": "वही शुद्ध होते हुए हमारे लिए धन और वीरों से युक्त पोषण लाओ, हे सोम, सब ओर से स्वामी होते हुए।",
+  "why": "reviewer (minor): Hindi adds तुम; English has 'That one' (sa)."
+ },
+ {
+  "n": "790",
+  "field": "word.gloss",
+  "word": "su-kratum",
+  "old": "very wise, skilful",
+  "new": "of good power",
+  "why": "reviewer (error): Glossary: kratu = power, Hindi शक्ति; 'skilful/कुशल' is not allowed (dakṣa is skill)."
+ },
+ {
+  "n": "790",
+  "field": "english",
+  "old": "We choose Agni as messenger, the Hotṛ priest, the all-knowing, the very skilful one of this sacrifice.",
+  "new": "We choose Agni, the messenger, the Hotṛ priest, the all-knowing, the one of good power of this sacrifice.",
+  "why": "reviewer (error): Glossary: kratu = power, Hindi शक्ति; 'skilful/कुशल' is not allowed (dakṣa is skill)."
+ },
+ {
+  "n": "790",
+  "field": "hindi",
+  "old": "हम अग्नि को दूत के रूप में चुनते हैं, जो होता है, सब कुछ जाननेवाला है और इस यज्ञ का अत्यन्त कुशल है।",
+  "new": "हम दूत अग्नि को चुनते हैं, होता को, सब कुछ जानने वाले को, इस यज्ञ की उत्तम शक्ति वाले को।",
+  "why": "reviewer (error): Glossary: kratu = power, Hindi शक्ति; 'skilful/कुशल' is not allowed (dakṣa is skill)."
+ },
+ {
+  "n": "790",
+  "field": "notes",
+  "old": "'viśva-vedasam' can also mean 'possessing all wealth'; 'all-knowing' used. 'sukratum' with 'asya yajñasya' is read 'very skilful (in) this sacrifice'.",
+  "new": "'viśva-vedasam' can also mean 'possessing all wealth'; 'all-knowing' used. 'su-kratum' with 'asya yajñasya' is read 'of good power, of this sacrifice'.",
+  "why": "reviewer (error): Glossary: kratu = power, Hindi शक्ति; 'skilful/कुशल' is not allowed (dakṣa is skill)."
+ },
+ {
+  "n": "793",
+  "field": "english",
+  "old": "We call Mitra, Varuṇa for the drinking of Soma, who are born, of purified skill.",
+  "new": "We call Mitra, Varuṇa for the drinking of Soma, the two who are born, of purified skill.",
+  "why": "reviewer (minor): Hindi has दोनों (dual); English does not mark the dual."
+ },
+ {
+  "n": "796",
+  "field": "english",
+  "old": "The singers of gāthā songs praised Indra; the chanters praised Indra loudly with hymns (arka); the voices praised Indra.",
+  "new": "The singers of gāthā songs praised Indra; the chanters praised Indra loudly with chants (arka); the voices praised Indra.",
+  "why": "reviewer (minor): Glossary: arka = chant (मंत्र-गीत), kept apart from stoma = hymn."
+ },
+ {
+  "n": "796",
+  "field": "word.gloss",
+  "word": "arkebhiḥ",
+  "old": "with hymns (arka)",
+  "new": "with chants (arka)",
+  "why": "reviewer (minor): Glossary: arka = chant (मंत्र-गीत), kept apart from stoma = hymn."
+ },
+ {
+  "n": "796",
+  "field": "word.gloss",
+  "word": "arkiṇaḥ",
+  "old": "chanters of hymns",
+  "new": "chanters of chants",
+  "why": "reviewer (minor): Glossary: arka = chant (मंत्र-गीत), kept apart from stoma = hymn."
+ },
+ {
+  "n": "796",
+  "field": "word.gloss",
+  "word": "id",
+  "old": "only",
+  "new": "indeed (particle, not translated)",
+  "why": "reviewer (minor): id is glossed 'only' but is translated in neither language."
+ },
+ {
+  "n": "797",
+  "field": "notes",
+  "old": "Ṛgvedic mantra (RV 1.7.2). haryoḥ is locative dual ('on the two bays') or genitive; vacoyujā is a dual (Vedic -ā) describing the horses despite the case mismatch.",
+  "new": "haryoḥ is locative dual ('on the two bays') or genitive; vacoyujā is a dual (Vedic -ā) describing the horses despite the case mismatch.",
+  "why": "reviewer (error): Notes may not carry Ṛgveda parallels."
+ },
+ {
+  "n": "798",
+  "field": "notes",
+  "old": "Ṛgvedic mantra (RV 1.7.4). ugra could also be nom. ugraḥ 'you, the mighty one'.",
+  "new": "ugra could also be nom. ugraḥ 'you, the mighty one'.",
+  "why": "reviewer (error): Notes may not carry Ṛgveda parallels."
+ },
+ {
+  "n": "798",
+  "field": "hindi",
+  "old": "हे इन्द्र! वाज के संग्रामों में और सहस्र धनोंवाले युद्धों में हमारी रक्षा करो, हे उग्र! उग्र रक्षाओं से।",
+  "new": "हे इन्द्र! वाज के संग्रामों में और सहस्र धनोंवाले युद्धों में हमारी सहायता करो, हे उग्र! उग्र रक्षाओं से।",
+  "why": "reviewer (minor): English 'help' for ava but Hindi 'रक्षा' (protect); ūti is सहायता elsewhere (775, 795)."
+ },
+ {
+  "n": "798",
+  "field": "hindi",
+  "old": "हे इन्द्र! वाज के संग्रामों में और सहस्र धनोंवाले युद्धों में हमारी सहायता करो, हे उग्र! उग्र रक्षाओं से।",
+  "new": "हे इन्द्र! वाज के संग्रामों में और सहस्र धनोंवाले युद्धों में हमारी सहायता करो, हे उग्र! उग्र सहायताओं से।",
+  "why": "reviewer (minor): English 'help' for ava but Hindi 'रक्षा' (protect); ūti is सहायता elsewhere (775, 795)."
+ },
+ {
+  "n": "800",
+  "field": "hindi",
+  "old": "हम इन्द्र और अग्नि को सहायता चाहते हुए, बुद्धि से और गीत से, महान् नमन और सुन्दर स्तुति भेजते हैं।",
+  "new": "हम इन्द्र और अग्नि को सहायता चाहते हुए, बुद्धि से और गीत से, महान् नमन, सुन्दर स्तुति भेजते हैं।",
+  "why": "reviewer (minor): Hindi adds 'और' between namaḥ and suvṛktim; English and Sanskrit have none."
+ },
+ {
+  "n": "801",
+  "field": "hindi",
+  "old": "प्रेरित मेधावी बार-बार इस प्रकार सहायता के लिए उन दोनों की ही स्तुति करते हैं; संकट में पड़े हुए, वाज की प्राप्ति के लिए।",
+  "new": "प्रेरित मेधावी बार-बार इस प्रकार सहायता के लिए उन दोनों की ही स्तुति करते हैं; बाधा से घिरे हुए, वाज की प्राप्ति के लिए।",
+  "why": "reviewer (minor): संकट is the glossary Hindi for aṃhas (distress); sabādha is 'with oppression, hard pressed'."
+ },
+ {
+  "n": "802",
+  "field": "hindi",
+  "old": "उन दोनों, तुम दोनों को हम गीतों से पुकारते हैं, उत्साही और भेंट लाने वाले, मेधा की प्राप्ति में जीतने की इच्छा रखते हुए।",
+  "new": "उन दोनों, तुम दोनों को हम स्तुतियों से पुकारते हैं, उत्साही और भेंट लाने वाले, मेधा की प्राप्ति में जीतने की इच्छा रखते हुए।",
+  "why": "reviewer (minor): gir = song (स्तुति) in the glossary; vipanyu means 'eager to praise' and Hindi drops 'to praise'."
+ },
+ {
+  "n": "802",
+  "field": "hindi",
+  "old": "उन दोनों, तुम दोनों को हम स्तुतियों से पुकारते हैं, उत्साही और भेंट लाने वाले, मेधा की प्राप्ति में जीतने की इच्छा रखते हुए।",
+  "new": "उन दोनों, तुम दोनों को हम स्तुतियों से पुकारते हैं, स्तुति के लिए उत्सुक और भेंट लाने वाले, मेधा की प्राप्ति में जीतने की इच्छा रखते हुए।",
+  "why": "reviewer (minor): gir = song (स्तुति) in the glossary; vipanyu means 'eager to praise' and Hindi drops 'to praise'."
+ },
+ {
+  "n": "803",
+  "field": "english",
+  "old": "Flow clear, mighty one, with the stream, exhilarating for the one accompanied by the Maruts, bearing all with vigour.",
+  "new": "Flow clear, mighty one, with the stream, and for the one accompanied by the Maruts, exhilarating, bearing all with vigour.",
+  "why": "reviewer (minor): ca ('and') after marutvate is dropped in both languages."
+ },
+ {
+  "n": "803",
+  "field": "hindi",
+  "old": "बलवान, धारा के साथ बहो, मरुतों वाले के लिए उल्लासकारी, सबको ओज से धारण करते हुए।",
+  "new": "बलवान, धारा के साथ बहो, और मरुतों वाले के लिए उल्लासकारी, सबको ओज से धारण करते हुए।",
+  "why": "reviewer (minor): ca ('and') after marutvate is dropped in both languages."
+ },
+ {
+  "n": "805",
+  "field": "hindi",
+  "old": "भूरे, धारा के साथ बहो; वाजों में साथी को प्रेरित करो।",
+  "new": "इसके साथ, भूरे, धारा के साथ बहो; वाजों में साथी को प्रेरित करो।",
+  "why": "reviewer (minor): ayā ('with this') is clear and translated in English but missing in Hindi."
+ },
+ {
+  "n": "807",
+  "field": "english",
+  "old": "Juicy, swelling with milk, impelling the sweet Soma-stalk, you go. O flowing one, you go on in an unbroken course, making [it] for Indra, O Soma, being poured around.",
+  "new": "Juicy, swelling with milk, impelling the sweet Soma-stalk, you go. O flowing one, you go on in an unbroken course, making for Indra, O Soma, being poured around.",
+  "why": "reviewer (minor): English supplies an object '[it]' that Hindi and the Sanskrit lack."
+ },
+ {
+  "n": "811",
+  "field": "english",
+  "old": "Sing forth to Indra, rich in bounty, as I know how; he who, bountiful and rich in wealth, gives to the singers as if by thousands.",
+  "new": "Sing forth to your Indra, rich in bounty, as I know how; he who, bountiful and rich in wealth, gives to the singers as if by thousands.",
+  "why": "reviewer (minor): vaḥ (enclitic 'your') is dropped in English while Hindi has an added तुम."
+ },
+ {
+  "n": "811",
+  "field": "hindi",
+  "old": "जैसा मैं जानता हूँ, वैसे उत्तम उदारता वाले इन्द्र की ओर तुम आगे बढ़कर स्तुति करो; जो धनी और उदार इन्द्र स्तोताओं को मानो हज़ारों से देता है।",
+  "new": "जैसा मैं जानता हूँ, वैसे उत्तम उदारता वाले तुम्हारे इन्द्र की ओर आगे बढ़कर स्तुति करो; जो धनी और उदार इन्द्र स्तोताओं को मानो हज़ारों से देता है।",
+  "why": "reviewer (minor): vaḥ (enclitic 'your') is dropped in English while Hindi has an added तुम."
+ },
+ {
+  "n": "814",
+  "field": "notes",
+  "old": "tam īmahe 'we beg him' is odd; the RV parallel reads tad īmahe 'we beg that'. Not applied. su-śiprin: śipra is lip or jaw (helmet); 'fair-lipped' is conventional. vedhasaḥ 'the devout ones' is tentative. upamāni 'highest' (or 'nearest'). Line b has no verb; [are] is supplied.",
+  "new": "tam īmahe 'we beg him' is kept as printed; the object is not clear in the line. su-śiprin: śipra is lip or jaw (helmet); 'fair-lipped' is conventional. vedhasaḥ 'the devout ones' is tentative. upamāni 'highest' (or 'nearest'). Line b has no verb; [are] is supplied.",
+  "why": "reviewer (error): Notes may not carry Ṛgveda parallels."
+ },
+ {
+  "n": "815",
+  "field": "english",
+  "old": "With that choice exhilarating drink of yours, flow with the juice, you who favour the gods, slayer of the evil-wisher.",
+  "new": "Your exhilarating drink which is choice: with that, flow with the juice, you who favour the gods, slayer of the evil-wisher.",
+  "why": "reviewer (minor): The relative yaḥ ('which') is dropped in English while Hindi has जो ... है."
+ },
+ {
+  "n": "815",
+  "field": "hindi",
+  "old": "तुम्हारा जो वरणीय मद है, उसी रस के साथ बहो, देवों को प्रसन्न करने वाले, बुरा चाहने वाले को मारने वाले।",
+  "new": "तुम्हारा जो वरणीय मद है, उसी रस के साथ बहो, देवगण पर अनुग्रह करने वाले, बुरा चाहने वाले को मारने वाले।",
+  "why": "reviewer (minor): Glossary: devas in Hindi = देवगण; and 'please' is not 'favour'."
+ },
+ {
+  "n": "818",
+  "field": "english",
+  "old": "This is Pūṣan, wealth, Bhaga: Soma, being purified, flows. Lord of all abundance, he has surveyed both worlds.",
+  "new": "This Pūṣan, wealth, Bhaga, Soma, being purified, flows. Lord of all abundance, he has surveyed both worlds.",
+  "why": "reviewer (error): English supplies 'is' (Hindi has no verb), and Hindi adds वह ... है in line b: verbs supplied in one language only. The Sanskrit nominatives stand in apposition to somaḥ."
+ },
+ {
+  "n": "818",
+  "field": "hindi",
+  "old": "यह पूषन्, धन, भग—सोम शुद्ध होता हुआ बहता है। वह सबकी समृद्धि का स्वामी है; उसने दोनों लोकों पर दृष्टि डाली है।",
+  "new": "यह पूषन्, धन, भग, सोम, शुद्ध होता हुआ बहता है। सबकी समृद्धि का स्वामी, उसने दोनों लोकों पर दृष्टि डाली है।",
+  "why": "reviewer (error): English supplies 'is' (Hindi has no verb), and Hindi adds वह ... है in line b: verbs supplied in one language only. The Sanskrit nominatives stand in apposition to somaḥ."
+ },
+ {
+  "n": "818",
+  "field": "word.gloss",
+  "word": "bhagaḥ",
+  "old": "Bhaga, bounty",
+  "new": "Bhaga",
+  "why": "reviewer (minor): Gloss adds 'bounty'; in a deity list it is Bhaga."
+ },
+ {
+  "n": "821",
+  "field": "english",
+  "old": "The bull of the hymns, far-seeing Soma, flows clear, the prolonger of the days, of the dawns, of heaven. The breath of the streams has roared at the vessels, entering Indra's heart with the inspired ones.",
+  "new": "The bull of the prayers, far-seeing Soma, flows clear, the prolonger of the days, of the dawns, of heaven. The breath of the streams has roared at the vessels, entering Indra's heart with the inspired ones.",
+  "why": "reviewer (minor): Glossary: mati = thought, prayer (not hymn, which is stoma). Hindi 'सर्वद्रष्टा' (all-seeing) does not match 'far-seeing'."
+ },
+ {
+  "n": "821",
+  "field": "word.gloss",
+  "word": "matīnām",
+  "old": "of the hymns, thoughts",
+  "new": "of the prayers, thoughts",
+  "why": "reviewer (minor): Glossary: mati = thought, prayer (not hymn, which is stoma). Hindi 'सर्वद्रष्टा' (all-seeing) does not match 'far-seeing'."
+ },
+ {
+  "n": "821",
+  "field": "hindi",
+  "old": "स्तुतियों का वृषभ, सर्वद्रष्टा सोम, शुद्ध होकर बहता है, दिनों, उषाओं और आकाश को बढ़ाने वाला। नदियों का प्राण कलशों पर गरजा है, मनीषियों के साथ इन्द्र के हृदय में प्रवेश करता हुआ।",
+  "new": "प्रार्थनाओं का वृषभ, दूरदर्शी सोम, शुद्ध होकर बहता है, दिनों, उषाओं और आकाश को बढ़ाने वाला। नदियों का प्राण कलशों पर गरजा है, मनीषियों के साथ इन्द्र के हृदय में प्रवेश करता हुआ।",
+  "why": "reviewer (minor): Glossary: mati = thought, prayer (not hymn, which is stoma). Hindi 'सर्वद्रष्टा' (all-seeing) does not match 'far-seeing'."
+ },
+ {
+  "n": "822",
+  "field": "english",
+  "old": "By the inspired ones he flows clear, the ancient seer, guided by men; he has flowed around the vats. Generating the name of Trita, streaming honey, strengthening Indra's Vāyu for friendship.",
+  "new": "By the inspired ones he flows clear, the ancient seer, guided by men; he has flowed around the vats. Generating the name of Trita, streaming the sweet drink (madhu), strengthening Indra's Vāyu for friendship.",
+  "why": "reviewer (error): Glossary: madhu = sweet drink (मधु), not honey."
+ },
+ {
+  "n": "822",
+  "field": "word.gloss",
+  "word": "madhu",
+  "old": "honey",
+  "new": "sweet drink (madhu)",
+  "why": "reviewer (error): Glossary: madhu = sweet drink (मधु), not honey."
+ },
+ {
+  "n": "823",
+  "field": "hindi",
+  "old": "यह शुद्ध होता हुआ उषाओं को चमकाया; यह धाराओं के लिए ही लोक-निर्माता हुआ। यह तीन बार सात मिश्रण दुहता हुआ सोम हृदय के लिए सुन्दर और उल्लासकारी बहता है।",
+  "new": "इसने शुद्ध होते हुए उषाओं को चमकाया; यह निश्चय ही नदियों के लिए स्थान बनाने वाला हुआ। यह तीन बार सात मिश्रण दुहता हुआ सोम हृदय के लिए सुन्दर और उल्लासकारी बहता है।",
+  "why": "reviewer (minor): Ungrammatical Hindi (no agent for चमकाया); u (indeed) is attached to the wrong phrase; loka is 'space' in English but 'लोक' in Hindi; sindhu = streams (नदियों in 821)."
+ },
+ {
+  "n": "825",
+  "field": "english",
+  "old": "Thus the gift, O one of mighty bounty, has been established by all the establishers; and then indeed, O Indra, with us.",
+  "new": "Thus the gift, O one of mighty bounty, has been established by all the establishers; then indeed, O Indra, with us.",
+  "why": "reviewer (minor): 'and' is added; adhā cid is 'then indeed'."
+ },
+ {
+  "n": "825",
+  "field": "hindi",
+  "old": "इस प्रकार दान, हे सुदृढ़ दान वाले, सब स्थापित करने वालों द्वारा स्थापित हुआ है; और तब ही, हे इन्द्र, हमारे साथ।",
+  "new": "इस प्रकार दान, हे सुदृढ़ दान वाले, सब स्थापित करने वालों द्वारा स्थापित हुआ है; तब ही, हे इन्द्र, हमारे साथ।",
+  "why": "reviewer (minor): 'and' is added; adhā cid is 'then indeed'."
+ },
+ {
+  "n": "826",
+  "field": "notes",
+  "old": "Reading mo ṣu = mā u su 'never at all'. tadindrayur is read as tandrayuḥ on the strength of the RV parallel; if the printed tad indrayuḥ is kept, the line is unclear. brahmā iva is taken as 'like a Brahman priest'. gomataḥ 'rich in cows' may mean 'mixed with milk'; not decided.",
+  "new": "Reading mo ṣu = mā u su 'never at all'. tadindrayur is read as tandrayuḥ (sluggish) because 'tad indrayuḥ' gives no clear sense after 'like a Brahman priest ... be'; if the printed form is kept, the line is unclear. brahmā iva is taken as 'like a Brahman priest'. gomataḥ 'rich in cows' may mean 'mixed with milk'; not decided.",
+  "why": "reviewer (error): Notes and the text_flags reason import a Ṛgveda parallel; the emendation tandrayuḥ must rest on the sense and the letters only. A read-through still gives only a tentative reading, so confidence should be low."
+ },
+ {
+  "n": "826",
+  "field": "text_flags.0.why",
+  "old": "possible: RV parallel reads 'brahmeva tandrayur bhuvaḥ' (sluggish); 'tad indrayuḥ' ('that, devoted to Indra') gives no clear sense here",
+  "new": "possible: 'tad indrayuḥ' gives no clear sense here; 'tandrayuḥ' (sluggish) fits the sense and nearly the letters",
+  "why": "reviewer (error): Notes and the text_flags reason import a Ṛgveda parallel; the emendation tandrayuḥ must rest on the sense and the letters only. A read-through still gives only a tentative reading, so confidence should be low."
+ },
+ {
+  "n": "826",
+  "field": "confidence",
+  "old": "medium",
+  "new": "low",
+  "why": "reviewer (error): Notes and the text_flags reason import a Ṛgveda parallel; the emendation tandrayuḥ must rest on the sense and the letters only. A read-through still gives only a tentative reading, so confidence should be low."
+ },
+ {
+  "n": "827",
+  "field": "word.w",
+  "word": "rathī-tamam",
+  "old": "rathī-tamam",
+  "new": "rathītamam",
+  "why": "reviewer (error): Glossary: do not split at -tama. Word is rathītamam."
+ },
+ {
+  "n": "827",
+  "field": "english",
+  "old": "All the songs have strengthened Indra, who is wide as the ocean, the best charioteer of charioteers, the true lord of prizes, the lord.",
+  "new": "All the songs have strengthened Indra, who is wide as the ocean, the best charioteer of charioteers, of prizes, the lord of the good, the lord.",
+  "why": "reviewer (error): Glossary: satpati = lord of the good, not 'true lord'. Gloss 'true lord, lord of the true' also needs changing."
+ },
+ {
+  "n": "827",
+  "field": "hindi",
+  "old": "सब स्तुतियों ने इन्द्र को बढ़ाया है, जो समुद्र के समान विस्तार वाला है, रथियों में सबसे श्रेष्ठ रथी है, वाजों का सच्चा स्वामी, स्वामी है।",
+  "new": "सब स्तुतियों ने इन्द्र को बढ़ाया है, जो समुद्र के समान विस्तार वाला है, रथियों में सबसे श्रेष्ठ रथी है, वाजों का, सत्पुरुषों का स्वामी, स्वामी है।",
+  "why": "reviewer (error): Glossary: satpati = lord of the good, not 'true lord'. Gloss 'true lord, lord of the true' also needs changing."
+ },
+ {
+  "n": "827",
+  "field": "word.gloss",
+  "word": "sat-patim",
+  "old": "true lord, lord of the true",
+  "new": "lord of the good",
+  "why": "reviewer (error): Glossary: satpati = lord of the good, not 'true lord'. Gloss 'true lord, lord of the true' also needs changing."
+ }
+]
