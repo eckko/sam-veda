@@ -1,0 +1,686 @@
+{
+ "units": [
+  {
+   "n": "1253",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "छलनी",
+     "problem": "pavitra = filter (छन्ना) per glossary; छलनी is not the fixed rendering",
+     "fix": "छन्ने",
+     "severity": "minor",
+     "patch": {
+      "n": "1253",
+      "op": "replace",
+      "field": "hindi",
+      "old": "छलनी",
+      "new": "छन्ने"
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "भेड़ के पृष्ठ पर",
+     "problem": "English says sheep's fleece, Hindi drops the fleece (avi/avya = भेड़ के बाल)",
+     "fix": "भेड़ के बालों के पृष्ठ पर",
+     "severity": "error",
+     "patch": {
+      "n": "1253",
+      "op": "replace",
+      "field": "hindi",
+      "old": "भेड़ के पृष्ठ पर",
+      "new": "भेड़ के बालों के पृष्ठ पर"
+     }
+    },
+    {
+     "field": "gloss",
+     "where": "avye",
+     "problem": "gloss omits fleece; glossary avi/avya = sheep's fleece",
+     "fix": "of the sheep's fleece",
+     "severity": "minor",
+     "patch": {
+      "n": "1253",
+      "op": "word",
+      "match_w": "avye",
+      "field": "gloss",
+      "value": "of the sheep's fleece"
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "जबकि पत्थर ध्वनि कर रहा है",
+     "problem": "Hindi adds a subordinating 'while'; English has an absolute 'the stone sounding'",
+     "fix": "पत्थर ध्वनि करता हुआ",
+     "severity": "minor",
+     "patch": {
+      "n": "1253",
+      "op": "replace",
+      "field": "hindi",
+      "old": "जबकि पत्थर ध्वनि कर रहा है",
+      "new": "पत्थर ध्वनि करता हुआ"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1254",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1255",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "he chose",
+     "problem": "'he' added in English only (garbha is the subject of avṛṇīta)",
+     "fix": "when the child of the waters chose the gods",
+     "severity": "error",
+     "patch": {
+      "n": "1255",
+      "op": "replace",
+      "field": "english",
+      "old": "when, the child of the waters, he chose the gods",
+      "new": "when the child of the waters chose the gods"
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "देवों",
+     "problem": "glossary: Hindi devas (pl.) = देवगण",
+     "fix": "देवगण",
+     "severity": "minor",
+     "patch": {
+      "n": "1255",
+      "op": "replace",
+      "field": "hindi",
+      "old": "देवों को वरण",
+      "new": "देवगण को वरण"
+     }
+    },
+    {
+     "field": "gloss",
+     "where": "induḥ / इन्दु",
+     "problem": "part 04 drafts render indu as 'the drop' (1275, 1277, 1289, 1290, 1297); 'Indu' as a name contradicts glossary line indu = drop",
+     "fix": "the drop; Hindi बूँद",
+     "severity": "error",
+     "patch": [
+      {
+       "n": "1255",
+       "op": "word",
+       "match_w": "induḥ",
+       "field": "gloss",
+       "value": "the drop"
+      },
+      {
+       "n": "1255",
+       "op": "replace",
+       "field": "english",
+       "old": "The flowing Indu placed",
+       "new": "The flowing drop placed"
+      },
+      {
+       "n": "1255",
+       "op": "replace",
+       "field": "hindi",
+       "old": "बहता हुआ इन्दु इन्द्र में बल को रखा",
+       "new": "बहती हुई बूँद ने इन्द्र में बल रखा"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "1256",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1257",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1258",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1259",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1260",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1261",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gram",
+     "where": "vipā",
+     "problem": "stem not secure: vipā cannot be an instrumental of vipra; 'm.' is unsupported, and the note's claim that 'by the inspired one follows the glossary' is false (glossary has vipra, not vipā)",
+     "fix": "inst. sg. (stem uncertain)",
+     "severity": "error",
+     "patch": {
+      "n": "1261",
+      "op": "word",
+      "match_w": "vipā",
+      "field": "gram",
+      "value": "inst. sg. (stem uncertain)"
+     }
+    },
+    {
+     "field": "notes",
+     "where": "follows the glossary",
+     "problem": "false appeal to the glossary",
+     "fix": "'by the inspired one' is a guess; 'by inspiration' (a feminine instrumental) is equally possible.",
+     "severity": "error",
+     "patch": {
+      "n": "1261",
+      "op": "replace",
+      "field": "notes",
+      "old": "'by the inspired one' follows the glossary, 'by inspiration' (a feminine instrumental) is also possible.",
+      "new": "'by the inspired one' is a guess; 'by inspiration' (a feminine instrumental) is equally possible."
+     }
+    },
+    {
+     "field": "confidence",
+     "where": "unit",
+     "problem": "firm reading of an uncertain word",
+     "fix": "low",
+     "severity": "minor",
+     "patch": {
+      "n": "1261",
+      "op": "set",
+      "field": "confidence",
+      "value": "low"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1262",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1263",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1264",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1265",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "व्रतों",
+     "problem": "glossary: vrata Hindi = नियम (supersedes व्रत)",
+     "fix": "बहुत नियमों वाला",
+     "severity": "minor",
+     "patch": {
+      "n": "1265",
+      "op": "replace",
+      "field": "hindi",
+      "old": "बहुत व्रतों वाला",
+      "new": "बहुत नियमों वाला"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1266",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "निर्धारित",
+     "problem": "English 'prepared place' but Hindi 'appointed/determined'; not the same sense",
+     "fix": "तैयार किए गए स्थान",
+     "severity": "minor",
+     "patch": {
+      "n": "1266",
+      "op": "replace",
+      "field": "hindi",
+      "old": "इन्द्र के निर्धारित स्थान की ओर",
+      "new": "इन्द्र के तैयार किए गए स्थान की ओर"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1267",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1268",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "द्रोणों में",
+     "problem": "upa ('at') is rendered in English but not in Hindi",
+     "fix": "द्रोणों के पास",
+     "severity": "minor",
+     "patch": {
+      "n": "1268",
+      "op": "replace",
+      "field": "hindi",
+      "old": "द्रोणों में शुद्ध करते हैं",
+      "new": "द्रोणों के पास शुद्ध करते हैं"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1269",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "led forth",
+     "problem": "vi is glossed 'through' but English says 'forth'; Hindi omits vi",
+     "fix": "is led through within",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "1269",
+       "op": "replace",
+       "field": "english",
+       "old": "is led forth within",
+       "new": "is led through within"
+      },
+      {
+       "n": "1269",
+       "op": "replace",
+       "field": "hindi",
+       "old": "भीतर शुद्ध मार्ग से ले जाया जाता है",
+       "new": "भीतर शुद्ध मार्ग से होकर ले जाया जाता है"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "1270",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gloss",
+     "where": "aṃśubhiḥ",
+     "problem": "glossary: aṃśu = Soma-stalk (सोम का डण्ठल)",
+     "fix": "with Soma-stalks",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "1270",
+       "op": "word",
+       "match_w": "aṃśubhiḥ",
+       "field": "gloss",
+       "value": "with Soma-stalks"
+      },
+      {
+       "n": "1270",
+       "op": "replace",
+       "field": "english",
+       "old": "bright stalks",
+       "new": "bright Soma-stalks"
+      },
+      {
+       "n": "1270",
+       "op": "replace",
+       "field": "hindi",
+       "old": "उजले डण्ठलों",
+       "new": "उजले सोम के डण्ठलों"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "1271",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1272",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1273",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "अत्यंत मदकारी",
+     "problem": "madintama is a superlative; 'अत्यंत' is only 'very'",
+     "fix": "सबसे अधिक मदकारी",
+     "severity": "minor",
+     "patch": {
+      "n": "1273",
+      "op": "replace",
+      "field": "hindi",
+      "old": "अत्यंत मदकारी",
+      "new": "सबसे अधिक मदकारी"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1274",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "ऊन से",
+     "problem": "glossary avya = sheep's fleece (भेड़ के बाल)",
+     "fix": "भेड़ के बालों से",
+     "severity": "minor",
+     "patch": {
+      "n": "1274",
+      "op": "replace",
+      "field": "hindi",
+      "old": "ऊन से",
+      "new": "भेड़ के बालों से"
+     }
+    },
+    {
+     "field": "notes",
+     "where": "The chariot is a figure for Soma",
+     "problem": "imports an interpretation from outside the line",
+     "fix": "delete sentence",
+     "severity": "minor",
+     "patch": {
+      "n": "1274",
+      "op": "replace",
+      "field": "notes",
+      "old": " The chariot is a figure for Soma; this is not stated in the line.",
+      "new": ""
+     }
+    }
+   ]
+  },
+  {
+   "n": "1275",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1276",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1277",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1278",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "आसन",
+     "problem": "glossary (latest): yoni = seat (स्थान)",
+     "fix": "प्रिय स्थान",
+     "severity": "minor",
+     "patch": {
+      "n": "1278",
+      "op": "replace",
+      "field": "hindi",
+      "old": "प्रिय आसन",
+      "new": "प्रिय स्थान"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1279",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "मद के लिए",
+     "problem": "glossary: mada = exhilaration (आनन्द)",
+     "fix": "आनन्द के लिए",
+     "severity": "minor",
+     "patch": {
+      "n": "1279",
+      "op": "replace",
+      "field": "hindi",
+      "old": "मद के लिए",
+      "new": "आनन्द के लिए"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1280",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1281",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1282",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "आसन पर",
+     "problem": "glossary: yoni = seat (स्थान)",
+     "fix": "स्थान पर",
+     "severity": "minor",
+     "patch": {
+      "n": "1282",
+      "op": "replace",
+      "field": "hindi",
+      "old": "आसन पर",
+      "new": "स्थान पर"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1283",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "guided",
+     "problem": "yam = restrain; Hindi संयमित is 'restrained', English 'guided' differs",
+     "fix": "restrained by the ten sisters",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "1283",
+       "op": "replace",
+       "field": "english",
+       "old": "guided by the ten sisters",
+       "new": "restrained by the ten sisters"
+      },
+      {
+       "n": "1283",
+       "op": "word",
+       "match_w": "yataḥ",
+       "field": "gloss",
+       "value": "restrained"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "1284",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "मदकारी, मद",
+     "problem": "glossary: mada = exhilaration (आनन्द)",
+     "fix": "छन्ने पर मदकारी, आनन्द।",
+     "severity": "minor",
+     "patch": {
+      "n": "1284",
+      "op": "replace",
+      "field": "hindi",
+      "old": "मदकारी, मद।",
+      "new": "मदकारी, आनन्द।"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1285",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1286",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "confidence",
+     "where": "unit",
+     "problem": "tośate / √tuś is admitted as uncertain and 'hastens' provisional; medium is too firm",
+     "fix": "low",
+     "severity": "minor",
+     "patch": {
+      "n": "1286",
+      "op": "set",
+      "field": "confidence",
+      "value": "low"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1287",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1288",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1289",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1290",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1291",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1292",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1293",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "आसन की ओर",
+     "problem": "glossary: yoni = seat (स्थान)",
+     "fix": "स्थान की ओर",
+     "severity": "minor",
+     "patch": {
+      "n": "1293",
+      "op": "replace",
+      "field": "hindi",
+      "old": "आसन की ओर",
+      "new": "स्थान की ओर"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1294",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gloss",
+     "where": "avyayam",
+     "problem": "unit 1280 renders the fleece strainer as 'strainer of fleece' (भेड़ के बालों की छन्नी); 1294 uses 'woollen/ऊनी'",
+     "fix": "strainer of fleece",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "1294",
+       "op": "word",
+       "match_w": "avyayam",
+       "field": "gloss",
+       "value": "of fleece"
+      },
+      {
+       "n": "1294",
+       "op": "replace",
+       "field": "english",
+       "old": "through the woollen strainer",
+       "new": "through the strainer of fleece"
+      },
+      {
+       "n": "1294",
+       "op": "replace",
+       "field": "hindi",
+       "old": "ऊनी छन्नी",
+       "new": "भेड़ के बालों की छन्नी"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "1295",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1296",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1297",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1298",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1299",
+   "verdict": "ok",
+   "issues": []
+  }
+ ],
+ "summary": "47 units reviewed word by word. 5 errors, 21 minor, all machine-patched. No regrouping. Manual: 1255 'mahat tat' supplies 'thing'/कार्य in both languages unbracketed (mahiṣa 'mighty' vs glossary buffalo); systematic English 'purifying himself' adds 'himself' for middle pavamāna (Hindi has none); 1272 pibdanaḥ untranslated in Hindi by design."
+}

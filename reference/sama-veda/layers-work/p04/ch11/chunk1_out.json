@@ -1,0 +1,234 @@
+[
+ {
+  "n": "1347",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "suṣamiddho",
+      "words": [
+       {
+        "w": "su-samiddhaḥ",
+        "gloss": "well-kindled",
+        "gram": "m. nom. sg."
+       }
+      ]
+     },
+     {
+      "src": "na",
+      "words": [
+       {
+        "w": "naḥ",
+        "gloss": "for us",
+        "gram": "1 pl. acc./dat."
+       }
+      ]
+     },
+     {
+      "src": "ā",
+      "words": [
+       {
+        "w": "ā",
+        "gloss": "here",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "vaha",
+      "words": [
+       {
+        "w": "vaha",
+        "gloss": "bring",
+        "gram": "2 sg. imv. √vah"
+       }
+      ]
+     },
+     {
+      "src": "devā~",
+      "words": [
+       {
+        "w": "devān",
+        "gloss": "gods",
+        "gram": "m. acc. pl."
+       }
+      ]
+     },
+     {
+      "src": "agne",
+      "words": [
+       {
+        "w": "agne",
+        "gloss": "O Agni",
+        "gram": "m. voc. sg."
+       }
+      ]
+     },
+     {
+      "src": "haviṣmate",
+      "words": [
+       {
+        "w": "haviṣmate",
+        "gloss": "for the one with the oblation",
+        "gram": "m. dat. sg."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "hotaḥ",
+      "words": [
+       {
+        "w": "hotar",
+        "gloss": "O Hotṛ priest",
+        "gram": "m. voc. sg."
+       }
+      ]
+     },
+     {
+      "src": "pāvaka",
+      "words": [
+       {
+        "w": "pāvaka",
+        "gloss": "O purifier",
+        "gram": "m. voc. sg."
+       }
+      ]
+     },
+     {
+      "src": "yakṣi",
+      "words": [
+       {
+        "w": "yakṣi",
+        "gloss": "sacrifice",
+        "gram": "2 sg. imv. √yaj"
+       }
+      ]
+     },
+     {
+      "src": "ca",
+      "words": [
+       {
+        "w": "ca",
+        "gloss": "and",
+        "gram": "ind."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "भली-भाँति प्रज्वलित होकर हमारे लिए देवगण को ले आओ, हे अग्नि, हवि वाले के लिए; हे होता, हे पावक, यज्ञ करो और।",
+  "english": "Well-kindled, bring the gods here for us, O Agni, for the one with the oblation; O Hotṛ priest, O purifier, sacrifice, and.",
+  "text_flags": [],
+  "notes": "hotaḥ is regular sandhi of hotar before p. The final ca is rendered literally; what it joins is not stated in the unit. naḥ may be dative (for us) or accusative; dative taken.",
+  "confidence": "medium"
+ },
+ {
+  "n": "1348",
+  "lines": [
+   {
+    "tokens": [
+     {
+      "src": "madhumantaṃ",
+      "words": [
+       {
+        "w": "madhumantam",
+        "gloss": "sweet",
+        "gram": "m. acc. sg."
+       }
+      ]
+     },
+     {
+      "src": "tanūnapādyajñaṃ",
+      "words": [
+       {
+        "w": "tanūnapāt",
+        "gloss": "O Tanūnapāt (Son of Himself)",
+        "gram": "m. voc. sg."
+       },
+       {
+        "w": "yajñam",
+        "gloss": "sacrifice",
+        "gram": "m. acc. sg."
+       }
+      ]
+     },
+     {
+      "src": "deveṣu",
+      "words": [
+       {
+        "w": "deveṣu",
+        "gloss": "among the gods",
+        "gram": "m. loc. pl."
+       }
+      ]
+     },
+     {
+      "src": "naḥ",
+      "words": [
+       {
+        "w": "naḥ",
+        "gloss": "our",
+        "gram": "1 pl. gen."
+       }
+      ]
+     },
+     {
+      "src": "kave",
+      "words": [
+       {
+        "w": "kave",
+        "gloss": "O seer",
+        "gram": "m. voc. sg."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "tokens": [
+     {
+      "src": "adyā",
+      "words": [
+       {
+        "w": "adya",
+        "gloss": "today",
+        "gram": "ind."
+       }
+      ]
+     },
+     {
+      "src": "kṛṇuyhūtaye",
+      "words": [
+       {
+        "w": "kṛṇuhi",
+        "gloss": "make",
+        "gram": "2 sg. imv. √kṛ"
+       },
+       {
+        "w": "ūtaye",
+        "gloss": "for aid",
+        "gram": "f. dat. sg."
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "hindi": "हे तनूनपात्, हे कवि, आज देवगणों के बीच हमारे मधुर यज्ञ को सहायता के लिए सम्पन्न करो।",
+  "english": "O Tanūnapāt, O seer, today make our sweet sacrifice among the gods, for aid.",
+  "text_flags": [
+   {
+    "src": "kṛṇuyhūtaye",
+    "suggest": "kṛṇuhyūtaye",
+    "why": "possible transposition of h and y"
+   }
+  ],
+  "notes": "Printed kṛṇuyhūtaye is read kṛṇuhi ūtaye (kṛṇuhy ūtaye) with h and y transposed in print; possible alternative kṛṇuhi hūtaye (for the call). Printed adyā has a lengthened final vowel (regular). Tanūnapāt is kept as a name.",
+  "confidence": "medium"
+ }
+]

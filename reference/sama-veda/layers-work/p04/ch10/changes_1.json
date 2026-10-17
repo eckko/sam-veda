@@ -1,0 +1,246 @@
+[
+ {
+  "n": "1253",
+  "field": "hindi",
+  "old": "समुद्र प्रथम आधार में आगे बढ़ा है, प्रजाओं को उत्पन्न करता हुआ, भुवन का रक्षक; बैल छलनी पर, भेड़ के पृष्ठ पर; सोम खूब बढ़ा है, जबकि पत्थर ध्वनि कर रहा है।",
+  "new": "समुद्र प्रथम आधार में आगे बढ़ा है, प्रजाओं को उत्पन्न करता हुआ, भुवन का रक्षक; बैल छन्ने पर, भेड़ के पृष्ठ पर; सोम खूब बढ़ा है, जबकि पत्थर ध्वनि कर रहा है।",
+  "why": "reviewer (minor): pavitra = filter (छन्ना) per glossary; छलनी is not the fixed rendering"
+ },
+ {
+  "n": "1253",
+  "field": "hindi",
+  "old": "समुद्र प्रथम आधार में आगे बढ़ा है, प्रजाओं को उत्पन्न करता हुआ, भुवन का रक्षक; बैल छन्ने पर, भेड़ के पृष्ठ पर; सोम खूब बढ़ा है, जबकि पत्थर ध्वनि कर रहा है।",
+  "new": "समुद्र प्रथम आधार में आगे बढ़ा है, प्रजाओं को उत्पन्न करता हुआ, भुवन का रक्षक; बैल छन्ने पर, भेड़ के बालों के पृष्ठ पर; सोम खूब बढ़ा है, जबकि पत्थर ध्वनि कर रहा है।",
+  "why": "reviewer (error): English says sheep's fleece, Hindi drops the fleece (avi/avya = भेड़ के बाल)"
+ },
+ {
+  "n": "1253",
+  "field": "word.gloss",
+  "word": "avye",
+  "old": "of the sheep",
+  "new": "of the sheep's fleece",
+  "why": "reviewer (minor): gloss omits fleece; glossary avi/avya = sheep's fleece"
+ },
+ {
+  "n": "1253",
+  "field": "hindi",
+  "old": "समुद्र प्रथम आधार में आगे बढ़ा है, प्रजाओं को उत्पन्न करता हुआ, भुवन का रक्षक; बैल छन्ने पर, भेड़ के बालों के पृष्ठ पर; सोम खूब बढ़ा है, जबकि पत्थर ध्वनि कर रहा है।",
+  "new": "समुद्र प्रथम आधार में आगे बढ़ा है, प्रजाओं को उत्पन्न करता हुआ, भुवन का रक्षक; बैल छन्ने पर, भेड़ के बालों के पृष्ठ पर; सोम खूब बढ़ा है, पत्थर ध्वनि करता हुआ।",
+  "why": "reviewer (minor): Hindi adds a subordinating 'while'; English has an absolute 'the stone sounding'"
+ },
+ {
+  "n": "1255",
+  "field": "english",
+  "old": "The mighty Soma did that great thing when, the child of the waters, he chose the gods. The flowing Indu placed might in Indra and produced light in the sun.",
+  "new": "The mighty Soma did that great thing when the child of the waters chose the gods. The flowing Indu placed might in Indra and produced light in the sun.",
+  "why": "reviewer (error): 'he' added in English only (garbha is the subject of avṛṇīta)"
+ },
+ {
+  "n": "1255",
+  "field": "hindi",
+  "old": "उस महान् कार्य को शक्तिशाली सोम ने किया, जब जलों के गर्भ ने देवों को वरण किया। बहता हुआ इन्दु इन्द्र में बल को रखा और सूर्य में ज्योति उत्पन्न की।",
+  "new": "उस महान् कार्य को शक्तिशाली सोम ने किया, जब जलों के गर्भ ने देवगण को वरण किया। बहता हुआ इन्दु इन्द्र में बल को रखा और सूर्य में ज्योति उत्पन्न की।",
+  "why": "reviewer (minor): glossary: Hindi devas (pl.) = देवगण"
+ },
+ {
+  "n": "1255",
+  "field": "word.gloss",
+  "word": "induḥ",
+  "old": "Indu",
+  "new": "the drop",
+  "why": "reviewer (error): part 04 drafts render indu as 'the drop' (1275, 1277, 1289, 1290, 1297); 'Indu' as a name contradicts glossary line indu = drop"
+ },
+ {
+  "n": "1255",
+  "field": "english",
+  "old": "The mighty Soma did that great thing when the child of the waters chose the gods. The flowing Indu placed might in Indra and produced light in the sun.",
+  "new": "The mighty Soma did that great thing when the child of the waters chose the gods. The flowing drop placed might in Indra and produced light in the sun.",
+  "why": "reviewer (error): part 04 drafts render indu as 'the drop' (1275, 1277, 1289, 1290, 1297); 'Indu' as a name contradicts glossary line indu = drop"
+ },
+ {
+  "n": "1255",
+  "field": "hindi",
+  "old": "उस महान् कार्य को शक्तिशाली सोम ने किया, जब जलों के गर्भ ने देवगण को वरण किया। बहता हुआ इन्दु इन्द्र में बल को रखा और सूर्य में ज्योति उत्पन्न की।",
+  "new": "उस महान् कार्य को शक्तिशाली सोम ने किया, जब जलों के गर्भ ने देवगण को वरण किया। बहती हुई बूँद ने इन्द्र में बल रखा और सूर्य में ज्योति उत्पन्न की।",
+  "why": "reviewer (error): part 04 drafts render indu as 'the drop' (1275, 1277, 1289, 1290, 1297); 'Indu' as a name contradicts glossary line indu = drop"
+ },
+ {
+  "n": "1261",
+  "field": "word.gram",
+  "word": "vipā",
+  "old": "m. inst. sg.",
+  "new": "inst. sg. (stem uncertain)",
+  "why": "reviewer (error): stem not secure: vipā cannot be an instrumental of vipra; 'm.' is unsupported, and the note's claim that 'by the inspired one follows the glossary' is false (glossary has vipra, not vipā)"
+ },
+ {
+  "n": "1261",
+  "field": "notes",
+  "old": "vipā is uncertain: 'by the inspired one' follows the glossary, 'by inspiration' (a feminine instrumental) is also possible.",
+  "new": "vipā is uncertain: 'by the inspired one' is a guess; 'by inspiration' (a feminine instrumental) is equally possible.",
+  "why": "reviewer (error): false appeal to the glossary"
+ },
+ {
+  "n": "1261",
+  "field": "confidence",
+  "old": "medium",
+  "new": "low",
+  "why": "reviewer (minor): firm reading of an uncertain word"
+ },
+ {
+  "n": "1265",
+  "field": "hindi",
+  "old": "यही वह निश्चय ही, बहुत व्रतों वाला, उत्पन्न होता हुआ, पोषण उत्पन्न करता हुआ, धारा के साथ शुद्ध होकर बहता है, निचोड़ा हुआ।",
+  "new": "यही वह निश्चय ही, बहुत नियमों वाला, उत्पन्न होता हुआ, पोषण उत्पन्न करता हुआ, धारा के साथ शुद्ध होकर बहता है, निचोड़ा हुआ।",
+  "why": "reviewer (minor): glossary: vrata Hindi = नियम (supersedes व्रत)"
+ },
+ {
+  "n": "1266",
+  "field": "hindi",
+  "old": "यह वीर सूक्ष्म विचार से, शीघ्र रथों के साथ जाता है, इन्द्र के निर्धारित स्थान की ओर जाता हुआ।",
+  "new": "यह वीर सूक्ष्म विचार से, शीघ्र रथों के साथ जाता है, इन्द्र के तैयार किए गए स्थान की ओर जाता हुआ।",
+  "why": "reviewer (minor): English 'prepared place' but Hindi 'appointed/determined'; not the same sense"
+ },
+ {
+  "n": "1268",
+  "field": "hindi",
+  "old": "मनुष्य इसे, जो शुद्ध किए जाने योग्य है, द्रोणों में शुद्ध करते हैं, जो महान् पोषण प्रकट करता है।",
+  "new": "मनुष्य इसे, जो शुद्ध किए जाने योग्य है, द्रोणों के पास शुद्ध करते हैं, जो महान् पोषण प्रकट करता है।",
+  "why": "reviewer (minor): upa ('at') is rendered in English but not in Hindi"
+ },
+ {
+  "n": "1269",
+  "field": "english",
+  "old": "This one, set, is led forth within by the pure path, when the eager ones urge on.",
+  "new": "This one, set, is led through within by the pure path, when the eager ones urge on.",
+  "why": "reviewer (minor): vi is glossed 'through' but English says 'forth'; Hindi omits vi"
+ },
+ {
+  "n": "1269",
+  "field": "hindi",
+  "old": "यह स्थापित, भीतर शुद्ध मार्ग से ले जाया जाता है, जब उत्सुक लोग प्रेरित करते हैं।",
+  "new": "यह स्थापित, भीतर शुद्ध मार्ग से होकर ले जाया जाता है, जब उत्सुक लोग प्रेरित करते हैं।",
+  "why": "reviewer (minor): vi is glossed 'through' but English says 'forth'; Hindi omits vi"
+ },
+ {
+  "n": "1270",
+  "field": "word.gloss",
+  "word": "aṃśubhiḥ",
+  "old": "with stalks",
+  "new": "with Soma-stalks",
+  "why": "reviewer (minor): glossary: aṃśu = Soma-stalk (सोम का डण्ठल)"
+ },
+ {
+  "n": "1270",
+  "field": "english",
+  "old": "This racer goes with gold-adorned, bright stalks, becoming the lord of the rivers.",
+  "new": "This racer goes with gold-adorned, bright Soma-stalks, becoming the lord of the rivers.",
+  "why": "reviewer (minor): glossary: aṃśu = Soma-stalk (सोम का डण्ठल)"
+ },
+ {
+  "n": "1270",
+  "field": "hindi",
+  "old": "यह धावक सोने से सजे, उजले डण्ठलों के साथ जाता है, नदियों का स्वामी बनता हुआ।",
+  "new": "यह धावक सोने से सजे, उजले सोम के डण्ठलों के साथ जाता है, नदियों का स्वामी बनता हुआ।",
+  "why": "reviewer (minor): glossary: aṃśu = Soma-stalk (सोम का डण्ठल)"
+ },
+ {
+  "n": "1273",
+  "field": "hindi",
+  "old": "दस उँगलियाँ इसी भूरे को, निश्चय ही, जाने के लिए प्रेरित करती हैं, सुशस्त्र, अत्यंत मदकारी को।",
+  "new": "दस उँगलियाँ इसी भूरे को, निश्चय ही, जाने के लिए प्रेरित करती हैं, सुशस्त्र, सबसे अधिक मदकारी को।",
+  "why": "reviewer (minor): madintama is a superlative; 'अत्यंत' is only 'very'"
+ },
+ {
+  "n": "1274",
+  "field": "hindi",
+  "old": "यही वह निश्चय ही बलवान रथ ऊन से, छन्नियों द्वारा ढका गया, हज़ारों वाले वाज की ओर जाता हुआ।",
+  "new": "यही वह निश्चय ही बलवान रथ भेड़ के बालों से, छन्नियों द्वारा ढका गया, हज़ारों वाले वाज की ओर जाता हुआ।",
+  "why": "reviewer (minor): glossary avya = sheep's fleece (भेड़ के बाल)"
+ },
+ {
+  "n": "1274",
+  "field": "notes",
+  "old": "avyā vārebhiḥ is obscure: avyā may be a separate instrumental ('with fleece') or part of a phrase with vārebhiḥ ('strainers of fleece'). The chariot is a figure for Soma; this is not stated in the line.",
+  "new": "avyā vārebhiḥ is obscure: avyā may be a separate instrumental ('with fleece') or part of a phrase with vārebhiḥ ('strainers of fleece').",
+  "why": "reviewer (minor): imports an interpretation from outside the line"
+ },
+ {
+  "n": "1278",
+  "field": "hindi",
+  "old": "यही वह पीने के लिए निचोड़ा हुआ, भूरा, धारक, बहता है, प्रिय आसन की ओर गरजता हुआ।",
+  "new": "यही वह पीने के लिए निचोड़ा हुआ, भूरा, धारक, बहता है, प्रिय स्थान की ओर गरजता हुआ।",
+  "why": "reviewer (minor): glossary (latest): yoni = seat (स्थान)"
+ },
+ {
+  "n": "1279",
+  "field": "hindi",
+  "old": "दस भूरी, कार्य की इच्छुक, इसी को भली-भाँति शुद्ध करती हैं; जिनसे वह मद के लिए सजता है।",
+  "new": "दस भूरी, कार्य की इच्छुक, इसी को भली-भाँति शुद्ध करती हैं; जिनसे वह आनन्द के लिए सजता है।",
+  "why": "reviewer (minor): glossary: mada = exhilaration (आनन्द)"
+ },
+ {
+  "n": "1282",
+  "field": "hindi",
+  "old": "यह देव आसन पर चमकता है, अमर, वृत्र का हन्ता, देवगण के भोज के लिए सबसे उत्सुक।",
+  "new": "यह देव स्थान पर चमकता है, अमर, वृत्र का हन्ता, देवगण के भोज के लिए सबसे उत्सुक।",
+  "why": "reviewer (minor): glossary: yoni = seat (स्थान)"
+ },
+ {
+  "n": "1283",
+  "field": "english",
+  "old": "This bull, roaring, guided by the ten sisters, runs to the troughs.",
+  "new": "This bull, roaring, restrained by the ten sisters, runs to the troughs.",
+  "why": "reviewer (minor): yam = restrain; Hindi संयमित is 'restrained', English 'guided' differs"
+ },
+ {
+  "n": "1283",
+  "field": "word.gloss",
+  "word": "yataḥ",
+  "old": "guided",
+  "new": "restrained",
+  "why": "reviewer (minor): yam = restrain; Hindi संयमित is 'restrained', English 'guided' differs"
+ },
+ {
+  "n": "1284",
+  "field": "hindi",
+  "old": "इसने, शुद्ध होते हुए, आकाश में सूर्य को चमकाया; छन्ने पर मदकारी, मद।",
+  "new": "इसने, शुद्ध होते हुए, आकाश में सूर्य को चमकाया; छन्ने पर मदकारी, आनन्द।",
+  "why": "reviewer (minor): glossary: mada = exhilaration (आनन्द)"
+ },
+ {
+  "n": "1286",
+  "field": "confidence",
+  "old": "medium",
+  "new": "low",
+  "why": "reviewer (minor): tośate / √tuś is admitted as uncertain and 'hastens' provisional; medium is too firm"
+ },
+ {
+  "n": "1293",
+  "field": "hindi",
+  "old": "वह दूरदर्शी भूरा, धारक, छन्ने में बहता है, आसन की ओर गरजता हुआ।",
+  "new": "वह दूरदर्शी भूरा, धारक, छन्ने में बहता है, स्थान की ओर गरजता हुआ।",
+  "why": "reviewer (minor): glossary: yoni = seat (स्थान)"
+ },
+ {
+  "n": "1294",
+  "field": "word.gloss",
+  "word": "avyayam",
+  "old": "woollen",
+  "new": "of fleece",
+  "why": "reviewer (minor): unit 1280 renders the fleece strainer as 'strainer of fleece' (भेड़ के बालों की छन्नी); 1294 uses 'woollen/ऊनी'"
+ },
+ {
+  "n": "1294",
+  "field": "english",
+  "old": "That racer, purifying himself, runs through the bright places of heaven, the slayer of demons, through the woollen strainer.",
+  "new": "That racer, purifying himself, runs through the bright places of heaven, the slayer of demons, through the strainer of fleece.",
+  "why": "reviewer (minor): unit 1280 renders the fleece strainer as 'strainer of fleece' (भेड़ के बालों की छन्नी); 1294 uses 'woollen/ऊनी'"
+ },
+ {
+  "n": "1294",
+  "field": "hindi",
+  "old": "वह धावक, शुद्ध होता हुआ, आकाश के दीप्त स्थानों में दौड़ता है; राक्षसों का हन्ता, ऊनी छन्नी के पार।",
+  "new": "वह धावक, शुद्ध होता हुआ, आकाश के दीप्त स्थानों में दौड़ता है; राक्षसों का हन्ता, भेड़ के बालों की छन्नी के पार।",
+  "why": "reviewer (minor): unit 1280 renders the fleece strainer as 'strainer of fleece' (भेड़ के बालों की छन्नी); 1294 uses 'woollen/ऊनी'"
+ }
+]

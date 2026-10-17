@@ -62,3 +62,5 @@
 - OPEN: dharman also 1243 vidharman; dhiyā one rendering (thought vs prayer); svarāj one Hindi; 1215 makhasyase and 1236 tośase are guesses; 1230 vidyudabhreva note; 1241 dhāma vs dhāmā unflagged.
 - ghṛṣvi = lively (स्फूर्तिपूर्ण); īmahe = implore (याचना करना); sūri = lord (undecided); mṛj Hindi needs one rendering (शुद्ध / सँवारना; 1043 "polished").
 - OPEN: dharman also 1055 vidharmaṇi; 1066 samidham label; 1067 gṛṇīṣe confidence.
+- indu = "the drop" (बूँद) is the part 04 convention; the name "Indu" appears only in part 01-03 drafts (open decision stays for the owner). vi-nī = led through; yam = restrained; avyaya = of fleece; aṃśu = Soma-stalk; pavitra Hindi छन्ना; devas = देवगण.
+- OPEN: 1255 "mahat tat" supplies "thing"/कार्य; mahiṣa "mighty" vs "buffalo"; "purifying himself" adds himself in English; 1286 tośate low.
