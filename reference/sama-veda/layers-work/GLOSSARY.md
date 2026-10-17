@@ -51,3 +51,6 @@
 - A split must not invent an a- augment or root; no avagraha printed means no elided a-.
 - flag "why" texts must not cite parallels.
 - OPEN dharman: also 1017 vidharmaṇi, 1021 dharmāṇi. OPEN: 1012 "vahnir na viśpatiḥ" na reading; 1004 dhanā sg/pl.
+- Hindi madhu = मधु; mada = आनन्द also in plurals (आनन्दों); gaṇa = गण (sg.). varūthya = sheltering. dyumattama = most radiant.
+- te in a relative clause ("yasya te") = "of you".
+- OPEN: 1104 enā; 1079 puru-spṛham; 1103 vi…citānāḥ; 1113/1114 pra/ā "forth" in Hindi; 1110+1111 possible one verse; "vasuḥ agniḥ".

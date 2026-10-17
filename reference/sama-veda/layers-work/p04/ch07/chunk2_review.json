@@ -1,0 +1,834 @@
+{
+ "units": [
+  {
+   "n": "1074",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1075",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gram",
+     "where": "adhukṣan",
+     "problem": "adhukṣan is an s-aorist, not an imperfect",
+     "fix": "3 pl. aor. √duh",
+     "severity": "minor",
+     "patch": {
+      "n": "1075",
+      "op": "word",
+      "match_w": "adhukṣan",
+      "field": "gram",
+      "value": "3 pl. aor. √duh"
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "मधुर पेय",
+     "problem": "Glossary: madhu = sweet drink (मधु)",
+     "fix": "इस आनन्ददायक मधु को",
+     "severity": "minor",
+     "patch": {
+      "n": "1075",
+      "op": "replace",
+      "field": "hindi",
+      "old": "मधुर पेय",
+      "new": "मधु"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1076",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "आसन",
+     "problem": "Glossary: yoni = seat (स्थान)",
+     "fix": "स्थान",
+     "severity": "minor",
+     "patch": {
+      "n": "1076",
+      "op": "replace",
+      "field": "hindi",
+      "old": "के आसन में",
+      "new": "के स्थान में"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1077",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1078",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1079",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "O flowing one",
+     "problem": "pavamāna = clarifying one (glossary, 1080 draft); 'flowing' is not the word",
+     "fix": "O clarifying one",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "1079",
+       "op": "replace",
+       "field": "english",
+       "old": "O flowing one",
+       "new": "O clarifying one"
+      },
+      {
+       "n": "1079",
+       "op": "replace",
+       "field": "hindi",
+       "old": "हे बहते हुए",
+       "new": "हे शुद्ध होते हुए"
+      },
+      {
+       "n": "1079",
+       "op": "word",
+       "match_w": "pavamāna",
+       "field": "gloss",
+       "value": "O clarifying one"
+      }
+     ]
+    },
+    {
+     "field": "split",
+     "where": "puruspṛham",
+     "problem": "w puruḥ-spṛham invents a stem form puruḥ; compound member is puru- (visarga not part of the stem). Human decision whether to write puru-spṛham",
+     "fix": "puru-spṛham",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "1080",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "text_flags",
+     "where": "vare / vāre",
+     "problem": "w vāre differs from printed vare (vowel shortened); needs a text_flags entry",
+     "fix": "flag",
+     "severity": "minor",
+     "patch": {
+      "n": "1080",
+      "op": "set",
+      "field": "text_flags",
+      "value": [
+       {
+        "src": "vare",
+        "suggest": "vāre",
+        "why": "vowel printed short; read as vāre (vāra, strainer); the alternative is vara 'choice'"
+       }
+      ]
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "बलवान वन में गरजा",
+     "problem": "Word order reads as 'mighty forest'; vṛṣā is the subject",
+     "fix": "वन में बलवान ने गर्जना की",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "1080",
+       "op": "replace",
+       "field": "hindi",
+       "old": "बलवान वन में गरजा",
+       "new": "वन में बलवान ने गर्जना की"
+      },
+      {
+       "n": "1080",
+       "op": "replace",
+       "field": "hindi",
+       "old": "हे बहते हुए",
+       "new": "हे शुद्ध होते हुए"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "1081",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gram",
+     "where": "akhyata",
+     "problem": "akhyata is a middle (root) aorist, not a passive",
+     "fix": "3 sg. aor. mid. √khyā",
+     "severity": "minor",
+     "patch": {
+      "n": "1081",
+      "op": "word",
+      "match_w": "akhyata",
+      "field": "gram",
+      "value": "3 sg. aor. mid. √khyā"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1082",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1083",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1084",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1085",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1086",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "प्रशंसकों",
+     "problem": "Glossary: jaritṛ = स्तोता",
+     "fix": "स्तोताओं",
+     "severity": "minor",
+     "patch": {
+      "n": "1086",
+      "op": "replace",
+      "field": "hindi",
+      "old": "प्रशंसकों",
+      "new": "स्तोताओं"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1087",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "supplied verb",
+     "problem": "English supplies 'one calls' in the comparison, Hindi does not; also glossary dive-dive = day by day and ūti = aid",
+     "fix": "We call day by day, for aid, the maker of fair forms, like a good milch cow for the cow-milker.",
+     "severity": "error",
+     "patch": [
+      {
+       "n": "1087",
+       "op": "set",
+       "field": "english",
+       "value": "We call day by day, for aid, the maker of fair forms, like a good milch cow for the cow-milker."
+      },
+      {
+       "n": "1087",
+       "op": "word",
+       "match_w": "dyavi-dyavi",
+       "field": "gloss",
+       "value": "day by day"
+      },
+      {
+       "n": "1087",
+       "op": "word",
+       "match_w": "ūtaye",
+       "field": "gloss",
+       "value": "for aid"
+      },
+      {
+       "n": "1087",
+       "op": "replace",
+       "field": "notes",
+       "old": " The verb \"one calls\" in the comparison is repeated from juhūmasi.",
+       "new": " No verb is supplied in the comparison."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "1088",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "मद",
+     "problem": "Glossary: mada = आनन्द",
+     "fix": "धनी का आनन्द",
+     "severity": "minor",
+     "patch": {
+      "n": "1088",
+      "op": "replace",
+      "field": "hindi",
+      "old": "धनी का मद",
+      "new": "धनी का आनन्द"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1089",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1090",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "तब",
+     "problem": "Hindi adds 'तब' (then) that English lacks; awkward 'तुम्हें जो महान् हो'; 'and' added between asyndetic genitives in both languages",
+     "fix": "new Hindi + English without 'and'",
+     "severity": "error",
+     "patch": [
+      {
+       "n": "1090",
+       "op": "set",
+       "field": "hindi",
+       "value": "हे इन्द्र, जब तुमने उषा की तरह दोनों लोकों को भर दिया, तुम्हें, महान् को, महान् जनों के, लोगों के सम्राट् को, देवी माता ने जन्म दिया, कल्याणी माता ने जन्म दिया।"
+      },
+      {
+       "n": "1090",
+       "op": "replace",
+       "field": "english",
+       "old": "of the great ones and of the peoples",
+       "new": "of the great ones, of the peoples"
+      }
+     ]
+    },
+    {
+     "field": "gram",
+     "where": "rodasī/ubhe",
+     "problem": "rodasī is feminine (dual), not neuter; ubhe agrees; samrāj is not a tat-puruṣa",
+     "fix": "f. acc. du.",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "1090",
+       "op": "word",
+       "match_w": "rodasī",
+       "field": "gram",
+       "value": "f. acc. du."
+      },
+      {
+       "n": "1090",
+       "op": "word",
+       "match_w": "ubhe",
+       "field": "gram",
+       "value": "f. acc. du."
+      },
+      {
+       "n": "1090",
+       "op": "word",
+       "match_w": "sam-rājam",
+       "field": "gram",
+       "value": "m. acc. sg., sam + √rāj"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "1091",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "For,",
+     "problem": "Glossary: hi = indeed",
+     "fix": "Indeed, like a long hook",
+     "severity": "minor",
+     "patch": {
+      "n": "1091",
+      "op": "replace",
+      "field": "english",
+      "old": "For, like a long hook",
+      "new": "Indeed, like a long hook"
+     }
+    },
+    {
+     "field": "gram",
+     "where": "padā",
+     "problem": "pad is masculine",
+     "fix": "m. inst. sg.",
+     "severity": "minor",
+     "patch": {
+      "n": "1091",
+      "op": "word",
+      "match_w": "padā",
+      "field": "gram",
+      "value": "m. inst. sg."
+     }
+    }
+   ]
+  },
+  {
+   "n": "1092",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "notes",
+     "where": "īm",
+     "problem": "Particle īm is untranslated but not mentioned (u/hi rule: both languages or neither; here neither, so note it)",
+     "fix": "append",
+     "severity": "minor",
+     "patch": {
+      "n": "1092",
+      "op": "append_note",
+      "text": "The particle īm is left untranslated in both languages."
+     }
+    }
+   ]
+  },
+  {
+   "n": "1093",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "मदों में",
+     "problem": "Glossary: mada = आनन्द",
+     "fix": "आनन्दों में",
+     "severity": "minor",
+     "patch": {
+      "n": "1093",
+      "op": "replace",
+      "field": "hindi",
+      "old": "मदों में",
+      "new": "आनन्दों में"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1094",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "मधुर पेय / मदों",
+     "problem": "Glossary: madhu = मधु; mada = आनन्द",
+     "fix": "मधु ... आनन्दों",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "1094",
+       "op": "replace",
+       "field": "hindi",
+       "old": "मधुर पेय",
+       "new": "मधु"
+      },
+      {
+       "n": "1094",
+       "op": "replace",
+       "field": "hindi",
+       "old": "मदों में",
+       "new": "आनन्दों में"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "1095",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "मदों में",
+     "problem": "Glossary: mada = आनन्द",
+     "fix": "आनन्दों में",
+     "severity": "minor",
+     "patch": {
+      "n": "1095",
+      "op": "replace",
+      "field": "hindi",
+      "old": "मदों में",
+      "new": "आनन्दों में"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1096",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1097",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "You, of whom",
+     "problem": "te is glossed gen. 'of you' but both translations render a nominative 'You/तुम'",
+     "fix": "Of you, of whom Indra may drink",
+     "severity": "error",
+     "patch": [
+      {
+       "n": "1097",
+       "op": "replace",
+       "field": "english",
+       "old": "You, of whom Indra may drink",
+       "new": "Of you, of whom Indra may drink"
+      },
+      {
+       "n": "1097",
+       "op": "replace",
+       "field": "hindi",
+       "old": "तुम, जिसका इन्द्र पान करे",
+       "new": "तुम्हारे, जिसका इन्द्र पान करे"
+      },
+      {
+       "n": "1097",
+       "op": "append_note",
+       "text": "te is rendered \"of you\" (genitive), as glossed."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "1098",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "मद",
+     "problem": "Glossary: mada = आनन्द",
+     "fix": "तुम्हारे आनन्द के लिए",
+     "severity": "minor",
+     "patch": {
+      "n": "1098",
+      "op": "replace",
+      "field": "hindi",
+      "old": "तुम्हारे मद के लिए",
+      "new": "तुम्हारे आनन्द के लिए"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1099",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "pleasing the gods",
+     "problem": "Glossary: devāvī = favouring the gods (देवगण पर अनुग्रह); mada = आनन्द",
+     "fix": "favouring the gods",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "1099",
+       "op": "word",
+       "match_w": "deva-avīḥ",
+       "field": "gloss",
+       "value": "favouring the gods"
+      },
+      {
+       "n": "1099",
+       "op": "replace",
+       "field": "english",
+       "old": "pleasing to the gods",
+       "new": "favouring the gods"
+      },
+      {
+       "n": "1099",
+       "op": "replace",
+       "field": "hindi",
+       "old": "देवों को प्रसन्न करने वाला मद",
+       "new": "देवगण पर अनुग्रह करने वाला आनन्द"
+      },
+      {
+       "n": "1099",
+       "op": "replace",
+       "field": "notes",
+       "old": "devāvīḥ is taken as \"pleasing the gods\" (alternatively \"favouring the gods\").",
+       "new": "devāvīḥ is taken as \"favouring the gods\"."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "1100",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1101",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1102",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1103",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gram",
+     "where": "suṣvāṇāsaḥ",
+     "problem": "suṣvāṇa is a reduplicated perfect participle, not present",
+     "fix": "m. nom. pl. pf. part. mid. √su",
+     "severity": "minor",
+     "patch": {
+      "n": "1103",
+      "op": "word",
+      "match_w": "suṣvāṇāsaḥ",
+      "field": "gram",
+      "value": "m. nom. pl. pf. part. mid. √su"
+     }
+    },
+    {
+     "field": "gloss",
+     "where": "vi",
+     "problem": "vi is glossed 'apart' but untranslated in both languages and not covered by the note",
+     "fix": "treat 'vi ... citānāḥ' together as [unclear] in the note (human decision)",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "1104",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gloss",
+     "where": "enā",
+     "problem": "enā is f. inst. sg. but glossed and translated 'with these' (plural) and joined to neuter vasūni; also the supplied 'is' in 'speed is like the wind' is not noted",
+     "fix": "needs human decision (e.g. 'by this one' and a note); no safe patch",
+     "severity": "error"
+    },
+    {
+     "field": "hindi",
+     "where": "नर को",
+     "problem": "Glossary: nara = man (मनुष्य)",
+     "fix": "मनुष्य को",
+     "severity": "minor",
+     "patch": {
+      "n": "1104",
+      "op": "replace",
+      "field": "hindi",
+      "old": "नर को",
+      "new": "मनुष्य को"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1105",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "प्रशंसा-योग्य",
+     "problem": "śravas = fame (कीर्ति); śravāyya is 'worthy of fame', not 'of praise'",
+     "fix": "कीर्ति के योग्य के",
+     "severity": "minor",
+     "patch": {
+      "n": "1105",
+      "op": "replace",
+      "field": "hindi",
+      "old": "प्रशंसा-योग्य के",
+      "new": "कीर्ति के योग्य के"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1106",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "चेतनाहीन को",
+     "problem": "Hindi adds the accusative marker को to nominative acetaḥ",
+     "fix": "चेतनाहीन।",
+     "severity": "minor",
+     "patch": {
+      "n": "1106",
+      "op": "replace",
+      "field": "hindi",
+      "old": "चेतनाहीन को।",
+      "new": "चेतनाहीन।"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1107",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "notes",
+     "where": "trailing text",
+     "problem": "Notes end with an unfinished clause '(a half-verse); '",
+     "fix": "complete the note",
+     "severity": "minor",
+     "patch": {
+      "n": "1107",
+      "op": "set",
+      "field": "notes",
+      "value": "Reused from the reviewed rendering of the same line (p01 ch10, 448), rechecked. bhuvaḥ is an injunctive with imperative sense. The unit is a single printed line (a half-verse)."
+     }
+    },
+    {
+     "field": "english",
+     "where": "be a shelter",
+     "problem": "varūthya is an adjective ('sheltering'); Hindi says 'आश्रय देने वाले' but English makes it a noun",
+     "fix": "be sheltering",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "1107",
+       "op": "replace",
+       "field": "english",
+       "old": "be a shelter",
+       "new": "be sheltering"
+      },
+      {
+       "n": "1107",
+       "op": "word",
+       "match_w": "varūthyaḥ",
+       "field": "gloss",
+       "value": "sheltering"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "1108",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "most splendid",
+     "problem": "Glossary: dyumat = radiant (दीप्तिमान); splendid is for dyumnī",
+     "fix": "most radiant",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "1108",
+       "op": "replace",
+       "field": "english",
+       "old": "most splendid",
+       "new": "most radiant"
+      },
+      {
+       "n": "1108",
+       "op": "replace",
+       "field": "hindi",
+       "old": "सबसे द्युतिमान",
+       "new": "सबसे दीप्तिमान"
+      },
+      {
+       "n": "1108",
+       "op": "word",
+       "match_w": "dyumattamaḥ",
+       "field": "gloss",
+       "value": "most radiant"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "1109",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1110",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "notes",
+     "where": "GROUPING",
+     "problem": "Agree with the draft: 1110 and 1111 are one sentence; regroup as one verse unit (decision for owner)",
+     "fix": "regroup 1110+1111",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "1111",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1112",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "गणों सहित",
+     "problem": "English singular 'troop', Hindi plural",
+     "fix": "गण सहित",
+     "severity": "minor",
+     "patch": {
+      "n": "1112",
+      "op": "replace",
+      "field": "hindi",
+      "old": "गणों सहित",
+      "new": "गण सहित"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1113",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "pra",
+     "problem": "English renders pra as 'forth', Hindi omits it",
+     "fix": "human decision: add to Hindi or drop 'forth' in English",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "1114",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "ā",
+     "problem": "English renders ā as 'forth' ('chants forth'), Hindi omits it",
+     "fix": "human decision, as in 1113",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "1115",
+   "verdict": "ok",
+   "issues": []
+  }
+ ],
+ "summary": "See counts in report."
+}

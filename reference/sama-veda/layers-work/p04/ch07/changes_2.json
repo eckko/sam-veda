@@ -1,0 +1,350 @@
+[
+ {
+  "n": "1075",
+  "field": "word.gram",
+  "word": "adhukṣan",
+  "old": "3 pl. impf. √duh",
+  "new": "3 pl. aor. √duh",
+  "why": "reviewer (minor): adhukṣan is an s-aorist, not an imperfect"
+ },
+ {
+  "n": "1075",
+  "field": "hindi",
+  "old": "इस आनन्ददायक मधुर पेय को मनुष्यों ने पत्थरों से तुम दोनों के लिए दुहा; हे इन्द्र और अग्नि, उसकी ओर ध्यान दो।",
+  "new": "इस आनन्ददायक मधु को मनुष्यों ने पत्थरों से तुम दोनों के लिए दुहा; हे इन्द्र और अग्नि, उसकी ओर ध्यान दो।",
+  "why": "reviewer (minor): Glossary: madhu = sweet drink (मधु)"
+ },
+ {
+  "n": "1076",
+  "field": "hindi",
+  "old": "हे बूँद, मरुतों वाले इन्द्र के लिए बहो, सबसे मधुर; मंत्र-गीत के आसन में बैठने के लिए।",
+  "new": "हे बूँद, मरुतों वाले इन्द्र के लिए बहो, सबसे मधुर; मंत्र-गीत के स्थान में बैठने के लिए।",
+  "why": "reviewer (minor): Glossary: yoni = seat (स्थान)"
+ },
+ {
+  "n": "1079",
+  "field": "english",
+  "old": "Being cleansed, O skilful-handed one, you send forth voice in the sea; O flowing one, you flow forth tawny, abundant, much desired wealth.",
+  "new": "Being cleansed, O skilful-handed one, you send forth voice in the sea; O clarifying one, you flow forth tawny, abundant, much desired wealth.",
+  "why": "reviewer (minor): pavamāna = clarifying one (glossary, 1080 draft); 'flowing' is not the word"
+ },
+ {
+  "n": "1079",
+  "field": "hindi",
+  "old": "शुद्ध किए जाते हुए, हे कुशल हाथों वाले, तुम समुद्र में वाणी को प्रेरित करते हो; हे बहते हुए, तुम लाल-भूरा, प्रचुर, बहुत चाहा गया धन बहाते हो।",
+  "new": "शुद्ध किए जाते हुए, हे कुशल हाथों वाले, तुम समुद्र में वाणी को प्रेरित करते हो; हे शुद्ध होते हुए, तुम लाल-भूरा, प्रचुर, बहुत चाहा गया धन बहाते हो।",
+  "why": "reviewer (minor): pavamāna = clarifying one (glossary, 1080 draft); 'flowing' is not the word"
+ },
+ {
+  "n": "1079",
+  "field": "word.gloss",
+  "word": "pavamāna",
+  "old": "O flowing one",
+  "new": "O clarifying one",
+  "why": "reviewer (minor): pavamāna = clarifying one (glossary, 1080 draft); 'flowing' is not the word"
+ },
+ {
+  "n": "1080",
+  "field": "text_flags",
+  "old": [],
+  "new": [
+   {
+    "src": "vare",
+    "suggest": "vāre",
+    "why": "vowel printed short; read as vāre (vāra, strainer); the alternative is vara 'choice'"
+   }
+  ],
+  "why": "reviewer (minor): w vāre differs from printed vare (vowel shortened); needs a text_flags entry"
+ },
+ {
+  "n": "1080",
+  "field": "hindi",
+  "old": "छन्नी में शुद्ध होता हुआ, भेड़ के बाल में निर्मल होता हुआ, बलवान वन में गरजा। हे सोम, हे बहते हुए, दूध से लेपित होते हुए तुम देवगण के नियत स्थान की ओर बहते हो।",
+  "new": "छन्नी में शुद्ध होता हुआ, भेड़ के बाल में निर्मल होता हुआ, वन में बलवान ने गर्जना की। हे सोम, हे बहते हुए, दूध से लेपित होते हुए तुम देवगण के नियत स्थान की ओर बहते हो।",
+  "why": "reviewer (minor): Word order reads as 'mighty forest'; vṛṣā is the subject"
+ },
+ {
+  "n": "1080",
+  "field": "hindi",
+  "old": "छन्नी में शुद्ध होता हुआ, भेड़ के बाल में निर्मल होता हुआ, वन में बलवान ने गर्जना की। हे सोम, हे बहते हुए, दूध से लेपित होते हुए तुम देवगण के नियत स्थान की ओर बहते हो।",
+  "new": "छन्नी में शुद्ध होता हुआ, भेड़ के बाल में निर्मल होता हुआ, वन में बलवान ने गर्जना की। हे सोम, हे शुद्ध होते हुए, दूध से लेपित होते हुए तुम देवगण के नियत स्थान की ओर बहते हो।",
+  "why": "reviewer (minor): Word order reads as 'mighty forest'; vṛṣā is the subject"
+ },
+ {
+  "n": "1081",
+  "field": "word.gram",
+  "word": "akhyata",
+  "old": "3 sg. aor. pass. √khyā",
+  "new": "3 sg. aor. mid. √khyā",
+  "why": "reviewer (minor): akhyata is a middle (root) aorist, not a passive"
+ },
+ {
+  "n": "1086",
+  "field": "hindi",
+  "old": "जब, हे सौ शक्तियों वाले, तुम प्रशंसकों के सम्मान को, इच्छा को प्राप्त करते हो, धुरी की तरह, शक्तियों के साथ।",
+  "new": "जब, हे सौ शक्तियों वाले, तुम स्तोताओं के सम्मान को, इच्छा को प्राप्त करते हो, धुरी की तरह, शक्तियों के साथ।",
+  "why": "reviewer (minor): Glossary: jaritṛ = स्तोता"
+ },
+ {
+  "n": "1087",
+  "field": "english",
+  "old": "We call day after day, for help, the maker of fair forms, as one calls a good milch cow for the cow-milker.",
+  "new": "We call day by day, for aid, the maker of fair forms, like a good milch cow for the cow-milker.",
+  "why": "reviewer (error): English supplies 'one calls' in the comparison, Hindi does not; also glossary dive-dive = day by day and ūti = aid"
+ },
+ {
+  "n": "1087",
+  "field": "word.gloss",
+  "word": "dyavi-dyavi",
+  "old": "day after day",
+  "new": "day by day",
+  "why": "reviewer (error): English supplies 'one calls' in the comparison, Hindi does not; also glossary dive-dive = day by day and ūti = aid"
+ },
+ {
+  "n": "1087",
+  "field": "word.gloss",
+  "word": "ūtaye",
+  "old": "for help",
+  "new": "for aid",
+  "why": "reviewer (error): English supplies 'one calls' in the comparison, Hindi does not; also glossary dive-dive = day by day and ūti = aid"
+ },
+ {
+  "n": "1087",
+  "field": "notes",
+  "old": "The one called is not named in the text. surūpakṛtnu is taken as \"maker of fair forms\"; the exact sense of rūpa here (forms or beauty) is open. The verb \"one calls\" in the comparison is repeated from juhūmasi.",
+  "new": "The one called is not named in the text. surūpakṛtnu is taken as \"maker of fair forms\"; the exact sense of rūpa here (forms or beauty) is open. No verb is supplied in the comparison.",
+  "why": "reviewer (error): English supplies 'one calls' in the comparison, Hindi does not; also glossary dive-dive = day by day and ūti = aid"
+ },
+ {
+  "n": "1088",
+  "field": "hindi",
+  "old": "हमारे सवनों के पास आओ; हे सोमपायी, सोम का पान करो। धनी का मद निश्चय ही गौओं का दाता है।",
+  "new": "हमारे सवनों के पास आओ; हे सोमपायी, सोम का पान करो। धनी का आनन्द निश्चय ही गौओं का दाता है।",
+  "why": "reviewer (minor): Glossary: mada = आनन्द"
+ },
+ {
+  "n": "1090",
+  "field": "hindi",
+  "old": "हे इन्द्र, जब तुमने उषा की तरह दोनों लोकों को भर दिया, तुम्हें जो महान् हो, महान् जनों के और लोगों के सम्राट् हो, तब देवी माता ने तुम्हें जन्म दिया, कल्याणी माता ने तुम्हें जन्म दिया।",
+  "new": "हे इन्द्र, जब तुमने उषा की तरह दोनों लोकों को भर दिया, तुम्हें, महान् को, महान् जनों के, लोगों के सम्राट् को, देवी माता ने जन्म दिया, कल्याणी माता ने जन्म दिया।",
+  "why": "reviewer (error): Hindi adds 'तब' (then) that English lacks; awkward 'तुम्हें जो महान् हो'; 'and' added between asyndetic genitives in both languages"
+ },
+ {
+  "n": "1090",
+  "field": "english",
+  "old": "When, O Indra, you filled both worlds like Dawn, you the great one, the supreme ruler of the great ones and of the peoples, the goddess mother bore you, the auspicious mother bore you.",
+  "new": "When, O Indra, you filled both worlds like Dawn, you the great one, the supreme ruler of the great ones, of the peoples, the goddess mother bore you, the auspicious mother bore you.",
+  "why": "reviewer (error): Hindi adds 'तब' (then) that English lacks; awkward 'तुम्हें जो महान् हो'; 'and' added between asyndetic genitives in both languages"
+ },
+ {
+  "n": "1090",
+  "field": "word.gram",
+  "word": "rodasī",
+  "old": "n. acc. du.",
+  "new": "f. acc. du.",
+  "why": "reviewer (minor): rodasī is feminine (dual), not neuter; ubhe agrees; samrāj is not a tat-puruṣa"
+ },
+ {
+  "n": "1090",
+  "field": "word.gram",
+  "word": "ubhe",
+  "old": "n. acc. du.",
+  "new": "f. acc. du.",
+  "why": "reviewer (minor): rodasī is feminine (dual), not neuter; ubhe agrees; samrāj is not a tat-puruṣa"
+ },
+ {
+  "n": "1090",
+  "field": "word.gram",
+  "word": "sam-rājam",
+  "old": "m. acc. sg., tat-puruṣa",
+  "new": "m. acc. sg., sam + √rāj",
+  "why": "reviewer (minor): rodasī is feminine (dual), not neuter; ubhe agrees; samrāj is not a tat-puruṣa"
+ },
+ {
+  "n": "1091",
+  "field": "english",
+  "old": "For, like a long hook, you bear power, O wise one. With the first foot, O bountiful one, [unclear]. The goddess mother bore, the auspicious mother bore.",
+  "new": "Indeed, like a long hook, you bear power, O wise one. With the first foot, O bountiful one, [unclear]. The goddess mother bore, the auspicious mother bore.",
+  "why": "reviewer (minor): Glossary: hi = indeed"
+ },
+ {
+  "n": "1091",
+  "field": "word.gram",
+  "word": "padā",
+  "old": "n. inst. sg.",
+  "new": "m. inst. sg.",
+  "why": "reviewer (minor): pad is masculine"
+ },
+ {
+  "n": "1092",
+  "field": "notes",
+  "old": "The particle sma is left untranslated in both languages. sthiram is a neuter adjective used as a noun (\"the firm\"); an elided noun may be understood but none is supplied. The third line is the refrain of the triple (see 1090). marttasya is printed with doubled t (regular chant spelling).",
+  "new": "The particle sma is left untranslated in both languages. sthiram is a neuter adjective used as a noun (\"the firm\"); an elided noun may be understood but none is supplied. The third line is the refrain of the triple (see 1090). marttasya is printed with doubled t (regular chant spelling). The particle īm is left untranslated in both languages.",
+  "why": "reviewer (minor): Particle īm is untranslated but not mentioned (u/hi rule: both languages or neither; here neither, so note it)"
+ },
+ {
+  "n": "1093",
+  "field": "hindi",
+  "old": "गरजता हुआ, पर्वत पर रहने वाला सोम छन्ने में चारों ओर बह निकला; मदों में तुम सब कुछ देने वाले हो।",
+  "new": "गरजता हुआ, पर्वत पर रहने वाला सोम छन्ने में चारों ओर बह निकला; आनन्दों में तुम सब कुछ देने वाले हो।",
+  "why": "reviewer (minor): Glossary: mada = आनन्द"
+ },
+ {
+  "n": "1094",
+  "field": "hindi",
+  "old": "तुम प्रेरित मेधावी, तुम कवि, रस से उत्पन्न मधुर पेय; मदों में तुम सब कुछ देने वाले हो।",
+  "new": "तुम प्रेरित मेधावी, तुम कवि, रस से उत्पन्न मधु; मदों में तुम सब कुछ देने वाले हो।",
+  "why": "reviewer (minor): Glossary: madhu = मधु; mada = आनन्द"
+ },
+ {
+  "n": "1094",
+  "field": "hindi",
+  "old": "तुम प्रेरित मेधावी, तुम कवि, रस से उत्पन्न मधु; मदों में तुम सब कुछ देने वाले हो।",
+  "new": "तुम प्रेरित मेधावी, तुम कवि, रस से उत्पन्न मधु; आनन्दों में तुम सब कुछ देने वाले हो।",
+  "why": "reviewer (minor): Glossary: madhu = मधु; mada = आनन्द"
+ },
+ {
+  "n": "1095",
+  "field": "hindi",
+  "old": "तुममें सब देवगण, एकमत होकर, पान को प्राप्त हुए; मदों में तुम सब कुछ देने वाले हो।",
+  "new": "तुममें सब देवगण, एकमत होकर, पान को प्राप्त हुए; आनन्दों में तुम सब कुछ देने वाले हो।",
+  "why": "reviewer (minor): Glossary: mada = आनन्द"
+ },
+ {
+  "n": "1097",
+  "field": "english",
+  "old": "You, of whom Indra may drink, of whom the Maruts, or of whom Bhaga with Aryaman; by whom we bring Mitra and Varuṇa hither, hither Indra, for help, for great help.",
+  "new": "Of you, of whom Indra may drink, of whom the Maruts, or of whom Bhaga with Aryaman; by whom we bring Mitra and Varuṇa hither, hither Indra, for help, for great help.",
+  "why": "reviewer (error): te is glossed gen. 'of you' but both translations render a nominative 'You/तुम'"
+ },
+ {
+  "n": "1097",
+  "field": "hindi",
+  "old": "तुम, जिसका इन्द्र पान करे, जिसका मरुत, अथवा जिसका भग अर्यमा के साथ; जिससे हम मित्र और वरुण को यहाँ लाते हैं, इन्द्र को यहाँ, सहायता के लिए, महान् सहायता के लिए।",
+  "new": "तुम्हारे, जिसका इन्द्र पान करे, जिसका मरुत, अथवा जिसका भग अर्यमा के साथ; जिससे हम मित्र और वरुण को यहाँ लाते हैं, इन्द्र को यहाँ, सहायता के लिए, महान् सहायता के लिए।",
+  "why": "reviewer (error): te is glossed gen. 'of you' but both translations render a nominative 'You/तुम'"
+ },
+ {
+  "n": "1097",
+  "field": "notes",
+  "old": "ta is te before the vowel of indraḥ; te is taken as \"you\" in the relative construction (alternatively an enclitic \"your\" or \"for you\"). vāryamaṇā is vā + aryamaṇā; aryamaṇā is taken as an instrumental of aryaman (the usual form is aryamṇā). avase mahe: mahe agrees with avase (\"great help\"). The relative yasya/yena has no antecedent beyond te and the preceding verse is not used.",
+  "new": "ta is te before the vowel of indraḥ; te is taken as \"you\" in the relative construction (alternatively an enclitic \"your\" or \"for you\"). vāryamaṇā is vā + aryamaṇā; aryamaṇā is taken as an instrumental of aryaman (the usual form is aryamṇā). avase mahe: mahe agrees with avase (\"great help\"). The relative yasya/yena has no antecedent beyond te and the preceding verse is not used. te is rendered \"of you\" (genitive), as glossed.",
+  "why": "reviewer (error): te is glossed gen. 'of you' but both translations render a nominative 'You/तुम'"
+ },
+ {
+  "n": "1098",
+  "field": "hindi",
+  "old": "हे मित्रो, तुम्हारे मद के लिए शुद्ध होते हुए उसका गान करो। शिशु की तरह उसे हवियों से, स्तुतियों से मधुर बनाते हैं।",
+  "new": "हे मित्रो, तुम्हारे आनन्द के लिए शुद्ध होते हुए उसका गान करो। शिशु की तरह उसे हवियों से, स्तुतियों से मधुर बनाते हैं।",
+  "why": "reviewer (minor): Glossary: mada = आनन्द"
+ },
+ {
+  "n": "1099",
+  "field": "word.gloss",
+  "word": "deva-avīḥ",
+  "old": "pleasing the gods",
+  "new": "favouring the gods",
+  "why": "reviewer (minor): Glossary: devāvī = favouring the gods (देवगण पर अनुग्रह); mada = आनन्द"
+ },
+ {
+  "n": "1099",
+  "field": "english",
+  "old": "Together, like a calf with mothers, the drop, being urged on, is anointed; the exhilaration, pleasing to the gods, is adorned with prayers.",
+  "new": "Together, like a calf with mothers, the drop, being urged on, is anointed; the exhilaration, favouring the gods, is adorned with prayers.",
+  "why": "reviewer (minor): Glossary: devāvī = favouring the gods (देवगण पर अनुग्रह); mada = आनन्द"
+ },
+ {
+  "n": "1099",
+  "field": "hindi",
+  "old": "बछड़े की तरह माताओं के साथ, प्रेरित की जाती हुई बूँद एक साथ लेपित होती है; देवों को प्रसन्न करने वाला मद प्रार्थनाओं से सजाया गया है।",
+  "new": "बछड़े की तरह माताओं के साथ, प्रेरित की जाती हुई बूँद एक साथ लेपित होती है; देवगण पर अनुग्रह करने वाला आनन्द प्रार्थनाओं से सजाया गया है।",
+  "why": "reviewer (minor): Glossary: devāvī = favouring the gods (देवगण पर अनुग्रह); mada = आनन्द"
+ },
+ {
+  "n": "1099",
+  "field": "notes",
+  "old": "devāvīḥ is taken as \"pleasing the gods\" (alternatively \"favouring the gods\"). mati is rendered \"prayer\" in this line. The subject of the second line (madaḥ) is taken as a further name of the drop.",
+  "new": "devāvīḥ is taken as \"favouring the gods\". mati is rendered \"prayer\" in this line. The subject of the second line (madaḥ) is taken as a further name of the drop.",
+  "why": "reviewer (minor): Glossary: devāvī = favouring the gods (देवगण पर अनुग्रह); mada = आनन्द"
+ },
+ {
+  "n": "1103",
+  "field": "word.gram",
+  "word": "suṣvāṇāsaḥ",
+  "old": "m. nom. pl. pres. part. mid. √su",
+  "new": "m. nom. pl. pf. part. mid. √su",
+  "why": "reviewer (minor): suṣvāṇa is a reduplicated perfect participle, not present"
+ },
+ {
+  "n": "1104",
+  "field": "hindi",
+  "old": "इस शुद्धि से इन धनों के साथ बहो; हे बूँद, सरोवर में, माँश्चत्व में आगे दौड़ो। जिसकी गति वायु जैसी है, ब्रघ्न ने भी, पुरुमेध ने भी द्रुतगामी के लिए नर को स्थापित किया।",
+  "new": "इस शुद्धि से इन धनों के साथ बहो; हे बूँद, सरोवर में, माँश्चत्व में आगे दौड़ो। जिसकी गति वायु जैसी है, ब्रघ्न ने भी, पुरुमेध ने भी द्रुतगामी के लिए मनुष्य को स्थापित किया।",
+  "why": "reviewer (minor): Glossary: nara = man (मनुष्य)"
+ },
+ {
+  "n": "1105",
+  "field": "hindi",
+  "old": "और हमारे लिए इस शुद्धि से बहो, प्रशंसा-योग्य के प्रसिद्ध घाट पर; साठ हजार धन, पके वृक्ष की तरह नैगुत हिलाता है, आनन्द के लिए।",
+  "new": "और हमारे लिए इस शुद्धि से बहो, कीर्ति के योग्य के प्रसिद्ध घाट पर; साठ हजार धन, पके वृक्ष की तरह नैगुत हिलाता है, आनन्द के लिए।",
+  "why": "reviewer (minor): śravas = fame (कीर्ति); śravāyya is 'worthy of fame', not 'of praise'"
+ },
+ {
+  "n": "1106",
+  "field": "hindi",
+  "old": "ये दोनों महान्; इसका बलवान नाम; बल में, माँश्चत्व में अथवा पृशन में, अथवा शस्त्र में। निगुत ने सुला दिया और शत्रुओं को दूर, चेतनाहीन को।",
+  "new": "ये दोनों महान्; इसका बलवान नाम; बल में, माँश्चत्व में अथवा पृशन में, अथवा शस्त्र में। निगुत ने सुला दिया और शत्रुओं को दूर, चेतनाहीन।",
+  "why": "reviewer (minor): Hindi adds the accusative marker को to nominative acetaḥ"
+ },
+ {
+  "n": "1107",
+  "field": "notes",
+  "old": "Reused from the reviewed rendering of the same line (p01 ch10, 448), rechecked. bhuvaḥ is an injunctive with imperative sense. The unit is a single printed line (a half-verse); ",
+  "new": "Reused from the reviewed rendering of the same line (p01 ch10, 448), rechecked. bhuvaḥ is an injunctive with imperative sense. The unit is a single printed line (a half-verse).",
+  "why": "reviewer (minor): Notes end with an unfinished clause '(a half-verse); '"
+ },
+ {
+  "n": "1107",
+  "field": "english",
+  "old": "O Agni, you who are nearest to us and a protector: be kind, be a shelter.",
+  "new": "O Agni, you who are nearest to us and a protector: be kind, be sheltering.",
+  "why": "reviewer (minor): varūthya is an adjective ('sheltering'); Hindi says 'आश्रय देने वाले' but English makes it a noun"
+ },
+ {
+  "n": "1107",
+  "field": "word.gloss",
+  "word": "varūthyaḥ",
+  "old": "a shelter",
+  "new": "sheltering",
+  "why": "reviewer (minor): varūthya is an adjective ('sheltering'); Hindi says 'आश्रय देने वाले' but English makes it a noun"
+ },
+ {
+  "n": "1108",
+  "field": "english",
+  "old": "Good Agni, famed for goods, approach; most splendid, give wealth.",
+  "new": "Good Agni, famed for goods, approach; most radiant, give wealth.",
+  "why": "reviewer (minor): Glossary: dyumat = radiant (दीप्तिमान); splendid is for dyumnī"
+ },
+ {
+  "n": "1108",
+  "field": "hindi",
+  "old": "शुभ अग्नि, धनों के लिए प्रसिद्ध, समीप आओ; सबसे द्युतिमान, धन दो।",
+  "new": "शुभ अग्नि, धनों के लिए प्रसिद्ध, समीप आओ; सबसे दीप्तिमान, धन दो।",
+  "why": "reviewer (minor): Glossary: dyumat = radiant (दीप्तिमान); splendid is for dyumnī"
+ },
+ {
+  "n": "1108",
+  "field": "word.gloss",
+  "word": "dyumattamaḥ",
+  "old": "most splendid",
+  "new": "most radiant",
+  "why": "reviewer (minor): Glossary: dyumat = radiant (दीप्तिमान); splendid is for dyumnī"
+ },
+ {
+  "n": "1112",
+  "field": "hindi",
+  "old": "आदित्यों के साथ, गणों सहित इन्द्र, मरुतों के साथ हमारे लिए औषधियाँ बनाए।",
+  "new": "आदित्यों के साथ, गण सहित इन्द्र, मरुतों के साथ हमारे लिए औषधियाँ बनाए।",
+  "why": "reviewer (minor): English singular 'troop', Hindi plural"
+ }
+]
