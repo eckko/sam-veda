@@ -1,0 +1,480 @@
+[
+ {
+  "n": "922",
+  "field": "hindi",
+  "old": "हे सोम, हे बूँद, मैं दिन-प्रतिदिन तुम्हारी मित्रता में आनन्द लेता हूँ; हे भूरे, बहुत से मुझ पर नीचे उतरकर विचरते हैं; उन घेरों के पार जाओ।",
+  "new": "हे सोम, हे बूँद, मैं दिन-प्रतिदिन तुम्हारी मित्रता में आनन्द लेता हूँ; हे भूरे, बहुत से मुझ पर नीचे विचरते हैं; उन घेरों के पार जाओ।",
+  "why": "reviewer (minor): 'उतरकर' (having descended) is a verb not in the Sanskrit; ni and ava are both just 'down' (English 'move about down upon me')."
+ },
+ {
+  "n": "924",
+  "field": "english",
+  "old": "Being purified, the all-seeing one has advanced upon all foes; they adorn the inspired one with devotions.",
+  "new": "Being purified, the surveyor has advanced upon all foes; they adorn the inspired one with devotions.",
+  "why": "reviewer (minor): Glossary: vicarṣaṇi = surveyor (सर्वदर्शी); vicakṣaṇa is the far-seeing one."
+ },
+ {
+  "n": "924",
+  "field": "word.gloss",
+  "word": "vicarṣaṇiḥ",
+  "old": "all-seeing",
+  "new": "surveyor",
+  "why": "reviewer (minor): Glossary: vicarṣaṇi = surveyor (सर्वदर्शी); vicakṣaṇa is the far-seeing one."
+ },
+ {
+  "n": "924",
+  "field": "hindi",
+  "old": "शुद्ध किया जाता हुआ सर्वद्रष्टा सब शत्रुओं पर आगे बढ़ा है; वे प्रेरित मेधावी को स्तुतियों से सजाते हैं।",
+  "new": "शुद्ध किया जाता हुआ सर्वदर्शी सब शत्रुओं पर आगे बढ़ा है; वे प्रेरित मेधावी को स्तुतियों से सजाते हैं।",
+  "why": "reviewer (minor): Glossary Hindi for vicarṣaṇi is सर्वदर्शी."
+ },
+ {
+  "n": "924",
+  "field": "hindi",
+  "old": "शुद्ध किया जाता हुआ सर्वदर्शी सब शत्रुओं पर आगे बढ़ा है; वे प्रेरित मेधावी को स्तुतियों से सजाते हैं।",
+  "new": "शुद्ध किया जाता हुआ सर्वदर्शी सब शत्रुओं पर आगे बढ़ा है; वे प्रेरित मेधावी को भक्तियों से सजाते हैं।",
+  "why": "reviewer (minor): English 'devotions' and Hindi 'स्तुतियों' (praises) disagree for dhītibhiḥ."
+ },
+ {
+  "n": "927",
+  "field": "english",
+  "old": "Drink the Soma, O Indra; let [them] gladden you, the Soma which the stone has pressed for you, O owner of tawny horses, well held in the two arms of the presser, like a horse.",
+  "new": "Drink the Soma, O Indra; let [them] gladden you, the Soma which the stone has pressed for you, O owner of tawny horses, well held by the two arms of the presser, like a horse.",
+  "why": "reviewer (minor): bāhubhyām is instrumental (Hindi 'से'); English 'in' disagrees."
+ },
+ {
+  "n": "929",
+  "field": "word.gram",
+  "word": "bodha",
+  "old": "2 sg. impv. √budh (lengthened)",
+  "new": "2 sg. impv. √budh (Vedic lengthening of the final vowel)",
+  "why": "reviewer (minor): Vedic lengthened form: glossary says keep the printed form in w (bodhā), lengthening in gram."
+ },
+ {
+  "n": "929",
+  "field": "word.w",
+  "word": "bodha",
+  "old": "bodha",
+  "new": "bodhā",
+  "why": "reviewer (minor): Vedic lengthened form: glossary says keep the printed form in w (bodhā), lengthening in gram."
+ },
+ {
+  "n": "929",
+  "field": "english",
+  "old": "Heed well this speech of mine, O bountiful one (Maghavan), this praise with which Vasiṣṭha praises you; enjoy these sacred words at the common feast.",
+  "new": "Heed well this speech of mine, O bountiful one (Maghavan), this praise which Vasiṣṭha chants to you; enjoy these sacred words at the common feast.",
+  "why": "reviewer (error): yām praśastim is accusative (the praise is what Vasiṣṭha chants), not an instrumental 'with which'; te is dative. Hindi 'जिससे' has the same wrong case."
+ },
+ {
+  "n": "929",
+  "field": "hindi",
+  "old": "हे उदार, मेरी इस वाणी को भली-भाँति सुनो, इस स्तुति को जिससे वसिष्ठ तुम्हारी स्तुति करता है; इन पवित्र वचनों को सहभोज में स्वीकार करो।",
+  "new": "हे उदार, मेरी इस वाणी को भली-भाँति सुनो, इस स्तुति को, जिसे वसिष्ठ तुम्हारे लिए गाता है; इन पवित्र वचनों को सहभोज में स्वीकार करो।",
+  "why": "reviewer (error): yām praśastim is accusative (the praise is what Vasiṣṭha chants), not an instrumental 'with which'; te is dative. Hindi 'जिससे' has the same wrong case."
+ },
+ {
+  "n": "929",
+  "field": "word.gloss",
+  "word": "arcati",
+  "old": "praises",
+  "new": "chants",
+  "why": "reviewer (error): yām praśastim is accusative (the praise is what Vasiṣṭha chants), not an instrumental 'with which'; te is dative. Hindi 'जिससे' has the same wrong case."
+ },
+ {
+  "n": "929",
+  "field": "notes",
+  "old": "arcati yām praśastim is read as 'the praise with which Vasiṣṭha praises (you)'. brahma is the short plural form (brahmāṇi). sadhamāda is taken as a joint feast or revel.",
+  "new": "arcati yām praśastim is read as 'the praise which Vasiṣṭha chants to you'. brahma is the short plural form (brahmāṇi). sadhamāda is taken as a joint feast or revel.",
+  "why": "reviewer (error): yām praśastim is accusative (the praise is what Vasiṣṭha chants), not an instrumental 'with which'; te is dative. Hindi 'जिससे' has the same wrong case."
+ },
+ {
+  "n": "929",
+  "field": "hindi",
+  "old": "हे उदार, मेरी इस वाणी को भली-भाँति सुनो, इस स्तुति को, जिसे वसिष्ठ तुम्हारे लिए गाता है; इन पवित्र वचनों को सहभोज में स्वीकार करो।",
+  "new": "हे मघवन्, मेरी इस वाणी को भली-भाँति सुनो, इस स्तुति को, जिसे वसिष्ठ तुम्हारे लिए गाता है; इन पवित्र वचनों को सहभोज में स्वीकार करो।",
+  "why": "reviewer (minor): Hindi vocative of maghavan is written हे मघवन् in the rest of the book (32 uses); the English keeps (Maghavan)."
+ },
+ {
+  "n": "930",
+  "field": "hindi",
+  "old": "सब सेनाओं को अधिक जीतने वाले इन्द्र को मनुष्यों ने एक साथ गढ़ा और राज्य करने के लिए उत्पन्न किया; शक्ति के लिए, श्रेष्ठ चुनाव में, स्थिरता में, और उग्र, सबसे बलवान, वेगवान, प्रबल को।",
+  "new": "सब सेनाओं को अधिक जीतने वाले इन्द्र को मनुष्यों ने एक साथ गढ़ा और राज्य करने के लिए उत्पन्न किया; शक्ति के लिए, चुनाव के लिए, स्थिरता में, और उग्र, सबसे बलवान, वेगवान, प्रबल को।",
+  "why": "reviewer (error): Sanskrit has vare only; 'श्रेष्ठ' (best) is added, and the case (locative) disagrees with English 'for the choice'."
+ },
+ {
+  "n": "930",
+  "field": "hindi",
+  "old": "सब सेनाओं को अधिक जीतने वाले इन्द्र को मनुष्यों ने एक साथ गढ़ा और राज्य करने के लिए उत्पन्न किया; शक्ति के लिए, चुनाव के लिए, स्थिरता में, और उग्र, सबसे बलवान, वेगवान, प्रबल को।",
+  "new": "सब सेनाओं को अधिक जीतने वाले इन्द्र को मनुष्यों ने एक साथ गढ़ा और राज्य करने के लिए उत्पन्न किया; शक्ति के लिए, चुनाव के लिए, स्थिरता में, और उग्र, सबसे बलवान, द्रुत, वेगवान को।",
+  "why": "reviewer (minor): English: tarasam 'swift', tarasvinam 'impetuous'; Hindi 'प्रबल' (strong) does not match and 'वेगवान' is used for tarasvin in 931."
+ },
+ {
+  "n": "930",
+  "field": "english",
+  "old": "The men together fashioned Indra, who greatly overpowers all hosts, and begot him to rule; for power, for the choice, in steadiness, [unclear], and the fierce, most mighty, swift, impetuous one.",
+  "new": "The men together fashioned Indra, the greater overpowerer of all hosts, and begot him to rule; for power, for the choice, in steadiness, [unclear], and the fierce, most mighty, swift, impetuous one.",
+  "why": "reviewer (minor): abhibhūtara is a comparative ('more overpowering'); 'greatly overpowers' turns it into a verb and drops the comparison."
+ },
+ {
+  "n": "931",
+  "field": "english",
+  "old": "The inspired ones bend the rim with the eye, the ram at the call; the well-shining, non-hostile ones, [unclear] to you, even in the ear, the impetuous ones, together with the chanters.",
+  "new": "The inspired ones bend the rim with the eye, the ram at the call; the well-shining, non-hostile ones, to you, even in the ear, the impetuous ones, together with the chanters.",
+  "why": "reviewer (error): [unclear] marks unreadable text, but every word here is readable and glossed; the Hindi has 'तुम्हारे लिए' with no unclear mark, so the layers disagree. The obscurity is in the syntax (already in notes)."
+ },
+ {
+  "n": "932",
+  "field": "word.gloss",
+  "word": "hi",
+  "old": "for",
+  "new": "indeed",
+  "why": "reviewer (minor): Gloss 'for' but both translations render hi as 'indeed' / 'निश्चय ही'."
+ },
+ {
+  "n": "933",
+  "field": "english",
+  "old": "He who is king of the peoples, who goes in chariots, irresistible, the overcomer of all hosts, the foremost, who is the slayer of Vṛtra: I praise [him].",
+  "new": "[He] who is king of the peoples, who goes in chariots, irresistible, the overcomer of all hosts, the foremost, who is the slayer of Vṛtra: I praise [him].",
+  "why": "reviewer (minor): 'He' is supplied unmarked while 'him' is bracketed; Hindi supplies no pronoun at the start."
+ },
+ {
+  "n": "933",
+  "field": "hindi",
+  "old": "जो लोगों का राजा है, रथों में चलने वाला, अदम्य है, सब सेनाओं को पार करने वाला, जो वृत्र का संहारक है, उस सर्वश्रेष्ठ की मैं स्तुति करता हूँ।",
+  "new": "जो लोगों का राजा है, रथों में चलने वाला, अदम्य है, सब सेनाओं को जीतने वाला, जो वृत्र का संहारक है, उस सर्वश्रेष्ठ की मैं स्तुति करता हूँ।",
+  "why": "reviewer (minor): tarutā is 'overcomer' in English; 'पार करने वाला' (one who crosses) disagrees."
+ },
+ {
+  "n": "933",
+  "field": "confidence",
+  "old": "high",
+  "new": "medium",
+  "why": "reviewer (minor): Relative clauses without antecedent, jyeṣṭhaṃ accusative and gṛṇe active-or-passive: not a firm reading."
+ },
+ {
+  "n": "935",
+  "field": "hindi",
+  "old": "आकाश की प्रिय वस्तुओं के चारों ओर, बलों के चारों ओर, दो नातिनों के बीच स्थापित कवि ध्वनियों के साथ चलता है, कवि की शक्ति वाला।",
+  "new": "आकाश की प्रिय वस्तुओं के चारों ओर, बलों के चारों ओर, दो पौत्रियों में स्थापित कवि ध्वनियों के साथ चलता है, कवि की शक्ति वाला।",
+  "why": "reviewer (error): Glossary: napāt = grandson (पौत्र), never नाती; so naptī is पौत्री. 'between' is also added: naptyoḥ is a plain loc./gen. dual."
+ },
+ {
+  "n": "935",
+  "field": "english",
+  "old": "Around the dear things of heaven, around the vigours, the seer, placed between the two granddaughters, goes with sounds, he of a seer's power.",
+  "new": "Around the dear things of heaven, around the vigours, the seer, placed in the two granddaughters, goes with sounds, he of a seer's power.",
+  "why": "reviewer (error): Glossary: napāt = grandson (पौत्र), never नाती; so naptī is पौत्री. 'between' is also added: naptyoḥ is a plain loc./gen. dual."
+ },
+ {
+  "n": "935",
+  "field": "word.gloss",
+  "word": "naptyoḥ",
+  "old": "between the two granddaughters (uncertain)",
+  "new": "in the two granddaughters, uncertain",
+  "why": "reviewer (error): Glossary: napāt = grandson (पौत्र), never नाती; so naptī is पौत्री. 'between' is also added: naptyoḥ is a plain loc./gen. dual."
+ },
+ {
+  "n": "935",
+  "field": "notes",
+  "old": "Low certainty. naptyoḥ (dual of naptī) is unclear; 'between the two granddaughters' is only a literal guess. vayāṃsi may be 'vigours' or 'birds, food'. The single pari is understood with both priyā and vayāṃsi. svāna may stand for suvāna 'being pressed' (note only, not applied). The candrabindu in vayā~si is the nasal.",
+  "new": "Low certainty. naptyoḥ (dual of naptī) is unclear; 'in the two granddaughters' is only a literal guess. vayāṃsi may be 'vigours' or 'birds, food'. The single pari is understood with both priyā and vayāṃsi. svāna may stand for suvāna 'being pressed' (note only, not applied). The candrabindu in vayā~si is the nasal.",
+  "why": "reviewer (error): Glossary: napāt = grandson (पौत्र), never नाती; so naptī is पौत्री. 'between' is also added: naptyoḥ is a plain loc./gen. dual."
+ },
+ {
+  "n": "935",
+  "field": "english",
+  "old": "Around the dear things of heaven, around the vigours, the seer, placed in the two granddaughters, goes with sounds, he of a seer's power.",
+  "new": "Around the dear things of heaven, the vigours, the seer, placed in the two granddaughters, goes with sounds, he of a seer's power.",
+  "why": "reviewer (minor): The single pari governs both objects (the notes say so), yet both layers repeat 'around', adding a word."
+ },
+ {
+  "n": "935",
+  "field": "hindi",
+  "old": "आकाश की प्रिय वस्तुओं के चारों ओर, बलों के चारों ओर, दो पौत्रियों में स्थापित कवि ध्वनियों के साथ चलता है, कवि की शक्ति वाला।",
+  "new": "आकाश की प्रिय वस्तुओं, बलों के चारों ओर, दो पौत्रियों में स्थापित कवि ध्वनियों के साथ चलता है, कवि की शक्ति वाला।",
+  "why": "reviewer (minor): The single pari governs both objects (the notes say so), yet both layers repeat 'around', adding a word."
+ },
+ {
+  "n": "938",
+  "field": "english",
+  "old": "For you, indeed, O clarifying one, most radiant, proclaiming the divine births for immortality.",
+  "new": "You indeed, O clarifying one, most radiant, proclaiming the divine births for immortality.",
+  "why": "reviewer (error): tvam is nominative ('you'); hi is the particle. 'For you' is a wrong case and the Hindi 'तुम ही' is right."
+ },
+ {
+  "n": "938",
+  "field": "word.gloss",
+  "word": "a-",
+  "old": "aṅga (first syllable, prolonged)",
+  "new": "first part of aṅga (particle of address or emphasis), prolonged",
+  "why": "reviewer (minor): aṅga is split into fragments and '-ṅga' is glossed 'indeed (end of aṅga)', which is invented; aṅga is one particle (of address or emphasis). Better words: hi, aṅga, 3 (needs reordering, so manual); at least the glosses must not claim a meaning for a fragment."
+ },
+ {
+  "n": "938",
+  "field": "word.gloss",
+  "word": "-ṅga",
+  "old": "indeed (end of aṅga)",
+  "new": "second part of aṅga (particle of address or emphasis)",
+  "why": "reviewer (minor): aṅga is split into fragments and '-ṅga' is glossed 'indeed (end of aṅga)', which is invented; aṅga is one particle (of address or emphasis). Better words: hi, aṅga, 3 (needs reordering, so manual); at least the glosses must not claim a meaning for a fragment."
+ },
+ {
+  "n": "940",
+  "field": "english",
+  "old": "Soma, being purified, runs through the woollen strainer with a wave; clarifying at the head of speech, roaring repeatedly.",
+  "new": "Soma, being purified, runs through the strainer of sheep's fleece with a wave; clarifying at the head of speech, roaring repeatedly.",
+  "why": "reviewer (minor): Glossary: avi/avya = sheep's fleece (भेड़ के बाल)."
+ },
+ {
+  "n": "940",
+  "field": "hindi",
+  "old": "सोम शुद्ध होता हुआ लहर के साथ ऊनी छन्नी में दौड़ता है; वाणी के आगे-आगे शुद्ध होता हुआ बार-बार गरजता है।",
+  "new": "सोम शुद्ध होता हुआ लहर के साथ भेड़ के बालों की छन्नी में दौड़ता है; वाणी के आगे-आगे शुद्ध होता हुआ बार-बार गरजता है।",
+  "why": "reviewer (minor): Glossary: avi/avya = sheep's fleece (भेड़ के बाल)."
+ },
+ {
+  "n": "940",
+  "field": "word.gloss",
+  "word": "avyam",
+  "old": "woollen",
+  "new": "of sheep's fleece",
+  "why": "reviewer (minor): Glossary: avi/avya = sheep's fleece (भेड़ के बाल)."
+ },
+ {
+  "n": "940",
+  "field": "hindi",
+  "old": "सोम शुद्ध होता हुआ लहर के साथ भेड़ के बालों की छन्नी में दौड़ता है; वाणी के आगे-आगे शुद्ध होता हुआ बार-बार गरजता है।",
+  "new": "सोम शुद्ध होता हुआ लहर के साथ भेड़ के बालों की छन्नी में दौड़ता है; वाणी के आगे-आगे शुद्ध होता हुआ बार-बार गरजते हुए।",
+  "why": "reviewer (minor): kanikradat is a participle (English 'roaring repeatedly'); the Hindi turns it into a finite verb."
+ },
+ {
+  "n": "942",
+  "field": "hindi",
+  "old": "दानशील को कलशों की ओर छोड़ा गया है, वाज की इच्छा वाले घोड़े की तरह; शुद्ध होता हुआ, वाणी को उत्पन्न करता हुआ, वह बहा है।",
+  "new": "दानशील कलशों की ओर छोड़ा गया है, वाज की इच्छा वाले घोड़े की तरह; शुद्ध होता हुआ, वाणी को उत्पन्न करता हुआ, वह बहा है।",
+  "why": "reviewer (minor): mīḍhvān is nominative and the subject of the passive; 'को' marks it as an object."
+ },
+ {
+  "n": "942",
+  "field": "english",
+  "old": "The liberal one has been released to the vessels, like a courser desiring vāja; being purified, generating speech, he has flowed.",
+  "new": "The liberal one has been released to the vessels, like a courser desiring the prize; being purified, generating speech, he has flowed.",
+  "why": "reviewer (minor): Glossary: vāja English 'prize' (Hindi वाज)."
+ },
+ {
+  "n": "942",
+  "field": "word.gloss",
+  "word": "vājayuḥ",
+  "old": "desiring vāja",
+  "new": "desiring the prize",
+  "why": "reviewer (minor): Glossary: vāja English 'prize' (Hindi वाज)."
+ },
+ {
+  "n": "944",
+  "field": "hindi",
+  "old": "देवगण का ब्रह्म-पुरोहित, कवियों का पथप्रदर्शक, प्रेरित मेधावियों का ऋषि, पशुओं का महिष, गृध्रों का श्येन, वनों की कुल्हाड़ी; सोम ध्वनि करता हुआ छन्ने के ऊपर से जाता है।",
+  "new": "देवगण का ब्रह्म-पुरोहित, कवियों का पथप्रदर्शक, प्रेरित मेधावियों का ऋषि, पशुओं का भैंसा, गृध्रों का श्येन, वनों की कुल्हाड़ी; सोम ध्वनि करता हुआ छन्ने के ऊपर से जाता है।",
+  "why": "reviewer (minor): Glossary: mahiṣa = buffalo (भैंसा); 'महिष' is only a transliteration."
+ },
+ {
+  "n": "945",
+  "field": "word.gloss",
+  "word": "vṛjane",
+  "old": "in the enclosure",
+  "new": "enclosures",
+  "why": "reviewer (error): the printed vṛjanemā is vṛjanā + imā (ā + i = e); vṛjane + imā would give vṛjana imā. The draft's primary split is phonologically impossible. Read vṛjanā (n. acc. pl.), imā and avarāṇi as agreeing neuters, the object of ā tiṣṭhati."
+ },
+ {
+  "n": "945",
+  "field": "word.gram",
+  "word": "vṛjane",
+  "old": "n. loc. sg.",
+  "new": "n. acc. pl.",
+  "why": "reviewer (error): the printed vṛjanemā is vṛjanā + imā (ā + i = e); vṛjane + imā would give vṛjana imā. The draft's primary split is phonologically impossible. Read vṛjanā (n. acc. pl.), imā and avarāṇi as agreeing neuters, the object of ā tiṣṭhati."
+ },
+ {
+  "n": "945",
+  "field": "word.w",
+  "word": "vṛjane",
+  "old": "vṛjane",
+  "new": "vṛjanā",
+  "why": "reviewer (error): the printed vṛjanemā is vṛjanā + imā (ā + i = e); vṛjane + imā would give vṛjana imā. The draft's primary split is phonologically impossible. Read vṛjanā (n. acc. pl.), imā and avarāṇi as agreeing neuters, the object of ā tiṣṭhati."
+ },
+ {
+  "n": "945",
+  "field": "word.gloss",
+  "word": "avarāṇi",
+  "old": "lower things",
+  "new": "lower",
+  "why": "reviewer (error): the printed vṛjanemā is vṛjanā + imā (ā + i = e); vṛjane + imā would give vṛjana imā. The draft's primary split is phonologically impossible. Read vṛjanā (n. acc. pl.), imā and avarāṇi as agreeing neuters, the object of ā tiṣṭhati."
+ },
+ {
+  "n": "945",
+  "field": "english",
+  "old": "Flowing, he has set the wave of speech trembling like a river, the songs, the hymns, the inspired thoughts; looking within, the bull takes his stand upon these lower things in the enclosure, knowing among the cows.",
+  "new": "Flowing, he has set the wave of speech trembling like a river, the songs, the hymns, the inspired thoughts; looking within, the bull takes his stand upon these lower enclosures, knowing among the cows.",
+  "why": "reviewer (error): the printed vṛjanemā is vṛjanā + imā (ā + i = e); vṛjane + imā would give vṛjana imā. The draft's primary split is phonologically impossible. Read vṛjanā (n. acc. pl.), imā and avarāṇi as agreeing neuters, the object of ā tiṣṭhati."
+ },
+ {
+  "n": "945",
+  "field": "hindi",
+  "old": "बहता हुआ वह वाणी की लहर को नदी की तरह कंपाता है, गीतों को, स्तोत्रों को, प्रेरित विचारों को; भीतर देखता हुआ वृषभ इन निचली वस्तुओं पर बाड़े में खड़ा होता है, गायों के बीच जानता हुआ।",
+  "new": "बहता हुआ वह वाणी की लहर को नदी की तरह कंपाता है, गीतों को, स्तोत्रों को, प्रेरित विचारों को; भीतर देखता हुआ वृषभ इन निचले घेरों पर खड़ा होता है, गायों के बीच जानता हुआ।",
+  "why": "reviewer (error): the printed vṛjanemā is vṛjanā + imā (ā + i = e); vṛjane + imā would give vṛjana imā. The draft's primary split is phonologically impossible. Read vṛjanā (n. acc. pl.), imā and avarāṇi as agreeing neuters, the object of ā tiṣṭhati."
+ },
+ {
+  "n": "945",
+  "field": "notes",
+  "old": "Obscure. giraḥ stomān manīṣāḥ are read as further objects of the first verb; 'vṛjane imā' may instead be 'vṛjanā imā'. The parallel reads somaḥ for stomān; not applied. No name is added for the subject.",
+  "new": "Obscure. giraḥ stomān manīṣāḥ are read as further objects of the first verb; the printed vṛjanemā is vṛjanā + imā (vṛjane + imā would give vṛjana imā), so vṛjanā is read. The parallel reads somaḥ for stomān; not applied. No name is added for the subject.",
+  "why": "reviewer (error): the printed vṛjanemā is vṛjanā + imā (ā + i = e); vṛjane + imā would give vṛjana imā. The draft's primary split is phonologically impossible. Read vṛjanā (n. acc. pl.), imā and avarāṇi as agreeing neuters, the object of ā tiṣṭhati."
+ },
+ {
+  "n": "945",
+  "field": "notes",
+  "old": "Obscure. giraḥ stomān manīṣāḥ are read as further objects of the first verb; the printed vṛjanemā is vṛjanā + imā (vṛjane + imā would give vṛjana imā), so vṛjanā is read. The parallel reads somaḥ for stomān; not applied. No name is added for the subject.",
+  "new": "Obscure. giraḥ stomān manīṣāḥ are read as further objects of the first verb; the printed vṛjanemā is vṛjanā + imā (vṛjane + imā would give vṛjana imā), so vṛjanā is read. No name is added for the subject.",
+  "why": "reviewer (minor): Notes must not carry Ṛgveda parallels."
+ },
+ {
+  "n": "945",
+  "field": "hindi",
+  "old": "बहता हुआ वह वाणी की लहर को नदी की तरह कंपाता है, गीतों को, स्तोत्रों को, प्रेरित विचारों को; भीतर देखता हुआ वृषभ इन निचले घेरों पर खड़ा होता है, गायों के बीच जानता हुआ।",
+  "new": "बहते हुए उसने वाणी की लहर को नदी की तरह कंपा दिया है, गीतों को, स्तोत्रों को, प्रेरित विचारों को; भीतर देखता हुआ वृषभ इन निचले घेरों पर खड़ा होता है, गायों के बीच जानता हुआ।",
+  "why": "reviewer (minor): English is a perfect ('has set trembling', aorist avīvipat); Hindi is present. Glossary: gir = song (स्तुति), so Hindi 'गीतों' should be स्तुतियों."
+ },
+ {
+  "n": "945",
+  "field": "hindi",
+  "old": "बहते हुए उसने वाणी की लहर को नदी की तरह कंपा दिया है, गीतों को, स्तोत्रों को, प्रेरित विचारों को; भीतर देखता हुआ वृषभ इन निचले घेरों पर खड़ा होता है, गायों के बीच जानता हुआ।",
+  "new": "बहते हुए उसने वाणी की लहर को नदी की तरह कंपा दिया है, स्तुतियों को, स्तोत्रों को, प्रेरित विचारों को; भीतर देखता हुआ वृषभ इन निचले घेरों पर खड़ा होता है, गायों के बीच जानता हुआ।",
+  "why": "reviewer (minor): English is a perfect ('has set trembling', aorist avīvipat); Hindi is present. Glossary: gir = song (स्तुति), so Hindi 'गीतों' should be स्तुतियों."
+ },
+ {
+  "n": "946",
+  "field": "english",
+  "old": "Agni, for you, strengthening the rites, the most manifold; toward the descendant, the mighty one.",
+  "new": "Agni, for you, strengthening the rites, the most manifold; toward the grandson, the mighty one.",
+  "why": "reviewer (error): Glossary: napāt = grandson (पौत्र); naptre must be 'grandson'/पौत्र (Hindi 'वंशज' and the added 'उस' are not in the Sanskrit)."
+ },
+ {
+  "n": "946",
+  "field": "hindi",
+  "old": "अग्नि को, तुम्हारे लिए, यज्ञों को बढ़ाने वाले, सबसे बहुरूप को; उस बलवान वंशज की ओर।",
+  "new": "अग्नि को, तुम्हारे लिए, यज्ञों को बढ़ाने वाले, सबसे बहुरूप को; बलवान पौत्र की ओर।",
+  "why": "reviewer (error): Glossary: napāt = grandson (पौत्र); naptre must be 'grandson'/पौत्र (Hindi 'वंशज' and the added 'उस' are not in the Sanskrit)."
+ },
+ {
+  "n": "946",
+  "field": "word.gloss",
+  "word": "naptre",
+  "old": "to the descendant",
+  "new": "to the grandson",
+  "why": "reviewer (error): Glossary: napāt = grandson (पौत्र); naptre must be 'grandson'/पौत्र (Hindi 'वंशज' and the added 'उस' are not in the Sanskrit)."
+ },
+ {
+  "n": "946",
+  "field": "hindi",
+  "old": "अग्नि को, तुम्हारे लिए, यज्ञों को बढ़ाने वाले, सबसे बहुरूप को; बलवान पौत्र की ओर।",
+  "new": "अग्नि को, तुम्हारे लिए, यज्ञों को बढ़ाने वाले, सबसे प्रचुर को; बलवान पौत्र की ओर।",
+  "why": "reviewer (minor): 'बहुरूप' (many-formed) adds 'form'; purūtama is 'most abundant' (puru + tama, no suffix split)."
+ },
+ {
+  "n": "946",
+  "field": "english",
+  "old": "Agni, for you, strengthening the rites, the most manifold; toward the grandson, the mighty one.",
+  "new": "Agni, for you, strengthening the rites, the most abundant; toward the grandson, the mighty one.",
+  "why": "reviewer (minor): 'बहुरूप' (many-formed) adds 'form'; purūtama is 'most abundant' (puru + tama, no suffix split)."
+ },
+ {
+  "n": "946",
+  "field": "word.gloss",
+  "word": "purūtamam",
+  "old": "most manifold",
+  "new": "most abundant",
+  "why": "reviewer (minor): 'बहुरूप' (many-formed) adds 'form'; purūtama is 'most abundant' (puru + tama, no suffix split)."
+ },
+ {
+  "n": "948",
+  "field": "english",
+  "old": "This Agni among the gods rules over all splendours; may he come to us with vāja.",
+  "new": "This Agni among the gods rules over all splendours; may he come to us with prizes.",
+  "why": "reviewer (minor): Glossary: vāja English 'prize'."
+ },
+ {
+  "n": "948",
+  "field": "word.gloss",
+  "word": "vājaiḥ",
+  "old": "with vāja",
+  "new": "with prizes",
+  "why": "reviewer (minor): Glossary: vāja English 'prize'."
+ },
+ {
+  "n": "950",
+  "field": "hindi",
+  "old": "तुमसे उत्तम रथी कोई नहीं, जब हे इन्द्र, तुम दोनों भूरे घोड़ों को थामते हो; बल में कोई तुम्हारी बराबरी नहीं करता; हे सुन्दर घोड़ों वाले, कोई तुम तक नहीं पहुँचा है।",
+  "new": "तुमसे उत्तम रथी कोई नहीं, जब हे इन्द्र, तुम दोनों भूरे घोड़ों को थामते हो; बल में कोई तुम्हारी बराबरी नहीं करता; हे उत्तम घोड़ों वाले, कोई तुम तक नहीं पहुँचा है।",
+  "why": "reviewer (minor): su- is 'good', not 'beautiful'."
+ },
+ {
+  "n": "951",
+  "field": "word.gram",
+  "word": "namasyata",
+  "old": "2 pl. impv. √namasya (lengthened)",
+  "new": "2 pl. impv. √namasya (Vedic lengthening of the final vowel)",
+  "why": "reviewer (minor): Vedic lengthened form: keep the printed form in w (namasyatā)."
+ },
+ {
+  "n": "951",
+  "field": "word.w",
+  "word": "namasyata",
+  "old": "namasyata",
+  "new": "namasyatā",
+  "why": "reviewer (minor): Vedic lengthened form: keep the printed form in w (namasyatā)."
+ },
+ {
+  "n": "952",
+  "field": "word.gram",
+  "word": "vaha",
+  "old": "2 sg. impv. √vah (lengthened)",
+  "new": "2 sg. impv. √vah (Vedic lengthening of the final vowel)",
+  "why": "reviewer (minor): Vedic lengthened form: keep the printed form in w (vahā)."
+ },
+ {
+  "n": "952",
+  "field": "word.w",
+  "word": "vaha",
+  "old": "vaha",
+  "new": "vahā",
+  "why": "reviewer (minor): Vedic lengthened form: keep the printed form in w (vahā)."
+ },
+ {
+  "n": "952",
+  "field": "english",
+  "old": "O Indra, take pleasure; drive the two tawny horses forth, come here, O hero; drink of the pressed, like a prayer, taking pleasure in the honey, lovely, for exhilaration.",
+  "new": "O Indra, take pleasure; drive the two tawny horses forth, come here, O hero; drink of the pressed, like a prayer, taking pleasure in the sweet drink, lovely, for exhilaration.",
+  "why": "reviewer (minor): Glossary: madhu = sweet drink (मधु)."
+ },
+ {
+  "n": "952",
+  "field": "word.gloss",
+  "word": "madhoḥ",
+  "old": "of the honey",
+  "new": "of the sweet drink",
+  "why": "reviewer (minor): Glossary: madhu = sweet drink (मधु)."
+ },
+ {
+  "n": "953",
+  "field": "english",
+  "old": "O Indra, fill the belly like a new one, with honey, like [that] of heaven; of this pressed one, like the light of heaven, the sweet-voiced exhilarations have stood near you.",
+  "new": "O Indra, fill the belly like a new one, with the sweet drink, like [that] of heaven; of this pressed one, like the light of heaven, the sweet-voiced exhilarations have stood near you.",
+  "why": "reviewer (minor): Glossary: madhu = sweet drink (मधु)."
+ },
+ {
+  "n": "953",
+  "field": "word.gloss",
+  "word": "madhoḥ",
+  "old": "with honey",
+  "new": "with the sweet drink",
+  "why": "reviewer (minor): Glossary: madhu = sweet drink (मधु)."
+ }
+]

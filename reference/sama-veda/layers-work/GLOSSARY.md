@@ -38,3 +38,9 @@
 - niyut = teams (Hindi टोलियाँ). Hindi stotṛ and jaritṛ = स्तोता; "गायक" not used.
 - vrata = "ordinance" / व्रत (consistent; no second guess).
 - OPEN dharman: also 960 vidharmaṇi (draft [unclear]; p01/ch11 521, 529 "in the support, foundation"; p04 ch06 k2 1017 "in the upholding").
+- Keep sapti (steed/घोड़ा), arvan (horse), atya (courser) apart.
+- aṅga is one particle (address/emphasis), never split; reorder words around a pluta inside it.
+- vṛjana = enclosure. naptī = granddaughter (पौत्री). purūtama = most abundant (सबसे प्रचुर).
+- tarasa = swift (द्रुत); tarasvin = impetuous (वेगवान). dhīti = devotion (भक्ति), distinct from mati = prayer.
+- śyena = falcon (Hindi बाज़ or श्येन, one choice; suparṇa already uses बाज़). Yati = name.
+- OPEN dharman: also 921 ("dharma" vs "ordinance").

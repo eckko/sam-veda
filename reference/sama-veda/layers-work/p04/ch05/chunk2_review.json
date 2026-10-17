@@ -1,0 +1,943 @@
+{
+ "units": [
+  {
+   "n": "921",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "notes",
+     "where": "dharmaṇā / dharma",
+     "problem": "dharman is an open manual decision: the draft uses 'dharma' in English and Hindi while the gloss says 'by dharma, by support'. Owner must choose 'dharma' or 'ordinance' (glossary OPEN item); the gloss should then carry the one chosen rendering only.",
+     "fix": "Decide dharma vs ordinance; then set gloss, English and Hindi to match.",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "922",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "नीचे उतरकर विचरते हैं",
+     "problem": "'उतरकर' (having descended) is a verb not in the Sanskrit; ni and ava are both just 'down' (English 'move about down upon me').",
+     "fix": "...मुझ पर नीचे विचरते हैं",
+     "severity": "minor",
+     "patch": {
+      "n": "922",
+      "op": "replace",
+      "field": "hindi",
+      "old": "नीचे उतरकर विचरते हैं",
+      "new": "नीचे विचरते हैं"
+     }
+    }
+   ]
+  },
+  {
+   "n": "923",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "924",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "the all-seeing one",
+     "problem": "Glossary: vicarṣaṇi = surveyor (सर्वदर्शी); vicakṣaṇa is the far-seeing one.",
+     "fix": "Being purified, the surveyor has advanced upon all foes",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "924",
+       "op": "replace",
+       "field": "english",
+       "old": "the all-seeing one",
+       "new": "the surveyor"
+      },
+      {
+       "n": "924",
+       "op": "word",
+       "match_w": "vicarṣaṇiḥ",
+       "field": "gloss",
+       "value": "surveyor"
+      }
+     ]
+    },
+    {
+     "field": "hindi",
+     "where": "सर्वद्रष्टा",
+     "problem": "Glossary Hindi for vicarṣaṇi is सर्वदर्शी.",
+     "fix": "सर्वदर्शी",
+     "severity": "minor",
+     "patch": {
+      "n": "924",
+      "op": "replace",
+      "field": "hindi",
+      "old": "सर्वद्रष्टा",
+      "new": "सर्वदर्शी"
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "स्तुतियों से",
+     "problem": "English 'devotions' and Hindi 'स्तुतियों' (praises) disagree for dhītibhiḥ.",
+     "fix": "भक्तियों से",
+     "severity": "minor",
+     "patch": {
+      "n": "924",
+      "op": "replace",
+      "field": "hindi",
+      "old": "स्तुतियों से",
+      "new": "भक्तियों से"
+     }
+    }
+   ]
+  },
+  {
+   "n": "925",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "926",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "927",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "held in the two arms",
+     "problem": "bāhubhyām is instrumental (Hindi 'से'); English 'in' disagrees.",
+     "fix": "well held by the two arms of the presser",
+     "severity": "minor",
+     "patch": {
+      "n": "927",
+      "op": "replace",
+      "field": "english",
+      "old": "well held in the two arms",
+      "new": "well held by the two arms"
+     }
+    }
+   ]
+  },
+  {
+   "n": "928",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "929",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "split",
+     "where": "bodha",
+     "problem": "Vedic lengthened form: glossary says keep the printed form in w (bodhā), lengthening in gram.",
+     "fix": "w: bodhā",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "929",
+       "op": "word",
+       "match_w": "bodha",
+       "field": "gram",
+       "value": "2 sg. impv. √budh (Vedic lengthening of the final vowel)"
+      },
+      {
+       "n": "929",
+       "op": "word",
+       "match_w": "bodha",
+       "field": "w",
+       "value": "bodhā"
+      }
+     ]
+    },
+    {
+     "field": "english",
+     "where": "this praise with which Vasiṣṭha praises you",
+     "problem": "yām praśastim is accusative (the praise is what Vasiṣṭha chants), not an instrumental 'with which'; te is dative. Hindi 'जिससे' has the same wrong case.",
+     "fix": "English: this praise which Vasiṣṭha chants to you. Hindi: इस स्तुति को, जिसे वसिष्ठ तुम्हारे लिए गाता है",
+     "severity": "error",
+     "patch": [
+      {
+       "n": "929",
+       "op": "replace",
+       "field": "english",
+       "old": "this praise with which Vasiṣṭha praises you",
+       "new": "this praise which Vasiṣṭha chants to you"
+      },
+      {
+       "n": "929",
+       "op": "replace",
+       "field": "hindi",
+       "old": "इस स्तुति को जिससे वसिष्ठ तुम्हारी स्तुति करता है",
+       "new": "इस स्तुति को, जिसे वसिष्ठ तुम्हारे लिए गाता है"
+      },
+      {
+       "n": "929",
+       "op": "word",
+       "match_w": "arcati",
+       "field": "gloss",
+       "value": "chants"
+      },
+      {
+       "n": "929",
+       "op": "replace",
+       "field": "notes",
+       "old": "'the praise with which Vasiṣṭha praises (you)'",
+       "new": "'the praise which Vasiṣṭha chants to you'"
+      }
+     ]
+    },
+    {
+     "field": "hindi",
+     "where": "हे उदार",
+     "problem": "Hindi vocative of maghavan is written हे मघवन् in the rest of the book (32 uses); the English keeps (Maghavan).",
+     "fix": "हे मघवन्",
+     "severity": "minor",
+     "patch": {
+      "n": "929",
+      "op": "replace",
+      "field": "hindi",
+      "old": "हे उदार",
+      "new": "हे मघवन्"
+     }
+    }
+   ]
+  },
+  {
+   "n": "930",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "श्रेष्ठ चुनाव में",
+     "problem": "Sanskrit has vare only; 'श्रेष्ठ' (best) is added, and the case (locative) disagrees with English 'for the choice'.",
+     "fix": "शक्ति के लिए, चुनाव के लिए, स्थिरता में",
+     "severity": "error",
+     "patch": {
+      "n": "930",
+      "op": "replace",
+      "field": "hindi",
+      "old": "श्रेष्ठ चुनाव में",
+      "new": "चुनाव के लिए"
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "वेगवान, प्रबल",
+     "problem": "English: tarasam 'swift', tarasvinam 'impetuous'; Hindi 'प्रबल' (strong) does not match and 'वेगवान' is used for tarasvin in 931.",
+     "fix": "द्रुत, वेगवान को",
+     "severity": "minor",
+     "patch": {
+      "n": "930",
+      "op": "replace",
+      "field": "hindi",
+      "old": "वेगवान, प्रबल को",
+      "new": "द्रुत, वेगवान को"
+     }
+    },
+    {
+     "field": "english",
+     "where": "who greatly overpowers all hosts",
+     "problem": "abhibhūtara is a comparative ('more overpowering'); 'greatly overpowers' turns it into a verb and drops the comparison.",
+     "fix": "Indra, the greater overpowerer of all hosts",
+     "severity": "minor",
+     "patch": {
+      "n": "930",
+      "op": "replace",
+      "field": "english",
+      "old": "who greatly overpowers all hosts",
+      "new": "the greater overpowerer of all hosts"
+     }
+    }
+   ]
+  },
+  {
+   "n": "931",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "[unclear] to you",
+     "problem": "[unclear] marks unreadable text, but every word here is readable and glossed; the Hindi has 'तुम्हारे लिए' with no unclear mark, so the layers disagree. The obscurity is in the syntax (already in notes).",
+     "fix": "the well-shining, non-hostile ones, to you, even in the ear",
+     "severity": "error",
+     "patch": {
+      "n": "931",
+      "op": "replace",
+      "field": "english",
+      "old": "non-hostile ones, [unclear] to you,",
+      "new": "non-hostile ones, to you,"
+     }
+    }
+   ]
+  },
+  {
+   "n": "932",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gloss",
+     "where": "hi",
+     "problem": "Gloss 'for' but both translations render hi as 'indeed' / 'निश्चय ही'.",
+     "fix": "indeed",
+     "severity": "minor",
+     "patch": {
+      "n": "932",
+      "op": "word",
+      "match_w": "hi",
+      "field": "gloss",
+      "value": "indeed"
+     }
+    }
+   ]
+  },
+  {
+   "n": "933",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "He who is king",
+     "problem": "'He' is supplied unmarked while 'him' is bracketed; Hindi supplies no pronoun at the start.",
+     "fix": "[He] who is king of the peoples",
+     "severity": "minor",
+     "patch": {
+      "n": "933",
+      "op": "replace",
+      "field": "english",
+      "old": "He who is king",
+      "new": "[He] who is king"
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "सब सेनाओं को पार करने वाला",
+     "problem": "tarutā is 'overcomer' in English; 'पार करने वाला' (one who crosses) disagrees.",
+     "fix": "सब सेनाओं को जीतने वाला",
+     "severity": "minor",
+     "patch": {
+      "n": "933",
+      "op": "replace",
+      "field": "hindi",
+      "old": "सब सेनाओं को पार करने वाला",
+      "new": "सब सेनाओं को जीतने वाला"
+     }
+    },
+    {
+     "field": "confidence",
+     "where": "high",
+     "problem": "Relative clauses without antecedent, jyeṣṭhaṃ accusative and gṛṇe active-or-passive: not a firm reading.",
+     "fix": "medium",
+     "severity": "minor",
+     "patch": {
+      "n": "933",
+      "op": "set",
+      "field": "confidence",
+      "value": "medium"
+     }
+    }
+   ]
+  },
+  {
+   "n": "934",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "935",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "दो नातिनों के बीच",
+     "problem": "Glossary: napāt = grandson (पौत्र), never नाती; so naptī is पौत्री. 'between' is also added: naptyoḥ is a plain loc./gen. dual.",
+     "fix": "दो पौत्रियों में स्थापित",
+     "severity": "error",
+     "patch": [
+      {
+       "n": "935",
+       "op": "replace",
+       "field": "hindi",
+       "old": "दो नातिनों के बीच स्थापित",
+       "new": "दो पौत्रियों में स्थापित"
+      },
+      {
+       "n": "935",
+       "op": "replace",
+       "field": "english",
+       "old": "placed between the two granddaughters",
+       "new": "placed in the two granddaughters"
+      },
+      {
+       "n": "935",
+       "op": "word",
+       "match_w": "naptyoḥ",
+       "field": "gloss",
+       "value": "in the two granddaughters, uncertain"
+      },
+      {
+       "n": "935",
+       "op": "replace",
+       "field": "notes",
+       "old": "'between the two granddaughters' is only a literal guess",
+       "new": "'in the two granddaughters' is only a literal guess"
+      }
+     ]
+    },
+    {
+     "field": "english",
+     "where": "around ... around",
+     "problem": "The single pari governs both objects (the notes say so), yet both layers repeat 'around', adding a word.",
+     "fix": "Around the dear things of heaven, the vigours,",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "935",
+       "op": "replace",
+       "field": "english",
+       "old": "Around the dear things of heaven, around the vigours,",
+       "new": "Around the dear things of heaven, the vigours,"
+      },
+      {
+       "n": "935",
+       "op": "replace",
+       "field": "hindi",
+       "old": "आकाश की प्रिय वस्तुओं के चारों ओर, बलों के चारों ओर,",
+       "new": "आकाश की प्रिय वस्तुओं, बलों के चारों ओर,"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "936",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "937",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "938",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "For you, indeed",
+     "problem": "tvam is nominative ('you'); hi is the particle. 'For you' is a wrong case and the Hindi 'तुम ही' is right.",
+     "fix": "You indeed, O clarifying one, most radiant, proclaiming the divine births for immortality.",
+     "severity": "error",
+     "patch": {
+      "n": "938",
+      "op": "replace",
+      "field": "english",
+      "old": "For you, indeed, O clarifying one",
+      "new": "You indeed, O clarifying one"
+     }
+    },
+    {
+     "field": "gloss",
+     "where": "a- / -ṅga",
+     "problem": "aṅga is split into fragments and '-ṅga' is glossed 'indeed (end of aṅga)', which is invented; aṅga is one particle (of address or emphasis). Better words: hi, aṅga, 3 (needs reordering, so manual); at least the glosses must not claim a meaning for a fragment.",
+     "fix": "a-: first part of aṅga (particle of address or emphasis), prolonged; -ṅga: second part of aṅga (particle of address or emphasis)",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "938",
+       "op": "word",
+       "match_w": "a-",
+       "field": "gloss",
+       "value": "first part of aṅga (particle of address or emphasis), prolonged"
+      },
+      {
+       "n": "938",
+       "op": "word",
+       "match_w": "-ṅga",
+       "field": "gloss",
+       "value": "second part of aṅga (particle of address or emphasis)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "939",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "940",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "woollen strainer",
+     "problem": "Glossary: avi/avya = sheep's fleece (भेड़ के बाल).",
+     "fix": "runs through the strainer of sheep's fleece with a wave",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "940",
+       "op": "replace",
+       "field": "english",
+       "old": "through the woollen strainer",
+       "new": "through the strainer of sheep's fleece"
+      },
+      {
+       "n": "940",
+       "op": "replace",
+       "field": "hindi",
+       "old": "ऊनी छन्नी",
+       "new": "भेड़ के बालों की छन्नी"
+      },
+      {
+       "n": "940",
+       "op": "word",
+       "match_w": "avyam",
+       "field": "gloss",
+       "value": "of sheep's fleece"
+      }
+     ]
+    },
+    {
+     "field": "hindi",
+     "where": "बार-बार गरजता है",
+     "problem": "kanikradat is a participle (English 'roaring repeatedly'); the Hindi turns it into a finite verb.",
+     "fix": "बार-बार गरजते हुए",
+     "severity": "minor",
+     "patch": {
+      "n": "940",
+      "op": "replace",
+      "field": "hindi",
+      "old": "बार-बार गरजता है",
+      "new": "बार-बार गरजते हुए"
+     }
+    }
+   ]
+  },
+  {
+   "n": "941",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "942",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "दानशील को",
+     "problem": "mīḍhvān is nominative and the subject of the passive; 'को' marks it as an object.",
+     "fix": "दानशील कलशों की ओर छोड़ा गया है",
+     "severity": "minor",
+     "patch": {
+      "n": "942",
+      "op": "replace",
+      "field": "hindi",
+      "old": "दानशील को कलशों",
+      "new": "दानशील कलशों"
+     }
+    },
+    {
+     "field": "english",
+     "where": "desiring vāja",
+     "problem": "Glossary: vāja English 'prize' (Hindi वाज).",
+     "fix": "like a courser desiring the prize",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "942",
+       "op": "replace",
+       "field": "english",
+       "old": "desiring vāja",
+       "new": "desiring the prize"
+      },
+      {
+       "n": "942",
+       "op": "word",
+       "match_w": "vājayuḥ",
+       "field": "gloss",
+       "value": "desiring the prize"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "943",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "944",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "पशुओं का महिष",
+     "problem": "Glossary: mahiṣa = buffalo (भैंसा); 'महिष' is only a transliteration.",
+     "fix": "पशुओं का भैंसा",
+     "severity": "minor",
+     "patch": {
+      "n": "944",
+      "op": "replace",
+      "field": "hindi",
+      "old": "पशुओं का महिष",
+      "new": "पशुओं का भैंसा"
+     }
+    }
+   ]
+  },
+  {
+   "n": "945",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "split",
+     "where": "vṛjane",
+     "problem": "the printed vṛjanemā is vṛjanā + imā (ā + i = e); vṛjane + imā would give vṛjana imā. The draft's primary split is phonologically impossible. Read vṛjanā (n. acc. pl.), imā and avarāṇi as agreeing neuters, the object of ā tiṣṭhati.",
+     "fix": "w vṛjanā, gloss enclosures, gram n. acc. pl.; avarāṇi 'lower'",
+     "severity": "error",
+     "patch": [
+      {
+       "n": "945",
+       "op": "word",
+       "match_w": "vṛjane",
+       "field": "gloss",
+       "value": "enclosures"
+      },
+      {
+       "n": "945",
+       "op": "word",
+       "match_w": "vṛjane",
+       "field": "gram",
+       "value": "n. acc. pl."
+      },
+      {
+       "n": "945",
+       "op": "word",
+       "match_w": "vṛjane",
+       "field": "w",
+       "value": "vṛjanā"
+      },
+      {
+       "n": "945",
+       "op": "word",
+       "match_w": "avarāṇi",
+       "field": "gloss",
+       "value": "lower"
+      },
+      {
+       "n": "945",
+       "op": "replace",
+       "field": "english",
+       "old": "these lower things in the enclosure",
+       "new": "these lower enclosures"
+      },
+      {
+       "n": "945",
+       "op": "replace",
+       "field": "hindi",
+       "old": "इन निचली वस्तुओं पर बाड़े में खड़ा होता है",
+       "new": "इन निचले घेरों पर खड़ा होता है"
+      },
+      {
+       "n": "945",
+       "op": "replace",
+       "field": "notes",
+       "old": "'vṛjane imā' may instead be 'vṛjanā imā'.",
+       "new": "the printed vṛjanemā is vṛjanā + imā (vṛjane + imā would give vṛjana imā), so vṛjanā is read."
+      }
+     ]
+    },
+    {
+     "field": "notes",
+     "where": "The parallel reads somaḥ for stomān; not applied.",
+     "problem": "Notes must not carry Ṛgveda parallels.",
+     "fix": "delete the sentence",
+     "severity": "minor",
+     "patch": {
+      "n": "945",
+      "op": "replace",
+      "field": "notes",
+      "old": " The parallel reads somaḥ for stomān; not applied.",
+      "new": ""
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "कंपाता है / गीतों को",
+     "problem": "English is a perfect ('has set trembling', aorist avīvipat); Hindi is present. Glossary: gir = song (स्तुति), so Hindi 'गीतों' should be स्तुतियों.",
+     "fix": "कंपा दिया है ... स्तुतियों को",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "945",
+       "op": "replace",
+       "field": "hindi",
+       "old": "बहता हुआ वह वाणी की लहर को नदी की तरह कंपाता है",
+       "new": "बहते हुए उसने वाणी की लहर को नदी की तरह कंपा दिया है"
+      },
+      {
+       "n": "945",
+       "op": "replace",
+       "field": "hindi",
+       "old": "गीतों को",
+       "new": "स्तुतियों को"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "946",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "descendant",
+     "problem": "Glossary: napāt = grandson (पौत्र); naptre must be 'grandson'/पौत्र (Hindi 'वंशज' and the added 'उस' are not in the Sanskrit).",
+     "fix": "toward the grandson, the mighty one / बलवान पौत्र की ओर",
+     "severity": "error",
+     "patch": [
+      {
+       "n": "946",
+       "op": "replace",
+       "field": "english",
+       "old": "toward the descendant",
+       "new": "toward the grandson"
+      },
+      {
+       "n": "946",
+       "op": "replace",
+       "field": "hindi",
+       "old": "उस बलवान वंशज की ओर",
+       "new": "बलवान पौत्र की ओर"
+      },
+      {
+       "n": "946",
+       "op": "word",
+       "match_w": "naptre",
+       "field": "gloss",
+       "value": "to the grandson"
+      }
+     ]
+    },
+    {
+     "field": "hindi",
+     "where": "सबसे बहुरूप",
+     "problem": "'बहुरूप' (many-formed) adds 'form'; purūtama is 'most abundant' (puru + tama, no suffix split).",
+     "fix": "सबसे प्रचुर; English most abundant",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "946",
+       "op": "replace",
+       "field": "hindi",
+       "old": "सबसे बहुरूप",
+       "new": "सबसे प्रचुर"
+      },
+      {
+       "n": "946",
+       "op": "replace",
+       "field": "english",
+       "old": "the most manifold",
+       "new": "the most abundant"
+      },
+      {
+       "n": "946",
+       "op": "word",
+       "match_w": "purūtamam",
+       "field": "gloss",
+       "value": "most abundant"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "947",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "948",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "with vāja",
+     "problem": "Glossary: vāja English 'prize'.",
+     "fix": "may he come to us with prizes",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "948",
+       "op": "replace",
+       "field": "english",
+       "old": "with vāja",
+       "new": "with prizes"
+      },
+      {
+       "n": "948",
+       "op": "word",
+       "match_w": "vājaiḥ",
+       "field": "gloss",
+       "value": "with prizes"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "949",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "950",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "सुन्दर घोड़ों वाले",
+     "problem": "su- is 'good', not 'beautiful'.",
+     "fix": "हे उत्तम घोड़ों वाले",
+     "severity": "minor",
+     "patch": {
+      "n": "950",
+      "op": "replace",
+      "field": "hindi",
+      "old": "हे सुन्दर घोड़ों वाले",
+      "new": "हे उत्तम घोड़ों वाले"
+     }
+    }
+   ]
+  },
+  {
+   "n": "951",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "split",
+     "where": "namasyata",
+     "problem": "Vedic lengthened form: keep the printed form in w (namasyatā).",
+     "fix": "w: namasyatā",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "951",
+       "op": "word",
+       "match_w": "namasyata",
+       "field": "gram",
+       "value": "2 pl. impv. √namasya (Vedic lengthening of the final vowel)"
+      },
+      {
+       "n": "951",
+       "op": "word",
+       "match_w": "namasyata",
+       "field": "w",
+       "value": "namasyatā"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "952",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "split",
+     "where": "vaha",
+     "problem": "Vedic lengthened form: keep the printed form in w (vahā).",
+     "fix": "w: vahā",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "952",
+       "op": "word",
+       "match_w": "vaha",
+       "field": "gram",
+       "value": "2 sg. impv. √vah (Vedic lengthening of the final vowel)"
+      },
+      {
+       "n": "952",
+       "op": "word",
+       "match_w": "vaha",
+       "field": "w",
+       "value": "vahā"
+      }
+     ]
+    },
+    {
+     "field": "english",
+     "where": "honey",
+     "problem": "Glossary: madhu = sweet drink (मधु).",
+     "fix": "taking pleasure in the sweet drink",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "952",
+       "op": "replace",
+       "field": "english",
+       "old": "in the honey",
+       "new": "in the sweet drink"
+      },
+      {
+       "n": "952",
+       "op": "word",
+       "match_w": "madhoḥ",
+       "field": "gloss",
+       "value": "of the sweet drink"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "953",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "with honey",
+     "problem": "Glossary: madhu = sweet drink (मधु).",
+     "fix": "with the sweet drink",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "953",
+       "op": "replace",
+       "field": "english",
+       "old": "with honey,",
+       "new": "with the sweet drink,"
+      },
+      {
+       "n": "953",
+       "op": "word",
+       "match_w": "madhoḥ",
+       "field": "gloss",
+       "value": "with the sweet drink"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "954",
+   "verdict": "ok",
+   "issues": []
+  }
+ ],
+ "summary": "34 units (921-954) reviewed word by word against the printed text. 7 error, 30 minor issues. No regrouping suggested. Main errors: wrong case in 929 (yām praśastim as 'with which'); added 'श्रेष्ठ' and case mismatch in 930; stray [unclear] in 931 English; nātī/descendant against the glossary (935, 946); 'For you' for tvam in 938; impossible split vṛjane+imā in 945 (printed vṛjanemā = vṛjanā+imā). Glossary conformity fixes: vicarṣaṇi, avya, mahiṣa, madhu, vāja, napāt, lengthened forms kept in w (bodhā, namasyatā, vahā). Manual: 921 dharman (dharma vs ordinance). The four text_flags (925 sutam, 932 rebhaso, 934 śumbhya, 952 hariha) are kept as 'possible'; tilde forms and regular sandhi correctly unflagged. Unit 945 note carried a Ṛgveda parallel (removed). Everything stays an unreviewed AI draft."
+}
