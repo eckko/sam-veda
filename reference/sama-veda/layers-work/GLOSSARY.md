@@ -9,3 +9,5 @@
 - vidā in "gātuṃ vid" = find (पाओ), not know
 - vajrī = the wielder of the thunderbolt (वज्रधारी); puruṣa = the Puruṣa (पुरुष); dyāvāpṛthivī = Heaven and Earth (द्यावा-पृथिवी); apāṃ napāt = the Son of the Waters (अपां नपात्); jātavedas = Jātavedas (जातवेदा); vaiśvānara = Vaiśvānara (वैश्वानर); prajāpati = Prajāpati (प्रजापति); varuṇa = Varuṇa (वरुण); mitra = Mitra (मित्र); aditi = Aditi (अदिति); sūrya = Sūrya / the sun (सूर्य); rodasī = the two worlds (दोनों लोक); aṃhas = distress (संकट); yaśas = glory (यश); varcas = lustre (तेज); vāja = prize/strength (वाज)
 - A pluta figure 3 inside a token is its own word {"w":"3"} glossed "pluta (prolongation) mark; chant syllable (stobha)" and is never translated.
+- hotṛ = Hotṛ priest (होता); adhvara = rite (यज्ञ); yajña = sacrifice (यज्ञ); gir = song (स्तुति); stoma = hymn (स्तोत्र); barhis = sacred grass (कुशासन); dāśvas = giver (दाता); kṛṣṭi = peoples (लोग); viśpati = lord of the clans (प्रजाओं के स्वामी); pāvaka = O purifier (हे पावक); ṛta = truth (ऋत); indu = drop (बूँद), no "Soma" added
+- Vocatives of -tṛ stems end in -tar (jaritar, trātar). Compounds are not split at suffixes (-mat, -tama). Hindi uses no parentheses.
