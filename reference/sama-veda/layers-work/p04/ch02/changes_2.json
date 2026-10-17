@@ -1,0 +1,142 @@
+[
+ {
+  "n": "744",
+  "field": "word.gram",
+  "word": "pratnasya",
+  "old": "n. gen. sg.",
+  "new": "n. gen. or abl. sg. (agrees with okasaḥ)",
+  "why": "reviewer (minor): pratnasya is labelled genitive but okasaḥ ablative, although the note says they agree; the two forms are the same case in the translation. Label both 'gen. or abl.'."
+ },
+ {
+  "n": "744",
+  "field": "word.gram",
+  "word": "okasaḥ",
+  "old": "n. abl. sg.",
+  "new": "n. gen. or abl. sg. (abl. if anu = 'from')",
+  "why": "reviewer (minor): pratnasya is labelled genitive but okasaḥ ablative, although the note says they agree; the two forms are the same case in the translation. Label both 'gen. or abl.'."
+ },
+ {
+  "n": "746",
+  "field": "english",
+  "old": "O Indra, when the Somas are pressed you purify the power worthy of recitation; [unclear] of growing skill; for he is great.",
+  "new": "O Indra, when the Somas are pressed you purify the power worthy of recitation; [unclear]; for he is great.",
+  "why": "reviewer (error): English translates 'of growing skill' while Hindi omits the whole doubtful clause 'vide vṛdhasya dakṣasya'; the two layers must agree, and a half-translated clause with [unclear] is misleading."
+ },
+ {
+  "n": "749",
+  "field": "word.gram",
+  "word": "enā",
+  "old": "f. inst. sg.",
+  "new": "pron. inst. sg. (enā, Vedic; agrees with namasā)",
+  "why": "reviewer (minor): enā is labelled feminine, but it agrees with namasā (neuter); Vedic enā is the instrumental of ena- for any gender."
+ },
+ {
+  "n": "751",
+  "field": "hindi",
+  "old": "आकाश की पुत्री, आती हुई, चमकती हुई, दिखाई दी है। वह महान् आँख से अंधकार को खोलती है; वह उदार प्रकाश करती है।",
+  "new": "आकाश की पुत्री, आती हुई, चमकती हुई, दिखाई दी है। महती वह आँख से अंधकार को खोलती है; उदार वह प्रकाश करती है।",
+  "why": "reviewer (minor): Hindi reads 'great eye' and 'bountiful light'; in the Sanskrit mahī and sūnarī are feminine nominatives qualifying the subject, as in the English ('The great one ... the bountiful one')."
+ },
+ {
+  "n": "753",
+  "field": "english",
+  "old": "These heavenward rites indeed call you two, O bright Aśvins. I call you two for help, O rich in power; for you two go to every clan.",
+  "new": "These heavenward rites call you two, O bright Aśvins. I call you two for help, O rich in power; for you two go to every clan.",
+  "why": "reviewer (minor): English renders u 'indeed' but Hindi has no counterpart; elsewhere in the chunk (748 tam u) u is left untranslated. Layers must agree."
+ },
+ {
+  "n": "759",
+  "field": "hindi",
+  "old": "यह देव प्राचीन विचार से देवगण के ऊपर है; कवि प्रेरित मेधावी के द्वारा बलवान हुआ है।",
+  "new": "यह देव प्राचीन विचार से देवगण के ऊपर; कवि प्रेरित मेधावी के द्वारा बलवान हुआ है।",
+  "why": "reviewer (minor): Hindi supplies the verb 'है' that the Sanskrit lacks and English does not have (the draft note admits it)."
+ },
+ {
+  "n": "763",
+  "field": "english",
+  "old": "Sing to him, O men, to the purifying one, to the drop; he strives toward the gods.",
+  "new": "Sing to him, O men, to the purifying drop; he strives toward the gods.",
+  "why": "reviewer (minor): pavamānāya modifies indave (same case, number and gender): 'to the purifying drop'. Hindi already has it as one phrase; English lists two datives."
+ },
+ {
+  "n": "763",
+  "field": "word.w",
+  "word": "gāyata",
+  "old": "gāyata",
+  "new": "gāyatā",
+  "why": "reviewer (minor): The split word differs from the printed gāyatā without a text_flags entry. Vedic gāyatā is a real form (like vidā, bhavā, hatā in this chunk, which are kept as printed); w should be the printed form."
+ },
+ {
+  "n": "763",
+  "field": "word.gram",
+  "word": "gāyatā",
+  "old": "2 pl. impv. √gai (printed with lengthened final vowel)",
+  "new": "2 pl. impv. √gai (Vedic lengthening of the final vowel)",
+  "why": "reviewer (minor): The split word differs from the printed gāyatā without a text_flags entry. Vedic gāyatā is a real form (like vidā, bhavā, hatā in this chunk, which are kept as printed); w should be the printed form."
+ },
+ {
+  "n": "765",
+  "field": "hindi",
+  "old": "लाल-भूरे, उजले, ऋत की धारा से द्रोणों की ओर बहे; उन्होंने गायों से भरपूर वाज बहाया।",
+  "new": "लाल-भूरे, उजले, ऋत की धारा से द्रोणों की ओर उन्होंने गायों से भरपूर वाज बहाया।",
+  "why": "reviewer (minor): Hindi has two verbs (बहे ... बहाया) for the single akṣaran; the English has one."
+ },
+ {
+  "n": "767",
+  "field": "hindi",
+  "old": "हे सोम, देवगण के भोज के लिए आगे बढ़ो; वह नदी के समान बाढ़ से फूल गया है। सोम के डण्ठल के दूध से आनन्ददायक, जागरूक के समान, मधु टपकाने वाले कोश की ओर।",
+  "new": "आगे, हे सोम, देवगण के भोज के लिए; वह नदी के समान बाढ़ से फूल गया है। सोम के डण्ठल के दूध से आनन्ददायक, जागरूक के समान, मधु टपकाने वाले कोश की ओर।",
+  "why": "reviewer (minor): Hindi supplies an imperative 'बढ़ो' not in the Sanskrit (pra is a bare preverb); English has none, and the note says no verb is supplied."
+ },
+ {
+  "n": "767",
+  "field": "english",
+  "old": "Forth, O Soma, for the feast of the gods; he has swelled like a river with a flood. With the milk of the Soma-stalk, exhilarating, like a wakeful one, toward the vat dripping sweetness.",
+  "new": "Forth, O Soma, for the feast of the gods; he has swelled like a river with a flood. With the milk of the Soma-stalk, exhilarating, like a wakeful one, toward the vat dripping the sweet drink.",
+  "why": "reviewer (minor): madhu is 'sweet drink' in 754; keep one rendering (Hindi मधु)."
+ },
+ {
+  "n": "767",
+  "field": "word.gloss",
+  "word": "madhu-ścutam",
+  "old": "dripping sweetness",
+  "new": "dripping the sweet drink",
+  "why": "reviewer (minor): madhu is 'sweet drink' in 754; keep one rendering (Hindi मधु)."
+ },
+ {
+  "n": "768",
+  "field": "english",
+  "old": "The desired, bright one has wrapped himself in the garment, dear, like a son to be cleansed. Him indeed they urge on, as workers a chariot, in the rivers, in the two hands.",
+  "new": "The desired, bright one has wrapped himself in the garment, dear, like a son to be cleansed. Him indeed the workers urge on, as a chariot, in the rivers, in the two hands.",
+  "why": "reviewer (error): The English has both 'they' and 'workers' as subjects; the Sanskrit has one subject (apasaḥ, nom. pl.) and Hindi has it right ('कर्म करने वाले प्रेरित करते हैं, जैसे रथ को'). Layers disagree."
+ },
+ {
+  "n": "768",
+  "field": "hindi",
+  "old": "चाहा हुआ, उज्ज्वल वह आवरण में लिपट गया, प्रिय, पुत्र के समान सँवारने योग्य। उसे कर्म करने वाले प्रेरित करते हैं, जैसे रथ को, नदियों में, दोनों हाथों में।",
+  "new": "चाहा हुआ, उज्ज्वल वह आवरण में लिपट गया, प्रिय, पुत्र के समान शुद्ध किए जाने योग्य। उसे कर्म करने वाले प्रेरित करते हैं, जैसे रथ को, नदियों में, दोनों हाथों में।",
+  "why": "reviewer (minor): marjya is gerundive of √mṛj 'cleanse', English 'to be cleansed'; सँवारना (arrange, adorn) is a different sense."
+ },
+ {
+  "n": "769",
+  "field": "hindi",
+  "old": "आगे, मद टपकाते सोम, हमारी, उदार जनों की, कीर्ति के लिए; निचोड़े गए, वे यज्ञ में आगे बढ़े हैं।",
+  "new": "आगे, मद टपकाते सोम, हमारी, उदारों की, कीर्ति के लिए; निचोड़े गए, वे यज्ञ में आगे बढ़े हैं।",
+  "why": "reviewer (minor): 'जनों' (people) is not in the Sanskrit; maghonām is 'of the bountiful ones' (glossary)."
+ },
+ {
+  "n": "772",
+  "field": "english",
+  "old": "Flow clear by this, seeking the gods; roaring, you go around the filter on all sides. The streams of sweet have been released.",
+  "new": "Flow clear by this, seeking the gods; roaring, you go around the filter on all sides. The streams of the sweet drink have been released.",
+  "why": "reviewer (minor): 'of sweet' is not English and is inconsistent with madhu = sweet drink (754)."
+ },
+ {
+  "n": "772",
+  "field": "word.gloss",
+  "word": "madhoḥ",
+  "old": "of sweet",
+  "new": "of the sweet drink",
+  "why": "reviewer (minor): 'of sweet' is not English and is inconsistent with madhu = sweet drink (754)."
+ }
+]

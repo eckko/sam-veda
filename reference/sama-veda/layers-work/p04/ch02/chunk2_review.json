@@ -1,0 +1,425 @@
+{
+ "units": [
+  {
+   "n": "744",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "whom I, the father, call for you as before",
+     "problem": "Reading te as a dative 'for you' and pitā as 'I, the father' is the least natural construal: pitā te is the ordinary 'your father', and a second 'I' (speaker is the father) is not in the Sanskrit. Both translations follow it, so they agree but may be wrong. The draft note mentions 'your father' only as an alternative.",
+     "fix": "From the ancient home I call the man strong in withstanding, whom your father formerly [called]. (Decide with the owner; if kept, mark confidence low; Hindi the same: जिसे पहले तुम्हारे पिता ने पुकारा।)",
+     "severity": "error"
+    },
+    {
+     "field": "gram",
+     "where": "pratnasya / okasaḥ",
+     "problem": "pratnasya is labelled genitive but okasaḥ ablative, although the note says they agree; the two forms are the same case in the translation. Label both 'gen. or abl.'.",
+     "fix": "n. gen. or abl. sg.",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "744",
+       "op": "word",
+       "match_w": "pratnasya",
+       "field": "gram",
+       "value": "n. gen. or abl. sg. (agrees with okasaḥ)"
+      },
+      {
+       "n": "744",
+       "op": "word",
+       "match_w": "okasaḥ",
+       "field": "gram",
+       "value": "n. gen. or abl. sg. (abl. if anu = 'from')"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "745",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "746",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "[unclear] of growing skill",
+     "problem": "English translates 'of growing skill' while Hindi omits the whole doubtful clause 'vide vṛdhasya dakṣasya'; the two layers must agree, and a half-translated clause with [unclear] is misleading.",
+     "fix": "...worthy of recitation; [unclear]; for he is great.",
+     "severity": "error",
+     "patch": {
+      "n": "746",
+      "op": "replace",
+      "field": "english",
+      "old": "[unclear] of growing skill;",
+      "new": "[unclear];"
+     }
+    }
+   ]
+  },
+  {
+   "n": "747",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "748",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "749",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gram",
+     "where": "enā",
+     "problem": "enā is labelled feminine, but it agrees with namasā (neuter); Vedic enā is the instrumental of ena- for any gender.",
+     "fix": "pron. inst. sg. (enā, Vedic; agrees with namasā)",
+     "severity": "minor",
+     "patch": {
+      "n": "749",
+      "op": "word",
+      "match_w": "enā",
+      "field": "gram",
+      "value": "pron. inst. sg. (enā, Vedic; agrees with namasā)"
+     }
+    }
+   ]
+  },
+  {
+   "n": "750",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "751",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "वह महान् आँख से ... वह उदार प्रकाश करती है",
+     "problem": "Hindi reads 'great eye' and 'bountiful light'; in the Sanskrit mahī and sūnarī are feminine nominatives qualifying the subject, as in the English ('The great one ... the bountiful one').",
+     "fix": "महती वह आँख से अंधकार को खोलती है; उदार वह प्रकाश करती है।",
+     "severity": "minor",
+     "patch": {
+      "n": "751",
+      "op": "replace",
+      "field": "hindi",
+      "old": "वह महान् आँख से अंधकार को खोलती है; वह उदार प्रकाश करती है।",
+      "new": "महती वह आँख से अंधकार को खोलती है; उदार वह प्रकाश करती है।"
+     }
+    }
+   ]
+  },
+  {
+   "n": "752",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "753",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "These heavenward rites indeed call",
+     "problem": "English renders u 'indeed' but Hindi has no counterpart; elsewhere in the chunk (748 tam u) u is left untranslated. Layers must agree.",
+     "fix": "These heavenward rites call you two, O bright Aśvins.",
+     "severity": "minor",
+     "patch": {
+      "n": "753",
+      "op": "replace",
+      "field": "english",
+      "old": "These heavenward rites indeed call",
+      "new": "These heavenward rites call"
+     }
+    }
+   ]
+  },
+  {
+   "n": "754",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "755",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "756",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "757",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "758",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "759",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "देवगण के ऊपर है",
+     "problem": "Hindi supplies the verb 'है' that the Sanskrit lacks and English does not have (the draft note admits it).",
+     "fix": "यह देव प्राचीन विचार से देवगण के ऊपर;",
+     "severity": "minor",
+     "patch": {
+      "n": "759",
+      "op": "replace",
+      "field": "hindi",
+      "old": "देवगण के ऊपर है;",
+      "new": "देवगण के ऊपर;"
+     }
+    }
+   ]
+  },
+  {
+   "n": "760",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "761",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "762",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "763",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "to the purifying one, to the drop",
+     "problem": "pavamānāya modifies indave (same case, number and gender): 'to the purifying drop'. Hindi already has it as one phrase; English lists two datives.",
+     "fix": "Sing to him, O men, to the purifying drop; he strives toward the gods.",
+     "severity": "minor",
+     "patch": {
+      "n": "763",
+      "op": "replace",
+      "field": "english",
+      "old": "to the purifying one, to the drop;",
+      "new": "to the purifying drop;"
+     }
+    },
+    {
+     "field": "split",
+     "where": "gāyata",
+     "problem": "The split word differs from the printed gāyatā without a text_flags entry. Vedic gāyatā is a real form (like vidā, bhavā, hatā in this chunk, which are kept as printed); w should be the printed form.",
+     "fix": "w: gāyatā; gram: 2 pl. impv. √gai (Vedic lengthening of the final vowel)",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "763",
+       "op": "word",
+       "match_w": "gāyata",
+       "field": "w",
+       "value": "gāyatā"
+      },
+      {
+       "n": "763",
+       "op": "word",
+       "match_w": "gāyatā",
+       "field": "gram",
+       "value": "2 pl. impv. √gai (Vedic lengthening of the final vowel)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "764",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "765",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "बहे; उन्होंने ... बहाया",
+     "problem": "Hindi has two verbs (बहे ... बहाया) for the single akṣaran; the English has one.",
+     "fix": "लाल-भूरे, उजले, ऋत की धारा से द्रोणों की ओर उन्होंने गायों से भरपूर वाज बहाया।",
+     "severity": "minor",
+     "patch": {
+      "n": "765",
+      "op": "replace",
+      "field": "hindi",
+      "old": "द्रोणों की ओर बहे; उन्होंने",
+      "new": "द्रोणों की ओर उन्होंने"
+     }
+    }
+   ]
+  },
+  {
+   "n": "766",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "767",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "आगे बढ़ो",
+     "problem": "Hindi supplies an imperative 'बढ़ो' not in the Sanskrit (pra is a bare preverb); English has none, and the note says no verb is supplied.",
+     "fix": "आगे, हे सोम, देवगण के भोज के लिए;",
+     "severity": "minor",
+     "patch": {
+      "n": "767",
+      "op": "replace",
+      "field": "hindi",
+      "old": "हे सोम, देवगण के भोज के लिए आगे बढ़ो;",
+      "new": "आगे, हे सोम, देवगण के भोज के लिए;"
+     }
+    },
+    {
+     "field": "english",
+     "where": "dripping sweetness",
+     "problem": "madhu is 'sweet drink' in 754; keep one rendering (Hindi मधु).",
+     "fix": "toward the vat dripping the sweet drink",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "767",
+       "op": "replace",
+       "field": "english",
+       "old": "toward the vat dripping sweetness",
+       "new": "toward the vat dripping the sweet drink"
+      },
+      {
+       "n": "767",
+       "op": "word",
+       "match_w": "madhu-ścutam",
+       "field": "gloss",
+       "value": "dripping the sweet drink"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "768",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "Him indeed they urge on, as workers a chariot",
+     "problem": "The English has both 'they' and 'workers' as subjects; the Sanskrit has one subject (apasaḥ, nom. pl.) and Hindi has it right ('कर्म करने वाले प्रेरित करते हैं, जैसे रथ को'). Layers disagree.",
+     "fix": "Him indeed the workers urge on, as a chariot, in the rivers, in the two hands.",
+     "severity": "error",
+     "patch": {
+      "n": "768",
+      "op": "replace",
+      "field": "english",
+      "old": "Him indeed they urge on, as workers a chariot,",
+      "new": "Him indeed the workers urge on, as a chariot,"
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "सँवारने योग्य",
+     "problem": "marjya is gerundive of √mṛj 'cleanse', English 'to be cleansed'; सँवारना (arrange, adorn) is a different sense.",
+     "fix": "शुद्ध किए जाने योग्य",
+     "severity": "minor",
+     "patch": {
+      "n": "768",
+      "op": "replace",
+      "field": "hindi",
+      "old": "सँवारने योग्य",
+      "new": "शुद्ध किए जाने योग्य"
+     }
+    }
+   ]
+  },
+  {
+   "n": "769",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "उदार जनों की",
+     "problem": "'जनों' (people) is not in the Sanskrit; maghonām is 'of the bountiful ones' (glossary).",
+     "fix": "उदारों की",
+     "severity": "minor",
+     "patch": {
+      "n": "769",
+      "op": "replace",
+      "field": "hindi",
+      "old": "उदार जनों की",
+      "new": "उदारों की"
+     }
+    }
+   ]
+  },
+  {
+   "n": "770",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "771",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "772",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "The streams of sweet",
+     "problem": "'of sweet' is not English and is inconsistent with madhu = sweet drink (754).",
+     "fix": "The streams of the sweet drink have been released.",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "772",
+       "op": "replace",
+       "field": "english",
+       "old": "The streams of sweet have",
+       "new": "The streams of the sweet drink have"
+      },
+      {
+       "n": "772",
+       "op": "word",
+       "match_w": "madhoḥ",
+       "field": "gloss",
+       "value": "of the sweet drink"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "773",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "774",
+   "verdict": "ok",
+   "issues": []
+  }
+ ],
+ "summary": "31 units (Uttarārcika 744-774). Tokens match the printed text; no invented Sanskrit; the four text_flags (760 krandaṃ, 762 uṣo, 772 devayu, 774 sunvānāsya) are sound (762 confirmed against p01/ch11 'upo ṣu'). Errors (3): 744 pitā huve rendered 'I, the father ... for you' (manual: te is most naturally 'your', pitā te = your father; no patch); 746 English translates 'of growing skill' while Hindi omits the clause; 768 English has both 'they' and 'workers' as subject, Hindi correct. Minor (13 issues): copula/verb added in Hindi (759, 767), doubled verb 765, u 'indeed' 753, pavamānāya/indave split 763, case labels 744, enā gender 749, Hindi adjective/gender confusion 751, सँवारने 768, जनों 769, madhu renderings 767/772, w gāyata vs printed gāyatā 763. 21 units ok or only minor. Confidence values honest; no 'uncertain' lines. No regrouping. Doubtful readings left as drafted: 761 apatasthuṣaḥ, 746 vide (rightly [unclear]); 750, 768, 770, 774 low. Glossary suggestions: vāyu = Vāyu (वायु); madhu = sweet drink (मधु); trita = Trita (त्रित); bhṛgu = the Bhṛgus (भृगु); makha = Makha (मख, name); haṃsa = swan (हंस); mahiṣa = buffalo (भैंसा); droṇa = trough (द्रोण); atya = courser; pavamāna Hindi = हे पवमान; ahraya = undaunted ones (निर्भीक)."
+}
