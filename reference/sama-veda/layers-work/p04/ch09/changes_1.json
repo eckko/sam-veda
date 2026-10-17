@@ -1,0 +1,175 @@
+[
+ {
+  "n": "1175",
+  "field": "english",
+  "old": "They cleanse the newly born child, the desirable one; the Maruts adorn the inspired one with the troop. With songs and with seer's wisdom, the seer, being a seer, Soma passes over the filter, roaring.",
+  "new": "They cleanse the newly born child, the desirable one; the Maruts adorn the inspired one with the troop. With songs, with poetic work, the seer, being a seer, Soma passes over the filter, roaring.",
+  "why": "reviewer (error): Glossary fixes kāvya = poetic works (काव्य); 'wisdom/प्रज्ञा' is an addition. Also an 'and' is added between the asyndetic instrumentals gīrbhiḥ kāvyenā in both languages."
+ },
+ {
+  "n": "1175",
+  "field": "hindi",
+  "old": "वे नवजात शिशु को, उस वांछनीय को, स्वच्छ करते हैं; मरुत समूह के साथ प्रेरित मेधावी को सजाते हैं। स्तुतियों से और कवि की प्रज्ञा से कवि, कवि होता हुआ सोम गर्जना करता हुआ छन्ने को पार करता है।",
+  "new": "वे नवजात शिशु को, उस वांछनीय को, स्वच्छ करते हैं; मरुत समूह के साथ प्रेरित मेधावी को सजाते हैं। स्तुतियों से, काव्य से कवि, कवि होता हुआ सोम गर्जना करता हुआ छन्ने को पार करता है।",
+  "why": "reviewer (error): Glossary fixes kāvya = poetic works (काव्य); 'wisdom/प्रज्ञा' is an addition. Also an 'and' is added between the asyndetic instrumentals gīrbhiḥ kāvyenā in both languages."
+ },
+ {
+  "n": "1175",
+  "field": "word.gloss",
+  "word": "kāvyena",
+  "old": "with seer's wisdom",
+  "new": "with poetic work",
+  "why": "reviewer (error): Glossary fixes kāvya = poetic works (काव्य); 'wisdom/प्रज्ञा' is an addition. Also an 'and' is added between the asyndetic instrumentals gīrbhiḥ kāvyenā in both languages."
+ },
+ {
+  "n": "1175",
+  "field": "hindi",
+  "old": "वे नवजात शिशु को, उस वांछनीय को, स्वच्छ करते हैं; मरुत समूह के साथ प्रेरित मेधावी को सजाते हैं। स्तुतियों से, काव्य से कवि, कवि होता हुआ सोम गर्जना करता हुआ छन्ने को पार करता है।",
+  "new": "वे नवजात शिशु को, वांछनीय को, स्वच्छ करते हैं; मरुत समूह के साथ प्रेरित मेधावी को सजाते हैं। स्तुतियों से, काव्य से कवि, कवि होता हुआ सोम गर्जना करता हुआ छन्ने को पार करता है।",
+  "why": "reviewer (minor): 'उस' (that) has no counterpart in the English 'the desirable one' / haryatam."
+ },
+ {
+  "n": "1176",
+  "field": "hindi",
+  "old": "जो ऋषि के मन वाला, ऋषि बनाने वाला, सूर्य का प्रकाश जीतने वाला, हज़ार गीतों वाला, कवियों का मार्ग, तीसरे धाम को जीतना चाहने वाला भैंसा सोम—विराज के पीछे स्तुप शोभित होता है।",
+  "new": "जो ऋषि के मन वाला, ऋषि बनाने वाला, सूर्य का प्रकाश जीतने वाला, हज़ार गीतों वाला, कवियों का मार्ग, तीसरे धाम को जीतना चाहने वाला भैंसा सोम—विराज के पीछे स्तुप् शोभित होता है।",
+  "why": "reviewer (minor): Stubh written without the final virāma; the Sanskrit metre name is स्तुप्."
+ },
+ {
+  "n": "1177",
+  "field": "english",
+  "old": "Sitting in the vessel, the hawk, the bird, [unclear], the cow-finding drop bearing weapons, accompanying the wave of the waters, the ocean, the buffalo declares the fourth abode.",
+  "new": "Sitting in the vessel, the falcon, the bird, [unclear], the cow-finding drop bearing weapons, accompanying the wave of the waters, the ocean, the buffalo declares the fourth abode.",
+  "why": "reviewer (error): Glossary: śyena = falcon."
+ },
+ {
+  "n": "1177",
+  "field": "word.gloss",
+  "word": "śyenaḥ",
+  "old": "hawk",
+  "new": "falcon",
+  "why": "reviewer (error): Glossary: śyena = falcon."
+ },
+ {
+  "n": "1177",
+  "field": "hindi",
+  "old": "पात्र में बैठा, बाज़, पक्षी, गौओं को पाने वाली, शस्त्र धारण करती हुई बूँद, जल की लहर, समुद्र का साथ देता हुआ, भैंसा चौथे धाम को प्रकट करता है।",
+  "new": "पात्र में बैठा, बाज़, पक्षी, गौओं को पाने वाली, शस्त्र धारण करती हुई बूँद, जल की लहर का साथ देता हुआ, समुद्र का, भैंसा चौथे धाम को प्रकट करता है।",
+  "why": "reviewer (minor): Hindi makes 'wave' a separate noun and 'accompanying the ocean', while the English (and the accusatives of sacamānaḥ) give 'accompanying the wave of the waters, the ocean'."
+ },
+ {
+  "n": "1177",
+  "field": "hindi",
+  "old": "पात्र में बैठा, बाज़, पक्षी, गौओं को पाने वाली, शस्त्र धारण करती हुई बूँद, जल की लहर का साथ देता हुआ, समुद्र का, भैंसा चौथे धाम को प्रकट करता है।",
+  "new": "पात्र में बैठा, बाज़, पक्षी, गौओं को पाने वाली, शस्त्र धारण करती हुई बूँद, जल की लहर का साथ देता हुआ, समुद्र का, भैंसा चौथे धाम को घोषित करता है।",
+  "why": "reviewer (minor): English gives 'declares' for vivakti; 'प्रकट करता है' is 'reveals'."
+ },
+ {
+  "n": "1178",
+  "field": "hindi",
+  "old": "ये सोम इन्द्र की प्रिय कामना की ओर बहे हैं, उसकी वीरता को बढ़ाते हुए।",
+  "new": "ये सोम इन्द्र की प्रिय कामना की ओर बहे हैं, उसकी वीर्य को बढ़ाते हुए।",
+  "why": "reviewer (minor): vīrya is 'heroic strength' in English everywhere in this chunk and Hindi वीर्य in 1179, 1190, 1192 (and in most earlier chunks); 1178 alone uses वीरता. Make consistent."
+ },
+ {
+  "n": "1178",
+  "field": "notes",
+  "old": "priyam is taken with kāmam. The referent of asya is not stated (Indra is the nearest); 'his' follows the pronoun. Hindi uses 'वीरता' for vīrya here to avoid the other sense of वीर्य.",
+  "new": "priyam is taken with kāmam. The referent of asya is not stated (Indra is the nearest); 'his' follows the pronoun.",
+  "why": "reviewer (minor): vīrya is 'heroic strength' in English everywhere in this chunk and Hindi वीर्य in 1179, 1190, 1192 (and in most earlier chunks); 1178 alone uses वीरता. Make consistent."
+ },
+ {
+  "n": "1180",
+  "field": "hindi",
+  "old": "हे सोम, शुद्ध होते हुए, इन्द्र की उदारता के लिए हृदय से जो है उसे प्रेरित करो, देवगण के आसन में बैठने के लिए।",
+  "new": "हे सोम, शुद्ध होते हुए, इन्द्र की उदारता के लिए हृदय का जो है उसे प्रेरित करो, देवगण के आसन में बैठने के लिए।",
+  "why": "reviewer (minor): English 'what is of the heart' (hārdi, derived from the heart); Hindi 'हृदय से जो है' reads 'what is from the heart'."
+ },
+ {
+  "n": "1181",
+  "field": "word.gloss",
+  "word": "dhītayaḥ",
+  "old": "thoughts",
+  "new": "devotions",
+  "why": "reviewer (error): Glossary: dhīti = devotion (भक्ति), distinct from mati. 'thoughts/विचार' contradicts it, and the note wrongly lists 'devotions' as the alternative."
+ },
+ {
+  "n": "1181",
+  "field": "english",
+  "old": "Ten fingers cleanse you, seven thoughts urge on; afterwards the inspired ones have rejoiced.",
+  "new": "Ten fingers cleanse you, seven devotions urge on; afterwards the inspired ones have rejoiced.",
+  "why": "reviewer (error): Glossary: dhīti = devotion (भक्ति), distinct from mati. 'thoughts/विचार' contradicts it, and the note wrongly lists 'devotions' as the alternative."
+ },
+ {
+  "n": "1181",
+  "field": "hindi",
+  "old": "दस उँगलियाँ तुम्हें स्वच्छ करती हैं, सात विचार प्रेरित करते हैं; फिर प्रेरित मेधावी आनन्दित हुए हैं।",
+  "new": "दस उँगलियाँ तुम्हें स्वच्छ करती हैं, सात भक्तियाँ प्रेरित करती हैं; फिर प्रेरित मेधावी आनन्दित हुए हैं।",
+  "why": "reviewer (error): Glossary: dhīti = devotion (भक्ति), distinct from mati. 'thoughts/विचार' contradicts it, and the note wrongly lists 'devotions' as the alternative."
+ },
+ {
+  "n": "1181",
+  "field": "notes",
+  "old": "deśa is read as daśa 'ten' (possible typo; 'region' does not fit with kṣipaḥ). kṣip is taken as 'finger'. dhītayaḥ may also be 'devotions'. The object of hinvanti is not stated. anu is read as 'afterwards'.",
+  "new": "deśa is read as daśa 'ten' (possible typo; 'region' does not fit with kṣipaḥ). kṣip is taken as 'finger'. dhītayaḥ is rendered 'devotions' per the glossary (dhīti). The object of hinvanti is not stated. anu is read as 'afterwards'.",
+  "why": "reviewer (error): Glossary: dhīti = devotion (भक्ति), distinct from mati. 'thoughts/विचार' contradicts it, and the note wrongly lists 'devotions' as the alternative."
+ },
+ {
+  "n": "1182",
+  "field": "hindi",
+  "old": "तुम्हें, देवगण के लिए, मद के लिए, भली-भाँति छोड़े जाते हुए को, भेड़ के पार—उसे हम गौओं से ढकते हैं।",
+  "new": "तुम्हें, देवगण के लिए, आनन्द के लिए, भली-भाँति छोड़े जाते हुए को, भेड़ के पार—उसे हम गौओं से ढकते हैं।",
+  "why": "reviewer (error): Glossary line 47: mada = exhilaration (आनन्द). madāya rendered मद in Hindi."
+ },
+ {
+  "n": "1188",
+  "field": "hindi",
+  "old": "सहायता चाहते हुए शुद्ध होते हुए प्रेरित मेधावी की ओर, जो निचोड़ा जा रहा है, देवगण के भोज के लिए गाओ।",
+  "new": "सहायता चाहते हुए, शुद्ध होते हुए प्रेरित मेधावी की ओर, जो निचोड़ा जा रहा है, देवगण के भोज के लिए गाओ।",
+  "why": "reviewer (minor): Without a comma the Hindi reads as if 'desiring help' qualifies the clarifying one; avasyavaḥ is the nominative of the singers."
+ },
+ {
+  "n": "1190",
+  "field": "english",
+  "old": "Also, for the winning of the prize for us, flow forth great refreshments, splendid good heroic strength, O drop.",
+  "new": "Also, for the winning of the prize for us, flow forth great refreshments, radiant good heroic strength, O drop.",
+  "why": "reviewer (error): Glossary: dyumat = radiant (दीप्तिमान); द्युम्नवान् is reserved for dyumnī (and dyumna = splendour)."
+ },
+ {
+  "n": "1190",
+  "field": "hindi",
+  "old": "और भी हमारे लिए वाज को जीतने के लिए बड़े पोषणों को, द्युम्नवान् उत्तम वीर्य को बहाओ, हे बूँद।",
+  "new": "और भी हमारे लिए वाज को जीतने के लिए बड़े पोषणों को, दीप्तिमान उत्तम वीर्य को बहाओ, हे बूँद।",
+  "why": "reviewer (error): Glossary: dyumat = radiant (दीप्तिमान); द्युम्नवान् is reserved for dyumnī (and dyumna = splendour)."
+ },
+ {
+  "n": "1190",
+  "field": "word.gloss",
+  "word": "dyumat",
+  "old": "splendid",
+  "new": "radiant",
+  "why": "reviewer (error): Glossary: dyumat = radiant (दीप्तिमान); द्युम्नवान् is reserved for dyumnī (and dyumna = splendour)."
+ },
+ {
+  "n": "1198",
+  "field": "hindi",
+  "old": "मद टपकाता, विद्वान्, वह आसन में रहता है, नदी की लहर; सोम, उजली पर टिका हुआ।",
+  "new": "आनन्द टपकाता, विद्वान्, वह आसन में रहता है, नदी की लहर; सोम, उजली पर टिका हुआ।",
+  "why": "reviewer (error): Glossary line 47: mada = exhilaration (आनन्द)."
+ },
+ {
+  "n": "1210",
+  "field": "hindi",
+  "old": "इस आनन्द से, हे बूँद, चारों ओर बहो; वह जिसने तुम्हारे मदों में नौ और नब्बे को मार गिराया।",
+  "new": "इस आनन्द से, हे बूँद, चारों ओर बहो; वह जिसने तुम्हारे आनन्दों में नौ और नब्बे को मार गिराया।",
+  "why": "reviewer (error): Glossary line 47: mada = exhilaration (आनन्द)."
+ },
+ {
+  "n": "1212",
+  "field": "word.gram",
+  "word": "aśva-vit",
+  "old": "m. nom. sg.",
+  "new": "m. voc. sg.",
+  "why": "reviewer (minor): Taken as an epithet of the addressed drop ('O horse-finding drop' in both languages), so it is a vocative, not a nominative."
+ }
+]

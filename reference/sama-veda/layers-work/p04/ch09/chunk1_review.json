@@ -1,0 +1,540 @@
+{
+ "units": [
+  {
+   "n": "1175",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gloss",
+     "where": "kāvyenā / 'seer's wisdom'",
+     "problem": "Glossary fixes kāvya = poetic works (काव्य); 'wisdom/प्रज्ञा' is an addition. Also an 'and' is added between the asyndetic instrumentals gīrbhiḥ kāvyenā in both languages.",
+     "fix": "English 'With songs, with poetic work'; Hindi 'स्तुतियों से, काव्य से'; gloss 'with poetic work'.",
+     "severity": "error",
+     "patch": [
+      {
+       "n": "1175",
+       "op": "replace",
+       "field": "english",
+       "old": "With songs and with seer's wisdom",
+       "new": "With songs, with poetic work"
+      },
+      {
+       "n": "1175",
+       "op": "replace",
+       "field": "hindi",
+       "old": "स्तुतियों से और कवि की प्रज्ञा से",
+       "new": "स्तुतियों से, काव्य से"
+      },
+      {
+       "n": "1175",
+       "op": "word",
+       "match_w": "kāvyena",
+       "field": "gloss",
+       "value": "with poetic work"
+      }
+     ]
+    },
+    {
+     "field": "hindi",
+     "where": "उस वांछनीय को",
+     "problem": "'उस' (that) has no counterpart in the English 'the desirable one' / haryatam.",
+     "fix": "drop 'उस'",
+     "severity": "minor",
+     "patch": {
+      "n": "1175",
+      "op": "replace",
+      "field": "hindi",
+      "old": "उस वांछनीय को",
+      "new": "वांछनीय को"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1176",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "स्तुप",
+     "problem": "Stubh written without the final virāma; the Sanskrit metre name is स्तुप्.",
+     "fix": "स्तुप् शोभित",
+     "severity": "minor",
+     "patch": {
+      "n": "1176",
+      "op": "replace",
+      "field": "hindi",
+      "old": "स्तुप शोभित",
+      "new": "स्तुप् शोभित"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1177",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "the hawk / śyenaḥ",
+     "problem": "Glossary: śyena = falcon.",
+     "fix": "'falcon' in English and in the gloss (Hindi बाज़ stays).",
+     "severity": "error",
+     "patch": [
+      {
+       "n": "1177",
+       "op": "replace",
+       "field": "english",
+       "old": "the hawk",
+       "new": "the falcon"
+      },
+      {
+       "n": "1177",
+       "op": "word",
+       "match_w": "śyenaḥ",
+       "field": "gloss",
+       "value": "falcon"
+      }
+     ]
+    },
+    {
+     "field": "hindi",
+     "where": "जल की लहर, समुद्र का साथ देता हुआ",
+     "problem": "Hindi makes 'wave' a separate noun and 'accompanying the ocean', while the English (and the accusatives of sacamānaḥ) give 'accompanying the wave of the waters, the ocean'.",
+     "fix": "जल की लहर का साथ देता हुआ, समुद्र का",
+     "severity": "minor",
+     "patch": {
+      "n": "1177",
+      "op": "replace",
+      "field": "hindi",
+      "old": "जल की लहर, समुद्र का साथ देता हुआ",
+      "new": "जल की लहर का साथ देता हुआ, समुद्र का"
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "प्रकट करता है",
+     "problem": "English gives 'declares' for vivakti; 'प्रकट करता है' is 'reveals'.",
+     "fix": "घोषित करता है",
+     "severity": "minor",
+     "patch": {
+      "n": "1177",
+      "op": "replace",
+      "field": "hindi",
+      "old": "प्रकट करता है",
+      "new": "घोषित करता है"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1178",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "वीरता",
+     "problem": "vīrya is 'heroic strength' in English everywhere in this chunk and Hindi वीर्य in 1179, 1190, 1192 (and in most earlier chunks); 1178 alone uses वीरता. Make consistent.",
+     "fix": "वीर्य; remove the explanatory sentence from notes.",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "1178",
+       "op": "replace",
+       "field": "hindi",
+       "old": "वीरता",
+       "new": "वीर्य"
+      },
+      {
+       "n": "1178",
+       "op": "replace",
+       "field": "notes",
+       "old": " Hindi uses 'वीरता' for vīrya here to avoid the other sense of वीर्य.",
+       "new": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "1179",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1180",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "हृदय से जो है",
+     "problem": "English 'what is of the heart' (hārdi, derived from the heart); Hindi 'हृदय से जो है' reads 'what is from the heart'.",
+     "fix": "हृदय का जो है",
+     "severity": "minor",
+     "patch": {
+      "n": "1180",
+      "op": "replace",
+      "field": "hindi",
+      "old": "हृदय से जो है",
+      "new": "हृदय का जो है"
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "आसन (yoni)",
+     "problem": "Glossary conflict: line 35 says yoni = seat (आसन), the later line 47 says yoni = seat (स्थान). The drafts here use आसन for yoni (1180, 1195, 1208).",
+     "fix": "Owner to decide; if line 47 wins, use स्थान for yoni in 1180, 1195 and 1208 (keep आसन for sādana in 1198).",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "1181",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gloss",
+     "where": "dhītayaḥ / 'thoughts'",
+     "problem": "Glossary: dhīti = devotion (भक्ति), distinct from mati. 'thoughts/विचार' contradicts it, and the note wrongly lists 'devotions' as the alternative.",
+     "fix": "gloss 'devotions'; English 'seven devotions'; Hindi 'सात भक्तियाँ प्रेरित करती हैं'.",
+     "severity": "error",
+     "patch": [
+      {
+       "n": "1181",
+       "op": "word",
+       "match_w": "dhītayaḥ",
+       "field": "gloss",
+       "value": "devotions"
+      },
+      {
+       "n": "1181",
+       "op": "replace",
+       "field": "english",
+       "old": "seven thoughts",
+       "new": "seven devotions"
+      },
+      {
+       "n": "1181",
+       "op": "replace",
+       "field": "hindi",
+       "old": "सात विचार प्रेरित करते हैं",
+       "new": "सात भक्तियाँ प्रेरित करती हैं"
+      },
+      {
+       "n": "1181",
+       "op": "replace",
+       "field": "notes",
+       "old": "dhītayaḥ may also be 'devotions'.",
+       "new": "dhītayaḥ is rendered 'devotions' per the glossary (dhīti)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "1182",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "मद के लिए",
+     "problem": "Glossary line 47: mada = exhilaration (आनन्द). madāya rendered मद in Hindi.",
+     "fix": "आनन्द के लिए",
+     "severity": "error",
+     "patch": {
+      "n": "1182",
+      "op": "replace",
+      "field": "hindi",
+      "old": "मद के लिए",
+      "new": "आनन्द के लिए"
+     }
+    },
+    {
+     "field": "gram",
+     "where": "meṣyaḥ",
+     "problem": "ati governs the accusative, so 'beyond' + a genitive/ablative ('of the ewe') is doubtful; an acc. pl. 'beyond the ewes' is at least as likely. The gloss 'of the ewe' and the English 'beyond the ewe' do not agree.",
+     "fix": "Owner to decide; keep confidence low and mention the acc. pl. reading in notes.",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "1183",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1184",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1185",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1186",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1187",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1188",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "सहायता चाहते हुए शुद्ध होते हुए",
+     "problem": "Without a comma the Hindi reads as if 'desiring help' qualifies the clarifying one; avasyavaḥ is the nominative of the singers.",
+     "fix": "insert a comma after 'चाहते हुए'",
+     "severity": "minor",
+     "patch": {
+      "n": "1188",
+      "op": "replace",
+      "field": "hindi",
+      "old": "सहायता चाहते हुए शुद्ध होते हुए",
+      "new": "सहायता चाहते हुए, शुद्ध होते हुए"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1189",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1190",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "dyumat 'splendid' / द्युम्नवान्",
+     "problem": "Glossary: dyumat = radiant (दीप्तिमान); द्युम्नवान् is reserved for dyumnī (and dyumna = splendour).",
+     "fix": "English 'radiant good heroic strength'; Hindi 'दीप्तिमान उत्तम वीर्य'; gloss 'radiant'.",
+     "severity": "error",
+     "patch": [
+      {
+       "n": "1190",
+       "op": "replace",
+       "field": "english",
+       "old": "splendid good heroic strength",
+       "new": "radiant good heroic strength"
+      },
+      {
+       "n": "1190",
+       "op": "replace",
+       "field": "hindi",
+       "old": "द्युम्नवान्",
+       "new": "दीप्तिमान"
+      },
+      {
+       "n": "1190",
+       "op": "word",
+       "match_w": "dyumat",
+       "field": "gloss",
+       "value": "radiant"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "1191",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1192",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1193",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1194",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "मद देने वाले",
+     "problem": "Derived forms of mada (matsara 1194, madintama 1208 and 1209 'सबसे मदकारी') use the Hindi stem मद where the glossary now fixes mada = आनन्द.",
+     "fix": "Owner to decide, e.g. 'आनन्द देने वाले' (1194) and 'हे सबसे आनन्ददायक' (1208, 1209).",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "1195",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1196",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1197",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1198",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "मद टपकाता",
+     "problem": "Glossary line 47: mada = exhilaration (आनन्द).",
+     "fix": "आनन्द टपकाता",
+     "severity": "error",
+     "patch": {
+      "n": "1198",
+      "op": "replace",
+      "field": "hindi",
+      "old": "मद टपकाता",
+      "new": "आनन्द टपकाता"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1199",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1200",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1201",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1202",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1203",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1204",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1205",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1206",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1207",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1208",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1209",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1210",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "तुम्हारे मदों में",
+     "problem": "Glossary line 47: mada = exhilaration (आनन्द).",
+     "fix": "तुम्हारे आनन्दों में",
+     "severity": "error",
+     "patch": {
+      "n": "1210",
+      "op": "replace",
+      "field": "hindi",
+      "old": "तुम्हारे मदों में",
+      "new": "तुम्हारे आनन्दों में"
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "इस आनन्द से",
+     "problem": "After the mada fix, आनन्द would translate both mada and vītī (English 'enjoyment'). vītī is 'feast' (भोज) in devavītaye 1188 and 1189, so the chunk is also inconsistent in English.",
+     "fix": "Owner to decide: vītī Hindi 'इस भोज से' (and English 'feast') or another word distinct from आनन्द.",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "1211",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gram",
+     "where": "dhiye",
+     "problem": "Labelled 'f. dat. sg.' but the English makes it agree with the masculine Divodāsāya ('Divodāsa of true thought'); the label and the translation disagree. The compound itthā-dhī is uncertain.",
+     "fix": "Owner to decide: label 'm. dat. sg. (agreeing with divodāsāya; compound uncertain)' or translate as a separate 'for thought'.",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "1212",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gram",
+     "where": "aśva-vit",
+     "problem": "Taken as an epithet of the addressed drop ('O horse-finding drop' in both languages), so it is a vocative, not a nominative.",
+     "fix": "m. voc. sg.",
+     "severity": "minor",
+     "patch": {
+      "n": "1212",
+      "op": "word",
+      "match_w": "aśva-vit",
+      "field": "gram",
+      "value": "m. voc. sg."
+     }
+    }
+   ]
+  },
+  {
+   "n": "1213",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "driving away the ungenerous",
+     "problem": "'driving away' / 'भगाता हुआ' supplies a participle for the bare apa (the note itself says 'away (with)'); it is supplied in both languages but is an interpretation of apa.",
+     "fix": "Owner to decide: keep, or render apa as repeating apaghnan ('smiting away ... away the ungenerous'), with any supplied word in square brackets in English only if Hindi also lacks it.",
+     "severity": "minor"
+    }
+   ]
+  }
+ ],
+ "summary": "39 units reviewed word by word. 7 errors, 14 minor. No regrouping. Errors are glossary breaches (kāvya, śyena, dhīti, dyumat, mada); no invented splits, no Rgveda/commentary parallels, no bad text_flags, Hindi has no brackets/Latin."
+}

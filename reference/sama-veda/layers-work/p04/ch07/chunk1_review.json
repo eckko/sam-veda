@@ -1,0 +1,781 @@
+{
+ "units": [
+  {
+   "n": "1031",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1032",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1033",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1034",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "छोड़े गए हैं",
+     "problem": "pra (\"forth\", English \"sent forth\") is dropped in the Hindi",
+     "fix": "आगे छोड़े गए हैं",
+     "severity": "minor",
+     "patch": {
+      "n": "1034",
+      "op": "replace",
+      "field": "hindi",
+      "old": "छोड़े गए हैं",
+      "new": "आगे छोड़े गए हैं"
+     }
+    },
+    {
+     "field": "gram",
+     "where": "vīrayā",
+     "problem": "stem \"vīrya\" is invented (vīrya = valour, not \"desiring heroes\")",
+     "fix": "adverbial inst. f. sg. (-yā form, like gavyā and aśvayā)",
+     "severity": "minor",
+     "patch": {
+      "n": "1034",
+      "op": "word",
+      "match_w": "vīrayā",
+      "field": "gram",
+      "value": "adverbial inst. f. sg. (-yā form, like gavyā and aśvayā)"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1035",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1036",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1037",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1038",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "great [unclear]",
+     "problem": "Hindi omits both mahi and psaraḥ but English keeps \"great\"; languages must match (alternatively add महान् to the Hindi)",
+     "fix": "[unclear]",
+     "severity": "minor",
+     "patch": {
+      "n": "1038",
+      "op": "replace",
+      "field": "english",
+      "old": "great [unclear]",
+      "new": "[unclear]"
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "आसन पर बैठो",
+     "problem": "glossary (later line): yoni = seat (स्थान), not आसन",
+     "fix": "स्थान पर बैठो",
+     "severity": "minor",
+     "patch": {
+      "n": "1038",
+      "op": "replace",
+      "field": "hindi",
+      "old": "आसन पर बैठो",
+      "new": "स्थान पर बैठो"
+     }
+    },
+    {
+     "field": "english",
+     "where": "sit in the seat, supporter.",
+     "problem": "Hindi has हे (address) but English lacks \"O\"",
+     "fix": "sit in the seat, O supporter.",
+     "severity": "minor",
+     "patch": {
+      "n": "1038",
+      "op": "replace",
+      "field": "english",
+      "old": "sit in the seat, supporter.",
+      "new": "sit in the seat, O supporter."
+     }
+    }
+   ]
+  },
+  {
+   "n": "1039",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1040",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1041",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gram",
+     "where": "māmṛje",
+     "problem": "a perfect has no passive form; the form is middle",
+     "fix": "3 sg. pf. mid. √mṛj (passive sense)",
+     "severity": "minor",
+     "patch": {
+      "n": "1041",
+      "op": "word",
+      "match_w": "māmṛje",
+      "field": "gram",
+      "value": "3 sg. pf. mid. √mṛj (passive sense)"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1042",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1043",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1044",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "तीव्र आनन्द",
+     "problem": "ghṛṣvi = lively, not \"intense\"; Hindi should match the English \"lively\"",
+     "fix": "स्फूर्तिपूर्ण आनन्द",
+     "severity": "minor",
+     "patch": {
+      "n": "1044",
+      "op": "replace",
+      "field": "hindi",
+      "old": "तीव्र आनन्द",
+      "new": "स्फूर्तिपूर्ण आनन्द"
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "पुकारते हैं",
+     "problem": "īmahe = we implore; पुकारना is \"call\"",
+     "fix": "याचना करते हैं",
+     "severity": "minor",
+     "patch": {
+      "n": "1044",
+      "op": "replace",
+      "field": "hindi",
+      "old": "पुकारते हैं",
+      "new": "याचना करते हैं"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1045",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1046",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1047",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "split",
+     "where": "atha",
+     "problem": "glossary: Vedic lengthened forms keep the printed form in w (lengthening is already noted in gram)",
+     "fix": "athā",
+     "severity": "minor",
+     "patch": {
+      "n": "1047",
+      "op": "word",
+      "match_w": "atha",
+      "field": "w",
+      "value": "athā"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1048",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "split",
+     "where": "atha",
+     "problem": "glossary: Vedic lengthened forms keep the printed form in w (lengthening is already noted in gram)",
+     "fix": "athā",
+     "severity": "minor",
+     "patch": {
+      "n": "1048",
+      "op": "word",
+      "match_w": "atha",
+      "field": "w",
+      "value": "athā"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1049",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "split",
+     "where": "atha",
+     "problem": "glossary: Vedic lengthened forms keep the printed form in w (lengthening is already noted in gram)",
+     "fix": "athā",
+     "severity": "minor",
+     "patch": {
+      "n": "1049",
+      "op": "word",
+      "match_w": "atha",
+      "field": "w",
+      "value": "athā"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1050",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "split",
+     "where": "atha",
+     "problem": "glossary: Vedic lengthened forms keep the printed form in w (lengthening is already noted in gram)",
+     "fix": "athā",
+     "severity": "minor",
+     "patch": {
+      "n": "1050",
+      "op": "word",
+      "match_w": "atha",
+      "field": "w",
+      "value": "athā"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1051",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "split",
+     "where": "atha",
+     "problem": "glossary: Vedic lengthened forms keep the printed form in w (lengthening is already noted in gram)",
+     "fix": "athā",
+     "severity": "minor",
+     "patch": {
+      "n": "1051",
+      "op": "word",
+      "match_w": "atha",
+      "field": "w",
+      "value": "athā"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1052",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "split",
+     "where": "atha",
+     "problem": "glossary: Vedic lengthened forms keep the printed form in w (lengthening is already noted in gram)",
+     "fix": "athā",
+     "severity": "minor",
+     "patch": {
+      "n": "1052",
+      "op": "word",
+      "match_w": "atha",
+      "field": "w",
+      "value": "athā"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1053",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "split",
+     "where": "atha",
+     "problem": "glossary: Vedic lengthened forms keep the printed form in w (lengthening is already noted in gram)",
+     "fix": "athā",
+     "severity": "minor",
+     "patch": {
+      "n": "1053",
+      "op": "word",
+      "match_w": "atha",
+      "field": "w",
+      "value": "athā"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1054",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "split",
+     "where": "atha",
+     "problem": "glossary: Vedic lengthened forms keep the printed form in w (lengthening is already noted in gram)",
+     "fix": "athā",
+     "severity": "minor",
+     "patch": {
+      "n": "1054",
+      "op": "word",
+      "match_w": "atha",
+      "field": "w",
+      "value": "athā"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1055",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "split",
+     "where": "atha",
+     "problem": "glossary: Vedic lengthened forms keep the printed form in w (lengthening is already noted in gram)",
+     "fix": "athā",
+     "severity": "minor",
+     "patch": {
+      "n": "1055",
+      "op": "word",
+      "match_w": "atha",
+      "field": "w",
+      "value": "athā"
+     }
+    },
+    {
+     "field": "english",
+     "where": "in the vidharman [unclear]",
+     "problem": "MANUAL: English keeps the Sanskrit word \"vidharman\" next to [unclear] while Hindi omits it; the OPEN dharman/vidharmaṇi decision (960, 1017, 521, 529) is still pending. Once decided, use the same rendering here (e.g. \"in the upholding\" in both languages, or plain \"[unclear]\" in English only).",
+     "fix": "",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "1056",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "split",
+     "where": "atha",
+     "problem": "glossary: Vedic lengthened forms keep the printed form in w (lengthening is already noted in gram)",
+     "fix": "athā",
+     "severity": "minor",
+     "patch": {
+      "n": "1056",
+      "op": "word",
+      "match_w": "atha",
+      "field": "w",
+      "value": "athā"
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "आजीवन टिकने वाला",
+     "problem": "\"टिकने वाला\" (lasting) is added in Hindi only; English has only \"life-long\"",
+     "fix": "आजीवन",
+     "severity": "minor",
+     "patch": {
+      "n": "1056",
+      "op": "replace",
+      "field": "hindi",
+      "old": "आजीवन टिकने वाला",
+      "new": "आजीवन"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1057",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "that exhilarating one runs",
+     "problem": "\"that\" is added (sa is already rendered \"He\"); same in Hindi \"वह आनन्ददायक\"",
+     "fix": "He crosses over; the exhilarating one runs, the stream of the pressed juice. He crosses over; the exhilarating one runs.",
+     "severity": "minor",
+     "patch": {
+      "n": "1057",
+      "op": "set",
+      "field": "english",
+      "value": "He crosses over; the exhilarating one runs, the stream of the pressed juice. He crosses over; the exhilarating one runs."
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "वह आनन्ददायक",
+     "problem": "extra वह (sa already rendered)",
+     "fix": "वह पार करता है; आनन्ददायक दौड़ता है, निचोड़े हुए रस की धारा। वह पार करता है; आनन्ददायक दौड़ता है।",
+     "severity": "minor",
+     "patch": {
+      "n": "1057",
+      "op": "set",
+      "field": "hindi",
+      "value": "वह पार करता है; आनन्ददायक दौड़ता है, निचोड़े हुए रस की धारा। वह पार करता है; आनन्ददायक दौड़ता है।"
+     }
+    },
+    {
+     "field": "notes",
+     "where": "; an earlier reviewed rendering of this verse took it as a participle, which does not fit the form",
+     "problem": "note refers to an unnamed earlier rendering; not a reader-facing statement about the text",
+     "fix": "",
+     "severity": "minor",
+     "patch": {
+      "n": "1057",
+      "op": "replace",
+      "field": "notes",
+      "old": "; an earlier reviewed rendering of this verse took it as a participle, which does not fit the form",
+      "new": ""
+     }
+    }
+   ]
+  },
+  {
+   "n": "1058",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "that exhilarating one runs",
+     "problem": "\"that\" is added (sa already rendered \"He\")",
+     "fix": "the exhilarating one runs",
+     "severity": "minor",
+     "patch": {
+      "n": "1058",
+      "op": "replace",
+      "field": "english",
+      "old": "that exhilarating one runs",
+      "new": "the exhilarating one runs"
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "वह आनन्ददायक",
+     "problem": "extra वह (sa already rendered)",
+     "fix": "आनन्ददायक",
+     "severity": "minor",
+     "patch": {
+      "n": "1058",
+      "op": "replace",
+      "field": "hindi",
+      "old": "वह आनन्ददायक",
+      "new": "आनन्ददायक"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1059",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "that exhilarating one runs",
+     "problem": "\"that\" is added (sa already rendered \"He\")",
+     "fix": "the exhilarating one runs",
+     "severity": "minor",
+     "patch": {
+      "n": "1059",
+      "op": "replace",
+      "field": "english",
+      "old": "that exhilarating one runs",
+      "new": "the exhilarating one runs"
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "वह आनन्ददायक",
+     "problem": "extra वह (sa already rendered)",
+     "fix": "आनन्ददायक",
+     "severity": "minor",
+     "patch": {
+      "n": "1059",
+      "op": "replace",
+      "field": "hindi",
+      "old": "वह आनन्ददायक",
+      "new": "आनन्ददायक"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1060",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "that exhilarating one runs",
+     "problem": "\"that\" is added (sa already rendered \"He\")",
+     "fix": "the exhilarating one runs",
+     "severity": "minor",
+     "patch": {
+      "n": "1060",
+      "op": "replace",
+      "field": "english",
+      "old": "that exhilarating one runs",
+      "new": "the exhilarating one runs"
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "वह आनन्ददायक",
+     "problem": "extra वह (sa already rendered)",
+     "fix": "आनन्ददायक",
+     "severity": "minor",
+     "patch": {
+      "n": "1060",
+      "op": "replace",
+      "field": "hindi",
+      "old": "वह आनन्ददायक",
+      "new": "आनन्ददायक"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1061",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1062",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1063",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1064",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "split",
+     "where": "mahema",
+     "problem": "lengthened form must keep the printed form in w (glossary)",
+     "fix": "mahemā",
+     "severity": "minor",
+     "patch": {
+      "n": "1064",
+      "op": "word",
+      "match_w": "mahema",
+      "field": "w",
+      "value": "mahemā"
+     }
+    },
+    {
+     "field": "split",
+     "where": "riṣāma",
+     "problem": "lengthened form must keep the printed form in w (glossary)",
+     "fix": "riṣāmā",
+     "severity": "minor",
+     "patch": {
+      "n": "1064",
+      "op": "word",
+      "match_w": "riṣāma",
+      "field": "w",
+      "value": "riṣāmā"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1065",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "split",
+     "where": "kṛṇavāma",
+     "problem": "lengthened form must keep the printed form in w (glossary)",
+     "fix": "kṛṇavāmā",
+     "severity": "minor",
+     "patch": {
+      "n": "1065",
+      "op": "word",
+      "match_w": "kṛṇavāma",
+      "field": "w",
+      "value": "kṛṇavāmā"
+     }
+    },
+    {
+     "field": "split",
+     "where": "sādhaya",
+     "problem": "lengthened form must keep the printed form in w (glossary)",
+     "fix": "sādhayā",
+     "severity": "minor",
+     "patch": {
+      "n": "1065",
+      "op": "word",
+      "match_w": "sādhaya",
+      "field": "w",
+      "value": "sādhayā"
+     }
+    },
+    {
+     "field": "split",
+     "where": "riṣāma",
+     "problem": "lengthened form must keep the printed form in w (glossary)",
+     "fix": "riṣāmā",
+     "severity": "minor",
+     "patch": {
+      "n": "1065",
+      "op": "word",
+      "match_w": "riṣāma",
+      "field": "w",
+      "value": "riṣāmā"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1066",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "split",
+     "where": "sādhaya",
+     "problem": "lengthened form must keep the printed form in w (glossary)",
+     "fix": "sādhayā",
+     "severity": "minor",
+     "patch": {
+      "n": "1066",
+      "op": "word",
+      "match_w": "sādhaya",
+      "field": "w",
+      "value": "sādhayā"
+     }
+    },
+    {
+     "field": "split",
+     "where": "riṣāma",
+     "problem": "lengthened form must keep the printed form in w (glossary)",
+     "fix": "riṣāmā",
+     "severity": "minor",
+     "patch": {
+      "n": "1066",
+      "op": "word",
+      "match_w": "riṣāma",
+      "field": "w",
+      "value": "riṣāmā"
+     }
+    },
+    {
+     "field": "gram",
+     "where": "samidham",
+     "problem": "MANUAL: \"inf.\" for samidham is not a standard infinitive form; the alternative (acc. of samidh) is also listed. Keep both readings noted; consider confidence low.",
+     "fix": "",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "1067",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "confidence",
+     "where": "gṛṇīṣe",
+     "problem": "MANUAL: gṛṇīṣe is rendered \"I praise\" against the 2 sg. form; Hindi/English state it firmly. Consider confidence low or a stronger note.",
+     "fix": "low",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "1068",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "यह प्रेरित,",
+     "problem": "glossary: vipra/viprā = the inspired one (प्रेरित मेधावी)",
+     "fix": "यह प्रेरित मेधावी,",
+     "severity": "minor",
+     "patch": {
+      "n": "1068",
+      "op": "replace",
+      "field": "hindi",
+      "old": "यह प्रेरित,",
+      "new": "यह प्रेरित मेधावी,"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1069",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1070",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "split",
+     "where": "jahi",
+     "problem": "printed lengthening must be kept in w (glossary)",
+     "fix": "jahī",
+     "severity": "minor",
+     "patch": {
+      "n": "1070",
+      "op": "word",
+      "match_w": "jahi",
+      "field": "w",
+      "value": "jahī"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1071",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1072",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1073",
+   "verdict": "ok",
+   "issues": []
+  }
+ ],
+ "summary": "43 units 1031-1073. 0 errors, 40 minor issues. Tokens match, no Latin/brackets in Hindi, no parallels in notes. Main themes: Vedic lengthened forms normalised in w (athā, riṣāmā, sādhayā, kṛṇavāmā, mahemā, jahī); yoni Hindi; extra 'that' in 1057-1060; small Hindi additions/omissions. No regrouping suggested."
+}

@@ -1,0 +1,616 @@
+{
+ "units": [
+  {
+   "n": "1214",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "split",
+     "where": "jahī",
+     "problem": "Vedic lengthened form: glossary requires the printed form in w, lengthening noted in gram",
+     "fix": "w = jahī",
+     "severity": "minor",
+     "patch": {
+      "n": "1214",
+      "op": "word",
+      "match_w": "jahi",
+      "field": "w",
+      "value": "jahī"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1215",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "confidence",
+     "where": "hrutaḥ, makhasyase",
+     "problem": "glosses admit a guess ('uncertain') but English/Hindi state 'the crooked ones' and 'you are exuberant' firmly; glossary asks for [unclear] on obscure text",
+     "fix": "owner to decide: keep (confidence low is honest) or mark makhasyase [unclear] in English and omit in Hindi",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "1216",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1217",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1218",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gloss",
+     "where": "indra",
+     "problem": "gloss 'Indra, O Indra' is not a single dictionary-style gloss",
+     "fix": "Indra",
+     "severity": "minor",
+     "patch": {
+      "n": "1218",
+      "op": "word",
+      "match_w": "indra",
+      "field": "gloss",
+      "value": "Indra"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1219",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1220",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gram",
+     "where": "śociḥ",
+     "problem": "taken as object of anu (his flame) in both translations but labelled nom. only",
+     "fix": "n. acc. sg. (object of anu; same form as nom.)",
+     "severity": "minor",
+     "patch": {
+      "n": "1220",
+      "op": "word",
+      "match_w": "śociḥ",
+      "field": "gram",
+      "value": "n. acc. sg. (object of anu; same form as nom.)"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1221",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1222",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "वृषभ",
+     "problem": "glossary: vṛṣabha Hindi is बैल (not वृषभ), English bull",
+     "fix": "वह बलवान, बैल हो।",
+     "severity": "minor",
+     "patch": {
+      "n": "1222",
+      "op": "replace",
+      "field": "hindi",
+      "old": "वृषभ हो",
+      "new": "बैल हो"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1223",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1224",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1225",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1226",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1227",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "split",
+     "where": "sunotā",
+     "problem": "Vedic lengthened form: glossary requires the printed form in w, lengthening noted in gram",
+     "fix": "w = sunotā",
+     "severity": "minor",
+     "patch": {
+      "n": "1227",
+      "op": "word",
+      "match_w": "sunota",
+      "field": "w",
+      "value": "sunotā"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1228",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1229",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1230",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "split",
+     "where": "vidyudabhreva",
+     "problem": "the note invents a rule ('iva shortened to -va after -e'). Regular sandhi gives abhra + iva -> abhreva, so abhre iva would stay abhre iva. Either split abhra (n.) + iva and decide the sense (e.g. 'like lightning [does] a cloud') or flag as unclear; English 'in the cloud' rests on the invented rule",
+     "fix": "manual decision",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "1231",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "split",
+     "where": "purū",
+     "problem": "Vedic lengthened form: glossary requires the printed form in w, lengthening noted in gram",
+     "fix": "w = purū",
+     "severity": "minor",
+     "patch": {
+      "n": "1231",
+      "op": "word",
+      "match_w": "puru",
+      "field": "w",
+      "value": "purū"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1232",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "split",
+     "where": "indrā (2nd line)",
+     "problem": "Vedic lengthened form: glossary requires the printed form in w, lengthening noted in gram",
+     "fix": "w = indrā",
+     "severity": "minor",
+     "patch": {
+      "n": "1232",
+      "op": "word",
+      "match_w": "indra",
+      "field": "w",
+      "value": "indrā",
+      "occurrence": 2
+     }
+    }
+   ]
+  },
+  {
+   "n": "1233",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "śṛṇavacca",
+     "problem": "ca ('and') is glossed but not translated in either language",
+     "fix": "And may Indra ... / और इन्द्र ...",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "1233",
+       "op": "replace",
+       "field": "english",
+       "old": "May Indra, turned toward us, hear both",
+       "new": "And may Indra, turned toward us, hear both"
+      },
+      {
+       "n": "1233",
+       "op": "replace",
+       "field": "hindi",
+       "old": "इन्द्र इस ओर मुड़कर",
+       "new": "और इन्द्र इस ओर मुड़कर"
+      }
+     ]
+    },
+    {
+     "field": "gloss",
+     "where": "satrācyā dhiyā",
+     "problem": "'concentrated prayer' does not follow the gloss 'accompanying, united'; dhiyā is 'with thought' in 1230 but 'thought, prayer' here (no consistent rendering)",
+     "fix": "use one rendering for dhiyā across the chapter (e.g. 'with united thought' / 'एकजुट विचार से'); owner to decide",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "1234",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "वृषभ",
+     "problem": "glossary: vṛṣabha Hindi is बैल",
+     "fix": "उस स्वराज, बैल को ही",
+     "severity": "minor",
+     "patch": {
+      "n": "1234",
+      "op": "replace",
+      "field": "hindi",
+      "old": "स्वराज, वृषभ को",
+      "new": "स्वराज, बैल को"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1235",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "मद",
+     "problem": "glossary: mada = exhilaration (Hindi आनन्द)",
+     "fix": "तुम्हारा आनन्द",
+     "severity": "minor",
+     "patch": {
+      "n": "1235",
+      "op": "replace",
+      "field": "hindi",
+      "old": "तुम्हारा मद",
+      "new": "तुम्हारा आनन्द"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1236",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "confidence",
+     "where": "tośase",
+     "problem": "'pour down' is admitted as a guess in the note but stated firmly in both languages",
+     "fix": "same as 1215: keep with low confidence or mark unclear",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "1237",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "जन",
+     "problem": "glossary: jana = people (लोग)",
+     "fix": "लोगों को",
+     "severity": "minor",
+     "patch": {
+      "n": "1237",
+      "op": "replace",
+      "field": "hindi",
+      "old": "वाले जन को",
+      "new": "वाले लोगों को"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1238",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "split",
+     "where": "abhī",
+     "problem": "Vedic lengthened form: glossary requires the printed form in w, lengthening noted in gram",
+     "fix": "w = abhī",
+     "severity": "minor",
+     "patch": {
+      "n": "1238",
+      "op": "word",
+      "match_w": "abhi",
+      "field": "w",
+      "value": "abhī"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1239",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "आधृगु",
+     "problem": "name misspelt: IAST ādhrigo has ri (dhri), not ṛ",
+     "fix": "आध्रिगु",
+     "severity": "error",
+     "patch": {
+      "n": "1239",
+      "op": "replace",
+      "field": "hindi",
+      "old": "आधृगु",
+      "new": "आध्रिगु"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1240",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "मद",
+     "problem": "glossary: mada = exhilaration (Hindi आनन्द)",
+     "fix": "आनन्द टपकाती हुई",
+     "severity": "minor",
+     "patch": {
+      "n": "1240",
+      "op": "replace",
+      "field": "hindi",
+      "old": "मद टपकाती",
+      "new": "आनन्द टपकाती"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1241",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "notes",
+     "where": "dhāma",
+     "problem": "notes silently treat printed dhāma as dhāmā (plural to agree with viśvā) without a text_flag; either flag it (letters only, no parallels) or read dhāma as acc. sg. 'every realm'",
+     "fix": "manual decision",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "1242",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1243",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "notes",
+     "where": "vidharman",
+     "problem": "'holding apart' differs from the 'in the upholding' used for vidharmaṇi in p04 ch06 k2 1017; glossary OPEN dharman item",
+     "fix": "add 1243 to the OPEN dharman list and make consistent after the owner decides",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "1244",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1245",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "दो रूप में",
+     "problem": "'doubly' is rendered 'in two forms', adding 'form'",
+     "fix": "owner to choose a Hindi for 'doubly' without a noun (e.g. दोहरे प्रकार से is also an addition); consider marking dvitā unclear",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "1246",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "split",
+     "where": "śṛṇuhī",
+     "problem": "Vedic lengthened form: glossary requires the printed form in w, lengthening noted in gram",
+     "fix": "w = śṛṇuhī",
+     "severity": "minor",
+     "patch": {
+      "n": "1246",
+      "op": "word",
+      "match_w": "śṛṇuhi",
+      "field": "w",
+      "value": "śṛṇuhī"
+     }
+    },
+    {
+     "field": "split",
+     "where": "rakṣā",
+     "problem": "Vedic lengthened form: glossary requires the printed form in w, lengthening noted in gram",
+     "fix": "w = rakṣā",
+     "severity": "minor",
+     "patch": {
+      "n": "1246",
+      "op": "word",
+      "match_w": "rakṣa",
+      "field": "w",
+      "value": "rakṣā"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1247",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "1248",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "हे सत्य",
+     "problem": "'O true one' reads as 'O Truth' in Hindi",
+     "fix": "हे सच्चे",
+     "severity": "minor",
+     "patch": {
+      "n": "1248",
+      "op": "replace",
+      "field": "hindi",
+      "old": "हे सत्य,",
+      "new": "हे सच्चे,"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1249",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "For you",
+     "problem": "hi is rendered 'For' (causal) in English but 'निश्चय ही' (indeed) in Hindi; glossary: hi = indeed",
+     "fix": "Indeed you, O Indra, are the upholder ...",
+     "severity": "minor",
+     "patch": {
+      "n": "1249",
+      "op": "replace",
+      "field": "english",
+      "old": "For you, O Indra, are",
+      "new": "Indeed you, O Indra, are"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1250",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "जो ... है",
+     "problem": "Hindi supplies 'जो' and a verb 'है' (and 'और') that English does not have",
+     "fix": "इन्द्र, सारे कर्म का धारणकर्ता, वज्रधारी, बहुतों से स्तुत।",
+     "severity": "minor",
+     "patch": {
+      "n": "1250",
+      "op": "replace",
+      "field": "hindi",
+      "old": "इन्द्र, जो सारे कर्म का धारणकर्ता, वज्रधारी और बहुतों से स्तुत है।",
+      "new": "इन्द्र, सारे कर्म का धारणकर्ता, वज्रधारी, बहुतों से स्तुत।"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1251",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "split",
+     "where": "apāvaradrivo",
+     "problem": "printed r before the vowel shows the form ends in -r (apāvar); a final -aḥ would give apāvo 'drivaḥ. 'apāvaḥ' is not what is printed and is not regular sandhi",
+     "fix": "w = apāvar, 2 sg. past (root aor./injunctive-type) apa-√vṛ, final -r kept before a vowel",
+     "severity": "error",
+     "patch": [
+      {
+       "n": "1251",
+       "op": "word",
+       "match_w": "apāvaḥ",
+       "field": "gram",
+       "value": "2 sg. past (aor.) apa-√vṛ (final -r kept before the vowel)"
+      },
+      {
+       "n": "1251",
+       "op": "word",
+       "match_w": "apāvaḥ",
+       "field": "w",
+       "value": "apāvar"
+      }
+     ]
+    },
+    {
+     "field": "hindi",
+     "where": "कर गए",
+     "problem": "'कर गए' (went and did) adds a sense; verb is simply 'helped'",
+     "fix": "तुम्हारी सहायता की",
+     "severity": "minor",
+     "patch": {
+      "n": "1251",
+      "op": "replace",
+      "field": "hindi",
+      "old": "तुम्हारी सहायता कर गए",
+      "new": "तुम्हारी सहायता की"
+     }
+    }
+   ]
+  },
+  {
+   "n": "1252",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "ईशान",
+     "problem": "'ईशान' reads as a name (Īśāna); English and gloss say 'ruler'",
+     "fix": "शासक",
+     "severity": "minor",
+     "patch": {
+      "n": "1252",
+      "op": "replace",
+      "field": "hindi",
+      "old": "इन्द्र की, ईशान की,",
+      "new": "इन्द्र की, शासक की,"
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "या और अधिक",
+     "problem": "vā ('even') dropped in Hindi, kept in English 'or even more'",
+     "fix": "या और भी अधिक हैं",
+     "severity": "minor",
+     "patch": {
+      "n": "1252",
+      "op": "replace",
+      "field": "hindi",
+      "old": "या और अधिक हैं",
+      "new": "या और भी अधिक हैं"
+     }
+    }
+   ]
+  }
+ ],
+ "summary": "2 error, 28 minor; no regrouping suggested. Main patterns: printed Vedic lengthenings not kept in w, Hindi vs glossary (बैल, आनन्द, लोग), one wrong sandhi reconstruction (1251 apāvar), one misspelt name (आध्रिगु)."
+}

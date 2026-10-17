@@ -54,3 +54,6 @@
 - Hindi madhu = मधु; mada = आनन्द also in plurals (आनन्दों); gaṇa = गण (sg.). varūthya = sheltering. dyumattama = most radiant.
 - te in a relative clause ("yasya te") = "of you".
 - OPEN: 1104 enā; 1079 puru-spṛham; 1103 vi…citānāḥ; 1113/1114 pra/ā "forth" in Hindi; 1110+1111 possible one verse; "vasuḥ agniḥ".
+- yoni Hindi: the English is "seat"; Hindi is स्थान from ch06 k2 onward (earlier आसन lines are older; unify in cleanup, listed in ISSUES).
+- vīrya = heroic strength (वीर्य). nītha = song. hārdi = what is of the heart (हृदय का). vīti = feast (भोज). matsara/madintama: Hindi आनन्द-based, not मद.
+- OPEN: 1182 meṣyaḥ after ati (acc. pl.?); 1211 dhiye gender; 1213 "driving away" supplied for apa.
