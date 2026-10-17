@@ -1,0 +1,636 @@
+[
+ {
+  "n": "487",
+  "field": "hindi",
+  "old": "देवता उत्पन्न हुए, वेगवान्, दूध से सजाए गए, कुचले हुए इन्दु के पास भली-भाँति पहुँचे।",
+  "new": "देवता उस उत्पन्न, वेगवान्, दूध से सजाए गए, कुचले हुए इन्दु के पास भली-भाँति पहुँचे।",
+  "why": "reviewer (error): jātam (acc.) qualifies induṃ, not devāḥ; the Hindi reads as if the gods were born."
+ },
+ {
+  "n": "487",
+  "field": "english",
+  "old": "The gods have approached well Indu (the Soma drop), born, swift, crushed, and adorned with milk.",
+  "new": "The gods have approached well Indu, who is born, swift, crushed, and adorned with milk.",
+  "why": "reviewer (minor): GLOSSARY: indu = drop, no 'Soma' added; parentheses only for the Sanskrit term. 'born, swift...' also floats between gods and Indu."
+ },
+ {
+  "n": "487",
+  "field": "word.gloss",
+  "word": "indum",
+  "old": "Indu, the drop (Soma)",
+  "new": "Indu, the drop",
+  "why": "reviewer (minor): GLOSSARY: indu = drop, no 'Soma' added; parentheses only for the Sanskrit term. 'born, swift...' also floats between gods and Indu."
+ },
+ {
+  "n": "488",
+  "field": "hindi",
+  "old": "शुद्ध किया जाता हुआ सर्वद्रष्टा सब शत्रुओं पर आगे बढ़ा; वे उस प्रेरित कवि को स्तुतियों से सजाते हैं।",
+  "new": "शुद्ध किया जाता हुआ सर्वद्रष्टा सब शत्रुओं पर आगे बढ़ा; वे उस प्रेरित मेधावी को स्तुतियों से सजाते हैं।",
+  "why": "reviewer (minor): GLOSSARY: vipra = the inspired one (प्रेरित मेधावी); kavi is a different word."
+ },
+ {
+  "n": "488",
+  "field": "english",
+  "old": "Being purified, the all-seeing one has advanced upon all foes; they adorn the inspired one with their devotions.",
+  "new": "Being purified, the all-seeing one has advanced upon all foes; they adorn the inspired one with devotions.",
+  "why": "reviewer (minor): 'their' is not in the text."
+ },
+ {
+  "n": "490",
+  "field": "hindi",
+  "old": "जैसे रथ का घोड़ा छोड़ा जाता है, वैसे ही निचोड़ा हुआ सोम छलनी में और दोनों पात्रों में छोड़ा गया; वह धावक दौड़-भूमि में उतर पड़ा।",
+  "new": "जैसे रथ का घोड़ा छोड़ा जाता है, वैसे ही निचोड़ा हुआ वह छलनी में और दोनों पात्रों में छोड़ा गया; वह धावक दौड़-भूमि में उतर पड़ा।",
+  "why": "reviewer (minor): Soma is not named in the line (sutaḥ only; the draft's own note says the subject is not stated); the English correctly has 'he'. 'वह धावक' also adds a demonstrative."
+ },
+ {
+  "n": "490",
+  "field": "hindi",
+  "old": "जैसे रथ का घोड़ा छोड़ा जाता है, वैसे ही निचोड़ा हुआ वह छलनी में और दोनों पात्रों में छोड़ा गया; वह धावक दौड़-भूमि में उतर पड़ा।",
+  "new": "जैसे रथ का घोड़ा छोड़ा जाता है, वैसे ही निचोड़ा हुआ वह छलनी में और दोनों पात्रों में छोड़ा गया; धावक दौड़-भूमि में उतर पड़ा।",
+  "why": "reviewer (minor): Soma is not named in the line (sutaḥ only; the draft's own note says the subject is not stated); the English correctly has 'he'. 'वह धावक' also adds a demonstrative."
+ },
+ {
+  "n": "491",
+  "field": "notes",
+  "old": "The parallel RV text reads 'ye gāvo na' (those who, like cows); here 'yat' is kept as printed and translated 'when'. The referent of the plural subject (the Soma streams) is not stated in the verse.",
+  "new": "'yat' is translated 'when'. The referent of the plural subject (the Soma streams) is not stated in the verse.",
+  "why": "reviewer (error): Invented variant and an import from another book (LAYER_NOTES 3); the printed 'yat' needs no such comment."
+ },
+ {
+  "n": "491",
+  "field": "hindi",
+  "old": "जब आतुर, तेजस्वी और वेगवान् धाराएँ गायों की भाँति आगे बढ़ीं, तब वे काली खाल को दूर हटाती हुई चलीं।",
+  "new": "जब वे आतुर, तेजस्वी और वेगवान् गायों की भाँति आगे बढ़े, काली खाल को दूर मारते हुए।",
+  "why": "reviewer (minor): Hindi names 'streams' as the subject, but the note itself says the referent is not stated; English has only 'ones'. Also 'दूर हटाती' drops ghnantaḥ 'smiting'."
+ },
+ {
+  "n": "492",
+  "field": "hindi",
+  "old": "शत्रुओं को दूर हटाते हुए, हे सोम, तुम बहते हो, तुम यज्ञ-बुद्धि को जानने वाले और आनन्ददायक हो; देवों को न चाहने वाले जन को दूर भगा दो।",
+  "new": "शत्रुओं को दूर हटाते हुए, हे सोम, तुम बहते हो, तुम संकल्प को जानने वाले और आनन्ददायक हो; देवों को न चाहने वाले जन को दूर भगा दो।",
+  "why": "reviewer (minor): 'sacrificial' is not in kratu; added interpretation (also in the gloss). English 'wise' is likewise not the literal kratu-vit."
+ },
+ {
+  "n": "492",
+  "field": "english",
+  "old": "Smiting away the foes, you flow, O Soma, wise and exhilarating; drive away the people who do not seek the gods.",
+  "new": "Smiting away the foes, you flow, O Soma, knowing the purpose and exhilarating; drive away the people who do not seek the gods.",
+  "why": "reviewer (minor): 'sacrificial' is not in kratu; added interpretation (also in the gloss). English 'wise' is likewise not the literal kratu-vit."
+ },
+ {
+  "n": "492",
+  "field": "word.gloss",
+  "word": "kratu-vit",
+  "old": "knowing the (sacrificial) purpose, wise",
+  "new": "knowing purpose (kratu)",
+  "why": "reviewer (minor): 'sacrificial' is not in kratu; added interpretation (also in the gloss). English 'wise' is likewise not the literal kratu-vit."
+ },
+ {
+  "n": "493",
+  "field": "hindi",
+  "old": "इस धारा से बहो, जिससे तुमने सूर्य को चमकाया, मानवों की जलधाराओं को प्रेरित करते हुए।",
+  "new": "इस धारा से बहो, जिससे तुमने सूर्य को चमकाया, प्रेरित करते हुए मानवीय जलों को।",
+  "why": "reviewer (minor): mānuṣīḥ is an adjective of apaḥ ('human waters', as the English has it); 'जलधाराओं' and the genitive change the sense."
+ },
+ {
+  "n": "494",
+  "field": "word.gloss",
+  "word": "vṛtrāya",
+  "old": "Vṛtra (name of a demon)",
+  "new": "Vṛtra (name)",
+  "why": "reviewer (minor): LAYER_NOTES 3: a role is given only if the line states it; 'demon' is imported."
+ },
+ {
+  "n": "495",
+  "field": "english",
+  "old": "With this eagerness flow around, O Indu; he who, in your exhilarations, struck down ninety-nine.",
+  "new": "With this eagerness flow around, O Indu; he who, in your exhilarations, struck down nine and ninety.",
+  "why": "reviewer (minor): GLOSSARY: navatīr nava = nine and ninety (नौ और नब्बे); 'ninety-nine' (and the note's 'ninety nine') fixes a count."
+ },
+ {
+  "n": "495",
+  "field": "hindi",
+  "old": "इस आनन्द-भाव से, हे इन्दु, चारों ओर बहो; वह जिसने तुम्हारे मदों में निन्यानवे को मार गिराया।",
+  "new": "इस आनन्द-भाव से, हे इन्दु, चारों ओर बहो; वह जिसने तुम्हारे मदों में नौ और नब्बे को मार गिराया।",
+  "why": "reviewer (minor): GLOSSARY: navatīr nava = nine and ninety (नौ और नब्बे); 'ninety-nine' (and the note's 'ninety nine') fixes a count."
+ },
+ {
+  "n": "495",
+  "field": "notes",
+  "old": "Subject of avāhan is not stated; 'yaḥ te' could be 'who, of you' (yours). It is not clear whether Indra or Soma is the striker, so 'he who' is used. navatīr nava is read as 'ninety nine' (ninety-nine). vītī may also be 'feast'.",
+  "new": "Subject of avāhan is not stated; 'yaḥ te' could be 'who, of you' (yours). It is not clear whether Indra or Soma is the striker, so 'he who' is used. navatīr nava is rendered 'nine and ninety'. vītī may also be 'feast'.",
+  "why": "reviewer (minor): GLOSSARY: navatīr nava = nine and ninety (नौ और नब्बे); 'ninety-nine' (and the note's 'ninety nine') fixes a count."
+ },
+ {
+  "n": "496",
+  "field": "english",
+  "old": "Being pressed, flow around into the filter, with your juice, to our heavenly, wealth-winning Bharadvāja.",
+  "new": "Being pressed, flow around into the filter, with the juice, to our heavenly, wealth-winning Bharadvāja.",
+  "why": "reviewer (minor): 'your/अपने' is not in the text (andhasā 'with the juice'); the English also states 'to ... Bharadvāja' as a settled construction although the note calls the line obscure."
+ },
+ {
+  "n": "496",
+  "field": "hindi",
+  "old": "हमारे लिए अपने रस के साथ, दीप्तिमान्, धन जीतने वाले भरद्वाज के पास चारों ओर, पीसे जाते हुए, छलनी में बहो।",
+  "new": "हमारे लिए रस के साथ, दीप्तिमान्, धन जीतने वाले भरद्वाज के पास चारों ओर, पीसे जाते हुए, छलनी में बहो।",
+  "why": "reviewer (minor): 'your/अपने' is not in the text (andhasā 'with the juice'); the English also states 'to ... Bharadvāja' as a settled construction although the note calls the line obscure."
+ },
+ {
+  "n": "497",
+  "field": "hindi",
+  "old": "बैल, हरे-भूरे और महान् ने गर्जना की, मित्र की भाँति दर्शनीय; वह सूर्य के साथ चमकता है।",
+  "new": "बैल, लाल-भूरे और महान् ने गर्जना की, मित्र की भाँति दर्शनीय; वह सूर्य के साथ चमकता है।",
+  "why": "reviewer (error): GLOSSARY: hari = bay horse, Hindi भूरा/लाल-भूरा, 'not green'. हरे means green."
+ },
+ {
+  "n": "498",
+  "field": "notes",
+  "old": "The ā before vṛṇīmahe is a split preverb (ā-vṛṇīmahe). pāntam is ambiguous: 'protecting' or 'drinking'. dakṣa could also be 'skill'.",
+  "new": "The ā before vṛṇīmahe is a split preverb (ā-vṛṇīmahe). pāntam is ambiguous: 'protecting' or 'drinking'. dakṣa could also be 'skill'. The ā after pāntam is left untranslated.",
+  "why": "reviewer (minor): The second ā (pāntam ā) is glossed 'towards' but appears nowhere in the translation and is not commented on."
+ },
+ {
+  "n": "501",
+  "field": "english",
+  "old": "Flow toward us, O Soma, with thousandfold wealth and heroic strength; bestow glories upon us.",
+  "new": "Cause to flow hither, O Soma, thousandfold wealth, heroic strength; bestow glories upon us.",
+  "why": "reviewer (error): sahasriṇam rayim and suvīryam are accusatives (objects), not instrumentals; 'with' and 'and' are not in the text, and 'toward us' is taken from asme."
+ },
+ {
+  "n": "501",
+  "field": "hindi",
+  "old": "हे सोम, हज़ार गुना धन और वीरता-भरे बल के साथ बहो; हमें यश प्रदान करो।",
+  "new": "हे सोम, हज़ार गुना धन, वीरता-भरा बल यहाँ बहाओ; हमें यश प्रदान करो।",
+  "why": "reviewer (error): sahasriṇam rayim and suvīryam are accusatives (objects), not instrumentals; 'with' and 'and' are not in the text, and 'toward us' is taken from asme."
+ },
+ {
+  "n": "504",
+  "field": "english",
+  "old": "You are a bull, O Soma, radiant; a bull, O god, of mighty ordinance; as a bull you uphold the ordinances.",
+  "new": "You are a bull, O Soma, radiant; a bull, O god, of mighty ordinance; as a bull you uphold the dharmas.",
+  "why": "reviewer (minor): LAYER_NOTES 6 fixed rendering: dharma = dharma (धर्म); dharmāṇi is rendered 'ordinances'/विधानों while 537 Hindi uses धर्म. Decision needed if the Vedic neuter dharman should differ."
+ },
+ {
+  "n": "504",
+  "field": "hindi",
+  "old": "हे सोम, तुम बैल और दीप्तिमान् हो; हे देव, तुम बैल हो और बलवान् व्रत वाले हो; बैल के रूप में तुम विधानों को धारण करते हो।",
+  "new": "हे सोम, तुम बैल और दीप्तिमान् हो; हे देव, तुम बैल हो और बलवान् व्रत वाले हो; बैल के रूप में तुम धर्मों को धारण करते हो।",
+  "why": "reviewer (minor): LAYER_NOTES 6 fixed rendering: dharma = dharma (धर्म); dharmāṇi is rendered 'ordinances'/विधानों while 537 Hindi uses धर्म. Decision needed if the Vedic neuter dharman should differ."
+ },
+ {
+  "n": "505",
+  "field": "english",
+  "old": "Flow with your stream for refreshment, being cleansed by the inspired ones; O Indu, go with splendour to the cows.",
+  "new": "Flow with the stream for refreshment, being cleansed by the inspired ones; O Indu, go with splendour to the cows.",
+  "why": "reviewer (minor): 'your' is not in the text."
+ },
+ {
+  "n": "505",
+  "field": "hindi",
+  "old": "हे इन्दु, पोषण के लिए धारा के साथ बहो, मनीषियों द्वारा शुद्ध किए जाते हुए; तेज के साथ गायों की ओर जाओ।",
+  "new": "हे इन्दु, पोषण के लिए धारा के साथ बहो, मनीषियों द्वारा शुद्ध किए जाते हुए; दीप्ति के साथ गायों की ओर जाओ।",
+  "why": "reviewer (minor): तेज is reserved for varcas (lustre); rucā is 'with splendour/light'."
+ },
+ {
+  "n": "507",
+  "field": "text_flags.0.why",
+  "old": "possible: the printed word looks like a stray 'apā' after sukṛtyā; the parallel text reads 'sukṛtyayā' (by good deed), and 'apā' has no clear function",
+  "new": "possible: the printed word looks like a stray 'apā' after sukṛtyā; 'apā' has no clear function",
+  "why": "reviewer (minor): Cites a parallel text not in the inputs (LAYER_NOTES 3); keep the suspicion, drop the unverifiable claim."
+ },
+ {
+  "n": "508",
+  "field": "hindi",
+  "old": "यह सर्वद्रष्टा, स्थापित और पवित्र होकर बहता हुआ सोम दिखाई देता है; वह महान् आप्य को प्रेरित करता हुआ।",
+  "new": "यह सर्वद्रष्टा, स्थापित और पवित्र होकर बहता हुआ वह दिखाई देता है; वह महान् आप्य को प्रेरित करता हुआ।",
+  "why": "reviewer (minor): Soma is not named in the line (sa = he)."
+ },
+ {
+  "n": "508",
+  "field": "english",
+  "old": "This all-seeing one, set in place and flowing clear, is noticed; urging on the great kindred one.",
+  "new": "This all-seeing one, set in place and flowing clear, is noticed; urging on the great kinship.",
+  "why": "reviewer (minor): GLOSSARY: āpya = kinship. 'one' and the Hindi untranslated 'आप्य' do not follow it."
+ },
+ {
+  "n": "508",
+  "field": "hindi",
+  "old": "यह सर्वद्रष्टा, स्थापित और पवित्र होकर बहता हुआ वह दिखाई देता है; वह महान् आप्य को प्रेरित करता हुआ।",
+  "new": "यह सर्वद्रष्टा, स्थापित और पवित्र होकर बहता हुआ वह दिखाई देता है; वह महान् बन्धुता को प्रेरित करता हुआ।",
+  "why": "reviewer (minor): GLOSSARY: āpya = kinship. 'one' and the Hindi untranslated 'आप्य' do not follow it."
+ },
+ {
+  "n": "508",
+  "field": "word.gram",
+  "word": "pavamānaḥ",
+  "old": "m. nom. sg.",
+  "new": "m. nom. sg. pres. part. mid. √pū",
+  "why": "reviewer (minor): gram gives only the case; the participle is not labelled."
+ },
+ {
+  "n": "509",
+  "field": "english",
+  "old": "O Indu, forth for us; for the great, but for us; you flow as if bearing a wave; unwearied, toward the gods.",
+  "new": "O Indu, forth for us; [unclear: mahe tu na]; you flow as if bearing a wave; unwearied, toward the gods.",
+  "why": "reviewer (minor): Draft translates unreadable 'mahe tu na' literally and states it as text; GLOSSARY: unreadable text gets [unclear] in English and no placeholder in Hindi; the 'forth for us' also doubles naḥ."
+ },
+ {
+  "n": "509",
+  "field": "hindi",
+  "old": "हे इन्दु, हमारे लिए आगे; महान् के लिए, किन्तु हमारे लिए; तुम लहर को धारण किए हुए की भाँति बहते हो; अथक होकर देवों की ओर।",
+  "new": "हे इन्दु, हमारे लिए आगे; तुम लहर को धारण किए हुए की भाँति बहते हो; अथक होकर देवों की ओर।",
+  "why": "reviewer (minor): Draft translates unreadable 'mahe tu na' literally and states it as text; GLOSSARY: unreadable text gets [unclear] in English and no placeholder in Hindi; the 'forth for us' also doubles naḥ."
+ },
+ {
+  "n": "511",
+  "field": "english",
+  "old": "Being purified, O Soma, you flow with your stream, clothing yourself in waters; bestower of treasures, you settle in the seat of order, a spring, a golden god.",
+  "new": "Being purified, O Soma, you flow with your stream, clothing yourself in waters; bestower of treasures, you settle in the seat of truth, a spring, a golden god.",
+  "why": "reviewer (minor): GLOSSARY: ṛta = truth; 'with your stream' adds 'your'."
+ },
+ {
+  "n": "511",
+  "field": "english",
+  "old": "Being purified, O Soma, you flow with your stream, clothing yourself in waters; bestower of treasures, you settle in the seat of truth, a spring, a golden god.",
+  "new": "Being purified, O Soma, you flow with the stream, clothing yourself in waters; bestower of treasures, you settle in the seat of truth, a spring, a golden god.",
+  "why": "reviewer (minor): GLOSSARY: ṛta = truth; 'with your stream' adds 'your'."
+ },
+ {
+  "n": "512",
+  "field": "hindi",
+  "old": "यहाँ से चारों ओर उस पीसे हुए सोम को उँडेलो, जो सर्वोत्तम हवि है; जिस शूर ने, बहते हुए, जलों के भीतर पत्थरों से सोम को निचोड़ा।",
+  "new": "यहाँ से चारों ओर उस पीसे हुए सोम को उँडेलो, जो सर्वोत्तम हवि है; जिस पौरुषवान् ने, बहते हुए, जलों के भीतर पत्थरों से सोम को निचोड़ा।",
+  "why": "reviewer (minor): naryaḥ is 'manly'; शूर is the fixed rendering of śūra (hero)."
+ },
+ {
+  "n": "513",
+  "field": "hindi",
+  "old": "हे सोम, पत्थरों से पीसे जाते हुए तुम भेड़ के बालों के आर-पार आओ; जैसे मनुष्य दुर्ग में, वैसे ही हरि दोनों पात्रों में प्रविष्ट हुआ; तुम वनों के बीच अपने आसन को दृढ़ता से धारण करते हो।",
+  "new": "हे सोम, पत्थरों से पीसे जाते हुए तुम भेड़ के बालों के आर-पार आओ; जैसे मनुष्य दुर्ग में, वैसे ही लाल-भूरा दोनों पात्रों में प्रविष्ट हुआ; तुम वनों के बीच अपने आसन को दृढ़ता से धारण करते हो।",
+  "why": "reviewer (minor): GLOSSARY: hari = bay horse (भूरा/लाल-भूरा); bare 'हरि' is ambiguous and the English says 'tawny one'."
+ },
+ {
+  "n": "515",
+  "field": "hindi",
+  "old": "सोम, पीसने वालों द्वारा भेड़ों की पीठ पर पीसा जाता हुआ, तेज़ घोड़े की तरह पीला-भूरा होकर धारा के साथ जाता है; आनन्द देने वाली धारा के साथ जाता है।",
+  "new": "सोम, पीसने वालों द्वारा भेड़ों की पीठ पर पीसा जाता हुआ, तेज़ घोड़े की तरह लाल-भूरा होकर धारा के साथ जाता है; आनन्द देने वाली धारा के साथ जाता है।",
+  "why": "reviewer (minor): haritā is labelled f. inst. (agreeing with dhārayā) but both translations make it a nominative ('goes tawny'); also Hindi पीला-भूरा vs fixed लाल-भूरा. Decision needed on the construction."
+ },
+ {
+  "n": "517",
+  "field": "english",
+  "old": "Being cleansed, O skilful-handed one, you send forth your voice in the sea; O flowing one, you flow forth tawny, abundant, much desired wealth.",
+  "new": "Being cleansed, O skilful-handed one, you send forth voice in the sea; O flowing one, you flow forth tawny, abundant, much desired wealth.",
+  "why": "reviewer (minor): 'your' not in text."
+ },
+ {
+  "n": "517",
+  "field": "hindi",
+  "old": "शुद्ध किए जाते हुए, हे कुशल हाथों वाले, तुम समुद्र में वाणी को प्रेरित करते हो; हे बहते हुए, तुम सुनहरा, प्रचुर, बहुत चाहा गया धन बहाते हो।",
+  "new": "शुद्ध किए जाते हुए, हे कुशल हाथों वाले, तुम समुद्र में वाणी को प्रेरित करते हो; हे बहते हुए, तुम लाल-भूरा, प्रचुर, बहुत चाहा गया धन बहाते हो।",
+  "why": "reviewer (minor): English says tawny (piśaṅga); Hindi says golden."
+ },
+ {
+  "n": "518",
+  "field": "hindi",
+  "old": "सोम की बूँदें, वे वेगवान्, नशीला आनन्द बहाती हुई बहती हैं; समुद्र के शिखर पर वे बुद्धिमान, आनन्ददायक, मद टपकाने वाली हैं।",
+  "new": "सोम की बूँदें, वे वेगवान्, नशीला आनन्द बहाती हुई बहती हैं; समुद्र के शिखर पर वे मनीषी, आनन्ददायक, मद टपकाने वाली हैं।",
+  "why": "reviewer (minor): manīṣin is rendered मनीषी elsewhere (505) and 'inspired' in English."
+ },
+ {
+  "n": "519",
+  "field": "english",
+  "old": "Being purified, O Soma, wakeful, dear, around through the sheep's hairs; you became an inspired sage, O most Aṅgiras-like; sprinkle our sacrifice with sweetness.",
+  "new": "Being purified, O Soma, wakeful, dear, around through the sheep's hairs; you became the inspired one, O most Aṅgiras-like; sprinkle our sacrifice with sweetness.",
+  "why": "reviewer (minor): GLOSSARY: vipra = the inspired one, distinct from ṛṣi = sage. Hindi 'विप्र' left untranslated."
+ },
+ {
+  "n": "519",
+  "field": "hindi",
+  "old": "हे सोम, शुद्ध होते हुए, जागरूक, प्रिय, भेड़ के बालों से होकर चारों ओर; तुम विप्र हुए, हे अंगिरसों में श्रेष्ठ; मधुरता से हमारे यज्ञ को सींचो।",
+  "new": "हे सोम, शुद्ध होते हुए, जागरूक, प्रिय, भेड़ के बालों से होकर चारों ओर; तुम प्रेरित मेधावी हुए, हे अंगिरसों में श्रेष्ठ; मधुरता से हमारे यज्ञ को सींचो।",
+  "why": "reviewer (minor): GLOSSARY: vipra = the inspired one, distinct from ṛṣi = sage. Hindi 'विप्र' left untranslated."
+ },
+ {
+  "n": "519",
+  "field": "word.gram",
+  "word": "avyā",
+  "old": "adj. m. inst. pl.",
+  "new": "adj. 'of the sheep'; form uncertain (read with vāraiḥ)",
+  "why": "reviewer (minor): labelled 'inst. pl.' but avyā is not an instrumental plural form; construction with vāraiḥ uncertain."
+ },
+ {
+  "n": "519",
+  "field": "notes",
+  "old": "aṅgirastama: printed as a vocative ending -a (the parallel text has the nominative aṅgirastamaḥ); kept as printed. mimikṣa: obscure reduplicated imperative of √mikṣ/√miśr 'mix, sprinkle'. avyā vāraiḥ: 'with the sheepy hairs'.",
+  "new": "aṅgirastama: printed as a vocative ending -a; kept as printed. mimikṣa: obscure reduplicated imperative of √mikṣ/√miśr 'mix, sprinkle'. avyā vāraiḥ: 'with the sheepy hairs'.",
+  "why": "reviewer (minor): Import of another text (LAYER_NOTES 3); unverifiable from the inputs."
+ },
+ {
+  "n": "519",
+  "field": "hindi",
+  "old": "हे सोम, शुद्ध होते हुए, जागरूक, प्रिय, भेड़ के बालों से होकर चारों ओर; तुम प्रेरित मेधावी हुए, हे अंगिरसों में श्रेष्ठ; मधुरता से हमारे यज्ञ को सींचो।",
+  "new": "हे सोम, शुद्ध होते हुए, जागरूक, प्रिय, भेड़ के बालों से होकर चारों ओर; तुम प्रेरित मेधावी हुए, हे सबसे अंगिरस-जैसे; मधुरता से हमारे यज्ञ को सींचो।",
+  "why": "reviewer (minor): aṅgirastama is 'most Aṅgiras-like' (English); 'best among the Aṅgirases' is an interpretation."
+ },
+ {
+  "n": "521",
+  "field": "hindi",
+  "old": "सर्वश्रेष्ठ बल-विजेता होकर सब वांछित वस्तुओं की ओर बहो; हे सोम, तुम समुद्र हो, प्रथम आधार में, देवों के लिए आनन्ददायक।",
+  "new": "सर्वश्रेष्ठ वाज-विजेता होकर सब वांछित वस्तुओं की ओर बहो; हे सोम, तुम समुद्र हो, प्रथम आधार में, देवों के लिए आनन्ददायक।",
+  "why": "reviewer (minor): GLOSSARY: vāja is always वाज in Hindi."
+ },
+ {
+  "n": "522",
+  "field": "hindi",
+  "old": "बहते हुए सोम धारा के साथ छलनी के पार छोड़े गए हैं; मरुतों से युक्त, आनन्ददायक, बलवान् और वेगवान् वे मेधा और हवियों की ओर जाते हैं।",
+  "new": "बहते हुए वे धारा के साथ छलनी के पार छोड़े गए हैं; मरुतों से युक्त, आनन्ददायक, बलवान् और वेगवान् वे मेधा और हवियों की ओर जाते हैं।",
+  "why": "reviewer (minor): Soma is not named (pavamānāḥ 'the flowing ones'; English is correct)."
+ },
+ {
+  "n": "523",
+  "field": "hindi",
+  "old": "आगे दौड़ो, कलश के चारों ओर जाकर बैठो; मनुष्यों द्वारा शुद्ध किए जाते हुए पुरस्कार की ओर बहो। तुम्हें विजयी घोड़े की तरह सजाते हुए वे रस्सियों से कुश की ओर ले जाते हैं।",
+  "new": "आगे दौड़ो, कलश के चारों ओर जाकर बैठो; मनुष्यों द्वारा शुद्ध किए जाते हुए वाज की ओर बहो। तुम्हें विजयी घोड़े की तरह सजाते हुए वे रस्सियों से कुश की ओर ले जाते हैं।",
+  "why": "reviewer (minor): GLOSSARY: vāja is always वाज in Hindi. 'विजयी घोड़े' also adds 'victorious' for vājin 'racing'."
+ },
+ {
+  "n": "523",
+  "field": "hindi",
+  "old": "आगे दौड़ो, कलश के चारों ओर जाकर बैठो; मनुष्यों द्वारा शुद्ध किए जाते हुए वाज की ओर बहो। तुम्हें विजयी घोड़े की तरह सजाते हुए वे रस्सियों से कुश की ओर ले जाते हैं।",
+  "new": "आगे दौड़ो, कलश के चारों ओर जाकर बैठो; मनुष्यों द्वारा शुद्ध किए जाते हुए वाज की ओर बहो। तुम्हें दौड़ने वाले घोड़े की तरह सजाते हुए वे रस्सियों से कुश की ओर ले जाते हैं।",
+  "why": "reviewer (minor): GLOSSARY: vāja is always वाज in Hindi. 'विजयी घोड़े' also adds 'victorious' for vājin 'racing'."
+ },
+ {
+  "n": "524",
+  "field": "word.gloss",
+  "word": "uśanā",
+  "old": "Uśanā (name of a seer)",
+  "new": "Uśanā (name)",
+  "why": "reviewer (minor): LAYER_NOTES 3: no role unless the line states it; the draft's own note says 'seer' is not in the line. 'bright-kinned' is not English; varāha 'epithet of Soma' is not in the text."
+ },
+ {
+  "n": "524",
+  "field": "word.gloss",
+  "word": "śuci-bandhuḥ",
+  "old": "bright-kinned",
+  "new": "of bright kin",
+  "why": "reviewer (minor): LAYER_NOTES 3: no role unless the line states it; the draft's own note says 'seer' is not in the line. 'bright-kinned' is not English; varāha 'epithet of Soma' is not in the text."
+ },
+ {
+  "n": "524",
+  "field": "notes",
+  "old": "Uśanā is a proper name; 'seer' is not stated in the line and is only in the gloss. varāha 'boar' is taken literally as an epithet of Soma. janimā: plural of janiman, 'births'. pra ... vivakti is a split verb.",
+  "new": "Uśanā is a proper name; no role is stated in the line. varāha 'boar' is taken literally as an epithet of Soma. janimā: plural of janiman, 'births'. pra ... vivakti is a split verb.",
+  "why": "reviewer (minor): LAYER_NOTES 3: no role unless the line states it; the draft's own note says 'seer' is not in the line. 'bright-kinned' is not English; varāha 'epithet of Soma' is not in the text."
+ },
+ {
+  "n": "524",
+  "field": "notes",
+  "old": "Uśanā is a proper name; no role is stated in the line. varāha 'boar' is taken literally as an epithet of Soma. janimā: plural of janiman, 'births'. pra ... vivakti is a split verb.",
+  "new": "Uśanā is a proper name; no role is stated in the line. varāha 'boar' is taken literally. janimā: plural of janiman, 'births'. pra ... vivakti is a split verb.",
+  "why": "reviewer (minor): LAYER_NOTES 3: no role unless the line states it; the draft's own note says 'seer' is not in the line. 'bright-kinned' is not English; varāha 'epithet of Soma' is not in the text."
+ },
+ {
+  "n": "525",
+  "field": "english",
+  "old": "The carrier sets forth three voices, the vision of order, the inspiration of the sacred prayer; the cows go asking after their lord, the hymns go to Soma, longing.",
+  "new": "The carrier sets forth three voices, the vision of truth, the inspiration of the sacred prayer; the cows go asking after their lord, the hymns go to Soma, longing.",
+  "why": "reviewer (minor): GLOSSARY: ṛta = truth."
+ },
+ {
+  "n": "526",
+  "field": "english",
+  "old": "Being purified by his impulse and urging, the god has mixed his juice with the gods; pressed, he goes around the filter, roaring, as if measured, to the cattle-rich abode, like the Hotṛ priest.",
+  "new": "Being purified by his impulse and urging, the god has mixed his juice with the gods; pressed, he goes around the filter, roaring, as if measured, to the cattle-rich abode, the Hotṛ priest.",
+  "why": "reviewer (error): There is no comparison marker on hotā (nom.); iva follows mitā. 'like the Hotṛ priest' / होता की तरह is an unsupported simile. paśumanti is labelled n. acc. sg. but -anti is the n. nom./acc. pl. form of paśumat."
+ },
+ {
+  "n": "526",
+  "field": "hindi",
+  "old": "उसके प्रेरण और उत्साह से शुद्ध किए जाते हुए देव ने देवों के साथ अपने रस को मिलाया; पीसा हुआ वह छलनी के चारों ओर जाता है, गर्जना करता हुआ, मानो नापा हुआ, पशुओं से भरे स्थान की ओर, होता की तरह।",
+  "new": "उसके प्रेरण और उत्साह से शुद्ध किए जाते हुए देव ने देवों के साथ अपने रस को मिलाया; पीसा हुआ वह छलनी के चारों ओर जाता है, गर्जना करता हुआ, मानो नापा हुआ, पशुओं से भरे स्थान की ओर, होता।",
+  "why": "reviewer (error): There is no comparison marker on hotā (nom.); iva follows mitā. 'like the Hotṛ priest' / होता की तरह is an unsupported simile. paśumanti is labelled n. acc. sg. but -anti is the n. nom./acc. pl. form of paśumat."
+ },
+ {
+  "n": "526",
+  "field": "word.gram",
+  "word": "paśumanti",
+  "old": "n. acc. sg.",
+  "new": "n. acc. pl. form of paśumat; agreement with sadma uncertain",
+  "why": "reviewer (error): There is no comparison marker on hotā (nom.); iva follows mitā. 'like the Hotṛ priest' / होता की तरह is an unsupported simile. paśumanti is labelled n. acc. sg. but -anti is the n. nom./acc. pl. form of paśumat."
+ },
+ {
+  "n": "530",
+  "field": "hindi",
+  "old": "पीला-भूरा सोम छोड़ा जाता हुआ गर्जना करता है, वन के उदर में बैठता हुआ, शुद्ध होता हुआ; मनुष्यों से संयमित वह गाय को अपना आवरण बनाता है; इसलिए अपनी शक्तियों से स्तुति उत्पन्न करो।",
+  "new": "लाल-भूरा छोड़ा जाता हुआ गर्जना करता है, वन के उदर में बैठता हुआ, शुद्ध होता हुआ; मनुष्यों से संयमित वह गाय को अपना आवरण बनाता है; इसलिए अपनी शक्तियों से स्तुति उत्पन्न करो।",
+  "why": "reviewer (minor): Soma is not named (hariḥ); English correctly 'the tawny one'; GLOSSARY hari = लाल-भूरा."
+ },
+ {
+  "n": "531",
+  "field": "english",
+  "old": "This very honeyed Soma of yours, O Indra, the bull, has flowed around into the filter, for the bull; giver of thousands, giver of hundreds, giver of much, the racer has taken his stand on the most lasting sacred grass.",
+  "new": "This very honeyed Soma of yours, O Indra, a bull of the bull, has flowed around into the filter; giver of thousands, giver of hundreds, giver of much, the racer has taken his stand on the most lasting sacred grass.",
+  "why": "reviewer (error): vṛṣṇaḥ is a genitive (the draft's own gram says 'of the bull'); 'for the bull / बैल के लिए' is a dative reading. Also the note's '(Indra)' identification is not in the line. vājī 'the racer' became 'घोड़ा' in Hindi."
+ },
+ {
+  "n": "531",
+  "field": "hindi",
+  "old": "हे इन्द्र, तुम्हारा यह वही मधुर सोम बैल है, बैल के लिए छलनी में चारों ओर बहा है; हज़ार देने वाला, सौ देने वाला, बहुत देने वाला, वह घोड़ा सबसे स्थायी कुश पर आकर खड़ा हो गया है।",
+  "new": "हे इन्द्र, तुम्हारा यह वही मधुर सोम बैल है, बैल का, छलनी में चारों ओर बहा है; हज़ार देने वाला, सौ देने वाला, बहुत देने वाला, वह घोड़ा सबसे स्थायी कुश पर आकर खड़ा हो गया है।",
+  "why": "reviewer (error): vṛṣṇaḥ is a genitive (the draft's own gram says 'of the bull'); 'for the bull / बैल के लिए' is a dative reading. Also the note's '(Indra)' identification is not in the line. vājī 'the racer' became 'घोड़ा' in Hindi."
+ },
+ {
+  "n": "531",
+  "field": "hindi",
+  "old": "हे इन्द्र, तुम्हारा यह वही मधुर सोम बैल है, बैल का, छलनी में चारों ओर बहा है; हज़ार देने वाला, सौ देने वाला, बहुत देने वाला, वह घोड़ा सबसे स्थायी कुश पर आकर खड़ा हो गया है।",
+  "new": "हे इन्द्र, तुम्हारा यह वही मधुर सोम बैल है, बैल का, छलनी में चारों ओर बहा है; हज़ार देने वाला, सौ देने वाला, बहुत देने वाला, वह धावक सबसे स्थायी कुश पर आकर खड़ा हो गया है।",
+  "why": "reviewer (error): vṛṣṇaḥ is a genitive (the draft's own gram says 'of the bull'); 'for the bull / बैल के लिए' is a dative reading. Also the note's '(Indra)' identification is not in the line. vājī 'the racer' became 'घोड़ा' in Hindi."
+ },
+ {
+  "n": "531",
+  "field": "notes",
+  "old": "vṛṣṇaḥ is taken as 'of the bull' (Indra), giving 'the bull has flowed ... for/of the bull'; the construction is loose. akṣāḥ is the s-aorist of √kṣar; the final visarga is kept as printed.",
+  "new": "vṛṣṇaḥ is taken as 'of the bull' (not identified in the line); the construction is loose. akṣāḥ is the s-aorist of √kṣar; the final visarga is kept as printed.",
+  "why": "reviewer (error): vṛṣṇaḥ is a genitive (the draft's own gram says 'of the bull'); 'for the bull / बैल के लिए' is a dative reading. Also the note's '(Indra)' identification is not in the line. vājī 'the racer' became 'घोड़ा' in Hindi."
+ },
+ {
+  "n": "531",
+  "field": "word.w",
+  "word": "śaśvat-tamam",
+  "old": "śaśvat-tamam",
+  "new": "śaśvattamam",
+  "why": "reviewer (minor): Rule: compounds are not split at suffixes (-tama)."
+ },
+ {
+  "n": "532",
+  "field": "english",
+  "old": "Flow, O Soma, honeyed, possessing order, clothing yourself in waters, on the ridge of the sheep's fleece; descend into the vats rich in ghee, most exhilarating, exhilarating, the drink of Indra.",
+  "new": "Flow, O Soma, honeyed, possessing truth, clothing yourself in waters, on the ridge of the sheep's fleece; descend into the vats rich in ghee, most exhilarating, exhilarating, the drink of Indra.",
+  "why": "reviewer (minor): GLOSSARY: ṛta = truth."
+ },
+ {
+  "n": "532",
+  "field": "word.w",
+  "word": "ghṛta-vanti",
+  "old": "ghṛta-vanti",
+  "new": "ghṛtavanti",
+  "why": "reviewer (minor): Rule: no split at suffix -vat."
+ },
+ {
+  "n": "534",
+  "field": "hindi",
+  "old": "तुम्हारी मधुर धाराएँ आगे छोड़ी गई हैं, जब तुम शुद्ध होकर भेड़ के बाल को पार कर जाते हो। हे पवमान, तुम गायों के धाम तक बहते हो, सूर्य को उत्पन्न करते हुए, तुमने उसे स्तोत्रों से पुष्ट किया।",
+  "new": "तुम्हारी मधुर धाराएँ आगे छोड़ी गई हैं, जब तुम शुद्ध होकर भेड़ के बाल को पार कर जाते हो। हे पवमान, तुम गायों के धाम तक बहते हो, सूर्य को उत्पन्न करते हुए, तुमने मन्त्रों से पुष्ट किया।",
+  "why": "reviewer (minor): GLOSSARY: stoma = hymn (स्तोत्र); arka is a different word. 'उसे/it' supplies an object that the note says is not stated."
+ },
+ {
+  "n": "534",
+  "field": "english",
+  "old": "Your honeyed streams have been released forth, when, purified, you cross the sheep's fleece. O flowing one, you flow [to] the abode of the cows, begetting the sun; you swelled it with hymns.",
+  "new": "Your honeyed streams have been released forth, when, purified, you cross the sheep's fleece. O flowing one, you flow [to] the abode of the cows, begetting the sun; you swelled with hymns.",
+  "why": "reviewer (minor): GLOSSARY: stoma = hymn (स्तोत्र); arka is a different word. 'उसे/it' supplies an object that the note says is not stated."
+ },
+ {
+  "n": "535",
+  "field": "hindi",
+  "old": "आगे गाओ, हम देवों की स्तुति करें; सोम को महान् धन के लिए प्रेरित करो। मधुर सोम भेड़ के बाल को पार कर बहे; देव इन्दु कलश में आकर बैठे।",
+  "new": "आगे गाओ, हम देवों की स्तुति करें; सोम को महान् धन के लिए प्रेरित करो। मधुर वह भेड़ के बाल को पार कर बहे; देव इन्दु कलश में आकर बैठे।",
+  "why": "reviewer (minor): svāduḥ 'sweet' has no Soma; Hindi adds it (English 'the sweet one')."
+ },
+ {
+  "n": "536",
+  "field": "hindi",
+  "old": "प्रेरित किया जाता हुआ, दोनों लोकों का जनक, रथ की तरह पुरस्कार की इच्छा करता हुआ, आगे चला गया। इन्द्र के पास जाता हुआ, शस्त्रों को तेज करता हुआ, सब धन को दोनों हाथों में धारण करता हुआ।",
+  "new": "प्रेरित किया जाता हुआ, दोनों लोकों का जनक, रथ की तरह वाज को जीतने की इच्छा करता हुआ, आगे चला गया। इन्द्र के पास जाता हुआ, शस्त्रों को तेज करता हुआ, सब धन को दोनों हाथों में धारण करता हुआ।",
+  "why": "reviewer (minor): GLOSSARY: vāja is always वाज in Hindi."
+ },
+ {
+  "n": "537",
+  "field": "english",
+  "old": "When the speech of the eager mind fashioned the foundation of the chief one in the front of the heavenly one, then the lowing cows came to him, the pleasing lord, Indu in the vessel.",
+  "new": "When the speech of the eager mind fashioned the dharma of the chief one in the front of the heavenly one, then the lowing cows came to him, the pleasing lord, Indu in the vessel.",
+  "why": "reviewer (minor): LAYER_NOTES 6: dharma = dharma; the Hindi has धर्म but the English 'foundation' differs."
+ },
+ {
+  "n": "538",
+  "field": "hindi",
+  "old": "दस बहनों ने, बुद्धिमान् की स्तुतियों ने, जो वेगवती हैं, मिलकर बैल को शुद्ध किया। सूर्य की सन्तान हरि चारों ओर दौड़ा और घुड़दौड़ के घोड़े की तरह द्रोण-पात्र तक पहुँच गया।",
+  "new": "दस बहनों ने, बुद्धिमान् की स्तुतियों ने, जो वेगवती हैं, मिलकर बैल को शुद्ध किया। सूर्य की सन्तान लाल-भूरा चारों ओर दौड़ा और घुड़दौड़ के घोड़े की तरह द्रोण-पात्र तक पहुँच गया।",
+  "why": "reviewer (minor): bare 'हरि' (see 513)."
+ },
+ {
+  "n": "539",
+  "field": "english",
+  "old": "When in him splendours and thoughts vie like a swift mare, like the clans toward the hero; choosing the waters he flows, acting the poet, like a pen for the increase of cattle, a hymn.",
+  "new": "When in him splendours and thoughts vie like a swift mare, like the clans toward the hero; choosing the waters he flows, acting the seer, like a pen for the increase of cattle, a hymn.",
+  "why": "reviewer (minor): GLOSSARY: kavi = seer, distinct from ṛṣi; kavīyan 'acting the seer'."
+ },
+ {
+  "n": "539",
+  "field": "word.gloss",
+  "word": "kavīyan",
+  "old": "acting as a poet",
+  "new": "acting as a seer",
+  "why": "reviewer (minor): GLOSSARY: kavi = seer, distinct from ṛṣi; kavīyan 'acting the seer'."
+ },
+ {
+  "n": "541",
+  "field": "english",
+  "old": "By this purification flow with these goods; O Indu, run forth in the pool Māṃścatva. [He] whose speed is like the wind — even Braghna, even Purumedha placed a man for the swift one.",
+  "new": "By this purification flow with these goods; O Indu, run forth in the pool, in Māṃścatva [unclear]. [He] whose speed is like the wind — even Braghna, even Purumedha placed a man for the swift one.",
+  "why": "reviewer (minor): Treats an unexplained word as the pool's name; the draft's own gloss says 'obscure word'."
+ },
+ {
+  "n": "541",
+  "field": "hindi",
+  "old": "इस शुद्धि से, इन धनों के साथ बहो; हे इन्दु, माँश्चत्व सरोवर में आगे दौड़ो। वायु की तरह जिसकी गति है, ब्रघ्न ने भी, पुरुमेध ने भी तेज़ चलने वाले के लिए मनुष्य को स्थापित किया।",
+  "new": "इस शुद्धि से, इन धनों के साथ बहो; हे इन्दु, सरोवर में, माँश्चत्व में आगे दौड़ो। वायु की तरह जिसकी गति है, ब्रघ्न ने भी, पुरुमेध ने भी तेज़ चलने वाले के लिए मनुष्य को स्थापित किया।",
+  "why": "reviewer (minor): Treats an unexplained word as the pool's name; the draft's own gloss says 'obscure word'."
+ },
+ {
+  "n": "542",
+  "field": "english",
+  "old": "The mighty Soma did that great deed when, the child of the waters, he chose the gods. The flowing Indu placed might in Indra and produced light in the sun.",
+  "new": "The mighty Soma did that great thing when, the child of the waters, he chose the gods. The flowing Indu placed might in Indra and produced light in the sun.",
+  "why": "reviewer (minor): 'deed' is added (mahat tat 'that great thing'); Hindi in the second line uses present tense for the imperfects adadhāt/ajanayat."
+ },
+ {
+  "n": "542",
+  "field": "hindi",
+  "old": "उस महान् कर्म को महिमामय सोम ने किया, जब जलों के गर्भ ने देवों को वरण किया। बहता हुआ इन्दु इन्द्र में बल को रखता है और सूर्य में ज्योति उत्पन्न करता है।",
+  "new": "उस महान् कार्य को महिमामय सोम ने किया, जब जलों के गर्भ ने देवों को वरण किया। बहता हुआ इन्दु इन्द्र में बल को रखता है और सूर्य में ज्योति उत्पन्न करता है।",
+  "why": "reviewer (minor): 'deed' is added (mahat tat 'that great thing'); Hindi in the second line uses present tense for the imperfects adadhāt/ajanayat."
+ },
+ {
+  "n": "542",
+  "field": "hindi",
+  "old": "उस महान् कार्य को महिमामय सोम ने किया, जब जलों के गर्भ ने देवों को वरण किया। बहता हुआ इन्दु इन्द्र में बल को रखता है और सूर्य में ज्योति उत्पन्न करता है।",
+  "new": "उस महान् कार्य को शक्तिशाली सोम ने किया, जब जलों के गर्भ ने देवों को वरण किया। बहता हुआ इन्दु इन्द्र में बल को रखता है और सूर्य में ज्योति उत्पन्न करता है।",
+  "why": "reviewer (minor): 'deed' is added (mahat tat 'that great thing'); Hindi in the second line uses present tense for the imperfects adadhāt/ajanayat."
+ },
+ {
+  "n": "542",
+  "field": "hindi",
+  "old": "उस महान् कार्य को शक्तिशाली सोम ने किया, जब जलों के गर्भ ने देवों को वरण किया। बहता हुआ इन्दु इन्द्र में बल को रखता है और सूर्य में ज्योति उत्पन्न करता है।",
+  "new": "उस महान् कार्य को शक्तिशाली सोम ने किया, जब जलों के गर्भ ने देवों को वरण किया। बहता हुआ इन्दु इन्द्र में बल को रखा और सूर्य में ज्योति उत्पन्न की।",
+  "why": "reviewer (minor): 'deed' is added (mahat tat 'that great thing'); Hindi in the second line uses present tense for the imperfects adadhāt/ajanayat."
+ },
+ {
+  "n": "542",
+  "field": "notes",
+  "old": "'deed' is supplied for mahat tat. apāṃ garbhaḥ 'child/embryo of the waters'.",
+  "new": "'thing' is supplied for mahat tat. apāṃ garbhaḥ 'child/embryo of the waters'.",
+  "why": "reviewer (minor): 'deed' is added (mahat tat 'that great thing'); Hindi in the second line uses present tense for the imperfects adadhāt/ajanayat."
+ },
+ {
+  "n": "543",
+  "field": "english",
+  "old": "He was released, winding, as in a chariot-team's race; with thought, mind-driven, the first devotion. The ten sisters cleanse the carrier on the ridge of the sheep's fleece, toward the seats.",
+  "new": "He was released, winding, like a chariot-horse in a race; with thought, mind-driven, the first devotion. The ten sisters cleanse the carrier on the ridge of the sheep's fleece, toward the seats.",
+  "why": "reviewer (minor): English says 'chariot-team', Hindi and the note say 'chariot-horse'; 490 glosses rathya as chariot-horse."
+ },
+ {
+  "n": "543",
+  "field": "word.gloss",
+  "word": "rathye",
+  "old": "of the chariot-team",
+  "new": "chariot-horse (uncertain form)",
+  "why": "reviewer (minor): English says 'chariot-team', Hindi and the note say 'chariot-horse'; 490 glosses rathya as chariot-horse."
+ },
+ {
+  "n": "544",
+  "field": "english",
+  "old": "Like waves of the waters, hurrying, the devotions rise forth toward Soma; worshipping, they approach and come together and enter, the eager ones into the eager one.",
+  "new": "Like hurrying waves of the waters, the devotions rise forth toward Soma; worshipping, they approach and come together and enter, the eager ones into the eager one.",
+  "why": "reviewer (error): tarturāṇāḥ (m. nom. pl., own gram) agrees with ūrmayaḥ 'waves', not manīṣāḥ (f.); the translations make the devotions hurry."
+ },
+ {
+  "n": "544",
+  "field": "hindi",
+  "old": "जलों की लहरों की तरह वेग से दौड़ती हुई स्तुतियाँ सोम की ओर उठती हैं; नमन करती हुई वे समीप जाती हैं, मिल जाती हैं और प्रवेश करती हैं, उत्सुक स्तुतियाँ उस उत्सुक सोम में।",
+  "new": "जलों की वेग से दौड़ती हुई लहरों की तरह स्तुतियाँ सोम की ओर उठती हैं; नमन करती हुई वे समीप जाती हैं, मिल जाती हैं और प्रवेश करती हैं, उत्सुक स्तुतियाँ उस उत्सुक सोम में।",
+  "why": "reviewer (error): tarturāṇāḥ (m. nom. pl., own gram) agrees with ūrmayaḥ 'waves', not manīṣāḥ (f.); the translations make the devotions hurry."
+ },
+ {
+  "n": "544",
+  "field": "text_flags",
+  "old": [],
+  "new": [
+   {
+    "src": "apāmivedūrmayastartturāṇāḥ",
+    "suggest": "tarturāṇāḥ",
+    "why": "doubled t after r (chant-spelling convention); read as tarturāṇāḥ"
+   }
+  ],
+  "why": "reviewer (minor): The printed tartturāṇāḥ is changed to tarturāṇāḥ in words with only a note; LAYER_NOTES 2 requires a text_flags entry."
+ },
+ {
+  "n": "544",
+  "field": "hindi",
+  "old": "जलों की वेग से दौड़ती हुई लहरों की तरह स्तुतियाँ सोम की ओर उठती हैं; नमन करती हुई वे समीप जाती हैं, मिल जाती हैं और प्रवेश करती हैं, उत्सुक स्तुतियाँ उस उत्सुक सोम में।",
+  "new": "जलों की वेग से दौड़ती हुई लहरों की तरह स्तुतियाँ सोम की ओर उठती हैं; नमन करती हुई वे समीप जाती हैं, मिल जाती हैं और प्रवेश करती हैं, उत्सुक स्तुतियाँ उस उत्सुक में।",
+  "why": "reviewer (minor): Soma is not named in uśantam (note says 'by context')."
+ }
+]

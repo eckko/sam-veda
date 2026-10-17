@@ -1,0 +1,1396 @@
+{
+ "units": [
+  {
+   "n": "487",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "देवता उत्पन्न हुए",
+     "problem": "jātam (acc.) qualifies induṃ, not devāḥ; the Hindi reads as if the gods were born.",
+     "fix": "देवता उस उत्पन्न, वेगवान्, दूध से सजाए गए, कुचले हुए इन्दु के पास भली-भाँति पहुँचे।",
+     "severity": "error",
+     "patch": {
+      "n": "487",
+      "op": "replace",
+      "field": "hindi",
+      "old": "देवता उत्पन्न हुए, वेगवान्,",
+      "new": "देवता उस उत्पन्न, वेगवान्,"
+     }
+    },
+    {
+     "field": "english",
+     "where": "Indu (the Soma drop), born,",
+     "problem": "GLOSSARY: indu = drop, no 'Soma' added; parentheses only for the Sanskrit term. 'born, swift...' also floats between gods and Indu.",
+     "fix": "The gods have approached well Indu, who is born, swift, crushed, and adorned with milk.",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "487",
+       "op": "replace",
+       "field": "english",
+       "old": "Indu (the Soma drop), born, swift, crushed, and adorned with milk.",
+       "new": "Indu, who is born, swift, crushed, and adorned with milk."
+      },
+      {
+       "n": "487",
+       "op": "word",
+       "match_w": "indum",
+       "field": "gloss",
+       "value": "Indu, the drop"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "488",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "प्रेरित कवि",
+     "problem": "GLOSSARY: vipra = the inspired one (प्रेरित मेधावी); kavi is a different word.",
+     "fix": "...वे उस प्रेरित मेधावी को स्तुतियों से सजाते हैं।",
+     "severity": "minor",
+     "patch": {
+      "n": "488",
+      "op": "replace",
+      "field": "hindi",
+      "old": "प्रेरित कवि",
+      "new": "प्रेरित मेधावी"
+     }
+    },
+    {
+     "field": "english",
+     "where": "with their devotions",
+     "problem": "'their' is not in the text.",
+     "fix": "they adorn the inspired one with devotions.",
+     "severity": "minor",
+     "patch": {
+      "n": "488",
+      "op": "replace",
+      "field": "english",
+      "old": "with their devotions",
+      "new": "with devotions"
+     }
+    }
+   ]
+  },
+  {
+   "n": "489",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "490",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "निचोड़ा हुआ सोम",
+     "problem": "Soma is not named in the line (sutaḥ only; the draft's own note says the subject is not stated); the English correctly has 'he'. 'वह धावक' also adds a demonstrative.",
+     "fix": "जैसे रथ का घोड़ा छोड़ा जाता है, वैसे ही निचोड़ा हुआ वह छलनी में और दोनों पात्रों में छोड़ा गया; धावक दौड़-भूमि में उतर पड़ा।",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "490",
+       "op": "replace",
+       "field": "hindi",
+       "old": "निचोड़ा हुआ सोम",
+       "new": "निचोड़ा हुआ वह"
+      },
+      {
+       "n": "490",
+       "op": "replace",
+       "field": "hindi",
+       "old": "वह धावक",
+       "new": "धावक"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "491",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "notes",
+     "where": "The parallel RV text reads 'ye gāvo na'",
+     "problem": "Invented variant and an import from another book (LAYER_NOTES 3); the printed 'yat' needs no such comment.",
+     "fix": "delete the first sentence of the note",
+     "severity": "error",
+     "patch": {
+      "n": "491",
+      "op": "replace",
+      "field": "notes",
+      "old": "The parallel RV text reads 'ye gāvo na' (those who, like cows); here 'yat' is kept as printed and translated 'when'.",
+      "new": "'yat' is translated 'when'."
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "धाराएँ",
+     "problem": "Hindi names 'streams' as the subject, but the note itself says the referent is not stated; English has only 'ones'. Also 'दूर हटाती' drops ghnantaḥ 'smiting'.",
+     "fix": "जब वे आतुर, तेजस्वी और वेगवान् गायों की भाँति आगे बढ़े, काली खाल को दूर मारते हुए।",
+     "severity": "minor",
+     "patch": {
+      "n": "491",
+      "op": "replace",
+      "field": "hindi",
+      "old": "जब आतुर, तेजस्वी और वेगवान् धाराएँ गायों की भाँति आगे बढ़ीं, तब वे काली खाल को दूर हटाती हुई चलीं।",
+      "new": "जब वे आतुर, तेजस्वी और वेगवान् गायों की भाँति आगे बढ़े, काली खाल को दूर मारते हुए।"
+     }
+    }
+   ]
+  },
+  {
+   "n": "492",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "यज्ञ-बुद्धि",
+     "problem": "'sacrificial' is not in kratu; added interpretation (also in the gloss). English 'wise' is likewise not the literal kratu-vit.",
+     "fix": "शत्रुओं को दूर हटाते हुए, हे सोम, तुम बहते हो, तुम संकल्प को जानने वाले और आनन्ददायक हो; ...",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "492",
+       "op": "replace",
+       "field": "hindi",
+       "old": "यज्ञ-बुद्धि को जानने वाले",
+       "new": "संकल्प को जानने वाले"
+      },
+      {
+       "n": "492",
+       "op": "replace",
+       "field": "english",
+       "old": "wise and exhilarating",
+       "new": "knowing the purpose and exhilarating"
+      },
+      {
+       "n": "492",
+       "op": "word",
+       "match_w": "kratu-vit",
+       "field": "gloss",
+       "value": "knowing purpose (kratu)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "493",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "मानवों की जलधाराओं",
+     "problem": "mānuṣīḥ is an adjective of apaḥ ('human waters', as the English has it); 'जलधाराओं' and the genitive change the sense.",
+     "fix": "..., मानवीय जलों को प्रेरित करते हुए।",
+     "severity": "minor",
+     "patch": {
+      "n": "493",
+      "op": "replace",
+      "field": "hindi",
+      "old": "मानवों की जलधाराओं को प्रेरित करते हुए",
+      "new": "प्रेरित करते हुए मानवीय जलों को"
+     }
+    }
+   ]
+  },
+  {
+   "n": "494",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gloss",
+     "where": "Vṛtra (name of a demon)",
+     "problem": "LAYER_NOTES 3: a role is given only if the line states it; 'demon' is imported.",
+     "fix": "Vṛtra (name)",
+     "severity": "minor",
+     "patch": {
+      "n": "494",
+      "op": "word",
+      "match_w": "vṛtrāya",
+      "field": "gloss",
+      "value": "Vṛtra (name)"
+     }
+    }
+   ]
+  },
+  {
+   "n": "495",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "ninety-nine",
+     "problem": "GLOSSARY: navatīr nava = nine and ninety (नौ और नब्बे); 'ninety-nine' (and the note's 'ninety nine') fixes a count.",
+     "fix": "...struck down nine and ninety.",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "495",
+       "op": "replace",
+       "field": "english",
+       "old": "ninety-nine",
+       "new": "nine and ninety"
+      },
+      {
+       "n": "495",
+       "op": "replace",
+       "field": "hindi",
+       "old": "निन्यानवे",
+       "new": "नौ और नब्बे"
+      },
+      {
+       "n": "495",
+       "op": "replace",
+       "field": "notes",
+       "old": "navatīr nava is read as 'ninety nine' (ninety-nine)",
+       "new": "navatīr nava is rendered 'nine and ninety'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "496",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "with your juice",
+     "problem": "'your/अपने' is not in the text (andhasā 'with the juice'); the English also states 'to ... Bharadvāja' as a settled construction although the note calls the line obscure.",
+     "fix": "Being pressed, flow around into the filter, with the juice, to our heavenly, wealth-winning Bharadvāja.",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "496",
+       "op": "replace",
+       "field": "english",
+       "old": "with your juice",
+       "new": "with the juice"
+      },
+      {
+       "n": "496",
+       "op": "replace",
+       "field": "hindi",
+       "old": "अपने रस के साथ",
+       "new": "रस के साथ"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "497",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "हरे-भूरे",
+     "problem": "GLOSSARY: hari = bay horse, Hindi भूरा/लाल-भूरा, 'not green'. हरे means green.",
+     "fix": "बैल, लाल-भूरे और महान् ने गर्जना की ...",
+     "severity": "error",
+     "patch": {
+      "n": "497",
+      "op": "replace",
+      "field": "hindi",
+      "old": "हरे-भूरे",
+      "new": "लाल-भूरे"
+     }
+    }
+   ]
+  },
+  {
+   "n": "498",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "notes",
+     "where": "pāntamā",
+     "problem": "The second ā (pāntam ā) is glossed 'towards' but appears nowhere in the translation and is not commented on.",
+     "fix": "add note that it is left untranslated",
+     "severity": "minor",
+     "patch": {
+      "n": "498",
+      "op": "append_note",
+      "text": "The ā after pāntam is left untranslated."
+     }
+    }
+   ]
+  },
+  {
+   "n": "499",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "500",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "501",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "Flow toward us ... with thousandfold wealth and heroic strength",
+     "problem": "sahasriṇam rayim and suvīryam are accusatives (objects), not instrumentals; 'with' and 'and' are not in the text, and 'toward us' is taken from asme.",
+     "fix": "Cause to flow hither, O Soma, thousandfold wealth, heroic strength; bestow glories upon us.",
+     "severity": "error",
+     "patch": [
+      {
+       "n": "501",
+       "op": "set",
+       "field": "english",
+       "value": "Cause to flow hither, O Soma, thousandfold wealth, heroic strength; bestow glories upon us."
+      },
+      {
+       "n": "501",
+       "op": "set",
+       "field": "hindi",
+       "value": "हे सोम, हज़ार गुना धन, वीरता-भरा बल यहाँ बहाओ; हमें यश प्रदान करो।"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "502",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "503",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "504",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "uphold the ordinances",
+     "problem": "LAYER_NOTES 6 fixed rendering: dharma = dharma (धर्म); dharmāṇi is rendered 'ordinances'/विधानों while 537 Hindi uses धर्म. Decision needed if the Vedic neuter dharman should differ.",
+     "fix": "as you bull you uphold the dharmas",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "504",
+       "op": "replace",
+       "field": "english",
+       "old": "uphold the ordinances",
+       "new": "uphold the dharmas"
+      },
+      {
+       "n": "504",
+       "op": "replace",
+       "field": "hindi",
+       "old": "विधानों को धारण",
+       "new": "धर्मों को धारण"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "505",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "with your stream",
+     "problem": "'your' is not in the text.",
+     "fix": "Flow with the stream for refreshment ...",
+     "severity": "minor",
+     "patch": {
+      "n": "505",
+      "op": "replace",
+      "field": "english",
+      "old": "with your stream",
+      "new": "with the stream"
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "तेज के साथ",
+     "problem": "तेज is reserved for varcas (lustre); rucā is 'with splendour/light'.",
+     "fix": "दीप्ति के साथ गायों की ओर जाओ।",
+     "severity": "minor",
+     "patch": {
+      "n": "505",
+      "op": "replace",
+      "field": "hindi",
+      "old": "तेज के साथ",
+      "new": "दीप्ति के साथ"
+     }
+    }
+   ]
+  },
+  {
+   "n": "506",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "507",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "text_flags",
+     "where": "parallel text reads 'sukṛtyayā'",
+     "problem": "Cites a parallel text not in the inputs (LAYER_NOTES 3); keep the suspicion, drop the unverifiable claim.",
+     "fix": "...'apā' has no clear function",
+     "severity": "minor",
+     "patch": {
+      "n": "507",
+      "op": "replace",
+      "field": "text_flags.0.why",
+      "old": "the parallel text reads 'sukṛtyayā' (by good deed), and 'apā' has no clear function",
+      "new": "'apā' has no clear function"
+     }
+    }
+   ]
+  },
+  {
+   "n": "508",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "सोम दिखाई देता है",
+     "problem": "Soma is not named in the line (sa = he).",
+     "fix": "...बहता हुआ वह दिखाई देता है",
+     "severity": "minor",
+     "patch": {
+      "n": "508",
+      "op": "replace",
+      "field": "hindi",
+      "old": "सोम दिखाई देता है",
+      "new": "वह दिखाई देता है"
+     }
+    },
+    {
+     "field": "english",
+     "where": "the great kindred one",
+     "problem": "GLOSSARY: āpya = kinship. 'one' and the Hindi untranslated 'आप्य' do not follow it.",
+     "fix": "urging on the great kinship.",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "508",
+       "op": "replace",
+       "field": "english",
+       "old": "the great kindred one",
+       "new": "the great kinship"
+      },
+      {
+       "n": "508",
+       "op": "replace",
+       "field": "hindi",
+       "old": "महान् आप्य",
+       "new": "महान् बन्धुता"
+      }
+     ]
+    },
+    {
+     "field": "gram",
+     "where": "pavamānaḥ",
+     "problem": "gram gives only the case; the participle is not labelled.",
+     "fix": "m. nom. sg. pres. part. mid. √pū",
+     "severity": "minor",
+     "patch": {
+      "n": "508",
+      "op": "word",
+      "match_w": "pavamānaḥ",
+      "field": "gram",
+      "value": "m. nom. sg. pres. part. mid. √pū"
+     }
+    }
+   ]
+  },
+  {
+   "n": "509",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "for the great, but for us",
+     "problem": "Draft translates unreadable 'mahe tu na' literally and states it as text; GLOSSARY: unreadable text gets [unclear] in English and no placeholder in Hindi; the 'forth for us' also doubles naḥ.",
+     "fix": "O Indu, you flow forth for us, as if bearing a wave, [unclear: mahe tu na]; unwearied, toward the gods.",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "509",
+       "op": "replace",
+       "field": "english",
+       "old": "forth for us; for the great, but for us; you flow as if bearing a wave;",
+       "new": "forth for us; [unclear: mahe tu na]; you flow as if bearing a wave;"
+      },
+      {
+       "n": "509",
+       "op": "replace",
+       "field": "hindi",
+       "old": "हमारे लिए आगे; महान् के लिए, किन्तु हमारे लिए; तुम",
+       "new": "हमारे लिए आगे; तुम"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "510",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "511",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "seat of order",
+     "problem": "GLOSSARY: ṛta = truth; 'with your stream' adds 'your'.",
+     "fix": "you settle in the seat of truth",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "511",
+       "op": "replace",
+       "field": "english",
+       "old": "seat of order",
+       "new": "seat of truth"
+      },
+      {
+       "n": "511",
+       "op": "replace",
+       "field": "english",
+       "old": "with your stream",
+       "new": "with the stream"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "512",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "शूर",
+     "problem": "naryaḥ is 'manly'; शूर is the fixed rendering of śūra (hero).",
+     "fix": "जिस पौरुषवान् ने ...",
+     "severity": "minor",
+     "patch": {
+      "n": "512",
+      "op": "replace",
+      "field": "hindi",
+      "old": "जिस शूर ने",
+      "new": "जिस पौरुषवान् ने"
+     }
+    }
+   ]
+  },
+  {
+   "n": "513",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "हरि",
+     "problem": "GLOSSARY: hari = bay horse (भूरा/लाल-भूरा); bare 'हरि' is ambiguous and the English says 'tawny one'.",
+     "fix": "...वैसे ही लाल-भूरा दोनों पात्रों में प्रविष्ट हुआ",
+     "severity": "minor",
+     "patch": {
+      "n": "513",
+      "op": "replace",
+      "field": "hindi",
+      "old": "वैसे ही हरि दोनों",
+      "new": "वैसे ही लाल-भूरा दोनों"
+     }
+    }
+   ]
+  },
+  {
+   "n": "514",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "515",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gram",
+     "where": "haritā / translation",
+     "problem": "haritā is labelled f. inst. (agreeing with dhārayā) but both translations make it a nominative ('goes tawny'); also Hindi पीला-भूरा vs fixed लाल-भूरा. Decision needed on the construction.",
+     "fix": "either keep gram and translate 'with a tawny stream' or relabel",
+     "severity": "minor",
+     "patch": {
+      "n": "515",
+      "op": "replace",
+      "field": "hindi",
+      "old": "पीला-भूरा",
+      "new": "लाल-भूरा"
+     }
+    }
+   ]
+  },
+  {
+   "n": "516",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "517",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "your voice",
+     "problem": "'your' not in text.",
+     "fix": "you send forth voice in the sea",
+     "severity": "minor",
+     "patch": {
+      "n": "517",
+      "op": "replace",
+      "field": "english",
+      "old": "you send forth your voice",
+      "new": "you send forth voice"
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "सुनहरा",
+     "problem": "English says tawny (piśaṅga); Hindi says golden.",
+     "fix": "लाल-भूरा, प्रचुर ...",
+     "severity": "minor",
+     "patch": {
+      "n": "517",
+      "op": "replace",
+      "field": "hindi",
+      "old": "सुनहरा",
+      "new": "लाल-भूरा"
+     }
+    }
+   ]
+  },
+  {
+   "n": "518",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "बुद्धिमान",
+     "problem": "manīṣin is rendered मनीषी elsewhere (505) and 'inspired' in English.",
+     "fix": "मनीषी",
+     "severity": "minor",
+     "patch": {
+      "n": "518",
+      "op": "replace",
+      "field": "hindi",
+      "old": "बुद्धिमान,",
+      "new": "मनीषी,"
+     }
+    }
+   ]
+  },
+  {
+   "n": "519",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "inspired sage",
+     "problem": "GLOSSARY: vipra = the inspired one, distinct from ṛṣi = sage. Hindi 'विप्र' left untranslated.",
+     "fix": "you became the inspired one",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "519",
+       "op": "replace",
+       "field": "english",
+       "old": "you became an inspired sage",
+       "new": "you became the inspired one"
+      },
+      {
+       "n": "519",
+       "op": "replace",
+       "field": "hindi",
+       "old": "तुम विप्र हुए",
+       "new": "तुम प्रेरित मेधावी हुए"
+      }
+     ]
+    },
+    {
+     "field": "gram",
+     "where": "avyā",
+     "problem": "labelled 'inst. pl.' but avyā is not an instrumental plural form; construction with vāraiḥ uncertain.",
+     "fix": "adj., 'of the sheep'; form uncertain",
+     "severity": "minor",
+     "patch": {
+      "n": "519",
+      "op": "word",
+      "match_w": "avyā",
+      "field": "gram",
+      "value": "adj. 'of the sheep'; form uncertain (read with vāraiḥ)"
+     }
+    },
+    {
+     "field": "notes",
+     "where": "the parallel text has the nominative aṅgirastamaḥ",
+     "problem": "Import of another text (LAYER_NOTES 3); unverifiable from the inputs.",
+     "fix": "delete the parenthesis",
+     "severity": "minor",
+     "patch": {
+      "n": "519",
+      "op": "replace",
+      "field": "notes",
+      "old": "aṅgirastama: printed as a vocative ending -a (the parallel text has the nominative aṅgirastamaḥ); kept as printed.",
+      "new": "aṅgirastama: printed as a vocative ending -a; kept as printed."
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "अंगिरसों में श्रेष्ठ",
+     "problem": "aṅgirastama is 'most Aṅgiras-like' (English); 'best among the Aṅgirases' is an interpretation.",
+     "fix": "हे सबसे अंगिरस-जैसे",
+     "severity": "minor",
+     "patch": {
+      "n": "519",
+      "op": "replace",
+      "field": "hindi",
+      "old": "अंगिरसों में श्रेष्ठ",
+      "new": "सबसे अंगिरस-जैसे"
+     }
+    }
+   ]
+  },
+  {
+   "n": "520",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "521",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "बल-विजेता",
+     "problem": "GLOSSARY: vāja is always वाज in Hindi.",
+     "fix": "सर्वश्रेष्ठ वाज-विजेता",
+     "severity": "minor",
+     "patch": {
+      "n": "521",
+      "op": "replace",
+      "field": "hindi",
+      "old": "बल-विजेता",
+      "new": "वाज-विजेता"
+     }
+    }
+   ]
+  },
+  {
+   "n": "522",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "बहते हुए सोम",
+     "problem": "Soma is not named (pavamānāḥ 'the flowing ones'; English is correct).",
+     "fix": "बहते हुए वे धारा के साथ ...",
+     "severity": "minor",
+     "patch": {
+      "n": "522",
+      "op": "replace",
+      "field": "hindi",
+      "old": "बहते हुए सोम",
+      "new": "बहते हुए वे"
+     }
+    }
+   ]
+  },
+  {
+   "n": "523",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "पुरस्कार",
+     "problem": "GLOSSARY: vāja is always वाज in Hindi. 'विजयी घोड़े' also adds 'victorious' for vājin 'racing'.",
+     "fix": "वाज की ओर बहो ... दौड़ने वाले घोड़े की तरह",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "523",
+       "op": "replace",
+       "field": "hindi",
+       "old": "पुरस्कार की ओर",
+       "new": "वाज की ओर"
+      },
+      {
+       "n": "523",
+       "op": "replace",
+       "field": "hindi",
+       "old": "विजयी घोड़े",
+       "new": "दौड़ने वाले घोड़े"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "524",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gloss",
+     "where": "Uśanā (name of a seer)",
+     "problem": "LAYER_NOTES 3: no role unless the line states it; the draft's own note says 'seer' is not in the line. 'bright-kinned' is not English; varāha 'epithet of Soma' is not in the text.",
+     "fix": "Uśanā (name); of bright kin; delete 'of Soma' in notes",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "524",
+       "op": "word",
+       "match_w": "uśanā",
+       "field": "gloss",
+       "value": "Uśanā (name)"
+      },
+      {
+       "n": "524",
+       "op": "word",
+       "match_w": "śuci-bandhuḥ",
+       "field": "gloss",
+       "value": "of bright kin"
+      },
+      {
+       "n": "524",
+       "op": "replace",
+       "field": "notes",
+       "old": "Uśanā is a proper name; 'seer' is not stated in the line and is only in the gloss.",
+       "new": "Uśanā is a proper name; no role is stated in the line."
+      },
+      {
+       "n": "524",
+       "op": "replace",
+       "field": "notes",
+       "old": " varāha 'boar' is taken literally as an epithet of Soma.",
+       "new": " varāha 'boar' is taken literally."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "525",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "vision of order",
+     "problem": "GLOSSARY: ṛta = truth.",
+     "fix": "the vision of truth",
+     "severity": "minor",
+     "patch": {
+      "n": "525",
+      "op": "replace",
+      "field": "english",
+      "old": "vision of order",
+      "new": "vision of truth"
+     }
+    }
+   ]
+  },
+  {
+   "n": "526",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "like the Hotṛ priest",
+     "problem": "There is no comparison marker on hotā (nom.); iva follows mitā. 'like the Hotṛ priest' / होता की तरह is an unsupported simile. paśumanti is labelled n. acc. sg. but -anti is the n. nom./acc. pl. form of paśumat.",
+     "fix": "...to the cattle-rich abode, the Hotṛ priest.",
+     "severity": "error",
+     "patch": [
+      {
+       "n": "526",
+       "op": "replace",
+       "field": "english",
+       "old": "to the cattle-rich abode, like the Hotṛ priest.",
+       "new": "to the cattle-rich abode, the Hotṛ priest."
+      },
+      {
+       "n": "526",
+       "op": "replace",
+       "field": "hindi",
+       "old": "पशुओं से भरे स्थान की ओर, होता की तरह।",
+       "new": "पशुओं से भरे स्थान की ओर, होता।"
+      },
+      {
+       "n": "526",
+       "op": "word",
+       "match_w": "paśumanti",
+       "field": "gram",
+       "value": "n. acc. pl. form of paśumat; agreement with sadma uncertain"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "527",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "528",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "529",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "530",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "पीला-भूरा सोम",
+     "problem": "Soma is not named (hariḥ); English correctly 'the tawny one'; GLOSSARY hari = लाल-भूरा.",
+     "fix": "लाल-भूरा छोड़ा जाता हुआ गर्जना करता है",
+     "severity": "minor",
+     "patch": {
+      "n": "530",
+      "op": "replace",
+      "field": "hindi",
+      "old": "पीला-भूरा सोम छोड़ा",
+      "new": "लाल-भूरा छोड़ा"
+     }
+    }
+   ]
+  },
+  {
+   "n": "531",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "for the bull",
+     "problem": "vṛṣṇaḥ is a genitive (the draft's own gram says 'of the bull'); 'for the bull / बैल के लिए' is a dative reading. Also the note's '(Indra)' identification is not in the line. vājī 'the racer' became 'घोड़ा' in Hindi.",
+     "fix": "This very honeyed Soma of yours, O Indra, a bull of the bull, has flowed around into the filter; ...",
+     "severity": "error",
+     "patch": [
+      {
+       "n": "531",
+       "op": "replace",
+       "field": "english",
+       "old": "the bull, has flowed around into the filter, for the bull;",
+       "new": "a bull of the bull, has flowed around into the filter;"
+      },
+      {
+       "n": "531",
+       "op": "replace",
+       "field": "hindi",
+       "old": "बैल है, बैल के लिए छलनी में",
+       "new": "बैल है, बैल का, छलनी में"
+      },
+      {
+       "n": "531",
+       "op": "replace",
+       "field": "hindi",
+       "old": "वह घोड़ा सबसे",
+       "new": "वह धावक सबसे"
+      },
+      {
+       "n": "531",
+       "op": "replace",
+       "field": "notes",
+       "old": "vṛṣṇaḥ is taken as 'of the bull' (Indra), giving 'the bull has flowed ... for/of the bull'; the construction is loose.",
+       "new": "vṛṣṇaḥ is taken as 'of the bull' (not identified in the line); the construction is loose."
+      }
+     ]
+    },
+    {
+     "field": "split",
+     "where": "śaśvat-tamam",
+     "problem": "Rule: compounds are not split at suffixes (-tama).",
+     "fix": "śaśvattamam",
+     "severity": "minor",
+     "patch": {
+      "n": "531",
+      "op": "word",
+      "match_w": "śaśvat-tamam",
+      "field": "w",
+      "value": "śaśvattamam"
+     }
+    }
+   ]
+  },
+  {
+   "n": "532",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "possessing order",
+     "problem": "GLOSSARY: ṛta = truth.",
+     "fix": "possessing truth",
+     "severity": "minor",
+     "patch": {
+      "n": "532",
+      "op": "replace",
+      "field": "english",
+      "old": "possessing order",
+      "new": "possessing truth"
+     }
+    },
+    {
+     "field": "split",
+     "where": "ghṛta-vanti",
+     "problem": "Rule: no split at suffix -vat.",
+     "fix": "ghṛtavanti",
+     "severity": "minor",
+     "patch": {
+      "n": "532",
+      "op": "word",
+      "match_w": "ghṛta-vanti",
+      "field": "w",
+      "value": "ghṛtavanti"
+     }
+    }
+   ]
+  },
+  {
+   "n": "533",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "534",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "स्तोत्रों से",
+     "problem": "GLOSSARY: stoma = hymn (स्तोत्र); arka is a different word. 'उसे/it' supplies an object that the note says is not stated.",
+     "fix": "तुमने मन्त्रों से पुष्ट किया",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "534",
+       "op": "replace",
+       "field": "hindi",
+       "old": "तुमने उसे स्तोत्रों से पुष्ट किया",
+       "new": "तुमने मन्त्रों से पुष्ट किया"
+      },
+      {
+       "n": "534",
+       "op": "replace",
+       "field": "english",
+       "old": "you swelled it with hymns",
+       "new": "you swelled with hymns"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "535",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "मधुर सोम",
+     "problem": "svāduḥ 'sweet' has no Soma; Hindi adds it (English 'the sweet one').",
+     "fix": "मधुर वह भेड़ के बाल को पार कर बहे",
+     "severity": "minor",
+     "patch": {
+      "n": "535",
+      "op": "replace",
+      "field": "hindi",
+      "old": "मधुर सोम भेड़",
+      "new": "मधुर वह भेड़"
+     }
+    }
+   ]
+  },
+  {
+   "n": "536",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "पुरस्कार",
+     "problem": "GLOSSARY: vāja is always वाज in Hindi.",
+     "fix": "वाज को जीतने की इच्छा करता हुआ",
+     "severity": "minor",
+     "patch": {
+      "n": "536",
+      "op": "replace",
+      "field": "hindi",
+      "old": "पुरस्कार की इच्छा करता हुआ",
+      "new": "वाज को जीतने की इच्छा करता हुआ"
+     }
+    }
+   ]
+  },
+  {
+   "n": "537",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "foundation of the chief one",
+     "problem": "LAYER_NOTES 6: dharma = dharma; the Hindi has धर्म but the English 'foundation' differs.",
+     "fix": "fashioned the dharma of the chief one",
+     "severity": "minor",
+     "patch": {
+      "n": "537",
+      "op": "replace",
+      "field": "english",
+      "old": "the foundation of the chief one",
+      "new": "the dharma of the chief one"
+     }
+    }
+   ]
+  },
+  {
+   "n": "538",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "हरि",
+     "problem": "bare 'हरि' (see 513).",
+     "fix": "सूर्य की सन्तान लाल-भूरा ...",
+     "severity": "minor",
+     "patch": {
+      "n": "538",
+      "op": "replace",
+      "field": "hindi",
+      "old": "सूर्य की सन्तान हरि",
+      "new": "सूर्य की सन्तान लाल-भूरा"
+     }
+    }
+   ]
+  },
+  {
+   "n": "539",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "acting the poet",
+     "problem": "GLOSSARY: kavi = seer, distinct from ṛṣi; kavīyan 'acting the seer'.",
+     "fix": "acting the seer",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "539",
+       "op": "replace",
+       "field": "english",
+       "old": "acting the poet",
+       "new": "acting the seer"
+      },
+      {
+       "n": "539",
+       "op": "word",
+       "match_w": "kavīyan",
+       "field": "gloss",
+       "value": "acting as a seer"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "540",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "541",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "in the pool Māṃścatva",
+     "problem": "Treats an unexplained word as the pool's name; the draft's own gloss says 'obscure word'.",
+     "fix": "run forth in the pool, in Māṃścatva [unclear]",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "541",
+       "op": "replace",
+       "field": "english",
+       "old": "run forth in the pool Māṃścatva.",
+       "new": "run forth in the pool, in Māṃścatva [unclear]."
+      },
+      {
+       "n": "541",
+       "op": "replace",
+       "field": "hindi",
+       "old": "माँश्चत्व सरोवर में",
+       "new": "सरोवर में, माँश्चत्व में"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "542",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "did that great deed",
+     "problem": "'deed' is added (mahat tat 'that great thing'); Hindi in the second line uses present tense for the imperfects adadhāt/ajanayat.",
+     "fix": "The mighty Soma did that great thing ...",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "542",
+       "op": "replace",
+       "field": "english",
+       "old": "did that great deed",
+       "new": "did that great thing"
+      },
+      {
+       "n": "542",
+       "op": "replace",
+       "field": "hindi",
+       "old": "उस महान् कर्म को",
+       "new": "उस महान् कार्य को"
+      },
+      {
+       "n": "542",
+       "op": "replace",
+       "field": "hindi",
+       "old": "महिमामय सोम",
+       "new": "शक्तिशाली सोम"
+      },
+      {
+       "n": "542",
+       "op": "replace",
+       "field": "hindi",
+       "old": "बल को रखता है और सूर्य में ज्योति उत्पन्न करता है",
+       "new": "बल को रखा और सूर्य में ज्योति उत्पन्न की"
+      },
+      {
+       "n": "542",
+       "op": "replace",
+       "field": "notes",
+       "old": "'deed' is supplied for mahat tat.",
+       "new": "'thing' is supplied for mahat tat."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "543",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "chariot-team's race",
+     "problem": "English says 'chariot-team', Hindi and the note say 'chariot-horse'; 490 glosses rathya as chariot-horse.",
+     "fix": "like a chariot-horse in a race",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "543",
+       "op": "replace",
+       "field": "english",
+       "old": "as in a chariot-team's race",
+       "new": "like a chariot-horse in a race"
+      },
+      {
+       "n": "543",
+       "op": "word",
+       "match_w": "rathye",
+       "field": "gloss",
+       "value": "chariot-horse (uncertain form)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "544",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "Like waves of the waters, hurrying, the devotions rise",
+     "problem": "tarturāṇāḥ (m. nom. pl., own gram) agrees with ūrmayaḥ 'waves', not manīṣāḥ (f.); the translations make the devotions hurry.",
+     "fix": "Like hurrying waves of the waters, the devotions rise forth toward Soma;",
+     "severity": "error",
+     "patch": [
+      {
+       "n": "544",
+       "op": "replace",
+       "field": "english",
+       "old": "Like waves of the waters, hurrying, the devotions rise",
+       "new": "Like hurrying waves of the waters, the devotions rise"
+      },
+      {
+       "n": "544",
+       "op": "replace",
+       "field": "hindi",
+       "old": "जलों की लहरों की तरह वेग से दौड़ती हुई स्तुतियाँ सोम की ओर उठती हैं",
+       "new": "जलों की वेग से दौड़ती हुई लहरों की तरह स्तुतियाँ सोम की ओर उठती हैं"
+      }
+     ]
+    },
+    {
+     "field": "text_flags",
+     "where": "tartturāṇāḥ",
+     "problem": "The printed tartturāṇāḥ is changed to tarturāṇāḥ in words with only a note; LAYER_NOTES 2 requires a text_flags entry.",
+     "fix": "add flag",
+     "severity": "minor",
+     "patch": {
+      "n": "544",
+      "op": "set",
+      "field": "text_flags",
+      "value": [
+       {
+        "src": "apāmivedūrmayastartturāṇāḥ",
+        "suggest": "tarturāṇāḥ",
+        "why": "doubled t after r (chant-spelling convention); read as tarturāṇāḥ"
+       }
+      ]
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "उस उत्सुक सोम में",
+     "problem": "Soma is not named in uśantam (note says 'by context').",
+     "fix": "उस उत्सुक में",
+     "severity": "minor",
+     "patch": {
+      "n": "544",
+      "op": "replace",
+      "field": "hindi",
+      "old": "उस उत्सुक सोम में",
+      "new": "उस उत्सुक में"
+     }
+    }
+   ]
+  }
+ ],
+ "summary": "58 units (SV 1.11, 487-544), all tokens match the printed text; no invented Sanskrit found; draft is mostly sound but several glossary violations. Errors (7): 487 Hindi makes the gods 'born' (jātam qualifies Indu); 491 note invents an RV variant 'ye gāvo na'; 497 Hindi 'हरे' (green) for hari; 501 accusative objects rendered as 'with ...'; 526 unsupported simile 'like the Hotṛ priest' and mislabelled paśumanti; 531 vṛṣṇaḥ (gen.) rendered as dative; 544 'hurrying' attached to the devotions instead of the waves. Minor (50): Soma/other names added in Hindi (490, 508, 522, 530, 535, 544); glossary terms (vipra 488/519, vāja 521/523/536, ṛta 511/525/532, navatīr nava 495, kavi 539, āpya 508, hari 513/538/515/517); 'your/their' added (488, 496, 505, 511, 517); unreadable text handled without [unclear] (509, 541); suffix-splits (531, 532); missing text_flag (544). Manual decisions: (a) indu: glossary says 'drop, no Soma added' but the chunk uses 'Indu' (O Indu) throughout (487, 489, 495, 505, 509, 516, 520, 535, 537, 540, 541, 542); (b) dharman/dharma (504 patched to dharma per LAYER_NOTES; reverse if Vedic neuter dharman should be 'ordinance'); (c) 515 haritā construction (inst. fem. with dhārayā vs adverbial); (d) 496, 509, 512, 530, 538-541 remain low-confidence/obscure. No regrouping suggested."
+}
