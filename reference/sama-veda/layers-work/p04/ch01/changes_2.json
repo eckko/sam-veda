@@ -1,0 +1,304 @@
+[
+ {
+  "n": "684",
+  "field": "hindi",
+  "old": "हमारे प्रति भली प्रकार मित्रों और स्तोताओं के सहायक बनो, सौ गुना होकर सहायता के लिए।",
+  "new": "हमारे प्रति भली प्रकार मित्रों, स्तोताओं के सहायक बनो, सौ गुना होकर सहायता के लिए।",
+  "why": "reviewer (error): Hindi adds 'और' (and); the Sanskrit has no ca and the English reads 'of friends, of singers' without 'and'. The two translations disagree."
+ },
+ {
+  "n": "685",
+  "field": "word.gram",
+  "word": "vasoḥ",
+  "old": "n. gen. sg.",
+  "new": "gen. sg. of vasu ('wealth' or 'the good one'; the neuter genitive would be vasunaḥ)",
+  "why": "reviewer (minor): 'n. gen. sg.' is unsafe: the neuter genitive of vasu is vasunaḥ; vasoḥ is the genitive of vasu with the masculine endings ('wealth' or 'the good one'). The note already allows both senses, so the label must not fix the gender."
+ },
+ {
+  "n": "693",
+  "field": "word.gram",
+  "word": "yasya",
+  "old": "rel. n. gen. sg.",
+  "new": "rel. pron. gen. sg. (m./n.)",
+  "why": "reviewer (minor): 'rel. n. gen. sg.' and 'pron. n. gen. sg.' fix the gender as neuter without evidence (Soma is masculine; the referent is not named)."
+ },
+ {
+  "n": "693",
+  "field": "word.gram",
+  "word": "asya",
+  "old": "pron. n. gen. sg.",
+  "new": "pron. gen. sg. (m./n.)",
+  "why": "reviewer (minor): 'rel. n. gen. sg.' and 'pron. n. gen. sg.' fix the gender as neuter without evidence (Soma is masculine; the referent is not named)."
+ },
+ {
+  "n": "693",
+  "field": "english",
+  "old": "Having drunk of that of yours, the bull acts like a bull; having drunk of this light-finding one, he, the clearly seen, strode toward the refreshments, toward the prize, like Etaśa.",
+  "new": "Having drunk of that of yours, the bull acts like a bull; having drunk of this finder of the light of heaven, he, the clearly seen, strode toward the refreshments, toward the prize, like Etaśa.",
+  "why": "reviewer (error): Glossary: svar = light of heaven (सूर्य का प्रकाश). 693 and 712 say 'light-finding' / 'प्रकाश', 694 says 'light of heaven'; one rendering is required."
+ },
+ {
+  "n": "693",
+  "field": "hindi",
+  "old": "तुम्हारे जिसको पीकर बैल बैल की तरह आचरण करता है, इस प्रकाश पाने वाले को पीकर वह सुस्पष्ट दिखने वाला पोषण की ओर, वाज की ओर बढ़ा, एतश के समान।",
+  "new": "तुम्हारे जिसको पीकर बैल बैल की तरह आचरण करता है, इस सूर्य का प्रकाश पाने वाले को पीकर वह सुस्पष्ट दिखने वाला पोषण की ओर, वाज की ओर बढ़ा, एतश के समान।",
+  "why": "reviewer (error): Glossary: svar = light of heaven (सूर्य का प्रकाश). 693 and 712 say 'light-finding' / 'प्रकाश', 694 says 'light of heaven'; one rendering is required."
+ },
+ {
+  "n": "693",
+  "field": "word.gloss",
+  "word": "svar-vidaḥ",
+  "old": "light-finding",
+  "new": "finding the light of heaven",
+  "why": "reviewer (error): Glossary: svar = light of heaven (सूर्य का प्रकाश). 693 and 712 say 'light-finding' / 'प्रकाश', 694 says 'light of heaven'; one rendering is required."
+ },
+ {
+  "n": "694",
+  "field": "text_flags",
+  "old": [],
+  "new": [
+   {
+    "src": "śruṣṭe",
+    "suggest": "śruṣṭī",
+    "why": "possible: śruṣṭe is not an attested form; the adverb is śruṣṭī ('readily'), and the sense 'readily' is what the draft reads; the printed final -e may be a typing slip or a chant spelling"
+   }
+  ],
+  "why": "reviewer (minor): śruṣṭe is not a known adverb; the usual Vedic form is śruṣṭī ('readily, obediently'). The draft reports no text_flag but reads it as an adverb. Flag it as a possible typo (e for ī); the sense stays 'readily'."
+ },
+ {
+  "n": "694",
+  "field": "word.gram",
+  "word": "śruṣṭe",
+  "old": "ind.",
+  "new": "ind. (adv. 'readily'; printed śruṣṭe, śruṣṭī expected)",
+  "why": "reviewer (minor): śruṣṭe is not a known adverb; the usual Vedic form is śruṣṭī ('readily, obediently'). The draft reports no text_flag but reads it as an adverb. Flag it as a possible typo (e for ī); the sense stays 'readily'."
+ },
+ {
+  "n": "694",
+  "field": "word.gloss",
+  "word": "svar-vidaḥ",
+  "old": "light-finding",
+  "new": "finding the light of heaven",
+  "why": "reviewer (minor): Gloss 'light-finding' does not match the English translation ('finders of the light of heaven') or the glossary."
+ },
+ {
+  "n": "694",
+  "field": "hindi",
+  "old": "इन्द्र की ओर, बलवान की ओर, ये निचोड़े हुए भूरे जाएँ; शीघ्र जन्मी हुई बूँदें, सूर्य का प्रकाश पाने वाली।",
+  "new": "इन्द्र की ओर, बलवान की ओर, ये निचोड़े हुए भूरे जाएँ; तत्परता से जन्मी हुई बूँदें, सूर्य का प्रकाश पाने वाली।",
+  "why": "reviewer (minor): English says 'readily' (śruṣṭī), Hindi says 'शीघ्र' (quickly). Make them agree."
+ },
+ {
+  "n": "696",
+  "field": "word.gloss",
+  "word": "ā",
+  "old": "—",
+  "new": "to",
+  "why": "reviewer (minor): Gloss '—' is a placeholder dash. Elsewhere in the chunk the preverb ā is glossed 'to'; the note says it goes with gṛbhṇāti."
+ },
+ {
+  "n": "696",
+  "field": "word.gram",
+  "word": "bharat",
+  "old": "3 sg. impf. √bhṛ",
+  "new": "3 sg. inj. √bhṛ (past sense, no augment)",
+  "why": "reviewer (minor): '3 sg. impf.' is wrong for an unaugmented form: bharat is the injunctive (past sense), the imperfect would be abharat."
+ },
+ {
+  "n": "701",
+  "field": "text_flags",
+  "old": [],
+  "new": [
+   {
+    "src": "rocanaṃ",
+    "suggest": "rocane",
+    "why": "possible: adhi takes a locative here ('in the luminous realm of heaven'); a remembered Ṛgvedic parallel reads rocane. Unverified; the printed accusative is kept and translated as 'upon the luminous realm'"
+   }
+  ],
+  "why": "reviewer (minor): The printed edition has rocanaṃ (acc.), but adhi rocane divaḥ (loc.) is the expected construction and the Ṛgvedic parallel is remembered with -e. The draft reports no text_flag. Add a hedged flag; the draft's reading stays."
+ },
+ {
+  "n": "702",
+  "field": "text_flags",
+  "old": [],
+  "new": [
+   {
+    "src": "acikradannṛbhiryemāṇaḥ",
+    "suggest": "acikradannṛbhiryemānaḥ",
+    "why": "possible: yemāṇaḥ has a retroflex ṇ with no trigger in the word; the participle is yemānaḥ (√yam)"
+   }
+  ],
+  "why": "reviewer (minor): Retroflex ṇ in yemāṇaḥ has no trigger (no ṛ/r/ṣ earlier in the word; the neighbour nṛbhiḥ is a different word), so the expected form is yemānaḥ. The draft keeps the printed ṇ in w with no flag."
+ },
+ {
+  "n": "702",
+  "field": "word.w",
+  "word": "yemāṇaḥ",
+  "old": "yemāṇaḥ",
+  "new": "yemānaḥ",
+  "why": "reviewer (minor): Retroflex ṇ in yemāṇaḥ has no trigger (no ṛ/r/ṣ earlier in the word; the neighbour nṛbhiḥ is a different word), so the expected form is yemānaḥ. The draft keeps the printed ṇ in w with no flag."
+ },
+ {
+  "n": "702",
+  "field": "hindi",
+  "old": "चमकता हुआ वह कलशों पर गरजा, मनुष्यों से नियन्त्रित, सुनहरे कोश में। ऋत के दोहन की ओर गूँजे हैं; उषा के तीन पीठ वाले स्थान पर तुम चमकते हो।",
+  "new": "चमकता हुआ वह कलशों पर गरजा, मनुष्यों से नियन्त्रित, सुनहरे कोश में। ऋत के दोहन की ओर गूँजे हैं; उषा के तीन पीठ वाले पर तुम चमकते हो।",
+  "why": "reviewer (error): Hindi supplies 'स्थान'. Hindi has no brackets, so no word may be supplied there; the note itself says 'height' is supplied in English only. (Same practice as 690: no noun in Hindi.)"
+ },
+ {
+  "n": "703",
+  "field": "hindi",
+  "old": "हर यज्ञ में तुम्हारे लिए अग्नि को, और हर स्तुति से कुशल को: हम आगे बढ़कर अमर जातवेदा की स्तुति करें, जो प्रिय है, मित्र के समान।",
+  "new": "हर यज्ञ में तुम्हारे लिए अग्नि को, और हर स्तुति से कुशल को: हम आगे बढ़कर अमर जातवेदा की घोषणा करें, जो प्रिय है, मित्र के समान।",
+  "why": "reviewer (minor): English says 'proclaim' (śaṃs), Hindi says 'स्तुति' (praise); the two translations disagree. Use one verb in both."
+ },
+ {
+  "n": "703",
+  "field": "notes",
+  "old": "śaṃsiṣam is 1 sg. in form while the subject vayam is plural; rendered 'we would proclaim'. mitram na is 'like Mitra' (glossary); 'like a friend' is possible. The '~' in śa~siṣam is the candrabindu for anusvāra. The cases of yajñāyajñā and girāgirā (distributive repetition) are taken as locative and instrumental.",
+  "new": "śaṃsiṣam is 1 sg. in form while the subject vayam is plural; rendered 'we would proclaim'. mitram na is 'like Mitra' (glossary); 'like a friend' is possible. The '~' in śa~siṣam is the candrabindu for anusvāra. The cases of yajñāyajñā and girāgirā (distributive repetition) are taken as locative and instrumental. dakṣase is taken as 'to the skilful one'; 'for skill' (dative of dakṣas, glossary dakṣa = skill) is also possible.",
+  "why": "reviewer (minor): Glossary has dakṣa = skill (कौशल); dakṣase may be the dative of dakṣas 'skill' ('for skill') as well as 'to the skilful one'. The draft chooses one without saying so."
+ },
+ {
+  "n": "704",
+  "field": "hindi",
+  "old": "हम बल के पुत्र की सेवा करें, हव्य देने के लिए; वही यह अब हमें चाहने वाला है। वह वाजों में रक्षक हो, वह बढ़ाने वाला हो और शरीरों का त्राता।",
+  "new": "हम बल के पुत्र की सेवा करें, हव्य देने के लिए; वही यह अब हमें चाहने वाला है। वह वाजों में सहायक हो, वह बढ़ाने वाला हो और शरीरों का त्राता।",
+  "why": "reviewer (error): avitā is 'helper' in the English and elsewhere in Hindi (सहायक); 'रक्षक' duplicates trātā (त्राता) in the same line and changes the sense."
+ },
+ {
+  "n": "705",
+  "field": "word.w",
+  "word": "itarā",
+  "old": "itarā",
+  "new": "itarāḥ",
+  "why": "reviewer (minor): w must be the dictionary form: giraḥ is feminine accusative plural, so the word is itarāḥ (visarga lost before g); the gram says 'f. acc. pl.'. Other visargas are restored in the chunk."
+ },
+ {
+  "n": "706",
+  "field": "word.gram",
+  "word": "tatra",
+  "old": "ind.",
+  "new": "ind. (tatra with lengthened final vowel)",
+  "why": "reviewer (error): w 'tatra' differs from the printed tatrā (lengthened final vowel) with no text_flags entry. The chunk keeps lengthened forms in w elsewhere (abhī, ūtī, nā); do the same here and say so in gram, so no flag is needed."
+ },
+ {
+  "n": "706",
+  "field": "word.w",
+  "word": "tatra",
+  "old": "tatra",
+  "new": "tatrā",
+  "why": "reviewer (error): w 'tatra' differs from the printed tatrā (lengthened final vowel) with no text_flags entry. The chunk keeps lengthened forms in w elsewhere (abhī, ūtī, nā); do the same here and say so in gram, so no flag is needed."
+ },
+ {
+  "n": "707",
+  "field": "word.gloss",
+  "word": "bhuvat",
+  "old": "may it be",
+  "new": "unclear",
+  "why": "reviewer (minor): English leaves two words as [unclear] before 'O lord of [unclear]', and the note says akṣipat AND bhuvat cannot be read, but the word list glosses bhuvat 'may it be' as if clear. Glosses must agree with the translation."
+ },
+ {
+  "n": "707",
+  "field": "word.gram",
+  "word": "bhuvat",
+  "old": "3 sg. aor. subj. √bhū",
+  "new": "3 sg. aor. subj. √bhū (sense in this sentence uncertain)",
+  "why": "reviewer (minor): English leaves two words as [unclear] before 'O lord of [unclear]', and the note says akṣipat AND bhuvat cannot be read, but the word list glosses bhuvat 'may it be' as if clear. Glosses must agree with the translation."
+ },
+ {
+  "n": "707",
+  "field": "hindi",
+  "old": "निश्चय ही तुम्हारी पूर्ति नहीं, हे स्वामी; तब तुम सेवा प्राप्त करते हो।",
+  "new": "क्योंकि तुम्हारी पूर्ति नहीं, हे स्वामी; तब तुम सेवा प्राप्त करते हो।",
+  "why": "reviewer (minor): hi is 'for' in the English, 'निश्चय ही' in Hindi: translations disagree."
+ },
+ {
+  "n": "708",
+  "field": "hindi",
+  "old": "हम सहायता चाहने वाले, हे अनुपम, किसी स्थूल खम्भे के समान वहन करते हुए, तुम्हें, हे वज्रधारी, अद्भुत को पुकारते हैं।",
+  "new": "हम ही सहायता चाहने वाले, हे अनुपम, किसी स्थूल खम्भे के समान वहन करते हुए, तुम्हें, हे वज्रधारी, अद्भुत को पुकारते हैं।",
+  "why": "reviewer (minor): The English has 'We indeed' (vayam u); Hindi drops u."
+ },
+ {
+  "n": "709",
+  "field": "text_flags",
+  "old": [],
+  "new": [
+   {
+    "src": "tvāmidhyavitāraṃ",
+    "suggest": "tvāmiddhyavitāraṃ",
+    "why": "probable typing slip: the split tvām id dhy avitāram needs dd before dh, and the edition writes it that way elsewhere (tvāmiddhi, ahamiddhi, yaściddhi); the doubled d is missing"
+   }
+  ],
+  "why": "reviewer (error): The word list splits it as tvām + it + hi + avitāram, i.e. tvām id dhy avitāram, but the printed token has a single dh. The edition writes dd before dhi elsewhere (tvāmiddhi, ahamiddhi, yaściddhi), so the doubled d was lost in typing. A corrected form needs a text_flags entry; the draft has none."
+ },
+ {
+  "n": "709",
+  "field": "word.gloss",
+  "word": "karman",
+  "old": "in the deed",
+  "new": "in the action",
+  "why": "reviewer (minor): Brief fixed rendering: karma = action (कर्म). 'deed' is used here for the same word (karman)."
+ },
+ {
+  "n": "709",
+  "field": "english",
+  "old": "He strode up to you for help in the deed, for us, the young, strong one who dared. For we friends have chosen you indeed as helper, O Indra, the winning one.",
+  "new": "He strode up to you for help in the action, for us, the young, strong one who dared. For we friends have chosen you indeed as helper, O Indra, the winning one.",
+  "why": "reviewer (minor): Brief fixed rendering: karma = action (कर्म). 'deed' is used here for the same word (karman)."
+ },
+ {
+  "n": "709",
+  "field": "word.gloss",
+  "word": "dhṛṣat",
+  "old": "boldly",
+  "new": "dared",
+  "why": "reviewer (minor): Gloss/gram say 'boldly' (adverb, pres. part.) but the English translates a finite verb ('who dared'). dhṛṣat is also the 3 sg. injunctive; make word list and translation agree."
+ },
+ {
+  "n": "709",
+  "field": "word.gram",
+  "word": "dhṛṣat",
+  "old": "ind. (pres. part. √dhṛṣ, used as adv.)",
+  "new": "3 sg. inj. √dhṛṣ (also used as adverb 'boldly')",
+  "why": "reviewer (minor): Gloss/gram say 'boldly' (adverb, pres. part.) but the English translates a finite verb ('who dared'). dhṛṣat is also the 3 sg. injunctive; make word list and translation agree."
+ },
+ {
+  "n": "710",
+  "field": "hindi",
+  "old": "तब हे इन्द्र, हे स्तुतिप्रिय, इच्छा में हम तुम्हारे पास पहुँचते हैं, हमने भेजा है; जल के समान वे जलों के साथ आए।",
+  "new": "तब निश्चय ही हे इन्द्र, हे स्तुतिप्रिय, इच्छा में हम तुम्हारे पास पहुँचते हैं, हमने भेजा है; जल के समान वे जलों के साथ आए।",
+  "why": "reviewer (minor): English has 'Then indeed' (adhā hi); Hindi drops hi."
+ },
+ {
+  "n": "710",
+  "field": "word.gram",
+  "word": "udā",
+  "old": "n. inst. sg.",
+  "new": "n. inst. sg. (form uncertain; udnā expected)",
+  "why": "reviewer (minor): 'n. inst. sg.' is not the regular instrumental of udan (udnā). The form of udeva is uncertain (udā iva or ud eva); the draft's confidence is already low, but the gram should not assert a clean instrumental."
+ },
+ {
+  "n": "712",
+  "field": "english",
+  "old": "They yoke the two tawny ones with the song of the vigorous one, on the broad chariot with the broad yoke, yoked by speech, carriers of Indra, light-finding.",
+  "new": "They yoke the two tawny ones with the song of the vigorous one, on the broad chariot with the broad yoke, yoked by speech, carriers of Indra, finders of the light of heaven.",
+  "why": "reviewer (error): Glossary: svar = light of heaven (सूर्य का प्रकाश); same as 693 and 694."
+ },
+ {
+  "n": "712",
+  "field": "hindi",
+  "old": "वे भूरे दोनों को जोतते हैं, उत्साही के गीत से, चौड़े रथ में, चौड़े जुए वाले में; वाणी से जुते हुए, इन्द्र को वहन करने वाले, प्रकाश पाने वाले।",
+  "new": "वे भूरे दोनों को जोतते हैं, उत्साही के गीत से, चौड़े रथ में, चौड़े जुए वाले में; वाणी से जुते हुए, इन्द्र को वहन करने वाले, सूर्य का प्रकाश पाने वाले।",
+  "why": "reviewer (error): Glossary: svar = light of heaven (सूर्य का प्रकाश); same as 693 and 694."
+ },
+ {
+  "n": "712",
+  "field": "word.gloss",
+  "word": "svar-vidā",
+  "old": "light-finding",
+  "new": "finding the light of heaven",
+  "why": "reviewer (error): Glossary: svar = light of heaven (सूर्य का प्रकाश); same as 693 and 694."
+ }
+]
