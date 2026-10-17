@@ -1,0 +1,100 @@
+{
+ "parts": {
+  "01": {
+   "chapters": 12,
+   "highest_chapter": 12,
+   "chapter_gaps": [],
+   "verses": 585,
+   "lines": 1150,
+   "number_jumps": [],
+   "odd_starts": [
+    "01.02: starts at verse 55",
+    "01.03: starts at verse 97",
+    "01.04: starts at verse 145",
+    "01.05: starts at verse 194",
+    "01.06: starts at verse 243",
+    "01.07: starts at verse 293",
+    "01.08: starts at verse 342",
+    "01.09: starts at verse 391",
+    "01.10: starts at verse 437",
+    "01.11: starts at verse 487",
+    "01.12: starts at verse 545"
+   ],
+   "truncated_end": false,
+   "short_chapters": [],
+   "last_chapter": "12",
+   "last_line": "ॐ वर्मीव धृष्णवा रुज ॥"
+  },
+  "04": {
+   "chapters": 22,
+   "highest_chapter": 22,
+   "chapter_gaps": [],
+   "verses": 1225,
+   "lines": 2433,
+   "number_jumps": [],
+   "odd_starts": [
+    "04.01: starts at verse 651",
+    "04.02: starts at verse 713",
+    "04.03: starts at verse 775",
+    "04.04: starts at verse 830",
+    "04.05: starts at verse 886",
+    "04.06: starts at verse 955",
+    "04.07: starts at verse 1031",
+    "04.08: starts at verse 1116",
+    "04.09: starts at verse 1175",
+    "04.10: starts at verse 1253",
+    "04.11: starts at verse 1347",
+    "04.12: starts at verse 1379",
+    "04.13: starts at verse 1435",
+    "04.14: starts at verse 1489",
+    "04.15: starts at verse 1535",
+    "04.16: starts at verse 1573",
+    "04.17: starts at verse 1617",
+    "04.18: starts at verse 1657",
+    "04.19: starts at verse 1711",
+    "04.20: starts at verse 1765",
+    "04.21: starts at verse 1816",
+    "04.22: starts at verse 1849"
+   ],
+   "truncated_end": false,
+   "short_chapters": [],
+   "last_chapter": "22",
+   "last_line": "ॐ स्वस्ति नो बृहस्पतिर्दधातु ॥"
+  },
+  "02": {
+   "chapters": 1,
+   "highest_chapter": 1,
+   "chapter_gaps": [],
+   "verses": 55,
+   "lines": 110,
+   "number_jumps": [],
+   "odd_starts": [
+    "02.01: starts at verse 586"
+   ],
+   "truncated_end": false,
+   "short_chapters": [],
+   "last_chapter": "01",
+   "last_line": "शोचिष्केशं विचक्षण ॥"
+  },
+  "03": {
+   "chapters": 1,
+   "highest_chapter": 1,
+   "chapter_gaps": [],
+   "verses": 10,
+   "lines": 22,
+   "number_jumps": [],
+   "odd_starts": [
+    "03.01: starts at verse 641"
+   ],
+   "truncated_end": false,
+   "short_chapters": [],
+   "last_chapter": "01",
+   "last_line": "एवा हि पूषन् । एवा हि देवाः ॐ एवाहि देवाः ॥"
+  }
+ },
+ "flags": [],
+ "toc_vs_text": {
+  "in_toc_not_in_text": [],
+  "in_text_not_in_toc": []
+ }
+}
