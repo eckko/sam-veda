@@ -1,0 +1,1008 @@
+{
+ "units": [
+  {
+   "n": "830",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "text_flags",
+     "where": "eta (printed) read as ete",
+     "problem": "The printed eta is entered as ete in words with only a note ('normal in this text'); LAYER_NOTES 2 and the glossary rule require a text_flags entry for every corrected form.",
+     "fix": "text_flags: src eta, suggest ete",
+     "severity": "minor",
+     "patch": {
+      "n": "830",
+      "op": "set",
+      "field": "text_flags",
+      "value": [
+       {
+        "src": "eta",
+        "suggest": "ete",
+        "why": "possible: the printed eta before a- is the chant spelling of ete (nom. pl. of eta 'this'); read as ete"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": "831",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gram",
+     "where": "tmanā",
+     "problem": "'ind. inst. sg.' is a contradictory label: tmanā is the instrumental singular of the noun tman (self), used adverbially.",
+     "fix": "gram: m. inst. sg. of tman 'self', used adverbially",
+     "severity": "minor",
+     "patch": {
+      "n": "831",
+      "op": "word",
+      "match_w": "tmanā",
+      "field": "gram",
+      "value": "m. inst. sg. (tman 'self', used adverbially)"
+     }
+    }
+   ]
+  },
+  {
+   "n": "832",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "833",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "834",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "835",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "836",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "837",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "महान और विशाल व्रतों वाला",
+     "problem": "English renders mahā-mahi 'great and mighty'; Hindi 'विशाल' (vast) is a different word from 'mighty' (mahi 'great, strong'). The two translations should agree.",
+     "fix": "महान और प्रबल व्रतों वाला",
+     "severity": "minor",
+     "patch": {
+      "n": "837",
+      "op": "replace",
+      "field": "hindi",
+      "old": "महान और विशाल व्रतों वाला",
+      "new": "महान और प्रबल व्रतों वाला"
+     }
+    }
+   ]
+  },
+  {
+   "n": "838",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "उत्तम सामर्थ्य वाले",
+     "problem": "Brief rule: kratu in Hindi is शक्ति. su-krato is rendered with सामर्थ्य.",
+     "fix": "हे उत्तम शक्ति वाले",
+     "severity": "error",
+     "patch": {
+      "n": "838",
+      "op": "replace",
+      "field": "hindi",
+      "old": "उत्तम सामर्थ्य वाले",
+      "new": "उत्तम शक्ति वाले"
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "सुपर्ण / इसी से",
+     "problem": "English translates suparṇa 'eagle' but Hindi leaves it as the Sanskrit word सुपर्ण (and the lines about this bird in 840 use पक्षी). 'इसी से' adds an emphasis ('this very') that ataḥ does not have.",
+     "fix": "इससे धन तुम्हारे पास आया ... अविचल बाज़ ने लाया",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "838",
+       "op": "replace",
+       "field": "hindi",
+       "old": "इसी से",
+       "new": "इससे"
+      },
+      {
+       "n": "838",
+       "op": "replace",
+       "field": "hindi",
+       "old": "सुपर्ण",
+       "new": "बाज़"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "839",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "840",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "सबके लिए / प्रकाश देखने वाले",
+     "problem": "Hindi drops 'it' (indeed), which the English has ('for everyone indeed'); and glossary: svar = light of heaven (सूर्य का प्रकाश), but Hindi has only प्रकाश.",
+     "fix": "पक्षी ने सबके ही लिए, सूर्य का प्रकाश देखने वाले के लिए, ...",
+     "severity": "error",
+     "patch": [
+      {
+       "n": "840",
+       "op": "replace",
+       "field": "hindi",
+       "old": "सबके लिए",
+       "new": "सबके ही लिए"
+      },
+      {
+       "n": "840",
+       "op": "replace",
+       "field": "hindi",
+       "old": "प्रकाश देखने वाले के लिए",
+       "new": "सूर्य का प्रकाश देखने वाले के लिए"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "841",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "कान्ति के साथ",
+     "problem": "English says 'radiance'; glossary: bhānu = radiance (दीप्ति). The same verse in p01 (505) has दीप्ति. Use the same Hindi word.",
+     "fix": "दीप्ति के साथ गौओं की ओर जाओ",
+     "severity": "minor",
+     "patch": {
+      "n": "841",
+      "op": "replace",
+      "field": "hindi",
+      "old": "कान्ति के साथ",
+      "new": "दीप्ति के साथ"
+     }
+    },
+    {
+     "field": "english",
+     "where": "indo = O drop",
+     "problem": "MANUAL: the glossary has an OPEN item on indu. This draft follows the glossary line (drop), but the identical verse in p01 unit 505 (and its Hindi) reads 'O Indu / हे इन्दु'. One choice has to be made for the whole book.",
+     "fix": "Owner decides: 'O drop' (हे बूँद) everywhere, or the name Indu in address.",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "842",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "843",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "844",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "845",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "तुम दूत की सेवा करता है ... उसका रक्षक बनो",
+     "problem": "sma ('indeed') is in the English ('be the protector of him indeed') but not in the Hindi; and 'तुम दूत की सेवा करता है' can be read as 'serves the messenger of you' / 'you serve the messenger' instead of 'serves you, the messenger' (tvām ... dūtam both accusative).",
+     "fix": "जो हवि का स्वामी, हे अग्नि, तुम्हारी, दूत की, हे देव, सेवा करता है, उसके ही रक्षक बनो।",
+     "severity": "error",
+     "patch": {
+      "n": "845",
+      "op": "set",
+      "field": "hindi",
+      "value": "जो हवि का स्वामी, हे अग्नि, तुम्हारी, दूत की, हे देव, सेवा करता है, उसके ही रक्षक बनो।"
+     }
+    },
+    {
+     "field": "gram",
+     "where": "saparyati",
+     "problem": "saparyati is a denominative from saparyā 'service', not from a root 'saparya'.",
+     "fix": "gram: 3 sg. pres. denom. (saparya- from saparyā)",
+     "severity": "minor",
+     "patch": {
+      "n": "845",
+      "op": "word",
+      "match_w": "saparyati",
+      "field": "gram",
+      "value": "3 sg. pres. denom. (saparya- from saparyā)"
+     }
+    }
+   ]
+  },
+  {
+   "n": "846",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "सेवा करता है",
+     "problem": "English renders āvivāsati 'honours'; Hindi says 'सेवा करता है', which is the Hindi used for saparyati ('serves') in 845 and 883. Two verbs, one Hindi rendering.",
+     "fix": "आदर करता है",
+     "severity": "minor",
+     "patch": {
+      "n": "846",
+      "op": "replace",
+      "field": "hindi",
+      "old": "सेवा करता है",
+      "new": "आदर करता है"
+     }
+    }
+   ]
+  },
+  {
+   "n": "847",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "जो दोनों घृत से भरे विचार को सिद्ध करते हैं",
+     "problem": "Hindi turns the participle sādhantā into a relative clause with 'जो'; the English has the participle ('the two accomplishing'). Adds a clause connective the Sanskrit does not have.",
+     "fix": "दोनों घृत से भरे विचार को सिद्ध करते हुए।",
+     "severity": "minor",
+     "patch": {
+      "n": "847",
+      "op": "replace",
+      "field": "hindi",
+      "old": "जो दोनों घृत से भरे विचार को सिद्ध करते हैं।",
+      "new": "दोनों घृत से भरे विचार को सिद्ध करते हुए।"
+     }
+    }
+   ]
+  },
+  {
+   "n": "848",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "बड़े सामर्थ्य को",
+     "problem": "Brief rule: kratu in Hindi is शक्ति (English 'great power').",
+     "fix": "बड़ी शक्ति को",
+     "severity": "error",
+     "patch": {
+      "n": "848",
+      "op": "replace",
+      "field": "hindi",
+      "old": "बड़े सामर्थ्य को",
+      "new": "बड़ी शक्ति को"
+     }
+    },
+    {
+     "field": "gloss",
+     "where": "ṛta-vṛdhau 'increasing through truth'",
+     "problem": "ṛtāvṛdh is normally 'strengthening / increasing ṛta' (ṛta is the object, tat-puruṣa as the draft labels it), not 'increasing through truth'; the instrumental ṛtena is already in the line. Hindi 'ऋत से बढ़ने वाले' follows the same reading. A person should decide.",
+     "fix": "gloss 'strengthening truth'; English '..., strengthening truth, touching truth, ...'; Hindi 'ऋत को बढ़ाने वाले'",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "849",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "850",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "text_flags",
+     "where": "samānavarccasā read as samāna-varcasā",
+     "problem": "The printed doubled c after r (varcc-) is silently normalised to varcasā; the brief says never fix silently and requires a text_flags entry (compare p01 ch11 unit 544 tartturāṇāḥ).",
+     "fix": "text_flags: src samānavarccasā, suggest samānavarcasā",
+     "severity": "error",
+     "patch": {
+      "n": "850",
+      "op": "set",
+      "field": "text_flags",
+      "value": [
+       {
+        "src": "samānavarccasā",
+        "suggest": "samānavarcasā",
+        "why": "doubled c after r (chant-spelling convention); read as samānavarcasā"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": "851",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "svadhā (own power)",
+     "problem": "Glossary: English parentheses only for the Sanskrit term, as in '(brahman)'. Here the Sanskrit term stands outside and the English gloss inside.",
+     "fix": "according to own power (svadhā)",
+     "severity": "minor",
+     "patch": {
+      "n": "851",
+      "op": "replace",
+      "field": "english",
+      "old": "according to svadhā (own power)",
+      "new": "according to own power (svadhā)"
+     }
+    }
+   ]
+  },
+  {
+   "n": "852",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "853",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "854",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "855",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "दास वालों को",
+     "problem": "'दास वालों' means 'those having Dāsas'; dāsāni is 'the Dāsa ones' (English). The Hindi changes the meaning.",
+     "fix": "दासों को",
+     "severity": "minor",
+     "patch": {
+      "n": "855",
+      "op": "replace",
+      "field": "hindi",
+      "old": "दास वालों को",
+      "new": "दासों को"
+     }
+    }
+   ]
+  },
+  {
+   "n": "856",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "857",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "858",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "859",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "गोपति के पास",
+     "problem": "English translates go-pati 'lord of cows'; Hindi keeps the Sanskrit word. Both translations should give the same rendering.",
+     "fix": "गौओं के स्वामी के पास",
+     "severity": "minor",
+     "patch": {
+      "n": "859",
+      "op": "replace",
+      "field": "hindi",
+      "old": "गोपति के पास",
+      "new": "गौओं के स्वामी के पास"
+     }
+    }
+   ]
+  },
+  {
+   "n": "860",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "861",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "862",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "हजार सूर्य भी",
+     "problem": "'भी' (even) has no counterpart in the Sanskrit or in the English ('not a thousand suns would follow you').",
+     "fix": "हजार सूर्य तुम्हारा अनुसरण न करते",
+     "severity": "minor",
+     "patch": {
+      "n": "862",
+      "op": "replace",
+      "field": "hindi",
+      "old": "हजार सूर्य भी तुम्हारा",
+      "new": "हजार सूर्य तुम्हारा"
+     }
+    },
+    {
+     "field": "gram",
+     "where": "aṣṭa",
+     "problem": "aṣṭa is the 3 sg. root-aorist middle of √aś (a-aś-ta), not 3 pl.; the singular verb stands with the dual subject rodasī. (The 3 pl. would be āśata, as in 875.)",
+     "fix": "gram: 3 sg. aor. mid. √aś (singular verb with dual subject rodasī)",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "863",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "हमारी रक्षा करो",
+     "problem": "English renders ava 'Help us' and ūtibhiḥ 'with helps'; Hindi has 'रक्षा' for the verb and 'सहायताओं' for the noun.",
+     "fix": "हमारी सहायता करो",
+     "severity": "minor",
+     "patch": {
+      "n": "863",
+      "op": "replace",
+      "field": "hindi",
+      "old": "हमारी रक्षा करो",
+      "new": "हमारी सहायता करो"
+     }
+    }
+   ]
+  },
+  {
+   "n": "864",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "कुश बिछाए हुए",
+     "problem": "Glossary: barhis = sacred grass (कुशासन).",
+     "fix": "कुशासन बिछाए हुए",
+     "severity": "minor",
+     "patch": {
+      "n": "864",
+      "op": "replace",
+      "field": "hindi",
+      "old": "कुश बिछाए हुए",
+      "new": "कुशासन बिछाए हुए"
+     }
+    }
+   ]
+  },
+  {
+   "n": "865",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "866",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "vāja",
+     "problem": "Glossary: vāja = prize/strength; every earlier chunk renders it 'prize' in English (p01 ch12 etc.). The draft leaves 'vāja' untranslated here and in 867, 879 ('vājas').",
+     "fix": "you boldly break open the thousandfold prize",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "866",
+       "op": "replace",
+       "field": "english",
+       "old": "thousandfold vāja",
+       "new": "thousandfold prize"
+      },
+      {
+       "n": "866",
+       "op": "word",
+       "match_w": "vājam",
+       "field": "gloss",
+       "value": "prize"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "867",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "vāja",
+     "problem": "Same as 866: English should say 'prize' (Hindi keeps वाज as the glossary requires).",
+     "fix": "The swift one indeed desires to win the prize with abundance and a companion.",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "867",
+       "op": "replace",
+       "field": "english",
+       "old": "win vāja with",
+       "new": "win the prize with"
+      },
+      {
+       "n": "867",
+       "op": "word",
+       "match_w": "vājam",
+       "field": "gloss",
+       "value": "prize"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "868",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "[unclear] to you",
+     "problem": "'[unclear]' in the English text stands for no Sanskrit word: every word of the line is readable and glossed (tubhyam 'to you'). Obscure syntax is covered by notes and low confidence; the Hindi has no placeholder, so the two translations disagree.",
+     "fix": "to you",
+     "severity": "minor",
+     "patch": {
+      "n": "868",
+      "op": "replace",
+      "field": "english",
+      "old": "[unclear] to you",
+      "new": "to you"
+     }
+    }
+   ]
+  },
+  {
+   "n": "869",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "870",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "The sacred, young ones",
+     "problem": "brahmīḥ is glossed 'belonging to the sacred word' and the Hindi says 'पवित्र वचन वालियों'; the English 'The sacred' loses the 'word' (glossary: brahman n. = sacred word). The two translations differ.",
+     "fix": "Those of the sacred word, the young ones, ...",
+     "severity": "minor",
+     "patch": {
+      "n": "870",
+      "op": "replace",
+      "field": "english",
+      "old": "The sacred, young ones,",
+      "new": "Those of the sacred word, the young ones,"
+     }
+    }
+   ]
+  },
+  {
+   "n": "871",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "whole translation",
+     "problem": "Hindi 'बहाओ' makes the four oceans the object of pavasva (notes say so: 'make flow to us'); the English 'The four oceans ... flow clear' makes them the subject. The two translations disagree.",
+     "fix": "O Soma, make flow to us from all sides the four oceans of wealth, thousandfold.",
+     "severity": "error",
+     "patch": {
+      "n": "871",
+      "op": "set",
+      "field": "english",
+      "value": "O Soma, make flow to us from all sides the four oceans of wealth, thousandfold."
+     }
+    }
+   ]
+  },
+  {
+   "n": "872",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "873",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "874",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "875",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "876",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "रक्षा करते हैं",
+     "problem": "English renders avanti 'help'; Hindi 'रक्षा' (protect). Align with 863: help = सहायता.",
+     "fix": "तेज़ चलने वाले इसके पवित्र करने वाले की सहायता करते हैं",
+     "severity": "minor",
+     "patch": {
+      "n": "876",
+      "op": "replace",
+      "field": "hindi",
+      "old": "की रक्षा करते हैं",
+      "new": "की सहायता करते हैं"
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "तेज से",
+     "problem": "MANUAL: glossary says तेज only for varcas, but tejas ('brilliance') is rendered तेज here. Choose a different Hindi word for tejas (or record that तेज serves both).",
+     "fix": "Owner decides; suggestion: tejas = brilliance (तेजस्) or प्रताप, never the word used for varcas.",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "877",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "split",
+     "where": "garbhamā / dadhuḥ",
+     "problem": "The printed token garbhamā holds two words, garbham + ā, but the draft gives it only garbham and moves the ā into the next token as 'ā dadhuḥ' (token dadhuḥ). The token-to-word alignment no longer follows the printed text (the checker passes because the letters are compared loosely).",
+     "fix": "token garbhamā: garbham + ā (preverb); token dadhuḥ: dadhuḥ (3 pl. pf. √dhā, with ā 'place into')",
+     "severity": "error",
+     "patch": [
+      {
+       "n": "877",
+       "op": "set",
+       "field": "lines.1.tokens.6.words",
+       "value": [
+        {
+         "w": "garbham",
+         "gloss": "embryo",
+         "gram": "m. acc. sg."
+        },
+        {
+         "w": "ā",
+         "gloss": "into (preverb with dadhuḥ)",
+         "gram": "ind."
+        }
+       ]
+      },
+      {
+       "n": "877",
+       "op": "set",
+       "field": "lines.1.tokens.7.words",
+       "value": [
+        {
+         "w": "dadhuḥ",
+         "gloss": "placed",
+         "gram": "3 pl. pf. √dhā (ā ... dadhuḥ)"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "field": "english",
+     "where": "dappled foremost one / the bull",
+     "problem": "MANUAL (consistency): the same verse is p02 unit 596, translated 'The dappled one, the foremost bull, has made the dawns shine; seeking the prize, he bellows among the worlds'. Here pṛśniḥ agriyaḥ and ukṣā are split into two figures. The Sanskrit has one chain of nominatives; choose one reading for both occurrences.",
+     "fix": "Owner decides; suggestion: follow 596.",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "878",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "approaching with praise",
+     "problem": "upa-stutāsaḥ ('who praise / have praised', so earlier chunk p01 unit 107 and the draft's own notes) is glossed 'approaching with praise'; 'approaching' is not in the word and the identical verse in p01 reads 'you who praise'. English, Hindi, gloss and notes should agree with that.",
+     "fix": "you who praise, to Agni.",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "878",
+       "op": "replace",
+       "field": "english",
+       "old": "approaching with praise, to Agni.",
+       "new": "you who praise, to Agni."
+      },
+      {
+       "n": "878",
+       "op": "replace",
+       "field": "hindi",
+       "old": "स्तुति के साथ पास आने वालो",
+       "new": "हे स्तुति करने वालो"
+      },
+      {
+       "n": "878",
+       "op": "word",
+       "match_w": "upa-stutāsaḥ",
+       "field": "gloss",
+       "value": "praising"
+      },
+      {
+       "n": "878",
+       "op": "replace",
+       "field": "notes",
+       "old": "'approaching with praise' (those who have praised)",
+       "new": "'praising' (those who have praised)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "879",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "split",
+     "where": "ā agamat",
+     "problem": "'ā agamat' is not a form: the printed vājebhirāgamat is vājebhiḥ + ā + gamat (unaugmented aorist subjunctive/injunctive of √gam, 'will come'); the draft has an augmented 'agamat' and joins the preverb into one w.",
+     "fix": "words: vājebhiḥ, ā, gamat (3 sg. aor. inj./subj. ā-√gam)",
+     "severity": "minor",
+     "patch": {
+      "n": "879",
+      "op": "set",
+      "field": "lines.1.tokens.3.words",
+      "value": [
+       {
+        "w": "vājebhiḥ",
+        "gloss": "with prizes",
+        "gram": "m. inst. pl."
+       },
+       {
+        "w": "ā",
+        "gloss": "to (preverb with gamat)",
+        "gram": "ind."
+       },
+       {
+        "w": "gamat",
+        "gloss": "will come",
+        "gram": "3 sg. aor. inj./subj. √gam (ā ... gamat)"
+       }
+      ]
+     }
+    },
+    {
+     "field": "english",
+     "where": "offered into / with vājas",
+     "problem": "āhuta (pp. of ā-√hu) is 'offered, given the oblation' (Hindi 'आहुति पाया हुआ'); 'offered into' says something else. 'vājas' should be 'prizes' (see 866). Hindi द्युम्नवान lacks its halant (glossary द्युम्नवान्).",
+     "fix": "..., given the oblation, ... with prizes",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "879",
+       "op": "replace",
+       "field": "english",
+       "old": "offered into",
+       "new": "given the oblation"
+      },
+      {
+       "n": "879",
+       "op": "replace",
+       "field": "english",
+       "old": "with vājas",
+       "new": "with prizes"
+      },
+      {
+       "n": "879",
+       "op": "word",
+       "match_w": "āhutaḥ",
+       "field": "gloss",
+       "value": "given the oblation"
+      },
+      {
+       "n": "879",
+       "op": "replace",
+       "field": "hindi",
+       "old": "द्युम्नवान,",
+       "new": "द्युम्नवान्,"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "880",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "लोक रचने वाला है",
+     "problem": "English 'maker of space' (notes: loka 'space, world'); Hindi 'लोक रचने' means 'creating worlds'. The earlier chunk (p01 unit 383) has 'स्थान बनाने वाला'. Align.",
+     "fix": "स्थान बनाने वाला है",
+     "severity": "minor",
+     "patch": {
+      "n": "880",
+      "op": "replace",
+      "field": "hindi",
+      "old": "लोक रचने वाला है",
+      "new": "स्थान बनाने वाला है"
+     }
+    },
+    {
+     "field": "notes",
+     "where": "the parallel text has pṛtsu",
+     "problem": "Cites a parallel text that is not in the inputs (LAYER_NOTES 3); drop the unverifiable claim and keep only the doubt about the printed form.",
+     "fix": "pṛkṣu is kept as printed; the sense 'in battles' is a guess.",
+     "severity": "minor",
+     "patch": {
+      "n": "880",
+      "op": "replace",
+      "field": "notes",
+      "old": "pṛkṣu is kept as printed (the parallel text has pṛtsu); Sāyaṇa-style gloss 'in battles'.",
+      "new": "pṛkṣu is kept as printed; the sense 'in battles' is a guess."
+     }
+    }
+   ]
+  },
+  {
+   "n": "881",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "कुश के ऊपर",
+     "problem": "Glossary: barhis = sacred grass (कुशासन).",
+     "fix": "कुशासन के ऊपर",
+     "severity": "minor",
+     "patch": {
+      "n": "881",
+      "op": "replace",
+      "field": "hindi",
+      "old": "कुश के ऊपर",
+      "new": "कुशासन के ऊपर"
+     }
+    }
+   ]
+  },
+  {
+   "n": "882",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "883",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gram",
+     "where": "saparyati",
+     "problem": "Denominative from saparyā 'service' (as in 845).",
+     "fix": "gram: 3 sg. pres. denom. (saparya- from saparyā)",
+     "severity": "minor",
+     "patch": {
+      "n": "883",
+      "op": "word",
+      "match_w": "saparyati",
+      "field": "gram",
+      "value": "3 sg. pres. denom. (saparya- from saparyā)"
+     }
+    }
+   ]
+  },
+  {
+   "n": "884",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gram",
+     "where": "navīyasīm 'newest', superl.",
+     "problem": "-īyas is the comparative suffix (the draft labels bhavīyasī in 879 'comp.' correctly); navīyasī is 'newer', not 'newest' (superlative would be naviṣṭha). English 'a newest' is also not English; Hindi 'सबसे नई' repeats the error.",
+     "fix": "gloss: newer; gram: f. acc. sg. comp.; English 'a newer, gladdening song'; Hindi 'अधिक नई'",
+     "severity": "error",
+     "patch": [
+      {
+       "n": "884",
+       "op": "word",
+       "match_w": "navīyasīm",
+       "field": "gloss",
+       "value": "newer"
+      },
+      {
+       "n": "884",
+       "op": "word",
+       "match_w": "navīyasīm",
+       "field": "gram",
+       "value": "f. acc. sg. comp."
+      },
+      {
+       "n": "884",
+       "op": "replace",
+       "field": "english",
+       "old": "a newest,",
+       "new": "a newer,"
+      },
+      {
+       "n": "884",
+       "op": "replace",
+       "field": "hindi",
+       "old": "सबसे नई",
+       "new": "अधिक नई"
+      }
+     ]
+    },
+    {
+     "field": "split",
+     "where": "cikitvin-manasam",
+     "problem": "'cikitvin' is not a Sanskrit stem; the printed cikitvinmanasam is cikitvit-manasam (cikitvas, perfect participle 'knowing', in compound form; t becomes n before m). The note 'cikitvin kept whole' repeats the invented word.",
+     "fix": "w: cikitvit-manasam",
+     "severity": "error",
+     "patch": [
+      {
+       "n": "884",
+       "op": "word",
+       "match_w": "cikitvin-manasam",
+       "field": "w",
+       "value": "cikitvit-manasam"
+      },
+      {
+       "n": "884",
+       "op": "word",
+       "match_w": "cikitvit-manasam",
+       "field": "gram",
+       "value": "f. acc. sg., bahuvrīhi (cikitvit = cikitvas, pf. part. stem, 'knowing')"
+      },
+      {
+       "n": "884",
+       "op": "replace",
+       "field": "notes",
+       "old": "(cikitvin kept whole)",
+       "new": "(cikitvit = the compound form of the perfect participle cikitvas 'knowing'; t becomes n before m)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "885",
+   "verdict": "ok",
+   "issues": []
+  }
+ ],
+ "summary": "Independent review of Samaveda Uttarārcika p04/ch04 chunk 1 (verses 830-885, 56 units). 40 issues: 9 error, 31 minor. Main errors: kratu rendered सामर्थ्य in Hindi (838, 848); Hindi/English disagreements (840 'it' dropped, 845 sma dropped and ambiguous syntax, 871 object/subject of pavasva); missing text_flags for printed doubled consonant (850); token/word misalignment (877 garbhamā/ā dadhuḥ); navīyasī wrongly labelled superlative (884) and an invented stem cikitvin (884). Minor: glossary alignments (vāja = prize in English, barhis = कुशासन, ava = help, loka = space), unsupported additions ('approaching', 'भी', 'जो'), denominative saparya-. No regrouping suggested; 856 (second pāda of a different length) is kept as printed. Manual decisions: dharman in 857 (dharma vs ordinance, glossary OPEN, left unchanged), indu in 841 (this draft 'drop', p01 505 'Indu'), tejas in 876 (Hindi collides with varcas = तेज), 848 ṛtāvṛdhau, 877 reading of pṛśniḥ/agriyaḥ/ukṣā against p02 596. Suggested glossary additions: suparṇa = eagle (बाज़), viḥ = bird (पक्षी); vāja English = prize, Hindi वाज; ava/ūti = help (सहायता); saparyati = serves (सेवा करना), āvivāsati = honours (आदर करना); loka (in lokakṛt) = space (स्थान); barhis Hindi = कुशासन everywhere; upastuta = praising; brahmī = of the sacred word; navīyas = newer (comparative); cikitvit as compound stem of cikitvas; brahmaṇaspati kept as a name; tejas = brilliance with its own Hindi word; pitṛ = fathers (पितर); vicarṣaṇi = surveyor (सर्वदर्शी) and vicakṣaṇa = far-seeing (दूरदर्शी). All layers remain an unreviewed AI draft until a person has read them."
+}
