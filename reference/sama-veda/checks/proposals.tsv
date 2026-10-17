@@ -1,0 +1,5 @@
+id	kind	verdict	line	suggest	why
+04.10.1312a	typo?	error	पवमान् व्यश्नुहि रश्मिभिर्वाजसातमः ।	पवमान व्यश्नुहि रश्मिभिर्वाजसातमः ।	A halanta न् before a space is not a Sanskrit form; the vocative पवमान is needed and restores the 8-syllable pada.
+04.05.952a	sample	unsure	इन्द्र जुषस्व प्र वहा याहि शूर हरिह ।		हरिह is not a recognisable form (vocative of हरि would differ); may be an edition reading or a slip, cannot tell from the lines alone.
+04.08.1127b	sample	error	सूरः पस्यति चक्षसा ॥	सूरः पश्यति चक्षसा ॥	पस्यति is a typing slip for पश्यति (स for श).
+04.20.1788b	sample	error	महस्ते सतो महिमा पनिष्तम मह्ना देव महाँ असि ॥	महस्ते सतो महिमा पनिष्टम मह्ना देव महाँ असि ॥	ष्त is an impossible conjunct in Sanskrit (ष + त must be ष्ट): पनिष्तम should read पनिष्टम.

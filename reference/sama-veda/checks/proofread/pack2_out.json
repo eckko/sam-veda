@@ -1,0 +1,422 @@
+[
+ {
+  "id": "04.01.696a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.01.703a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.02.747b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.02.759b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.02.769b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.03.790a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.03.794b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.03.801a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.04.845a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.04.845b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.04.866b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.05.911b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.05.921a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.05.922a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.05.932a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.05.938b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.05.946a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.05.948a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.05.952a",
+  "kind": "sample",
+  "verdict": "unsure",
+  "suggest": "",
+  "why": "हरिह is not a recognisable form (vocative of हरि would differ); may be an edition reading or a slip, cannot tell from the lines alone."
+ },
+ {
+  "id": "04.06.965b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.06.983b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.06.995a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.06.995b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.06.1003a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.06.1007a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.06.1007b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.07.1031b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.07.1039b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.07.1040b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.07.1049b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.07.1053a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.07.1072a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.08.1120a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.08.1124b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.08.1127b",
+  "kind": "sample",
+  "verdict": "error",
+  "suggest": "सूरः पश्यति चक्षसा ॥",
+  "why": "पस्यति is a typing slip for पश्यति (स for श)."
+ },
+ {
+  "id": "04.08.1148a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.08.1153a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.08.1165a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.09.1177b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.09.1205a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.09.1219a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.09.1220a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.09.1251a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.10.1261a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.10.1261b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.10.1296b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.10.1315",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.10.1321b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.10.1330b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.10.1341a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.10.1342a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.10.1342b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.11.1347a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.11.1362a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.11.1363a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.12.1388a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.12.1396b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.12.1416b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.13.1440a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ },
+ {
+  "id": "04.13.1442b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary line; grammar, sandhi and metre read fine."
+ }
+]

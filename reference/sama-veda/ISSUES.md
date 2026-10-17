@@ -17,3 +17,13 @@ Nothing in the text files was changed because of these. Line IDs are the new IDs
 | 01.02.82b | possible-typo | S1 has `ष` at the end of `आनुषक्षर्म`; S2 reads `आनुषक् शर्म` (word split and श) | S1, S2 | check printed edition |
 | 01.02.85a | possible-typo | S1 reads `विष`, S2 reads `विश` | S1, S2 | check printed edition |
 | 01.03.110a | possible-typo | S1 reads `एशः`, S2 reads `एषः` | S1, S2 | check printed edition |
+| 04.20.1788b | possible-typo | `पनिष्तम` (source `paniShtama`): ष्त is not a valid conjunct here; AI proposes `पनिष्टम` | S1 | check printed edition |
+| 04.10.1312a | possible-typo | `पवमान्` before a space (source `pavamAn`); AI proposes `पवमान` | S1 | check printed edition |
+| 04.08.1127b | possible-typo | `पस्यति` (source `pasyati`); AI proposes `पश्यति` | S1 | check printed edition |
+| 04.05.952a | possible-typo | `हरिह` (source `hariha`) is not a recognised form; AI is unsure and gives no suggestion | S1 | check printed edition |
+
+## Verification summary (2026-10-17)
+
+- Structure: no gaps or truncated part; 4 parts, 36 chapters, 1875 verse numbers; toc and text agree (structure_check.py).
+- Word checker: 0 stray characters; 7 typo candidates, all read by the AI pass and judged regular forms except 04.10.1312a; the metre table (1090 of 3715 lines outside 15-17/22-23 aksharas) is not meaningful for Vedic chandas and was not sent to the AI pass. Second edition: skipped.
+- AI proofreading: 165 items read (7 typo candidates and a fixed-seed sample of 158 ordinary lines, one in 25), 4 proposals (3 errors, 1 unsure). Sample error rate 2 of 158 lines (1.3%). This covers about 4% of the 3715 lines; the other lines were not read by the AI pass or by a person. Nothing in text/ was changed.
