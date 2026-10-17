@@ -60,3 +60,5 @@
 - Names (Hindi): Ādhrigu = आध्रिगु, Turvaśa = तुर्वश, Vala = वल, Ruma, Ruśama, Śyāvaka, Kṛpa. īśāna = शासक. vṛṣabha = बैल. jana = लोगों.
 - Printed Vedic lengthenings (jahī, sunotā, purū, indrā, abhī, śṛṇuhī, rakṣā) stay in w.
 - OPEN: dharman also 1243 vidharman; dhiyā one rendering (thought vs prayer); svarāj one Hindi; 1215 makhasyase and 1236 tośase are guesses; 1230 vidyudabhreva note; 1241 dhāma vs dhāmā unflagged.
+- ghṛṣvi = lively (स्फूर्तिपूर्ण); īmahe = implore (याचना करना); sūri = lord (undecided); mṛj Hindi needs one rendering (शुद्ध / सँवारना; 1043 "polished").
+- OPEN: dharman also 1055 vidharmaṇi; 1066 samidham label; 1067 gṛṇīṣe confidence.

@@ -1,0 +1,281 @@
+[
+ {
+  "n": "1034",
+  "field": "hindi",
+  "old": "धावक सोम गौओं की इच्छा से, घोड़ों की इच्छा से छोड़े गए हैं; उज्ज्वल, द्रुतगामी, वीरों की इच्छा से।",
+  "new": "धावक सोम गौओं की इच्छा से, घोड़ों की इच्छा से आगे छोड़े गए हैं; उज्ज्वल, द्रुतगामी, वीरों की इच्छा से।",
+  "why": "reviewer (minor): pra (\"forth\", English \"sent forth\") is dropped in the Hindi"
+ },
+ {
+  "n": "1034",
+  "field": "word.gram",
+  "word": "vīrayā",
+  "old": "adverbial inst. f. sg. (vīrya)",
+  "new": "adverbial inst. f. sg. (-yā form, like gavyā and aśvayā)",
+  "why": "reviewer (minor): stem \"vīrya\" is invented (vīrya = valour, not \"desiring heroes\")"
+ },
+ {
+  "n": "1038",
+  "field": "english",
+  "old": "Come hither, great [unclear], O mighty drop, most splendid; sit in the seat, supporter.",
+  "new": "Come hither, [unclear], O mighty drop, most splendid; sit in the seat, supporter.",
+  "why": "reviewer (minor): Hindi omits both mahi and psaraḥ but English keeps \"great\"; languages must match (alternatively add महान् to the Hindi)"
+ },
+ {
+  "n": "1038",
+  "field": "hindi",
+  "old": "यहाँ आओ, हे बलवान बूँद, अत्यन्त द्युम्नवान्; आसन पर बैठो, हे धारण करने वाले।",
+  "new": "यहाँ आओ, हे बलवान बूँद, अत्यन्त द्युम्नवान्; स्थान पर बैठो, हे धारण करने वाले।",
+  "why": "reviewer (minor): glossary (later line): yoni = seat (स्थान), not आसन"
+ },
+ {
+  "n": "1038",
+  "field": "english",
+  "old": "Come hither, [unclear], O mighty drop, most splendid; sit in the seat, supporter.",
+  "new": "Come hither, [unclear], O mighty drop, most splendid; sit in the seat, O supporter.",
+  "why": "reviewer (minor): Hindi has हे (address) but English lacks \"O\""
+ },
+ {
+  "n": "1041",
+  "field": "word.gram",
+  "word": "māmṛje",
+  "old": "3 sg. pf. pass. √mṛj",
+  "new": "3 sg. pf. mid. √mṛj (passive sense)",
+  "why": "reviewer (minor): a perfect has no passive form; the form is middle"
+ },
+ {
+  "n": "1044",
+  "field": "hindi",
+  "old": "उस तुम को, स्थान बनाने वाले को, हम तीव्र आनन्द के लिए, तुम्हारी महान् प्रशंसा के लिए पुकारते हैं।",
+  "new": "उस तुम को, स्थान बनाने वाले को, हम स्फूर्तिपूर्ण आनन्द के लिए, तुम्हारी महान् प्रशंसा के लिए पुकारते हैं।",
+  "why": "reviewer (minor): ghṛṣvi = lively, not \"intense\"; Hindi should match the English \"lively\""
+ },
+ {
+  "n": "1044",
+  "field": "hindi",
+  "old": "उस तुम को, स्थान बनाने वाले को, हम स्फूर्तिपूर्ण आनन्द के लिए, तुम्हारी महान् प्रशंसा के लिए पुकारते हैं।",
+  "new": "उस तुम को, स्थान बनाने वाले को, हम स्फूर्तिपूर्ण आनन्द के लिए, तुम्हारी महान् प्रशंसा के लिए याचना करते हैं।",
+  "why": "reviewer (minor): īmahe = we implore; पुकारना is \"call\""
+ },
+ {
+  "n": "1047",
+  "field": "word.w",
+  "word": "atha",
+  "old": "atha",
+  "new": "athā",
+  "why": "reviewer (minor): glossary: Vedic lengthened forms keep the printed form in w (lengthening is already noted in gram)"
+ },
+ {
+  "n": "1048",
+  "field": "word.w",
+  "word": "atha",
+  "old": "atha",
+  "new": "athā",
+  "why": "reviewer (minor): glossary: Vedic lengthened forms keep the printed form in w (lengthening is already noted in gram)"
+ },
+ {
+  "n": "1049",
+  "field": "word.w",
+  "word": "atha",
+  "old": "atha",
+  "new": "athā",
+  "why": "reviewer (minor): glossary: Vedic lengthened forms keep the printed form in w (lengthening is already noted in gram)"
+ },
+ {
+  "n": "1050",
+  "field": "word.w",
+  "word": "atha",
+  "old": "atha",
+  "new": "athā",
+  "why": "reviewer (minor): glossary: Vedic lengthened forms keep the printed form in w (lengthening is already noted in gram)"
+ },
+ {
+  "n": "1051",
+  "field": "word.w",
+  "word": "atha",
+  "old": "atha",
+  "new": "athā",
+  "why": "reviewer (minor): glossary: Vedic lengthened forms keep the printed form in w (lengthening is already noted in gram)"
+ },
+ {
+  "n": "1052",
+  "field": "word.w",
+  "word": "atha",
+  "old": "atha",
+  "new": "athā",
+  "why": "reviewer (minor): glossary: Vedic lengthened forms keep the printed form in w (lengthening is already noted in gram)"
+ },
+ {
+  "n": "1053",
+  "field": "word.w",
+  "word": "atha",
+  "old": "atha",
+  "new": "athā",
+  "why": "reviewer (minor): glossary: Vedic lengthened forms keep the printed form in w (lengthening is already noted in gram)"
+ },
+ {
+  "n": "1054",
+  "field": "word.w",
+  "word": "atha",
+  "old": "atha",
+  "new": "athā",
+  "why": "reviewer (minor): glossary: Vedic lengthened forms keep the printed form in w (lengthening is already noted in gram)"
+ },
+ {
+  "n": "1055",
+  "field": "word.w",
+  "word": "atha",
+  "old": "atha",
+  "new": "athā",
+  "why": "reviewer (minor): glossary: Vedic lengthened forms keep the printed form in w (lengthening is already noted in gram)"
+ },
+ {
+  "n": "1056",
+  "field": "word.w",
+  "word": "atha",
+  "old": "atha",
+  "new": "athā",
+  "why": "reviewer (minor): glossary: Vedic lengthened forms keep the printed form in w (lengthening is already noted in gram)"
+ },
+ {
+  "n": "1056",
+  "field": "hindi",
+  "old": "हे बूँद, हमारे लिए अद्भुत, घोड़ों वाला, आजीवन टिकने वाला धन ले आओ; तब हमें अधिक सम्पन्न करो।",
+  "new": "हे बूँद, हमारे लिए अद्भुत, घोड़ों वाला, आजीवन धन ले आओ; तब हमें अधिक सम्पन्न करो।",
+  "why": "reviewer (minor): \"टिकने वाला\" (lasting) is added in Hindi only; English has only \"life-long\""
+ },
+ {
+  "n": "1057",
+  "field": "english",
+  "old": "He crosses over; that exhilarating one runs, the stream of the pressed juice. He crosses over; that exhilarating one runs.",
+  "new": "He crosses over; the exhilarating one runs, the stream of the pressed juice. He crosses over; the exhilarating one runs.",
+  "why": "reviewer (minor): \"that\" is added (sa is already rendered \"He\"); same in Hindi \"वह आनन्ददायक\""
+ },
+ {
+  "n": "1057",
+  "field": "hindi",
+  "old": "वह पार करता है; वह आनन्ददायक दौड़ता है, निचोड़े हुए रस की धारा। वह पार करता है; वह आनन्ददायक दौड़ता है।",
+  "new": "वह पार करता है; आनन्ददायक दौड़ता है, निचोड़े हुए रस की धारा। वह पार करता है; आनन्ददायक दौड़ता है।",
+  "why": "reviewer (minor): extra वह (sa already rendered)"
+ },
+ {
+  "n": "1057",
+  "field": "notes",
+  "old": "tarat is taken as a verb form (3 sg. subjunctive or injunctive of tṝ, 'crosses over'); an earlier reviewed rendering of this verse took it as a participle, which does not fit the form. The second line repeats the first pāda and is the refrain of the next three units. The relation of saḥ and mandī (masculine) to dhārā (feminine) is left as printed; andhas = juice, no 'Soma' added.",
+  "new": "tarat is taken as a verb form (3 sg. subjunctive or injunctive of tṝ, 'crosses over'). The second line repeats the first pāda and is the refrain of the next three units. The relation of saḥ and mandī (masculine) to dhārā (feminine) is left as printed; andhas = juice, no 'Soma' added.",
+  "why": "reviewer (minor): note refers to an unnamed earlier rendering; not a reader-facing statement about the text"
+ },
+ {
+  "n": "1058",
+  "field": "english",
+  "old": "The bright one knows the goods of the mortal, [unclear]. He crosses over; that exhilarating one runs.",
+  "new": "The bright one knows the goods of the mortal, [unclear]. He crosses over; the exhilarating one runs.",
+  "why": "reviewer (minor): \"that\" is added (sa already rendered \"He\")"
+ },
+ {
+  "n": "1058",
+  "field": "hindi",
+  "old": "उज्ज्वल मरणशील के धनों को जानती है। वह पार करता है; वह आनन्ददायक दौड़ता है।",
+  "new": "उज्ज्वल मरणशील के धनों को जानती है। वह पार करता है; आनन्ददायक दौड़ता है।",
+  "why": "reviewer (minor): extra वह (sa already rendered)"
+ },
+ {
+  "n": "1059",
+  "field": "english",
+  "old": "From the two, Dhvasra, Puruṣanti, we take thousands. He crosses over; that exhilarating one runs.",
+  "new": "From the two, Dhvasra, Puruṣanti, we take thousands. He crosses over; the exhilarating one runs.",
+  "why": "reviewer (minor): \"that\" is added (sa already rendered \"He\")"
+ },
+ {
+  "n": "1059",
+  "field": "hindi",
+  "old": "दोनों से, ध्वस्र, पुरुषन्ति से, हम हज़ारों लेते हैं। वह पार करता है; वह आनन्ददायक दौड़ता है।",
+  "new": "दोनों से, ध्वस्र, पुरुषन्ति से, हम हज़ारों लेते हैं। वह पार करता है; आनन्ददायक दौड़ता है।",
+  "why": "reviewer (minor): extra वह (sa already rendered)"
+ },
+ {
+  "n": "1060",
+  "field": "english",
+  "old": "From the two of whom we take thirty [unclear] and thousands. He crosses over; that exhilarating one runs.",
+  "new": "From the two of whom we take thirty [unclear] and thousands. He crosses over; the exhilarating one runs.",
+  "why": "reviewer (minor): \"that\" is added (sa already rendered \"He\")"
+ },
+ {
+  "n": "1060",
+  "field": "hindi",
+  "old": "जिन दोनों से हम तीस और हज़ारों लेते हैं। वह पार करता है; वह आनन्ददायक दौड़ता है।",
+  "new": "जिन दोनों से हम तीस और हज़ारों लेते हैं। वह पार करता है; आनन्ददायक दौड़ता है।",
+  "why": "reviewer (minor): extra वह (sa already rendered)"
+ },
+ {
+  "n": "1064",
+  "field": "word.w",
+  "word": "mahema",
+  "old": "mahema",
+  "new": "mahemā",
+  "why": "reviewer (minor): lengthened form must keep the printed form in w (glossary)"
+ },
+ {
+  "n": "1064",
+  "field": "word.w",
+  "word": "riṣāma",
+  "old": "riṣāma",
+  "new": "riṣāmā",
+  "why": "reviewer (minor): lengthened form must keep the printed form in w (glossary)"
+ },
+ {
+  "n": "1065",
+  "field": "word.w",
+  "word": "kṛṇavāma",
+  "old": "kṛṇavāma",
+  "new": "kṛṇavāmā",
+  "why": "reviewer (minor): lengthened form must keep the printed form in w (glossary)"
+ },
+ {
+  "n": "1065",
+  "field": "word.w",
+  "word": "sādhaya",
+  "old": "sādhaya",
+  "new": "sādhayā",
+  "why": "reviewer (minor): lengthened form must keep the printed form in w (glossary)"
+ },
+ {
+  "n": "1065",
+  "field": "word.w",
+  "word": "riṣāma",
+  "old": "riṣāma",
+  "new": "riṣāmā",
+  "why": "reviewer (minor): lengthened form must keep the printed form in w (glossary)"
+ },
+ {
+  "n": "1066",
+  "field": "word.w",
+  "word": "sādhaya",
+  "old": "sādhaya",
+  "new": "sādhayā",
+  "why": "reviewer (minor): lengthened form must keep the printed form in w (glossary)"
+ },
+ {
+  "n": "1066",
+  "field": "word.w",
+  "word": "riṣāma",
+  "old": "riṣāma",
+  "new": "riṣāmā",
+  "why": "reviewer (minor): lengthened form must keep the printed form in w (glossary)"
+ },
+ {
+  "n": "1068",
+  "field": "hindi",
+  "old": "स्वर्णमय धन से यह प्रार्थना, अहिंसित बल के लिए; यह प्रेरित, बुद्धि पाने के लिए।",
+  "new": "स्वर्णमय धन से यह प्रार्थना, अहिंसित बल के लिए; यह प्रेरित मेधावी, बुद्धि पाने के लिए।",
+  "why": "reviewer (minor): glossary: vipra/viprā = the inspired one (प्रेरित मेधावी)"
+ },
+ {
+  "n": "1070",
+  "field": "word.w",
+  "word": "jahi",
+  "old": "jahi",
+  "new": "jahī",
+  "why": "reviewer (minor): printed lengthening must be kept in w (glossary)"
+ }
+]
