@@ -50,7 +50,7 @@ ORDINAL = {"prathamaH": 1, "prathama": 1, "prathamo.ardhaH": 1,
 def to_devanagari(text):
     """ITRANS to Devanagari, NFC."""
     out = sanscript.transliterate(text, sanscript.ITRANS, sanscript.DEVANAGARI)
-    return unicodedata.normalize("NFC", out)
+    return re.sub(" +", " ", unicodedata.normalize("NFC", out))
 
 
 def read_source(path):
@@ -85,6 +85,10 @@ def parse(lines):
                 issues.append((number, "other",
                                f"stray text '{match.group('junk')}' before "
                                "the coordinates (ignored)"))
+            if "  " in match.group("text"):
+                issues.append((number, "other",
+                               "double space in the source line; collapsed "
+                               "to one space"))
             current.append({
                 "line_no": number, "letter": match.group("letter"),
                 "coord": (int(match.group("a")), int(match.group("p")),
