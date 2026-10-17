@@ -1,0 +1,1446 @@
+{
+ "units": [
+  {
+   "n": "293",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "हरे घोड़ों",
+     "problem": "Glossary: hari = bay horse, Hindi भूरा/लाल-भूरा घोड़ा, not 'green'.",
+     "fix": "दो भूरे घोड़ों",
+     "severity": "minor",
+     "patch": {
+      "n": "293",
+      "op": "replace",
+      "field": "hindi",
+      "old": "दो हरे घोड़ों",
+      "new": "दो भूरे घोड़ों"
+     }
+    },
+    {
+     "field": "english",
+     "where": "from your abode",
+     "problem": "okaḥ is accusative with ā (\"to\"), glossed \"to\" by the draft itself; there is no ablative, so \"from your abode\" (English) and \"से\" (Hindi) are not in the text. The note already admits yāhi oke ā as the alternative.",
+     "fix": "either \"come to your abode\" or keep the note; needs a human decision",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "294",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "are ready for your exhilaration",
+     "problem": "The draft glosses cikitre \"are known, appear\" (Hindi प्रकट हैं) but the English says \"are ready\", which neither gloss nor Hindi supports.",
+     "fix": "these Soma juices ... appear for your exhilaration",
+     "severity": "minor",
+     "patch": {
+      "n": "294",
+      "op": "replace",
+      "field": "english",
+      "old": "are ready for your exhilaration",
+      "new": "appear for your exhilaration"
+     }
+    },
+    {
+     "field": "english",
+     "where": "O lover of songs",
+     "problem": "Glossary: girvaṇas = O lover of praise (हे स्तुतिप्रिय).",
+     "fix": "O lover of praise",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "294",
+       "op": "replace",
+       "field": "english",
+       "old": "O lover of songs",
+       "new": "O lover of praise"
+      },
+      {
+       "n": "294",
+       "op": "word",
+       "match_w": "girvaṇaḥ",
+       "field": "gloss",
+       "value": "O lover of praise"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "295",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "अर्थात् अमृत-तुल्य रस देने वाले",
+     "problem": "Hindi adds an explanatory gloss (अर्थात्, अमृत-तुल्य) that is not in the text and is not marked uncertain; English keeps the Sanskrit term sabar with a bracketed gloss. iṣam is rendered अन्न, glossary: iṣ/iṣā = refreshment (पोषण).",
+     "fix": "सबर दुहने वाले ... दूसरे पोषण को",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "295",
+       "op": "replace",
+       "field": "hindi",
+       "old": "सबरदुघा, अर्थात् अमृत-तुल्य रस देने वाले",
+       "new": "सबर दुहने वाले"
+      },
+      {
+       "n": "295",
+       "op": "replace",
+       "field": "hindi",
+       "old": "दूसरे अन्न को",
+       "new": "दूसरे पोषण को"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "296",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "दृढ़ शक्तियाँ",
+     "problem": "Hindi invents \"शक्तियाँ\" (powers) for vīḍavaḥ and adds \"can\" (सकतीं); English \"Neither the great stones nor the strong ones\" makes vīḍavaḥ a second subject, contradicting the draft's own note and gram (adjective of the stones, \"firm\"). The verb varanta is an injunctive/aorist, not a potential.",
+     "fix": "English: The great, firm stones do not hold you back, O Indra, ...; Hindi: बड़े और दृढ़ पत्थर तुम्हें नहीं रोकते",
+     "severity": "error",
+     "patch": [
+      {
+       "n": "296",
+       "op": "set",
+       "field": "english",
+       "value": "The great, firm stones do not hold you back, O Indra, when you wish to give wealth to a praiser like me; no one diminishes that gift of yours."
+      },
+      {
+       "n": "296",
+       "op": "set",
+       "field": "hindi",
+       "value": "हे इन्द्र, बड़े और दृढ़ पत्थर तुम्हें नहीं रोकते, जब तुम मुझ जैसे स्तोता को धन देना चाहते हो; तुम्हारे उस दान को कोई नष्ट नहीं करता।"
+      }
+     ]
+    },
+    {
+     "field": "split",
+     "where": "mā-vate",
+     "problem": "Glossary: compounds are not split at suffixes (-vat). māvat is one word.",
+     "fix": "māvate",
+     "severity": "minor",
+     "patch": {
+      "n": "296",
+      "op": "word",
+      "match_w": "mā-vate",
+      "field": "w",
+      "value": "māvate"
+     }
+    }
+   ]
+  },
+  {
+   "n": "297",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "in the Soma juice",
+     "problem": "Glossary: andhas = juice; \"Soma\" is added in both languages (सोमरस) and in the gloss.",
+     "fix": "rejoicing ... in the juice; Hindi: रस से आनन्दित",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "297",
+       "op": "replace",
+       "field": "english",
+       "old": "in the Soma juice",
+       "new": "in the juice"
+      },
+      {
+       "n": "297",
+       "op": "replace",
+       "field": "hindi",
+       "old": "सोमरस से",
+       "new": "रस से"
+      },
+      {
+       "n": "297",
+       "op": "word",
+       "match_w": "andhasaḥ",
+       "field": "gloss",
+       "value": "of the juice"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "298",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "Our share",
+     "problem": "aṃśu with Indra and puruspṛha (desired by many) is the Soma shoot (draft itself reads aṃśunā as Soma-stalk in 305); \"share\" is the weaker reading and is inconsistent across units. Manual decision: aṃśu = Soma-stalk in 298 as in 305, or keep \"share\" in both.",
+     "fix": "Our Soma-stalk, O Maghavan, desired by many, make great in wealth (if the human agrees)",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "299",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "the word is hard to overcome and protecting",
+     "problem": "English supplies \"is\", Hindi supplies \"हो\" (optative), and the first line gets \"attend to\" (English) but \"धारण करें\" (Hindi): the supplied verbs disagree between the two languages and are not marked.",
+     "fix": "Same non-committal wording in both: ... now protect us; the word hard to overcome, protecting.",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "299",
+       "op": "replace",
+       "field": "english",
+       "old": "; the word is hard to overcome and protecting.",
+       "new": " — the word hard to overcome, protecting."
+      },
+      {
+       "n": "299",
+       "op": "replace",
+       "field": "hindi",
+       "old": "; हमारी वाणी दुर्जेय और रक्षा करने वाली हो।",
+       "new": "; दुर्जेय, रक्षा करने वाली वाणी।"
+      },
+      {
+       "n": "299",
+       "op": "replace",
+       "field": "hindi",
+       "old": "धारण करें",
+       "new": "ध्यान दें"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "300",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "worshipper",
+     "problem": "Glossary: dāśvas = giver (दाता). Draft says worshipper / दानी भक्त. Hindi final clause is also ungrammatical (तुम ... का दान दिया जाता है).",
+     "fix": "bestow on the giver; Hindi: दाता को",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "300",
+       "op": "replace",
+       "field": "english",
+       "old": "on the worshipper",
+       "new": "on the giver"
+      },
+      {
+       "n": "300",
+       "op": "word",
+       "match_w": "dāśuṣe",
+       "field": "gloss",
+       "value": "to the giver"
+      },
+      {
+       "n": "300",
+       "op": "replace",
+       "field": "hindi",
+       "old": "तुम दानी भक्त को देते हो",
+       "new": "तुम दाता को देते हो"
+      },
+      {
+       "n": "300",
+       "op": "replace",
+       "field": "hindi",
+       "old": "तुम देवता का दान दिया जाता है",
+       "new": "तुम्हारा, देवता का, दान दिया जाता है"
+      }
+     ]
+    },
+    {
+     "field": "notes",
+     "where": "nendra",
+     "problem": "nendra is na + indra, but the na is glossed \"not\" and then left untranslated, while kadā ca na is read as kadā cana. Either na negates saścasi (then the sense is reversed) or it is a particle; the draft does not say which. Manual decision; add it to the notes.",
+     "fix": "add a note stating how the second na is read",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "301",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "हरे",
+     "problem": "Glossary: hari = bay horse, Hindi भूरा, not \"green\".",
+     "fix": "दो भूरे घोड़ों",
+     "severity": "minor",
+     "patch": {
+      "n": "301",
+      "op": "replace",
+      "field": "hindi",
+      "old": "दो हरे घोड़ों",
+      "new": "दो भूरे घोड़ों"
+     }
+    },
+    {
+     "field": "split",
+     "where": "vṛtra-hantama",
+     "problem": "Glossary: compounds are not split at -tama; \"hantama\" is not a word.",
+     "fix": "vṛtrahantama",
+     "severity": "minor",
+     "patch": {
+      "n": "301",
+      "op": "word",
+      "match_w": "vṛtra-hantama",
+      "field": "w",
+      "value": "vṛtrahantama"
+     }
+    }
+   ]
+  },
+  {
+   "n": "302",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "तुम्हें ही / की पुकार",
+     "problem": "Hindi adds emphasis \"ही\" and \"की पुकार\" which are not in the text (idā is \"now\"; śrudhi takes the hymn-bearer).",
+     "fix": "remove both additions",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "302",
+       "op": "replace",
+       "field": "hindi",
+       "old": "तुम्हें ही बढ़ाया",
+       "new": "तुम्हें बढ़ाया"
+      },
+      {
+       "n": "302",
+       "op": "replace",
+       "field": "hindi",
+       "old": "ले आने वाले की पुकार सुनो",
+       "new": "ले आने वाले को सुनो"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "303",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "वह महान उषा ... उदार देवी",
+     "problem": "Hindi names Uṣā and adds \"देवी\"; the verse does not name her and the draft notes say the epithets are kept. Also \"कि आँख देख सके\" is an invented purpose clause.",
+     "fix": "आकाश की पुत्री, आती हुई और उदय होती हुई दिखाई दी है। वह महान आँख के लिए अन्धकार को हटाती है और उदार प्रकाश करती है।",
+     "severity": "error",
+     "patch": {
+      "n": "303",
+      "op": "set",
+      "field": "hindi",
+      "value": "आकाश की पुत्री, आती हुई और उदय होती हुई दिखाई दी है। वह महान आँख के लिए अन्धकार को हटाती है और उदार प्रकाश करती है।"
+     }
+    }
+   ]
+  },
+  {
+   "n": "304",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "I too call",
+     "problem": "\"too\" / \"भी\" and \"house\" in the gloss are not in the text.",
+     "fix": "I call you two for help; Hindi: मैं रक्षा के लिए; gloss every clan",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "304",
+       "op": "replace",
+       "field": "english",
+       "old": "I too call",
+       "new": "I call"
+      },
+      {
+       "n": "304",
+       "op": "replace",
+       "field": "hindi",
+       "old": "मैं भी रक्षा के लिए",
+       "new": "मैं रक्षा के लिए"
+      },
+      {
+       "n": "304",
+       "op": "word",
+       "match_w": "viśam-viśam",
+       "field": "gloss",
+       "value": "every clan"
+      },
+      {
+       "n": "304",
+       "op": "replace",
+       "field": "hindi",
+       "old": "हर बस्ती में",
+       "new": "हर प्रजा में"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "305",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gram",
+     "where": "ādunyathā",
+     "problem": "Gram says 2 pl. \"you burn\" but both translations make it 3 sg. (\"he troubles you two\"). The subject mismatch is not explained. Manual: either gram 3 sg./other reading or a translation with \"you\" as subject; keep confidence low.",
+     "fix": "state the real subject in the notes",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "306",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "split",
+     "where": "madhumat-tamaḥ",
+     "problem": "Glossary: compounds are not split at -mat / -tama.",
+     "fix": "madhumattamaḥ",
+     "severity": "minor",
+     "patch": {
+      "n": "306",
+      "op": "word",
+      "match_w": "madhumat-tamaḥ",
+      "field": "w",
+      "value": "madhumattamaḥ"
+     }
+    },
+    {
+     "field": "english",
+     "where": "worshipper / (as kept over)",
+     "problem": "Glossary dāśvas = giver (दाता). The English parenthesis \"(as kept over)\" is not the Sanskrit term and states a guess as text; Hindi \"दिन की अवधि बीतने पर\" is another guess. Mark tiro ahnyam unclear instead.",
+     "fix": "Drink it, O Aśvins, [unclear] of the day, and bestow treasures on the giver.",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "306",
+       "op": "replace",
+       "field": "english",
+       "old": "(as kept over) from the day",
+       "new": "[unclear] of the day"
+      },
+      {
+       "n": "306",
+       "op": "replace",
+       "field": "english",
+       "old": "on the worshipper",
+       "new": "on the giver"
+      },
+      {
+       "n": "306",
+       "op": "word",
+       "match_w": "dāśuṣe",
+       "field": "gloss",
+       "value": "to the giver"
+      },
+      {
+       "n": "306",
+       "op": "replace",
+       "field": "hindi",
+       "old": "उसे दिन की अवधि बीतने पर पियो, और दानी भक्त को रत्न दो",
+       "new": "उसे पियो, जो दिन का है, और दाता को रत्न दो"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "307",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "(call) / jyā",
+     "problem": "\"ā ... yācan\" is the participle governing tvā (\"begging of you\"), so no verb \"call\" is missing; the English inserts it in non-Sanskrit parentheses and Hindi inserts पुकारता हूँ. jyā, which the draft calls not understood, is silently dropped from both languages instead of being marked [unclear] in English. Hindi \"कण्ठ-घूँट\" adds \"throat\".",
+     "fix": "English: I always beg of you with the gulping of Soma [unclear], you, eager like a wild beast roused at the pressings. Who would not beg of the lord?",
+     "severity": "error",
+     "patch": [
+      {
+       "n": "307",
+       "op": "set",
+       "field": "english",
+       "value": "With the gulping of Soma [unclear] I always beg of you, eager like a wild beast roused at the pressings. Who would not beg of the lord?"
+      },
+      {
+       "n": "307",
+       "op": "set",
+       "field": "hindi",
+       "value": "सोम के निगलने से मैं सदा तुमसे याचना करता हूँ, जो सवनों में जंगली पशु के समान उत्सुक और क्रुद्ध हो। स्वामी से कौन याचना न करे?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "308",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "text_flags",
+     "where": "vṛṣṇā",
+     "problem": "vṛṣṇā is changed to vṛṣaṇā in words and explained only in notes; the rule is to add a text_flags entry for every corrected form.",
+     "fix": "add flag",
+     "severity": "minor",
+     "patch": {
+      "n": "308",
+      "op": "set",
+      "field": "text_flags",
+      "value": [
+       {
+        "src": "vṛṣṇā",
+        "suggest": "vṛṣaṇā (m. acc. du., agreeing with harī)",
+        "why": "possible: vṛṣṇā as printed is not a dual accusative; vṛṣaṇā fits harī."
+       }
+      ]
+     }
+    },
+    {
+     "field": "hindi",
+     "where": "हरे",
+     "problem": "Glossary hari: भूरा, not green.",
+     "fix": "दो बलवान भूरे घोड़े",
+     "severity": "minor",
+     "patch": {
+      "n": "308",
+      "op": "replace",
+      "field": "hindi",
+      "old": "दो बलवान हरे घोड़े",
+      "new": "दो बलवान भूरे घोड़े"
+     }
+    }
+   ]
+  },
+  {
+   "n": "309",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "abhi sataḥ / (wealth)",
+     "problem": "abhī ṣatas is glossed but not translated in either language; \"wealth\" is supplied (English in parentheses, Hindi धन) without being in the text; kanīyasaḥ is glossed genitive (\"of the lesser\") but rendered as dative (\"to the lesser one\", के लिए). Manual rewrite needed; render abhi sataḥ [unclear] in English if it cannot be read, keep confidence low.",
+     "fix": "Bring that, O Indra, [unclear]: the greater, of the lesser. For you, O Maghavan, have become rich in much wealth ...",
+     "severity": "error"
+    }
+   ]
+  },
+  {
+   "n": "310",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "to wretchedness",
+     "problem": "pāpatva is \"evil, badness\"; \"wretchedness / दुर्गति\" shifts the sense to fate.",
+     "fix": "not surrender him to evil; Hindi: पाप के हवाले",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "310",
+       "op": "replace",
+       "field": "english",
+       "old": "to wretchedness",
+       "new": "to evil"
+      },
+      {
+       "n": "310",
+       "op": "replace",
+       "field": "hindi",
+       "old": "दुर्गति के हवाले",
+       "new": "पाप के हवाले"
+      },
+      {
+       "n": "310",
+       "op": "word",
+       "match_w": "pāpatvāya",
+       "field": "gloss",
+       "value": "to evil, to badness"
+      }
+     ]
+    },
+    {
+     "field": "split",
+     "where": "dadhiṣe",
+     "problem": "A text_flags entry suggests dadhiṣeya, yet words keeps dadhiṣe glossed \"I would support\"; the corrected form should stand in words, or the flag should be dropped. Manual decision.",
+     "fix": "w dadhiṣeya (if the suggestion is kept)",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "311",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "those who assail us",
+     "problem": "\"us\" is not in the text and Hindi has none.",
+     "fix": "overcome those who assail",
+     "severity": "minor",
+     "patch": {
+      "n": "311",
+      "op": "replace",
+      "field": "english",
+      "old": "those who assail us",
+      "new": "those who assail"
+     }
+    }
+   ]
+  },
+  {
+   "n": "312",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "text_flags",
+     "where": "ririkṣa",
+     "problem": "ririkṣa is silently read as ririkṣe in words; add the flag.",
+     "fix": "add flag",
+     "severity": "minor",
+     "patch": {
+      "n": "312",
+      "op": "set",
+      "field": "text_flags",
+      "value": [
+       {
+        "src": "ririkṣa",
+        "suggest": "ririkṣe (3 sg. pf. mid. √ric)",
+        "why": "possible: the printed final a is not a clear 3 sg. perfect middle; ririkṣe is the expected form."
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "n": "313",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gram",
+     "where": "devam, go-ṛjīkam",
+     "problem": "Both are glossed m. acc. sg., but the only available subject is the neuter andhaḥ (asāvi is 3 sg.), so they are neuter nominative singular adjectives of andhaḥ.",
+     "fix": "n. nom. sg. for both",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "313",
+       "op": "word",
+       "match_w": "devam",
+       "field": "gram",
+       "value": "n. nom. sg. (adj. of andhaḥ)"
+      },
+      {
+       "n": "313",
+       "op": "word",
+       "match_w": "go-ṛjīkam",
+       "field": "gram",
+       "value": "n. nom. sg. (adj. of andhaḥ)"
+      }
+     ]
+    },
+    {
+     "field": "english",
+     "where": "Soma juice / praise",
+     "problem": "Glossary: andhas = juice (no \"Soma\" added); stoma = hymn (स्तोत्र); hari-ending haryaśva Hindi should use भूरे. Draft says Soma juice, \"praise\", हरे.",
+     "fix": "The divine juice mixed with milk ...; take note of our hymn in the exhilarations of the juice",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "313",
+       "op": "replace",
+       "field": "english",
+       "old": "The divine Soma juice",
+       "new": "The divine juice"
+      },
+      {
+       "n": "313",
+       "op": "replace",
+       "field": "english",
+       "old": "our praise in the exhilarations of the Soma",
+       "new": "our hymn in the exhilarations of the juice"
+      },
+      {
+       "n": "313",
+       "op": "replace",
+       "field": "hindi",
+       "old": "दूध मिला सोमरस",
+       "new": "दूध मिला रस"
+      },
+      {
+       "n": "313",
+       "op": "replace",
+       "field": "hindi",
+       "old": "हे हरे घोड़ों के स्वामी",
+       "new": "हे भूरे घोड़ों के स्वामी"
+      },
+      {
+       "n": "313",
+       "op": "replace",
+       "field": "hindi",
+       "old": "सोम के आनन्द में हमारी स्तुति पर",
+       "new": "रस के आनन्दों में हमारे स्तोत्र पर"
+      },
+      {
+       "n": "313",
+       "op": "word",
+       "match_w": "andhaḥ",
+       "field": "gloss",
+       "value": "juice"
+      },
+      {
+       "n": "313",
+       "op": "word",
+       "match_w": "andhasaḥ",
+       "field": "gloss",
+       "value": "of the juice"
+      },
+      {
+       "n": "313",
+       "op": "word",
+       "match_w": "stomam",
+       "field": "gloss",
+       "value": "hymn"
+      }
+     ]
+    },
+    {
+     "field": "split",
+     "where": "ni + asmin",
+     "problem": "nyasminn may be anyasmin (andho 'nyasmin, \"in another\"), with the avagraha lost; the draft reads ni asmin without noting this. Manual decision, keep confidence low.",
+     "fix": "add the alternative reading to the notes",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "314",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gram",
+     "where": "mamadaḥ, dadaḥ",
+     "problem": "After yathā with aso, both look like finite 2 sg. forms (perfect/injunctive), not a participle and a root noun; the draft labels them uncertain, so only the gram label is questionable. Manual.",
+     "fix": "2 sg. forms, uncertain",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "315",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gram",
+     "where": "vaḥ",
+     "problem": "vi yad vaḥ is most naturally vi + yad + vaḥ, 2 sg. aorist of vi-√vṛ \"you opened apart\" (compare vivaḥ in 321). The draft takes vaḥ as the pronoun \"you (the waters)\", which gives the ungrammatical English \"you released you (the waters)\". The sentence is then: when you opened the great mountain apart, [you] released streams down, when you struck the Dānavas. Manual rewrite of the second line in both languages.",
+     "fix": "vaḥ: gloss \"you opened\"; gram 2 sg. aor. vi-√vṛ",
+     "severity": "error"
+    },
+    {
+     "field": "split",
+     "where": "adardaḥ",
+     "problem": "The printed form is adardar (r kept before u); w adardaḥ changes the printed ending without a text_flag. Manual.",
+     "fix": "w adardar or add flag",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "316",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "(Soma) / which ... / great",
+     "problem": "English puts \"(Soma)\" in parentheses (not the Sanskrit term) and \"which ...\" as a placeholder; glossary says [unclear]. Hindi adds अर्थात् बल, सोम. Glossary: tuvi- = strong/mighty (सुदृढ़); vāja always वाज in Hindi.",
+     "fix": "We who have pressed praise you ...; Bring us well-being, of which [unclear], that we may prevail",
+     "severity": "error",
+     "patch": [
+      {
+       "n": "316",
+       "op": "replace",
+       "field": "english",
+       "old": "We who have pressed (Soma) praise you",
+       "new": "We who have pressed praise you"
+      },
+      {
+       "n": "316",
+       "op": "replace",
+       "field": "english",
+       "old": "which ..., that we may prevail",
+       "new": "of which [unclear], that we may prevail"
+      },
+      {
+       "n": "316",
+       "op": "replace",
+       "field": "english",
+       "old": "great manly strength",
+       "new": "mighty manly strength"
+      },
+      {
+       "n": "316",
+       "op": "replace",
+       "field": "hindi",
+       "old": "सोम निचोड़ चुके हम वाज अर्थात् बल और पुरस्कार पाने की इच्छा से",
+       "new": "निचोड़ चुके हम वाज पाने की इच्छा से"
+      },
+      {
+       "n": "316",
+       "op": "replace",
+       "field": "hindi",
+       "old": "हे महान पौरुष वाले",
+       "new": "हे सुदृढ़ पौरुष वाले"
+      },
+      {
+       "n": "316",
+       "op": "word",
+       "match_w": "tuvi-nṛmṇa",
+       "field": "gloss",
+       "value": "O of mighty manly strength"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "317",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "318",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "यश",
+     "problem": "śravas is fame, not yaśas = glory (यश) in the glossary; use कीर्ति and add the pair to the glossary.",
+     "fix": "कीर्ति की इच्छा",
+     "severity": "minor",
+     "patch": {
+      "n": "318",
+      "op": "replace",
+      "field": "hindi",
+      "old": "यश की इच्छा",
+      "new": "कीर्ति की इच्छा"
+     }
+    }
+   ]
+  },
+  {
+   "n": "319",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "Like birds, like eagles / clan",
+     "problem": "Two \"like\" are added although the draft's own note says the text has no iva/na; \"clan\" and \"(a clan name)\" are added roles (LAYER_NOTES 3: no added role). Keep literal.",
+     "fix": "Birds, eagles, the Priyamedha sages sat near Indra, entreating: ...",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "319",
+       "op": "replace",
+       "field": "english",
+       "old": "Like birds, like eagles, the sages of Priyamedha's clan sat",
+       "new": "Birds, eagles, the Priyamedha sages sat"
+      },
+      {
+       "n": "319",
+       "op": "replace",
+       "field": "hindi",
+       "old": "पक्षियों की तरह, सुन्दर पंखों वाले बाज़ों की तरह, प्रियमेध ऋषि",
+       "new": "पक्षी, सुन्दर पंखों वाले बाज़, प्रियमेध ऋषि"
+      },
+      {
+       "n": "319",
+       "op": "word",
+       "match_w": "priya-medhāḥ",
+       "field": "gram",
+       "value": "m. nom. pl., bahuvrīhi (a name)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "320",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "जब तुम ... देखकर",
+     "problem": "Hindi has \"देखकर ... देखा\" with tvā as the one seen twice and loses that suparṇam is in apposition to tvā; \"लोगों\" is an addition.",
+     "fix": "जब हृदय से चाहते हुए उन्होंने तुम्हें, आकाश में ऊपर उड़ते हुए सुन्दर पंखों वाले को, देखा; सोने के पंखों वाले, वरुण के दूत, यम के स्थान में पक्षी, तीव्र गति वाले को।",
+     "severity": "minor",
+     "patch": {
+      "n": "320",
+      "op": "set",
+      "field": "hindi",
+      "value": "जब हृदय से चाहते हुए उन्होंने तुम्हें, आकाश में ऊपर उड़ते हुए सुन्दर पंखों वाले को, देखा; सोने के पंखों वाले, वरुण के दूत, यम के स्थान में पक्षी, तीव्र गति वाले को।"
+     }
+    }
+   ]
+  },
+  {
+   "n": "321",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "Vena, the bright one",
+     "problem": "surucaḥ (\"bright places\", glossed acc. pl.) is translated twice: once as an epithet of Vena and once as \"the bright places\" (Hindi सुन्दर चमकने वाले वेन and उजले स्थानों). viṣṭhāḥ is not translated in English.",
+     "fix": "Vena opened ... the first-born sacred word and the bright places. He opened the depths, his nearest stations, and the womb ...",
+     "severity": "error",
+     "patch": [
+      {
+       "n": "321",
+       "op": "set",
+       "field": "english",
+       "value": "Vena opened, from the front, from the boundary, the first-born sacred word and the bright places. He opened the depths, his nearest stations, and the womb of what exists and of what does not exist."
+      },
+      {
+       "n": "321",
+       "op": "replace",
+       "field": "hindi",
+       "old": "सुन्दर चमकने वाले वेन ने",
+       "new": "वेन ने"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "322",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "323",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "text_flags",
+     "where": "adhadrāḥ",
+     "problem": "The flag claims the Ṛgveda parallel reads adhatta. This is an unverified outside claim; the Ṛgveda parallel (8.96.15) is recalled by this reviewer as reading adhadrāḥ as well, so the variant looks invented. Manual: delete the flag and the matching remark in the gloss/notes, keep adhadrāḥ as printed and mark the clause [unclear] in English.",
+     "fix": "remove text_flag; English: ... [unclear]",
+     "severity": "error"
+    },
+    {
+     "field": "hindi",
+     "where": "अंशुमती नदी",
+     "problem": "\"a river\" is a role the line does not state (LAYER_NOTES 3).",
+     "fix": "अंशुमती पर",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "323",
+       "op": "replace",
+       "field": "hindi",
+       "old": "अंशुमती नदी पर",
+       "new": "अंशुमती पर"
+      },
+      {
+       "n": "323",
+       "op": "word",
+       "match_w": "aṃśumatīm",
+       "field": "gloss",
+       "value": "the Aṃśumatī (a name)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "324",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "notes",
+     "where": "storm-gods",
+     "problem": "The note imports an outside identification (\"storm-gods\") that the line does not give.",
+     "fix": "The Maruts are named in the line as allies.",
+     "severity": "minor",
+     "patch": {
+      "n": "324",
+      "op": "replace",
+      "field": "notes",
+      "old": "The Maruts are the storm-gods, named in the line as allies.",
+      "new": "The Maruts are named in the line as allies."
+     }
+    }
+   ]
+  },
+  {
+   "n": "325",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "mahitvā",
+     "problem": "mahitvā (\"by greatness\") is glossed but dropped from both translations.",
+     "fix": "Behold the wisdom of the god in its greatness: ...; Hindi: देवता के काव्य को उसकी महिमा में देखो",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "325",
+       "op": "replace",
+       "field": "english",
+       "old": "Behold the wisdom of the god:",
+       "new": "Behold the wisdom of the god in its greatness:"
+      },
+      {
+       "n": "325",
+       "op": "replace",
+       "field": "hindi",
+       "old": "देवता की काव्य-शक्ति को देखो",
+       "new": "देवता के काव्य को उसकी महिमा में देखो"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "326",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "उत्पन्न होते ही",
+     "problem": "\"ही\" (emphasis) is not in the text.",
+     "fix": "उत्पन्न होते हुए",
+     "severity": "minor",
+     "patch": {
+      "n": "326",
+      "op": "replace",
+      "field": "hindi",
+      "old": "उत्पन्न होते ही",
+      "new": "उत्पन्न होते हुए"
+     }
+    }
+   ]
+  },
+  {
+   "n": "327",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "(gifts) / (yours) / aryaḥ",
+     "problem": "English puts supplied words in parentheses (\"(gifts)\", \"(yours)\"); Hindi invents \"दानों\" and \"अपना बनाते हो\" and translates aryaḥ as स्वामी while English drops it. The draft calls aryaḥ, taruṣīḥ and purudhasmānam uncertain, so English should show [unclear].",
+     "fix": "I praise you, ... of many [unclear], ...; eager to serve, you make [unclear] the strong ones.",
+     "severity": "error",
+     "patch": [
+      {
+       "n": "327",
+       "op": "replace",
+       "field": "english",
+       "old": "of many (gifts)",
+       "new": "of many [unclear]"
+      },
+      {
+       "n": "327",
+       "op": "replace",
+       "field": "english",
+       "old": "you make the strong ones (yours).",
+       "new": "you make [unclear] the strong ones."
+      },
+      {
+       "n": "327",
+       "op": "replace",
+       "field": "hindi",
+       "old": "अनेक दानों वाले, ",
+       "new": ""
+      },
+      {
+       "n": "327",
+       "op": "replace",
+       "field": "hindi",
+       "old": "सेवा चाहने वाले स्वामी, तुम बलवानों को अपना बनाते हो",
+       "new": "सेवा चाहने वाले, तुम बलवानों को बनाते हो"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "328",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "Bring praise forth / metre note",
+     "problem": "\"praise\" and \"स्तुति\" are supplied objects stated as text; the note about \"normal for the metre\" is an unsupported claim.",
+     "fix": "Bring forth for the great one ... (no object); drop the metre remark",
+     "severity": "minor",
+     "patch": {
+      "n": "328",
+      "op": "replace",
+      "field": "notes",
+      "old": "Line 2 has only four words (a short third pada); this is normal for the metre. ",
+      "new": ""
+     }
+    }
+   ]
+  },
+  {
+   "n": "329",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "पुरस्कार / prizes",
+     "problem": "Glossary: vāja is always वाज in Hindi; dhanāni is \"riches\", not \"prizes\".",
+     "fix": "वाज जीतने में; conqueror of riches",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "329",
+       "op": "replace",
+       "field": "hindi",
+       "old": "पुरस्कार जीतने में",
+       "new": "वाज जीतने में"
+      },
+      {
+       "n": "329",
+       "op": "replace",
+       "field": "english",
+       "old": "conqueror of prizes",
+       "new": "conqueror of riches"
+      },
+      {
+       "n": "329",
+       "op": "word",
+       "match_w": "dhanāni",
+       "field": "gloss",
+       "value": "riches"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "330",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "Prayers / यश",
+     "problem": "brahmāṇi is \"sacred words\" elsewhere (299, 321); śravas is fame, not yaśas (see 318).",
+     "fix": "Sacred words, eager for fame, have been raised up; Hindi पवित्र वचन ... कीर्ति",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "330",
+       "op": "replace",
+       "field": "english",
+       "old": "Prayers, eager for fame",
+       "new": "Sacred words, eager for fame"
+      },
+      {
+       "n": "330",
+       "op": "replace",
+       "field": "hindi",
+       "old": "प्रार्थनाएँ यश की चाह से",
+       "new": "पवित्र वचन कीर्ति की चाह से"
+      },
+      {
+       "n": "330",
+       "op": "replace",
+       "field": "hindi",
+       "old": "यश से सब कुछ",
+       "new": "कीर्ति से सब कुछ"
+      },
+      {
+       "n": "330",
+       "op": "word",
+       "match_w": "brahmāṇi",
+       "field": "gloss",
+       "value": "sacred words"
+      }
+     ]
+    },
+    {
+     "field": "gloss",
+     "where": "īvataḥ",
+     "problem": "īvataḥ is glossed m. gen. sg. (agreeing with me), yet both translations use it as \"so many / इतने\" with vacāṃsi; that contradicts the gram. Probably \"of me, of such a kind\". Manual rewrite of the last clause.",
+     "fix": "let him be the hearer of the words of me, of such a one [unclear]",
+     "severity": "error"
+    },
+    {
+     "field": "notes",
+     "where": "sage Vasiṣṭha",
+     "problem": "Glossary: names get no added role unless the line states it.",
+     "fix": "Vasiṣṭha, named in the line",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "330",
+       "op": "replace",
+       "field": "notes",
+       "old": "is the sage Vasiṣṭha named in the line",
+       "new": "is Vasiṣṭha, named in the line"
+      },
+      {
+       "n": "330",
+       "op": "word",
+       "match_w": "vasiṣṭha",
+       "field": "gram",
+       "value": "m. voc. sg. (a name)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "331",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "332",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "333",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "334",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "(gives) apart",
+     "problem": "\"(gives)\" and Hindi \"देता है / अपनी\" are supplied; the draft itself says the second vi has no verb, so English should show [unclear]. Hindi green horses.",
+     "fix": "... and with his bounty [unclear].",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "334",
+       "op": "replace",
+       "field": "english",
+       "old": "and with his bounty (gives) apart",
+       "new": "and with his bounty [unclear]"
+      },
+      {
+       "n": "334",
+       "op": "replace",
+       "field": "hindi",
+       "old": " और अपनी उदारता से अलग-अलग देता है",
+       "new": ""
+      },
+      {
+       "n": "334",
+       "op": "replace",
+       "field": "hindi",
+       "old": "हरे घोड़ों",
+       "new": "भूरे घोड़ों"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "335",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "शत्रुओं का सदा नाश",
+     "problem": "satrā is \"always/constantly\", not śatru; the draft's English \"constant slayer\" is right but Hindi adds \"शत्रुओं\".",
+     "fix": "सदा नाश करने वाले",
+     "severity": "minor",
+     "patch": {
+      "n": "335",
+      "op": "replace",
+      "field": "hindi",
+      "old": "शत्रुओं का सदा नाश करने वाले",
+      "new": "सदा नाश करने वाले"
+     }
+    }
+   ]
+  },
+  {
+   "n": "336",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "337",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "inspired sages",
+     "problem": "Glossary: vipra = the inspired one (प्रेरित मेधावी), distinct from ṛṣi = sage. \"seek the prize by\" is garbled; vāja is वाज in Hindi.",
+     "fix": "whom the inspired ones, striving for the prize, call upon, he is Indra",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "337",
+       "op": "replace",
+       "field": "english",
+       "old": "the inspired sages seek the prize by, he is Indra",
+       "new": "the inspired ones, striving for the prize, call upon, he is Indra"
+      },
+      {
+       "n": "337",
+       "op": "replace",
+       "field": "hindi",
+       "old": "प्रेरित ऋषि पुरस्कार के लिए पुकारते हैं",
+       "new": "प्रेरित मेधावी वाज की कामना से पुकारते हैं"
+      },
+      {
+       "n": "337",
+       "op": "word",
+       "match_w": "viprāsaḥ",
+       "field": "gloss",
+       "value": "the inspired ones"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "338",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "अन्न",
+     "problem": "Glossary: iṣ = refreshment (पोषण). English \"offering\" for iḍā against Hindi इडा is also inconsistent (suggest a glossary line).",
+     "fix": "वीरों वाले पोषण लाओ",
+     "severity": "minor",
+     "patch": {
+      "n": "338",
+      "op": "replace",
+      "field": "hindi",
+      "old": "अन्न लाओ",
+      "new": "पोषण लाओ"
+     }
+    }
+   ]
+  },
+  {
+   "n": "339",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "reservoir",
+     "problem": "English says \"reservoir\", Hindi says \"समुद्र\" (ocean) for the same word.",
+     "fix": "from the depth of the ocean",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "339",
+       "op": "replace",
+       "field": "english",
+       "old": "from the depth of the reservoir",
+       "new": "from the depth of the ocean"
+      },
+      {
+       "n": "339",
+       "op": "replace",
+       "field": "notes",
+       "old": "sagarasya is rendered 'reservoir' (it may mean 'ocean').",
+       "new": "sagarasya is rendered 'ocean' (it may mean 'reservoir')."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "340",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "text_flags",
+     "where": "dadhita",
+     "problem": "The optative of dhā 3 sg. mid. is dadhīta (long ī); printed dadhita is changed silently or kept with an opt. label.",
+     "fix": "add flag and use the corrected w",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "340",
+       "op": "set",
+       "field": "text_flags",
+       "value": [
+        {
+         "src": "dadhita",
+         "suggest": "dadhīta (3 sg. opt. mid. √dhā)",
+         "why": "possible: the optative middle ending is -īta; the long ī is not printed."
+        }
+       ]
+      },
+      {
+       "n": "340",
+       "op": "word",
+       "match_w": "dadhita",
+       "field": "w",
+       "value": "dadhīta"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "341",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "Whoever accomplishes ... ? / the order",
+     "problem": "The English has a doubled, mis-punctuated clause for the unreadable āsan eṣām apsuvāhaḥ, not marked [unclear]; ṛta = truth in the glossary, not \"the order\".",
+     "fix": "Who today yokes to the pole the cows of truth, ...? [unclear] of these, the joy-bringing ones; he who accomplishes their service shall live.",
+     "severity": "error",
+     "patch": [
+      {
+       "n": "341",
+       "op": "set",
+       "field": "english",
+       "value": "Who today yokes to the pole the cows of truth, the energetic, fiery, hard-to-appease ones? [unclear] of these, the joy-bringing ones; he who accomplishes their service shall live."
+      },
+      {
+       "n": "341",
+       "op": "word",
+       "match_w": "ṛtasya",
+       "field": "gloss",
+       "value": "of truth (ṛta)"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "summary": "Reviewed 49 units (293-341) from the Sanskrit. Issues: 11 error, 46 minor. Units ok: 317, 322, 331, 332, 333, 336. Errors: 296 (Hindi invents शक्तियाँ and English makes vīḍavaḥ a second subject), 303 (Hindi names Uṣā and adds देवी), 307 (verb 'call' supplied although ā ... yācan governs tvā; jyā dropped not marked [unclear]), 309 (abhi sataḥ untranslated, 'wealth' supplied, kanīyasaḥ case), 315 (vaḥ most likely vi-√vṛ 'you opened', not pronoun), 316 ('which ...' placeholder, '(Soma)'), 321 (surucaḥ translated twice), 323 (text_flag claims an Ṛgveda variant adhatta that looks invented), 327 (supplied words in parentheses, aryaḥ dropped in English only), 330 (īvataḥ gram vs translation), 341 (doubled unmarked clause). Recurring minor: Hindi हरे for hari (293,301,308,313,334), worshipper for dāśvas (300,306), 'Soma' added to andhas (297,313), vipra/ṛṣi mix (337), vāja/पुरस्कार (316,329,337), iṣ as अन्न (295,338), -mat/-tama splits (296,301,306), silent corrections without text_flags (308,312,340). Manual decisions: 293 'from your abode'; 298 aṃśu share vs Soma-stalk; 300 role of second na; 305 ādunyathā person; 309 rewrite; 310 dadhiṣe vs dadhiṣeya in words; 313 ny asmin vs anyasmin; 314 mamadaḥ/dadaḥ gram; 315 vaḥ/second line and adardar; 323 adhadrāḥ flag; 330 īvataḥ clause. No regrouping suggested. Glossary additions suggested: parjanya = Parjanya (पर्जन्य); śravas = fame (कीर्ति), distinct from yaśas = glory; brahman (n., 'brahmāṇi') = sacred word (पवित्र वचन); iḍā = Iḍā/refreshment (one choice); aṃśu = Soma-stalk (सोम का डण्ठल); sagara = ocean (समुद्र); vīḍu-/sthavira left as epithets; dānava = Dānavas (दानव, no 'sons of Danu'); apsarases not used. Draft layers remain an unreviewed AI draft until a person reads them."
+}
