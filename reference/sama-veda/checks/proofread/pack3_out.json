@@ -1,0 +1,317 @@
+[
+ {
+  "id": "04.13.1455b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary well-formed line; nothing wrong."
+ },
+ {
+  "id": "04.13.1474a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary well-formed line; nothing wrong."
+ },
+ {
+  "id": "04.13.1481a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary well-formed line; nothing wrong."
+ },
+ {
+  "id": "04.14.1493b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary well-formed line; nothing wrong."
+ },
+ {
+  "id": "04.14.1501b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary well-formed line; nothing wrong."
+ },
+ {
+  "id": "04.14.1515b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary well-formed line; nothing wrong."
+ },
+ {
+  "id": "04.15.1536a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary well-formed line; nothing wrong."
+ },
+ {
+  "id": "04.15.1539b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary well-formed line; nothing wrong."
+ },
+ {
+  "id": "04.15.1559a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary well-formed line; nothing wrong."
+ },
+ {
+  "id": "04.15.1566b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary well-formed line; nothing wrong."
+ },
+ {
+  "id": "04.16.1575a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary well-formed line; nothing wrong."
+ },
+ {
+  "id": "04.16.1586b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary well-formed line; nothing wrong."
+ },
+ {
+  "id": "04.16.1588b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary well-formed line; nothing wrong."
+ },
+ {
+  "id": "04.16.1592c",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary well-formed line; nothing wrong."
+ },
+ {
+  "id": "04.16.1593a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary well-formed line; nothing wrong."
+ },
+ {
+  "id": "04.16.1596a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary well-formed line; nothing wrong."
+ },
+ {
+  "id": "04.16.1615b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary well-formed line; nothing wrong."
+ },
+ {
+  "id": "04.17.1632a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary well-formed line; nothing wrong."
+ },
+ {
+  "id": "04.17.1637b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary well-formed line; nothing wrong."
+ },
+ {
+  "id": "04.17.1650a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary well-formed line; nothing wrong."
+ },
+ {
+  "id": "04.18.1677a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary well-formed line; nothing wrong."
+ },
+ {
+  "id": "04.18.1682a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary well-formed line; nothing wrong."
+ },
+ {
+  "id": "04.18.1689a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary well-formed line; nothing wrong."
+ },
+ {
+  "id": "04.19.1711b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary well-formed line; nothing wrong."
+ },
+ {
+  "id": "04.19.1727a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary well-formed line; nothing wrong."
+ },
+ {
+  "id": "04.19.1738b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary well-formed line; nothing wrong."
+ },
+ {
+  "id": "04.19.1739a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary well-formed line; nothing wrong."
+ },
+ {
+  "id": "04.19.1751b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary well-formed line; nothing wrong."
+ },
+ {
+  "id": "04.20.1785b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary well-formed line; nothing wrong."
+ },
+ {
+  "id": "04.20.1786a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary well-formed line; nothing wrong."
+ },
+ {
+  "id": "04.20.1788b",
+  "kind": "sample",
+  "verdict": "error",
+  "suggest": "महस्ते सतो महिमा पनिष्टम मह्ना देव महाँ असि ॥",
+  "why": "ष्त is an impossible conjunct in Sanskrit (ष + त must be ष्ट): पनिष्तम should read पनिष्टम."
+ },
+ {
+  "id": "04.20.1791a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary well-formed line; nothing wrong."
+ },
+ {
+  "id": "04.20.1792a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary well-formed line; nothing wrong."
+ },
+ {
+  "id": "04.20.1802c",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary well-formed line; nothing wrong."
+ },
+ {
+  "id": "04.20.1807b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary well-formed line; nothing wrong."
+ },
+ {
+  "id": "04.21.1818b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary well-formed line; nothing wrong."
+ },
+ {
+  "id": "04.21.1827b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary well-formed line; nothing wrong."
+ },
+ {
+  "id": "04.21.1837b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary well-formed line; nothing wrong."
+ },
+ {
+  "id": "04.21.1841b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary well-formed line; nothing wrong."
+ },
+ {
+  "id": "04.22.1855b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary well-formed line; nothing wrong."
+ },
+ {
+  "id": "02.01.594a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary well-formed line; nothing wrong."
+ },
+ {
+  "id": "02.01.597a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary well-formed line; nothing wrong."
+ },
+ {
+  "id": "02.01.615b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary well-formed line; nothing wrong."
+ },
+ {
+  "id": "02.01.619a",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary well-formed line; nothing wrong."
+ },
+ {
+  "id": "03.01.643b",
+  "kind": "sample",
+  "verdict": "ok",
+  "suggest": "",
+  "why": "Ordinary well-formed line; nothing wrong."
+ }
+]

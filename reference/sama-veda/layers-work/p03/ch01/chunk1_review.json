@@ -1,0 +1,252 @@
+{
+ "units": [
+  {
+   "n": "641",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gram",
+     "where": "vidā (both occurrences)",
+     "problem": "vidā cannot be a lengthened form of viddhi (2 sg. impv. of √vid 'know', class 2). The form is the class-6 imperative vida (√vid 'find', vindati) with Vedic lengthening of the final vowel; 'gātuṃ vid' is the fixed Vedic phrase 'find the way'. The root is right but the derivation and the primary gloss 'know' are wrong.",
+     "fix": "gloss: find; gram: 2 sg. impv. √vid 'find' (class 6, vindati; vida with Vedic lengthening of the final vowel)",
+     "severity": "error",
+     "patch": [
+      {"n": "641", "op": "word", "match_w": "vidā", "field": "gloss", "value": "find", "occurrence": "all"},
+      {"n": "641", "op": "word", "match_w": "vidā", "field": "gram", "value": "2 sg. impv. √vid 'find' (class 6, vindati; vida with Vedic lengthening of the final vowel)", "occurrence": "all"}
+     ]
+    },
+    {
+     "field": "english",
+     "where": "whole translation",
+     "problem": "'Know ... know the way' follows the wrong root (see gram); and 'of the many ancient powers' puts both candidate senses of pūrvīṇām into the text at once. pūrvī is the regular Vedic feminine of puru 'many', agreeing with śacīnām; one sense only belongs in the translation (the other stays in notes).",
+     "fix": "Find, O Maghavan, find the way; point out the directions. Help us, O lord of powers, of the many powers, O rich in wealth.",
+     "severity": "error",
+     "patch": {"n": "641", "op": "set", "field": "english", "value": "Find, O Maghavan, find the way; point out the directions. Help us, O lord of powers, of the many powers, O rich in wealth."}
+    },
+    {
+     "field": "hindi",
+     "where": "जानो, मार्ग को जानो / अनेक पुरातन शक्तियों",
+     "problem": "Same two problems as the English: 'जानो' follows the wrong root, and 'अनेक पुरातन' doubles the sense of pūrvīṇām.",
+     "fix": "हे मघवन्, पाओ, मार्ग को पाओ; दिशाओं को बता दो। हे शक्तियों के स्वामी, हे अनेक शक्तियों के स्वामी, हे बहुधन, हमें सहायता दो।",
+     "severity": "error",
+     "patch": {"n": "641", "op": "set", "field": "hindi", "value": "हे मघवन्, पाओ, मार्ग को पाओ; दिशाओं को बता दो। हे शक्तियों के स्वामी, हे अनेक शक्तियों के स्वामी, हे बहुधन, हमें सहायता दो।"}
+    },
+    {
+     "field": "notes",
+     "where": "vidā and śikṣā are Vedic imperatives ... pūrvīṇām may be ...",
+     "problem": "The note should record the corrected derivation of vidā and say that 'ancient' is the secondary sense kept out of the translation.",
+     "fix": "replace the two sentences",
+     "severity": "minor",
+     "patch": [
+      {"n": "641", "op": "replace", "field": "notes", "old": "vidā and śikṣā are Vedic imperatives with lengthened final vowel; vidā could also be read as 2 sg. subjunctive.", "new": "vidā is the class-6 imperative vida of √vid 'find' (vindati) with Vedic lengthening, as in the fixed phrase gātuṃ vid 'find the way'; śikṣā is likewise śikṣa lengthened."},
+      {"n": "641", "op": "replace", "field": "notes", "old": "pūrvīṇām may be 'of many' (puru) or 'of the former, ancient' (pūrva); both senses are given.", "new": "pūrvīṇām is taken as the feminine of puru 'many' agreeing with śacīnām; 'of the former, ancient' (pūrva) is possible but not used in the translation."}
+     ]
+    }
+   ]
+  },
+  {
+   "n": "642",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "like the light of heaven, like a ray",
+     "problem": "There is one comparative particle (na) but the translation has two similes; aṃśuḥ is a nominative predicate, not a second object of comparison: svar na aṃśuḥ = '(you are) a ray like the light of heaven'.",
+     "fix": "With these aids you are, like the light of heaven, a ray; O attentive one, O Indra, make us aware, for splendour and for strength.",
+     "severity": "minor",
+     "patch": {"n": "642", "op": "replace", "field": "english", "old": "you are like the light of heaven, like a ray;", "new": "you are, like the light of heaven, a ray;"}
+    },
+    {
+     "field": "hindi",
+     "where": "सूर्य के प्रकाश के समान, किरण के समान हो",
+     "problem": "Same doubled simile as the English.",
+     "fix": "इन सहायताओं से तुम, सूर्य के प्रकाश के समान, किरण हो; ...",
+     "severity": "minor",
+     "patch": {"n": "642", "op": "replace", "field": "hindi", "old": "किरण के समान हो;", "new": "किरण हो;"}
+    },
+    {
+     "field": "notes",
+     "where": "Parallel: the Aitareya-Āraṇyaka text ...",
+     "problem": "LAYER_NOTES forbid importing other books or commentary; the note about the Aitareya-Āraṇyaka refrain is not needed since it is 'not applied'.",
+     "fix": "delete the sentence",
+     "severity": "minor",
+     "patch": {"n": "642", "op": "replace", "field": "notes", "old": " Parallel: the Aitareya-Āraṇyaka text of this Mahānāmnī has a refrain 'evā hy evā hy evā hi' between the two lines, which this edition does not print here (not applied).", "new": ""}
+    }
+   ]
+  },
+  {
+   "n": "643",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "ऐसा ही है: शक्र ... है",
+     "problem": "'evā hi' is rendered as a separate sentence with its own verb ('ऐसा ही है:'), then 'है' is supplied again; the text has one verbless clause.",
+     "fix": "इस प्रकार ही शक्र धन के लिए और बल के लिए है, हे वज्रधारी।",
+     "severity": "minor",
+     "patch": {"n": "643", "op": "replace", "field": "hindi", "old": "ऐसा ही है: शक्र धन के लिए और बल के लिए है, हे वज्रधारी।", "new": "इस प्रकार ही शक्र धन के लिए और बल के लिए है, हे वज्रधारी।"}
+    },
+    {
+     "field": "english",
+     "where": "Thus indeed is Śakra for wealth",
+     "problem": "Word order reads as a question; plain statement order is clearer and equally literal.",
+     "fix": "Thus indeed Śakra is for wealth and for strength, O wielder of the thunderbolt.",
+     "severity": "minor",
+     "patch": {"n": "643", "op": "replace", "field": "english", "old": "Thus indeed is Śakra for wealth", "new": "Thus indeed Śakra is for wealth"}
+    }
+   ]
+  },
+  {
+   "n": "644",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gram",
+     "where": "vidā",
+     "problem": "Same derivation as 641: class-6 imperative vida of √vid 'find', lengthened; not 'know'.",
+     "fix": "2 sg. impv. √vid 'find' (class 6, vindati; vida with Vedic lengthening of the final vowel)",
+     "severity": "minor",
+     "patch": {"n": "644", "op": "word", "match_w": "vidā", "field": "gram", "value": "2 sg. impv. √vid 'find' (class 6, vindati; vida with Vedic lengthening of the final vowel)"}
+    },
+    {
+     "field": "gram",
+     "where": "su-vīryam",
+     "problem": "suvīrya is the neuter abstract (taddhita) of the bahuvrīhi suvīra 'having good heroes'; it is not itself a bahuvrīhi or a tatpuruṣa.",
+     "fix": "n. acc. sg. (abstract noun from su-vīra 'having good heroes')",
+     "severity": "minor",
+     "patch": {"n": "644", "op": "word", "match_w": "su-vīryam", "field": "gram", "value": "n. acc. sg. (abstract noun from su-vīra 'having good heroes')"}
+    },
+    {
+     "field": "english",
+     "where": "according to our wishes",
+     "problem": "'our' is supplied and the possessor is not stated (the note admits this); 'according to the wishes' / 'at will' is what the text gives, and the wishes are as likely Indra's own.",
+     "fix": "be lord of strengths according to the wishes.",
+     "severity": "minor",
+     "patch": {"n": "644", "op": "replace", "field": "english", "old": "according to our wishes", "new": "according to the wishes"}
+    },
+    {
+     "field": "notes",
+     "where": "('our' is supplied in English)",
+     "problem": "Out of date once 'our' is removed.",
+     "fix": "'according to the wishes' (whose is not stated)",
+     "severity": "minor",
+     "patch": {"n": "644", "op": "replace", "field": "notes", "old": "whose wishes is not stated ('our' is supplied in English)", "new": "whose wishes is not stated and nothing is supplied"}
+    }
+   ]
+  },
+  {
+   "n": "645",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "like a ray, like a flame",
+     "problem": "One na, two similes. aṃśur na śociḥ = 'a flame like a ray' (śociḥ nominative predicate, aṃśuḥ the thing compared), exactly parallel to 642 svar na aṃśuḥ.",
+     "fix": "He who is the most bountiful of the bountiful, a flame like a ray: O wise one, lead us onward.",
+     "severity": "minor",
+     "patch": {"n": "645", "op": "replace", "field": "english", "old": "like a ray, like a flame:", "new": "a flame like a ray:"}
+    },
+    {
+     "field": "english",
+     "where": "Indra is known as such",
+     "problem": "'as such' is not in the text (indro vide = 'Indra is known').",
+     "fix": "Indra is known; praise him indeed.",
+     "severity": "minor",
+     "patch": {"n": "645", "op": "replace", "field": "english", "old": "Indra is known as such;", "new": "Indra is known;"}
+    },
+    {
+     "field": "hindi",
+     "where": "किरण के समान, ज्वाला के समान / इन्द्र ऐसा ही जाना जाता है",
+     "problem": "Same two additions as the English (second simile; 'ऐसा ही').",
+     "fix": "जो उदारों में सबसे उदार है, किरण के समान ज्वाला — हे ज्ञानी, हमें आगे ले चलो। इन्द्र जाना जाता है; उसी की स्तुति करो।",
+     "severity": "minor",
+     "patch": {"n": "645", "op": "set", "field": "hindi", "value": "जो उदारों में सबसे उदार है, किरण के समान ज्वाला — हे ज्ञानी, हमें आगे ले चलो। इन्द्र जाना जाता है; उसी की स्तुति करो।"}
+    }
+   ]
+  },
+  {
+   "n": "646",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "647",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "648",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gram",
+     "where": "saṃnyase",
+     "problem": "A 2 sg. present middle of sam-ni-√as 'throw' (class 4) would be saṃnyasyase; of √as 'be' there is no such middle. saṃnyase as printed fits the Vedic dative infinitive in -se (like ṛñjase in 643) better than a finite form. The draft already calls it uncertain, but the gram states an impossible derivation.",
+     "fix": "uncertain: Vedic infinitive in -se of sam-ni-√as 'to lay down, take up' (a finite 2 sg. mid. would be saṃnyasyase)",
+     "severity": "minor",
+     "patch": {"n": "648", "op": "word", "match_w": "saṃnyase", "field": "gram", "value": "uncertain: Vedic infinitive in -se of sam-ni-√as 'to lay down, take up' (a finite 2 sg. mid. would be saṃnyasyase)"}
+    },
+    {
+     "field": "notes",
+     "where": "saṃnyase is uncertain: taken as 2 sg. middle ...",
+     "problem": "Should match the corrected gram; the translation 'that new praise you take up' is kept as the reading, but with the infinitive the clause would be 'Śakra is now master, to take up that new (praise)'. Needs a human choice; the note should say so.",
+     "fix": "saṃnyase is uncertain: as printed it is most easily a dative infinitive in -se of sam-ni-√as ('for laying down / to take up'); the translation keeps a finite rendering 'you take up', a 2 sg. middle of the class-4 present would strictly be saṃnyasyase.",
+     "severity": "minor",
+     "patch": {"n": "648", "op": "replace", "field": "notes", "old": "saṃnyase is uncertain: taken as 2 sg. middle of sam-ni-√as 'you lay down / take in'; it could also be a dative infinitive ('for laying down').", "new": "saṃnyase is uncertain: as printed it is most easily a dative infinitive in -se of sam-ni-√as ('for laying down / to take up'); the translation keeps a finite rendering 'you take up', although a 2 sg. middle of the class-4 present would strictly be saṃnyasyase."}
+    },
+    {
+     "field": "english",
+     "where": "that new praise you take up",
+     "problem": "If the infinitive reading is adopted, the last clause should read 'Śakra indeed is now the master, to take up that new praise.' Left for a person to decide; no patch.",
+     "fix": "Śakra indeed is now the master, to take up that new praise.",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "649",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "you the hero who goes among the cows",
+     "problem": "'you' is not in the text; the second line is a bare relative clause with nominatives (śūro yo ... sakhā suśevo advayuḥ) and its link to the addressee is an interpretation.",
+     "fix": "O lord of the people, O slayer of Vṛtra, let us two speak together in the contests, the hero who goes among the cows, a most kindly friend, free from duplicity.",
+     "severity": "minor",
+     "patch": {"n": "649", "op": "replace", "field": "english", "old": "in the contests, you the hero who goes", "new": "in the contests, the hero who goes"}
+    },
+    {
+     "field": "hindi",
+     "where": "तुम वह वीर हो जो",
+     "problem": "Same supplied 'तुम ... हो'.",
+     "fix": "... संग्रामों में हम दोनों परस्पर बात करें — वह वीर जो गौओं के बीच जाता है, अति स्नेही मित्र, छल से रहित।",
+     "severity": "minor",
+     "patch": {"n": "649", "op": "replace", "field": "hindi", "old": "तुम वह वीर हो जो गौओं के बीच जाता है", "new": "वह वीर जो गौओं के बीच जाता है"}
+    },
+    {
+     "field": "notes",
+     "where": "The nominatives ... describe the one addressed.",
+     "problem": "Stated as fact; it is one reading.",
+     "fix": "The nominatives śūraḥ, sakhā, suśevaḥ, advayuḥ have no verb of their own; they most likely describe the one addressed, but the text does not say so.",
+     "severity": "minor",
+     "patch": {"n": "649", "op": "replace", "field": "notes", "old": "The nominatives śūraḥ, sakhā, suśevaḥ, advayuḥ describe the one addressed.", "new": "The nominatives śūraḥ, sakhā, suśevaḥ, advayuḥ have no verb of their own; they most likely describe the one addressed, but the text does not say so."}
+    }
+   ]
+  },
+  {
+   "n": "650",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "notes",
+     "where": "o3o3o3vā",
+     "problem": "The 'stobha' o3o3o3vā is most simply the second evā of the refrain 'evā hy evā' (cf. 643 evā hi) with its first syllable sung as a thrice-marked pluta o3; the note should record this possibility (the token still stays untranslated, as the glossary requires).",
+     "fix": "append a note",
+     "severity": "minor",
+     "patch": {"n": "650", "op": "append_note", "text": "o3o3o3vā is probably the second 'evā' of 'evā hy evā' with its first syllable sung as pluta o3 (three times); it is kept untranslated as a chant syllable."}
+    }
+   ]
+  }
+ ],
+ "summary": "10 units of the Mahānāmnī (SV 3.1.641-650). Tokens all match the printed text; no invented Sanskrit; the one text_flag (645, lost a of aṃśuḥ) is sound. Errors (3, all in 641): vidā derived from viddhi (√vid 'know') instead of the class-6 imperative vida of √vid 'find' (gātuṃ vid = 'find the way'), and both translations following it ('know') plus both senses of pūrvīṇām put into the text at once. Minor (18): doubled similes where the text has one na (642, 645), supplied words stated as text ('as such' 645, 'our' 644, 'you' 649), 643 Hindi gives evā hi its own verb, 644 su-vīryam mislabelled bahuvrīhi, 648 saṃnyase gram states an impossible finite form (saṃnyase vs saṃnyasyase; infinitive in -se more likely), 642 note imports the Aitareya-Āraṇyaka reading against LAYER_NOTES, 650 the pluta token is likely the second evā of the refrain. Manual decision: 648 whether to render saṃnyase as infinitive ('to take up that new praise') or keep the finite 'you take up' (no patch given for the translation). No regrouping suggested; 646 and 647 ok. Not flagged (uncertain, no variant invented): the typed र्न्न in 642 and 645 where retroflex ण्ण (ṇatva after r) would be expected in many prints; left as printed."
+}

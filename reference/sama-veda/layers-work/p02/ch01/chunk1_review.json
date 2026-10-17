@@ -1,0 +1,131 @@
+{
+ "units": [
+  {"n": "586", "verdict": "fix", "issues": [
+   {"field": "text_flags", "where": "obhe", "problem": "obhe is not a typo: it is the Vedic sandhi ā + ubhe (ā belongs to paprāḥ: 'ā prāḥ' = filled up). The Ṛgvedic parallel RV 6.19.6 itself reads 'ródasī obhé suśipra prāḥ', so the flag invents a variant and the claim 'the RV parallel reads ubhe' is false.", "fix": "remove the obhe flag; keep only the pupuri flag", "severity": "error",
+    "patch": {"n": "586", "op": "set", "field": "text_flags", "value": [{"src": "pupuri", "suggest": "papuri", "why": "possible: the Ṛgvedic parallel (RV 6.19.6) reads papuri 'abundant'; pupuri is not a known form"}]}},
+   {"field": "split", "where": "obhe", "problem": "token obhe must be split as ā + ubhe (ā + u > o); the preverb ā goes with paprāḥ.", "fix": "words: ā (preverb) | ubhe (f. acc. du.)", "severity": "error",
+    "patch": {"n": "586", "op": "set", "field": "lines.1.tokens.3.words", "value": [{"w": "ā", "gloss": "fully (with paprāḥ)", "gram": "preverb"}, {"w": "ubhe", "gloss": "both", "gram": "f. acc. du."}]}},
+   {"field": "notes", "where": "whole note", "problem": "note should record the obhe = ā ubhe analysis instead of the false claim about the RV reading.", "fix": "replace note", "severity": "minor",
+    "patch": {"n": "586", "op": "set", "field": "notes", "value": "Ṛgvedic mantra (RV 6.19.6, which reads papuri and, in its second half, yeneme citra vajrahasta rodasī obhe suśipra prāḥ). obhe = ā + ubhe (Vedic sandhi), the ā belonging to paprāḥ ('filled up'). didhṛkṣema taken as desiderative optative of √dhṛ; yat as the relative pronoun referring to śravaḥ."}}
+  ]},
+  {"n": "587", "verdict": "fix", "issues": [
+   {"field": "hindi", "where": "चराचर जगत्", "problem": "jagat 'the moving (world)' rendered चराचर 'moving and unmoving', which adds the opposite member.", "fix": "जंगम जगत्", "severity": "minor",
+    "patch": {"n": "587", "op": "replace", "field": "hindi", "old": "चराचर जगत्", "new": "जंगम जगत्"}}
+  ]},
+  {"n": "588", "verdict": "fix", "issues": [
+   {"field": "english", "where": "the heavenly light", "problem": "glossary fixes svar = light of heaven (सूर्य का प्रकाश).", "fix": "the light of heaven / सूर्य का प्रकाश", "severity": "minor",
+    "patch": [{"n": "588", "op": "replace", "field": "english", "old": "the heavenly light", "new": "the light of heaven"},
+              {"n": "588", "op": "replace", "field": "hindi", "old": "स्वर्ग का प्रकाश", "new": "सूर्य का प्रकाश"},
+              {"n": "588", "op": "word", "match_w": "svaḥ", "field": "gloss", "value": "the light of heaven"}]},
+   {"field": "hindi", "where": "रमणीय ऐश्वर्य महान् है", "problem": "ऐश्वर्य is supplied (rantyam bṛhat = 'the delightful [thing] is great'); the English marks its supplement with brackets, the Hindi does not. Low-confidence unit; a human should decide the supplied noun (ऐश्वर्य / धाम / वैभव) or drop it.", "fix": "उस इन्द्र का रमणीय महान् है (or choose the supplied noun deliberately)", "severity": "minor"}
+  ]},
+  {"n": "592", "verdict": "fix", "issues": [
+   {"field": "hindi", "where": "हे विस्तृत सुख पानेवाले सोम!", "problem": "'सोम' is not in the line (the addressee is only implied); the English correctly omits it.", "fix": "हे विस्तृत सुख पानेवाले!", "severity": "minor",
+    "patch": {"n": "592", "op": "replace", "field": "hindi", "old": "हे विस्तृत सुख पानेवाले सोम!", "new": "हे विस्तृत सुख पानेवाले!"}}
+  ]},
+  {"n": "596", "verdict": "fix", "issues": [
+   {"field": "gram", "where": "mimeti", "problem": "mimeti is the ordinary class-3 present of √mā 'bellow' (mimāti/mimeti), not an intensive.", "fix": "3 sg. pres. (cl. 3) √mā 'bellow'", "severity": "minor",
+    "patch": [{"n": "596", "op": "word", "match_w": "mimeti", "field": "gram", "value": "3 sg. pres. (cl. 3) √mā 'bellow'"},
+              {"n": "596", "op": "replace", "field": "notes", "old": "mimeti: intensive of √mā 'bellow'.", "new": "mimeti: class-3 present of √mā 'bellow'."}]}
+  ]},
+  {"n": "597", "verdict": "fix", "issues": [
+   {"field": "english", "where": "thunderbolt-bearer / वज्री", "problem": "glossary fixes vajrin = wielder of the thunderbolt (Hindi वज्रधारी).", "fix": "the wielder of the thunderbolt / वज्रधारी", "severity": "minor",
+    "patch": [{"n": "597", "op": "replace", "field": "english", "old": "the thunderbolt-bearer", "new": "the wielder of the thunderbolt"},
+              {"n": "597", "op": "replace", "field": "hindi", "old": "इन्द्र वज्री और", "new": "इन्द्र वज्रधारी और"},
+              {"n": "597", "op": "word", "match_w": "vajrī", "field": "gloss", "value": "wielder of the thunderbolt"}]}
+  ]},
+  {"n": "601", "verdict": "fix", "issues": [
+   {"field": "english", "where": "O bountiful one", "problem": "glossary fixes maghavan = O bountiful one (Maghavan).", "fix": "O bountiful one (Maghavan)", "severity": "minor",
+    "patch": {"n": "601", "op": "replace", "field": "english", "old": "O bountiful one, for the slaying", "new": "O bountiful one (Maghavan), for the slaying"}}
+  ]},
+  {"n": "602", "verdict": "fix", "issues": [
+   {"field": "hindi", "where": "जैसे उसने द्यौ को आकाश में दृढ़ किया है", "problem": "'उसने ... किया है' (a past act of Prajāpati) is added; divi dyām iva is only 'like the sky in heaven', as the English has it.", "fix": "जैसे आकाश में द्यौ को", "severity": "minor",
+    "patch": {"n": "602", "op": "replace", "field": "hindi", "old": "जैसे उसने द्यौ को आकाश में दृढ़ किया है।", "new": "जैसे आकाश में द्यौ को।"}}
+  ]},
+  {"n": "603", "verdict": "fix", "issues": [
+   {"field": "gram", "where": "abhimāti-ṣāhaḥ", "problem": "A root-noun stem in -ṣāh cannot have a vocative singular in -ṣāhaḥ (voc. would be -ṣāṭ). abhimātiṣāhaḥ is gen. sg., agreeing with te: 'your (the conqueror of assailants') milky juices, strengths, manly powers'. The English and Hindi vocatives follow the wrong label.", "fix": "gloss 'of the conqueror of assailants', gram 'm. gen. sg. tat-puruṣa (with te)'; translations adjusted", "severity": "error",
+    "patch": [{"n": "603", "op": "word", "match_w": "abhimāti-ṣāhaḥ", "field": "gloss", "value": "of the conqueror of assailants"},
+              {"n": "603", "op": "word", "match_w": "abhimāti-ṣāhaḥ", "field": "gram", "value": "m. gen. sg. tat-puruṣa (with te)"},
+              {"n": "603", "op": "set", "field": "english", "value": "May your milky juices come together, and together the strengths, together the manly powers of you, the conqueror of assailants; swelling for immortality, O Soma, take to yourself the highest glories in heaven."},
+              {"n": "603", "op": "set", "field": "hindi", "value": "शत्रुओं को जीतनेवाले तुम्हारे दूध जैसे रस एकत्र हों, वाज एकत्र हों, वृष्णि बल एकत्र हों। अमृत के लिए बढ़ते हुए, हे सोम! तुम द्युलोक में उत्तम यशों को धारण करो।"},
+              {"n": "603", "op": "append_note", "text": "abhimātiṣāhaḥ is genitive singular (of te), not a vocative."}]}
+  ]},
+  {"n": "606", "verdict": "fix", "issues": [
+   {"field": "gram", "where": "manvata", "problem": "manvata has no augment (the imperfect is amanvata); it is an injunctive.", "fix": "3 pl. inj. mid. √man (unaugmented)", "severity": "minor",
+    "patch": {"n": "606", "op": "word", "match_w": "manvata", "field": "gram", "value": "3 pl. inj. mid. √man (unaugmented)"}}
+  ]},
+  {"n": "612", "verdict": "fix", "issues": [
+   {"field": "english", "where": "the thunderbolt-bearer / वज्री", "problem": "glossary fixes vajrin = wielder of the thunderbolt (Hindi वज्रधारी).", "fix": "the wielder of the thunderbolt / वज्रधारी", "severity": "minor",
+    "patch": [{"n": "612", "op": "replace", "field": "english", "old": "the thunderbolt-bearer", "new": "the wielder of the thunderbolt"},
+              {"n": "612", "op": "replace", "field": "hindi", "old": "जिन्हें वज्री ने", "new": "जिन्हें वज्रधारी ने"},
+              {"n": "612", "op": "word", "match_w": "vajrī", "field": "gloss", "value": "the wielder of the thunderbolt"}]}
+  ]},
+  {"n": "621", "verdict": "fix", "issues": [
+   {"field": "hindi", "where": "सब ओर बढ़ गया", "problem": "'सब ओर' is added; atyaricyata bhūmim paścāt atho puraḥ = 'extended beyond the earth, behind and then in front'.", "fix": "वह जन्म लेकर पीछे और फिर आगे भूमि से परे बढ़ गया।", "severity": "minor",
+    "patch": {"n": "621", "op": "replace", "field": "hindi", "old": "वह जन्म लेकर भूमि से पीछे और आगे, सब ओर बढ़ गया।", "new": "वह जन्म लेकर पीछे और फिर आगे भूमि से परे बढ़ गया।"}}
+  ]},
+  {"n": "622", "verdict": "fix", "issues": [
+   {"field": "hindi", "where": "पाप और संकट से", "problem": "aṃhas = distress; 'पाप और' is added (the English has only 'distress').", "fix": "संकट से", "severity": "minor",
+    "patch": {"n": "622", "op": "replace", "field": "hindi", "old": "पाप और संकट से", "new": "संकट से"}}
+  ]},
+  {"n": "626", "verdict": "fix", "issues": [
+   {"field": "split", "where": "udeta", "problem": "The 2 pl. imperative of √i is ita, not eta; udeta = ut + ā + ita ('come up/out'), the ā being absorbed (ā + i > e).", "fix": "ut | ā | ita", "severity": "minor",
+    "patch": {"n": "626", "op": "set", "field": "lines.0.tokens.2.words", "value": [{"w": "ut", "gloss": "up, out", "gram": "preverb"}, {"w": "ā", "gloss": "hither", "gram": "preverb"}, {"w": "ita", "gloss": "come, go", "gram": "2 pl. impv. √i"}]}}
+  ]},
+  {"n": "628", "verdict": "fix", "issues": [
+   {"field": "hindi", "where": "दीप्तिमान् सूर्य", "problem": "'सूर्य' is supplied from the hymn's deity; the line has only vibhrāṭ 'the shining one' (the English keeps it).", "fix": "वह दीप्तिमान्", "severity": "minor",
+    "patch": {"n": "628", "op": "replace", "field": "hindi", "old": "दीप्तिमान् सूर्य सोम के", "new": "वह दीप्तिमान् सोम के"}}
+  ]},
+  {"n": "630", "verdict": "fix", "issues": [
+   {"field": "english", "where": "the heavenly light", "problem": "glossary fixes svar = light of heaven (सूर्य का प्रकाश).", "fix": "the light of heaven / सूर्य के प्रकाश की ओर", "severity": "minor",
+    "patch": [{"n": "630", "op": "replace", "field": "english", "old": "to the heavenly light", "new": "to the light of heaven"},
+              {"n": "630", "op": "replace", "field": "hindi", "old": "स्वर्ग के प्रकाश की ओर", "new": "सूर्य के प्रकाश की ओर"},
+              {"n": "630", "op": "word", "match_w": "svaḥ", "field": "gloss", "value": "the light of heaven"}]}
+  ]},
+  {"n": "636", "verdict": "fix", "issues": [
+   {"field": "english", "where": "the heavenly light / स्वर्गीय प्रकाश", "problem": "glossary fixes svar = light of heaven (सूर्य का प्रकाश); the Hindi also folds viśvam ('facing all') into the light.", "fix": "to behold the light of heaven / सबके सम्मुख, सूर्य के प्रकाश को देखने के लिए", "severity": "minor",
+    "patch": [{"n": "636", "op": "replace", "field": "english", "old": "to behold the heavenly light", "new": "to behold the light of heaven"},
+              {"n": "636", "op": "replace", "field": "hindi", "old": "समस्त स्वर्गीय प्रकाश को देखने के लिए सम्मुख होते हो।", "new": "सबके सम्मुख, सूर्य के प्रकाश को देखने के लिए।"},
+              {"n": "636", "op": "word", "match_w": "svaḥ", "field": "gloss", "value": "the light of heaven"}]}
+  ]},
+  {"n": "589", "verdict": "ok", "issues": []},
+  {"n": "590", "verdict": "ok", "issues": []},
+  {"n": "591", "verdict": "ok", "issues": []},
+  {"n": "593", "verdict": "ok", "issues": []},
+  {"n": "594", "verdict": "ok", "issues": []},
+  {"n": "595", "verdict": "ok", "issues": []},
+  {"n": "598", "verdict": "ok", "issues": []},
+  {"n": "599", "verdict": "ok", "issues": []},
+  {"n": "600", "verdict": "ok", "issues": []},
+  {"n": "604", "verdict": "ok", "issues": []},
+  {"n": "605", "verdict": "ok", "issues": []},
+  {"n": "607", "verdict": "ok", "issues": []},
+  {"n": "608", "verdict": "ok", "issues": []},
+  {"n": "609", "verdict": "ok", "issues": []},
+  {"n": "610", "verdict": "ok", "issues": []},
+  {"n": "611", "verdict": "ok", "issues": []},
+  {"n": "613", "verdict": "ok", "issues": []},
+  {"n": "614", "verdict": "ok", "issues": []},
+  {"n": "615", "verdict": "ok", "issues": []},
+  {"n": "616", "verdict": "ok", "issues": []},
+  {"n": "617", "verdict": "ok", "issues": []},
+  {"n": "618", "verdict": "ok", "issues": []},
+  {"n": "619", "verdict": "ok", "issues": []},
+  {"n": "620", "verdict": "ok", "issues": []},
+  {"n": "623", "verdict": "ok", "issues": []},
+  {"n": "624", "verdict": "ok", "issues": []},
+  {"n": "625", "verdict": "ok", "issues": []},
+  {"n": "627", "verdict": "ok", "issues": []},
+  {"n": "629", "verdict": "ok", "issues": []},
+  {"n": "631", "verdict": "ok", "issues": []},
+  {"n": "632", "verdict": "ok", "issues": []},
+  {"n": "633", "verdict": "ok", "issues": []},
+  {"n": "634", "verdict": "ok", "issues": []},
+  {"n": "635", "verdict": "ok", "issues": []},
+  {"n": "637", "verdict": "ok", "issues": []},
+  {"n": "638", "verdict": "ok", "issues": []},
+  {"n": "639", "verdict": "ok", "issues": []},
+  {"n": "640", "verdict": "ok", "issues": []}
+ ],
+ "summary": "55 units checked word by word against the Sanskrit. 3 error-level issues in 2 units: 586 (obhe wrongly flagged as a typo and split as ubhe; it is Vedic ā + ubhe, exactly as RV 6.19.6 reads, so the flag invents a variant) and 603 (abhimātiṣāhaḥ labelled vocative; the form can only be genitive, so gloss, gram, English and Hindi change). 19 minor issues: glossary consistency (vajrin, maghavan, svar in 588/597/601/612/630/636), small additions in the Hindi not present in the Sanskrit (587 चराचर, 592 सोम, 602 उसने...किया है, 621 सब ओर, 622 पाप, 628 सूर्य), two grammar labels (596 mimeti is not intensive; 606 manvata is injunctive) and one split (626 udeta = ut ā ita). One item left for a human: 588 supplies ऐश्वर्य in the Hindi (low-confidence unit). No regrouping suggested: the single-line 591 and the three-line 611 follow the edition's numbering and the draft's GROUPING notes are sensible; 614's single-pāda second line is explained correctly. Low confidence on 588, 606, 611 is honest and should stay. Glossary additions suggested: vajrī (nom.) = the wielder of the thunderbolt (वज्रधारी); puruṣa (RV 10.90) = the Puruṣa (पुरुष); dyāvāpṛthivī = Heaven and Earth (द्यावा-पृथिवी); apāṃ napāt = the Son of the Waters (अपां नपात्); jātavedas = Jātavedas (जातवेदा); vaiśvānara = Vaiśvānara (वैश्वानर); prajāpati = Prajāpati (प्रजापति); varuṇa = Varuṇa (वरुण); mitra = Mitra (मित्र); aditi = Aditi (अदिति); sūrya = Sūrya / the sun (सूर्य); rodasī = the two worlds (दोनों लोक); vāja = prize/strength, Hindi वाज; aṃhas = distress (संकट); yaśas = glory (यश); varcas = lustre (तेज); pluta figure 3 inside a token = a separate word {\"w\":\"3\"} glossed 'pluta (prolongation) mark; chant syllable (stobha)', never translated."
+}
