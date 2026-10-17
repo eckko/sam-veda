@@ -1,0 +1,335 @@
+{
+ "units": [
+  {
+   "n": "651",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "पास आकर गाओ",
+     "problem": "'आकर' (having come) is not in the Sanskrit; upa is only the preverb 'near' (English keeps 'near to').",
+     "fix": "हे मनुष्यो, इस शुद्ध होती हुई बूँद के लिए पास गाओ; वह देवगणों तक पहुँचना चाहता है।",
+     "severity": "minor",
+     "patch": {
+      "n": "651",
+      "op": "replace",
+      "field": "hindi",
+      "old": "पास आकर गाओ",
+      "new": "पास गाओ"
+     }
+    }
+   ]
+  },
+  {
+   "n": "652",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "653",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "654",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "655",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gloss",
+     "where": "hitaḥ",
+     "problem": "hita after hinvānaḥ hetṛbhiḥ is most naturally the pp. of √hi 'impel' (the same root as hinvāna and hetṛ), not √dhā 'set in place'; Hindi 'स्थापित' and English 'set in place' follow the weaker option. Decide: keep and note the alternative, or change to 'sent forth' / 'भेजा हुआ'.",
+     "fix": "gloss: sent forth, impelled; gram: m. nom. sg. pp. √hi (or √dhā); English 'Urged on by the impellers, sent forth, the racer has stepped to the prize'",
+     "severity": "minor"
+    }
+   ]
+  },
+  {
+   "n": "656",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "657",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "658",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "659",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "660",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "661",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gram",
+     "where": "vardhayāmasi",
+     "problem": "-masi is the primary ACTIVE ending of the 1 pl.; the middle would be -mahe. 'mid.' is wrong.",
+     "fix": "1 pl. pres. caus. act. √vṛdh (primary ending -masi)",
+     "severity": "minor",
+     "patch": {
+      "n": "661",
+      "op": "word",
+      "match_w": "vardhayāmasi",
+      "field": "gram",
+      "value": "1 pl. pres. caus. act. √vṛdh (primary ending -masi)"
+     }
+    }
+   ]
+  },
+  {
+   "n": "662",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "famed",
+     "problem": "Gloss and Hindi say 'worthy of fame' (śravāyya, gdv.); 'famed' is a different sense and the two layers disagree.",
+     "fix": "You, O god, bestow on us wide, worthy of fame, great good heroism, O Agni.",
+     "severity": "minor",
+     "patch": {
+      "n": "662",
+      "op": "replace",
+      "field": "english",
+      "old": "famed",
+      "new": "worthy of fame"
+     }
+    }
+   ]
+  },
+  {
+   "n": "663",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "664",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "665",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "666",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "667",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "ब्रह्म से जुते हुए, केशों वाले",
+     "problem": "Glossary: brahman (n.) = sacred word (पवित्र वचन); bare 'ब्रह्म' reads as the god/absolute and disagrees with the English 'sacred word'. 'केशों वाले' (having hairs) is also weaker than the English 'long-maned'.",
+     "fix": "हे इन्द्र, पवित्र वचन से जुते हुए, लम्बे अयाल वाले दो भूरे घोड़े तुम्हें यहाँ लाएँ; हमारे पवित्र वचनों को सुनो।",
+     "severity": "error",
+     "patch": {
+      "n": "667",
+      "op": "replace",
+      "field": "hindi",
+      "old": "ब्रह्म से जुते हुए, केशों वाले",
+      "new": "पवित्र वचन से जुते हुए, लम्बे अयाल वाले"
+     }
+    }
+   ]
+  },
+  {
+   "n": "668",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gloss",
+     "where": "yujā",
+     "problem": "Gloss says 'yoke-fellows' (plural) for a singular instrumental.",
+     "fix": "as a yoke-fellow, together",
+     "severity": "minor",
+     "patch": {
+      "n": "668",
+      "op": "word",
+      "match_w": "yujā",
+      "field": "gloss",
+      "value": "as a yoke-fellow, together"
+     }
+    }
+   ]
+  },
+  {
+   "n": "669",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "670",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "671",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "gram",
+     "where": "tṛmpatām",
+     "problem": "-tām is the ACTIVE 3 du. imperative ending (middle would be -ātām/-etām); 'mid.' is wrong.",
+     "fix": "3 du. impv. act. √tṛp",
+     "severity": "minor",
+     "patch": {
+      "n": "671",
+      "op": "word",
+      "match_w": "tṛmpatām",
+      "field": "gram",
+      "value": "3 du. impv. act. √tṛp"
+     }
+    }
+   ]
+  },
+  {
+   "n": "672",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "being in heaven, I take on earth",
+     "problem": "Layers contradict the word analysis: sat is glossed n. nom. sg. (agreeing with jātam, 'birth being in heaven'), but both translations attach it to 'I' (masc.) as 'being in heaven, I take'. Either gram or translations must change; the construction is uncertain, so a human should pick.",
+     "fix": "Option A (follow gram): English 'On high is your birth, of the juice, being in heaven; I take on earth mighty shelter, great fame.' Hindi 'ऊँचा है तुम्हारा जन्म, रस का, जो आकाश में है; मैं पृथ्वी पर उग्र शरण, महान कीर्ति ग्रहण करता हूँ।' Option B: keep translations and change gram of sat to a subject-neutral label; add a note.",
+     "severity": "error"
+    }
+   ]
+  },
+  {
+   "n": "673",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "674",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "जीतने ... प्राप्त करें",
+     "problem": "Same verb root √van/√san (win) in both English renderings ('wishing to win ... may we win'); Hindi switches to 'प्राप्त करें', so the layers do not match.",
+     "fix": "इससे, हे स्वामी, मनुष्यों के सब द्युम्न जीतने की इच्छा करते हुए हम जीतें।",
+     "severity": "minor",
+     "patch": {
+      "n": "674",
+      "op": "replace",
+      "field": "hindi",
+      "old": "हम प्राप्त करें",
+      "new": "हम जीतें"
+     }
+    }
+   ]
+  },
+  {
+   "n": "675",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "676",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "ग्रहण किया है",
+     "problem": "Hindi 'took/grasped' disagrees with English 'has settled on' (ā-√sad 'sit upon'); the Hindi also changes the verb's sense.",
+     "fix": "वह प्राचीन साझा स्थान पर बैठ गया है",
+     "severity": "error",
+     "patch": {
+      "n": "676",
+      "op": "replace",
+      "field": "hindi",
+      "old": "उसने प्राचीन साझा स्थान ग्रहण किया है",
+      "new": "वह प्राचीन साझा स्थान पर बैठ गया है"
+     }
+    }
+   ]
+  },
+  {
+   "n": "677",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "english",
+     "where": "Like a horse, a racer, cleansing you",
+     "problem": "Ambiguous: vājinam agrees with tvā (you, the racer), as the notes say, but 'Like a horse, a racer, cleansing you' reads as if the racer were a second comparison or the subject. Same in Hindi.",
+     "fix": "Cleansing you, the racer, like a horse, they lead you toward the sacred grass with reins.",
+     "severity": "minor",
+     "patch": [
+      {
+       "n": "677",
+       "op": "replace",
+       "field": "english",
+       "old": "Like a horse, a racer, cleansing you, they lead you toward the sacred grass with reins.",
+       "new": "Cleansing you, the racer, like a horse, they lead you toward the sacred grass with reins."
+      },
+      {
+       "n": "677",
+       "op": "replace",
+       "field": "hindi",
+       "old": "घोड़े के समान, धावक तुम्हें माँजते हुए",
+       "new": "तुम धावक को घोड़े के समान माँजते हुए"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "678",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "hindi",
+     "where": "देवों का पिता",
+     "problem": "Glossary: devas (plural, Hindi) = देवगण.",
+     "fix": "देवगण का पिता",
+     "severity": "minor",
+     "patch": {
+      "n": "678",
+      "op": "replace",
+      "field": "hindi",
+      "old": "देवों का पिता",
+      "new": "देवगण का पिता"
+     }
+    }
+   ]
+  },
+  {
+   "n": "679",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "680",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "n": "681",
+   "verdict": "ok",
+   "issues": []
+  }
+ ],
+ "summary": "Draft is generally sound: tokens, glossary renderings and the [unclear] handling in 655, 669, 671 are correct, Hindi has no Latin letters/brackets/parentheses, and the single text_flag (657 asṛkṣata) is reasonable. 3 errors (667 brahman rendered as bare ब्रह्म in Hindi; 672 sat attached to 'I' against its own gram; 676 Hindi/English verb disagreement) and 9 minor (wrong active/middle labels in 661 and 671, 651 added 'आकर', 655 hita root, 662/668/674/677/678 consistency). No regrouping suggested. Manual decisions: 672 (construction of divi sat), 655 (hita root). Unit 672 may be a copy variant of the RV parallel (sad vs ṣad) but this was not verified, so no text_flag is proposed."
+}

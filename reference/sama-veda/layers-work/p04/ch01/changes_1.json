@@ -1,0 +1,82 @@
+[
+ {
+  "n": "651",
+  "field": "hindi",
+  "old": "हे मनुष्यो, इस शुद्ध होती हुई बूँद के लिए पास आकर गाओ; वह देवगणों तक पहुँचना चाहता है।",
+  "new": "हे मनुष्यो, इस शुद्ध होती हुई बूँद के लिए पास गाओ; वह देवगणों तक पहुँचना चाहता है।",
+  "why": "reviewer (minor): 'आकर' (having come) is not in the Sanskrit; upa is only the preverb 'near' (English keeps 'near to')."
+ },
+ {
+  "n": "661",
+  "field": "word.gram",
+  "word": "vardhayāmasi",
+  "old": "1 pl. pres. caus. mid. √vṛdh",
+  "new": "1 pl. pres. caus. act. √vṛdh (primary ending -masi)",
+  "why": "reviewer (minor): -masi is the primary ACTIVE ending of the 1 pl.; the middle would be -mahe. 'mid.' is wrong."
+ },
+ {
+  "n": "662",
+  "field": "english",
+  "old": "You, O god, bestow on us wide, famed, great good heroism, O Agni.",
+  "new": "You, O god, bestow on us wide, worthy of fame, great good heroism, O Agni.",
+  "why": "reviewer (minor): Gloss and Hindi say 'worthy of fame' (śravāyya, gdv.); 'famed' is a different sense and the two layers disagree."
+ },
+ {
+  "n": "667",
+  "field": "hindi",
+  "old": "हे इन्द्र, ब्रह्म से जुते हुए, केशों वाले दो भूरे घोड़े तुम्हें यहाँ लाएँ; हमारे पवित्र वचनों को सुनो।",
+  "new": "हे इन्द्र, पवित्र वचन से जुते हुए, लम्बे अयाल वाले दो भूरे घोड़े तुम्हें यहाँ लाएँ; हमारे पवित्र वचनों को सुनो।",
+  "why": "reviewer (error): Glossary: brahman (n.) = sacred word (पवित्र वचन); bare 'ब्रह्म' reads as the god/absolute and disagrees with the English 'sacred word'. 'केशों वाले' (having hairs) is also weaker than the English 'long-maned'."
+ },
+ {
+  "n": "668",
+  "field": "word.gloss",
+  "word": "yujā",
+  "old": "as yoke-fellows, together",
+  "new": "as a yoke-fellow, together",
+  "why": "reviewer (minor): Gloss says 'yoke-fellows' (plural) for a singular instrumental."
+ },
+ {
+  "n": "671",
+  "field": "word.gram",
+  "word": "tṛmpatām",
+  "old": "3 du. impv. mid. √tṛp",
+  "new": "3 du. impv. act. √tṛp",
+  "why": "reviewer (minor): -tām is the ACTIVE 3 du. imperative ending (middle would be -ātām/-etām); 'mid.' is wrong."
+ },
+ {
+  "n": "674",
+  "field": "hindi",
+  "old": "इससे, हे स्वामी, मनुष्यों के सब द्युम्न जीतने की इच्छा करते हुए हम प्राप्त करें।",
+  "new": "इससे, हे स्वामी, मनुष्यों के सब द्युम्न जीतने की इच्छा करते हुए हम जीतें।",
+  "why": "reviewer (minor): Same verb root √van/√san (win) in both English renderings ('wishing to win ... may we win'); Hindi switches to 'प्राप्त करें', so the layers do not match."
+ },
+ {
+  "n": "676",
+  "field": "hindi",
+  "old": "दिव्य थन को दुहता हुआ, प्रिय मधु को, उसने प्राचीन साझा स्थान ग्रहण किया है; तुम, धावक, पूछने योग्य आधार तक बहते हो, मनुष्यों द्वारा धोए हुए, दूरदर्शी।",
+  "new": "दिव्य थन को दुहता हुआ, प्रिय मधु को, वह प्राचीन साझा स्थान पर बैठ गया है; तुम, धावक, पूछने योग्य आधार तक बहते हो, मनुष्यों द्वारा धोए हुए, दूरदर्शी।",
+  "why": "reviewer (error): Hindi 'took/grasped' disagrees with English 'has settled on' (ā-√sad 'sit upon'); the Hindi also changes the verb's sense."
+ },
+ {
+  "n": "677",
+  "field": "english",
+  "old": "Run forth now, sit down around the vat; being purified by men, flow toward the prize. Like a horse, a racer, cleansing you, they lead you toward the sacred grass with reins.",
+  "new": "Run forth now, sit down around the vat; being purified by men, flow toward the prize. Cleansing you, the racer, like a horse, they lead you toward the sacred grass with reins.",
+  "why": "reviewer (minor): Ambiguous: vājinam agrees with tvā (you, the racer), as the notes say, but 'Like a horse, a racer, cleansing you' reads as if the racer were a second comparison or the subject. Same in Hindi."
+ },
+ {
+  "n": "677",
+  "field": "hindi",
+  "old": "आगे दौड़ो, अब कोश के चारों ओर बैठो; मनुष्यों द्वारा शुद्ध होते हुए वाज की ओर बहो। घोड़े के समान, धावक तुम्हें माँजते हुए वे कुशासन की ओर लगाम की रस्सियों से ले जाते हैं।",
+  "new": "आगे दौड़ो, अब कोश के चारों ओर बैठो; मनुष्यों द्वारा शुद्ध होते हुए वाज की ओर बहो। तुम धावक को घोड़े के समान माँजते हुए वे कुशासन की ओर लगाम की रस्सियों से ले जाते हैं।",
+  "why": "reviewer (minor): Ambiguous: vājinam agrees with tvā (you, the racer), as the notes say, but 'Like a horse, a racer, cleansing you' reads as if the racer were a second comparison or the subject. Same in Hindi."
+ },
+ {
+  "n": "678",
+  "field": "hindi",
+  "old": "सुशस्त्र देव बूँद शुद्ध होता है, शाप को मारने वाला, घेरों की रक्षा करता हुआ; देवों का पिता, जन्म देने वाला, उत्तम कौशल वाला, आकाश का स्तम्भ, पृथ्वी का आधार।",
+  "new": "सुशस्त्र देव बूँद शुद्ध होता है, शाप को मारने वाला, घेरों की रक्षा करता हुआ; देवगण का पिता, जन्म देने वाला, उत्तम कौशल वाला, आकाश का स्तम्भ, पृथ्वी का आधार।",
+  "why": "reviewer (minor): Glossary: devas (plural, Hindi) = देवगण."
+ }
+]
