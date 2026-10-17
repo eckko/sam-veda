@@ -7,3 +7,5 @@
 - svar = light of heaven (सूर्य का प्रकाश); evā hi = Thus indeed (इस प्रकार ही)
 - refrain "sa naḥ svarṣad ati dviṣaḥ" = "May he carry us beyond hostilities" (वह हमें शत्रुताओं के पार ले जाए); svarṣat root uncertain
 - vidā in "gātuṃ vid" = find (पाओ), not know
+- vajrī = the wielder of the thunderbolt (वज्रधारी); puruṣa = the Puruṣa (पुरुष); dyāvāpṛthivī = Heaven and Earth (द्यावा-पृथिवी); apāṃ napāt = the Son of the Waters (अपां नपात्); jātavedas = Jātavedas (जातवेदा); vaiśvānara = Vaiśvānara (वैश्वानर); prajāpati = Prajāpati (प्रजापति); varuṇa = Varuṇa (वरुण); mitra = Mitra (मित्र); aditi = Aditi (अदिति); sūrya = Sūrya / the sun (सूर्य); rodasī = the two worlds (दोनों लोक); aṃhas = distress (संकट); yaśas = glory (यश); varcas = lustre (तेज); vāja = prize/strength (वाज)
+- A pluta figure 3 inside a token is its own word {"w":"3"} glossed "pluta (prolongation) mark; chant syllable (stobha)" and is never translated.

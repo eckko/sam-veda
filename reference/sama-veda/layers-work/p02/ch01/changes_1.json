@@ -1,0 +1,310 @@
+[
+ {
+  "n": "586",
+  "field": "text_flags",
+  "old": [
+   {
+    "src": "pupuri",
+    "suggest": "papuri",
+    "why": "possible: the Ṛgvedic parallel (RV 6.19.6) reads papuri 'abundant'; pupuri is not a known form"
+   },
+   {
+    "src": "obhe",
+    "suggest": "ubhe",
+    "why": "ओभे for उभे 'both' (f. acc. du. with rodasī); the RV parallel reads ubhe"
+   }
+  ],
+  "new": [
+   {
+    "src": "pupuri",
+    "suggest": "papuri",
+    "why": "possible: the Ṛgvedic parallel (RV 6.19.6) reads papuri 'abundant'; pupuri is not a known form"
+   }
+  ],
+  "why": "reviewer (error): obhe is not a typo: it is the Vedic sandhi ā + ubhe (ā belongs to paprāḥ: 'ā prāḥ' = filled up). The Ṛgvedic parallel RV 6.19.6 itself reads 'ródasī obhé suśipra prāḥ', so the flag invents a variant and the claim 'the RV parallel reads ubhe' is false."
+ },
+ {
+  "n": "586",
+  "field": "lines.1.tokens.3.words",
+  "old": [
+   {
+    "w": "ubhe",
+    "gloss": "both",
+    "gram": "f. acc. du."
+   }
+  ],
+  "new": [
+   {
+    "w": "ā",
+    "gloss": "fully (with paprāḥ)",
+    "gram": "preverb"
+   },
+   {
+    "w": "ubhe",
+    "gloss": "both",
+    "gram": "f. acc. du."
+   }
+  ],
+  "why": "reviewer (error): token obhe must be split as ā + ubhe (ā + u > o); the preverb ā goes with paprāḥ."
+ },
+ {
+  "n": "586",
+  "field": "notes",
+  "old": "Ṛgvedic mantra (RV 6.19.6). didhṛkṣema taken as desiderative optative of √dhṛ; yat as the relative pronoun referring to śravaḥ.",
+  "new": "Ṛgvedic mantra (RV 6.19.6, which reads papuri and, in its second half, yeneme citra vajrahasta rodasī obhe suśipra prāḥ). obhe = ā + ubhe (Vedic sandhi), the ā belonging to paprāḥ ('filled up'). didhṛkṣema taken as desiderative optative of √dhṛ; yat as the relative pronoun referring to śravaḥ.",
+  "why": "reviewer (minor): note should record the obhe = ā ubhe analysis instead of the false claim about the RV reading."
+ },
+ {
+  "n": "587",
+  "field": "hindi",
+  "old": "इन्द्र चराचर जगत् और मनुष्यों का राजा है; पृथ्वी पर जो कुछ उसका है वह सब रूपोंवाला है। उसमें से वह हवि देनेवाले को धन देता है; वह स्तुत धन को भी इधर हमारी ओर प्रेरित करे।",
+  "new": "इन्द्र जंगम जगत् और मनुष्यों का राजा है; पृथ्वी पर जो कुछ उसका है वह सब रूपोंवाला है। उसमें से वह हवि देनेवाले को धन देता है; वह स्तुत धन को भी इधर हमारी ओर प्रेरित करे।",
+  "why": "reviewer (minor): jagat 'the moving (world)' rendered चराचर 'moving and unmoving', which adds the opposite member."
+ },
+ {
+  "n": "588",
+  "field": "english",
+  "old": "He whose is this airy space, whose are the yoked steeds for striking among the people, the wood and the heavenly light — Indra's delightful (domain) is great.",
+  "new": "He whose is this airy space, whose are the yoked steeds for striking among the people, the wood and the light of heaven — Indra's delightful (domain) is great.",
+  "why": "reviewer (minor): glossary fixes svar = light of heaven (सूर्य का प्रकाश)."
+ },
+ {
+  "n": "588",
+  "field": "hindi",
+  "old": "जिसका यह अन्तरिक्ष है, जिसके जुते हुए अश्व लोगों में प्रहार के लिए हैं, जिसका वन और स्वर्ग का प्रकाश है — उस इन्द्र का रमणीय ऐश्वर्य महान् है।",
+  "new": "जिसका यह अन्तरिक्ष है, जिसके जुते हुए अश्व लोगों में प्रहार के लिए हैं, जिसका वन और सूर्य का प्रकाश है — उस इन्द्र का रमणीय ऐश्वर्य महान् है।",
+  "why": "reviewer (minor): glossary fixes svar = light of heaven (सूर्य का प्रकाश)."
+ },
+ {
+  "n": "588",
+  "field": "word.gloss",
+  "word": "svaḥ",
+  "old": "the sunlight, heaven",
+  "new": "the light of heaven",
+  "why": "reviewer (minor): glossary fixes svar = light of heaven (सूर्य का प्रकाश)."
+ },
+ {
+  "n": "592",
+  "field": "hindi",
+  "old": "हे विस्तृत सुख पानेवाले सोम! तुम हमारे लिए, यज्ञप्रिय इन्द्र के लिए, वरुण के लिए और मरुतों के लिए चारों ओर बहो।",
+  "new": "हे विस्तृत सुख पानेवाले! तुम हमारे लिए, यज्ञप्रिय इन्द्र के लिए, वरुण के लिए और मरुतों के लिए चारों ओर बहो।",
+  "why": "reviewer (minor): 'सोम' is not in the line (the addressee is only implied); the English correctly omits it."
+ },
+ {
+  "n": "596",
+  "field": "word.gram",
+  "word": "mimeti",
+  "old": "3 sg. pres. intens. √mā",
+  "new": "3 sg. pres. (cl. 3) √mā 'bellow'",
+  "why": "reviewer (minor): mimeti is the ordinary class-3 present of √mā 'bellow' (mimāti/mimeti), not an intensive."
+ },
+ {
+  "n": "596",
+  "field": "notes",
+  "old": "Ṛgvedic mantra (RV 9.83.3, Soma Pavamāna). pṛśni 'dappled' here is an epithet of the bull (Soma/sun), not the goddess. mimeti: intensive of √mā 'bellow'.",
+  "new": "Ṛgvedic mantra (RV 9.83.3, Soma Pavamāna). pṛśni 'dappled' here is an epithet of the bull (Soma/sun), not the goddess. mimeti: class-3 present of √mā 'bellow'.",
+  "why": "reviewer (minor): mimeti is the ordinary class-3 present of √mā 'bellow' (mimāti/mimeti), not an intensive."
+ },
+ {
+  "n": "597",
+  "field": "english",
+  "old": "Indra alone is closely joined with the two bay horses yoked by the word; Indra is the thunderbolt-bearer, the golden one.",
+  "new": "Indra alone is closely joined with the two bay horses yoked by the word; Indra is the wielder of the thunderbolt, the golden one.",
+  "why": "reviewer (minor): glossary fixes vajrin = wielder of the thunderbolt (Hindi वज्रधारी)."
+ },
+ {
+  "n": "597",
+  "field": "hindi",
+  "old": "इन्द्र ही वाणी से जुतनेवाले दोनों हरि अश्वों के साथ संयुक्त हैं; इन्द्र वज्री और हिरण्यमय हैं।",
+  "new": "इन्द्र ही वाणी से जुतनेवाले दोनों हरि अश्वों के साथ संयुक्त हैं; इन्द्र वज्रधारी और हिरण्यमय हैं।",
+  "why": "reviewer (minor): glossary fixes vajrin = wielder of the thunderbolt (Hindi वज्रधारी)."
+ },
+ {
+  "n": "597",
+  "field": "word.gloss",
+  "word": "vajrī",
+  "old": "thunderbolt-bearer",
+  "new": "wielder of the thunderbolt",
+  "why": "reviewer (minor): glossary fixes vajrin = wielder of the thunderbolt (Hindi वज्रधारी)."
+ },
+ {
+  "n": "601",
+  "field": "english",
+  "old": "When you were born, O unprecedented one, O bountiful one, for the slaying of Vṛtra, then you spread out the earth and then you propped up the sky as well.",
+  "new": "When you were born, O unprecedented one, O bountiful one (Maghavan), for the slaying of Vṛtra, then you spread out the earth and then you propped up the sky as well.",
+  "why": "reviewer (minor): glossary fixes maghavan = O bountiful one (Maghavan)."
+ },
+ {
+  "n": "602",
+  "field": "hindi",
+  "old": "मुझमें तेज, और यश, और यज्ञ का जो सार है — उसे परमेष्ठी प्रजापति दृढ़ करे, जैसे उसने द्यौ को आकाश में दृढ़ किया है।",
+  "new": "मुझमें तेज, और यश, और यज्ञ का जो सार है — उसे परमेष्ठी प्रजापति दृढ़ करे, जैसे आकाश में द्यौ को।",
+  "why": "reviewer (minor): 'उसने ... किया है' (a past act of Prajāpati) is added; divi dyām iva is only 'like the sky in heaven', as the English has it."
+ },
+ {
+  "n": "603",
+  "field": "word.gloss",
+  "word": "abhimāti-ṣāhaḥ",
+  "old": "O conqueror of assailants",
+  "new": "of the conqueror of assailants",
+  "why": "reviewer (error): A root-noun stem in -ṣāh cannot have a vocative singular in -ṣāhaḥ (voc. would be -ṣāṭ). abhimātiṣāhaḥ is gen. sg., agreeing with te: 'your (the conqueror of assailants') milky juices, strengths, manly powers'. The English and Hindi vocatives follow the wrong label."
+ },
+ {
+  "n": "603",
+  "field": "word.gram",
+  "word": "abhimāti-ṣāhaḥ",
+  "old": "m. voc. sg. tat-puruṣa",
+  "new": "m. gen. sg. tat-puruṣa (with te)",
+  "why": "reviewer (error): A root-noun stem in -ṣāh cannot have a vocative singular in -ṣāhaḥ (voc. would be -ṣāṭ). abhimātiṣāhaḥ is gen. sg., agreeing with te: 'your (the conqueror of assailants') milky juices, strengths, manly powers'. The English and Hindi vocatives follow the wrong label."
+ },
+ {
+  "n": "603",
+  "field": "english",
+  "old": "May your milky juices come together, and together the strengths, together the manly powers, O conqueror of assailants; swelling for immortality, O Soma, take to yourself the highest glories in heaven.",
+  "new": "May your milky juices come together, and together the strengths, together the manly powers of you, the conqueror of assailants; swelling for immortality, O Soma, take to yourself the highest glories in heaven.",
+  "why": "reviewer (error): A root-noun stem in -ṣāh cannot have a vocative singular in -ṣāhaḥ (voc. would be -ṣāṭ). abhimātiṣāhaḥ is gen. sg., agreeing with te: 'your (the conqueror of assailants') milky juices, strengths, manly powers'. The English and Hindi vocatives follow the wrong label."
+ },
+ {
+  "n": "603",
+  "field": "hindi",
+  "old": "हे शत्रुओं को जीतनेवाले सोम! तुम्हारे दूध जैसे रस एकत्र हों, वाज एकत्र हों, वृष्णि बल एकत्र हों। अमृत के लिए बढ़ते हुए, हे सोम! तुम द्युलोक में उत्तम यशों को धारण करो।",
+  "new": "शत्रुओं को जीतनेवाले तुम्हारे दूध जैसे रस एकत्र हों, वाज एकत्र हों, वृष्णि बल एकत्र हों। अमृत के लिए बढ़ते हुए, हे सोम! तुम द्युलोक में उत्तम यशों को धारण करो।",
+  "why": "reviewer (error): A root-noun stem in -ṣāh cannot have a vocative singular in -ṣāhaḥ (voc. would be -ṣāṭ). abhimātiṣāhaḥ is gen. sg., agreeing with te: 'your (the conqueror of assailants') milky juices, strengths, manly powers'. The English and Hindi vocatives follow the wrong label."
+ },
+ {
+  "n": "603",
+  "field": "notes",
+  "old": "Ṛgvedic mantra (RV 1.91.18).",
+  "new": "Ṛgvedic mantra (RV 1.91.18). abhimātiṣāhaḥ is genitive singular (of te), not a vocative.",
+  "why": "reviewer (error): A root-noun stem in -ṣāh cannot have a vocative singular in -ṣāhaḥ (voc. would be -ṣāṭ). abhimātiṣāhaḥ is gen. sg., agreeing with te: 'your (the conqueror of assailants') milky juices, strengths, manly powers'. The English and Hindi vocatives follow the wrong label."
+ },
+ {
+  "n": "606",
+  "field": "word.gram",
+  "word": "manvata",
+  "old": "3 pl. impf. mid. √man",
+  "new": "3 pl. inj. mid. √man (unaugmented)",
+  "why": "reviewer (minor): manvata has no augment (the imperfect is amanvata); it is an injunctive."
+ },
+ {
+  "n": "612",
+  "field": "english",
+  "old": "Now I shall proclaim the heroic deeds of Indra, which the thunderbolt-bearer did first: he slew the serpent, thereupon he released the waters, he split open the bellies of the mountains.",
+  "new": "Now I shall proclaim the heroic deeds of Indra, which the wielder of the thunderbolt did first: he slew the serpent, thereupon he released the waters, he split open the bellies of the mountains.",
+  "why": "reviewer (minor): glossary fixes vajrin = wielder of the thunderbolt (Hindi वज्रधारी)."
+ },
+ {
+  "n": "612",
+  "field": "hindi",
+  "old": "अब मैं इन्द्र के उन वीर कर्मों को कहता हूँ जिन्हें वज्री ने सबसे पहले किया। उसने अहि को मारा, फिर जलों को बहाया और पर्वतों के उदरों को चीर डाला।",
+  "new": "अब मैं इन्द्र के उन वीर कर्मों को कहता हूँ जिन्हें वज्रधारी ने सबसे पहले किया। उसने अहि को मारा, फिर जलों को बहाया और पर्वतों के उदरों को चीर डाला।",
+  "why": "reviewer (minor): glossary fixes vajrin = wielder of the thunderbolt (Hindi वज्रधारी)."
+ },
+ {
+  "n": "612",
+  "field": "word.gloss",
+  "word": "vajrī",
+  "old": "the thunderbolt-bearer",
+  "new": "the wielder of the thunderbolt",
+  "why": "reviewer (minor): glossary fixes vajrin = wielder of the thunderbolt (Hindi वज्रधारी)."
+ },
+ {
+  "n": "621",
+  "field": "hindi",
+  "old": "उससे विराट् उत्पन्न हुई, विराट् से पुरुष उत्पन्न हुआ। वह जन्म लेकर भूमि से पीछे और आगे, सब ओर बढ़ गया।",
+  "new": "उससे विराट् उत्पन्न हुई, विराट् से पुरुष उत्पन्न हुआ। वह जन्म लेकर पीछे और फिर आगे भूमि से परे बढ़ गया।",
+  "why": "reviewer (minor): 'सब ओर' is added; atyaricyata bhūmim paścāt atho puraḥ = 'extended beyond the earth, behind and then in front'."
+ },
+ {
+  "n": "622",
+  "field": "hindi",
+  "old": "हे द्यावा-पृथिवी! मैं तुम दोनों का ध्यान करता हूँ, जो उत्तम भोग देनेवाली हो, जो अपरिमित विस्तार तक फैली हो। हे द्यावा-पृथिवी! तुम दोनों सुखद बनो; तुम हमें पाप और संकट से मुक्त करो।",
+  "new": "हे द्यावा-पृथिवी! मैं तुम दोनों का ध्यान करता हूँ, जो उत्तम भोग देनेवाली हो, जो अपरिमित विस्तार तक फैली हो। हे द्यावा-पृथिवी! तुम दोनों सुखद बनो; तुम हमें संकट से मुक्त करो।",
+  "why": "reviewer (minor): aṃhas = distress; 'पाप और' is added (the English has only 'distress')."
+ },
+ {
+  "n": "626",
+  "field": "lines.0.tokens.2.words",
+  "old": [
+   {
+    "w": "ut",
+    "gloss": "up, out",
+    "gram": "preverb"
+   },
+   {
+    "w": "eta",
+    "gloss": "go",
+    "gram": "2 pl. impv. √i"
+   }
+  ],
+  "new": [
+   {
+    "w": "ut",
+    "gloss": "up, out",
+    "gram": "preverb"
+   },
+   {
+    "w": "ā",
+    "gloss": "hither",
+    "gram": "preverb"
+   },
+   {
+    "w": "ita",
+    "gloss": "come, go",
+    "gram": "2 pl. impv. √i"
+   }
+  ],
+  "why": "reviewer (minor): The 2 pl. imperative of √i is ita, not eta; udeta = ut + ā + ita ('come up/out'), the ā being absorbed (ā + i > e)."
+ },
+ {
+  "n": "628",
+  "field": "hindi",
+  "old": "दीप्तिमान् सूर्य सोम के बृहत् मधु को पिए, यज्ञपति में अखण्ड आयु को धारण करता हुआ; जो वायु से प्रेरित होकर स्वयं प्रजाओं की रक्षा करता है, उन्हें पालता है और बहुत प्रकार से प्रकाशित होता है।",
+  "new": "वह दीप्तिमान् सोम के बृहत् मधु को पिए, यज्ञपति में अखण्ड आयु को धारण करता हुआ; जो वायु से प्रेरित होकर स्वयं प्रजाओं की रक्षा करता है, उन्हें पालता है और बहुत प्रकार से प्रकाशित होता है।",
+  "why": "reviewer (minor): 'सूर्य' is supplied from the hymn's deity; the line has only vibhrāṭ 'the shining one' (the English keeps it)."
+ },
+ {
+  "n": "630",
+  "field": "english",
+  "old": "This dappled bull has strode hither; he has sat down upon the mother in front, and (is) going forth to the father, to the heavenly light.",
+  "new": "This dappled bull has strode hither; he has sat down upon the mother in front, and (is) going forth to the father, to the light of heaven.",
+  "why": "reviewer (minor): glossary fixes svar = light of heaven (सूर्य का प्रकाश)."
+ },
+ {
+  "n": "630",
+  "field": "hindi",
+  "old": "यह चितकबरा वृषभ आया है, आगे चलकर माता पर बैठा है और पिता की ओर, स्वर्ग के प्रकाश की ओर जाता है।",
+  "new": "यह चितकबरा वृषभ आया है, आगे चलकर माता पर बैठा है और पिता की ओर, सूर्य के प्रकाश की ओर जाता है।",
+  "why": "reviewer (minor): glossary fixes svar = light of heaven (सूर्य का प्रकाश)."
+ },
+ {
+  "n": "630",
+  "field": "word.gloss",
+  "word": "svaḥ",
+  "old": "the heavenly light",
+  "new": "the light of heaven",
+  "why": "reviewer (minor): glossary fixes svar = light of heaven (सूर्य का प्रकाश)."
+ },
+ {
+  "n": "636",
+  "field": "english",
+  "old": "Facing the clans of the gods, facing men, you rise; facing all, (you rise) to behold the heavenly light.",
+  "new": "Facing the clans of the gods, facing men, you rise; facing all, (you rise) to behold the light of heaven.",
+  "why": "reviewer (minor): glossary fixes svar = light of heaven (सूर्य का प्रकाश); the Hindi also folds viśvam ('facing all') into the light."
+ },
+ {
+  "n": "636",
+  "field": "hindi",
+  "old": "तुम देवों की प्रजाओं के सम्मुख, मनुष्यों के सम्मुख उदित होते हो, समस्त स्वर्गीय प्रकाश को देखने के लिए सम्मुख होते हो।",
+  "new": "तुम देवों की प्रजाओं के सम्मुख, मनुष्यों के सम्मुख उदित होते हो, सबके सम्मुख, सूर्य के प्रकाश को देखने के लिए।",
+  "why": "reviewer (minor): glossary fixes svar = light of heaven (सूर्य का प्रकाश); the Hindi also folds viśvam ('facing all') into the light."
+ },
+ {
+  "n": "636",
+  "field": "word.gloss",
+  "word": "svaḥ",
+  "old": "the heavenly light",
+  "new": "the light of heaven",
+  "why": "reviewer (minor): glossary fixes svar = light of heaven (सूर्य का प्रकाश); the Hindi also folds viśvam ('facing all') into the light."
+ }
+]
