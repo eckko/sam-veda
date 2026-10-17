@@ -516,18 +516,13 @@
       ]
      },
      {
-      "src": "kṛṣṇām",
+      "src": "kṛṣṇāmapa",
       "words": [
        {
         "w": "kṛṣṇām",
         "gloss": "black",
         "gram": "f. acc. sg."
-       }
-      ]
-     },
-     {
-      "src": "apa",
-      "words": [
+       },
        {
         "w": "apa",
         "gloss": "away",
@@ -4626,18 +4621,13 @@
       ]
      },
      {
-      "src": "raśanābhir",
+      "src": "raśanābhirnayanti",
       "words": [
        {
         "w": "raśanābhiḥ",
         "gloss": "with ropes, reins",
         "gram": "f. inst. pl."
-       }
-      ]
-     },
-     {
-      "src": "nayanti",
-      "words": [
+       },
        {
         "w": "nayanti",
         "gloss": "they lead",
@@ -6481,7 +6471,7 @@
       ]
      },
      {
-      "src": "madhumatīrasṛgran",
+      "src": "madhumatīrasṛgranvāraṃ",
       "words": [
        {
         "w": "madhumatīḥ",
@@ -6492,12 +6482,7 @@
         "w": "asṛgran",
         "gloss": "have been released",
         "gram": "3 pl. aor. pass. √sṛj"
-       }
-      ]
-     },
-     {
-      "src": "vāraṃ",
-      "words": [
+       },
        {
         "w": "vāram",
         "gloss": "the fleece, strainer",
@@ -7817,18 +7802,13 @@
    {
     "tokens": [
      {
-      "src": "braghnaś",
+      "src": "braghnaścidyasya",
       "words": [
        {
         "w": "braghnaḥ",
         "gloss": "Braghna (name or mighty one)",
         "gram": "m. nom. sg."
-       }
-      ]
-     },
-     {
-      "src": "cidyasya",
-      "words": [
+       },
        {
         "w": "cit",
         "gloss": "even",
@@ -7932,18 +7912,13 @@
    {
     "tokens": [
      {
-      "src": "mahat",
+      "src": "mahattatsomo",
       "words": [
        {
         "w": "mahat",
         "gloss": "great",
         "gram": "n. acc. sg."
-       }
-      ]
-     },
-     {
-      "src": "tatsomo",
-      "words": [
+       },
        {
         "w": "tat",
         "gloss": "that",
@@ -7957,18 +7932,13 @@
       ]
      },
      {
-      "src": "mahiṣaś",
+      "src": "mahiṣaścakārāpāṃ",
       "words": [
        {
         "w": "mahiṣaḥ",
         "gloss": "mighty",
         "gram": "m. nom. sg."
-       }
-      ]
-     },
-     {
-      "src": "cakārāpāṃ",
-      "words": [
+       },
        {
         "w": "cakāra",
         "gloss": "did",
@@ -8061,18 +8031,13 @@
       ]
      },
      {
-      "src": "jyotir",
+      "src": "jyotirinduḥ",
       "words": [
        {
         "w": "jyotiḥ",
         "gloss": "light",
         "gram": "n. acc. sg."
-       }
-      ]
-     },
-     {
-      "src": "induḥ",
-      "words": [
+       },
        {
         "w": "induḥ",
         "gloss": "Indu",
