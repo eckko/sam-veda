@@ -1,0 +1,345 @@
+[
+ {
+  "n": "713",
+  "field": "hindi",
+  "old": "तुम्हारे रस को पीने वाले इन्द्र के प्रति गान करो, जो सबको जीतने वाला, सौ शक्तियों वाला और लोगों में सबसे उदार है।",
+  "new": "तुम्हारे रस को पीने वाले इन्द्र के प्रति गान करो, सबको जीतने वाले, सौ शक्तियों वाले, लोगों में सबसे उदार।",
+  "why": "reviewer (minor): Hindi turns the accusative epithets into a relative clause with an added verb 'है'; the Sanskrit has bare epithets of Indra, as the English has."
+ },
+ {
+  "n": "713",
+  "field": "notes",
+  "old": "pāntam is read as the accusative of pānta 'drinker' (Sāyaṇa-type reading); the particle ā after it is not translated. vaḥ is the genitive 'your' qualifying andhasaḥ. viśvā-sāham shows Vedic lengthening of the first member. The printed ~ stands for the anusvāra (viśvāsāham, maṃhiṣṭham).",
+  "new": "pāntam is read as the accusative of pānta 'drinker'; the particle ā after it is not translated. vaḥ is the genitive 'your' qualifying andhasaḥ. viśvā-sāham shows Vedic lengthening of the first member. The printed ~ stands for the anusvāra (viśvāsāham, maṃhiṣṭham).",
+  "why": "reviewer (minor): Commentary is imported; LAYER_NOTES forbid it."
+ },
+ {
+  "n": "714",
+  "field": "english",
+  "old": "Of the much-invoked, the much-praised, the one celebrated in song, famed of old, say: Indra.",
+  "new": "The much-invoked, the much-praised, the one celebrated in song, famed of old: say 'Indra'.",
+  "why": "reviewer (error): 'Of' is not in the text: puruhūtam, puruṣṭutam, gāthānyam, sanaśrutam are accusatives (objects of bravītana 'say', with iti), not genitives; the draft reads as 'say of them: Indra'."
+ },
+ {
+  "n": "714",
+  "field": "hindi",
+  "old": "अनेकों से बुलाए गए, अनेकों से स्तुत, गीतों में प्रसिद्ध और प्राचीन काल से यशस्वी को कहो: इन्द्र।",
+  "new": "अनेकों से बुलाए गए, अनेकों से स्तुत, गीतों में प्रसिद्ध और प्राचीन काल से कीर्ति वाले को कहो: इन्द्र।",
+  "why": "reviewer (error): Glossary: śravas = fame (कीर्ति), distinct from yaśas = glory (यश); sanaśrutam must not use यशस्वी."
+ },
+ {
+  "n": "715",
+  "field": "hindi",
+  "old": "इन्द्र ही हमें उदार देने वालों में वाजों का दाता और नर्तक है।",
+  "new": "इन्द्र ही हमारे लिए उदारों का, वाजों का दाता, नर्तक है; महान।",
+  "why": "reviewer (error): The Hindi drops the whole second line although mahān 'the great one' is clear (rule: translate what is clear, omit only the unreadable); 'उदार देने वालों में' adds 'among' (में) that maghonām (genitive) does not give; English and Hindi disagree."
+ },
+ {
+  "n": "715",
+  "field": "english",
+  "old": "Indra is indeed to us the giver, among the bountiful ones, of prizes, the dancer; the great one [unclear].",
+  "new": "Indra is indeed to us the giver of the bountiful ones, of prizes, the dancer; the great one [unclear].",
+  "why": "reviewer (minor): 'among' is added; maghonām is a genitive."
+ },
+ {
+  "n": "715",
+  "field": "notes",
+  "old": "mahonām is read as a variant of maghonām (glossary: of the bountiful ones); the Ṛgveda parallel may read mahānām 'of great (prizes)', which would give 'giver of great prizes'. The second line is unclear: mahān 'the great one' is clear, abhijñvā is read as an instrumental of abhijñu (perhaps 'with bent knee'), yamat as 3 sg. aorist subjunctive of √yam, but the object and the sense are not secure, so the Hindi omits the second line.",
+  "new": "mahonām is read as a variant of maghonām (glossary: of the bountiful ones). The second line is unclear: mahān 'the great one' is clear, abhijñvā is read as an instrumental of abhijñu (perhaps 'with bent knee'), yamat as 3 sg. aorist subjunctive of √yam, but the object and the sense are not secure, so the Hindi omits the second line.",
+  "why": "reviewer (minor): Imports another text (LAYER_NOTES 3); also in the text_flag why."
+ },
+ {
+  "n": "715",
+  "field": "text_flags.0.why",
+  "old": "possible: the word recurs as maghonām (bountiful ones) in the glossary; the printed mahonām may be a variant or a typo; a Ṛgveda parallel may read mahānām",
+  "new": "possible: the word recurs as maghonām (bountiful ones) in the glossary; the printed mahonām may be a variant or a typo",
+  "why": "reviewer (minor): Imports another text (LAYER_NOTES 3); also in the text_flag why."
+ },
+ {
+  "n": "716",
+  "field": "notes",
+  "old": "va is vaḥ, an ethic dative 'to you / for yourselves', left untranslated in both layers. mādanam 'exhilarating' has no noun in the text; the English supplies [hymn] as the likely sense (gāyata 'sing'). The ~ in mādana~ stands for m. hari = bay horse.",
+  "new": "va is vaḥ, an ethic dative 'to you / for yourselves', left untranslated in both layers. mādanam 'exhilarating' has no noun in the text; the English supplies [hymn] as the likely sense (gāyata 'sing'). The ~ in mādana~ stands for the anusvāra (mādanam); hari = bay horse (glossary).",
+  "why": "reviewer (minor): Garbled sentence: ~ is the anusvāra of mādanam; 'hari = bay horse' belongs to haryaśvāya."
+ },
+ {
+  "n": "717",
+  "field": "text_flags",
+  "old": [],
+  "new": [
+   {
+    "src": "yatha",
+    "suggest": "yathā",
+    "why": "possible: the printed form has a short final a; yathā 'as' is the expected word"
+   }
+  ],
+  "why": "reviewer (error): The printed 'yatha' is given as 'yathā' in words with no text_flags entry (rule: every corrected form is flagged)."
+ },
+ {
+  "n": "717",
+  "field": "word.gram",
+  "word": "cakṛma",
+  "old": "1 pl. pf. √kṛ",
+  "new": "1 pl. pf. √kṛ (final vowel lengthened)",
+  "why": "reviewer (minor): Printed cakṛmā is given as cakṛma without saying the final vowel is lengthened (as done elsewhere, e.g. 731, 734)."
+ },
+ {
+  "n": "721",
+  "field": "word.gram",
+  "word": "spṛhayanti",
+  "old": "3 pl. pres. caus. √spṛh",
+  "new": "3 pl. pres. (class 10) √spṛh",
+  "why": "reviewer (minor): spṛhayati is a class-10 present, not a causative; 'caus.' is a wrong label."
+ },
+ {
+  "n": "721",
+  "field": "notes",
+  "old": "sunvantam is 'the one who presses'; the text names no object. pramāda can also mean 'exhilaration' or 'carelessness'; the neutral 'heedlessness' is used. The reading is close to the Ṛgveda parallel (8.2.18).",
+  "new": "sunvantam is 'the one who presses'; the text names no object. pramāda can also mean 'exhilaration' or 'carelessness'; the neutral 'heedlessness' is used.",
+  "why": "reviewer (minor): Other-book import."
+ },
+ {
+  "n": "723",
+  "field": "english",
+  "old": "In whom all splendours and the seven assemblies rejoice, Indra we call at the pressing.",
+  "new": "In whom all splendours, the seven assemblies, rejoice, Indra we call at the pressing.",
+  "why": "reviewer (minor): 'and' is supplied; the text has two subjects without a conjunction."
+ },
+ {
+  "n": "723",
+  "field": "hindi",
+  "old": "जिसमें सब शोभाएँ और सात सभाएँ आनन्दित होती हैं, उस इन्द्र को हम सवन में बुलाते हैं।",
+  "new": "जिसमें सब शोभाएँ, सात सभाएँ आनन्दित होती हैं, उस इन्द्र को हम सवन में बुलाते हैं।",
+  "why": "reviewer (minor): Same supplied 'और'."
+ },
+ {
+  "n": "725",
+  "field": "word.gloss",
+  "word": "īm",
+  "old": "to it",
+  "new": "it (or particle)",
+  "why": "reviewer (minor): Gloss 'to it' and gram '(particle)' disagree: īm is either the pronoun 'it/him' (acc.) or a particle; the label must say which."
+ },
+ {
+  "n": "725",
+  "field": "word.gram",
+  "word": "īm",
+  "old": "ind. (particle)",
+  "new": "pron. acc. sg. (or particle)",
+  "why": "reviewer (minor): Gloss 'to it' and gram '(particle)' disagree: īm is either the pronoun 'it/him' (acc.) or a particle; the label must say which."
+ },
+ {
+  "n": "726",
+  "field": "word.gram",
+  "word": "śāci-pūjanāya",
+  "old": "perhaps dat. sg. (uncertain, see text_flags)",
+  "new": "uncertain; printed with anusvāra (m), so not simply a dative",
+  "why": "reviewer (minor): The printed token is śācipūjanāya~ = śācipūjanāyam (~ is the anusvāra). The draft drops the m from w and then treats the m as a typo; the word should be kept as printed."
+ },
+ {
+  "n": "726",
+  "field": "word.w",
+  "word": "śāci-pūjanāya",
+  "old": "śāci-pūjanāya",
+  "new": "śāci-pūjanāyam",
+  "why": "reviewer (minor): The printed token is śācipūjanāya~ = śācipūjanāyam (~ is the anusvāra). The draft drops the m from w and then treats the m as a typo; the word should be kept as printed."
+ },
+ {
+  "n": "726",
+  "field": "text_flags",
+  "old": [
+   {
+    "src": "śācipūjanāya~",
+    "suggest": "śācipūjanāya",
+    "why": "possible: a dative without the final anusvāra; the printed ~ (m) is unexplained"
+   }
+  ],
+  "new": [],
+  "why": "reviewer (minor): The flag proposes dropping the m, which is an invented variant (the ~ is the printed anusvāra); the doubt belongs in notes only."
+ },
+ {
+  "n": "726",
+  "field": "notes",
+  "old": "Unclear. śācigo and śācipūjanāya cannot be read securely (śāci 'mighty, capable', go 'cow, ox', pūjana 'honouring'); the printed ~ after śācipūjanāya (an anusvāra) does not suit a dative. raṇāya te sutaḥ is 'pressed for delight, for you'; ākhaṇḍala pra hūyase is 'O Ākhaṇḍala, you are called forth'. Ākhaṇḍala is kept as a vocative name or epithet. The unclear words are omitted in the Hindi.",
+  "new": "Unclear. śācigo and śācipūjanāya cannot be read securely (śāci 'mighty, capable', go 'cow, ox', pūjana 'honouring'); the printed ~ after śācipūjanāya is an anusvāra (m), so the word is read as printed, śācipūjanāyam; its sense stays unclear. raṇāya te sutaḥ is 'pressed for delight, for you'; ākhaṇḍala pra hūyase is 'O Ākhaṇḍala, you are called forth'. Ākhaṇḍala is kept as a vocative name or epithet. The unclear words are omitted in the Hindi.",
+  "why": "reviewer (minor): The flag proposes dropping the m, which is an invented variant (the ~ is the printed anusvāra); the doubt belongs in notes only."
+ },
+ {
+  "n": "726",
+  "field": "hindi",
+  "old": "तुम्हारे लिए आनन्द के लिए निचोड़ा हुआ है। हे आखण्डल, तुम्हें बुलाया जाता है।",
+  "new": "तुम्हारे लिए आनन्द के लिए निचोड़ा हुआ है। हे आखण्डल, तुम्हें आगे बुलाया जाता है।",
+  "why": "reviewer (minor): English has 'invoked forth' (pra), Hindi drops pra; translations must agree."
+ },
+ {
+  "n": "727",
+  "field": "word.w",
+  "word": "pra-napāt",
+  "old": "pra-napāt",
+  "new": "pra-ṇapāt",
+  "why": "reviewer (error): praṇapāt is printed with ṇ, and ṇ is regular inside the word (r in pra); the draft's w 'pra-napāt' and its flag suggestion 'pra-napāt' wrongly 'correct' a correct form. Only the first ṇapāt (after śṛṅgavṛṣo) is doubtful."
+ },
+ {
+  "n": "727",
+  "field": "text_flags",
+  "old": [
+   {
+    "src": "ṇapātpraṇapātkuṇḍapāyyaḥ",
+    "suggest": "napāt pra-napāt kuṇḍa-pāyyaḥ",
+    "why": "possible: the first napāt is printed with retroflex ṇ, which has no cause here; the word is napāt 'grandson'"
+   }
+  ],
+  "new": [
+   {
+    "src": "ṇapātpraṇapātkuṇḍapāyyaḥ",
+    "suggest": "napātpraṇapātkuṇḍapāyyaḥ",
+    "why": "possible: the first napāt is printed with retroflex ṇ, which has no cause across the word boundary after śṛṅgavṛṣo; the ṇ of praṇapāt is regular"
+   }
+  ],
+  "why": "reviewer (error): Suggestion must change only the first ṇapāt."
+ },
+ {
+  "n": "727",
+  "field": "notes",
+  "old": "Unclear. The first line is read word by word: yaḥ te 'who, your', śṛṅga-vṛṣaḥ 'horned bull' (or a name), napāt 'grandson', pra-napāt 'great-grandson', kuṇḍa-pāyyaḥ (a name or epithet, uncertain). The second line ni asmin dadhra ā manaḥ ('down, in this, [dadhra], mind') cannot be read securely and is left [unclear] in English and omitted in the Hindi. The printed ṇ in ṇapāt has no sandhi cause across a word boundary.",
+  "new": "Unclear. The first line is read word by word: yaḥ te 'who, your', śṛṅga-vṛṣaḥ 'horned bull' (or a name), napāt 'grandson', pra-ṇapāt 'great-grandson', kuṇḍa-pāyyaḥ (a name or epithet, uncertain). The second line ni asmin dadhra ā manaḥ ('down, in this, [dadhra], mind') cannot be read securely and is left [unclear] in English and omitted in the Hindi. The printed ṇ in ṇapāt has no sandhi cause across a word boundary.",
+  "why": "reviewer (error): Suggestion must change only the first ṇapāt."
+ },
+ {
+  "n": "727",
+  "field": "hindi",
+  "old": "जो तुम्हारा सींग वाला बैल, नाती और परनाती कुण्डपाय्य है।",
+  "new": "जो तुम्हारा सींग वाला बैल, पौत्र, प्रपौत्र कुण्डपाय्य है।",
+  "why": "reviewer (minor): नाती is specifically a daughter's son; napāt is a general 'grandson'."
+ },
+ {
+  "n": "728",
+  "field": "word.gram",
+  "word": "mahā-hastī",
+  "old": "m. voc. sg., bahuvrīhi (see text_flags)",
+  "new": "m. nom. sg., bahuvrīhi (read in apposition as 'O great-handed one'; the vocative would be mahāhastin; see text_flags)",
+  "why": "reviewer (minor): mahāhastī is a nominative (hastin, nom. hastī), not a vocative; the vocative would be hastin. The note states the wrong alternatives (mahāhasta)."
+ },
+ {
+  "n": "728",
+  "field": "notes",
+  "old": "kṣumantam is uncertain ('rich in food' or 'renowned'); grābha 'handful, grasp'. mahāhasti is printed with short final i, vocative of mahā-hastin would be mahāhastin or mahāhasta; read as 'great-handed one'. na is naḥ ('for us').",
+  "new": "kṣumantam is uncertain ('rich in food' or 'renowned'); grābha 'handful, grasp'. mahāhasti is printed with short final i, the vocative of mahā-hastin would be mahāhastin; the printed short i is unexplained and the word is read as 'great-handed one'. na is naḥ ('for us').",
+  "why": "reviewer (minor): mahāhastī is a nominative (hastin, nom. hastī), not a vocative; the vocative would be hastin. The note states the wrong alternatives (mahāhasta)."
+ },
+ {
+  "n": "728",
+  "field": "text_flags.0.why",
+  "old": "possible: the Ṛgveda parallel is expected to read mahāhastī (nominative or vocative of mahā-hastin 'great-handed'); the short final i is unexplained",
+  "new": "possible: the long final ī (nominative of mahā-hastin 'great-handed') is expected; the printed short i is unexplained",
+  "why": "reviewer (minor): mahāhastī is a nominative (hastin, nom. hastī), not a vocative; the vocative would be hastin. The note states the wrong alternatives (mahāhasta)."
+ },
+ {
+  "n": "730",
+  "field": "english",
+  "old": "For neither gods nor mortals restrain you, O hero, when you wish to give, as one restrains a terrible bull.",
+  "new": "For neither gods nor mortals restrain you, O hero, you who wish to give, as one restrains a terrible bull.",
+  "why": "reviewer (minor): 'when' is added; ditsantam is an adjective agreeing with tvā (the Hindi is literal)."
+ },
+ {
+  "n": "734",
+  "field": "hindi",
+  "old": "हे वसु, यह निचोड़ा हुआ रस पियो, पेट को भली-भाँति भरते हुए; हे निर्भय, हमने तुम्हें दिया है।",
+  "new": "हे वसु, यह निचोड़ा हुआ रस पियो, भली-भाँति भरा हुआ पेट; हे निर्भय, हमने तुम्हें दिया है।",
+  "why": "reviewer (minor): Hindi has an active participle ('while filling'); the English and the Sanskrit (supūrṇam, adjective) give 'well filled'."
+ },
+ {
+  "n": "734",
+  "field": "word.gram",
+  "word": "su-pūrṇam",
+  "old": "n. acc. sg., tat-puruṣa",
+  "new": "n. acc. sg., su + pūrṇa (prefix compound)",
+  "why": "reviewer (minor): su + pūrṇa is a prefix compound (su-), not a tat-puruṣa."
+ },
+ {
+  "n": "735",
+  "field": "notes",
+  "old": "No subject is stated for the participles. avyā is taken as avya 'of sheep (fleece)' qualifying vāraiḥ (glossary: avya = sheep's fleece); the ending is irregular (expected avyaiḥ or a compound avya-vāraiḥ). dhautaḥ is as printed (a Ṛgveda parallel may read dhūtaḥ).",
+  "new": "No subject is stated for the participles. avyā is taken as avya 'of sheep (fleece)' qualifying vāraiḥ (glossary: avya = sheep's fleece); the ending is irregular (expected avyaiḥ or a compound avya-vāraiḥ). dhautaḥ is as printed.",
+  "why": "reviewer (minor): Other-book import."
+ },
+ {
+  "n": "739",
+  "field": "word.gloss",
+  "word": "kukṣyoḥ",
+  "old": "of the two bellies",
+  "new": "in the two bellies",
+  "why": "reviewer (minor): kukṣi is masculine; the dual -yoḥ is genitive or locative. Gloss 'of the two bellies' does not match the translation 'into the two bellies' (locative sense)."
+ },
+ {
+  "n": "739",
+  "field": "word.gram",
+  "word": "kukṣyoḥ",
+  "old": "f. gen. du.",
+  "new": "m. loc. du. (or gen. du.)",
+  "why": "reviewer (minor): kukṣi is masculine; the dual -yoḥ is genitive or locative. Gloss 'of the two bellies' does not match the translation 'into the two bellies' (locative sense)."
+ },
+ {
+  "n": "739",
+  "field": "notes",
+  "old": "No subject is stated for aśnotu; the English [it] only reflects the singular verb. The two prepositional 'into' phrases are the natural reading of the repeated pra, but the accusatives śiraḥ and bāhū are bare in the text. kukṣyoḥ is dual: 'of the two bellies'.",
+  "new": "No subject is stated for aśnotu; the English [it] only reflects the singular verb. The two prepositional 'into' phrases are the natural reading of the repeated pra, but the accusatives śiraḥ and bāhū are bare in the text. kukṣyoḥ is dual (locative or genitive): 'in / of the two bellies'.",
+  "why": "reviewer (minor): kukṣi is masculine; the dual -yoḥ is genitive or locative. Gloss 'of the two bellies' does not match the translation 'into the two bellies' (locative sense)."
+ },
+ {
+  "n": "740",
+  "field": "text_flags",
+  "old": [
+   {
+    "src": "sakhāya",
+    "suggest": "sakhāyaḥ",
+    "why": "possible: visarga missing before the following s of stomavāhasaḥ; read as sakhāyaḥ (voc. pl.)"
+   }
+  ],
+  "new": [],
+  "why": "reviewer (minor): Not a typo: visarga before a following s is regularly dropped in Vedic sandhi (sakhāya stomavāhasaḥ). The flag says 'unexplained' and invents a correction; w already has the dictionary form."
+ },
+ {
+  "n": "740",
+  "field": "word.gram",
+  "word": "sakhāyaḥ",
+  "old": "m. voc. pl. (see text_flags)",
+  "new": "m. voc. pl. (printed sakhāya, visarga dropped before s)",
+  "why": "reviewer (minor): Not a typo: visarga before a following s is regularly dropped in Vedic sandhi (sakhāya stomavāhasaḥ). The flag says 'unexplained' and invents a correction; w already has the dictionary form."
+ },
+ {
+  "n": "740",
+  "field": "notes",
+  "old": "Same words as Ṛgveda 1.5.1. ṣīdata is sīdata after ni (ṣ by sandhi). The ending of sakhāya without visarga is unexplained before s.",
+  "new": "ṣīdata is sīdata after ni (ṣ by sandhi). sakhāya stands for sakhāyaḥ, the visarga being dropped before s.",
+  "why": "reviewer (minor): Not a typo: visarga before a following s is regularly dropped in Vedic sandhi (sakhāya stomavāhasaḥ). The flag says 'unexplained' and invents a correction; w already has the dictionary form."
+ },
+ {
+  "n": "741",
+  "field": "notes",
+  "old": "The sentence continues from the previous unit and has no verb here (Ṛgveda 1.5.4, 'sing'). purūtamam is kept whole (not split at -tama). sacā 'together' is taken with sute.",
+  "new": "The sentence continues from the previous unit and has no verb here. purūtamam is kept whole (not split at -tama). sacā 'together' is taken with sute.",
+  "why": "reviewer (minor): Imports a verb from another text; the unit has none."
+ },
+ {
+  "n": "742",
+  "field": "notes",
+  "old": "yoga is yoge ('at the yoking', the sense is taken from the Ṛgveda parallel 1.5.3). The referent of saḥ is not stated (the sentence follows 741). The final sa naḥ repeats 'he, to us'.",
+  "new": "yoga is yoge ('at the yoking'). The referent of saḥ is not stated (the sentence follows 741). The final sa naḥ repeats 'he, to us'.",
+  "why": "reviewer (minor): A reading justified from another text."
+ },
+ {
+  "n": "743",
+  "field": "english",
+  "old": "We friends call Indra, the very strong, at every yoking and at every prize, for help.",
+  "new": "We friends call Indra, the very strong, at every yoking, at every prize, for help.",
+  "why": "reviewer (minor): 'and' is supplied; Hindi has none."
+ },
+ {
+  "n": "743",
+  "field": "notes",
+  "old": "Same words as Ṛgveda 1.30.7. yoge-yoge and vāje-vāje are repetitions meaning 'at each'; tavastaram is kept whole.",
+  "new": "yoge-yoge and vāje-vāje are repetitions meaning 'at each'; tavastaram is kept whole.",
+  "why": "reviewer (minor): Other-book import."
+ }
+]
